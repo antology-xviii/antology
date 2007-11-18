@@ -1,0 +1,343 @@
+<!DOCTYPE style-sheet PUBLIC "-//James Clark//DTD DSSSL Style Sheet//EN">
+<style-sheet>
+<style-specification>
+<style-specification-body>
+
+<![CDATA[
+(declare-flow-object-class element "UNREGISTERED::James Clark//Flow Object Class::element")
+(declare-flow-object-class empty-element "UNREGISTERED::James Clark//Flow Object Class::empty-element")
+(declare-flow-object-class document-type "UNREGISTERED::James Clark//Flow Object Class::document-type")
+
+(define all-element-number
+  (external-procedure "UNREGISTERED::James Clark//Procedure::all-element-number"))
+(define language
+  (external-procedure "UNREGISTERED::OpenJade//Procedure::language"))
+
+(declare-default-language (language "ru" "ru.koi8-r"))
+
+(element tei.2 (make sequence
+                 (make document-type
+                   name: "html"
+                   public-id: "-//W3C//DTD HTML 4.01 Transitional//EN")
+                 (make element gi: "html"
+                       (make element gi: "head"
+                             (with-mode header 
+                               (process-first-descendant 'teiHeader)))
+                       (make element gi: "body"                            
+                             (process-children)
+                             (with-mode footer
+                               (make sequence
+                                 (ruled
+                                  (process-node-list (q-element 'note)))
+                                 (ruled
+                                  (make sequence
+                                    (process-node-list (q-element 'span))
+                                    (with-mode metrical
+                                      (process-first-descendant 'text))))
+                                 (process-first-descendant 'teiHeader)))))))
+
+(define (meta-tag name) (make empty-element gi: "meta"
+                              attributes: `(("name" ,name)
+                                            ("content" ,(data (current-node))))))
+
+(define (paragraph #!optional (contents (empty-sosofo))) (make element gi: "p"
+                                                               contents))
+
+(define (centered #!optional (contents (process-children))) 
+  (make element gi: "p"
+        attributes: '(("align" "center"))
+        contents))
+
+(define (division #!optional (contents (process-children)))
+  (anchored #f #f (make element gi: "div"
+                        contents)))
+
+(define (ruled #!optional (contents (process-children))) (make sequence
+                  (make empty-element gi: "hr")
+                  (paragraph)
+                  contents))
+(define (space-after #!optional (contents (process-children)))
+  (make sequence
+    contents
+    (literal " ")))
+
+(define (anchored generate embed #!optional (contents (process-children)))
+  (let* ((expid (id (current-node)))
+         (realid (cond
+                  (expid (string-append "id." expid))
+                  (generate (string-append generate (number->string (all-element-number))))
+                  (else #f))))
+    (cond
+     ((not realid) contents)
+     (embed (make element gi: "a"
+                  attributes: `(("name" ,realid))
+                  contents))
+     (else (make sequence 
+             (make element gi: "a"
+                   attributes: `(("name" ,realid))
+                   (empty-sosofo))
+             contents)))))
+
+(define (header level)
+  (paragraph 
+   (make element gi: (string-append "h" (number->string level)))))
+
+(define (emphstr s) (make element gi: "em"
+                          (literal s)))
+
+(define (string-skip-until s c) 
+  (let ((len (string-length s)))
+    (let loop ((idx 0))
+      (cond 
+       ((= len idx) "")
+       ((char=? (string-ref s idx) c) (substring s (+ idx 1) len))
+       (else (loop (+ 1 idx)))))))
+
+(define (fsid->url fsid) (cond 
+                          ((string-ci=? (substring fsid 0 4) "<url") (string-skip-until fsid #\>))
+                          ((string-ci=? (substring fsid 0 7) "<osfile")
+                           (string-skip-until fsid #\>))
+                          (else fsid)))
+
+(mode header
+  (element teiHeader (process-children))
+  (element fileDesc (process-children))
+  (element titleStmt (make sequence
+                       (make element gi: "title"
+                             (process-first-descendant 'author)
+                             (process-first-descendant 'title))
+                       (process-first-descendant 'principal)))
+  (element author (make sequence
+                    (process-children-trim)
+                    (literal ". ")))
+  (element persName (process-children-trim))
+  (element forename (literal (substring (data (current-node)) 0 1) ". "))
+  (element surname (literal (data (current-node))))
+  (element title (process-children))
+  (element publicationStmt (process-children))
+  (element principal (meta-tag "DC.creator"))
+  (element publisher (meta-tag "DC.publisher"))
+  (element distributor (meta-tag "DC.distributor"))
+  (element availability (meta-tag "DC.rights"))
+  (element p (process-children))
+  (element name (process-children))
+  (default (empty-sosofo)))
+
+(define (show-metrical c) (let ((met (attribute-string "met"))
+                              (rhyme (attribute-string "rhyme")))
+                          (if (and (not met) (not rhyme))
+                              (if c (process-children) (empty-sosofo))
+                              (make sequence
+                                (if met
+                                    (paragraph
+                                     (make sequence
+                                       (emphstr "Размер: ")
+                                       (literal met)
+                                       (if c (process-children) (empty-sosofo))))
+                                    (empty-sosofo))
+                                (if rhyme
+                                    (paragraph
+                                     (make sequence
+                                       (emphstr "Схема рифмовки: ")
+                                       (literal rhyme)
+                                       (if c (process-children) (empty-sosofo))))
+                                    (empty-sosofo))))))
+
+(mode metrical
+  (element div0 (show-metrical #t))
+  (element lg (show-metrical #t))
+  (element lg1 (show-metrical #t))
+  (element lg2 (show-metrical #t))
+  (element l (show-metrical #f))
+  (element text (process-children))
+  (element body (process-children))
+  (default (empty-sosofo)))
+
+(mode footer
+  (element teiHeader (ruled
+                      (make sequence
+                        (process-matching-children 'profileDesc)
+                        (process-matching-children 'fileDesc))))
+  (element fileDesc (make sequence
+                      (process-matching-children 'sourceDesc)
+                      (process-matching-children 'publicationStmt 'notesStmt 'seriesStmt)                     
+                      (process-first-descendant 'principal)))
+  (element profileDesc (process-children))
+  (element creation (process-children))
+  (element (creation date) (make sequence
+                             (emphstr "Год написания: ")
+                             (process-children)))
+  (element (sourceDesc biblFull sourceDesc)  (paragraph (make sequence
+                                                          (emphstr "Первая публикация: ")
+                                                          (process-children))))
+  (element sourceDesc (paragraph (make sequence
+                                    (emphstr "Цит. по: ")
+                                    (process-children))))
+  (element titleStmt (process-children))
+  (element pubPlace (process-children))
+  (element biblFull (process-children))
+  (element publicationStmt (process-children))
+  (element notesStmt (process-children))
+  (element (notesStmt note) (process-children))
+  (element (biblFull publicationStmt) 
+    (make sequence
+      (process-matching-children 'pubPlace)
+      (process-matching-children 'publisher)
+      (process-matching-children 'date)
+      (process-matching-children 'distributor)))
+  (element publisher (paragraph (process-children)))
+  (element (biblFull publicationStmt publisher) (make sequence
+                                                  (process-children)
+                                                  (literal ", ")))
+  (element (biblFull publicationStmt pubPlace) (make sequence
+                                                 (process-children)
+                                                 (literal ", ")))
+  (element distributor (make sequence
+                         (literal "(")
+                         (process-children)
+                         (literal ")")))
+  (element editor (make sequence
+                    (literal "(ред. ")
+                    (process-children)
+                    (literal ")")))
+  (element availability (process-children))
+  (element (biblFull seriesStmt) (make sequence 
+                                   (literal " // ")
+                                   (process-children)))
+  (element seriesStmt (paragraph (process-children)))
+  (element title (make sequence 
+                   (process-children)
+                   (literal ". ")))
+  (element principal (paragraph
+                      (make sequence
+                        (emphstr "Ответственный за разметку: ")
+                        (process-children))))
+  (element note (if (have-ancestor? "teiHeader")
+                    (empty-sosofo)
+                    (paragraph
+                     (make sequence
+                       (let ((nid (number->string (element-number))))
+                         (make element 
+                           gi: "sup"
+                           (make element gi: "a"
+                                 attributes: `(("name" ,(string-append "note." nid))
+                                               ("href" ,(string-append "#anchor." nid)))
+                                 (literal nid))))
+                       (process-children)
+                       (case (attribute-string "resp")
+                         (("editor") (emphstr " (прим. ред.)"))
+                         (("author") (emphstr " (прим. автора)"))
+                         (else (empty-sosofo)))))))
+  (element textClass (process-children))
+  (element catRef (if (string=? (attribute-string "scheme") "KIND")
+                      (paragraph
+                       (make sequence
+                         (emphstr "Литературный род: ")
+                         (process-element-with-id (attribute-string "target"))))
+                      (empty-sosofo)))
+  (element span (case (attribute-string "type")
+                  (("theme") (paragraph 
+                             (make sequence
+                              (emphstr "Тема: ")
+                              (literal (attribute-string "value")))))
+                  (("addressee") (paragraph 
+                                 (make sequence
+                                   (emphstr "Адресат: ")
+                                   (literal (attribute-string "value")))))
+                  (else (empty-sosofo))))
+  (element category (process-children))
+  (element catDesc (process-children))
+  (element name (process-children)))
+
+(element teiHeader (make sequence 
+                     (process-first-descendant 'fileDesc)))
+(element fileDesc (process-first-descendant 'titleStmt))
+(element titleStmt (make sequence
+                     (process-matching-children 'author)
+                     (process-matching-children 'title)))
+(element author (paragraph
+                 (make element gi: "emph")))
+(element (author persName) (process-children))
+(element forename (space-after))
+(element surname (space-after))
+(element title (header 1))
+(element div0 (division))
+(element div1 (division))
+(element div2 (division))
+(element div3 (division))
+(element (div0 head) (header 1))
+(element (div1 head) (header 2))
+(element (div2 head) (header 3))
+(element (div3 head) (header 4))
+(element text (anchored #f #f (ruled)))
+(element front (process-children))
+(element body (anchored #f #f (ruled)))
+(element name (anchored "name" #t)) 
+
+(element lg1 (make element gi: "blockquote"))
+(element l (make sequence
+             (process-children)
+             (make empty-element gi: "br")))
+(element p (make element))
+(element q (make sequence
+             (literal "\"")
+             (process-children)
+             (literal "\"")))
+(element (q lg) (make element gi: "blockquote"
+                              (make sequence
+                                (literal "\"")
+                                (process-children)
+                                (literal "\""))))
+(element sp (make element gi: "p"))
+(element speaker (make element gi: "strong"))
+(element stage (case (attribute-string "type")
+                 (("delivery") (make element gi: "emph"))
+                 (else (centered))))
+(element move (empty-sosofo))
+(element castList (make sequence
+                    (process-first-descendant 'head)
+                    (make element gi: "ul"
+                          (process-matching-children 'castItem))))
+(element (castList head) (header 2))
+(element castItem (make element gi: "li"))
+(element role (space-after (make element gi: "strong")))
+(element roleDesc (process-children))
+(element set (centered))
+(element performance (centered))
+(element dateline (make element gi: "p"
+                        attributes: '(("align" "right"))
+                        (make element gi: "em")))
+
+(element xref (make element gi: "a"
+                    attributes: `(("href" ,(fsid->url (entity-generated-system-id (attribute-string "doc")))))))
+(element figure (make element gi: "table"
+                      attributes: '(("border" "1") ("width" "80%"))
+                      (make element gi: "tr"
+                            (make element gi: "td"
+                                  (make empty-element gi: "img"
+                                        attributes: 
+                                        `(("width" "100%")
+                                          ("src" ,(fsid->url 
+                                                   (entity-generated-system-id 
+                                                    (attribute-string "entity"))))))))
+                      (make element gi: "caption")))
+(element (figure head) (process-children))
+(element date (process-children))
+(element span (process-children))
+(element emph (make element))
+(element ref (process-children))
+(element back (process-children))
+(element trailer (process-children))
+(element note (let ((nid (number->string (element-number))))
+                (make element 
+                  gi: "sup"
+                  (make element gi: "a"
+                        attributes: `(("name" ,(string-append "anchor." nid))
+                                      ("href" ,(string-append "#note." nid)))
+                        (literal nid)))))
+(default (node-list-error (string-append "Unknown element " (gi (current-node))) (current-node)))
+
+]]>
+</style-specification-body>
+</style-specification>
+</style-sheet>

@@ -1,0 +1,60 @@
+<encodingDesc>
+<classDecl>
+  <taxonomy id="kind">
+    <category id="verse"><catDesc>лирика</catDesc></category>
+    <category id="drama"><catDesc>драма</catDesc></category>
+    <category id="prose"><catDesc>проза</catDesc></category>
+    <category id="letters"><catDesc>письма</catDesc></category>
+    <category id="memoirs"><catDesc>мемуары</catDesc></category>
+    <category id="publicisticWriting"><catDesc>публицистика</catDesc></category>
+    <category id="science"><catDesc>теоретические сочинения</catDesc></category>
+  </taxonomy>
+</classDecl>
+<metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))[4-8]+|Рк|Гк|Эд|Пт)(ц.[пн].[12])?'>
+  <symbol value='Х'>хорей</symbol>
+  <symbol value='Я'>ямб</symbol>
+  <symbol value='Д'>дактиль</symbol>
+  <symbol value='Ам'>амфибрахий</symbol>
+  <symbol value='Ан'>анапест</symbol>
+  <symbol value='Дк'>дольник</symbol>
+  <symbol value='T'>тактовик</symbol>
+  <symbol value='ПнI'>пеон I</symbol>
+  <symbol value='ПнII'>пеон II</symbol>
+  <symbol value='ПнIII'>пеон III</symbol>
+  <symbol value='ПнIV'>пеон IV</symbol>
+  <symbol value='Рк'>раешник</symbol>
+  <symbol value='Гк'>гекзаметр</symbol>
+  <symbol value='Эд'>элегический дистих</symbol>
+  <symbol value='Пт'>пентаметр</symbol>
+  <symbol value='4'>четырехстопный</symbol>
+  <symbol value='5'>пятистопный</symbol>
+  <symbol value='6'>шестистопный</symbol>
+  <symbol value='7'>семистопный</symbol>
+  <symbol value='8'>восьмистопный</symbol>
+  <symbol value='ц.н.1'>с цезурным наращением на один слог</symbol>
+  <symbol value='ц.н.2'>с цезурным наращением на два слога</symbol>
+  <symbol value='ц.у.1'>с цезурным усечением на один слог</symbol>
+  <symbol value='ц.у.2'>с цезурным усечением на два слога</symbol>
+</metDecl>
+<metDecl type='rhyme' pattern="([abcdxABCDX]'?'?)+\.?">
+  <symbol value="a">рифмованный стих с мужским окончанием</symbol>
+  <symbol value="A">рифмованный стих с женским окончанием</symbol>
+  <symbol value="A'">рифмованный стих с дактилическим окончанием</symbol>
+  <symbol value="A''">рифмованный стих с гипердактилическим окончанием</symbol>
+  <symbol value="b">рифмованный стих с мужским окончанием</symbol>
+  <symbol value="B">рифмованный стих с женским окончанием</symbol>
+  <symbol value="b'">рифмованный стих с дактилическим окончанием</symbol>
+  <symbol value="B''">рифмованный стих с гипердактилическим окончанием</symbol>
+  <symbol value="c">рифмованный стих с мужским окончанием</symbol>
+  <symbol value="C">рифмованный стих с женским окончанием</symbol>
+  <symbol value="C'">рифмованный стих с дактилическим окончанием</symbol>
+  <symbol value="C''">рифмованный стих с гипердактилическим окончанием</symbol>
+  <symbol value="d">рифмованный стих с мужским окончанием</symbol>
+  <symbol value="D">рифмованный стих с женским окончанием</symbol>
+  <symbol value="D'">рифмованный стих с дактилическим окончанием</symbol>
+  <symbol value="D''">рифмованный стих с гипердактилическим окончанием</symbol>
+  <symbol value="x">нерифмованный стих с мужским окончанием</symbol>
+  <symbol value="X">нерифмованный стих с женским окончанием</symbol>
+  <symbol value="X'">нерифмованный стих с дактилическим окончанием</symbol>
+</metDecl>
+</encodingDesc>
