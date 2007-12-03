@@ -1,0 +1,555 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	 <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	 <!NOTATION JPEG PUBLIC   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN' >
+	 <!NOTATION MP3 SYSTEM "MP3">
+   %ISOnum;
+   %ISOpub;
+   %ISOcyr1;
+   <!ENTITY % TEI.drama "INCLUDE" >
+   <!ENTITY % TEI.names.dates "INCLUDE" >
+   <!ENTITY % TEI.analysis "INCLUDE">
+   <!ENTITY % TEI.linking "INCLUDE">
+   <!ENTITY % TEI.figures "INCLUDE">
+   <!ENTITY Encoding SYSTEM "encoding.tei">
+   <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+   <!ENTITY fig1 SYSTEM "picts/fonvizin1.jpg" NDATA JPEG>
+   <!ENTITY fig2 SYSTEM "picts/nedorosl.jpg" NDATA JPEG>
+   <!ENTITY lecture1 SYSTEM "audio/fonvizin.mp3" NDATA MP3>
+]>
+
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Недоросль. Комедия в пяти действиях</title>
+        <author>
+          <persName>
+            <forename>Денис</forename>
+            <forename type='patronym'>Иванович</forename>
+            <surname>Фонвизин</surname>
+          </persName>
+        </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+        <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title id="title1">Д. И. Фонвизин. Собрание сочинений в
+двух томах</title>
+              <editor> Г. П. Макогоненко </editor>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Государственное издательство художественной
+литературы</publisher>
+                <pubPlace>Москва-Ленинград</pubPlace>
+                <distributor><xref doc="rvb" to="ROOT">Русская виртуальная
+библиотека</xref></distributor>
+                <date>1959</date>
+              </publicationStmt>
+              <notesStmt>
+                <note><ref>т. 1</ref></note>
+              </notesStmt>
+            </biblFull>
+          </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date certainty="ca">1781</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="drama">
+        <!-- <catRef scheme="genre" target="comedy"> -->
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+      <span from='whole' type='theme' value='просвещение'>
+      <span from='whole' type='theme' value='образование'>
+    <front>
+	  <figure entity="fig2"><head>титульный лист 1783</figure>
+      <performance><p><date>1782</date></performance>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem><role id="Prostakov">Простаков</role>.
+        <castItem><role id="Prostakova">Г-жа Простакова</role>,
+<roleDesc>жена его</roleDesc>.
+        <castItem><role id="Mitrofan">Простаков</role>, <roleDesc>сын их,
+недоросль</roleDesc>.
+        <castItem><role id="Eremeevna">Еремеевна</role>, <roleDesc>мама
+Митрофанова</roleDesc>.
+        <castItem><role id="Pravdin">Правдин</role>.
+        <castItem><role id="Starodum">Стародум</role>.
+        <castItem><role id="Sofja">Софья</role>, <roleDesc>племянница
+Стародума</roleDesc>.
+        <castItem><role id="Milon">Милон</role>.
+        <castItem><role id="Skotinin">Скотинин</role>, <roleDesc>брат г-жи
+Простаковой</roleDesc>.
+        <castItem><role id="Kuteikin">Кутейкин</role>,
+<roleDesc>семинарист</roleDesc>.
+        <castItem><role id="Cyfirkin">Цыфиркин</role>, <roleDesc>отставной
+сержант</roleDesc>.
+        <castItem><role id="Vralman">Вральман</role>,
+<roleDesc>учитель</roleDesc>.
+        <castItem><role id="Trishka">Тришка</role>,
+<roleDesc>портной</roleDesc>.
+        <castItem><role id="Sluga">Слуга Простакова</role>.
+        <castItem><role id="Kamerdiner">Камердинер Стародума</role>.
+      </castList>
+      <set><p>Действие в деревне Простаковых</set>
+    </front>
+    <body id="whole">
+      <div1 type="act">
+        <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
+        <div2 type="scene">
+          <head>ЯВЛЕНИЕ I</head>
+          <stage type="setting">Г-жа Простакова, Митрофан,
+Еремеевна.</stage>
+          <sp who="Prostakova"><speaker>Г-жа Простакова</speaker>
+            <stage type="delivery">(осматривая кафтан на Митрофане)</>
+            <p>
+              Кафтан весь испорчен. Еремеевна, введи сюда мошенника Тришку.
+
+              <stage type="exit"><move who="Eremeevna"
+type="exit">(Еремеевна отходит.)</stage>
+              Он, вор, везде его обузил. Митрофанушка, друг мой! Я чаю,
+тебя жмет до смерти. Позови сюда отца.
+              <stage type="exit"><move who="Mitrofan" type="exit">Митрофан
+отходит.</stage>
+        </div2>
+        <div2 type="scene">
+          <head>ЯВЛЕНИЕ II</head>
+          <stage type="setting">Г-жа Простакова, Еремеевна, Тришка.</stage>
+          <sp who="Prostakova"><speaker>Г-жа Простакова</speaker> <stage
+type="delivery">(Тришке).</stage>
+            <p>
+              А ты, скот, подойди поближе. Не говорила ль я тебе, воровская
+харя, чтоб ты кафтан пустил шире.
+              Дитя, первое, растет; другое, дитя и без узкого кафтана
+деликатного сложения.
+              Скажи, болван, чем ты оправдаешься?
+          <sp who="Trishka"><speaker>Тришка.</speaker>
+            <p>
+              Да ведь я, сударыня, учился самоучкой.
+              Я тогда же вам докладывал: ну, да извольте отдавать портному.
+          <sp who="Prostakova"><speaker>Г-жа Простакова.</speaker>
+            <p>
+              Так разве необходимо надобно быть портным, чтобы уметь сшить
+кафтан хорошенько.
+              Экое скотское рассуждение!
+          <sp who="Trishka"><speaker>Тришка.</speaker>
+            <p>
+              Да вить портной-то учился, сударыня, а я нет.
+          <sp who="Prostakova"><speaker>Г-жа Простакова.</speaker>
+            <p>
+              Ища он же и спорит. Портной учился у другого, другой у
+третьего,
+              да первоет портной у кого же учился? Говори, скот.
+          <sp who="Trishka"><speaker>Тришка.</speaker>
+            <p>
+              Да первоет портной, может быть, шил хуже и моего.
+          <sp who="Mitrofan"><speaker>Митрофан</speaker>
+            <stage type="enter"><move who="Mitrofan"
+type="enter">(вбегает).</stage>
+            <p>
+              Звал батюшку. Изволил сказать: тотчас.
+          <sp who="Prostakova"><speaker>Г-жа Простакова.</speaker>
+            <p>
+              Так поди же вытащи его, коли добром не дозовешься.
+          <sp who="Mitrofan"><speaker>Митрофан.</speaker>
+            <p>
+             Да вот и батюшка.
+</div2>
+
+<div2 type="scene">
+
+
+<head>ЯВЛЕНИЕ III</head>
+
+<stage type="setting">Те же и Простаков. </stage>
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Что, что ты от меня прятаться изволишь? Вот, сударь, до чего я дожила с
+твоим потворством. Какова сыну обновка к дядину сговору? Каков кафтанец
+Тришка сшить изволил?
+<sp who="Prostakov"><speaker>Простаков </speaker> <stage type="delivery">
+(от робости запинаясь). </stage>
+<p> Me... мешковат немного.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Сам ты мешковат, умная голова.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Да я думал, матушка, что тебе так кажется.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>А ты сам разве ослеп?
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>При твоих глазах мои ничего не видят.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Вот каким муженьком наградил меня господь: не смыслит сам разобрать, что
+широко, что узко.
+<sp who="Prostakov"><speaker> Простаков. </speaker>
+<p>В этом я тебе, матушка, и верил и верю.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p> Так верь же и тому, что я холопям потакать не намерена. Поди, сударь, и
+теперь же накажи...
+</div2>
+<div2 type="scene">
+
+<head>ЯВЛЕНИЕ IV </head>
+
+<stage type="setting">Те же и Скотинин. </stage>
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Кого? За что? В день моего сговора! Я прошу тебя, сестрица, для такого
+праздника отложить наказание до завтрева; а завтра, коль изволишь, я и сам
+охотно помогу. Не будь я Тарас Скотинин, если у меня не всякая вина
+виновата. У меня в этом, сестрица, один обычай с тобою. Да за что ж ты так
+прогневалась?
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Да вот, братец, на твои глаза пошлюсь. Митрофанушка, подойди сюда.
+Мешковат ли этот кафтан?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Нет.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Да я и сам уже вижу, матушка, что он узок.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Я и этого не вижу. Кафтанец, брат, сшит изряднехонько.
+<sp who="Prostakova"><speaker>Г-жа Простакова </speaker> <stage
+type="delivery">( (Тришке).</stage>
+<p> Выйди вон, скот. <stage type="delivery"> (Еремеевне.) </stage> Поди ж,
+Еремеевна, дай позавтракать ребенку. Вить, я чаю, скоро и учители придут.
+<sp who="Eremeevna"><speaker>Еремеевна. </speaker>
+<p>Он уже и так, матушка, пять булочек скушать изволил.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Так тебе жаль шестой, бестия? Вот какое усердие! Изволь смотреть.
+<sp who="Eremeevna"><speaker>Еремеевна. </speaker>
+<p>Да во здравие, матушка. Я вить сказала это для Митрофана же
+Терентьевича. Протосковал до самого утра.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Ах, мати божия! Что с тобою сделалось, Митрофанушка?
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Так, матушка. Вчера после ужина схватило.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Да видно, брат, поужинал ты плотно.
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>А я, дядюшка, почти и вовсе не ужинал.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Помнится, друг мой, ты что-то скушать изволил.
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Да что! Солонины ломтика три, да подовых, не помню, пять, не помню,
+шесть.
+<sp who="Eremeevna"><speaker>Еремеевна. </speaker>
+<p>Ночью то и дело испить просил. Квасу целый кувшинец выкушать изволил.
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>И теперь как шальной хожу. Ночь всю така дрянь в глаза лезла.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Какая ж дрянь, Митрофанушка?
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Да то ты, матушка, то батюшка.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Как же это?
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Лишь стану засыпать, то и вижу, будто ты, матушка, изволишь бить
+батюшку.
+<sp who="Prostakov"><speaker>Простаков </speaker><stage type="delivery"> (в
+сторону). </stage>
+<p>Ну, беда моя! Сон в руку!
+<sp who="Mitrofan"><speaker>Митрофан </speaker><stage type="delivery">
+(разнежась).</stage>
+<p>Так мне и жаль стало.
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker> <stage
+type="delivery">  (с досадою). </stage>
+<p>Кого, Митрофанушка?
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Тебя, матушка: ты так устала, колотя батюшку.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Обойми меня, друг мой сердечный! Вот сынок, одно мое утешение.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Ну, Митрофанушка, ты, я вижу, матушкин сынок, а не батюшкин!
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>По крайней мере я люблю его, как надлежит родителю, то-то умное дитя, то-
+то разумное, забавник, затейник; иногда я от него вне себя и от радости сам
+истинно не верю, что он мой сын.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Только теперь забавник наш стоит что-то нахмурясь.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Уж не послать ли за доктором в город?
+<sp who="Mitrofan"><speaker>Митрофан. </speaker>
+<p>Нет, нет, матушка. Я уж лучше сам выздоровлю. Побегу-тка теперь на
+голубятню, так авось-либо...
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Так авось-либо господь милостив. Поди, порезвись, Митрофанушка.
+<stage type="exit"><move who="Mitrofan Eremeevna" type="exit">Митрофан с
+Еремеевною выходят.</stage>
+</div2>
+<div2 type="scene">
+
+<head>ЯВЛЕНИЕ V</head>
+
+ <stage type="setting">Г-жа Простакова, Простаков, Скотинин.</stage>
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Что ж я не вижу моей невесты? Где она? Ввечеру быть уже сговору, так не
+пора ли ей сказать, что выдают её замуж?
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Успеем, братец. Если ей это сказать прежде времени, то она может еще
+подумать, что мы ей докладываемся. Хотя по муже, однако я ей свойственница;
+а я люблю, чтоб и чужие меня слушали.
+<sp who="Prostakov"><speaker>Простаков</speaker><stage type="delivery">
+(Скотинину).</stage>
+<p>Правду сказать, мы поступили с Софьюшкой, как с сущею сироткой. После
+отца осталась они младенцем. Тому с полгода, как ее матушке, а моей
+сватьюшке, сделался удар...
+<sp who="Prostakova"><speaker>Г-жа Простакова </speaker><stage
+type="delivery"> (показывая, будто крестит сердце). </stage>
+<p>С нами сила крестная.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p> От которого она и на тот свет пошла. Дядюшка ее, господин Стародум,
+поехал в Сибирь; а как несколько уже лет не было о нем ни слуху, ни вести,
+то мы и считаем его покойником. Мы, видя, что она осталась одна, взяли ее в
+нашу деревеньку и надзираем над ее имением, как над своим.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Что, что ты сегодня так разоврался, мой батюшка? Ища братец может
+подумать, что мы для интересу ее к себе взяли.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Ну как, матушка, ему это подумать? Ведь Софьюшкино недвижимое имение нам
+к себе придвинуть не можно.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p> А движимое хотя и выдвинуто, я не челобитчик. Хлопотать я не люблю, да
+и боюсь. Сколько меня соседи ни обижали, сколько убытку ни делали, я ни на
+кого не бил челом, а всякий убыток, чем за ним ходить, сдеру с своих же
+крестьян, так и концы в воду.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>То правда, братец: весь околоток говорит, что ты мастерски оброк
+собираешь.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Хотя бы ты нас поучил, братец батюшка; а мы никак не умеем. С тех пор
+как все, что у крестьян ни было, мы отобрали, ничего уже содрать не можем.
+Такая беда!
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Изволь, сестрица, поучу вас, поучу, лишь жените меня на Софьюшке.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Неужели тебе эта девчонка так понравилась?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Нет, мне нравится не девчонка.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Так по соседству ее деревеньки?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>И не деревеньки, а то, что в деревеньках-то ее водится и до чего моя
+смертная охота.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>До чего же, братец?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Люблю свиней, сестрица, а у нас в околотке такие крупные свиньи, что нет
+из них ни одной, котора, став на задни ноги, не была бы выше каждого из нас
+целой головою.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Странное дело, братец, как родня на родню походить может. Митрофанушка
+наш весь в дядю. И он до свиней сызмала такой же охотник, как и ты. Как был
+еще трех лет, так, бывало, увидя свинку, задрожит от радости.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Это подлинно диковинка! Ну пусть, братец, Митрофан любит свиней для
+того, что он мой племянник. Тут есть какое-нибудь сходство; да отчего же я
+к свиньям-то так сильно пристрастился?
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>И тут есть же какое-нибудь сходство, я так рассуждаю.
+</div2>
+     <div2 type="scene">
+
+<head>ЯВЛЕНИЕ VI</head>
+
+<stage type="setting">Те же и Софья.</stage>
+<stage type="enter"><move who="Sofja" type="enter">Софья вошла, держа
+письмо в руке и имея веселый вид.</stage>
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker><stage
+type="delivery">  (Софье). </stage>
+<p>Что так весела, матушка? Чему обрадовалась?
+<sp who="Sofja"><speaker>Софья. </speaker>
+<p>Я получила сейчас радостное известно. Дядюшка, о котором столь долго мы
+ничего не знали, которого я люблю и почитаю, как отца моего, на сих днях в
+Москву приехал. Вот письмо, которое я от него теперь получила.
+<sp who="Prostakova"><speaker>Г-жа Простакова </speaker><stage
+type="delivery">  (испугавшись, с злобою). </stage>
+<p>Как! Стародум, твой дядюшка, жив! И ты изволишь затевать, что он
+воскрес! Вот изрядный вымысел!
+<sp who="Sofja"><speaker>Софья. </speaker>
+<p> Да он никогда не умирал.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Не умирал! А разве ему и умереть нельзя? Нет, сударыня, это твои
+вымыслы, чтоб дядюшкою своим нас застращать, чтоб мы дали тебе волю.
+Дядюшка-де человек умный; он, увидя меня в чужих руках, найдет способ меня
+выручить. Вот чему ты рада, сударыня; однако, пожалуй, не очень веселись:
+дядюшка твой, конечно, не воскресал.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Сестра, ну да коли он не умирал?
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p> Избави боже, коли он не умирал!
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker><stage
+type="delivery">  (к мужу). </stage>
+<p>Как не умирал! Что ты бабушку путаешь? Разве ты не знаешь, что уж
+несколько лет от меня его и в памятцах за упокой поминали? Неужто таки и
+грешные-то мои молитвы не доходили! <stage type="delivery">  (К
+Софье.) </stage> Письмецо-то мне пожалуй. <stage type="delivery">
+ (Почти вырывает.) </stage>  Я об заклад бьюсь, что оно какое-нибудь
+амурное. И догадываюсь от кого. Это от того офицера, который искал на тебе
+жениться и за которого ты сама идти хотела. Да которая бестия без моего
+спросу отдает тебе письма! Я доберусь. Вот до чего дожили. К деушкам письма
+пишут! деушки грамоте умеют!
+<sp who="Sofja"><speaker>Софья. </speaker>
+<p>Прочтите его сами, сударыня. Вы увидите, что ничего невиннее быть не
+может.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Прочтите его сами! Нет, сударыня, я, благодаря бога, не так воспитана. Я
+могу письма получать, а читать их всегда велю другому. <stage
+type="delivery"> (К мужу.) </stage>
+<p>Читай.
+<sp who="Prostakov"><speaker>Простаков</speaker><stage type="delivery">
+(долго смотря). </stage>
+<p> Мудрено.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>И тебя, мой батюшка, видно, воспитывали, как красную девицу. Братец,
+прочти, потрудись.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Я? Я отроду ничего не читывал, сестрица! Бог меня избавил этой скуки.
+<sp who="Sofja"><speaker>Софья. </speaker>
+<p>Позвольте мне прочесть.
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p> О матушка! Знаю, что ты мастерица, да лих не очень тебе верю. Вот, я
+чаю, учитель Митрофанушкин скоро придет. Ему велю...
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>А уж зачали молодца учить грамоте?
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Ах, батюшка братец! Уж года четыре как учится. Нечего, грех сказать,
+чтоб мы
+не старались воспитывать Митрофанушку. Троим учителям денежки платим. Для
+грамоты ходит к нему дьячок от Покрова, Кутейкин. Арихметике учит его,
+батюшка, один отставной сержант, Цыфиркиц. Оба они приходят сюда из города.
+Вить от нас и город в трех верстах, батюшка. По-французски и всем наукам
+обучает его немец Адам Адамыч Вральман. Этому по триста рубликов на год.
+Сажаем за стол с собою. Белье его наши бабы моют. Куда надобно - лошадь. За
+столом стакан вина. На ночь сальная свеча, и парик направляет наш же Фомка
+даром. Правду сказать, и мы им довольны, батюшка братец. Он робенка не
+неволит. Вить, мой батюшка, пока Митрофанушка еще в недорослях, пота его и
+понежить; а там лет через десяток, как войдет, избави боже, в службу, всего
+натерпится. Как кому счастье на роду написано, братец. Из нашей же фамилии
+Простаковых, смотри-тка, на боку лежа, летят себе и чины. Чем же плоше их
+Митрофанушка? Ба! да вот пожаловал кстати дорогой наш постоялец.
+<div2 type="scene">
+
+<head>ЯВЛЕНИЕ VII</head>
+
+<stage type="setting">Те же и Правдин.</stage>
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p>Братец, друг мой! Рекомендую вам дорогого гостя нашего, господина
+Правдина; а вам, государь мой, рекомендую брата моего.
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p>Радуюсь, сделав ваше знакомство.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Хорошо, государь мой! А как по фамилии, я не дослышал.
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p> Я называюсь Правдин, чтоб вы дослышали.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Какой уроженец, государь мой? Где деревеньки?
+<sp who="Pravdin"><speaker>Правдин.</speaker>
+<p> Я родился в Москве, ежели вам то знать надобно, а деревни мои в здешнем
+наместничестве.
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>А смею ли спросить, государь мой, - имени и отчества не знаю, - в
+деревеньках ваших водятся ли свинки?
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p> Полно, братец, о свиньях-то начинать. Поговорим-ка лучше о нашем горе.
+<stage type="delivery"> (К Правдину.) </stage>
+<p>Вот, батюшка! Бог велел нам взять на свои руки девицу. Она изволит
+получать грамотки от дядюшек. К ней с того света дядюшки пишут. Сделай
+милость, мой батюшка, потрудись, прочти всем нам вслух.
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p> Извините меня, сударыня. Я никогда не читаю писем без позволения тех, к
+кому они писаны.
+<sp who="Sofja"><speaker>Софья. </speaker>
+<p> Я вас о том прошу. Вы меня тем очень одолжите.
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p>Если вы приказываете. <stage type="delivery">  (Читает.) </stage>
+<p><><Любезная племянница! Дела мои принудили меня жить несколько лет в
+разлуке с моими ближними; а дальность лишила меня удовольствия иметь о вас
+известии. Я теперь в Москве, прожив несколько лет в Сибири. Я могу служить
+примером, что трудами и честностию состояние свое сделать можно. Сими
+средствами, с помощию счастия, нажил я десять тысяч рублей доходу...>
+<sp who="Skotinin Prostakov Prostakova"><speaker>Скотинин и оба Простаковы.
+</speaker>
+<p>Десять тыcяч!
+<sp who="Pravdin"><speaker>Правдин</speaker><stage type="delivery">
+(читает).</stage>
+<p><...которым тебя, моя любезная племянница, тебя делаю наследницею...>
+<sp who="Prostakova"><speaker>Г-жа Простакова. </speaker>
+<p> Тебя наследницею!
+<stage type="delivery"> (Вместе.) </stage>
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Софью наследницею!
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p> Ее наследницею!
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker><stage
+type="delivery"> (бросаясь обнимать Софью). </stage>
+<p> Поздравляю, Софьюшка! Поздравляю, душа моя! Я вне себя от радости!
+Теперь тебе надобен жених. Я, я лучшей невесты и Митрофанушке не желаю. То-
+то дядюшка! То-то отец родной! Я и сама все-таки думала, что бог его
+хранит, что он еще здравствует.
+<sp who="Skotinin"><speaker>Скотинин</speaker><stage type="delivery">
+(протянув руку). </stage>
+<p> Ну, сестрица, скоряй же по рукам.
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker><stage
+type="delivery"> (тихо Скотинину). </stage>
+<p>Постой, братец. Сперва надобно спросить ее, хочет ли еще она за тебя
+вытти?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Как! Что за вопрос! Неужто ты ей докладываться станешь?
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p> Позволите ли письмо дочитать?
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>А на что? Да хоть пять лет читай, лучше десяти тысяч не дочитаешься.
+<sp who="Prostakova"><speaker>Г-жа Простакова</speaker><stage
+type="delivery">  (к Софье). </stage>
+<p> Софьюшка душа моя! пойдем ко мне в спальню. Мне крайняя нужда с тобой
+поговорить. <stage type="delivery">  (Увела Софью.) </stage>
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p> Ба! так я вижу, что сегодни сговору-то вряд и быть ли.
+</div2>
+<div2 type="scene">
+
+<head>ЯВЛЕНИЕ VIII</head>
+
+<stage type="setting">Правдин, Простаков, Скотинин, слуга.</stage>
+<sp who="Sluga"><speaker>Слуга</speaker><stage type="delivery">(к
+Простакову, запыхавшись). </stage>
+<p> Барин! барин! солдаты пришли, остановились в нашей деревне.
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p> Какая беда! Ну, разорят нас до конца!
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p>Чего вы испугались?
+<sp who="Prostakov"><speaker>Простаков. </speaker>
+<p>Ах ты, отец родной! Мы уж видали виды. Я к ним и появиться не смею.
+<sp who="Pravdin"><speaker>Правдин. </speaker>
+<p>Не бойтесь. Их, конечно, ведет офицер, который не допустит ни до какой
+наглости. Пойдем к нему со мною. Я уверен, что вы робеете напрасно.
+<stage type="exit"><move who="Pravdin Prostakov Sluga" type="exit">Правдин,
+Простаков и слуга отходят.</stage>
+<sp who="Skotinin"><speaker>Скотинин. </speaker>
+<p>Все меня одного оставили. Пойти было прогуляться на скотный двор.
+<stage type="setting">Конец первого действия.</stage>
+          </div2>
+       </div1>
+    </body>
+	<back>
+	  <trailer>
+	  <xref doc="lecture1" from="FOREIGN (MP3)">аудио лекция "Д. И. Фонвизин" (П. Е. Бухаркин)</xref>
+	  <figure entity="fig1"><head>Портрет Д. И. Фонвизина</figure>
+  </text>
+</tei.2>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE style-sheet PUBLIC "-//James Clark//DTD DSSSL Style Sheet//EN"
+[
+ <!ENTITY common SYSTEM "common.dssl">
+ <!ENTITY encmap SYSTEM "koi8-r.dsssl">
+]>
+<style-sheet>
+<style-specification>
+<style-specification-body>
+
+&common;
+
+<![CDATA[
+
+(define self-reference "")
+(define subreferences '())
+
+(element tei.2 (make element gi: "p" (process-first-descendant 'teiHeader)))
+(element teiHeader (process-children))
+(element fileDesc (process-children))
+(element titleStmt (make sequence
+                     (process-first-descendant 'author)
+                     (process-first-descendant 'title)))
+(element author (process-children))
+(element persName (process-children))
+(element forename (process-children))
+(element surname (process-children))
+(element title (make element gi: "a"
+                     attributes: `(("href" ,(string-append "/cgi-bin/gettext.cgi/" (urlencode self-reference))))
+                     (process-children-trim)))
+(element name (process-children-trim))
+(default (empty-sosofo))
+
+]]>
+</style-specification-body>
+</style-specification>
+</style-sheet>

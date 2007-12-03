@@ -1,0 +1,101 @@
+(declare-flow-object-class element "UNREGISTERED::James Clark//Flow Object Class::element")
+(declare-flow-object-class empty-element "UNREGISTERED::James Clark//Flow Object Class::empty-element")
+(declare-flow-object-class document-type "UNREGISTERED::James Clark//Flow Object Class::document-type")
+
+(declare-char-property external-code #f)
+(declare-char-property url-safe #f)
+
+(add-char-properties url-safe: #t 
+                     #\a #\A #\b #\B #\c #\C #\d #\D #\e #\E #\f #\F
+                     #\g #\G #\h #\i #\I #\k #\K #\l #\L #\m #\M
+                     #\n #\N #\o #\O #\p #\P #\q #\Q #\r #\R #\s #\S
+                     #\t #\T #\u #\U #\v #\V #\w #\W #\x #\X #\y #\Y
+                     #\z #\Z #\0 #\1 #\2 #\3 #\4 #\5 #\6 #\7 #\8 #\9
+                     #\- #\. #\_ #\~)
+
+&encmap;
+
+<![CDATA[
+
+(define all-element-number
+  (external-procedure "UNREGISTERED::James Clark//Procedure::all-element-number"))
+(define language
+  (external-procedure "UNREGISTERED::OpenJade//Procedure::language"))
+
+(declare-default-language (language "ru" "ru.koi8-r"))
+
+(define (meta-tag name) (make empty-element gi: "meta"
+                              attributes: `(("name" ,name)
+                                            ("content" ,(data (current-node))))))
+
+(define (paragraph #!optional (contents (empty-sosofo))) (make element gi: "p"
+                                                               contents))
+
+(define (centered #!optional (contents (process-children))) 
+  (make element gi: "p"
+        attributes: '(("align" "center"))
+        contents))
+
+(define (division #!optional (contents (process-children)))
+  (anchored #f #f (make element gi: "div"
+                        contents)))
+
+(define (ruled #!optional (contents (process-children))) (make sequence
+                  (make empty-element gi: "hr")
+                  (paragraph)
+                  contents))
+(define (space-after #!optional (contents (process-children)))
+  (make sequence
+    contents
+    (literal " ")))
+
+(define (anchored generate embed #!optional (contents (process-children)))
+  (let* ((expid (id (current-node)))
+         (realid (cond
+                  (expid (string-append "id." expid))
+                  (generate (string-append generate (number->string (all-element-number))))
+                  (else #f))))
+    (cond
+     ((not realid) contents)
+     (embed (make element gi: "a"
+                  attributes: `(("name" ,realid))
+                  contents))
+     (else (make sequence 
+             (make element gi: "a"
+                   attributes: `(("name" ,realid))
+                   (empty-sosofo))
+             contents)))))
+
+(define (header level)
+  (paragraph 
+   (make element gi: (string-append "h" (number->string level)))))
+
+(define (emphstr s) (make element gi: "em"
+                          (literal s)))
+
+(define (string-skip-until s c) 
+  (let ((len (string-length s)))
+    (let loop ((idx 0))
+      (cond 
+       ((= len idx) "")
+       ((char=? (string-ref s idx) c) (substring s (+ idx 1) len))
+       (else (loop (+ 1 idx)))))))
+
+(define (fsid->url fsid) (cond 
+                          ((string-ci=? (substring fsid 0 4) "<url") (string-skip-until fsid #\>))
+                          ((string-ci=? (substring fsid 0 7) "<osfile")
+                           (string-skip-until fsid #\>))
+                          (else fsid)))
+
+(define (urlencode url)
+  (define (encode c) (if (char-property 'url-safe c)
+                         (string c)
+                         (let ((x (char-property 'external-code c)))
+                           (if x
+                               (string-append "%" (number->string x 16))
+                               (error (string-append "No code for character " (string c)))))))
+  (apply string-append
+         (map encode (string->list url))))
+  
+]]>
+

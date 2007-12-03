@@ -1,0 +1,165 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> К первому соседу </title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Ода к соседу моему господину N </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Санкт-Петербургский вестник N8 </publisher>
+                <date>1780</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1780</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type="addressee" value=" Голиков М.С. ">
+<span from='whole' type='theme' value='пир'>
+<span from='whole' type='theme' value=' мимолетность жизни '>
+<body id='whole'><div0 met='Я4' rhyme="AbAbCCdEEd">
+<lg1 type='stanza'>
+      <l> Кого роскошными пирами
+      <l> На  влажных  <name  type="place"  reg="Нева"  ><name  type="place"
+reg="острова">Невских островах</name></name>,
+      <l> Между тенистыми древами,
+      <l> На мураве и на цветах,
+      <l> В шатрах персидских, златошвенных,
+      <l> Из глин китайских драгоценных,
+      <l> Из венских чистых хрусталей,
+      <l> Кого толь славно угощаешь
+      <l> И для кого ты расточаешь
+      <l> Сокровищи казны твоей?
+<lg1 type='stanza'>
+      <l> Гремит музыка, слышны хоры
+      <l> Вкруг лакомых твоих столов;
+      <l> Сластей и ананасов горы,
+      <l> И множество других плодов
+      <l> Прельщают чувствы и питают;
+      <l> Младые девы угощают,
+      <l> Подносят вина чередой,
+      <l> И алиатико с шампанским,
+      <l> И пиво русское с британским,
+      <l> И мозель с зельцерской водой.
+<lg1 type='stanza'>
+      <l> В вертепе мраморном, прохладном
+      <l> В котором льется водоскат,
+      <l> На ложе роз благоуханном,
+      <l> Средь лени, неги и отрад,
+      <l> Любовью распаленный страстной,
+      <l> С младой, веселою, прекрасной
+<l> И нежной <name type="mythologic" reg="нимфы"> нимфой</name> ты сидишь;
+      <l> Она поет, ты страстью таешь,
+      <l> То с ней в весельи утопаешь,
+      <l> То, утомлен весельем, спишь.
+<lg1 type='stanza'>
+      <l> Ты спишь - и сон тебе мечтает,
+      <l> Что ввек благополучен ты,
+      <l> Что само небо рассыпает
+      <l> Блаженства вкруг тебя цветы,
+      <l> Что парка дней твоих не косит,
+      <l> Что откуп вновь тебе приносит
+      <l> Сибирски горы серебра
+      <l> И дождь златый к тебе лиется.
+      <l> Блажен, кто поутру проснется
+      <l> Так счастливым, как был вчера!
+<lg1 type='stanza'>
+      <l> Блажен, кто может веселиться
+      <l> Бесперерывно в жизни сей!
+      <l> Но редкому пловцу случится
+      <l> Безбедно плавать средь морей:
+      <l> Там бурны дышут непогоды,
+      <l> Горам подобны гонят воды
+      <l> И с пеною песок мутят.
+<l> <name type="place" reg="Санкт-Петербург">Петрополь</name> сосны
+осеняли,-
+      <l> Но вихрем пораженны пали,
+      <l> Теперь корнями вверх лежат.
+<lg1 type='stanza'>
+      <l> Непостоянство - доля смертных,
+      <l> В пременах вкуса счастье их;
+      <l> Среди утех своих несметных
+      <l> Желаем мы утех иных.
+      <l> Придут, придут часы те скучны,
+      <l> Когда твои ланиты тучны
+      <l> Престанут грации трепать;
+      <l> И, может быть, с тобой в разлуке
+<l> Твоя уж <name type="mythologic" reg="Пенелопа">Пенелопа</name> в скуке
+      <l> Ковер не будет распускать.
+<lg1 type='stanza'>
+      <l> Не будет, может быть, лелеять
+      <l> Судьба уж более тебя
+      <l> И ветр благоприятный веять
+      <l> В твой парус: береги себя!
+      <l> Доколь текут часы златые
+      <l> И не приспели скорби злые,
+      <l> Пей, ешь и веселись, сосед!
+      <l> На свете жить нам время срочно;
+      <l> Веселье то лишь непорочно,
+      <l> Раскаянья за коим нет.
+</body>
+  </text>
+</tei.2>
+
