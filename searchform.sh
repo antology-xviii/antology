@@ -82,8 +82,6 @@ makelistfield addressee annotation::addressee Адресат
 echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
 echo "</table>"
 echo "</form>"
-echo "<!-- split -->"
-./contents.sh "$TAGCOLL"
 echo "<!-- +foot -->"
 echo "</body>"
 echo "</html>"
