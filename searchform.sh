@@ -9,7 +9,7 @@ makelistfield() {
     local multiple="$4"
     local andall="<input type=\"radio\" name=\"$id:mode\" checked value=\"all\"> все \
         <input type=\"radio\" name=\"$id:mode\" value=\"any\"> любая из <br>"
-    echo "<tr><td>$label: <td>${multiple:+$andall}<select ${multiple:+multiple} name=\"$id\">"
+    echo "<tr><td valign=\"top\">$label: <td valign=\"top\">${multiple:+$andall}<select ${multiple:+multiple} name=\"$id\">"
     if [ -z "$multiple" ]; then
         echo "<option selected value=\"\">*</option>"
     fi
@@ -30,7 +30,7 @@ makecomplexlistfield() {
     local catlabel
     shift
     shift
-    echo "<tr><td>$label: <td><select name=\"$id\">"
+    echo "<tr><td valign=\"top\">$label: <td valign=\"top\"><select name=\"$id\">"
     echo "<option selected value=\"\">*</option>"
     for category; do
         catlabel="${category#* }"
@@ -47,7 +47,7 @@ makecomplexlistfield() {
 maketextfield() {
     local id="$1"
     local label="$2"
-    echo "<tr><td>$label: <td><input type=\"text\" name=\"$id\">"
+    echo "<tr><td valign=\"top\">$label: <td valign=\"top\"><input type=\"text\" name=\"$id\">"
 }
 
 echo "<html>"
