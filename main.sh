@@ -12,7 +12,7 @@ echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
 echo "<table>"
-echo "<tr><td valign=\"top\">"
+echo "<tr><td valign=\"top\" width=\"75%\">"
 echo "<H2 align=left>Оглавление</H2>"
 ./contents.sh "$TAGCOLL"
 
