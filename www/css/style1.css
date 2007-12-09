@@ -23,7 +23,7 @@ td.a {
 
  background-color: #668B8B;
 	font-size: 11px;
-    color: #ffffff
+    color: #ffffff;
     font-weight: bold;
 
 }
@@ -79,13 +79,13 @@ text: {
 a:visited {
 	color: #660000;
 	text-decoration: underline;
-    text-weight: bold
+    font-weight: bold
 }
 
 a:link {
    color: #bb3333;
 	text-decoration: underline;
-    text-weight: bold
+    font-weight: bold
 }
 
 a:hover {
@@ -145,11 +145,7 @@ a:hover.head {
 	text-decoration: none;
 }
 
-{
-   border: 1 px solid none;
-   }
-
-	h1 {
+h1 {
 	font-size: 20px;
 	font-weight: bold;
 }
