@@ -97,6 +97,9 @@ for idx in ${!parameters[*]}; do
     if [ -n "$value" ]; then
         name="PARMNAME_$name"
         if [ -n "${!name}" ]; then
+            value="${value//+/ }"
+            value="`eval echo "$'${value//\%/\x}'"`"
+            value="${value//@/&}"
             echo "<td>${value}"
         fi
     fi
