@@ -83,6 +83,7 @@ echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" v
 echo "</table>"
 echo "</form>"
 echo "<!-- split -->"
+echo "<h2 align=\"left\">Оглавление</h2>"
 ./contents.sh "$TAGCOLL"
 echo "<!-- +foot -->"
 echo "</body>"

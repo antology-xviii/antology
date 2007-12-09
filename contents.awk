@@ -12,7 +12,7 @@ BEGIN { FS="[:,][[:space:]]+" }
     close(aboutcmd);
     print "[<a href=\"/cgi-bin/gettext.cgi/" lecture "\">лекция</a>]"
     print "</div>"
-    print "<span class=\"submenu\" id=\"sub" FNR "\">"
+    print "<ul class=\"submenu\" id=\"sub" FNR "\">"
 
     titlelist = "tagcoll grep  -g --remove-tags=\"!title::* && !author::*\" \"" authortag "\" " TAGCOLL
     while ((titlelist | getline) > 0)
@@ -20,7 +20,7 @@ BEGIN { FS="[:,][[:space:]]+" }
         # $3 shall always hold tiltle tag
         gsub(/@/, "\\&", $3);
         sub(/^title::/, "", $3);
-        print "<a href=\"/cgi-bin/gettext.cgi/" $1 "\">" $3 "</a><br>"
+        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" $3 "</a>"
     }
     close(titlelist)
     print "</span>"

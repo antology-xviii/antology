@@ -1,6 +1,6 @@
 #! /bin/bash
 
-SCRIPTDIR=/home/artem/src/antology/
+SCRIPTDIR=/home/antology/data/
 TAGCOLL=${SCRIPTDIR}/sample.coll
 export LC_CTYPE=ru_RU.koi8-r
 export LC_COLLATE=ru_RU.koi8-r
@@ -11,7 +11,7 @@ runscript="${SCRIPT_NAME##*/}"
 runscript="${runscript%.cgi}.sh"
 
 if ! [ -x "$runscript" ]; then
-    echo "Status: 404 Not Found"
+    echo "Status: 505 Internal Server Error" 
     echo ""
     exit 1
 fi
