@@ -1,0 +1,193 @@
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: Verdana, arial;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 2;
+	color: #333333;
+    background-color: #F0FFF0;
+    background-image: url("../images/bg/lgren072.jpg");
+
+}
+
+P {text-align: justify;}
+
+p.poetry {
+     margin-left: 100;
+
+
+}
+
+td.a {
+
+ background-color: #668B8B;
+	font-size: 11px;
+    color: #ffffff
+    font-weight: bold;
+
+}
+
+table.passport
+
+{
+
+width: 240;
+border: 2px solid #888888;
+padding:14;
+margin-right: 80;
+
+ }
+
+table.lecture
+
+{
+
+width: 700;
+border: 2px solid #888888;
+padding:14;
+
+
+ }
+
+
+td {
+	background-color: #ffffff;
+	font-size: 11px;
+}
+
+td.b {
+	background-color: #e0e0ff;
+}
+
+td.border
+
+{  	background-color: #222222;
+    width: 1px;
+    padding: 0px;
+
+}
+
+text: {
+	color: #000033;
+	font-family: verdana, arial;
+	font-size: 8px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #660000;
+	text-decoration: underline;
+    text-weight: bold
+}
+
+a:link {
+   color: #bb3333;
+	text-decoration: underline;
+    text-weight: bold
+}
+
+a:hover {
+	color: #B0A4A4;
+	text-decoration: none;
+    text-weight: bold;
+}
+
+ a:visited.index {
+	color: #000000;
+	text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+}
+
+a:link.index {
+   color: #000000;
+	text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover.index {
+	color: #aaaaaa;
+	text-decoration: underline;
+}
+
+a:link.menu, a:visited.menu {
+	color: #ffffff;
+	font-family: verdana, arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover.menu {
+	color: #111111;
+	font-family: verdana, arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ a:link.head, a:visited.head {
+	color: #000000;
+	font-family: verdana, arial;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover.head {
+	color: #883333;
+	font-family: verdana, arial;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+{
+   border: 1 px solid none;
+   }
+
+	h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+h2 {
+	font-size: 20px;
+	color: #000000;
+       font-weight: normal;
+
+}
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+h2.poetry {
+	font-size: 20px;
+	color: #000000;
+       font-weight: normal;
+       margin-left: 60;
+
+}
+h3.poetry {
+	font-size: 12px;
+	font-weight: bold;
+    margin-left: 60;
+}
+
+
+
+span.search {
+     background-color: #222266;
+     color: #ffffff;
+     }
+
+span.menutitle { 
+  text-decoration: underline;
+  font-weight: bold;
+} 

@@ -1,9 +1,6 @@
 #! /bin/sh
 
-SCRIPTDIR=/home/artem/src/antology/
-TAGCOLL=${SCRIPTDIR}/sample.coll
-
-cd $SCRIPTDIR
+TAGCOLL="$1"
 
 makelistfield() {
     local id="$1"
@@ -51,33 +48,40 @@ maketextfield() {
     echo "<tr><td>$label: <td><input type=\"text\" name=\"$id\">"
 }
 
-echo "Content-Type: text/html"
-echo "Status: 200 OK"
-echo 
 echo "<html>"
 echo "<head>"
+echo "<!-- -head -->"
 echo "<title>Поиск текстов</title>"
+echo "<!-- +middle -->"
 echo "</head>"
 echo "<body>"
 
-echo "<form action=\"/cgi-bin/results.sh\" method=\"GET\">"
+echo "<!-- -middle -->"
+echo "<h2 align=\"left\">Поиск текстов</h2>"
+echo "<form action=\"/cgi-bin/results.cgi\" method=\"GET\">"
 echo "<table>"
 
 makelistfield author author Автор
 makelistfield title title  Заглавие
+makelistfield origtitle origtitle  "Заглавие при первой публикации"
 makelistfield firstline firstline "Первая строка"
 makelistfield kind category::kind "Литературный род"
 maketextfield written "Год написания"
 maketextfield published "Год первой публикации/постановки"
+makelistfield publisher publisher "Место первой публикации"
 makelistfield theme annotation::theme "Темы" multiple
 makelistfield metric metric::part "Метр/размер" multiple
 makelistfield mscheme metric::scheme "Метрическая схема"
 makelistfield rhyme rhyme "Рифмовка"
 makelistfield place name::place "Географические названия"
 makecomplexlistfield name "Имена собственные" "name::person исторические" "name::mythologic мифологические" "name::biblical библейские" "name::character персонажи"
+makelistfield addressee annotation::addressee Адресат
 
-echo "<tr><td><input type=\"submit\"><td><input type=\"reset\">"
+echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
 echo "</table>"
 echo "</form>"
+echo "<!-- split -->"
+./contents.sh "$TAGCOLL"
+echo "<!-- +foot -->"
 echo "</body>"
 echo "</html>"

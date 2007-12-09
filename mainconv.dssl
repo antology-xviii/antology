@@ -17,20 +17,25 @@
                    public-id: "-//W3C//DTD HTML 4.01 Transitional//EN")
                  (make element gi: "html"
                        (make element gi: "head"
+                             (make formatting-instruction data: "<!-- -head -->")
                              (with-mode header 
-                               (process-first-descendant 'teiHeader)))
-                       (make element gi: "body"                            
+                               (process-first-descendant 'teiHeader))
+                             (make formatting-instruction data: "<!-- +middle -->"))
+                       (make element gi: "body"
+                             (make formatting-instruction data: "<!-- -middle -->"))
+                             (with-mode passport
+                               (make element gi: "table"
+                                     attributes: '(("class" "passport"))
+                                     (process-first-descendant 'teiHeader)
+                                     (process-node-list (q-element 'span))
+                                     (with-mode metrical
+                                       (process-first-descendant 'text))))
                              (process-children)
                              (with-mode footer
                                (make sequence
                                  (ruled
-                                  (process-node-list (q-element 'note)))
-                                 (ruled
-                                  (make sequence
-                                    (process-node-list (q-element 'span))
-                                    (with-mode metrical
-                                      (process-first-descendant 'text))))
-                                 (process-first-descendant 'teiHeader)))))))
+                                  (process-node-list (q-element 'note)))))
+                             (make formatting-instruction data: "<!-- +foot -->"))))
 
 (mode header
   (element teiHeader (process-children))
@@ -56,35 +61,33 @@
   (element name (process-children))
   (default (empty-sosofo)))
 
-(define (show-metrical c) (let ((met (attribute-string "met"))
+(define (show-metrical) (let ((met (attribute-string "met"))
                               (rhyme (attribute-string "rhyme")))
                           (if (and (not met) (not rhyme))
-                              (if c (process-children) (empty-sosofo))
+                              (process-children-nodata)
                               (make sequence
                                 (if met
                                     (paragraph
                                      (make sequence
                                        (emphstr "Размер: ")
                                        (literal met)
-                                       (if c (process-children) (empty-sosofo))))
+                                       (process-children-nodata)))
                                     (empty-sosofo))
                                 (if rhyme
                                     (paragraph
                                      (make sequence
                                        (emphstr "Схема рифмовки: ")
                                        (literal rhyme)
-                                       (if c (process-children) (empty-sosofo))))
+                                       (process-children-nodata)))
                                     (empty-sosofo))))))
 
 (mode metrical
-  (element div0 (show-metrical #t))
-  (element lg (show-metrical #t))
-  (element lg1 (show-metrical #t))
-  (element lg2 (show-metrical #t))
-  (element l (show-metrical #f))
-  (element text (process-children))
-  (element body (process-children))
-  (default (empty-sosofo)))
+  (element div0 (show-metrical))
+  (element lg (show-metrical))
+  (element lg1 (show-metrical))
+  (element lg2 (show-metrical))
+  (element l (show-metrical))
+  (default (process-children-nodata)))
 
 (mode footer
   (element teiHeader (ruled
@@ -198,16 +201,17 @@
 (element div1 (division))
 (element div2 (division))
 (element div3 (division))
-(element (div0 head) (header 1))
-(element (div1 head) (header 2))
-(element (div2 head) (header 3))
-(element (div3 head) (header 4))
+(element div (division))
+(element head (header))
 (element text (anchored #f #f (ruled)))
 (element front (process-children))
 (element body (anchored #f #f (ruled)))
-(element name (anchored "name" #t)) 
+(element name (anchored #t #t)) 
 
-(element lg1 (make element gi: "blockquote"))
+(element add (make element gi: "small"))
+
+(element lg1 (make element gi: "p"
+                   attributes: '(("class" "poetry"))))
 (element l (make sequence
              (process-children)
              (make empty-element gi: "br")))
@@ -216,6 +220,16 @@
              (literal "\"")
              (process-children)
              (literal "\"")))
+(element quote (make element gi: "emph"))
+(element cit (process-children))
+(element (epigraph cit bibl) (make sequence
+                               (make empty-element gi: "br")
+                               (process-children)))
+(element bibl (process-children))
+(element salute (make element gi: "p"
+                      attributes: '(("align" "center"))))
+(element epigraph (make element gi: "p"
+                      attributes: '(("align" "right"))))
 (element (q lg) (make element gi: "blockquote"
                               (make sequence
                                 (literal "\"")
@@ -260,7 +274,7 @@
 (element emph (make element))
 (element ref (process-children))
 (element back (process-children))
-(element trailer (process-children))
+(element trailer (make element gi: "p" attributes: '(("align" "center"))))
 (element note (let ((nid (number->string (element-number))))
                 (make element 
                   gi: "sup"

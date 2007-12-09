@@ -1,0 +1,216 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Развалины </title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Развалины  </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. Ч. 3. СПб. </publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1797</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='любовь'>
+<span from='whole' type='theme' value='счастье'>
+<span from='whole' type='theme' value='рай'>
+<span from='whole' type='theme' value='запустение'>
+<span from='whole' type='theme' value='смерть'>
+    <body id='whole'><div0 met='Я4' rhyme="(AbAb...*26)CdCdEdE+ffGGhh.">
+<lg1 type='stanza'>
+<l>Вот здесь, на острове, <name type="mythologic"
+reg="Киприда">Киприды</name>
+      <l>Великолепный храм стоял:
+      <l>Столпы, подзоры, пирамиды
+      <l>И купол золотом сиял.
+      <l>Вот здесь, дубами осененна,
+      <l>Резная дверь в него была,
+      <l>Зеленым свесом покровенна,
+      <l>Вовнутрь святилища вела.
+      <l>Вот здесь хранилися кумиры,
+      <l>Дымились жертвой алтари,
+      <l>Сбирались на молитву миры
+      <l>И били ей челом цари.
+      <l>Вот тут была уединенной
+      <l>Поутру каждый день с зарей,
+      <l>Писала, как владеть вселенной
+      <l>И как сердца пленить людей.
+      <l>Тут поставлялася трапеза,
+      <l>Круг юных дев и сонм жрецов;
+<l>Богатство разливалось <name type=" person" reg="Крез">Креза</name>,
+      <l>Сребро и злато средь столов.
+      <l>Тут арфы звучные гремели
+      <l>И повторял их хор певцов;
+<l>Особо тут <name type="mythologic" reg="сирены">сирены</name> пели
+      <l>И гласов сладостью, стихов
+      <l>Сердца и ум обворожали.
+      <l>Тут нектар из сосудов бил,
+      <l>Курильницы благоухали,
+<l>Зной летний провевал <name type="mythologic" reg="Зефир">зефир</name>;
+      <l>А тут крылатые служили
+      <l>Полки прекрасных метких слуг
+      <l>И от богининой носили
+<l>Руки<name type="mythologic" reg="амброзия">амброзию</name> вокруг.
+      <l>Она, тут сидя, обращалась
+      <l>И всех к себе влекла сердца;
+      <l>Восставши, тихо поклонялась,
+      <l>Блистая щедростью лица.
+      <l>Здесь в полдень уходила в гроты,
+      <l>Покоилась прохлад в тени;
+<l>А тут <name type="mythologic" reg="Амур">амуры</name> и <name
+type="mythologic" reg="Эрот">эроты</name>
+      <l>Уединялись с ней одни;
+      <l>Тут был <name type=" mythologic ">Эдем</name> ее прелестный
+      <l>Наполнен меж купин цветов,
+      <l>Здесь тек под синий свод небесный
+      <l>В купальню скрытый шум ручьев;
+      <l>Здесь был театр, а тут качели,
+      <l>Тут азиатских домик нег;
+<l>Тут на <name type="mythologic" reg="Парнас">Парнасе</name> <name
+type="mythologic" reg="муза">музы</name>пели,
+      <l>Тут звери жили для утех.
+      <l>Здесь в разны игры забавлялась,
+<l>А тут прекрасных <name type="mythologic" reg="нимфа">нимф</name> с
+полком
+      <l>Под вечер красный собиралась
+      <l>В прогулку с легким посошком;
+      <l>Ходила по лугам, долинам,
+      <l>По мягкой мураве близ вод,
+      <l>По желтым среди роз тропинам;
+      <l>А тут, затея хоровод,
+<l>Велела <name type="mythologic" reg="нимфа">нимфам</name>, <name
+type="mythologic" reg="Купидон">купидонам</name>
+      <l>Играть, плясать между собой
+      <l>По слышимым приятным тонам
+      <l>Вдали музыки роговой.
+      <l>Они, кружась, резвясь, летали,
+      <l>Шумели, говорили вздор;
+      <l>В зерцале вод себя казали,
+      <l>Всем тешили богинин взор.
+      <l>А тут, оставя хороводы,
+      <l>Верхом скакали на коньках;
+      <l>Иль в лодках, рассекая воды,
+      <l>В жемчужных плавали струях.
+      <l><name type=" mythologic ">Киприда</name> тут средь мирт сидела,
+      <l>Смеялась, глядя на детей,
+      <l>На восклицающих смотрела
+      <l>Поднявших крылья лебедей;
+      <l>Иль на станицу сребробоких
+      <l>Ей милых сизых голубков;
+      <l>Или на пестрых, краснооких
+      <l>Ходящих рыб среди прудов;
+      <l>Иль на собачек, ей любимых,
+      <l>Хвосты несущих вверх кольцом,
+      <l>Друг другом с лаяньем гонимых,
+      <l>Мелькающих между леском.
+      <l>А здесь, исполнясь важна вида,
+      <l>На памятник своих побед
+<l>Она смотрела: на <name type="mythologic" reg="Алкид">Алкида</name>,
+<l>Как <name type="mythologic" reg="гидра">гидру</name> палицей он бьет;
+      <l>Как прочие ее герои,
+      <l>По манию ее очес,
+      <l>В ужасные вступали бои
+      <l>И тьмы поделали чудес:
+      <l>Приступом грады тверды брали,
+      <l>Сжигали флоты средь морей,
+      <l>Престолы, царствы покоряли
+      <l>И в плен водили к ней царей.
+      <l>Здесь в внутренни она чертоги
+      <l>По лестнице отлогой шла,
+      <l>Куда гостить ходили боги
+      <l>И где она всегда стрегла
+      <l>Тот пояс, в небе ей истканный,
+<l>На коем меж <name type="mythologic" reg="хариты">харит</name> с ней жил
+      <l>Тот хитрый гений, изваянный,
+      <l>Который счастье ей дарил,
+      <l>Во всех ее делах успехи,
+      <l>Трофеи мира и войны,
+      <l>Здоровье, радости и смехи
+      <l>И легкие приятны сны.
+<l>В сем тереме, <name type="mythologic" reg="Олимп">Олимпу</name> равном,
+      <l>Из яшм прозрачных, перлов гнёзд,
+      <l>Художеством различным славном,
+      <l>Горели ночью тучи звезд,
+      <l>Красу богини умножали;
+      <l>И так средь сих блаженных мест
+      <l>Ее как солнце представляли.
+
+
+<lg1 type='stanza'>
+      <l>Но здесь ее уж ныне нет,
+      <l>Померк красот волшебных свет,
+      <l>Все тьмой покрылось, запустело;
+      <l>Все в прах упало, помертвело;
+      <l>От ужаса вся стынет кровь,-
+      <l>Лишь плачет сирая любовь.
+    </body>
+  </text>
+</tei.2>
+
+
+

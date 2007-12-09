@@ -13,6 +13,12 @@ function encode_tag_val(value)
     return value;
 }
 
+function escape_regops(value)
+{
+    gsub(/[][\\.+*{}()^$|]/, "\\\\&", value);
+    return value;
+}
+
 function attribute(name, tagname)
 {
     return SGML_ATTRS[name, tagname ? tagname : SGML_CURRENT, SGML_LEVELS[tagname ? tagname : SGML_CURRENT]];
@@ -27,6 +33,11 @@ function has_attribute(name, tagname)
 function body(name)
 {
     return attribute("", name);
+}
+
+function eliminate_body()
+{
+    SGML_ATTRS["", SGML_CURRENT, SGML_LEVELS[SGML_CURRENT]] = "";
 }
 
 function parent(  p)
@@ -59,6 +70,7 @@ function parent(  p)
     }
     delete following_attrs;
     SGML_CURRENT = gi;
+    preindexer();
     next
 }
 

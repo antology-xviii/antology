@@ -25,7 +25,7 @@
 (element forename (process-children))
 (element surname (process-children))
 (element title (make element gi: "a"
-                     attributes: `(("href" ,(string-append "/cgi-bin/gettext.cgi/" (urlencode self-reference))))
+                     attributes: `(("href" ,(string-append "/cgi-bin/gettext.cgi/" (urlencode self-reference 'path))))
                      (process-children-trim)))
 (element name (process-children-trim))
 (default (empty-sosofo))
