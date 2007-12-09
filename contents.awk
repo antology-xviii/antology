@@ -1,13 +1,16 @@
 BEGIN { FS="[:,][[:space:]]+" }
 { 
-    authortag = $1;
-    sub(/^author::/, "", $1);
-    picref = "picture::" $1;
+    authortag = "author::" $1;
     gsub(/@/, "\\&", $1);
 
-    piccmd = "tagcoll grep -i \"" picref "\" " TAGCOLL
-    piccmd | getline picture;
-    close(piccmd);
+    for (i = 2; i <= NF; i++)
+    {
+        if (index($i, "picture::") == 1)
+        {
+            picture = substr($i, length("picture::") + 1);
+            break;
+        }
+    }
 
     if (FNR == 1)
        print "<table id=masterdiv>";
@@ -29,7 +32,7 @@ BEGIN { FS="[:,][[:space:]]+" }
     print "</ul>"
     print "<td valign=\"top\">"
     #if (picture)
-        print "<img src=\"" picture "\" width=\"100\" height=\"121\" alt=\"" $1 "\" border=\"0\">";
+        print "<img src=\"/images/" picture "\" width=\"100\" height=\"121\" alt=\"" $1 "\" border=\"0\">";
 }
 END {
     print "</table>"

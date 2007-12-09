@@ -2,6 +2,7 @@
 
 SCRIPTDIR=/home/antology/data/
 TAGCOLL=${SCRIPTDIR}/sample.coll
+PEOPLECOLL=${SCRIPTDIR}/people.coll
 export LC_CTYPE=ru_RU.koi8-r
 export LC_COLLATE=ru_RU.koi8-r
 
@@ -25,7 +26,7 @@ fragment()
     sed -e '$!s/$/\\/' "$1"
 }
 
-echo "$QUERY_STRING" | "./$runscript" "$TAGCOLL" "$PATH_INFO" 2>&1 | sed -e \
+echo "$QUERY_STRING" | "./$runscript" "$TAGCOLL" "$PATH_INFO" "$PEOPLECOLL" 2>&1 | sed -e \
 "1,/<!-- -head -->/c\\
 `fragment www/head.html`
 
