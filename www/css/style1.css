@@ -68,7 +68,7 @@ td.border
 
 }
 
-text: {
+.text {
 	color: #000033;
 	font-family: verdana, arial;
 	font-size: 8px;
@@ -91,7 +91,7 @@ a:link {
 a:hover {
 	color: #B0A4A4;
 	text-decoration: none;
-    text-weight: bold;
+    font-weight: bold;
 }
 
  a:visited.index {
