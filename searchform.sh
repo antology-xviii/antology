@@ -16,6 +16,8 @@ makelistfield() {
     tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk '{ 
     sub(/^'"$list"'::/, ""); 
     val = $0;
+    if (length($0) > 40)
+      $0 = substr($0, 1, 40) "...";
     gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
     }'
     echo "</select>"
