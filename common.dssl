@@ -111,21 +111,27 @@
     (literal " ")))
 
 (define (anchored generate embed #!optional (contents (process-children)))
-  (let* ((expid (id (current-node)))
-         (realid (cond
-                  (expid (string-append "id." expid))
-                  (generate (string-append (gi) (number->string (element-number (current-node)))))
-                  (else #f))))
-    (cond
-     ((not realid) contents)
-     (embed (make element gi: "a"
-                  attributes: `(("name" ,realid))
-                  contents))
-     (else (make sequence 
-             (make element gi: "a"
-                   attributes: `(("name" ,realid))
-                   (empty-sosofo))
-             contents)))))
+  (let ((expid (id (current-node)))
+        (impid (if generate (string-append (gi) (number->string (element-number (current-node)))) #f)))
+    (if embed
+        (let ((impref (if impid (make element gi: "a"
+                                       attributes: `(("name" ,impid))
+                                       contents)
+                           contents)))
+          (if expid (make element gi: "a"
+                          attributes `(("name" ,(string-append "id." expid)))
+                          impref)
+              impref))
+        (let ((impref (if impid (make element gi: "a"
+                                      attributes: `(("name" ,impid))
+                                      (empty-sosofo))
+                          (empty-sosofo)))
+              (expref (if expid (make element gi: "a"
+                                      attributes: `(("name" ,(string-append "id." expid)))
+                                      (empty-sosofo))
+                          (empty-sosofo))))
+          (sosofo-append impref expref contents)))))
+
 
 (define (header #!optional (level #f))
   (paragraph 

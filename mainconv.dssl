@@ -12,7 +12,7 @@
 <![CDATA[
 
 (define use-passport #t)
-
+(define hilite-names '())
 
 (define (build-meta-tags nl)
   (let ((titlenode (q-element '(fileDesc titleStmt title) nl))
@@ -76,7 +76,21 @@
                              (make sequence
                                (literal " [")
                                (process-node-list (children distrib))
-                               (literal "]"))))))                                
+                               (literal "]"))))))
+    (mkrow "Первая публикация:" (let ((orig (q-element '(teiHeader fileDesc sourceDesc biblFull sourceDesc biblFull))))
+                                  (if (node-list-empty? orig) 
+                                      #f
+                                      (make sequence
+                                        (literal (data (q-element '(titleStmt title) orig)))
+                                        (make element gi: "strong"
+                                              (literal " в: "))
+                                        (literal (data (q-element '(publicationStmt publisher) orig)))
+                                        (literal ", ")
+                                        (literal (datestr (q-element '(publicationStmt date) orig)))))))
+    (mkrow "Первая постановка:" (let ((perf (q-element '(performance p date))))
+                                  (if (node-list-empty? perf)
+                                      #f
+                                      (literal (datestr perf)))))
     (mkrow "Лит.род." (kind-descr))
     (mkrow "Год написания" (literal-or-none (datestr (q-element '(profileDesc creation date)))))
     (mkrow "Место написания" (literal-or-none (data (q-element '(profileDesc creation name (type "place"))))))
@@ -318,7 +332,12 @@
 (element text (anchored #f #f (ruled)))
 (element front (process-children))
 (element body (anchored #f #f (ruled)))
-(element name (anchored #t #t)) 
+(element name (let ((contents (anchored #t #t)))
+                (if (member (element-number (current-node)) hilite-names)
+                    (make element gi: "span"
+                          attributes: '(("class" "search"))
+                          contents)
+                    contents)))
 
 (element add (make element gi: "small"))
 
@@ -364,7 +383,7 @@
 (element role (space-after (make element gi: "strong")))
 (element roleDesc (process-children))
 (element set (centered))
-(element performance (centered))
+(element performance (empty-sosofo))
 (element dateline (make element gi: "p"
                         attributes: '(("align" "right"))
                         (make element gi: "em")))
@@ -372,19 +391,22 @@
 (element xref (make element gi: "a"
                     attributes: `(("href" ,(fsid->url (entity-generated-system-id (attribute-string "doc")))))))
 (element figure (empty-sosofo))
-(element date (process-children))
+(element date (literal (datestr (current-node))))
 (element span (process-children))
 (element emph (make element))
 (element ref (process-children))
 (element back (process-children))
 (element trailer (make element gi: "p" attributes: '(("align" "center"))))
-(element note (let ((nid (number->string (element-number))))
-                (make element 
-                  gi: "sup"
-                  (make element gi: "a"
-                        attributes: `(("name" ,(string-append "anchor." nid))
-                                      ("href" ,(string-append "#note." nid)))
-                        (literal nid)))))
+(element note (if (equal? (attribute-string "place") "inline")
+                  (make element gi: "small"
+                        (process-children))
+                  (let ((nid (number->string (element-number))))
+                    (make element 
+                      gi: "sup"
+                      (make element gi: "a"
+                            attributes: `(("name" ,(string-append "anchor." nid))
+                                          ("href" ,(string-append "#note." nid)))
+                            (literal nid))))))
 (default (node-list-error (string-append "Unknown element " (gi (current-node))) (current-node)))
 
 ]]>
