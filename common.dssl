@@ -44,9 +44,21 @@
   (select-each n (descendants node) 
                (not (node-list-empty? (attribute name n)))))
 
-(define (meta-tag name) (make empty-element gi: "meta"
+(define (list-of-attrs aname nl)
+  (define (conc l s) (let ((v (attribute-string aname s)))
+                       (if (string=? l "") v
+                           (string-append l ", " v))))
+  (node-list-reduce nl conc ""))
+
+(define (abbreviate-name n)
+  (define (abbrev i gn) (string-append i (string (string-ref (data gn) 0) #\. #\space)))
+  (string-append
+   (node-list-reduce (q-element '(persName forename) n) abbrev "")
+   (data (q-element '(persName surname) n))))
+
+(define (meta-tag name #!optional (n (current-node))) (make empty-element gi: "meta"
                               attributes: `(("name" ,name)
-                                            ("content" ,(data (current-node))))))
+                                            ("content" ,(data n)))))
 
 (define (paragraph #!optional (contents (empty-sosofo))) (make element gi: "p"
                                                                contents))

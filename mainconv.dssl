@@ -11,6 +11,37 @@
 
 <![CDATA[
 
+(define use-passport #t)
+
+
+(define (build-meta-tags nl)
+  (let ((titlenode (q-element '(fileDesc titleStmt title) nl))
+        (authornode (q-element '(fileDesc titleStmt author) nl))
+        (seriestitle (q-element '(fileDesc seriesStmt title) nl)))
+    (let ((maintitle (select-elements titlenode '(title (type "main")))))
+      (let ((titlestr (data (if (node-list-empty? maintitle) titlenode maintitle))))
+        (make sequence
+          (make element gi: "title"
+                (literal (data seriestitle) ". " (abbreviate-name authornode) ". " titlestr))
+          (meta-tag "DC.creator" (q-element '(fileDesc titleStmt principal) nl))
+          (meta-tag "DC.publisher" (q-element '(fileDesc publicationStmt publisher) nl))
+          (meta-tag "DC.rights" (q-element '(fileDesc publicationStmt availability) nl)))))))
+
+(define (build-passport-items)
+  (define (mkrow name val)
+    (make element gi: "tr"
+          (make element gi: "td"
+                (make element gi: "strong"
+                      (literal name ":")))
+          (make element gi: "td"
+                (literal val))))
+  (make sequence
+    (mkrow "Цит.по." (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt title))))))
+  
+
+(define (list-of-topics nl)
+  (list-of-attrs "value" (q-element '(span (type "theme")) nl)))
+
 (element tei.2 (make sequence
                  (make document-type
                    name: "html"
@@ -18,24 +49,24 @@
                  (make element gi: "html"
                        (make element gi: "head"
                              (make formatting-instruction data: "<!-- -head -->")
-                             (with-mode header 
-                               (process-first-descendant 'teiHeader))
+                             (build-meta-tags (select-elements (children (current-node)) 'teiHeader))
+                             (make empty-element gi: "meta"
+                                   attributes: `(("name" "DC.keywords")
+                                                 ("content" ,(list-of-topics (current-node)))))
                              (make formatting-instruction data: "<!-- +middle -->"))
                        (make element gi: "body"
-                             (make formatting-instruction data: "<!-- -middle -->"))
-                             (with-mode passport
-                               (make element gi: "table"
-                                     attributes: '(("class" "passport"))
-                                     (process-first-descendant 'teiHeader)
-                                     (process-node-list (q-element 'span))
-                                     (with-mode metrical
-                                       (process-first-descendant 'text))))
+                             (make formatting-instruction data: "<!-- -middle -->")
+                             (if use-passport
+                                 (make element gi: "table"
+                                       attributes: '(("class" "passport") ("align" "right"))
+                                       (build-passport-items))
+                                 (empty-sosofo))
                              (process-children)
                              (with-mode footer
                                (make sequence
                                  (ruled
                                   (process-node-list (q-element 'note)))))
-                             (make formatting-instruction data: "<!-- +foot -->"))))
+                             (make formatting-instruction data: "<!-- +foot -->")))))
 
 (mode header
   (element teiHeader (process-children))
@@ -89,66 +120,104 @@
   (element l (show-metrical))
   (default (process-children-nodata)))
 
+; (mode footer
+;   (element teiHeader (ruled
+;                       (make sequence
+;                         (process-matching-children 'profileDesc)
+;                         (process-matching-children 'fileDesc))))
+;   (element fileDesc (make sequence
+;                       (process-matching-children 'sourceDesc)
+;                       (process-matching-children 'publicationStmt 'notesStmt 'seriesStmt)                     
+;                       (process-first-descendant 'principal)))
+;   (element profileDesc (process-children))
+;   (element creation (process-children))
+;   (element (creation date) (make sequence
+;                              (emphstr "Год написания: ")
+;                              (process-children)))
+;   (element (sourceDesc biblFull sourceDesc)  (paragraph (make sequence
+;                                                           (emphstr "Первая публикация: ")
+;                                                           (process-children))))
+;   (element sourceDesc (paragraph (make sequence
+;                                     (emphstr "Цит. по: ")
+;                                     (process-children))))
+;   (element titleStmt (process-children))
+;   (element pubPlace (process-children))
+;   (element biblFull (process-children))
+;   (element publicationStmt (process-children))
+;   (element notesStmt (process-children))
+;   (element (notesStmt note) (process-children))
+;   (element (biblFull publicationStmt) 
+;     (make sequence
+;       (process-matching-children 'pubPlace)
+;       (process-matching-children 'publisher)
+;       (process-matching-children 'date)
+;       (process-matching-children 'distributor)))
+;   (element publisher (paragraph (process-children)))
+;   (element (biblFull publicationStmt publisher) (make sequence
+;                                                   (process-children)
+;                                                   (literal ", ")))
+;   (element (biblFull publicationStmt pubPlace) (make sequence
+;                                                  (process-children)
+;                                                  (literal ", ")))
+;   (element distributor (make sequence
+;                          (literal "(")
+;                          (process-children)
+;                          (literal ")")))
+;   (element editor (make sequence
+;                     (literal "(ред. ")
+;                     (process-children)
+;                     (literal ")")))
+;   (element availability (process-children))
+;   (element (biblFull seriesStmt) (make sequence 
+;                                    (literal " // ")
+;                                    (process-children)))
+;   (element seriesStmt (paragraph (process-children)))
+;   (element title (make sequence 
+;                    (process-children)
+;                    (literal ". ")))
+;   (element principal (paragraph
+;                       (make sequence
+;                         (emphstr "Ответственный за разметку: ")
+;                         (process-children))))
+;   (element note (if (have-ancestor? "teiHeader")
+;                     (empty-sosofo)
+;                     (paragraph
+;                      (make sequence
+;                        (let ((nid (number->string (element-number))))
+;                          (make element 
+;                            gi: "sup"
+;                            (make element gi: "a"
+;                                  attributes: `(("name" ,(string-append "note." nid))
+;                                                ("href" ,(string-append "#anchor." nid)))
+;                                  (literal nid))))
+;                        (process-children)
+;                        (case (attribute-string "resp")
+;                          (("editor") (emphstr " (прим. ред.)"))
+;                          (("author") (emphstr " (прим. автора)"))
+;                          (else (empty-sosofo)))))))
+;   (element textClass (process-children))
+;   (element catRef (if (string=? (attribute-string "scheme") "KIND")
+;                       (paragraph
+;                        (make sequence
+;                          (emphstr "Литературный род: ")
+;                          (process-element-with-id (attribute-string "target"))))
+;                       (empty-sosofo)))
+;   (element span (case (attribute-string "type")
+;                   (("theme") (paragraph 
+;                              (make sequence
+;                               (emphstr "Тема: ")
+;                               (literal (attribute-string "value")))))
+;                   (("addressee") (paragraph 
+;                                  (make sequence
+;                                    (emphstr "Адресат: ")
+;                                    (literal (attribute-string "value")))))
+;                   (else (empty-sosofo))))
+;   (element category (process-children))
+;   (element catDesc (process-children))
+;   (element name (process-children)))
+
 (mode footer
-  (element teiHeader (ruled
-                      (make sequence
-                        (process-matching-children 'profileDesc)
-                        (process-matching-children 'fileDesc))))
-  (element fileDesc (make sequence
-                      (process-matching-children 'sourceDesc)
-                      (process-matching-children 'publicationStmt 'notesStmt 'seriesStmt)                     
-                      (process-first-descendant 'principal)))
-  (element profileDesc (process-children))
-  (element creation (process-children))
-  (element (creation date) (make sequence
-                             (emphstr "Год написания: ")
-                             (process-children)))
-  (element (sourceDesc biblFull sourceDesc)  (paragraph (make sequence
-                                                          (emphstr "Первая публикация: ")
-                                                          (process-children))))
-  (element sourceDesc (paragraph (make sequence
-                                    (emphstr "Цит. по: ")
-                                    (process-children))))
-  (element titleStmt (process-children))
-  (element pubPlace (process-children))
-  (element biblFull (process-children))
-  (element publicationStmt (process-children))
-  (element notesStmt (process-children))
-  (element (notesStmt note) (process-children))
-  (element (biblFull publicationStmt) 
-    (make sequence
-      (process-matching-children 'pubPlace)
-      (process-matching-children 'publisher)
-      (process-matching-children 'date)
-      (process-matching-children 'distributor)))
-  (element publisher (paragraph (process-children)))
-  (element (biblFull publicationStmt publisher) (make sequence
-                                                  (process-children)
-                                                  (literal ", ")))
-  (element (biblFull publicationStmt pubPlace) (make sequence
-                                                 (process-children)
-                                                 (literal ", ")))
-  (element distributor (make sequence
-                         (literal "(")
-                         (process-children)
-                         (literal ")")))
-  (element editor (make sequence
-                    (literal "(ред. ")
-                    (process-children)
-                    (literal ")")))
-  (element availability (process-children))
-  (element (biblFull seriesStmt) (make sequence 
-                                   (literal " // ")
-                                   (process-children)))
-  (element seriesStmt (paragraph (process-children)))
-  (element title (make sequence 
-                   (process-children)
-                   (literal ". ")))
-  (element principal (paragraph
-                      (make sequence
-                        (emphstr "Ответственный за разметку: ")
-                        (process-children))))
-  (element note (if (have-ancestor? "teiHeader")
+  (element note (if (equal? (attribute-string "place") "inline")
                     (empty-sosofo)
                     (paragraph
                      (make sequence
@@ -163,27 +232,8 @@
                        (case (attribute-string "resp")
                          (("editor") (emphstr " (прим. ред.)"))
                          (("author") (emphstr " (прим. автора)"))
-                         (else (empty-sosofo)))))))
-  (element textClass (process-children))
-  (element catRef (if (string=? (attribute-string "scheme") "KIND")
-                      (paragraph
-                       (make sequence
-                         (emphstr "Литературный род: ")
-                         (process-element-with-id (attribute-string "target"))))
-                      (empty-sosofo)))
-  (element span (case (attribute-string "type")
-                  (("theme") (paragraph 
-                             (make sequence
-                              (emphstr "Тема: ")
-                              (literal (attribute-string "value")))))
-                  (("addressee") (paragraph 
-                                 (make sequence
-                                   (emphstr "Адресат: ")
-                                   (literal (attribute-string "value")))))
-                  (else (empty-sosofo))))
-  (element category (process-children))
-  (element catDesc (process-children))
-  (element name (process-children)))
+                         (else (empty-sosofo))))))))
+
 
 (element teiHeader (make sequence 
                      (process-first-descendant 'fileDesc)))
