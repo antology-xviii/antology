@@ -54,6 +54,9 @@
                                (string-append l ", " v)))))
   (node-list-reduce nl conc ""))
 
+(define (get-ref-data refattr n)
+  (data (element-with-id (attribute-string refattr n) n)))
+
 (define (abbreviate-name n)
   (define (abbrev i gn) (string-append i (string (string-ref (data gn) 0) #\. #\space)))
   (string-append
