@@ -35,10 +35,13 @@
     (if (null? list)
         obj
         (loop (cdr list) (sosofo-append obj 
-                                        (make empty-element gi: "img"
-                                              attributes: `(("src" ,(string-append "/images/figures/" (caar list)))
-                                                            ("alt" ,(cdar list))
-                                                            ("align" "right"))))))))
+                                        (make element gi: "table"
+                                              attributes: '("align" "right")
+                                              (make element gi: "tr"
+                                                    (make element gi: "td"
+                                                          (make empty-element gi: "img"
+                                                                attributes: `(("src" ,(string-append "/images/figures/" (caar list)))
+                                                                              ("alt" ,(cdar list))))))))))))
                                                                
                                              
 (define (kind-descr)
