@@ -11,26 +11,7 @@ function findfield (start) {
     return ""
 }
 
-$1 ~ /#/ {
-    frag = findfield("fragment::");
-    if (frag)
-    {
-        gsub(/@/, "\\&", frag);
-        basefile = $1;
-        sub(/#[^#]*$/, "", basefile);
-        chunk = $1;
-        sub(/^.*#/, "", chunk);
-        ref = findfield("ref::");
-        print "<li>" ref;
-        printf "<a href=\"/cgi-bin/gettext.cgi/%s#%s\">...%s...</a>\n", basefile, chunk, frag;
-    }
-    next
-}
-
-
-{
-    author = findfield("author::");
-    title = findfield("title::");
+function dump() {
     if (!anything_found)
     {
         print "<strong>Найденные тексты:</strong>";
@@ -42,14 +23,52 @@ $1 ~ /#/ {
     {
         print "</ul>"
     }
-    gsub(/@/, "\\&", title);
-    gsub(/@/, "\\&", author);
-    author = gensub(/^(.)[^&]*&32;(.)[^&]*&32;/, "\\1. \\2. ", 1, author);
-    printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s\">%s</a>\n", author, $1, title;
-    print "<ul>"
+    hilite = "";
+    for (f in FRAGS)
+    {
+        sub(/^NAME/, "", f);
+        hilite = hilite (hilite ? "+" : "") f;
+    }
+    if (hilite)
+        hilite = "?hilite=" hilite
+    printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s%s\">%s</a>\n", AUTHOR, BASEFILE, hilite, TITLE;
+    print "<ul>";
+    for (f in FRAGS) {
+        print "<li>" REFS[f];
+        printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", BASEFILE, hilite, f, FRAGS[f];
+    }
+    
+    delete REFS;
+    delete FRAGS;
+}
+
+
+
+$1 ~ /#/ {
+    frag = findfield("fragment::");
+    if (frag)
+    {
+        gsub(/@/, "\\&", frag);
+        sub(/^.*#/, "", $1);
+        REFS[$1] = findfield("ref::");
+        FRAGS[$1] = frag;
+    }
+    next
+}
+
+
+{
+    if (AUTHOR) dump();
+    AUTHOR = findfield("author::");
+    TITLE = findfield("title::");
+    gsub(/@/, "\\&", TITLE);
+    gsub(/@/, "\\&", AUTHOR);
+    AUTHOR = gensub(/^(.)[^&]*&32;(.)[^&]*&32;/, "\\1. \\2. ", 1, AUTHOR);
+    BASEFILE = $1;
 }
 
 END {
+    if (AUTHOR) dump();
     if (anything_found)
         print "</ul>";
     else
