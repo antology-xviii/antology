@@ -40,11 +40,13 @@
 (define (process-children-nodata) (process-node-list 
                                    (select-by-missing-property (children (current-node)) 'char)))
 
+(define (has-attribute? attr #!optional (node (current-node)))
+  (let ((al (attributes node)))
+    (and (named-node-list? al) 
+         (not (node-list-empty? (named-node attr al))))))
+
 (define (descendants-with-attr attr #!optional (node (current-node)))
-  (select-each n (descendants node) 
-               (let ((al (attributes n)))
-                 (and (named-node-list? al) 
-                      (not (node-list-empty? (named-node attr al)))))))
+  (select-each n (descendants node) (has-attribute? attr n)))
 
 (define (list-of-attrs aname nl)
   (define (conc l s) (let ((v (attribute-string aname s)))
@@ -53,6 +55,20 @@
                            (if (string=? l "") v
                                (string-append l ", " v)))))
   (node-list-reduce nl conc ""))
+
+(define (map-attr-value proc aname nl)
+  (if (node-list-empty? nl)
+      #f
+      (map-constructor (lambda () (proc (attribute-string aname))) nl)))
+
+(define (map-attr-href prefix aname nl)
+  (map-attr-value (lambda (v) 
+                    (if v
+                        (make element gi: "a"
+                              attributes: `(("href" ,(string-append prefix (urlencode v))))
+                              (literal v))
+                        (empty-sosofo)))
+                  aname nl))
 
 (define (get-ref-data refattr n)
   (data (element-with-id (attribute-string refattr n) n)))

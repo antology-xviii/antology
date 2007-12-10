@@ -28,12 +28,24 @@
           (meta-tag "DC.rights" (q-element '(fileDesc publicationStmt availability) nl)))))))
 
 (define (kind-descr)
-  (let ((class (q-element '(textClass catRef (scheme "kind")))))
-    (node-list-reduce class (lambda (v k) (get-ref-data "target" k)) "")))
+  (let ((kind (let ((class (q-element '(textClass catRef (scheme "kind")))))
+                (node-list-reduce class (lambda (v k) (get-ref-data "target" k)) #f))))
+    (if kind (literal kind) #f)))
+
+(define (datestr nl)
+  (let ((prefix (case (attribute-string "certainty" nl)
+                  (("ca") "около ")
+                  (("before") "до ")
+                  (("after") "после ")
+                  (else "")))
+        (val (data nl)))
+    (if (string=? val "") 
+        ""
+        (string-append prefix val " г."))))
 
 (define (build-passport-items)
   (define (mkrow name val)
-    (if (or (not val) (string=? val ""))
+    (if (not val)
         (empty-sosofo)
         (make element gi: "tr"
               (make element gi: "td"
@@ -42,13 +54,40 @@
                           (literal name ":")))
               (make element gi: "td"
                     attributes: '(("valign" "top"))
-                    (literal val)))))
+                    val))))
   (make sequence
-    (mkrow "Цит.по." (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt title))))
+    (mkrow "Цит.по." (make sequence
+                       (literal (string-append
+                                 (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt title))) ". "
+                                 (let ((editor (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt editor)))))
+                                   (if (string=? editor "") "" (string-append "Ред. " editor ". ")))
+                                 (data (q-element '(teiHeader fileDesc sourceDesc biblFull publicationStmt pubPlace)))
+                                 ", "
+                                 (data (q-element '(teiHeader fileDesc sourceDesc biblFull publicationStmt publisher)))
+                                 ", "
+                                 (data (q-element '(teiHeader fileDesc sourceDesc biblFull publicationStmt date)))
+                                 ". "
+                                 (let ((series (data (q-element '(teiHeader fileDesc sourceDesc biblFull seriesStmt title)))))
+                                 (if (string=? series "") "" (string-append "(" series "). ")))
+                                 (data (q-element '(teiHeader fileDesc sourceDesc biblFull notesStmt)))))
+                       (let ((distrib (q-element '(teiHeader fileDesc sourceDesc biblFull publicationStmt distributor))))
+                         (if (node-list-empty? distrib)
+                             (empty-sosofo)
+                             (make sequence
+                               (literal " [")
+                               (process-node-list (children distrib))
+                               (literal "]"))))))                                
     (mkrow "Лит.род." (kind-descr))
-    (mkrow "Метрическая схема" (list-of-attrs "met" (descendants-with-attr "met")))
-    (mkrow "Рифмовка" (list-of-attrs "rhyme" (descendants-with-attr "rhyme")))
-    (mkrow "Темы" (list-of-topics (current-node)))))
+    (mkrow "Год написания" (literal (datestr (q-element '(profileDesc creation date)))))
+    (mkrow "Место написания" (literal (data (q-element '(profileDesc creation name (type "place"))))))
+    (mkrow "Метрическая схема" (map-attr-href "/cgi-bin/results.cgi?mscheme=" "met"
+                                     (descendants-with-attr "met")))
+    (mkrow "Рифмовка" (map-attr-href "/cgi-bin/results.cgi?rhyme=" "rhyme"
+                                     (descendants-with-attr "rhyme")))
+    (mkrow "Адресат" (map-attr-href "/cgi-bin/results.cgi?addressee=" "value"
+                                 (q-element '(span (type "addressee")) (current-node))))
+    (mkrow "Темы" (map-attr-href "/cgi-bin/results.cgi?theme=" "value"
+                                 (q-element '(span (type "theme")) (current-node))))))
   
 
 (define (list-of-topics nl)
@@ -246,6 +285,12 @@
                          (("author") (emphstr " (прим. автора)"))
                          (else (empty-sosofo))))))))
 
+
+;(query (descendants-with-attr "corresp") (let ((prev (ipreced (current-node))))
+;                                           (if (has-attribute? "corresp" prev)
+;                                               (empty-sosofo)
+;                                               (make element gi: "table"
+;                                                     (map-constructor 
 
 (element teiHeader (make sequence 
                      (process-first-descendant 'fileDesc)))
