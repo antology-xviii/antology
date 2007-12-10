@@ -77,7 +77,7 @@
                                (literal " [")
                                (process-node-list (children distrib))
                                (literal "]"))))))
-    (mkrow "Первая публикация:" (let ((orig (q-element '(teiHeader fileDesc sourceDesc biblFull sourceDesc biblFull))))
+    (mkrow "Первая публикация" (let ((orig (q-element '(teiHeader fileDesc sourceDesc biblFull sourceDesc biblFull))))
                                   (if (node-list-empty? orig) 
                                       #f
                                       (make sequence
@@ -87,7 +87,7 @@
                                         (literal (data (q-element '(publicationStmt publisher) orig)))
                                         (literal ", ")
                                         (literal (datestr (q-element '(publicationStmt date) orig)))))))
-    (mkrow "Первая постановка:" (let ((perf (q-element '(performance p date))))
+    (mkrow "Первая постановка" (let ((perf (q-element '(performance p date))))
                                   (if (node-list-empty? perf)
                                       #f
                                       (literal (datestr perf)))))

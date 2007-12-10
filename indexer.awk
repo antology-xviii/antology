@@ -49,7 +49,7 @@ function indexer() {
                     nsub = gsub(searchre, "<strong>&</strong>", workspace);
                     if (nsub > 0)
                     {
-                        print SGML_FILE "#name" indices[x] ":", "+fragment::" encode_tag_val(workspace)
+                        print SGML_FILE "#NAME" indices[x] ":", "+fragment::" encode_tag_val(workspace)
                         x += nsub;
                     }
                 }
@@ -95,9 +95,9 @@ function indexer() {
     {
         nameref = encode_tag_val(has_attribute("REG") ? attribute("REG") : body());
         print SGML_FILE ":", "+name::" attribute("TYPE") "::" nameref;
-        print SGML_FILE "#name" ++nameidx ":", "+name::" attribute("TYPE") "::" nameref;
+        print SGML_FILE "#NAME" ++nameidx ":", "+name::" attribute("TYPE") "::" nameref;
         if (reference)
-            print SGML_FILE "#name" nameidx ":", "+ref::" reference;
+            print SGML_FILE "#NAME" nameidx ":", "+ref::" reference;
         if (SGML_PATH ~ /\<SALUTE\>/)
             print SGML_FILE ":", "+annotation::addressee::" nameref;
         else if (SGML_PATH ~ /\<CREATION\>/ || SGML_PATH ~ /\<DATELINE\>/)
