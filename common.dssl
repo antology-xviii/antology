@@ -42,12 +42,16 @@
 
 (define (descendants-with-attr attr #!optional (node (current-node)))
   (select-each n (descendants node) 
-               (not (node-list-empty? (attribute name n)))))
+               (let ((al (attributes n)))
+                 (and (named-node-list? al) 
+                      (not (node-list-empty? (named-node attr al)))))))
 
 (define (list-of-attrs aname nl)
   (define (conc l s) (let ((v (attribute-string aname s)))
-                       (if (string=? l "") v
-                           (string-append l ", " v))))
+                       (if (not v)
+                           l
+                           (if (string=? l "") v
+                               (string-append l ", " v)))))
   (node-list-reduce nl conc ""))
 
 (define (abbreviate-name n)

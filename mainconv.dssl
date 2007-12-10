@@ -31,12 +31,17 @@
   (define (mkrow name val)
     (make element gi: "tr"
           (make element gi: "td"
+                attributes: '(("valign" "top"))
                 (make element gi: "strong"
                       (literal name ":")))
           (make element gi: "td"
+                attributes: '(("valign" "top"))
                 (literal val))))
   (make sequence
-    (mkrow "Цит.по." (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt title))))))
+    (mkrow "Цит.по." (data (q-element '(teiHeader fileDesc sourceDesc biblFull titleStmt title))))
+    (mkrow "Метрическая схема" (list-of-attrs "met" (descendants-with-attr "met")))
+    (mkrow "Рифмовка" (list-of-attrs "rhyme" (descendants-with-attr "rhyme")))
+    (mkrow "Темы" (list-of-topics (current-node)))))
   
 
 (define (list-of-topics nl)
