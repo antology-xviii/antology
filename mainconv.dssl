@@ -307,18 +307,7 @@
 
 (element xref (make element gi: "a"
                     attributes: `(("href" ,(fsid->url (entity-generated-system-id (attribute-string "doc")))))))
-(element figure (make element gi: "table"
-                      attributes: '(("border" "1") ("width" "80%"))
-                      (make element gi: "tr"
-                            (make element gi: "td"
-                                  (make empty-element gi: "img"
-                                        attributes: 
-                                        `(("width" "100%")
-                                          ("src" ,(fsid->url 
-                                                   (entity-generated-system-id 
-                                                    (attribute-string "entity"))))))))
-                      (make element gi: "caption")))
-(element (figure head) (process-children))
+(element figure (empty-sosofo))
 (element date (process-children))
 (element span (process-children))
 (element emph (make element))
