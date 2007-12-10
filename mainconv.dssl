@@ -121,8 +121,7 @@
                              (make element gi: "div"
                                    attributes: '(("align" "right"))
                                    (literal "Логическая разметка: ")
-                                   (make element gi: "emph"
-                                         (literal (data (q-element '(teiHeader fileDesc titleStmt principal))))))
+                                   (emphstr (data (q-element '(teiHeader fileDesc titleStmt principal)))))
                              (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
 
 (mode header
@@ -305,7 +304,7 @@
                      (process-matching-children 'author)
                      (process-matching-children 'title)))
 (element author (paragraph
-                 (make element gi: "emph")))
+                 (make element gi: "em")))
 (element (author persName) (process-children))
 (element forename (space-after))
 (element surname (space-after))
@@ -333,7 +332,7 @@
              (literal "\"")
              (process-children)
              (literal "\"")))
-(element quote (make element gi: "emph"))
+(element quote (make element gi: "em"))
 (element cit (process-children))
 (element (epigraph cit bibl) (make sequence
                                (make empty-element gi: "br")
@@ -351,7 +350,7 @@
 (element sp (make element gi: "p"))
 (element speaker (make element gi: "strong"))
 (element stage (case (attribute-string "type")
-                 (("delivery") (make element gi: "emph"))
+                 (("delivery") (make element gi: "em"))
                  (else (centered))))
 (element move (empty-sosofo))
 (element castList (make sequence
