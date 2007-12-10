@@ -48,14 +48,14 @@
                    public-id: "-//W3C//DTD HTML 4.01 Transitional//EN")
                  (make element gi: "html"
                        (make element gi: "head"
-                             (make formatting-instruction data: "<!-- -head -->")
+                             (make formatting-instruction data: "\carriage-return;<!-- -head -->\carriage-return;")
                              (build-meta-tags (select-elements (children (current-node)) 'teiHeader))
                              (make empty-element gi: "meta"
                                    attributes: `(("name" "DC.keywords")
                                                  ("content" ,(list-of-topics (current-node)))))
-                             (make formatting-instruction data: "<!-- +middle -->"))
+                             (make formatting-instruction data: "\carriage-return;<!-- +middle -->\carriage-return;"))
                        (make element gi: "body"
-                             (make formatting-instruction data: "<!-- -middle -->")
+                             (make formatting-instruction data: "\carriage-return;<!-- -middle -->\carriage-return;")
                              (if use-passport
                                  (make element gi: "table"
                                        attributes: '(("class" "passport") ("align" "right"))
@@ -66,7 +66,7 @@
                                (make sequence
                                  (ruled
                                   (process-node-list (q-element 'note)))))
-                             (make formatting-instruction data: "<!-- +foot -->")))))
+                             (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
 
 (mode header
   (element teiHeader (process-children))
