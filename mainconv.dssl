@@ -78,8 +78,8 @@
                                (process-node-list (children distrib))
                                (literal "]"))))))                                
     (mkrow "Лит.род." (kind-descr))
-    (mkrow "Год написания" (literal (datestr (q-element '(profileDesc creation date)))))
-    (mkrow "Место написания" (literal (data (q-element '(profileDesc creation name (type "place"))))))
+    (mkrow "Год написания" (literal-or-none (datestr (q-element '(profileDesc creation date)))))
+    (mkrow "Место написания" (literal-or-none (data (q-element '(profileDesc creation name (type "place"))))))
     (mkrow "Метрическая схема" (map-attr-href "/cgi-bin/results.cgi?mscheme=" "met"
                                      (descendants-with-attr "met")))
     (mkrow "Рифмовка" (map-attr-href "/cgi-bin/results.cgi?rhyme=" "rhyme"
@@ -117,6 +117,12 @@
                                (make sequence
                                  (ruled
                                   (process-node-list (q-element 'note)))))
+                             (make formatting-instruction data: "\carriage-return;<!-- split -->\carriage-return;")
+                             (make element gi: "div"
+                                   attributes: '(("align" "right"))
+                                   (literal "Логическая разметка: ")
+                                   (make element gi: "emph"
+                                         (literal (data (q-element '(teiHeader fileDesc titleStmt principal))))))
                              (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
 
 (mode header

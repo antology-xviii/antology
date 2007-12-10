@@ -129,6 +129,9 @@
 (define (emphstr s) (make element gi: "em"
                           (literal s)))
 
+(define (literal-or-none s)
+  (if (string=? s "") #f (literal s)))
+
 (define (string-skip-until s c) 
   (let ((len (string-length s)))
     (let loop ((idx 0))
