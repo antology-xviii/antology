@@ -34,7 +34,7 @@
   (let loop ((list imlist) (obj (empty-sosofo)))
     (if (null? imlist)
         obj
-        (loop (cdr imlist) (sosofo-append obj 
+        (loop (cdr list) (sosofo-append obj 
                                           (make empty-element gi: "img"
                                                 attributes: `(("src" ,(string-append "/images/figures/" (caar imlist)))
                                                               ("alt" ,(cdar imlist))
