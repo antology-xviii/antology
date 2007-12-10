@@ -13,6 +13,9 @@
 
 (define use-passport #t)
 (define hilite-names '())
+(define leading-pictures '())
+(define inline-pictures '())
+(define trailing-pictures '())
 
 (define (build-meta-tags nl)
   (let ((titlenode (q-element '(fileDesc titleStmt title) nl))
@@ -26,6 +29,17 @@
           (meta-tag "DC.creator" (q-element '(fileDesc titleStmt principal) nl))
           (meta-tag "DC.publisher" (q-element '(fileDesc publicationStmt publisher) nl))
           (meta-tag "DC.rights" (q-element '(fileDesc publicationStmt availability) nl)))))))
+
+(define (build-images imlist)
+  (let loop ((list imlist) (obj (empty-sosofo)))
+    (if (null? imlist)
+        obj
+        (loop (cdr imlist) (sosofo-append obj 
+                                          (make empty-element gi: "img"
+                                                attributes: `(("src" ,(string-append "/images/figures/" (caar imlist)))
+                                                              ("alt" ,(cdar imlist))
+                                                              ("align" "right"))))))))
+                                                               
 
 (define (kind-descr)
   (let ((kind (let ((class (q-element '(textClass catRef (scheme "kind")))))
@@ -312,6 +326,7 @@
 ;                                                     (map-constructor 
 
 (element teiHeader (make sequence 
+                     (build-images leading-pictures)
                      (process-first-descendant 'fileDesc)))
 (element fileDesc (process-first-descendant 'titleStmt))
 (element titleStmt (make sequence
@@ -329,9 +344,12 @@
 (element div3 (division))
 (element div (division))
 (element head (header))
-(element text (anchored #f #f (ruled)))
+(element text (make sequence
+                (build-images inline-pictures)
+                (anchored #f #f)
+                (build-images trailing-pictures)))
 (element front (process-children))
-(element body (anchored #f #f (ruled)))
+(element body (anchored #f #f))
 (element name (let ((contents (anchored #t #t)))
                 (if (member (element-number (current-node)) hilite-names)
                     (make element gi: "span"
