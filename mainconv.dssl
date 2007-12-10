@@ -327,7 +327,9 @@
 (element l (make sequence
              (process-children)
              (make empty-element gi: "br")))
-(element p (make element))
+(element p (if (and (have-ancestor? "sp") (first-sibling?))
+               (process-children)
+               (make element)))
 (element q (make sequence
              (literal "\"")
              (process-children)

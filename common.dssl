@@ -57,17 +57,22 @@
   (node-list-reduce nl conc ""))
 
 (define (map-attr-value proc aname nl)
-  (if (node-list-empty? nl)
-      #f
-      (map-constructor (lambda () (proc (attribute-string aname))) nl)))
+  (node-list-reduce nl (lambda (s obj)
+                         (let ((v (attribute-string aname obj)))
+                           (cond
+                            ((not v) s)
+                            ((not s) (proc #t v))
+                            (else (sosofo-append s (proc #f v)))))) #f))
+                               
 
 (define (map-attr-href prefix aname nl)
-  (map-attr-value (lambda (v) 
-                    (if v
-                        (make element gi: "a"
-                              attributes: `(("href" ,(string-append prefix (urlencode v))))
-                              (literal v))
-                        (empty-sosofo)))
+  (map-attr-value (lambda (f v) 
+                    (let ((href (make element gi: "a"
+                                      attributes: `(("href" ,(string-append prefix (urlencode v))))
+                                      (literal v))))
+                      (if f href (make sequence
+                                   (literal ", ")
+                                   href))))
                   aname nl))
 
 (define (get-ref-data refattr n)
