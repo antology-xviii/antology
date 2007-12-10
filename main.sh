@@ -1,6 +1,7 @@
 #! /bin/bash
 
 TAGCOLL="$1"
+PEOPLECOLL="$3"
 CONCEPTFILE="www/concept.html"
 
 echo "<html>"
@@ -12,17 +13,18 @@ echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
 echo "<table>"
-echo "<tr><td valign=\"top\" width=\"75%\">"
+echo "<tr><td valign=\"top\" width=\"50%\">"
 echo "<H2 align=left>Оглавление</H2>"
-./contents.sh "$TAGCOLL"
+./contents.sh "$TAGCOLL" "$2" "$PEOPLECOLL"
 
 echo "<td valign=\"top\">"
 echo "<h2 align=right>Концепция</h2>"
 
-sed '/<!-- +headline -->/,/<!-- -headline -->/!d' $CONCEPTFILE
-echo "..."
+sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
+s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $CONCEPTFILE
 echo "<div align=right><a href=\"/cgi-bin/static.cgi/$CONCEPTFILE\">Читать текст концепции целиком &gt;&gt;</a></div>"
 
+echo "</td></tr>"
 echo "</table>"
 echo "<!-- +foot -->"
 echo "</html>"

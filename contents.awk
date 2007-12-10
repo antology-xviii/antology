@@ -14,7 +14,7 @@ BEGIN { FS="[:,][[:space:]]+" }
 
     if (FNR == 1)
        print "<table id=masterdiv>";
-    print "<tr><td valign=\"top\""
+    print "<tr><td valign=\"top\" width=\"85%\">"
     print "<span class=\"menutitle\" onClick=\"SwitchMenu('sub" FNR "')\">" $1 "</span>";
 
     

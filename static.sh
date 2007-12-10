@@ -1,3 +1,3 @@
 #! /bin/bash
 
-exec cat "$2"
+exec cat ".$2"
