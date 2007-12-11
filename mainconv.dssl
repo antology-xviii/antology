@@ -286,10 +286,12 @@
                        (let ((ncorr (+ 1 (node-list-length correls))))
                          (make element gi: "table"
                                attributes: '(("class" "correspondence"))
-                               (enrow (process-children))
-                               (make element gi: "td"
-                                     attributes: `(("rowspan" ,(number->string ncorr)))
-                                     (iterate-element ncorr "big" (literal "}")))
+                               (make element gi: "tr"
+                                     (make element gi: "td"
+                                           (process-children))
+                                     (make element gi: "td"
+                                           attributes: `(("rowspan" ,(number->string ncorr)))
+                                           (iterate-element ncorr "big" (literal "}"))))
                                (map-constructor (lambda () (enrow (process-children))) correls))))))))
 
 (element speaker (make element gi: "strong"))
