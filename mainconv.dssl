@@ -30,18 +30,23 @@
           (meta-tag "DC.publisher" (q-element '(fileDesc publicationStmt publisher) nl))
           (meta-tag "DC.rights" (q-element '(fileDesc publicationStmt availability) nl)))))))
 
-(define (build-images imlist)
-  (let loop ((list imlist) (obj (empty-sosofo)))
-    (if (null? list)
-        obj
-        (loop (cdr list) (sosofo-append obj 
-                                        (make element gi: "table"
-                                              attributes: '("align" "right")
+(define (build-images imlist #!optional (valign #f))
+   (if (null? imlist)
+	(empty-sosofo)
+	(make element gi: "p"
+        (make element gi: "table"
+                      attributes: `(("align" "right") ("class" "image"))
+           (let loop ((list imlist) (obj (empty-sosofo)))
+               (if (null? list)
+                  obj
+                  (loop (cdr list) (sosofo-append obj 
                                               (make element gi: "tr"
                                                     (make element gi: "td"
+							  attributes: '(("align" "center") ("valign" "center"))
                                                           (make empty-element gi: "img"
-                                                                attributes: `(("src" ,(string-append "/images/figures/" (caar list)))
-                                                                              ("alt" ,(cdar list))))))))))))
+                                                                attributes: `(("width" "220")
+								  	      ("src" ,(string-append "/images/figures/" (caar list)))
+                                                                              ("alt" ,(cdar list)))))))))))))
                                                                
                                              
 (define (kind-descr)
@@ -328,9 +333,7 @@
 ;                                               (make element gi: "table"
 ;                                                     (map-constructor 
 
-(element teiHeader (make sequence 
-                     (build-images leading-pictures)
-                     (process-first-descendant 'fileDesc)))
+(element teiHeader (process-first-descendant 'fileDesc))
 (element fileDesc (process-first-descendant 'titleStmt))
 (element titleStmt (make sequence
                      (process-matching-children 'author)
@@ -348,9 +351,9 @@
 (element div (division))
 (element head (header))
 (element text (make sequence
-                (build-images inline-pictures)
+		(build-images (append leading-pictures inline-pictures))
                 (anchored #f #f)
-                (build-images trailing-pictures)))
+                (build-images trailing-pictures "bottom")))
 (element front (process-children))
 (element body (anchored #f #f))
 (element name (let ((contents (anchored #t #t)))
