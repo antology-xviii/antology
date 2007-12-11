@@ -211,7 +211,7 @@
                 (if (null? trailing-pictures)
                     (empty-sosofo)
                     (make element gi: "table"
-                          attributes: '(("align" "right"))
+                          attributes: '(("align" "center"))
                           (build-images trailing-pictures)))))
 (element front (process-children))
 (element body (anchored #f #f))
