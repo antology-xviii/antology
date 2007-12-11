@@ -30,23 +30,22 @@
           (meta-tag "DC.publisher" (q-element '(fileDesc publicationStmt publisher) nl))
           (meta-tag "DC.rights" (q-element '(fileDesc publicationStmt availability) nl)))))))
 
-(define (build-images imlist #!optional (valign #f))
+(define (build-images imlist)
    (if (null? imlist)
 	(empty-sosofo)
-	(make element gi: "p"
-        (make element gi: "table"
-                      attributes: `(("align" "right") ("class" "image"))
-           (let loop ((list imlist) (obj (empty-sosofo)))
-               (if (null? list)
-                  obj
-                  (loop (cdr list) (sosofo-append obj 
-                                              (make element gi: "tr"
-                                                    (make element gi: "td"
-							  attributes: '(("align" "center") ("valign" "center"))
-                                                          (make empty-element gi: "img"
-                                                                attributes: `(("width" "220")
-								  	      ("src" ,(string-append "/images/figures/" (caar list)))
-                                                                              ("alt" ,(cdar list)))))))))))))
+    (let loop ((list imlist) (obj (empty-sosofo)))
+      (if (null? list)
+          obj
+          (loop (cdr list) (sosofo-append obj 
+                                          (make element gi: "tr"
+                                                (make element gi: "td"
+                                                      attributes: '(("align" "center") ("valign" "center"))
+                                                      (make empty-element gi: "img"
+                                                            attributes: `(("width" "220")
+                                                                          ("src" ,(string-append "/images/figures/" (caar list)))
+                                                                          ("alt" ,(cdar list))))
+                                                      (make empty-element gi: "br")
+                                                      (literal (cdar list))))))))))
                                                                
                                              
 (define (kind-descr)
@@ -143,11 +142,17 @@
                              (make formatting-instruction data: "\carriage-return;<!-- +middle -->\carriage-return;"))
                        (make element gi: "body"
                              (make formatting-instruction data: "\carriage-return;<!-- -middle -->\carriage-return;")
-                             (if use-passport
-                                 (make element gi: "table"
-                                       attributes: '(("class" "passport") ("align" "right"))
-                                       (build-passport-items))
-                                 (empty-sosofo))
+                             (make element gi: "table"
+                                   attributes: '(("align" "right"))
+                                   (if use-passport
+                                       (make element gi: "tr"
+                                             (make element gi: "td"
+                                                   (make element gi: "table"
+                                                         attributes: '(("class" "passport"))
+                                                         (build-passport-items))))
+                                       (empty-sosofo))
+                                   (build-images leading-pictures)
+                                   (build-images inline-pictures))
                              (process-children)
                              (with-mode footer
                                (make sequence
@@ -159,154 +164,6 @@
                                    (literal "Логическая разметка: ")
                                    (emphstr (data (q-element '(teiHeader fileDesc titleStmt principal)))))
                              (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
-
-(mode header
-  (element teiHeader (process-children))
-  (element fileDesc (process-children))
-  (element titleStmt (make sequence
-                       (make element gi: "title"
-                             (process-first-descendant 'author)
-                             (process-first-descendant 'title))
-                       (process-first-descendant 'principal)))
-  (element author (make sequence
-                    (process-children-trim)
-                    (literal ". ")))
-  (element persName (process-children-trim))
-  (element forename (literal (substring (data (current-node)) 0 1) ". "))
-  (element surname (literal (data (current-node))))
-  (element title (process-children))
-  (element publicationStmt (process-children))
-  (element principal (meta-tag "DC.creator"))
-  (element publisher (meta-tag "DC.publisher"))
-  (element distributor (meta-tag "DC.distributor"))
-  (element availability (meta-tag "DC.rights"))
-  (element p (process-children))
-  (element name (process-children))
-  (default (empty-sosofo)))
-
-(define (show-metrical) (let ((met (attribute-string "met"))
-                              (rhyme (attribute-string "rhyme")))
-                          (if (and (not met) (not rhyme))
-                              (process-children-nodata)
-                              (make sequence
-                                (if met
-                                    (paragraph
-                                     (make sequence
-                                       (emphstr "Размер: ")
-                                       (literal met)
-                                       (process-children-nodata)))
-                                    (empty-sosofo))
-                                (if rhyme
-                                    (paragraph
-                                     (make sequence
-                                       (emphstr "Схема рифмовки: ")
-                                       (literal rhyme)
-                                       (process-children-nodata)))
-                                    (empty-sosofo))))))
-
-(mode metrical
-  (element div0 (show-metrical))
-  (element lg (show-metrical))
-  (element lg1 (show-metrical))
-  (element lg2 (show-metrical))
-  (element l (show-metrical))
-  (default (process-children-nodata)))
-
-; (mode footer
-;   (element teiHeader (ruled
-;                       (make sequence
-;                         (process-matching-children 'profileDesc)
-;                         (process-matching-children 'fileDesc))))
-;   (element fileDesc (make sequence
-;                       (process-matching-children 'sourceDesc)
-;                       (process-matching-children 'publicationStmt 'notesStmt 'seriesStmt)                     
-;                       (process-first-descendant 'principal)))
-;   (element profileDesc (process-children))
-;   (element creation (process-children))
-;   (element (creation date) (make sequence
-;                              (emphstr "Год написания: ")
-;                              (process-children)))
-;   (element (sourceDesc biblFull sourceDesc)  (paragraph (make sequence
-;                                                           (emphstr "Первая публикация: ")
-;                                                           (process-children))))
-;   (element sourceDesc (paragraph (make sequence
-;                                     (emphstr "Цит. по: ")
-;                                     (process-children))))
-;   (element titleStmt (process-children))
-;   (element pubPlace (process-children))
-;   (element biblFull (process-children))
-;   (element publicationStmt (process-children))
-;   (element notesStmt (process-children))
-;   (element (notesStmt note) (process-children))
-;   (element (biblFull publicationStmt) 
-;     (make sequence
-;       (process-matching-children 'pubPlace)
-;       (process-matching-children 'publisher)
-;       (process-matching-children 'date)
-;       (process-matching-children 'distributor)))
-;   (element publisher (paragraph (process-children)))
-;   (element (biblFull publicationStmt publisher) (make sequence
-;                                                   (process-children)
-;                                                   (literal ", ")))
-;   (element (biblFull publicationStmt pubPlace) (make sequence
-;                                                  (process-children)
-;                                                  (literal ", ")))
-;   (element distributor (make sequence
-;                          (literal "(")
-;                          (process-children)
-;                          (literal ")")))
-;   (element editor (make sequence
-;                     (literal "(ред. ")
-;                     (process-children)
-;                     (literal ")")))
-;   (element availability (process-children))
-;   (element (biblFull seriesStmt) (make sequence 
-;                                    (literal " // ")
-;                                    (process-children)))
-;   (element seriesStmt (paragraph (process-children)))
-;   (element title (make sequence 
-;                    (process-children)
-;                    (literal ". ")))
-;   (element principal (paragraph
-;                       (make sequence
-;                         (emphstr "Ответственный за разметку: ")
-;                         (process-children))))
-;   (element note (if (have-ancestor? "teiHeader")
-;                     (empty-sosofo)
-;                     (paragraph
-;                      (make sequence
-;                        (let ((nid (number->string (element-number))))
-;                          (make element 
-;                            gi: "sup"
-;                            (make element gi: "a"
-;                                  attributes: `(("name" ,(string-append "note." nid))
-;                                                ("href" ,(string-append "#anchor." nid)))
-;                                  (literal nid))))
-;                        (process-children)
-;                        (case (attribute-string "resp")
-;                          (("editor") (emphstr " (прим. ред.)"))
-;                          (("author") (emphstr " (прим. автора)"))
-;                          (else (empty-sosofo)))))))
-;   (element textClass (process-children))
-;   (element catRef (if (string=? (attribute-string "scheme") "KIND")
-;                       (paragraph
-;                        (make sequence
-;                          (emphstr "Литературный род: ")
-;                          (process-element-with-id (attribute-string "target"))))
-;                       (empty-sosofo)))
-;   (element span (case (attribute-string "type")
-;                   (("theme") (paragraph 
-;                              (make sequence
-;                               (emphstr "Тема: ")
-;                               (literal (attribute-string "value")))))
-;                   (("addressee") (paragraph 
-;                                  (make sequence
-;                                    (emphstr "Адресат: ")
-;                                    (literal (attribute-string "value")))))
-;                   (else (empty-sosofo))))
-;   (element category (process-children))
-;   (element catDesc (process-children))
-;   (element name (process-children)))
 
 (mode footer
   (element note (if (equal? (attribute-string "place") "inline")
@@ -351,9 +208,12 @@
 (element div (division))
 (element head (header))
 (element text (make sequence
-		(build-images (append leading-pictures inline-pictures))
                 (anchored #f #f)
-                (build-images trailing-pictures "bottom")))
+                (if (null? trailing-pictures)
+                    (empty-sosofo)
+                    (make element gi: "table"
+                          attributes: '(("align" "right"))
+                          (build-images trailing-pictures)))))
 (element front (process-children))
 (element body (anchored #f #f))
 (element name (let ((contents (anchored #t #t)))
