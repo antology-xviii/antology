@@ -295,8 +295,9 @@
 (element speaker (make element gi: "strong"))
 (element stage (case (attribute-string "type")
                  (("delivery") (make element gi: "em"))
-                 ((attribute-string "corresp" (ipreced (current-node))) (process-children))
-                 (else (centered))))
+                 (else (if (attribute-string "corresp" (ipreced (current-node)))
+                           (process-children)                           
+                           (centered)))))
 (element move (empty-sosofo))
 (element castList (make sequence
                     (process-first-descendant 'head)
