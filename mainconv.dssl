@@ -224,8 +224,25 @@
 
 (element add (make element gi: "small"))
 
+(element item (make element gi: "li"))
+(element list (case (attribute-string "type")
+				(("ordered") (make element gi: "ol")) 
+				(("bulleted") (make element gi: "ul"))
+				((#f) (node-list-error "List type missing" (current-node)))
+				(else (node-list-error (string-append "Unknown list type " (attribute-string "type")) (current-node)))))
+
+(element table (make element gi: "table"
+							 attributes: '(("border" "1"))))
+
+(element row (make element gi: "tr"))
+(element cell (make element gi: "td"))
+
+(element lg (make element gi: "p"
+                   attributes: '(("class" "poetry"))))
 (element lg1 (make element gi: "p"
                    attributes: '(("class" "poetry"))))
+(element lg2 (make element gi: "p"
+                   attributes: '(("class" "poetry-indented"))))
 (element l (make sequence
              (process-children)
              (make empty-element gi: "br")))
@@ -276,7 +293,10 @@
 (element figure (empty-sosofo))
 (element date (literal (datestr (current-node))))
 (element span (process-children))
-(element emph (make element))
+(element emph (make element gi: "em"))
+(element term (make element gi: "strong"))
+(element soCalled (make element gi: "em"))
+(element hi (make element gi: "em"))
 (element ref (process-children))
 (element back (process-children))
 (element trailer (make element gi: "p" attributes: '(("align" "center"))))

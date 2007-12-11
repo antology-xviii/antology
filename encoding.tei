@@ -8,6 +8,7 @@
     <category id="memoirs"><catDesc>мемуары</catDesc></category>
     <category id="publicisticWriting"><catDesc>публицистика</catDesc></category>
     <category id="science"><catDesc>теоретические сочинения</catDesc></category>
+    <category id="lecture"><catDesc>лекция</catDesc></category>
   </taxonomy>
 </classDecl>
 <metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))([3-8]|Рз[3-8]*)|Рк|Гк|Эд|Пт)(ц.[пн].[12])?'>

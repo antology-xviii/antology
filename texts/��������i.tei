@@ -1,0 +1,121 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Памятник </title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> К Музе. Подражание  <name type="person"
+reg="Гораций Флакк">Горацию</name></title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Приятное и полезное препровождение
+времени</publisher>
+                <date>1795</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1795</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+<span from='whole' type='theme' value='бессмертие'>
+<span from='whole' type='theme' value='поэзия'>
+<span from='whole' type='theme' value='слава'>
+<span from='whole' type='theme' value='истина'>
+    <body id='whole'><div0 met='Я6' rhyme="AbAb">
+<lg1 type="stanza">
+<l>Я памятник себе воздвиг чудесный, вечный,
+<l>Металлов тверже он и выше пирамид;
+<l>Ни вихрь его, ни гром не сломит быстротечный,
+<l>И времени полет его не сокрушит.
+
+<lg1 type="stanza">
+<l>Так! - весь я не умру; но часть меня большая,
+<l>От тлена убежав, по смерти станет жить,
+<l>И слава возрастет моя, не увядая,
+<l>Доколь славянов род вселенна будет чтить.
+
+<lg1 type="stanza">
+<l>Слух  пройдет  обо  мне  от  <name  type="place"  reg="Белое  море">Белых
+вод</name> до <name type="place" reg="Черное море">Черных</name>,
+<l>Где  <name  type="place">Волга</name>,   <name   type="place">Дон</name>,
+<name   type="place">Нева</name>,   с    <name    type="place"    reg="Урал,
+горы">Рифея</name> льет <name type="place" reg="Урал, река">Урал</name>;
+<l>Всяк будет помнить то в народах неисчетных,
+<l>Как из безвестности я тем известен стал,
+
+<lg1 type="stanza">
+<l>Что первый я дерзнул в забавном русском слоге
+<l>О   добродетелях   <name   type="character"    reg="Фелица">Фелицы</name>
+возгласить,
+<l>В сердечной простоте беседовать о боге
+<l>И истину царям с улыбкой говорить.
+
+<lg1 type="stanza">
+<l>О <name type="mythologic">Муза</name>! возгордись заслугой справедливой,
+<l>И презрит кто тебя, сама тех презирай;
+<l>Непринужденною рукой, неторопливой,
+<l>Чело твое зарей бессмертия венчай.
+</body>
+  </text>
+</tei.2>

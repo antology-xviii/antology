@@ -72,14 +72,15 @@
         <date>1780-1784</date>
       </creation>
       <textClass>
-        <catRef scheme="kind" target="verse">      </textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
 <span from='whole' type='theme' value='Бог'>
 <span from='whole' type='theme' value='вечность'>
 <span from='whole' type='theme' value='человек'>
-<body id='whole'><div0 met='Я4' rhyme="AbAbCCdEdE">
+<body id='whole'><div0 met='Я4' rhyme="AbAbCCdEEd">
 <lg1 type="stanza">
 <l>О ты, пространством бесконечный,
 <l>Живый в движеньи вещества,
