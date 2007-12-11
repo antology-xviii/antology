@@ -165,7 +165,7 @@
                              (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
 
 (mode footer
-  (element note (if (equal? (attribute-string "place") "inline")
+  (element note (if (or (equal? (attribute-string "place") "inline") (has-ancestor? "notesStmt"))
                     (empty-sosofo)
                     (paragraph
                      (make sequence
