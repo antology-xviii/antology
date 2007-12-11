@@ -183,11 +183,6 @@
                          (else (empty-sosofo))))))))
 
 
-;(query (descendants-with-attr "corresp") (let ((prev (ipreced (current-node))))
-;                                           (if (has-attribute? "corresp" prev)
-;                                               (empty-sosofo)
-;                                               (make element gi: "table"
-;                                                     (map-constructor 
 
 (element teiHeader (process-first-descendant 'fileDesc))
 (element fileDesc (process-first-descendant 'titleStmt))
@@ -279,10 +274,28 @@
                                 (literal "\"")
                                 (process-children)
                                 (literal "\""))))
-(element sp (make element gi: "p"))
+(element sp (let ((corr (attribute-string "corresp")))
+              (cond
+               ((not corr) (make element gi: "p"))
+               ((attribute-string "corresp" (ipreced (current-node)))
+                (empty-sosofo))
+               (else (let ((enrow (lambda (x) (make element gi: "tr"
+                                                    (make element gi: "td" x))))
+                           (correls (select-elements (follow (current-node))
+                                                     `(sp (corresp ,corr)))))
+                       (let ((ncorr (+ 1 (node-list-length correls))))
+                         (make element gi: "table"
+                               :attributes '(("class" "correspondence"))
+                               (enrow (process-children))
+                               (make element gi: "td"
+                                     attributes: `(("rowspan" ,(number->string ncorr)))
+                                     (iterate-element ncorr "big" (literal "}")))
+                               (map-constructor (lambda () (enrow (process-children))) correls))))))))
+
 (element speaker (make element gi: "strong"))
 (element stage (case (attribute-string "type")
                  (("delivery") (make element gi: "em"))
+                 ((attribute-string "corresp" (ipreced (current-node))) (process-children))
                  (else (centered))))
 (element move (empty-sosofo))
 (element castList (make sequence

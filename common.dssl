@@ -40,13 +40,8 @@
 (define (process-children-nodata) (process-node-list 
                                    (select-by-missing-property (children (current-node)) 'char)))
 
-(define (has-attribute? attr #!optional (node (current-node)))
-  (let ((al (attributes node)))
-    (and (named-node-list? al) 
-         (not (node-list-empty? (named-node attr al))))))
-
 (define (descendants-with-attr attr #!optional (node (current-node)))
-  (select-each n (descendants node) (has-attribute? attr n)))
+  (select-each n (descendants node) (attribute-string attr n)))
 
 (define (list-of-attrs aname nl)
   (define (conc l s) (let ((v (attribute-string aname s)))
@@ -77,6 +72,15 @@
 
 (define (get-ref-data refattr n)
   (data (element-with-id (attribute-string refattr n) n)))
+
+(define (iterate-element n gi contents #!optional (attrs '()))
+  (if (zero? n)
+      contents
+      (iterate-element (- n 1) gi 
+                       (make element gi: gi
+                             attributes: attrs
+                             contents))))
+  
 
 (define (abbreviate-name n)
   (define (abbrev i gn) (string-append i (string (string-ref (data gn) 0) #\. #\space)))

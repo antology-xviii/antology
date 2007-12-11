@@ -54,6 +54,12 @@ padding:14;
 margin-right: 80;
 }
 
+table.correspondence
+{
+	vertical-alignment: middle;
+}
+
+
 table.lecture
 
 {
