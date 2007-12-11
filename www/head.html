@@ -20,6 +20,12 @@ document.write(".submenu{display: none;}")
 document.write("</style>")
 }
 
+if (document.getElementById){ //DynamicDrive.com change
+document.write("<style type='text/css'>")
+document.write(".answer{display: none;}")
+document.write("</style>")
+}
+
 function SwitchMenu(obj){
         if(document.getElementById){
         var el = document.getElementById(obj);
@@ -33,6 +39,14 @@ function SwitchMenu(obj){
                 }else{
                         el.style.display = "none";
                 }
+        }
+}
+
+function ShowAnswers() {
+        var ar = document.getElementById("questionnaire").getElementsByTagName("span");
+        for (var i=0; i<ar.length; i++){
+            if (ar[i].className=="answer")
+               ar[i].style.display = "inline";
         }
 }
 
