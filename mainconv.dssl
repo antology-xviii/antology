@@ -279,8 +279,11 @@
                ((not corr) (make element gi: "p"))
                ((attribute-string "corresp" (ipreced (current-node)))
                 (empty-sosofo))
-               (else (let ((enrow (lambda (x) (make element gi: "tr"
-                                                    (make element gi: "td" x))))
+               (else (let ((enrow (lambda () (make element gi: "tr"
+                                                    (make element gi: "td" 
+                                                          (process-node-list
+                                                           (children
+                                                            (current-node)))))))
                            (correls (select-elements (follow (current-node))
                                                      `(sp (corresp ,corr)))))
                        (let ((ncorr (+ 1 (node-list-length correls))))
@@ -292,7 +295,7 @@
                                      (make element gi: "td"
                                            attributes: `(("rowspan" ,(number->string ncorr)))
                                            (iterate-element ncorr "big" (literal "}"))))
-                               (map-constructor (lambda () (enrow (process-children))) correls))))))))
+                               (map-constructor enrow correls))))))))
 
 (element speaker (make element gi: "strong"))
 (element stage (case (attribute-string "type")
