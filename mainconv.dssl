@@ -154,10 +154,9 @@
                                    (build-images leading-pictures)
                                    (build-images inline-pictures))
                              (process-children)
+                             (make formatting-instruction data: "\carriage-return;<!-- split -->\carriage-return;")
                              (with-mode footer
-                               (make sequence
-                                 (ruled
-                                  (process-node-list (q-element 'note)))))
+                                 (process-node-list (q-element 'note)))
                              (make formatting-instruction data: "\carriage-return;<!-- split -->\carriage-return;")
                              (make element gi: "div"
                                    attributes: '(("align" "right"))
