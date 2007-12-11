@@ -20,13 +20,15 @@ BEGIN { FS="[:,][[:space:]]+" }
     
     print "<ul class=\"submenu\" id=\"sub" FNR "\">"
 
-    titlelist = "tagcoll grep  -g --remove-tags=\"!title::* && !author::*\" \"" authortag "\" " TAGCOLL
+    titlelist = "tagcoll grep  -g --remove-tags=\"!title::* && !date::written::* && !author::*\" \"" authortag "\" " TAGCOLL \
+		" | iconv -f koi8-r -t utf-8 | msort -l -tdate::written:: -q 2>/dev/null | iconv -f utf-8 -t koi8-r"
     while ((titlelist | getline) > 0)
     {
-        # $3 shall always hold tiltle tag
-        gsub(/@/, "\\&", $3);
-        sub(/^title::/, "", $3);
-        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" $3 "</a>"
+        # $4 shall always hold tiltle tag
+        gsub(/@/, "\\&", $4);
+        sub(/^title::/, "", $4);
+	sub(/^date::written::/, "", $3);
+        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" $4 "</a>"
     }
     close(titlelist)
     print "</ul>"

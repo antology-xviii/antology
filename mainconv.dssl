@@ -143,7 +143,7 @@
                        (make element gi: "body"
                              (make formatting-instruction data: "\carriage-return;<!-- -middle -->\carriage-return;")
                              (make element gi: "table"
-                                   attributes: '(("align" "right") ("cellspacing" "3"))
+                                   attributes: '(("align" "right") ("cellspacing" "20"))
                                    (if use-passport
                                        (make element gi: "tr"
                                              (make element gi: "td"
@@ -199,6 +199,10 @@
 (element (author persName) (process-children))
 (element forename (space-after))
 (element surname (space-after))
+(element (bibl title) (make sequence
+			(literal "\"")
+			(process-children)
+			(literal "\"")))
 (element title (header 1))
 (element div0 (division))
 (element div1 (division))
@@ -235,7 +239,14 @@
 							 attributes: '(("border" "1"))))
 
 (element row (make element gi: "tr"))
-(element cell (make element gi: "td"))
+(element cell (let* ((rowspan (attribute-string "rows"))
+		     (attrs (if rowspan `(("rowspan" ,rowspan)) '())))
+		(if (equal? "" (data (current-node)))
+		(make element gi: "td"
+			attributes: attrs
+			(literal "\U-00A0"))
+		(make element gi: "td"
+			attributes: attrs))))	
 
 (element lg (make element gi: "p"
                    attributes: '(("class" "poetry"))))
