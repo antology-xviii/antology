@@ -197,6 +197,10 @@ span.search {
      color: #ffffff;
      }
 
+span.answer {
+	font-style: italic;
+}
+
 span.menutitle { 
   text-decoration: underline;
   font-weight: bold;
