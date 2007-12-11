@@ -285,7 +285,7 @@
                                                      `(sp (corresp ,corr)))))
                        (let ((ncorr (+ 1 (node-list-length correls))))
                          (make element gi: "table"
-                               :attributes '(("class" "correspondence"))
+                               attributes: '(("class" "correspondence"))
                                (enrow (process-children))
                                (make element gi: "td"
                                      attributes: `(("rowspan" ,(number->string ncorr)))
