@@ -143,7 +143,7 @@
                        (make element gi: "body"
                              (make formatting-instruction data: "\carriage-return;<!-- -middle -->\carriage-return;")
                              (make element gi: "table"
-                                   attributes: '(("align" "right"))
+                                   attributes: '(("align" "right") ("cellspacing" "3"))
                                    (if use-passport
                                        (make element gi: "tr"
                                              (make element gi: "td"
