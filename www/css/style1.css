@@ -56,9 +56,13 @@ margin-right: 80;
 
 table.correspondence
 {
-	vertical-alignment: middle;
+	display: inline;
 }
 
+span.correspondence
+{
+	vertical-align: middle;
+}
 
 table.lecture
 

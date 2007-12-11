@@ -293,15 +293,18 @@
                                      (make element gi: "td"
                                            (process-children))
                                      (make element gi: "td"
-                                           attributes: `(("rowspan" ,(number->string ncorr)))
-                                           (iterate-element ncorr "big" (literal "}"))))
+                                           attributes: `(("valign" "center") ("rowspan" ,(number->string ncorr)))
+                                           (iterate-element 4 "big" (literal "}"))))
                                (map-constructor enrow correls))))))))
 
-(element speaker (make element gi: "strong"))
+(element speaker (make element gi: "strong"
+			(space-after)))
 (element stage (case (attribute-string "type")
                  (("delivery") (make element gi: "em"))
                  (else (if (attribute-string "corresp" (ipreced (current-node)))
-                           (process-children)                           
+			   (make element gi: "span"
+					attributes: '(("class" "correspondence"))
+                           		(process-children))
                            (centered)))))
 (element move (empty-sosofo))
 (element castList (make sequence
