@@ -34,7 +34,7 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         name="${p%%::*}"
         descr="${p#*::}"
         descr="${descr//@/&}"
-        descr="${descr//&#32;/ /}"
+        descr="${descr//&#32;/ }"
         LEADING_PICTURES="$LEADING_PICTURES (\"$name\" . \"$descr\")"
         ;;
         picture::inline::*)
