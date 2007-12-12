@@ -4,4 +4,4 @@ category::kind::проза: kindorder::4
 category::kind::мемуары: kindorder::5
 category::kind::письма: kindorder::6, caption::kindorder::Письма
 annotation::addressee::Аргамакова@#32;Феодосия@#32;Ивановна: caption::annotation::addressee::К@#32;родным
-annotation::addressee::Панин@#32;Петр@#32;Иванович: caption::annotation::addressee::К@32;Панину
+annotation::addressee::Панин@#32;Петр@#32;Иванович: caption::annotation::addressee::К@#32;Панину
