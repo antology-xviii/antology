@@ -62,7 +62,7 @@ for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         modevar="${var#Q_}_mode"
         if [ "${!modevar}" = "any" ]; then
-            typeset "$var"="${!var/ && / || }"
+            typeset "$var"="${!var//&&/||}"
         fi
         tagexpr+="${tagexpr:+ && }${!var})"
     fi
