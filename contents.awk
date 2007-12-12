@@ -1,16 +1,30 @@
 BEGIN { FS="[:,][[:space:]]+" }
+
+function findfield (start,  i) {
+    for (i = 2; i <= NF; i++)
+    {
+        if (index($i, start) == 1)
+        {
+            return substr($i, length(start) + 1);
+        }
+    }
+    return ""
+}
+
 { 
     authortag = "author::" $1;
     gsub(/@/, "\\&", $1);
 
-    for (i = 2; i <= NF; i++)
+    picture = findfield("picture::");
+    sortkey = findfield("sortkey::");
+
+    if (sortkey)
     {
-        if (index($i, "picture::") == 1)
-        {
-            picture = substr($i, length("picture::") + 1);
-            break;
-        }
+        split(sortkey, captions, /%/);
+        gsub(/%/, "::\" -o l -t\"", sortkey);
+        sortkey = "-t\"" sortkey "::\" -o l";
     }
+    
 
     if (FNR == 1)
        print "<table id=masterdiv>";
@@ -20,17 +34,50 @@ BEGIN { FS="[:,][[:space:]]+" }
     
     print "<ul class=\"submenu\" id=\"sub" FNR "\">"
 
-    titlelist = "tagcoll grep  -g --remove-tags=\"!title::* && !date::written::* && !author::*\" \"" authortag "\" " TAGCOLL \
-		" | iconv -f koi8-r -t utf-8 | msort -l -tdate::written:: -q 2>/dev/null | iconv -f utf-8 -t koi8-r"
+    titlelist = "tagcoll grep --implications-from=implications --redundant \"" authortag "\" " TAGCOLL \
+		" | iconv -f koi8-r -t utf-8 | msort -l " sortkey " -q 2>/dev/null | iconv -f utf-8 -t koi8-r";
     while ((titlelist | getline) > 0)
     {
-        # $4 shall always hold tiltle tag
-        gsub(/@/, "\\&", $4);
-        sub(/^title::/, "", $4);
-	sub(/^date::written::/, "", $3);
-        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" $4 "</a>"
+        for (i = 1; i in captions; i++)
+        {
+            curcaption = findfield("caption::" captions[i] "::");
+            if (prevcaption[i] != curcaption)
+            {
+                if (prevcaption[i])
+                    print "</ul>"
+                prevcaption[i] = curcaption;
+                for (j = i + 1; j in captions; j++)
+                {
+                    if (prevcaption[j])
+                        print "</ul>";
+                    prevcaption[j] = findfield("caption::" captions[j] "::");
+                }
+                for (; i in captions; i++)
+                {
+                    if (prevcaption[i])
+                    {
+                        curcaption = prevcaption[i];
+                        gsub(/@/, "\\&", curcaption);
+                        print "<li><span class=\"menutitle\" onClick=\"SwitchMenu('subsub" ++globalidx "')\">" curcaption "</span>";
+                        print "<ul class=\"submenu\" id=\"subsub" globalidx "\">";
+                    }
+                }
+            }
+            
+        }
+
+        title = findfield("title::")
+        gsub(/@/, "\\&", title);
+        sub(/^title::/, "", title);
+        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" title "</a>"
     }
-    close(titlelist)
+    close(titlelist);
+    for (i = 1; i in captions; i++)
+    {
+        if (prevcaption[i])
+            print "</ul>";
+    }
+    delete prevcaption;
     print "</ul>"
     print "<td valign=\"top\">"
     #if (picture)
