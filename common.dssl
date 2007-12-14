@@ -73,6 +73,17 @@
 (define (get-ref-data refattr n)
   (data (element-with-id (attribute-string refattr n) n)))
 
+
+(define (node-list-intersperse nl1 nl2)
+  (cdr
+   (node-list-reduce nl2 (lambda (r n)
+                           (let ((src (car r)) (dst (cdr r)))
+                             (cons (node-list-rest src)
+                                   (node-list dst n (node-list-first src)))))
+                     (cons nl1 (empty-node-list)))))
+                           
+
+
 (define (iterate-element n gi contents #!optional (attrs '()))
   (if (zero? n)
       contents
@@ -123,7 +134,7 @@
                                        contents)
                            contents)))
           (if expid (make element gi: "a"
-                          attributes `(("name" ,(string-append "id." expid)))
+                          attributes: `(("name" ,(string-append "id." expid)))
                           impref)
               impref))
         (let ((impref (if impid (make element gi: "a"

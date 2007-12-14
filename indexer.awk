@@ -67,7 +67,8 @@ function indexer() {
     }
 
 
-    if (SGML_PATH ~ /^TITLE TITLE\>/ && attribute("TYPE") == "subordinate")
+    if ((SGML_PATH ~ /^TITLE TITLE\>/ && attribute("TYPE") == "subordinate") ||
+        (SGML_PATH ~ /^NOTE TITLE\>/))
     {
         eliminate_body();
     }

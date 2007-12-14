@@ -223,10 +223,85 @@
 
 (element add (make element gi: "small"))
 
+(mode definition-list
+  (element item (make sequence
+                  (make element gi: "dt"
+                        (with-mode label-mode
+                          (process-first-descendant 'label)))
+                  (make element gi: "dd"
+                        (with-mode #f
+                          (process-children))))))
+
+(mode bill-list
+  (element (list head) (make element gi: "tr"
+                             (make element gi: "th"
+                                   attributes: '(("colspan" "2") ("align" "center")))))
+  (element item (make element gi: "tr"
+                      (make element gi: "td"
+                            (with-mode #f
+                              (process-children)))
+                      (make empty-element gi: "hr"
+                            attributes: '(("class" "dotted")))
+                      (make element gi: "td"
+                            (with-mode label-mode
+                              (process-first-descendant 'label))))))
+                            
+
+(mode simple-list
+  (element (list head) (make element gi: "tr"
+                             (make element gi: "th"
+                                   attributes: '(("align" "center")))))
+  (element item (make element gi: "tr"
+                      (make element gi: "td"
+                            (with-mode label-mode
+                              (process-children))))))
+
+
+(mode label-mode
+  (element label (process-children)))
+                  
+
 (element item (make element gi: "li"))
+(element label (empty-sosofo))
+(element (list head) (make element gi: "p"
+                           attributes: '(("align" "center"))))
 (element list (case (attribute-string "type")
-				(("ordered") (make element gi: "ol")) 
-				(("bulleted") (make element gi: "ul"))
+				(("ordered") (make sequence
+                               (process-first-descendant '(list head))
+                               (make element gi: "ol")))
+				(("bulleted") (make sequence
+                                (process-first-descendant '(list head))
+                                (make element gi: "ul")))
+                (("dialogue") (make sequence
+                                (process-first-descendant '(list head))
+                                (make element gi: "dl"
+                                      (with-mode definition-list
+                                        (process-children)))))
+                (("bill") (make element gi: "table"
+                               attributes: '(("class" "bill"))
+                               (with-mode bill-list
+                                 (process-children))))
+                (("simple") (let ((myid (id)) 
+                                  (corr (attribute-string "corresp")))
+                              (cond
+                               ((and myid (not (node-list-empty?
+                                                (select-elements (preced (current-node)) 
+                                                                 `(list (corresp ,myid))))))
+                                (empty-sosofo))
+                               (corr
+                                (make element gi: "table"
+                                      (with-mode simple-list                                          
+                                        (process-node-list 
+                                         (node-list
+                                          (select-elements (children (current-node)) 'head)
+                                          (select-elements (children (element-with-id corr)) 'head)
+                                          (node-list-intersperse
+                                           (select-elements (children (element-with-id corr)) 'item)
+                                           (select-elements (children (current-node)) 'item)))))))
+                               (else (make element gi: "table"
+                                           (with-mode simple-list
+                                             (process-children)))))))
+                                      
 				((#f) (node-list-error "List type missing" (current-node)))
 				(else (node-list-error (string-append "Unknown list type " (attribute-string "type")) (current-node)))))
 
@@ -255,6 +330,9 @@
 (element p (if (and (have-ancestor? "sp") (first-sibling?))
                (process-children)
                (make element)))
+
+(element ab (process-children))
+
 (element q (make sequence
              (literal "\"")
              (process-children)
@@ -267,6 +345,15 @@
 (element bibl (process-children))
 (element salute (make element gi: "p"
                       attributes: '(("align" "center"))))
+
+(element signed (make element gi: "p"
+                      attributes: '(("align" "right"))))
+
+(element argument (make element gi: "p"
+                        attributes: '(("align" "center"))
+                        (make element gi: "em"
+                              (process-children))))
+
 (element epigraph (make element gi: "p"
                       attributes: '(("align" "right"))))
 (element (q lg) (make element gi: "blockquote"
@@ -328,6 +415,7 @@
 (element span (process-children))
 (element emph (make element gi: "em"))
 (element term (make element gi: "strong"))
+(element mentioned (make element gi: "em"))
 (element soCalled (make element gi: "em"))
 (element hi (make element gi: "em"))
 (element ref (process-children))
