@@ -251,17 +251,19 @@
 
 (mode simple-list-synced
   (element head (make element gi: "th"
-                             attributes: '(("align" "center"))))
+                             attributes: '(("align" "center") ("valign" "top"))))
   (element item (make element gi: "td"
+                      attributes: '(("valign" "top"))
                       (with-mode label-mode
                         (process-children)))))
 
 (mode simple-list
   (element head (make element gi: "tr"
                              (make element gi: "th"
-                                   attributes: '(("align" "center")))))
+                                   attributes: '(("align" "center") ("valign" "top")))))
   (element item   (make element gi: "tr"
                         (make element gi: "td"
+                              attributes: '(("valign" "top"))
                               (with-mode label-mode
                                 (process-children))))))
 
@@ -270,14 +272,15 @@
                          (if corr
                              (make element gi: "tr"
                                    (make element gi: "th"
-                                         attributes: '(("align" "center")))
-                                   (with-mode simple-list-synced
-                                     (process-element-with-id corr)))
+                                         attributes: '(("align" "center") ("valign" "top"))
+                                         (with-mode simple-list-synced
+                                           (process-element-with-id corr))))
                              (empty-sosofo))))
   (element item (let ((corr (attribute-string "corresp")))
                   (if corr  
                       (make element gi: "tr"
                             (make element gi: "td"
+                                  attributes: '(("valign" "top"))
                                   (with-mode label-mode
                                     (process-children)))
                             (with-mode simple-list-synced
