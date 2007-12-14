@@ -36,6 +36,8 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
         descr="${descr//&#44;/,}"
+        descr="${descr//&#40;/(}"
+        descr="${descr//&#41;/)}"
         descr="${descr//&#13;/\\carriage-return;}"
         LEADING_PICTURES="$LEADING_PICTURES (\"$name\" . \"$descr\")"
         ;;
@@ -46,6 +48,8 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
         descr="${descr//&#44;/,}"
+        descr="${descr//&#40;/(}"
+        descr="${descr//&#41;/)}"
         descr="${descr//&#13;/\\carriage-return;}"
         INLINE_PICTURES="$INLINE_PICTURES (\"$name\" . \"$descr\")"
         ;;
@@ -56,6 +60,8 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
         descr="${descr//&#44;/,}"
+        descr="${descr//&#40;/(}"
+        descr="${descr//&#41;/)}"
         descr="${descr//&#13;/\\carriage-return;}"
         TRAILING_PICTURES="$TRAILING_PICTURES (\"$name\" . \"$descr\")"
         ;;
