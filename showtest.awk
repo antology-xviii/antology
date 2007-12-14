@@ -4,7 +4,7 @@ BEGIN { FS="::[[:space:]]*";
 
 print "<html>"
 print "<head>"
-print "<!-- - head -->"
+print "<!-- -head -->"
 }
 
 $1 == "author" { AUTHOR = $2; 

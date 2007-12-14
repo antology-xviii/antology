@@ -13,8 +13,6 @@
    <!ENTITY % TEI.linking "INCLUDE">
    <!ENTITY % TEI.figures "INCLUDE">
    <!ENTITY Encoding SYSTEM "encoding.tei">
-   <!ENTITY ekaterina1 SYSTEM "picts/ekaterina1.jpg" NDATA JPEG>
-   <!ENTITY lecture1 SYSTEM "audio/derjavin.mp3" NDATA MP3>
 ]>
 
 <tei.2>
@@ -78,7 +76,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-	<figure entity='ekaterina1'><head>Ж.-Б. Лампи. Портрет Екатерины II. 1793</figure>
     <span from='whole' type='theme' value='добродетель'>
 <span from='whole' type='theme' value='пороки'>
 <span from='whole' type='theme' value='идеальный монарх'>
@@ -425,9 +422,6 @@ reg="Смирна">Смирне</name>?  <name   type="place"   reg="Кашмир">   Кашемире
       <l>Да дел твоих в потомстве звуки,
       <l>Как в небе звезды, возблестят.
 </body>
-  <back>
-  <trailer>
-  <xref doc="lecture1" from="FOREIGN (MP3)">аудио лекция "Поэтическая система Державина" (П. Е. Бухаркин)</xref>
   </text>
 </tei.2>
 
