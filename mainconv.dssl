@@ -249,14 +249,40 @@
                               (process-first-descendant 'label))))))
                             
 
+(mode simple-list-synced
+  (element head (make element gi: "th"
+                             attributes: '(("align" "center"))))
+  (element item (make element gi: "td"
+                      (with-mode label-mode
+                        (process-children)))))
+
 (mode simple-list
-  (element (list head) (make element gi: "tr"
+  (element head (make element gi: "tr"
                              (make element gi: "th"
                                    attributes: '(("align" "center")))))
-  (element item (make element gi: "tr"
-                      (make element gi: "td"
-                            (with-mode label-mode
-                              (process-children))))))
+  (element item   (make element gi: "tr"
+                        (make element gi: "td"
+                              (with-mode label-mode
+                                (process-children))))))
+
+(mode simple-list-sync
+  (element head (let ((corr (attribute-string "corresp")))
+                         (if corr
+                             (make element gi: "tr"
+                                   (make element gi: "th"
+                                         attributes: '(("align" "center")))
+                                   (with-mode simple-list-synced
+                                     (process-element-with-id corr)))
+                             (empty-sosofo))))
+  (element item (let ((corr (attribute-string "corresp")))
+                  (if corr  
+                      (make element gi: "tr"
+                            (make element gi: "td"
+                                  (with-mode label-mode
+                                    (process-children)))
+                            (with-mode simple-list-synced
+                              (process-element-with-id corr)))
+                      (empty-sosofo)))))
 
 
 (mode label-mode
@@ -285,24 +311,17 @@
                                  (process-children))))
                 (("simple") (let ((myid (id)) 
                                   (corr (attribute-string "corresp")))
-                              (cond
-                               ((and myid (not (node-list-empty?
-                                                (select-elements (preced (current-node)) 
-                                                                 `(list (corresp ,myid))))))
-                                (empty-sosofo))
-                               (corr
-                                (make element gi: "table"
-                                      (with-mode simple-list                                          
-                                        (process-node-list 
-                                         (node-list
-                                          (select-elements (children (current-node)) 'head)
-                                          (select-elements (children (element-with-id corr)) 'head)
-                                          (node-list-intersperse
-                                           (select-elements (children (element-with-id corr)) 'item)
-                                           (select-elements (children (current-node)) 'item)))))))
-                               (else (make element gi: "table"
-                                           (with-mode simple-list
-                                             (process-children)))))))
+                               (cond
+                                ((and myid (not (node-list-empty?
+                                                 (select-elements (preced (current-node))
+                                                                  `(list (corresp ,myid))))))
+                                 (empty-sosofo))
+                                (corr (make element gi: "table"
+                                            (with-mode simple-list-sync
+                                              (process-children))))
+                                (else (make element gi: "table"
+                                            (with-mode simple-list
+                                              (process-children)))))))
                                       
 				((#f) (node-list-error "List type missing" (current-node)))
 				(else (node-list-error (string-append "Unknown list type " (attribute-string "type")) (current-node)))))
