@@ -238,11 +238,13 @@
                                    attributes: '(("colspan" "2") ("align" "center")))))
   (element item (make element gi: "tr"
                       (make element gi: "td"
+                            attributes: '(("valign" "top"))
                             (with-mode #f
                               (process-children))
                             (make empty-element gi: "hr"
                                   attributes: '(("class" "dotted"))))
                       (make element gi: "td"
+                            attributes: '(("valign" "bottom"))
                             (with-mode label-mode
                               (process-first-descendant 'label))))))
                             
