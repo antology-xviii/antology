@@ -272,9 +272,9 @@
                          (if corr
                              (make element gi: "tr"
                                    (make element gi: "th"
-                                         attributes: '(("align" "center") ("valign" "top"))
-                                         (with-mode simple-list-synced
-                                           (process-element-with-id corr))))
+                                         attributes: '(("align" "center") ("valign" "top")))
+                                   (with-mode simple-list-synced
+                                     (process-element-with-id corr)))
                              (empty-sosofo))))
   (element item (let ((corr (attribute-string "corresp")))
                   (if corr  
