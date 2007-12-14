@@ -3,7 +3,7 @@
 TAGCOLL="$1"
 PEOPLECOLL="$3"
 CONCEPTFILE="www/concept.html"
-ABOUTTFILE="www/about.html"
+ABOUTFILE="www/about.html"
 
 echo "<html>"
 echo "<head>"
