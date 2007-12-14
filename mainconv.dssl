@@ -45,7 +45,7 @@
                                                                           ("src" ,(string-append "/images/figures/" (caar list)))
                                                                           ("alt" ,(cdar list))))
                                                       (make empty-element gi: "br")
-                                                      (literal (cdar list))))))))))
+                                                      (split-lines (cdar list))))))))))
                                                                
                                              
 (define (kind-descr)

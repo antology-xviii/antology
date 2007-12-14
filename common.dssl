@@ -99,6 +99,19 @@
    (node-list-reduce (q-element '(persName forename) n) abbrev "")
    (data (q-element '(persName surname) n))))
 
+(define split-lines (s)
+  (let loop ((chars (string->list s)) (buf "") (obj (empty-sosofo)))
+    (cond
+     ((null? chars) (if (string=? "" buf) 
+                        obj
+                        (sosofo-append obj (literal buf))))
+     ((equal? #\carriage-return (car chars))
+      (loop (cdr chars) "" (sosofo-append obj
+                                          (literal buf)
+                                          (make empty-element gi: "br"))))
+     (else (loop (cdr chars) (string-append buf (string (car chars))) obj)))))
+                                          
+
 (define (meta-tag name #!optional (n (current-node))) (make empty-element gi: "meta"
                               attributes: `(("name" ,name)
                                             ("content" ,(data n)))))
