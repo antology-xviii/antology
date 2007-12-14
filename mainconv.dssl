@@ -239,9 +239,9 @@
   (element item (make element gi: "tr"
                       (make element gi: "td"
                             (with-mode #f
-                              (process-children)))
-                      (make empty-element gi: "hr"
-                            attributes: '(("class" "dotted")))
+                              (process-children))
+                            (make empty-element gi: "hr"
+                                  attributes: '(("class" "dotted"))))
                       (make element gi: "td"
                             (with-mode label-mode
                               (process-first-descendant 'label))))))
