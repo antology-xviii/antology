@@ -25,6 +25,7 @@ sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
 s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $CONCEPTFILE
 echo "<div align=right><a href=\"/cgi-bin/static.cgi/$CONCEPTFILE\">Читать текст концепции целиком &gt;&gt;</a></div>"
 echo "<br><br><hr width=100% align=left>"
+echo "<h2 align=right>Участники проекта</h2>"
 sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
 s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $ABOUTFILE
 echo "<div align=right><a href=\"/about.html\">К полному списку участников &gt;&gt;</a></div>"
