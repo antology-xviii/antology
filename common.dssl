@@ -99,7 +99,7 @@
    (node-list-reduce (q-element '(persName forename) n) abbrev "")
    (data (q-element '(persName surname) n))))
 
-(define split-lines (s)
+(define (split-lines s)
   (let loop ((chars (string->list s)) (buf "") (obj (empty-sosofo)))
     (cond
      ((null? chars) (if (string=? "" buf) 
