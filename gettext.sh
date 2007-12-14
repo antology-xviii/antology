@@ -35,6 +35,7 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${p#*::}"
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
+        descr="${descr//&#44;/,}"
         LEADING_PICTURES="$LEADING_PICTURES (\"$name\" . \"$descr\")"
         ;;
         picture::inline::*)
@@ -43,6 +44,7 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${p#*::}"
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
+        descr="${descr//&#44;/,}"
         INLINE_PICTURES="$INLINE_PICTURES (\"$name\" . \"$descr\")"
         ;;
         picture::trailing::*)
@@ -51,6 +53,7 @@ for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep
         descr="${p#*::}"
         descr="${descr//@/&}"
         descr="${descr//&#32;/ }"
+        descr="${descr//&#44;/,}"
         TRAILING_PICTURES="$TRAILING_PICTURES (\"$name\" . \"$descr\")"
         ;;
     esac
