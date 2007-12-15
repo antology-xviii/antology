@@ -24,6 +24,14 @@ function findfield (start,  i) {
         gsub(/%/, "::\" -o l -t\"", sortkey);
         sortkey = "-t\"" sortkey "::\" -o l";
     }
+
+    an = split($1, authornames, /&#32;/);
+    authornames[an] = toupper(authornames[an]);
+    $1 = "";
+    for (i = 1; i <= an; i++)
+    {
+       $1 = $1 ($1 ? " " : "") authornames[i];
+    }
     
 
     if (FNR == 1)

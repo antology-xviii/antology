@@ -26,6 +26,11 @@ fragment()
     sed -e '$!s/$/\\/' "$1"
 }
 
+if [ "$REQUEST_METHOD" = "POST" ]; then
+  got_bytes="`head -c"$CONTENT_LENGTH"`"
+  QUERY_STRING="${QUERY_STRING}${QUERY_STRING:+&}${got_bytes}" 
+fi
+
 echo "$QUERY_STRING" | "./$runscript" "$TAGCOLL" "$PATH_INFO" "$PEOPLECOLL" 2>&1 | sed -e \
 "1,/<!-- -head -->/c\\
 `fragment www/head.html`

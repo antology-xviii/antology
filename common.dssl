@@ -63,7 +63,7 @@
 (define (map-attr-href prefix aname nl)
   (map-attr-value (lambda (f v) 
                     (let ((href (make element gi: "a"
-                                      attributes: `(("href" ,(string-append prefix (urlencode v))))
+                                      attributes: `(("href" ,(string-append prefix v)))
                                       (literal v))))
                       (if f href (make sequence
                                    (literal ", ")

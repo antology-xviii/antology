@@ -33,7 +33,7 @@ $1 == "item" {
 			print "<h1>" TITLE "</h1>"
 		}
 		print "<p>"
-		print "<form action=\"/cgi-bin/dotest.cgi" $2 "\" method=\"POST\">"
+		print "<form action=\"/cgi-bin/dotest.cgi/" substr(FILENAME, 3) "\" method=\"POST\">"
 		print "<table>"
 	}
 	print "<tr><td>" ++itemid ". <td colspan>" $2

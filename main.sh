@@ -14,12 +14,9 @@ echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
 echo "<table>"
-echo "<tr><td valign=\"top\" width=\"50%\">"
-echo "<H2 align=left>Оглавление</H2>"
-./contents.sh "$TAGCOLL" "$2" "$PEOPLECOLL"
-
+echo "<tr>"
 echo "<td valign=\"top\">"
-echo "<h2 align=right>Концепция</h2>"
+echo "<h2 align=left>Концепция</h2>"
 
 sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
 s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $CONCEPTFILE
@@ -29,6 +26,12 @@ echo "<h2 align=right>Участники проекта</h2>"
 sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
 s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $ABOUTFILE
 echo "<div align=right><a href=\"/about.html\">К полному списку участников &gt;&gt;</a></div>"
+
+echo "<td width=\"30\">&nbsp;"
+
+echo "<td valign=\"top\" width=\"50%\">"
+echo "<H2 align=left>Оглавление</H2>"
+./contents.sh "$TAGCOLL" "$2" "$PEOPLECOLL"
 
 echo "</td></tr>"
 echo "</table>"
