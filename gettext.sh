@@ -13,7 +13,7 @@ if ! [ -f ".$2" ]; then
     echo "<!-- +middle -->"
     echo "<body>"
     echo "<!-- -middle -->"
-    echo "<h1>Запрошенный вами файл не существует</h1>"
+    echo "<h1>Запрошенный вами документ не существует</h1>"
     echo "<!-- +foot -->"
     echo "</html>"
     exit 4
