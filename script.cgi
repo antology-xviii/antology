@@ -17,10 +17,6 @@ if ! [ -x "$runscript" ]; then
     exit 1
 fi
 
-echo "Status: 200 OK"
-echo "Content-Type: text/html"
-echo ""
-
 fragment()
 {
     sed -e '$!s/$/\\/' "$1"
