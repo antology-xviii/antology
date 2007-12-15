@@ -107,6 +107,8 @@ done
 echo "</table>"
 echo "<!-- split -->"
 tagcoll grep "$tagexpr" $TAGCOLL | awk -f results.awk
+rc=$?
 echo "<!-- +foot -->"
 echo "</body>"
 echo "</html>"
+exit $rc

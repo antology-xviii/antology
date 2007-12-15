@@ -6,6 +6,18 @@ IFS="&;" read -a parameters
   
 HILITE="'()"
 PASSPORT="#t"
+
+if ! [ -f ".$2" ]; then
+    echo "<html>"
+    echo "<!-- -head -->"
+    echo "<!-- +middle -->"
+    echo "<body>"
+    echo "<!-- -middle -->"
+    echo "<h1>Запрошенный вами файл не существует</h1>"
+    echo "<!-- +foot -->"
+    echo "</html">
+    exit 4
+fi
  
 for idx in ${!parameters[*]}; do
     name="${parameters[$idx]%%=*}"        
