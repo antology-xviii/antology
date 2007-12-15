@@ -53,7 +53,7 @@ $1 == "question" {
         print TITLE >qfile
     }
     print "<p>" >qfile
-    print "<form action=\"/cgi-bin/showest.cgi/" SESSION "\" method=\"POST\">" >qfile
+    print "<form action=\"/cgi-bin/showtest.cgi/" SESSION "\" method=\"POST\">" >qfile
     print "<table>" >qfile
     print "<tr><td colspan=\"2\" align=\"center\"><h1>" $2 "</h1>" >qfile
 }
