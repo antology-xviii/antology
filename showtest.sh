@@ -37,6 +37,7 @@ if [ -d "$SESSIONDIR" ]; then
 
 elif [ -f ".$2" ]; then
     SESSIONDIR="`mktemp -d -t .tests-XXXXXXXXXX`"
+    chmod g+rx "$SESSIONDIR"
     ./showtest.awk -vDESTDIR="$SESSIONDIR" -vSESSION="${SESSIONDIR#/tmp/.tests-}" ".$2"
     echo "/cgi-bin/showtest.cgi/${SESSIONDIR#/tmp/.tests-}"
     exit 2
