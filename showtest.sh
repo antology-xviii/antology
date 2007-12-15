@@ -22,8 +22,10 @@ if [ -d "$SESSIONDIR" ]; then
                 ;;
         esac
     done
-    
-    if [ -n "$QID" -a -f "$SESSIONDIR/q$QID" ]; then
+
+    if [ -z "$QID" ]; then
+        QID=1
+    elif [ -f "$SESSIONDIR/q$QID" ]; then
         echo "$QID: $ANSWERS" >>"$SESSIONDIR/answers"
         rm -f "$SESSIONDIR/q$QID"
         QID=$((QID + 1))       
