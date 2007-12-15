@@ -26,6 +26,8 @@ if [ -d "$SESSIONDIR" ]; then
 
     if [ -z "$QID" ]; then
         QID=1
+    elif [ "$REQUEST_METHOD" = "GET" ]; then
+        true
     elif [ -f "$SESSIONDIR/q$QID" ]; then
         echo "$QID: $ANSWERS" >>"$SESSIONDIR/answers"
         rm -f "$SESSIONDIR/q$QID"

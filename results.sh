@@ -43,7 +43,7 @@ for idx in ${!parameters[*]}; do
     if [ -n "$value" ]; then
         if [ "$name" != "${name%:mode}" ]; then
             name="${name/[^[:alnum:]]/_}"
-            typeset "$name"="$value"
+            declare "$name"="$value"
         else
             value="${value//+/ }"
             value="`eval echo "$'${value//\%/\x}'"`"
@@ -52,7 +52,7 @@ for idx in ${!parameters[*]}; do
             searchterm="${!searchvar//@/$value}"
             qvar="Q_$name"
             if [ -n "$searchterm" ]; then
-                typeset "$qvar"="${!qvar:-(}${!qvar:+ && }$searchterm"
+                declare "$qvar"="${!qvar:-(}${!qvar:+ && }$searchterm"
             fi
         fi
     fi
@@ -62,7 +62,7 @@ for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         modevar="${var#Q_}_mode"
         if [ "${!modevar}" = "any" ]; then
-            typeset "$var"="${!var//&&/||}"
+            declare "$var"="${!var//&&/||}"
         fi
         tagexpr+="${tagexpr:+ && }${!var})"
     fi

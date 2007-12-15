@@ -1,5 +1,23 @@
 #! /bin/sh
 
+SESSIONDIR="${TMPDIR:-/tmp}/.tests-${2#/}"
+
+if ! [ -d "$SESSIONDIR" ]; then
+    echo "<html>"
+    echo "<!-- -head -->"
+    echo "<!-- +middle -->"
+    echo "<body>"
+    echo "<!-- -middle -->"
+    echo "<h1>Такого теста не существует</h1>"
+    echo "<!-- +foot -->"
+    echo "</html>"
+
+    exit 4
+fi
+
+
+remaining_questions=`
+
 echo "<html>"
 echo "<head>"
 echo "<!-- -head -->"

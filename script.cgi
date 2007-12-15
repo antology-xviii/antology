@@ -5,6 +5,7 @@ TAGCOLL=${SCRIPTDIR}/sample.coll
 PEOPLECOLL=${SCRIPTDIR}/people.coll
 export LC_CTYPE=ru_RU.koi8-r
 export LC_COLLATE=ru_RU.koi8-r
+export REQUEST_METHOD
 
 cd $SCRIPTDIR
 
