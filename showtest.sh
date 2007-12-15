@@ -1,6 +1,6 @@
 #! /bin/sh
 
-IFS="&;" | read -a parameters
+IFS="&;" read -a parameters
 
 SESSIONDIR="${TMPDIR:-/tmp}/.tests-${2#/}"
 
@@ -8,8 +8,9 @@ ANSWERS=
 
 if [ -d "$SESSIONDIR" ]; then
     for i in ${!parameters[*]}; do
-        name="${parameters[$i]}%%=*}"
-        value="${parameters[$i]}#*=}"
+        name="${parameters[$i]%%=*}"
+        value="${parameters[$i]#*=}"
+        echo "processing $name := $value" >&2
         case "$name" in
             qid)
                 QID="$value"
