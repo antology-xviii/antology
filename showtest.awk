@@ -75,4 +75,5 @@ $1 == "answer" {
 }
 
 END {
+    endquestion(qid, qfile)
 }
