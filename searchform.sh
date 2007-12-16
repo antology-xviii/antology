@@ -46,12 +46,22 @@ makecomplexlistfield() {
     for category; do
         category="${category%% *}"
         catexpr="${catexpr}${catexpr:+ && }!$category::*"
-        catre="${catre}${catre:+|}${category}"
     done    
-    tagcoll reverse --remove-tags="$catexpr" -i $TAGCOLL | awk -vCATRE="^($catre)::" '{ 
-    val = $0;
-    sub(CATRE, ""); 
-    gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
+    tagcoll reverse --remove-tags="$catexpr" -i $TAGCOLL | awk -vCATLIST="$*" 'BEGIN { 
+            split(CATLIST, categories);
+    }
+    {
+        val = $0;
+        for (i = 1; i in categories; i += 2)
+        {
+            if (index($0, categories[i] "::") == 1)
+            {
+                label = categories[i + 1];
+                $0 = substr($0, length(categories[i] "::") + 1);
+                break;
+            }
+        }
+        gsub(/@/, "\\&"); printf "<option value=\"%s\">%s (%s)</option>\n", val, $0, label;
     }'        
 }
 
