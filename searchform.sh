@@ -37,18 +37,21 @@ makecomplexlistfield() {
     local label="$2"
     local category
     local catlabel
+    local catexpr=""
+    local catre=""
     shift
     shift
     echo "<tr><td valign=\"top\">$label: <td valign=\"top\"><select name=\"$id\">"
     echo "<option selected value=\"\">*</option>"
     for category; do
-        catlabel="${category#* }"
-        category="${category%% *}"       
-        echo "<optgroup label=\"$catlabel\">"
-        tagcoll reverse --remove-tags="!$category::*" -i $TAGCOLL | awk '{ 
-    sub(/^'"$category"'::/, ""); 
+        category="${category%% *}"
+        catexpr="${catexpr}${catexpr:+ && }!$category::*"
+        catre="${catre}${catre:+|}${category}"
+    done    
+    tagcoll reverse --remove-tags="$catexpr" -i $TAGCOLL | awk -vCATRE="^($catre)::" '{ 
     val = $0;
-    gsub(/@/, "\\&"); print "<option value=\"'"$category"'::" val "\">" $0 "</option>";
+    sub(CATRE, ""); 
+    gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
     }'        
     done
 }
