@@ -27,6 +27,7 @@ $1 == "question" {
             print "<p><em>" AUTHOR "</em>"
         print "<p><h1>" TITLE ". Результаты теста</h1>"
         print "<p>"
+        print "<form action=\"/illegal\" method=\"GET\">"
         print "<ol>"
 	}
     qid++;
@@ -48,9 +49,10 @@ $1 == "answer" {
     print "<li>"
     if (ANSWERS[answerid])
     {
+        print "<input type=\"checkbox\" checked disabled>"
         if ($2 ~ /\*$/)
         {
-            print "<strong><span class=\"correct\">" substr($2, 1, length($2) - 1) "</span></strong> +"
+            print "<span class=\"correct\">" substr($2, 1, length($2) - 1) "</span> +"
             right++;
         }
         else
@@ -60,6 +62,7 @@ $1 == "answer" {
     }
     else
     {
+        print "<input type=\"checkbox\" disabled>"
         if ($2 !~ /\*$/)
         {
             print $2
@@ -70,12 +73,14 @@ $1 == "answer" {
             print "<span class=\"incorrect\">" substr($2, 1, length($2) - 1) "</span> -"
         }
     }
+    answerid++;
     total++;
 }
 
 END {
     print "</ol>"
     print "</ol>"
+    print "</form>
     print "<p>"
     print "<hr>"
     print "<p>"
