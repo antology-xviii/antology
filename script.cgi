@@ -1,6 +1,6 @@
 #! /bin/bash
 
-SCRIPTDIR=/home/artem/src/antology/
+SCRIPTDIR=/home/antology/data/
 TAGCOLL=${SCRIPTDIR}/sample.coll
 PEOPLECOLL=${SCRIPTDIR}/people.coll
 export LC_CTYPE=ru_RU.koi8-r

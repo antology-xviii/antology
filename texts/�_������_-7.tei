@@ -73,7 +73,7 @@
     </profileDesc>
   </teiHeader>
   <text>
-      <span from="whole" type="addressee" value=" Панин Петр Иванович ">
+      <span from="whole" type="addressee" value="Панин Петр Иванович">
       <span from='whole' type='theme' value='пороки'>
       <span from='whole' type='theme' value='управление государством'>
       <span from='whole' type='theme' value='воспитание'>

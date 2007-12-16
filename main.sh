@@ -27,7 +27,7 @@ sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
 s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $ABOUTFILE
 echo "<div align=right><a href=\"/about.html\">К полному списку участников &gt;&gt;</a></div>"
 
-echo "<td width=\"30\">&nbsp;"
+echo "<td width=\"20\">&nbsp;"
 
 echo "<td valign=\"top\" width=\"50%\">"
 echo "<H2 align=left>Оглавление</H2>"

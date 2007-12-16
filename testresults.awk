@@ -35,7 +35,7 @@ $1 == "question" {
     print "<li>" $2
     print "<ol>"
     aname = FILENAME;
-    sub(/\/[\/]*$/. "", aname);
+    sub(/\/[^\/]*$/, "", aname);
     aname = aname "/a" qid;
 
     getline answerline < aname;
@@ -81,7 +81,7 @@ $1 == "answer" {
 END {
     print "</ol>"
     print "</ol>"
-    print "</form>
+    print "</form>"
     print "<p>"
     print "<hr>"
     print "<p>"
