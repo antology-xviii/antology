@@ -1,5 +1,5 @@
 #! /usr/bin/gawk -f
-BEGIN { FS="::[[:space:]]*"; }
+BEGIN { FS="::[[:space:]]*"; right = 0 }
 
 
 $1 == "author" { AUTHOR = $2; }
