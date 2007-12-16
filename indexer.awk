@@ -30,6 +30,11 @@ function preindexer() {
         calc_refstr();
         print "entering", reference >"/dev/stderr"
     }
+    elemid = attribute("ID");
+    if (elemid)
+    {
+        IDREF[elemid] = reference;
+    }
 }
 
 
@@ -65,7 +70,6 @@ function indexer() {
         refdepth--;
         calc_refstr();
     }
-
 
     if ((SGML_PATH ~ /^TITLE TITLE\>/ && attribute("TYPE") == "subordinate") ||
         (SGML_PATH ~ /^NOTE TITLE\>/))
@@ -149,7 +153,10 @@ function indexer() {
     }
     else if (SGML_CURRENT == "SPAN")
     {
-        print SGML_FILE ":", "+annotation::" attribute("TYPE") "::" encode_tag_val(attribute("VALUE"));
+        annoval = "+annotation::" attribute("TYPE") "::" encode_tag_val(attribute("VALUE"));
+        print SGML_FILE ":", annoval;
+        spandest = attribute("FROM");
+        REFERENCED[spandest] = annoval
     }
     if (has_attribute("MET"))
     {
@@ -158,4 +165,14 @@ function indexer() {
     }
     if (has_attribute("RHYME"))
         print SGML_FILE ":", "+rhyme::" encode_tag_val(attribute("RHYME"));
+}
+
+END {
+    for (i in REFERENCED)
+    {
+        if (IDREF[i])
+        {
+            print SGML_FILE "#id." i ":", annoval ",", "+ref::" IDREF[i];
+        }
+    }
 }

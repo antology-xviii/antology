@@ -33,9 +33,17 @@ function dump() {
         hilite = "?hilite=" hilite
     printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s%s\">%s</a>\n", AUTHOR, BASEFILE, hilite, TITLE;
     print "<ul>";
-    for (f in FRAGS) {
-        print "<li>" REFS[f];
-        printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", BASEFILE, hilite, f, FRAGS[f];
+    for (f in REFS) {
+        print "<li>";
+        if (FRAGS[f])
+        {
+            print REFS[f];        
+            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", BASEFILE, hilite, f, FRAGS[f];
+        }
+        else
+        {
+            print "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", BASEFILE, hilite, f, REFS[f];
+        }
     }
     
     delete REFS;

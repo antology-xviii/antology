@@ -7,8 +7,8 @@ makelistfield() {
     local list="$2"
     local label="$3"
     local multiple="$4"
-    local andall="<input type=\"radio\" name=\"$id:mode\" checked value=\"all\"> все \
-        <input type=\"radio\" name=\"$id:mode\" value=\"any\"> любая из <br>"
+    local andall="<input type=\"radio\" name=\"${id}_mode\" checked value=\"all\"> все \
+        <input type=\"radio\" name=\"${id}_mode\" value=\"any\"> любая из <br>"
 
     echo "<tr><td valign=\"top\">$label: <td valign=\"top\">"
     if [ -n "$multiple" ]; then

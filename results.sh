@@ -41,7 +41,7 @@ for idx in ${!parameters[*]}; do
     name="${parameters[$idx]%%=*}"        
     value="${parameters[$idx]#*=}"
     if [ -n "$value" ]; then
-        if [ "$name" != "${name%:mode}" ]; then
+        if [ "$name" != "${name%_mode}" ]; then
             name="${name/[^[:alnum:]]/_}"
             declare "$name"="$value"
         else
