@@ -55,6 +55,7 @@ $1 == "answer" {
         {
             print "<span class=\"correct\">" substr($2, 1, length($2) - 1) "</span> <big><big>+</big></big>"
             right++;
+            total++;
         }
         else
         {
@@ -71,10 +72,10 @@ $1 == "answer" {
         else
         {
             print "<span class=\"incorrect\">" substr($2, 1, length($2) - 1) "</span> <big><big>-</big></big>"
+            total++;
         }
     }
     answerid++;
-    total++;
 }
 
 END {
