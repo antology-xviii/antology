@@ -23,8 +23,9 @@ s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $CONCEPTFILE
 echo "<div align=right><a href=\"/cgi-bin/static.cgi/$CONCEPTFILE\">Читать текст концепции целиком &gt;&gt;</a></div>"
 echo "<br><br><hr width=100% align=left>"
 echo "<h2 align=right>Участники проекта</h2>"
-sed ' /<!-- +headline -->/,/<!-- -headline \([^<]*<[^>]*>\)\? -->/!d
-s/<!-- -headline \([^<]*<[^>]*[^>]*>\) -->/\1/' $ABOUTFILE
+
+tagcoll grep class::participant "$PEOPLECOLL" | iconv -f koi8-r -t utf-8 | msort -q -l -w -cr | iconv -f utf-8 -t koi8-r | head -n2 | gawk -f people.awk
+
 echo "<div align=right><a href=\"/about.html\">К полному списку участников &gt;&gt;</a></div>"
 
 echo "<td width=\"20\">&nbsp;"
