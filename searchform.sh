@@ -12,8 +12,8 @@ makelistfield() {
 
     echo "<tr><td valign=\"top\">$label: <td valign=\"top\">"
     if [ -n "$multiple" ]; then
-        echo "<div class=\"scrolled\">"
         echo "$andall"
+        echo "<div class=\"scrolled\">"
         tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk -vNAME="$id" '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
