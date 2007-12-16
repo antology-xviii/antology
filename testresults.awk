@@ -58,7 +58,7 @@ $1 == "answer" {
         }
         else
         {
-            print "<span class=\"incorrect\">" $2 "</span> -"
+            print "<span class=\"incorrect\">" $2 "</span> <big><big>-</big></big>"
         }
     }
     else
