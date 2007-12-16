@@ -22,19 +22,9 @@ if [ "$unanswered" != "$SESSIONDIR/q*" ]; then
     exit 2
 fi
 
-
-echo "<html>"
-echo "<head>"
-echo "<!-- -head -->"
-echo "<title>Результаты теста</title>"
-echo "<!-- +middle -->"
-echo "</head>"
-echo "<body>"
-echo "<!-- -middle -->"
-
 awk -f ./testresults.awk "$SESSIONDIR/test"
+rc=$?
 
 rm -rf "$SESSIONDIR"
 
-echo "<!-- +foot -->"
-
+exit $rc
