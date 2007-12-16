@@ -15,8 +15,13 @@ if ! [ -d "$SESSIONDIR" ]; then
     exit 4
 fi
 
+unanswered="`echo $SESSIONDIR/q*`"
+if [ -n "$unanswered" ]; then
+    unanswered="${unanswered%% *}"
+    echo "/cgi-bin/showtest.cgi${2}?qid=${unanswered#q}"   
+    exit 2
+fi
 
-remaining_questions=`
 
 echo "<html>"
 echo "<head>"
@@ -27,8 +32,7 @@ echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
 
-read
-echo "$REPLY"
+./testresults.awk "$SESSIONDIR/test"
 
 echo "<!-- +foot -->"
 

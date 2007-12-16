@@ -219,3 +219,11 @@ span.menutitle {
   text-decoration: underline;
   font-weight: bold;
 } 
+
+span.correct { 
+  color: #00ff00;               
+}
+
+span.incorrect { 
+  color: #ff0000;               
+}

@@ -26,10 +26,10 @@ if [ -d "$SESSIONDIR" ]; then
 
     if [ -z "$QID" ]; then
         QID=1
-    elif [ "$REQUEST_METHOD" = "GET" ]; then
+    elif [ "$REQUEST_METHOD" = "GET" -o -z "$ANSWERS" ]; then
         true
     elif [ -f "$SESSIONDIR/q$QID" ]; then
-        echo "$QID: $ANSWERS" >>"$SESSIONDIR/answers"
+        echo "$ANSWERS" >"$SESSIONDIR/a$QID"
         rm -f "$SESSIONDIR/q$QID"
         QID=$((QID + 1))       
     fi
