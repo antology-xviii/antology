@@ -32,7 +32,7 @@ echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
 
-./testresults.awk "$SESSIONDIR/test"
+awk -f ./testresults.awk "$SESSIONDIR/test"
 
 rm -rf "$SESSIONDIR"
 
