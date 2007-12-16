@@ -89,7 +89,7 @@ $1 == "picture" {
 
 $1 == "answer" {
     if (!has_picture)
-        print "<td>&nbsp;"
+        print "<td>&nbsp;" >qfile
 	print "<tr><td><input type=\"checkbox\" name=\"answer" answerid++ "\"> " >qfile
     sub(/\*/, "", $2);
 	print "<td>" escape($2) >qfile;
