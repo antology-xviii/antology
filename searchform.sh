@@ -14,7 +14,7 @@ makelistfield() {
     if [ -n "$multiple" ]; then
         echo "$andall"
         echo "<div class=\"scrolled\">"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk -vNAME="$id" '{ 
+        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort | awk -vNAME="$id" '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
                 gsub(/@/, "\\&"); print "<input type=\"checkbox\" name=\"" NAME "\" value=\"" val "\">" $0 "<br>";
@@ -23,7 +23,7 @@ makelistfield() {
     else
         echo "<select name=\"$id\" class=\"searchlist\">"
         echo "<option selected value=\"\">*</option>"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk '{ 
+        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort | awk '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
                 gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
