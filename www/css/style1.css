@@ -233,3 +233,9 @@ div.scrolled
   overflow: auto;
   height: 30ex;
 }
+
+select.searchlist
+{ 
+  overflow: auto;
+  width: 50em;
+}
