@@ -16,7 +16,7 @@ if ! [ -d "$SESSIONDIR" ]; then
 fi
 
 unanswered="`echo $SESSIONDIR/q*`"
-if [ -n "$unanswered" ]; then
+if [ "$unanswered" != "$SESSIONDIR/q*" ]; then
     unanswered="${unanswered%% *}"
     echo "/cgi-bin/showtest.cgi${2}?qid=${unanswered#$SESSIONDIR/q}"   
     exit 2
