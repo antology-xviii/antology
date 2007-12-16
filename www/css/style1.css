@@ -230,6 +230,6 @@ span.incorrect {
 
 div.scrolled
 { 
-  overflow: scroll;
-  height: 10ex;
+  overflow: auto;
+  height: 30ex;
 }
