@@ -53,7 +53,7 @@ $1 == "answer" {
         print "<input type=\"checkbox\" checked disabled>"
         if ($2 ~ /\*$/)
         {
-            print "<span class=\"correct\">" substr($2, 1, length($2) - 1) "</span> +"
+            print "<span class=\"correct\">" substr($2, 1, length($2) - 1) "</span> <big><big>+</big></big>"
             right++;
         }
         else
@@ -67,11 +67,10 @@ $1 == "answer" {
         if ($2 !~ /\*$/)
         {
             print $2
-            right++;
         }
         else
         {
-            print "<span class=\"incorrect\">" substr($2, 1, length($2) - 1) "</span> -"
+            print "<span class=\"incorrect\">" substr($2, 1, length($2) - 1) "</span> <big><big>-</big></big>"
         }
     }
     answerid++;
