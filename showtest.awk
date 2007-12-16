@@ -83,7 +83,7 @@ $1 == "picture" {
         print "<td><img alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
         has_picture = 1;
     }
-    print "<br>" escape($3)
+    print "<br>" escape($3) >qfile
 }
 
 
