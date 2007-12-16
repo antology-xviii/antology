@@ -80,7 +80,7 @@ $1 == "picture" {
         print "<tr><td colspan=\"3\" align=\"center\"><img alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
     else
     {
-        print "<td><img alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
+        print "<td><img width=\"240\" alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
         has_picture = 1;
     }
     print "<br>" escape($3) >qfile
