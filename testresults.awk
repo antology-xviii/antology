@@ -84,5 +84,13 @@ END {
     print "<p>"
     print "<hr>"
     print "<p>"
-    print "<strong>Вы набрали " right " очков из " total "</strong>"
+    inflexion = "ов"
+    if (right < 11 || right > 19)
+    {
+        if (right % 10 == 1)
+            inflexion = "о";
+        else if (right % 10 < 5)
+            inflexion = "а";
+    }
+    print "<strong>Вы набрали " right " очк" inflexion " из " total "</strong>"
 }
