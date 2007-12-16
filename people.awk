@@ -22,7 +22,7 @@ function findfield (start,  i) {
     picture = findfield("picture::");
     if (!picture)
         picture = largepic;
-    gsub(/@#32/, " ", $1);
+    gsub(/@#32;/, " ", $1);
     print "<img src=\"/images/" picture "\" border=\"0\" alt=\"" $1 "\" align=right vspace=4 hspace=8>"
     if (largepic)
         print "</a>"
@@ -34,10 +34,10 @@ function findfield (start,  i) {
     print "</strong><br>"
     about = findfield("about::");
     gsub(/@/, "\\&", about);
-    gsub(/&#32/, " ", about);
-    gsub(/&#44/, ",", about);
-    gsub(/&#40/, "(", about);
-    gsub(/&#41/, ")", about);
+    gsub(/&#32;/, " ", about);
+    gsub(/&#44;/, ",", about);
+    gsub(/&#40;/, "(", about);
+    gsub(/&#41;/, ")", about);
     print about;
 }
 
