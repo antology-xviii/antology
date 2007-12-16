@@ -15,7 +15,7 @@ cat <<'EOF'
 <p>
 EOF
 
-tagcoll grep class::participant "$PEOPLECOLL" | msort -l -w -cr | gawk -f people.awk
+tagcoll grep class::participant "$PEOPLECOLL" | iconv -f koi8-r -t utf-8 | msort -q -l -w -cr | iconv -f utf-8 -t koi8-r | gawk -f people.awk
 
 echo "<!-- +foot -->"
 echo "</body>"
