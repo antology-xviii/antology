@@ -77,7 +77,7 @@ $1 == "question" {
 
 $1 == "picture" {
     if (answerid == 1)
-        print "<tr><td colspan=\"3\" align=\"center\"><img alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
+        print "<tr><td colspan=\"3\" align=\"center\"><img height=\"240\" alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
     else
     {
         print "<td><img width=\"240\" alt=\"" escape($3) "\" src=\"/images/" $2 "\">" >qfile
