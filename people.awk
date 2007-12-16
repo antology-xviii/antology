@@ -18,12 +18,12 @@ function findfield (start,  i) {
     print "<td>"
     largepic = findfield("largepicture::");
     if (largepic)
-        print "<a href=\"javascript: Opn('images/" largepic "', 500, 750)\">";
+        print "<a href=\"javascript: Opn('/images/" largepic "', 500, 750)\">";
     picture = findfield("picture::");
     if (!picture)
         picture = largepic;
     gsub(/@#32/, " ", $1);
-    print "<img src=\"images/" picture "\" border=\"0\" alt=\"" $1 "\" align=right vspace=4 hspace=8>"
+    print "<img src=\"/images/" picture "\" border=\"0\" alt=\"" $1 "\" align=right vspace=4 hspace=8>"
     if (largepic)
         print "</a>"
     print "<td><strong>"

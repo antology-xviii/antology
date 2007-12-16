@@ -15,7 +15,6 @@ cat <<'EOF'
 <p>
 EOF
 
-print 
 tagcoll grep class::participant "$PEOPLECOLL" | msort -l -w -cr | gawk -f people.awk
 
 echo "<!-- +foot -->"
