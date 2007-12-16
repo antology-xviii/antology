@@ -14,7 +14,7 @@ makelistfield() {
     if [ -n "$multiple" ]; then
         echo "$andall"
         echo "<div class=\"scrolled\">"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort | awk -vNAME="$id" '{ 
+        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort -f | awk -vNAME="$id" '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
                 gsub(/@/, "\\&"); print "<input type=\"checkbox\" name=\"" NAME "\" value=\"" val "\">" $0 "<br>";
@@ -23,7 +23,7 @@ makelistfield() {
     else
         echo "<select name=\"$id\" class=\"searchlist\">"
         echo "<option selected value=\"\">*</option>"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort | awk '{ 
+        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort -f | awk '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
                 gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
@@ -61,9 +61,9 @@ makecomplexlistfield() {
                 break;
             }
         }
-        gsub(/@/, "\\&"); printf "<option value=\"%s\">%s (%s)</option>\n", val, $0, label;
-    }'        
-}
+        gsub(/@/, "\\&"); printf "<option value=\"%s\"> %s (%s)</option>\n", val, $0, label;
+    }' | sort -k3
+} 
 
 maketextfield() {
     local id="$1"
@@ -97,7 +97,7 @@ makelistfield metric metric::part "Метр/размер" multiple
 makelistfield mscheme metric::scheme "Метрическая схема"
 makelistfield rhyme rhyme "Рифмовка"
 makelistfield place name::place "Географические названия"
-makecomplexlistfield name "Имена собственные" "name::person исторические" "name::mythologic мифологические" "name::biblical библейские" "name::character персонажи"
+makecomplexlistfield name 2 "Имена собственные" "name::person исторические" "name::mythologic мифологические" "name::biblical библейские" "name::character персонажи"
 makelistfield addressee annotation::addressee Адресат
 
 echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
