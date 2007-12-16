@@ -2,6 +2,10 @@
 
 BEGIN { FS="::[[:space:]]*"; }
 
+{
+    print >DESTDIR "/test"
+}
+
 $1 == "author" { AUTHOR = $2; }
 
 $1 == "title" { TITLE = $2; }
@@ -68,10 +72,6 @@ $1 == "answer" {
 	print "<tr><td><input type=\"checkbox\" name=\"answer" answerid++ "\"> " >qfile
     sub(/\*/, "", $2);
 	print "<td>" $2 >qfile;
-}
-
-{
-    print >DESTDIR "/test"
 }
 
 END {

@@ -37,6 +37,7 @@ $1 == "question" {
     aname = FILENAME;
     sub(/\/[\/]*$/. "", aname);
     aname = aname "/a" qid;
+
     getline answerline < aname;
     split(answerline, words, " ");
     delete ANSWERS;
