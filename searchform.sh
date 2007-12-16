@@ -62,7 +62,7 @@ makecomplexlistfield() {
             }
         }
         gsub(/@/, "\\&"); printf "<option value=\"%s\"> %s (%s)</option>\n", val, $0, label;
-    }' | sort -k3
+    }' | sort -f -k3
 } 
 
 maketextfield() {
@@ -97,7 +97,7 @@ makelistfield metric metric::part "Метр/размер" multiple
 makelistfield mscheme metric::scheme "Метрическая схема"
 makelistfield rhyme rhyme "Рифмовка"
 makelistfield place name::place "Географические названия"
-makecomplexlistfield name 2 "Имена собственные" "name::person исторические" "name::mythologic мифологические" "name::biblical библейские" "name::character персонажи"
+makecomplexlistfield name "Имена собственные" "name::person ист." "name::mythologic миф." "name::biblical библ." "name::character персонаж"
 makelistfield addressee annotation::addressee Адресат
 
 echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
