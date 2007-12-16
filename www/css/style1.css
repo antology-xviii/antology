@@ -227,3 +227,9 @@ span.correct {
 span.incorrect { 
   color: #ff0000;               
 }
+
+div.scrolled
+{ 
+  overflow: scroll;
+  height: 10ex;
+}
