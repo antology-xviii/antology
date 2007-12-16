@@ -23,7 +23,7 @@ function findfield (start,  i) {
     if (!picture)
         picture = largepic;
     gsub(/@#32;/, " ", $1);
-    print "<img src=\"/images/" picture "\" border=\"0\" alt=\"" $1 "\" align=right vspace=4 hspace=8>"
+    print "<img src=\"/images/" picture "\" border=\"0\" alt=\"" $1 "\" align=\"right\" vspace=\"4\" hspace=\"8\" width=\"150\">"
     if (largepic)
         print "</a>"
     print "<td><strong>"
