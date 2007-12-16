@@ -53,7 +53,6 @@ makecomplexlistfield() {
     sub(CATRE, ""); 
     gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
     }'        
-    done
 }
 
 maketextfield() {
