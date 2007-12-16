@@ -18,7 +18,7 @@ fi
 unanswered="`echo $SESSIONDIR/q*`"
 if [ -n "$unanswered" ]; then
     unanswered="${unanswered%% *}"
-    echo "/cgi-bin/showtest.cgi${2}?qid=${unanswered#q}"   
+    echo "/cgi-bin/showtest.cgi${2}?qid=${unanswered#$SESSIONDIR/q}"   
     exit 2
 fi
 
@@ -33,6 +33,8 @@ echo "<body>"
 echo "<!-- -middle -->"
 
 ./testresults.awk "$SESSIONDIR/test"
+
+rm -rf "$SESSIONDIR"
 
 echo "<!-- +foot -->"
 
