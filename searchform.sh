@@ -10,15 +10,13 @@ makelistfield() {
     local andall="<input type=\"radio\" name=\"$id:mode\" checked value=\"all\"> все \
         <input type=\"radio\" name=\"$id:mode\" value=\"any\"> любая из <br>"
 
-    echo "<tr><td valign=\"top\">$label: <td valign=\"top\">"
+    echo "<tr><td valign=\"top\">$label: <td valign=\"top\" width=\"50%\">"
     if [ -n "$multiple" ]; then
         echo "<div class=\"scrolled\">"
         echo "$andall"
         tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk -vNAME="$id" '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
-            if (length($0) > 80)
-                $0 = substr($0, 1, 80) "...";
                 gsub(/@/, "\\&"); print "<input type=\"checkbox\" name=\"" NAME "\" value=\"" val "\">" $0 "<br>";
                 }'
         echo "</div>"
@@ -28,8 +26,6 @@ makelistfield() {
         tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | awk '{ 
             sub(/^'"$list"'::/, ""); 
             val = $0;
-            if (length($0) > 80)
-                $0 = substr($0, 1, 80) "...";
                 gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
                 }'
         echo "</select>"
