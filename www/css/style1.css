@@ -237,5 +237,5 @@ div.scrolled
 select.searchlist
 { 
   overflow: auto;
-  width: 50em;
+  width: 30em;
 }
