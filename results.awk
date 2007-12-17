@@ -42,7 +42,7 @@ function dump() {
         }
         else
         {
-            print "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", BASEFILE, hilite, f, REFS[f];
+            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", BASEFILE, hilite, f, REFS[f];
         }
     }
     
