@@ -54,11 +54,12 @@ function dump() {
 
 $1 ~ /#/ {
     frag = findfield("fragment::");
-    if (frag)
+    ref = findfield("ref::");
+    if (frag || ref)
     {
         gsub(/@/, "\\&", frag);
         sub(/^.*#/, "", $1);
-        REFS[$1] = findfield("ref::");
+        REFS[$1] = ref;
         FRAGS[$1] = frag;
     }
     next
