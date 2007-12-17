@@ -86,3 +86,5 @@ SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R \
     -V"(define inline-pictures '($INLINE_PICTURES))" \
     -V"(define trailing-pictures '($TRAILING_PICTURES))" \
     -d mainconv.dssl ".$2"
+#echo "<p align=\"right\">"
+#echo "<a href=\"/cgi-bin/structure.cgi$2\">показатать структуру &gt;&gt;</a>"

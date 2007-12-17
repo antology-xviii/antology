@@ -80,7 +80,7 @@ function findfield (start,  i) {
         title = findfield("title::")
         gsub(/@/, "\\&", title);
         sub(/^title::/, "", title);
-        print "<li><a href=\"/cgi-bin/gettext.cgi/" $1 "\">" title "</a>"
+        print "<li><a href=\"/cgi-bin/gettext.cgi/" urlencode_path($1) "\">" title "</a>"
     }
     close(titlelist);
     for (i = 1; i in captions; i++)
@@ -90,6 +90,9 @@ function findfield (start,  i) {
     }
     delete prevcaption;
     print "</ul>"
+    print "<td valign=\"top\">"
+    #if (picture)
+        print "<img src=\"/images/" picture "\" width=\"100\" height=\"121\" alt=\"" $1 "\" border=\"0\">";
 }
 END {
     print "</table>"

@@ -31,18 +31,18 @@ function dump() {
     }
     if (hilite)
         hilite = "?hilite=" hilite
-    printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s%s\">%s</a>\n", AUTHOR, BASEFILE, hilite, TITLE;
+    printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s%s\">%s</a>\n", AUTHOR, urlencode_path(BASEFILE), hilite, TITLE;
     print "<ul>";
     for (f in REFS) {
         print "<li>";
         if (FRAGS[f])
         {
             print REFS[f];        
-            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", BASEFILE, hilite, f, FRAGS[f];
+            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", urlencode_path(BASEFILE), hilite, f, FRAGS[f];
         }
         else
         {
-            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", BASEFILE, hilite, f, REFS[f];
+            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", urlencode_path(BASEFILE), hilite, f, REFS[f];
         }
     }
     
