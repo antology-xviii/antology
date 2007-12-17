@@ -71,8 +71,13 @@ function indexer() {
         calc_refstr();
     }
 
-    if ((SGML_PATH ~ /^TITLE TITLE\>/ && attribute("TYPE") == "subordinate") ||
-        (SGML_PATH ~ /^NOTE TITLE\>/))
+    if (SGML_PATH ~/^HEAD\>/)
+    {
+        if (!(reference in DIVHEAD))
+            DIVHEAD[reference] = body();
+    }
+    else if ((SGML_PATH ~ /^TITLE TITLE\>/ && attribute("TYPE") == "subordinate") ||
+             (SGML_PATH ~ /^NOTE TITLE\>/))
     {
         eliminate_body();
     }
@@ -172,7 +177,10 @@ END {
     {
         if (IDREF[i])
         {
-            print SGML_FILE "#id." i ":", REFERENCED[i] ",", "+ref::" IDREF[i];
+            frag = DIVHEAD[IDREF[i]];
+            if (frag)
+                frag = ", +fragment::" encode_tag_val(frag);
+            print SGML_FILE "#id." i ":", REFERENCED[i] ",", "+ref::" IDREF[i] frag
         }
     }
 }
