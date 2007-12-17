@@ -172,7 +172,7 @@ END {
     {
         if (IDREF[i])
         {
-            print SGML_FILE "#id." i ":", annoval ",", "+ref::" IDREF[i];
+            print SGML_FILE "#id." i ":", REFERENCED[i] ",", "+ref::" IDREF[i];
         }
     }
 }
