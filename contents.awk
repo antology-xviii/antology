@@ -36,7 +36,7 @@ function findfield (start,  i) {
 
     if (FNR == 1)
        print "<table id=masterdiv>";
-    print "<tr><td valign=\"top\">"
+    print "<tr><td valign=\"top\">";
     if (picture)
         print "<img src=\"/images/" picture "\" width=\"100\" height=\"121\" alt=\"" $1 "\" border=\"0\">";
     print "<td valign=\"top\" width=\"85%\">"
@@ -90,9 +90,6 @@ function findfield (start,  i) {
     }
     delete prevcaption;
     print "</ul>"
-    print "<td valign=\"top\">"
-    #if (picture)
-        print "<img src=\"/images/" picture "\" width=\"100\" height=\"121\" alt=\"" $1 "\" border=\"0\">";
 }
 END {
     print "</table>"
