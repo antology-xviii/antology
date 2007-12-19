@@ -18,6 +18,8 @@
 (define trailing-pictures '())
 (define current-file "")
 
+(define show-speaker-only #f)
+
 (define (build-meta-tags nl)
   (let ((titlenode (q-element '(fileDesc titleStmt title) nl))
         (authornode (q-element '(fileDesc titleStmt author) nl))
@@ -132,7 +134,29 @@
     (mkrow "Адресат" (map-attr-href "/cgi-bin/results.cgi?addressee=" "value"
                                  (q-element '(span (type "addressee")) (current-node))))
     (mkrow "Темы" (map-attr-href "/cgi-bin/results.cgi?theme=" "value"
-                                 (q-element '(span (type "theme")) (current-node))))))
+                                 (q-element '(span (type "theme")) (current-node))))
+    (mkrow "Показать реплики"
+           (let ((roles (q-element 'role)))
+             (if (node-list-empty? roles)
+                 #f
+                 (make element gi: "form"
+                       attributes: `(("action" 
+                                      ,(string-append "/cgi-bin/gettext.cgi/"
+                                                      (urlencode current-file 'path))))
+                       (make empty-element gi: "input"
+                             attributes: `(("type" "hidden") ("name" "hilite")
+                                           ("value" ,(urlencode (listofstrings->string hilite-names " ")))))
+                       (make element gi: "select"
+                             attributes: '(("name" "show-speaker-only"))
+                             (make element gi: "option"
+                                   attributes: '(("value" ""))
+                                   (literal "все"))
+                             (map-constructor (lambda () (make element gi: "option"
+                                                               attributes: `(("id" ,(id)))
+                                                               (literal (data (current-node)))))
+                                              roles))
+                       (make empty-element gi: "input"
+                             attributes: '(("type" "submit") ("value" ">>")))))))))
   
 
 (define (list-of-topics nl)
@@ -400,28 +424,30 @@
                                 (literal "\"")
                                 (process-children)
                                 (literal "\""))))
-(element sp (let ((corr (attribute-string "corresp")))
-              (cond
-               ((not corr) (make element gi: "p"))
-               ((attribute-string "corresp" (ipreced (current-node)))
-                (empty-sosofo))
-               (else (let ((enrow (lambda () (make element gi: "tr"
-                                                    (make element gi: "td" 
-                                                          (process-node-list
-                                                           (children
-                                                            (current-node)))))))
-                           (correls (select-elements (follow (current-node))
-                                                     `(sp (corresp ,corr)))))
-                       (let ((ncorr (+ 1 (node-list-length correls))))
-                         (make element gi: "table"
-                               attributes: '(("class" "correspondence"))
-                               (make element gi: "tr"
-                                     (make element gi: "td"
-                                           (process-children))
-                                     (make element gi: "td"
-                                           attributes: `(("valign" "center") ("rowspan" ,(number->string ncorr)))
-                                           (iterate-element 4 "big" (literal "}"))))
-                               (map-constructor enrow correls))))))))
+(element sp (if (and show-speaker-only (not (equal? show-speaker-only (attribute-string "who"))))
+                (empty-sosofo)
+                (let ((corr (attribute-string "corresp")))
+                  (cond
+                   ((not corr) (make element gi: "p"))
+                   ((attribute-string "corresp" (ipreced (current-node)))
+                    (empty-sosofo))
+                   (else (let ((enrow (lambda () (make element gi: "tr"
+                                                       (make element gi: "td" 
+                                                             (process-node-list
+                                                              (children
+                                                               (current-node)))))))
+                               (correls (select-elements (follow (current-node))
+                                                         `(sp (corresp ,corr)))))
+                           (let ((ncorr (+ 1 (node-list-length correls))))
+                             (make element gi: "table"
+                                   attributes: '(("class" "correspondence"))
+                                   (make element gi: "tr"
+                                         (make element gi: "td"
+                                               (process-children))
+                                         (make element gi: "td"
+                                               attributes: `(("valign" "center") ("rowspan" ,(number->string ncorr)))
+                                               (iterate-element 4 "big" (literal "}"))))
+                                   (map-constructor enrow correls)))))))))
 
 (element speaker (make element gi: "strong"
 			(space-after)))

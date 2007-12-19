@@ -6,6 +6,7 @@ IFS="&;" read -a parameters
   
 HILITE="'()"
 PASSPORT="#t"
+SHOW_SPEAKER="#f"
 
 if ! [ -f ".$2" ]; then
     echo "<html>"
@@ -33,6 +34,10 @@ for idx in ${!parameters[*]}; do
                 PASSPORT="#f"
             fi
             ;;
+        show-speaker-only)
+            if [ -n "$value" ]; then
+                SHOW_SPEAKER="\"$value\""
+            fi
     esac
 done
 
@@ -82,6 +87,7 @@ done
 
 SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R \
     -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \
+    -V"(define show-speaker-only $SHOW_SPEAKER)" \
     -V"(define leading-pictures '($LEADING_PICTURES))" \
     -V"(define inline-pictures '($INLINE_PICTURES))" \
     -V"(define trailing-pictures '($TRAILING_PICTURES))" \

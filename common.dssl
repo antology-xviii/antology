@@ -83,6 +83,12 @@
                      (cons nl1 (empty-node-list)))))
                            
 
+(define (listofstrings->string lstr sep)
+  (let loop ((l lstr) (res ""))
+    (cond
+     ((null? l) res)
+     ((null? (cdr l)) (string-append res (car l)))
+     (else (loop (cdr l) (string-append res (car l) sep))))))
 
 (define (iterate-element n gi contents #!optional (attrs '()))
   (if (zero? n)
