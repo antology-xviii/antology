@@ -60,10 +60,10 @@
                             (else (sosofo-append s (proc #f v)))))) #f))
                                
 
-(define (map-attr-href prefix aname nl)
+(define (map-attr-href prefix aname nl #!optional (addconv (lambda (x) x)))
   (map-attr-value (lambda (f v) 
                     (let ((href (make element gi: "a"
-                                      attributes: `(("href" ,(string-append prefix v)))
+                                      attributes: `(("href" ,(string-append prefix (urlencode (addconv v)))))
                                       (literal v))))
                       (if f href (make sequence
                                    (literal ", ")
@@ -185,12 +185,18 @@
                            (string-skip-until fsid #\>))
                           (else fsid)))
 
+(define (string-upcase str)
+  (list->string (map char-upcase (string->list str))))
+
+(define (string-downcase str)
+  (list->string (map char-downcase (string->list str))))
+
 (define (urlencode url #!optional part)
   (define (encode c) (let ((safe (char-property 'url-safe c)))
                        (if (or (equal? #t safe) (and (list? safe) (member part safe)))
                            (string c)
                            (let ((x (char-property 'external-code c)))
-                             (string-append "%" (number->string x 16))))))
+                              (string-append "%" (string-upcase (number->string x 16)))))))
   (apply string-append
          (map encode (string->list url))))
   

@@ -65,6 +65,15 @@
         ""
         (string-append prefix val " г."))))
 
+(define (protect-specials str)
+  (define (encode c) (case c
+			((#\space) "@#32;")
+			((#\() "@#40;")
+			((#\)) "@#41;")
+			((#\,) "@#44;")
+			(else (string c))))
+  (apply string-append (map encode (string->list str))))
+
 (define (build-passport-items)
   (define (mkrow name val)
     (if (not val)
@@ -117,9 +126,9 @@
     (mkrow "Год написания" (literal-or-none (datestr (q-element '(profileDesc creation date)))))
     (mkrow "Место написания" (literal-or-none (data (q-element '(profileDesc creation name (type "place"))))))
     (mkrow "Метрическая схема" (map-attr-href "/cgi-bin/results.cgi?mscheme=" "met"
-                                     (descendants-with-attr "met")))
+                                     (descendants-with-attr "met") protect-specials))
     (mkrow "Рифмовка" (map-attr-href "/cgi-bin/results.cgi?rhyme=" "rhyme"
-                                     (descendants-with-attr "rhyme")))
+                                     (descendants-with-attr "rhyme") protect-specials))
     (mkrow "Адресат" (map-attr-href "/cgi-bin/results.cgi?addressee=" "value"
                                  (q-element '(span (type "addressee")) (current-node))))
     (mkrow "Темы" (map-attr-href "/cgi-bin/results.cgi?theme=" "value"
@@ -164,8 +173,8 @@
 				   (make element gi: "a"
 					attributes: `(("href" ,(string-append "/cgi-bin/structure.cgi/" (urlencode current-file 'path))))
                                         (literal "Логическая разметка текста: "))
-                                   (emphstr (data (q-element '(teiHeader fileDesc titleStmt principal)))))
-                             (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
+                                   (emphstr (data (q-element '(teiHeader fileDesc titleStmt principal))))))
+                             (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;"))))
 
 (mode footer
   (element note (if (or (equal? (attribute-string "place") "inline") (have-ancestor? "notesStmt"))
