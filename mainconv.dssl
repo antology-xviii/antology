@@ -152,7 +152,7 @@
                                    attributes: '(("value" ""))
                                    (literal "все"))
                              (map-constructor (lambda () (make element gi: "option"
-                                                               attributes: `(("id" ,(id)))
+                                                               attributes: `(("value" ,(id)))
                                                                (literal (data (current-node)))))
                                               roles))
                        (make empty-element gi: "input"
