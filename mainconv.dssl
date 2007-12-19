@@ -134,29 +134,7 @@
     (mkrow "Адресат" (map-attr-href "/cgi-bin/results.cgi?addressee=" "value"
                                  (q-element '(span (type "addressee")) (current-node))))
     (mkrow "Темы" (map-attr-href "/cgi-bin/results.cgi?theme=" "value"
-                                 (q-element '(span (type "theme")) (current-node))))
-    (mkrow "Показать реплики"
-           (let ((roles (q-element 'role)))
-             (if (node-list-empty? roles)
-                 #f
-                 (make element gi: "form"
-                       attributes: `(("action" 
-                                      ,(string-append "/cgi-bin/gettext.cgi/"
-                                                      (urlencode current-file 'path))))
-                       (make empty-element gi: "input"
-                             attributes: `(("type" "hidden") ("name" "hilite")
-                                           ("value" ,(urlencode (listofstrings->string hilite-names " ")))))
-                       (make element gi: "select"
-                             attributes: '(("name" "show-speaker-only"))
-                             (make element gi: "option"
-                                   attributes: '(("value" ""))
-                                   (literal "все"))
-                             (map-constructor (lambda () (make element gi: "option"
-                                                               attributes: `(("value" ,(id)))
-                                                               (literal (data (current-node)))))
-                                              roles))
-                       (make empty-element gi: "input"
-                             attributes: '(("type" "submit") ("value" ">>")))))))))
+                                 (q-element '(span (type "theme")) (current-node))))))
   
 
 (define (list-of-topics nl)
@@ -465,7 +443,18 @@
                           (process-matching-children 'castItem))))
 (element (castList head) (header 2))
 (element castItem (make element gi: "li"))
-(element role (space-after (make element gi: "strong")))
+(element role (space-after (make element gi: "a"
+                                 attributes: `(("href" 
+                                                ,(string-append "/cgi-bin/gettext.cgi/"
+                                                                (urlencode current-file 'path)
+                                                                "?"
+                                                                (if (null? hilite-names) ""
+                                                                    (string-append "hilite="
+                                                                                   (urlencode (listofstrings->string hilite-names " "))
+                                                                                   "&"))
+                                                                "show-speaker-only="
+                                                                (id)))))))
+
 (element roleDesc (process-children))
 (element set (centered))
 (element performance (empty-sosofo))
