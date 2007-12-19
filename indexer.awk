@@ -101,6 +101,10 @@ function indexer() {
     {
         print SGML_FILE ":", "+author::" encode_tag_val(body())
     }
+    else if (SGML_CURRENT == "ABBR")
+    {
+        SGML_ATTRS["", SGML_CURRENT, SGML_LEVELS[SGML_CURRENT]] = attribute("EXPAN");
+    }
     else if (SGML_CURRENT == "NAME")
     {
         nameref = encode_tag_val(has_attribute("REG") ? attribute("REG") : body());
@@ -130,7 +134,10 @@ function indexer() {
     }
     else if (SGML_CURRENT == "ROLE")
     {
-        print SGML_FILE ":", "+name::character::" encode_tag_val(body());
+        role = body();
+        sub(/^[[:space:]]+/, "", role);
+        sub(/\.?[[:space:]]+$/, "", role);        
+        print SGML_FILE ":", "+name::character::" encode_tag_val(role));
     }
     else if (SGML_CURRENT == "L" && SGML_CURRENT !~ /\<QUOTE\>/)
     {

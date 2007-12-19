@@ -26,8 +26,8 @@
 Иванович</name>. Биография </title>
         <author>
           <persName>
-            <forename>Николай</forename>
-            <forename type='patronym'>Александрович</forename>
+            <forename><abbr expan="Николай">Н</abbr></forename>
+            <forename type='patronym'><abbr expan="Александрович">А</abbr></forename>
             <surname>Гуськов</surname>
           </persName>
         </author>

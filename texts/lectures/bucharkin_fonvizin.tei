@@ -26,8 +26,8 @@
 </name> </title>
         <author>
           <persName>
-            <forename>Петр</forename>
-            <forename type='patronym'>Евгеньевич</forename>
+            <forename><abbr expan="Петр">П</abbr></forename>
+            <forename type='patronym'><abbr expan="Евгеньевич">Е</abbr></forename>
             <surname>Бухаркин</surname>
           </persName>
         </author>

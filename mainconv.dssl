@@ -234,6 +234,9 @@
                     contents)))
 
 (element add (make element gi: "small"))
+(element abbr (make sequence
+                (process-children)
+                (literal ". ")))
 
 (mode definition-list
   (element item (make sequence
