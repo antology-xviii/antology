@@ -49,17 +49,17 @@ BEGIN { print "<pre>" }
 skipping { next }
 
 /^\(/ {
-    INDENT = INDENT " ";
+    INDENT = INDENT "  ";
     if (omit_next)
         omit_next = 0;
     else
     {
-        printf "&lt;%s", substr($1, 2);
+        printf "<span class=\"structag\">&lt;%s", substr($1, 2);
         for (a in ATTRIBUTES)
         {
-            printf " %s=&quot;%s&quot;", a, ATTRIBUTES[a];
+            printf " %s=&quot;<span class=\"structattr\">%s</span>&quot;", a, ATTRIBUTES[a];
         }
-        printf "&gt;";
+        printf "&gt;</span>";
         delete ATTRIBUTES;
     }
     next
@@ -71,7 +71,7 @@ skipping { next }
         omit_next = 0;
     else
     {
-        printf "&lt;/%s&gt;", substr($1, 2);
+        printf "<span class=\"structag\">&lt;/%s&gt;</span>", substr($1, 2);
     }
     next
 }
@@ -85,13 +85,13 @@ skipping { next }
     gsub(/"/, "\\&quot;");
     gsub(/\\%/, "\\&amp;#");
     gsub(/\\n/, "\n" INDENT);
-    $0 = gensub(/\\\|\[([^[:space:]]+)[[:space:]]*\]\\\|/, "\\&amp;\\1;", "g");
+    $0 = gensub(/\\\|\[([^[:space:]]+)[[:space:]]*\]\\\|/, "<span class=\"structent\">\\&amp;\\1;</span>", "g");
     gsub(/\\\\/, "\\\\");
     printf "%s", $0
 }
 
 
-/^&/ { printf "%s;", $0; next; }
+/^&/ { printf "<class %s;", $0; next; }
 
 END { print "</pre>"; }
 

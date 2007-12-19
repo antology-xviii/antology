@@ -239,3 +239,24 @@ select.searchlist
   overflow: auto;
   width: 30em;
 }
+
+pre 
+{
+  font-family: courier;
+  overflow: auto;
+}
+
+.structag 
+{
+  color: #bb3333;
+}
+
+.structattr
+{
+  color: #660000;
+}
+
+.structent
+{
+  color: #660000;
+}

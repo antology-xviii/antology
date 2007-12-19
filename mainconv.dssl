@@ -16,6 +16,7 @@
 (define leading-pictures '())
 (define inline-pictures '())
 (define trailing-pictures '())
+(define current-file "")
 
 (define (build-meta-tags nl)
   (let ((titlenode (q-element '(fileDesc titleStmt title) nl))
@@ -160,7 +161,9 @@
                              (make formatting-instruction data: "\carriage-return;<!-- split -->\carriage-return;")
                              (make element gi: "div"
                                    attributes: '(("align" "right"))
-                                   (literal "Логическая разметка: ")
+				   (make element gi: "a"
+					attributes: `(("href" ,(string-append "/cgi-bin/structure.cgi/" (urlencode current-file 'path))))
+                                        (literal "Логическая разметка текста: "))
                                    (emphstr (data (q-element '(teiHeader fileDesc titleStmt principal)))))
                              (make formatting-instruction data: "\carriage-return;<!-- +foot -->\carriage-return;")))))
 
