@@ -432,8 +432,16 @@
                                                (iterate-element 4 "big" (literal "}"))))
                                    (map-constructor enrow correls)))))))))
 
-(element speaker (make element gi: "strong"
-			(space-after)))
+(element speaker (let ((sp (make element gi: "strong"
+                                 (space-after))))
+                   (if show-speaker-only
+                       (make element gi: "a"
+                             attributes: `(("href" (string-append
+                                                    "/cgi-bin/gettext.cgi/"
+                                                    (urlencode current-file 'path)
+                                                    "#SPEAKER" (number->string (element-number (current-node))))))
+                             sp)
+                       (anchored #t #f sp))))
 (element stage (if (and show-speaker-only (let ((parent (parent (current-node))))
                                             (or (not (equal? (gi parent) "sp"))
                                                 (not (equal? (attribute-string "who" parent) show-speaker-only)))))
