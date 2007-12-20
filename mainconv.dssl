@@ -436,7 +436,7 @@
                                  (space-after))))
                    (if show-speaker-only
                        (make element gi: "a"
-                             attributes: `(("href" (string-append
+                             attributes: `(("href" ,(string-append
                                                     "/cgi-bin/gettext.cgi/"
                                                     (urlencode current-file 'path)
                                                     "#SPEAKER" (number->string (element-number (current-node))))))
