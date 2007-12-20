@@ -140,6 +140,11 @@
 (define (list-of-topics nl)
   (list-of-attrs "value" (q-element '(span (type "theme")) nl)))
 
+(define (sp-division)
+  (if (or (not show-speaker-only) (not (node-list-empty? (q-element `(sp (who ,show-speaker-only))))))
+      (division)
+      (empty-sosofo)))
+
 (element tei.2 (make sequence
                  (make document-type
                    name: "html"
@@ -214,10 +219,10 @@
 			(literal "\"")))
 (element title (header 1))
 (element div0 (division))
-(element div1 (division))
-(element div2 (division))
-(element div3 (division))
-(element div (division))
+(element div1 (sp-division))
+(element div2 (sp-division))
+(element div3 (sp-division))
+(element div (sp-division))
 (element head (header))
 (element text (make sequence
                 (anchored #f #f)
@@ -429,13 +434,17 @@
 
 (element speaker (make element gi: "strong"
 			(space-after)))
-(element stage (case (attribute-string "type")
-                 (("delivery") (make element gi: "em"))
-                 (else (if (attribute-string "corresp" (ipreced (current-node)))
-			   (make element gi: "span"
-					attributes: '(("class" "correspondence"))
-                           		(process-children))
-                           (centered)))))
+(element stage (if (and show-speaker-only (let ((parent (parent (current-node))))
+                                            (or (not (equal? (gi parent) "sp"))
+                                                (not (equal? (attribute-string "who" parent) show-speaker-only)))))
+                   (empty-sosofo)
+                   (case (attribute-string "type")
+                     (("delivery") (make element gi: "em"))
+                     (else (if (attribute-string "corresp" (ipreced (current-node)))
+                               (make element gi: "span"
+                                     attributes: '(("class" "correspondence"))
+                                     (process-children))
+                               (centered))))))
 (element move (empty-sosofo))
 (element castList (make sequence
                     (process-first-descendant 'head)
