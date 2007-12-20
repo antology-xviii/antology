@@ -137,7 +137,7 @@ function indexer() {
         role = body();
         sub(/^[[:space:]]+/, "", role);
         sub(/\.?[[:space:]]+$/, "", role);        
-        print SGML_FILE ":", "+name::character::" encode_tag_val(role));
+        print SGML_FILE ":", "+name::character::" encode_tag_val(role);
     }
     else if (SGML_CURRENT == "L" && SGML_CURRENT !~ /\<QUOTE\>/)
     {
