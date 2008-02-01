@@ -1,0 +1,20 @@
+Format: 1.7
+Date: Sat,  8 Sep 2007 21:19:37 +0400
+Source: tei4-specs
+Binary: tei4-specs
+Architecture: source all
+Version: 4.0
+Distribution: unstable
+Urgency: low
+Maintainer: Artem V. Andreev <artem@artemsmp.iling.nw.ru>
+Changed-By: unknown <artem@artemsmp.iling.nw.ru>
+Description: 
+ tei4-specs - TEI Guidelines, version 4
+Changes: 
+ tei4-specs (4.0) unstable; urgency=low
+ .
+   * Initial Release.
+Files: 
+ 7019d8bee8c50fb39c15504060908f30 274 doc extra tei4-specs_4.0.dsc
+ 622a7184e277f69c44b799bf28af4def 1972706 doc extra tei4-specs_4.0.tar.gz
+ 83f52e2b0a0c7369894fe5652aa91182 1245650 doc extra tei4-specs_4.0_all.deb
