@@ -1,7 +1,5 @@
 #! /bin/sh -f
 
-PEOPLECOLL="$3"
-
 cat <<'EOF'
 <html>
 <head>
@@ -15,7 +13,7 @@ cat <<'EOF'
 <p>
 EOF
 
-tagcoll grep class::participant "$PEOPLECOLL" | iconv -f koi8-r -t utf-8 | msort -q -l -w -cr | iconv -f utf-8 -t koi8-r | gawk -f people.awk
+(cat people.query; echo "select * from results order by random();" ) | psql -A -t -q antology | gawk -f people.awk
 
 echo "<!-- +foot -->"
 echo "</body>"

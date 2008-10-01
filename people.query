@@ -1,0 +1,12 @@
+create temporary table results as
+       select distinct given_name, patronymic, surname, 
+              organization, faculty, departement, 
+              title, job_title, project_role, coalesce(photo, large_photo) as small_photo, 
+              photos.image_width, coalesce(large_photo, photo) as large_photo,
+              coalesce(photos.description, 
+                       large_photos.description, 
+                       given_name || ' ' || patronymic || ' ' || surname,
+                       given_name || ' ' || surname) as photo_description
+              from people 
+              left join photos on people.photo = photos.url
+              left join photos as large_photos on people.large_photo = large_photos.url;
