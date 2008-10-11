@@ -1,0 +1,49 @@
+
+                     ЖАНРЫ РУССКОЙ ЛИТЕРАТУРЫ XVIII века
+
+ЛИРИКА (lyric poetry)
+Анакреонтическая ода - anacreonticОde
+Героическая опера - heroicОpera
+Горацианская ода - horatianOde
+Духовная ода - sacredOde
+Загадка - conundrum (?)
+Идиллия (эклога, пастораль) - idyll (eclogue, pastoral)
+Кантата - cantata
+Мадригал - madrigal
+Надпись - inscription
+Песня - songCarol
+Рондо - rondeau
+Сатира - satire
+Сафическая ода - sapphicOde
+Сонет - sonnet
+Торжественная и похвальная (пиндарическая) ода - pindaricOde
+Триолет - triolet
+Элегия - elegy
+Эпиграмма - epigram
+Эпистола (послание) - epistle
+Эпитафия - epitaph
+
+ЭПОС (epos)
+Басня (притча) - fable
+Бурлескная поэма - burlesquePoem
+Героида ???
+Герои-комическая поэма - ironical-comicPoem
+Героическая поэма (эпопея) - epic
+Новелла - shortStory
+Повесть - narrative
+Роман - novel
+Сказка - fairyTale
+
+ДРАМА (drama)
+Комедия - comedy
+Комическая опера - comicOpera
+Мещанская трагедия - vulgarTragedy
+Слезная комедия - genteelComedy
+Трагедия - tragedy
+
+
+<ПУБЛИЦИСТИКА>
+Трактат - treatise
+Речь (слово) - oration
+Статья - article
+Письма - letters
