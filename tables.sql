@@ -23,7 +23,8 @@ create table authors (
        patronymic varchar(64),
        surname varchar(32) not null,
        sort_order varchar(255),
-       portrait varchar(255) references photos);
+       portrait varchar(255) references photos,
+       unique (given_name, patronymic, surname));
 
 create table texts (
        url varchar(255) primary key,
@@ -31,7 +32,6 @@ create table texts (
        title varchar(255) not null,
        original_title varchar(255),
        first_line varchar(255) unique,
-       kind varchar(32),
        publisher varchar(255),
        written varchar(32),
        written_place varchar(64),
@@ -39,30 +39,80 @@ create table texts (
        performed varchar(32),
        unique (author_id, title));
 
-create table text_structure (
-       section_id serial primary key,
-       text_id varchar(255) not null references texts,
-       label varchar(64),
-       unique (text_id, label));
+create table text_transcribers (
+       url varchar(255) not null references texts,
+       transcriber varchar(16) not null references people);
 
-create table text_fragments (
-       fragment_id serial primary key,
-       section_id integer not null references text_structure,
-       fragment text not null);
+create table text_structure (
+       text_id varchar(255),
+       label varchar(64),
+       container varchar(64),
+       fragment text,
+       primary key (text_id, label),
+       foreign key (text_id, container) references text_structure);
+
+create table name_classes (
+       name_class varchar(16) primary key,
+       description text);
 
 create table text_names (
-       fragment_id integer not null references text_fragments,
-       name_class varchar(16) not null,
+       text_id varchar(255),
+       frag_id varchar(64),
+       name_class varchar(16) not null references name_classes,
        proper_name varchar(255) not null,
-       primary key (fragment_id, name_class, proper_name));
+       occurrence varchar(255) not null,
+       refid varchar(255) not null,
+       foreign key (text_id, frag_id) references text_structure);
+
+create table annotation_kinds (
+       annotation_kind varchar(64) primary key,
+       description text);
 
 create table text_annotations (
-       section_id integer references text_structure,
-       kind varchar(64) not null,
+       text_id varchar(255),
+       frag_id varchar(64),
+       kind varchar(64) not null references annotation_kinds,
        annotation varchar(255) not null,
-       primary key (section_id, kind, annotation));
+       caption varchar(255),
+       foreign key (text_id, frag_id) references text_structure);
 
 create table text_pictures (
        text_id varchar(255) not null references texts,
        kind varchar(32) not null,
        url varchar(255) not null references photos);
+
+create table taxonomy (
+       id varchar(255) primary key,
+       description text);
+
+create table categories (
+       taxonomy varchar(255) not null references taxonomy,
+       id varchar(255) not null,
+       ordering integer,
+       caption varchar(64),
+       description text,
+       primary key (taxonomy, id));
+
+create table metric_system (
+       id varchar(32) primary key,
+       pattern varchar(255),
+       description text);
+
+create table metric_elements (
+       sys_id varchar(32) references metric_system,
+       id varchar(32) not null,
+       interpretation varchar(255),
+       primary key (sys_id, id));
+
+create table text_classification (
+       text_id varchar(255) not null references texts,
+       taxonomy varchar(255) not null,
+       category varchar(255) not null,
+       foreign key (taxonomy, category) references categories);
+
+create table text_metric (
+       text_id varchar(255),
+       frag_id varchar(64),
+       sys_id varchar(32) not null references metric_system,
+       characteristic varchar(128) not null,
+       foreign key (text_id, frag_id) references text_structure);
