@@ -217,6 +217,7 @@
 			(literal "\"")
 			(process-children)
 			(literal "\"")))
+(element (bibl biblScope)  (process-children))
 (element title (header 1))
 (element div0 (division))
 (element div1 (sp-division))
@@ -378,6 +379,7 @@
                (make element)))
 
 (element ab (process-children))
+(element orig (process-children))
 
 (element q (make sequence
              (literal "\"")
@@ -492,6 +494,8 @@
 (element ref (process-children))
 (element back (process-children))
 (element trailer (make element gi: "p" attributes: '(("align" "center"))))
+(element closer (make element gi: "p" attributes: '(("align" "center"))))
+(element rs (process-children))
 (element note (if (equal? (attribute-string "place") "inline")
                   (make element gi: "small"
                         (process-children))
