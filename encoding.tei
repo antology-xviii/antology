@@ -10,6 +10,44 @@
     <category id="science"><catDesc>теоретические сочинения</catDesc></category>
     <category id="lecture"><catDesc>лекция</catDesc></category>
   </taxonomy>
+  <taxonomy id="genre">
+<category id="anacreonticOde"><catDesc>Анакреонтическая ода</catDesc></category>
+<category id="heroicOpera"><catDesc>Героическая опера</catDesc></category>
+<category id="horatianOde"><catDesc>Горацианская ода</catDesc></category>
+<category id="sacredOde"><catDesc>Духовная ода</catDesc></category>
+<category id="conundrum"><catDesc>Загадка</catDesc></category>
+<category id="idyll"><catDesc>Идиллия (эклога, пастораль)</catDesc></category>
+<category id="cantata"><catDesc>Кантата</catDesc></category>
+<category id="madrigal"><catDesc>Мадригал</catDesc></category>
+<category id="inscription"><catDesc>Надпись</catDesc></category>
+<category id="songCarol"><catDesc>Песня</catDesc></category>
+<category id="rondeau"><catDesc>Рондо</catDesc></category>
+<category id="satire"><catDesc>Сатира</catDesc></category>
+<category id="sapphicOde"><catDesc>Сафическая ода</catDesc></category>
+<category id="sonnet"><catDesc>Сонет</catDesc></category>
+<category id="pindaricOde"><catDesc>Торжественная и похвальная (пиндарическая) ода</catDesc></category>
+<category id="triolet"><catDesc>Триолет</catDesc></category>
+<category id="elegy"><catDesc>Элегия</catDesc></category>
+<category id="epigram"><catDesc>Эпиграмма</catDesc></category>
+<category id="epistle"><catDesc>Эпистола (послание)</catDesc></category>
+<category id="epitaph"><catDesc>Эпитафия</catDesc></category>
+<category id="fable"><catDesc>Басня (притча)</catDesc></category>
+<category id="burlesquePoem"><catDesc>Бурлескная поэма</catDesc></category>
+<category id="ironical-comicPoem"><catDesc>Герои-комическая поэма</catDesc></category>
+<category id="epic"><catDesc>Героическая поэма (эпопея)</catDesc></category>
+<category id="shortStory"><catDesc>Новелла</catDesc></category>
+<category id="narrative"><catDesc>Повесть</catDesc></category>
+<category id="novel"><catDesc>Роман</catDesc></category>
+<category id="fairyTale"><catDesc>Сказка</catDesc></category>
+<category id="comedy"><catDesc>Комедия</catDesc></category>
+<category id="comicOpera"><catDesc>Комическая опера</catDesc></category>
+<category id="vulgarTragedy"><catDesc>Мещанская трагедия</catDesc></category>
+<category id="genteelComedy"><catDesc>Слезная комедия</catDesc></category>
+<category id="tragedy"><catDesc>Трагедия</catDesc></category>
+<category id="treatise"><catDesc>Трактат</catDesc></category>
+<category id="oration"><catDesc>Речь (слово)</catDesc></category>
+<category id="article"><catDesc>Статья</catDesc></category>
+  </taxonomy>
 </classDecl>
 <metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))([3-8]|Рз[3-8]*)|Рк|Гк|Эд|Пт)(ц.[пн].[12])?'>
   <symbol value='Х'>хорей</symbol>
