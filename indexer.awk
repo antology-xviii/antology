@@ -7,7 +7,7 @@ function decompose_metric(met,  len, sym) {
             if (sym in metric_symbol)
             {
                 met = substr(met, len + 1);
-                print SGML_FILE ":", "+metric::part::" metric_symbol[sym];
+                print "ou:", "metric:part:" metric_symbol[sym];
                 break;
             }
         }
@@ -23,7 +23,11 @@ function calc_refstr() {
 }
 
 function preindexer() {
-    if (SGML_PATH ~ /^DIV[1-9]?\>/)
+    if (SGML_PATH ~ /^TEI.2\>/)
+    {
+        THE_DOC = SGML_FILE;
+    }
+    else if (SGML_PATH ~ /^DIV[1-9]?\>/)
     {
         refdepth++;
         refcount[refdepth]++;
@@ -54,7 +58,7 @@ function indexer() {
                     nsub = gsub(searchre, "<strong>&</strong>", workspace);
                     if (nsub > 0)
                     {
-                        print SGML_FILE "#NAME" indices[x] ":", "+fragment::" encode_tag_val(workspace)
+                        NAMEFRAG[indices[x]] = encode_tag_val(workspace);
                         x += nsub;
                     }
                 }
@@ -83,23 +87,23 @@ function indexer() {
     }
     else if (SGML_PATH ~ /^TITLE TITLESTMT FILEDESC\>/)
     {
-        print SGML_FILE ":", "+title::" encode_tag_val(body())
+        print "documentTitle:",  "cited:" encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^TITLE TITLESTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print SGML_FILE ":", "+origtitle::" encode_tag_val(body())
+        print "documentTitle:",  "original:" encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^PUBLISHER PUBLICATIONSTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print SGML_FILE ":", "+publisher::" encode_tag_val(body())
+        print "documentPublisher:", encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^DATE PUBLICATIONSTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print SGML_FILE ":", "+date::published::" encode_tag_val(body())
+        print "documentVersion:",  "published:" encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^AUTHOR TITLESTMT FILEDESC\>/)
     {
-        print SGML_FILE ":", "+author::" encode_tag_val(body())
+        print "documentAuthor:", "cn=" encode_tag_val(unline(body())) "," AUTHORS_TREE
     }
     else if (SGML_CURRENT == "ABBR")
     {
@@ -108,17 +112,17 @@ function indexer() {
     else if (SGML_CURRENT == "NAME")
     {
         nameref = encode_tag_val(has_attribute("REG") ? attribute("REG") : body());
-        print SGML_FILE ":", "+name::" attribute("TYPE") "::" nameref;
-        print SGML_FILE "#NAME" ++nameidx ":", "+name::" attribute("TYPE") "::" nameref;
+        print "cn:", attribute("TYPE") ":" nameref;
+        MENTIONED[++nameidx] = attribute("TYPE") ":" nameref;
         if (reference)
-            print SGML_FILE "#NAME" nameidx ":", "+ref::" reference;
+            NAMEREF[nameidx] = reference;
         if (SGML_PATH ~ /\<SALUTE\>/)
-            print SGML_FILE ":", "+annotation::addressee::" nameref;
+            print "cn:", "addressee:" nameref;
         else if (SGML_PATH ~ /\<CREATION\>/ || SGML_PATH ~ /\<DATELINE\>/)
         {
             if (attribute("TYPE") == "place")
             {
-                print SGML_FILE ":", "+place::written::" nameref;
+                print "l:", "written:" nameref;
             }
         }
         fragments[nameref] = fragments[nameref] " " nameidx;
@@ -126,24 +130,24 @@ function indexer() {
     }
     else if (SGML_PATH ~ /^DATE .+ PERFORMANCE\>/)
     {
-        print SGML_FILE ":", "+date::performed::" encode_tag_val(body())
+        print "documentVersion:",  "performed:" encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^DATE CREATION/)
     {
-        print SGML_FILE ":", "+date::written::" encode_tag_val(body());
+        print "documentVersion:", "written:" encode_tag_val(body());
     }
     else if (SGML_CURRENT == "ROLE")
     {
         role = body();
         sub(/^[[:space:]]+/, "", role);
         sub(/\.?[[:space:]]+$/, "", role);        
-        print SGML_FILE ":", "+name::character::" encode_tag_val(role);
+        print "cn:", "character:" encode_tag_val(role);
     }
     else if (SGML_CURRENT == "L" && SGML_CURRENT !~ /\<QUOTE\>/)
     {
         if (!not_first_line)
         {
-            print SGML_FILE ":", "+firstline::" encode_tag_val(body());
+            print "description:", encode_tag_val(body());
             not_first_line = 1;
         }
     }
@@ -160,34 +164,54 @@ function indexer() {
     }
     else if (SGML_CURRENT == "CATREF")
     {
-        print SGML_FILE ":", "+category::" tolower(attribute("SCHEME")) "::" taxonomy[attribute("SCHEME"), \
-                                                                                      attribute("TARGET")];
+        print "ou:", "category:" tolower(attribute("SCHEME")) ":" taxonomy[attribute("SCHEME"), \
+                                                                           attribute("TARGET")];
     }
     else if (SGML_CURRENT == "SPAN")
     {
-        annoval = "+annotation::" attribute("TYPE") "::" encode_tag_val(attribute("VALUE"));
-        print SGML_FILE ":", annoval;
+        annoval = attribute("TYPE") ":" encode_tag_val(attribute("VALUE"));
+        print "ou:", annoval;
         spandest = attribute("FROM");
         REFERENCED[spandest] = annoval
     }
     if (has_attribute("MET"))
     {
-        print SGML_FILE ":", "+metric::scheme::" encode_tag_val(attribute("MET"));
+        print "ou:", "metric:scheme:" encode_tag_val(attribute("MET"));
         decompose_metric(attribute("MET"))
     }
     if (has_attribute("RHYME"))
-        print SGML_FILE ":", "+rhyme::" encode_tag_val(attribute("RHYME"));
+        print "ou:", "rhyme:" encode_tag_val(attribute("RHYME"));
 }
 
 END {
+    print "";
     for (i in REFERENCED)
     {
         if (IDREF[i])
         {
+            print "dn:", "documentIdentifier=id." i ",documentIdentifier=" SGML_FILE "," DOCUMENT_TREE;
+            print "objectClass: document"
+            print "documentIdentifier:", "id." i;
+            print "documentLocation:", "text:" SGML_FILE "#id." i;
+            print "documentTitle:", "ref:" IDREF[i];
             frag = DIVHEAD[IDREF[i]];
             if (frag)
-                frag = ", +fragment::" encode_tag_val(frag);
-            print SGML_FILE "#id." i ":", REFERENCED[i] ",", "+ref::" IDREF[i] frag
+                print "description:",  encode_tag_val(frag);
+            print "ou:", REFERENCED[i];
         }
+        print "";
+    }
+    for (i in MENTIONED)
+    {
+        print "dn:", "documentIdentifier=NAME" i ",documentIdentifier=" SGML_FILE "," DOCUMENT_TREE;
+        print "objectClass: document"
+        print "documentIdentifier:", "NAME" i;
+        print "documentLocation:", "text:" SGML_FILE "#NAME" i;
+        print "cn:", MENTIONED[i];
+        if (NAMEREF[i])
+            print "documentTitle:", "ref:" NAMEREF[i];
+        if (NAMEFRAG[i])
+            print "description:", NAMEFRAG[i];
+        print "";
     }
 }
