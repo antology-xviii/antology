@@ -1,6 +1,4 @@
 #! /bin/bash
 
-TAGCOLL="$1"
-PEOPLECOLL="$3"
-
-tagcoll grep "class::author" "$PEOPLECOLL" | awk -vPEOPLECOLL="$PEOPLECOLL" -vTAGCOLL="$TAGCOLL" -f urlencode.awk -f contents.awk
+psql -A -t -q antology -c "select uid, given_name || ' ' || patronymic || ' ' || upper(surname), portrait, sort_order from authors order by surname, given_name, patronymic;" | \
+    awk -f urlencode.awk -f contents.awk

@@ -1,15 +1,18 @@
 function encode_tag_val(value)
 {
-    value = gensub(/(\\\\)*\\n/, "\\1 ", "g", value);
-    value = gensub(/(\\\\)*\\\|\[([^ ]+) *\]\\\|/, "\\1@\\2;", "g", value);
-    sub(/^[[:space:]]+/, "", value);
-    sub(/[[:space:]]+$/, "", value);
-    gsub(/,/, "@#44;", value);
-    gsub(/&/, "@", value);
-    gsub(/[[:space:]]+/, "@#32;", value);
-    gsub(/\(/, "@#40;", value);
-    gsub(/\)/, "@#41;", value);
-    
+    sub(/^(\\n)+/, "", value);
+    sub(/(\\n)+$/, "", value);
+    gsub(/[[:space:]]+/, " ", value);
+    sub(/^ /, "", value);
+    sub(/ $/, "", value);
+    gsub(/\\n/, "\n ", value);
+    gsub(/'/, "''", value);
+    return value;
+}
+
+function unline(value)
+{
+    gsub(/\\n/, " ", value);
     return value;
 }
 
