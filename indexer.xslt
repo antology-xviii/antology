@@ -37,8 +37,8 @@
                        <xsl:if test="//PERFORMANCE//DATE">
                          '<xsl:value-of select="normalize-space(//PERFORMANCE//DATE)"/>',
                        </xsl:if>
-                       (select uid from authors where given_name = '<xsl:value-of select="//AUTHOR/PERSNAME/FORENAME[1]"/>' and
-                                                      surname = '<xsl:value-of select="//AUTHOR/PERSNAME/SURNAME"/>')
+                       (select uid from authors where given_name = '<xsl:value-of select="normalize-space(//AUTHOR/PERSNAME/FORENAME[1])"/>' and
+                                                      surname = '<xsl:value-of select="normalize-space(//AUTHOR/PERSNAME/SURNAME)"/>')
                        );
        
     insert into text_structure (text_id, label) values ('<xsl:value-of select="$docid"/>', '');

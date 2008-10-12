@@ -2,6 +2,7 @@
 (declare-flow-object-class empty-element "UNREGISTERED::James Clark//Flow Object Class::empty-element")
 (declare-flow-object-class document-type "UNREGISTERED::James Clark//Flow Object Class::document-type")
 (declare-flow-object-class formatting-instruction "UNREGISTERED::James Clark//Flow Object Class::formatting-instruction")
+(declare-flow-object-class entity-ref "UNREGISTERED::James Clark//Flow Object Class::entity-ref")
 
 (declare-char-property external-code #f)
 (declare-char-property url-safe #f)
