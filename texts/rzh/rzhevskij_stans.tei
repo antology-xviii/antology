@@ -1,0 +1,205 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+	<!ENTITY icystress SDATA "[icystress]">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>СТАНС</title>
+        <author>
+          <persName>
+            <forename>Алексей</forename>
+            <forename type='patronym'>Андреевич</forename>
+            <surname>Ржевский</surname>
+          </persName>
+        </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor>Н. Д. Кочеткова, Г. П. Макогоненко, И. З.
+Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Станс</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Свободные часы. N 1</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1761</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='быстротечность времени'>
+<span from='whole' type='theme' value='человек'>
+<body id='whole'><div0 met='Х4' rhyme="AbAb">
+<lg1 type="stanza">
+<l>Всё на свете сем минется:
+<l>Всё на свете суета,
+<l>Всё, чем дух наш ни мятется,
+<l>Всё то тленность, всё мечта.
+
+<lg1 type="stanza">
+<l>Гордый, пышен ты напрасно:
+<l>Ты такой же человек,
+<l>Жди ты, жди премен всечасно:
+<l>Счастлив будешь ты не век.
+
+<lg1 type="stanza">
+<l>Ты ж, несчастный, не терзайся:
+<l>Время горести промчит,
+<l>И надеждою питайся,
+<l>Дух отраду получ&icystress;т.
+
+<lg1 type="stanza">
+<l>Сей желании оставит;
+<l>Оный скучит, веселясь:
+<l>Сей от бед себя избавит,
+<l>Оный будет жить крушась.
+
+<lg1 type="stanza">
+<l>Рок здесь всё преобращает,
+<l>Всё пременно в свете сем:
+<l>И желаньи пременяет
+<l>В сердце человек своем.
+
+<lg1 type="stanza">
+<l>Но о том ли сокрушаться
+<l>Долженствует человек?
+<l>Тем он счастливым назваться
+<l>Должен в сей короткий век.
+
+<lg1 type="stanza">
+<l>То на свете всех равняет,
+<l>Что премены всякий ждет,
+<l>То несчастных утешает
+<l>И надежду подает.
+
+<lg1 type="stanza">
+<l>Если б были не пременны
+<l>Мы в желаниях своих,
+<l>Были б мы определенны
+<l>Жить в несчастиях презлых.
+
+<lg1 type="stanza">
+<l>Человек всего желает;
+<l>Ах, но льзя ль всё получить!
+<l>Но чего не получает,
+<l>Может то он отложить.
+
+<lg1 type="stanza">
+<l>Но когда б он устремился
+<l>Невозможного искать,
+<l>Он вовеки бы крушился
+<l>Если б мысль не пременять.
+
+<lg1 type="stanza">
+<l>Не гордясь неосторожно
+<l>Крепостью души своей,
+<l>Нам в желаниях не можно
+<l>Положити рубежей.
+
+<lg1 type="stanza">
+<l>Больше все мы здесь желаем,
+<l>Нежель можем получать;
+<l>Если страсти ощущаем,
+<l>Льзя ль умеренно желать?
+
+<lg1 type="stanza">
+<l>Пусть кто много получает,
+<l>Но желанья не прервет:
+<l>Коль едино совершает,
+<l>То другое настает.
+
+<lg1 type="stanza">
+<l>И дотоль оно стремится,
+<l>Что не можно получить:
+<l>Так бы век пришло крушиться,
+<l>Коль его не пременить.
+
+<lg1 type="stanza">
+<l>Кто б как много ни гордился
+<l>Во тщеславии своем,
+<l>Одинако всяк родился,
+<l>Схожи, схожи мы во всем.
+
+<lg1 type="stanza">
+<l>Лишь в привычках бесконечным
+<l>Видом мы различены,
+<l>А движением сердечным
+<l>Все подобны рождены.
+
+<lg1 type="stanza">
+<l>Ненасытны всех желаньи,
+<l>Слаб и дерзок человек,
+<l>Тщетны лестны упованьи,
+<l>Жизнь бедна и краток век.
+
+<lg1 type="stanza">
+<l>И когда б не пременяли
+<l>Мы желанья своего,
+<l>Так вовек бы мы страдали
+<l>Неутешно от него.
+
+<lg1 type="stanza">
+<l>Только тем мы здесь счастливы,
+<l>Страстные имев умы,
+<l>Что хотя и прихотливы,
+<l>Но во всем пременны мы.
+
+<lg1 type="stanza">
+<l>Не неверность причитаю
+<l>Сродной нашим я сердцам,
+<l>В том премену похваляю,
+<l>Чем нельзя владети нам.
+</body>
+  </text>
+</tei.2>

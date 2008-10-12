@@ -12,3 +12,6 @@ insert into authors (uid, given_name, patronymic, surname, portrait, sort_order)
 insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
        ('sumarokov', 'Александр', 'Петрович', 'Сумароков', null,
            'written');
+insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
+       ('rzhevskij', 'Алексей', 'Андреевич', 'Ржевский', null,
+           'written');

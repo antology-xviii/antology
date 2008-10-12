@@ -246,7 +246,8 @@
                 (process-children)
                 (literal ". ")))
 
-(element space (empty-sosofo))
+(element space (literal "[" (attribute-string "dim") ": " (attribute-string "extent")))
+(element anchor (literal "||"))
 
 (mode definition-list
   (element item (make sequence
