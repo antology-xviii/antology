@@ -27,7 +27,7 @@
                          '<xsl:value-of select="normalize-space(//SOURCEDESC//SOURCEDESC//PUBLICATIONSTMT/PUBLISHER)"/>',
                          '<xsl:value-of select="normalize-space(//SOURCEDESC//SOURCEDESC//PUBLICATIONSTMT/DATE)"/>',
                        </xsl:if>
-                       <xsl:if test="//LG1/L|//LG/L">'<xsl:value-of select='normalize-space(str:replace(//LG1/L[1]|//LG/L[1], "&apos;", "&apos;&apos;"))'/>',</xsl:if>
+                       <xsl:if test="//LG1/L|//LG/L">$$<xsl:value-of select='normalize-space(//LG1/L[1]|//LG/L[1])'/>$$,</xsl:if>
                        <xsl:if test="//PROFILEDESC/CREATION/DATE">
                          '<xsl:value-of select="//PROFILEDESC/CREATION/DATE"/>',
                        </xsl:if>
@@ -71,7 +71,7 @@
   <xsl:template match="*[@RHYME]" mode="rhyme">
     insert into text_metric (text_id, frag_id, sys_id, characteristic) 
     values ('<xsl:value-of select="$docid"/>', '',
-    'rhyme', '<xsl:value-of select='normalize-space(str:replace(@RHYME, "&apos;", "&apos;&apos;"))'/>');
+    'rhyme', $$<xsl:value-of select='normalize-space(@RHYME)'/>$$);
   </xsl:template>
   <xsl:template match="TITLE">
     <xsl:if test="not(@TYPE) or @TYPE != 'subordinate'">
@@ -105,28 +105,28 @@
     ('<xsl:value-of select="$docid"/>',
     '<xsl:value-of select="concat($fragment, $relid)"/>',
     '<xsl:value-of select="$fragment"/>',
-    '<xsl:value-of select='str:replace(normalize-space(.), "&apos;", "&apos;&apos;")'/>');
+    $$<xsl:value-of select='normalize-space(.)'/>$$);
     <xsl:apply-templates mode="refs">
       <xsl:with-param name="fragment" select="concat($fragment, $relid)"/>
     </xsl:apply-templates>
   </xsl:template>
   <xsl:template match="NAME" mode="refs">
         <xsl:param name="fragment"/>
-        <xsl:variable name="thebody" select='str:replace(normalize-space(.), "&apos;", "&apos;&apos;")'/>
-        <xsl:variable name="thereg" select='str:replace(normalize-space(@REG), "&apos;", "&apos;&apos;")'/>
+        <xsl:variable name="thebody" select='normalize-space(.)'/>
+        <xsl:variable name="thereg" select='normalize-space(@REG)'/>
         insert into text_names (text_id, frag_id, name_class, proper_name, occurrence, refid)
         values ('<xsl:value-of select="$docid"/>', '<xsl:value-of select="$fragment"/>',
                   '<xsl:value-of select="normalize-space(@TYPE)"/>',
-                  <xsl:if test="@REG">'<xsl:value-of select="$thereg"/>',</xsl:if>
-                  <xsl:if test="not(@REG)">'<xsl:value-of select="$thebody"/>',</xsl:if>
-                  '<xsl:value-of select="$thebody"/>',
+                  <xsl:if test="@REG">$$<xsl:value-of select="$thereg"/>$$,</xsl:if>
+                  <xsl:if test="not(@REG)">$$<xsl:value-of select="$thebody"/>$$,</xsl:if>
+                  $$<xsl:value-of select="$thebody"/>$$,
                   'NAME<xsl:number level="any" format="1"/>');
         <xsl:if test="@TYPE = 'person' and (ancestor::SALUTE)">
           insert into text_annotations (text_id, frag_id, kind, annotation)
           values ('<xsl:value-of select="$docid"/>', '<xsl:value-of select="$fragment"/>',
           'addressee',
-          <xsl:if test="@REG">'<xsl:value-of select="$thereg"/>'</xsl:if>
-          <xsl:if test="not(@REG)">'<xsl:value-of select="$thebody"/>'</xsl:if>);
+          <xsl:if test="@REG">$$<xsl:value-of select="$thereg"/>$$</xsl:if>
+          <xsl:if test="not(@REG)">$$<xsl:value-of select="$thebody"/>$$</xsl:if>);
         </xsl:if>
     <xsl:apply-templates mode="refs">
       <xsl:with-param name="fragment" select="$fragment"/>
@@ -136,8 +136,8 @@
     <xsl:param name="fragment"/>
     insert into text_names (text_id, frag_id, name_class, proper_name, occurrence, refid)
     values ('<xsl:value-of select="$docid"/>', '<xsl:value-of select="$fragment"/>',
-    'person', '<xsl:value-of select="str:replace(normalize-space(.), '.', '')"/>', 
-    '<xsl:value-of select="str:replace(normalize-space(.), '.', '')"/>', 
+    'person', '<xsl:value-of select="translate(normalize-space(.), '.', '')"/>', 
+    '<xsl:value-of select="translate(normalize-space(.), '.', '')"/>', 
     '<xsl:value-of select="@ID"/>');
   </xsl:template>
   <xsl:template match="SPAN" mode="refs">
