@@ -2,7 +2,7 @@ insert into people (uid, title, job_title, project_role, organization, faculty, 
 'bucharkin', 'доктор филологических наук',
 'профессор',
 'руководитель проекта',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 'Петр',
@@ -11,9 +11,9 @@ insert into people (uid, title, job_title, project_role, organization, faculty, 
 '/images/portrait/buharkin-sm.jpg',
 '/images/portrait/buharkin.jpg');
 
-insert into people (uid, title, organization, faculty, departement, given_name, patronymic, surname, photo, large_photo) values (
-'ponomareva', 'старший преподаватель',
-'Санкт-Петербургский Государственный Университет',
+insert into people (uid, title, project_role, organization, faculty, departement, given_name, patronymic, surname, photo, large_photo) values (
+'ponomareva', 'старший преподаватель', 'координатор проекта',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 'Марина',
@@ -36,7 +36,7 @@ insert into people (uid, title, job_title, organization, departement, given_name
 insert into people (uid, title, job_title, organization, faculty, departement, photo, given_name, patronymic, surname) values (
 'guskov', 'кандидат филологических наук',
 'доцент',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 '/images/portrait/guskov.jpg',
@@ -48,7 +48,7 @@ insert into people (uid, title, job_title, large_photo, organization, faculty, d
 'matveev', 'кандидат филологических наук',
 'ассистент',
 '/images/portrait/matveev.jpg',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 'Евгений',
@@ -60,7 +60,7 @@ insert into people (uid, title, job_title, large_photo, organization, departemen
 'tiraspolskaya', 'кандидат филологических  наук',
 'старший преподаватель',
 '/images/portrait/tiraspolskaja.jpg',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'кафедра для иностранных учащихся-нефилологов',
 'Анна', 'Юрьевна',
 'Тираспольская',
@@ -70,7 +70,7 @@ insert into people (uid, title, job_title, large_photo, organization, faculty, d
 'tverjanovich', 'кандидат филологических наук',
 'ассистент',
 '/images/portrait/tverjanovich.jpg',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 'Ксения',
@@ -90,7 +90,7 @@ insert into people (uid, job_title, large_photo, organization, given_name, patro
 insert into people (uid, title, job_title, organization, faculty, departement, given_name, patronymic, surname, large_photo) values (
 'rudnev', 'кандидат филологических наук',
 'доцент',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра русского языка',
 'Дмитрий',
@@ -101,7 +101,7 @@ insert into people (uid, title, job_title, organization, faculty, departement, g
 insert into people (uid, job_title, large_photo, organization, faculty, departement, given_name, patronymic, surname, photo) values (
 'zherebkova', 'аспирантка',
 '/images/portrait/zherebkova.jpg',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'кафедра истории русской литературы',
 'Елена',
@@ -119,7 +119,7 @@ insert into people (uid, job_title, organization, given_name, patronymic, surnam
 
 insert into people (uid, job_title, organization, departement, large_photo, given_name, patronymic, surname, photo) values (
 'borisova', 'методист',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'Центр переподготовки и повышения квалификации по филологии и лингвострановедению',
 '/images/portrait/borisova.jpg',
 'Мария',
@@ -129,7 +129,7 @@ insert into people (uid, job_title, organization, departement, large_photo, give
 
 insert into people (uid, job_title, organization, faculty, departement, given_name, surname, large_photo) values (
 'perkova', 'студентка',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'отделение русского языка и литературы',
 'Наталья',
@@ -138,7 +138,7 @@ insert into people (uid, job_title, organization, faculty, departement, given_na
 
 insert into people (uid, job_title, organization, faculty, departement, large_photo, given_name, surname, photo) values (
 'bulanskaya', 'студентка',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'отделение русского языка и литературы',
 '/images/portrait/bulanskaja.jpg',
@@ -148,7 +148,7 @@ insert into people (uid, job_title, organization, faculty, departement, large_ph
 
 insert into people (uid, job_title, organization, faculty, departement, large_photo, given_name, surname, photo) values (
 'overina', 'студентка',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'отделение русского языка и литературы',
 '/images/portrait/overina.jpg',
@@ -158,7 +158,7 @@ insert into people (uid, job_title, organization, faculty, departement, large_ph
 
 insert into people (uid, job_title, organization, faculty, departement, large_photo, given_name, surname, photo) values (
 'petrova', 'студентка',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'отделение русского языка и литературы',
 '/images/portrait/petrova.jpg',
@@ -168,7 +168,7 @@ insert into people (uid, job_title, organization, faculty, departement, large_ph
 
 insert into people (uid, job_title, organization, faculty, departement, given_name, surname, photo) values (
 'karmanova', 'студентка',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'факультет филологии и искусств',
 'отделение русского языка и литературы',
 'Мария',
@@ -177,7 +177,7 @@ insert into people (uid, job_title, organization, faculty, departement, given_na
 
 insert into people (uid, job_title, organization, departement, given_name, patronymic, surname, large_photo) values (
 'starodubova', 'методист',
-'Санкт-Петербургский Государственный Университет',
+'Санкт-Петербургский государственный университет',
 'Центр переподготовки и повышения квалификации по филологии и лингвострановедению',
 'Светлана',
 'Алексеевна',
