@@ -15,7 +15,7 @@ function print_caption(caption) {
 { 
     print "<tr><td valign=\"top\">";
     if ($3)
-        print "<img src=\"/images/" $3 "\" width=\"100\" height=\"121\" alt=\"" $2  "\" border=\"0\">";
+        print "<img src=\"" $3 "\" width=\"100\" height=\"121\" alt=\"" $2  "\" border=\"0\">";
     print "<td valign=\"top\" width=\"85%\">"
     print "<span class=\"menutitle\" onClick=\"SwitchMenu('sub" FNR "')\">" $2 "</span>";
 
