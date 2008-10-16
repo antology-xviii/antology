@@ -52,3 +52,5 @@ insert into photos (url, image_width) values ('/images/portrait/starodubova.jpg'
 
 insert into photos (url) values ('/images/figures/fonvizin/fonvizin2.jpg');
 insert into photos (url) values ('/images/figures/derjavin/1/derzh1.jpg');
+insert into photos (url) values ('/images/figures/karamzin/karamzin_tropinin.jpg');
+insert into photos (url) values ('/images/figures/sumarokov/sumarokov.jpg');

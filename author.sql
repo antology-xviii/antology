@@ -7,11 +7,11 @@ insert into authors (uid, given_name, patronymic, surname, portrait, sort_order)
        'written');
 
 insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
-       ('karamzin', 'Николай', 'Михайлович', 'Карамзин', null,
+       ('karamzin', 'Николай', 'Михайлович', 'Карамзин', '/images/figures/karamzin/karamzin_tropinin.jpg',
            'written');
 insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
-       ('sumarokov', 'Александр', 'Петрович', 'Сумароков', null,
+       ('sumarokov', 'Александр', 'Петрович', 'Сумароков', '/images/figures/sumarokov/sumarokov.jpg',
            'written');
 insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
-       ('rzhevskij', 'Алексей', 'Андреевич', 'Ржевский', null,
+       ('rzhevskij', 'Алексей', 'Андреевич', 'Ржевский', '/images/figures/rzhevsky/rzhevsky-portret.jpg',
            'written');
