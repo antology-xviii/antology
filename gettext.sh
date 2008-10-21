@@ -44,7 +44,7 @@ done
 LEADING_PICTURES=""
 INLINE_PICTURES=""
 TRAILING_PICTURES=""
-for p in `tagcoll reverse --remove-tags='!picture::*' sample.coll | tagcoll grep -i "${2#/}"`; do
+for p in `| tagcoll grep -i "${2#/}"`; do
     case "$p" in
         picture::leading::*)
         p="${p#picture::leading::}"

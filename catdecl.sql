@@ -46,14 +46,14 @@ insert into categories (taxonomy, id, ordering, description) values ('genre', 't
 insert into categories (taxonomy, id, ordering, description) values ('genre', 'oration', 35, 'Речь (слово)');
 insert into categories (taxonomy, id, ordering, description) values ('genre', 'article', 36, 'Статья');
 
-insert into name_classes (name_class, description) values ('biblical', 'Библейские персонажи');
-insert into name_classes (name_class, description) values ('character', 'Литературные персонажи');
-insert into name_classes (name_class, description) values ('mythologic', 'Мифологические персонажи');
-insert into name_classes (name_class, description) values ('person', 'Исторические личности');
+insert into name_classes (name_class, description, abbreviated) values ('biblical', 'Библейские персонажи', 'библ.');
+insert into name_classes (name_class, description, abbreviated) values ('character', 'Литературные персонажи', 'персонаж');
+insert into name_classes (name_class, description, abbreviated) values ('mythologic', 'Мифологические персонажи', 'миф.');
+insert into name_classes (name_class, description, abbreviated) values ('person', 'Исторические личности', 'ист.');
 insert into name_classes (name_class, description) values ('place', 'Географические названия');
-insert into name_classes (name_class, description) values ('biblicalPlace', 'Библейские географические названия');
-insert into name_classes (name_class, description) values ('mythologicPlace', 'Мифологические географические названия');
-insert into name_classes (name_class, description) values ('fictionalPlace', 'Литературные географические названия');
+insert into name_classes (name_class, description, abbreviated) values ('biblicalPlace', 'Библейские географические названия', 'библ.');
+insert into name_classes (name_class, description, abbreviated) values ('mythologicPlace', 'Мифологические географические названия', 'миф.');
+insert into name_classes (name_class, description, abbreviated) values ('fictionalPlace', 'Литературные географические названия', 'лит.');
 
 insert into annotation_kinds (annotation_kind, description) values ('addressee', 'Адресат');
 insert into annotation_kinds (annotation_kind, description) values ('theme', 'Тема');

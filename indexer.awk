@@ -23,11 +23,7 @@ function calc_refstr() {
 }
 
 function preindexer() {
-    if (SGML_PATH ~ /^TEI.2\>/)
-    {
-        THE_DOC = SGML_FILE;
-    }
-    else if (SGML_PATH ~ /^DIV[1-9]?\>/)
+    if (SGML_PATH ~ /^DIV[1-9]?\>/)
     {
         refdepth++;
         refcount[refdepth]++;
@@ -43,7 +39,10 @@ function preindexer() {
 
 
 function indexer() {
-    if (SGML_PATH ~ /^(TITLE|HEAD|ITEM|Q|L|P|QUOTE|CELL)\>/)
+    if (SGML_PATH ~ /^TEI.2\>/)
+    {
+    }
+    else if (SGML_PATH ~ /^(TITLE|HEAD|ITEM|Q|L|P|QUOTE|CELL)\>/)
     {
         if (searchre)
         {
@@ -87,23 +86,27 @@ function indexer() {
     }
     else if (SGML_PATH ~ /^TITLE TITLESTMT FILEDESC\>/)
     {
-        print "documentTitle:",  "cited:" encode_tag_val(body())
+        SQLATTR["title"] = encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^TITLE TITLESTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print "documentTitle:",  "original:" encode_tag_val(body())
+        SQLATTR["original_title"] = encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^PUBLISHER PUBLICATIONSTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print "documentPublisher:", encode_tag_val(body())
+        SQLATTR["publisher"] = encode_tag_val(body())
     }
     else if (SGML_PATH ~ /^DATE PUBLICATIONSTMT BIBLFULL SOURCEDESC BIBLFULL SOURCEDESC\>/)
     {
-        print "documentVersion:",  "published:" encode_tag_val(body())
+        SQLATTR["published"] = encode_tag_val(body())
     }
-    else if (SGML_PATH ~ /^AUTHOR TITLESTMT FILEDESC\>/)
+    else if (SGML_PATH ~ /^FORENAME PERSNAME AUTHOR TITLESTMT FILEDESC\>/)
     {
-        print "documentAuthor:", "cn=" encode_tag_val(unline(body())) "," AUTHORS_TREE
+        SQLATTR[attribute("TYPE") == "patronymic" ? "patronymic" : "given_name"] = encode_tag_val(body());
+    }
+    else if (SGML_PATH ~ /^SURNAME PERSNAME AUTHOR TITLESTMT FILEDESC\>/)
+    {
+        SQLATTR["surname"] = encode_tag_val(body());
     }
     else if (SGML_CURRENT == "ABBR")
     {

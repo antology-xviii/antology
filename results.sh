@@ -1,22 +1,23 @@
 #! /bin/sh
 
-TAGCOLL="$1"
+DBNAME="$1"
 
-SEARCH_author="author::@"
-SEARCH_title="title::@"
-SEARCH_origtitle="origtitle::@"
-SEARCH_firstline="firstline::@"
-SEARCH_kind="category::kind::@"
-SEARCH_written="date::written::@"
-SEARCH_published="(date::published::@ || date::performed::@)"
-SEARCH_publisher="publisher::@"
-SEARCH_theme="annotation::theme::@"
-SEARCH_place="name::place::@"
-SEARCH_name="@"
-SEARCH_rhyme="rhyme::@"
-SEARCH_metric="metric::part::@"
-SEARCH_mscheme="metric::scheme::@"
-SEARCH_addressee="annotation::addressee::@"
+SEARCH_author='author_id = $$@$$'
+SEARCH_title='title = $$@$$'
+SEARCH_origtitle='original_title = $$@$$'
+SEARCH_firstline='first_line = $$@$$'
+SEARCH_kind='kinds.category = $$@$$'
+SEARCH_kind='genres.category = $$@$$'
+SEARCH_written='written = $$@$$'
+SEARCH_published='(published = $$@$$ or performed = $$@$$)'
+SEARCH_publisher='publisher = $$@$$'
+SEARCH_theme='themes.annotation = $$@$$'
+SEARCH_place='names.name_class = split_part($$@$$, $$=$$, 1) and names.proper_name = split_part($$@$$, $$=$$, 2)'
+SEARCH_name="$SEARCH_place"
+SEARCH_rhyme='rhymes.characteristic = $$@$$'
+SEARCH_metric='metrics.characteristic like $$%@%$$'
+SEARCH_mscheme='metrics.characteristic = $$@$$'
+SEARCH_addressee='addressees.annotation = $$@$$'
 
 PARMNAME_author="автор"
 PARMNAME_title="название"
@@ -47,7 +48,7 @@ for idx in ${!parameters[*]}; do
         else
             value="${value//+/ }"
             value="`eval echo "$'${value//\%/\x}'"`"
-            value="${value// /@#32;}"
+            value="${value//\$/}"
             searchvar="SEARCH_$name"   
             searchterm="${!searchvar//@/$value}"
             qvar="Q_$name"

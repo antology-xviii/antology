@@ -53,7 +53,8 @@ create table text_structure (
 
 create table name_classes (
        name_class varchar(16) primary key,
-       description text);
+       description text, 
+       abbreviated varchar(64));
 
 create table text_names (
        text_id varchar(255),

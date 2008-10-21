@@ -1,10 +1,10 @@
 #! /bin/sh
 
-TAGCOLL="$1"
+DBNAME="$1"
 
 makelistfield() {
     local id="$1"
-    local list="$2"
+    local query="$2"
     local label="$3"
     local multiple="$4"
     local andall="<input type=\"radio\" name=\"${id}_mode\" checked value=\"all\"> все \
@@ -14,19 +14,17 @@ makelistfield() {
     if [ -n "$multiple" ]; then
         echo "$andall"
         echo "<div class=\"scrolled\">"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort -f | awk -vNAME="$id" '{ 
-            sub(/^'"$list"'::/, ""); 
-            val = $0;
-                gsub(/@/, "\\&"); print "<input type=\"checkbox\" name=\"" NAME "\" value=\"" val "\">" $0 "<br>";
+        psql -A -t -q antology -c "$query" | gawk -F\| -vNAME="$id" '{ 
+                 gsub(/&/, "\\&amp;"); gsub(/"/, "\\&quot;"); gsub(/</, "\\&lt;"); gsub(/>/, "\\&gt;"); 
+                 print "<input type=\"checkbox\" name=\"" NAME "\" value=\"" ($1 ? $1 : $2) "\">" ($2 ? $2 : $1) "<br>";
                 }'
         echo "</div>"
     else
         echo "<select name=\"$id\" class=\"searchlist\">"
         echo "<option selected value=\"\">*</option>"
-        tagcoll reverse --remove-tags="!$list::*" -i $TAGCOLL | sort -f | awk '{ 
-            sub(/^'"$list"'::/, ""); 
-            val = $0;
-                gsub(/@/, "\\&"); print "<option value=\"" val "\">" $0 "</option>";
+        psql -A -t -q antology -c "$query" | gawk -F\| '{ 
+                gsub(/&/, "\\&amp;"); gsub(/"/, "\\&quot;"); gsub(/</, "\\&lt;"); gsub(/>/, "\\&gt;"); 
+                print "<option value=\"" ($1 ? $1 : $2) "\">" ($2 ? $2 : $1) "</option>";
                 }'
         echo "</select>"
     fi
@@ -34,41 +32,26 @@ makelistfield() {
 
 makecomplexlistfield() {
     local id="$1"
-    local label="$2"
-    local category
-    local catlabel
-    local catexpr=""
-    local catre=""
-    shift
-    shift
+    local query="$2"
+    local label="$3"
+
     echo "<tr><td valign=\"top\">$label: <td valign=\"top\"><select name=\"$id\">"
     echo "<option selected value=\"\">*</option>"
-    for category; do
-        category="${category%% *}"
-        catexpr="${catexpr}${catexpr:+ && }!$category::*"
-    done    
-    tagcoll reverse --remove-tags="$catexpr" -i $TAGCOLL | awk -vCATLIST="$*" 'BEGIN { 
-            split(CATLIST, categories);
-    }
-    {
-        val = $0;
-        for (i = 1; i in categories; i += 2)
-        {
-            if (index($0, categories[i] "::") == 1)
-            {
-                label = categories[i + 1];
-                $0 = substr($0, length(categories[i] "::") + 1);
-                break;
-            }
-        }
-        gsub(/@/, "\\&"); printf "<option value=\"%s\"> %s (%s)</option>\n", val, $0, label;
-    }' | sort -f -k3
+
+    psql -A -t -q antology -c "$query" | gawk -F\| '{
+        gsub(/&/, "\\&amp;"); gsub(/"/, "\\&quot;"); gsub(/</, "\\&lt;"); gsub(/>/, "\\&gt;");
+        printf "<option value=\"%s\"> %s %s</option>\n", $1 "=" $2, $3, $4 ? "(" $4 ")" : "";
+    }'
 } 
 
 maketextfield() {
     local id="$1"
     local label="$2"
     echo "<tr><td valign=\"top\">$label: <td valign=\"top\"><input type=\"text\" name=\"$id\">"
+}
+
+makesql() {
+    echo "select $1 from $2 ${3:+where }$3 order by ${4:-${1#distinct}};"
 }
 
 echo "<html>"
@@ -84,21 +67,22 @@ echo "<h2 align=\"left\">Поиск текстов</h2>"
 echo "<form action=\"/cgi-bin/results.cgi\" method=\"GET\">"
 echo "<table>"
 
-makelistfield author author Автор
-makelistfield title title  Заглавие
-makelistfield origtitle origtitle  "Заглавие при первой публикации"
-makelistfield firstline firstline "Первая строка"
-makelistfield kind category::kind "Литературный род"
+makelistfield author "`makesql 'uid, given_name || $$ $$ || patronymic || $$ $$ || surname' authors '' 'surname, given_name, patronymic'`"  Автор
+makelistfield title "`makesql 'distinct title' texts`"   Заглавие
+makelistfield origtitle "`makesql 'distinct original_title' texts`"  "Заглавие при первой публикации"
+makelistfield firstline "`makesql 'distinct first_line' texts 'first_line is not null'`" "Первая строка"
+makelistfield kind "`makesql 'id, description' categories 'taxonomy = $$kind$$' description`" "Литературный род"
+makelistfield kind "`makesql 'id, description' categories 'taxonomy = $$genre$$' description`" "Жанр"
 maketextfield written "Год написания"
 maketextfield published "Год первой публикации/постановки"
-makelistfield publisher publisher "Место первой публикации"
-makelistfield theme annotation::theme "Темы" multiple
-makelistfield metric metric::part "Метр/размер" multiple
-makelistfield mscheme metric::scheme "Метрическая схема"
-makelistfield rhyme rhyme "Рифмовка"
-makelistfield place name::place "Географические названия"
-makecomplexlistfield name "Имена собственные" "name::person ист." "name::mythologic миф." "name::biblical библ." "name::character персонаж"
-makelistfield addressee annotation::addressee Адресат
+makelistfield publisher "`makesql 'distinct publisher' texts`" "Место первой публикации"
+makelistfield theme "`makesql 'distinct annotation' text_annotations 'kind = $$theme$$'`" "Темы" multiple
+makelistfield metric "`makesql 'id, interpretation' metric_elements 'sys_id = $$met$$' interpretation`" "Метр/размер" multiple
+makelistfield mscheme "`makesql 'distinct characteristic' text_metric 'sys_id = $$met$$'`" "Метрическая схема"
+makelistfield rhyme "`makesql 'distinct characteristic' text_metric 'sys_id = $$rhyme$$'`" "Рифмовка"
+makecomplexlistfield place "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) like $$%place$$' 'tn.proper_name, nc.name_class, nc.abbreviated'`" "Географические названия"
+makecomplexlistfield name "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) not like $$%place$$' 'tn.proper_name, nc.name_class, nc.abbreviated'`" "Имена собственные" 
+makelistfield addressee "`makesql 'distinct annotation' text_annotations 'kind = $$addressee$$'`" Адресат
 
 echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
 echo "</table>"
