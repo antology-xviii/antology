@@ -7,6 +7,7 @@ export LC_CTYPE=ru_RU.koi8-r
 export LC_COLLATE=ru_RU.koi8-r
 export LANG=en_US
 export REQUEST_METHOD
+export PGUSER=www_data
 
 cd $SCRIPTDIR
 

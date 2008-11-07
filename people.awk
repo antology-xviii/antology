@@ -18,14 +18,11 @@ BEGIN {
             $13 "\" align=\"right\" vspace=\"4\" hspace=\"8\"" width ">"
     print "</a>";
     print "<td><strong>" $1 " " $2 " " toupper($3)"</strong><br>"
-    if ($9)
-        print $9 "<br>"
-    if ($8)
-        print $8 "<br>"
-    print $7 "<br>";
+    if ($9) print $9 "<br>";
+    if ($8) print $8 "<br>";
+    if ($7) print $7 "<br>";
     print $4 "<br>";
-    if ($5)
-        print $5 "<br>";
+    if ($5) print $5 "<br>";
     print $6
 }
 

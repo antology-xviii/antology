@@ -37,7 +37,7 @@ create table texts (
        written_place varchar(64),
        published varchar(32),
        performed varchar(32),
-       unique (author_id, title));
+       unique (author_id, title, written));
 
 create table text_transcribers (
        url varchar(255) not null references texts,

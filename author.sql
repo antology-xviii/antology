@@ -13,5 +13,5 @@ insert into authors (uid, given_name, patronymic, surname, portrait, sort_order)
        ('sumarokov', 'Александр', 'Петрович', 'Сумароков', '/images/figures/sumarokov/sumarokov.jpg',
            'written');
 insert into authors (uid, given_name, patronymic, surname, portrait, sort_order) values
-       ('rzhevskij', 'Алексей', 'Андреевич', 'Ржевский', '/images/figures/rzhevsky/rzhevsky-portret.jpg',
+       ('rzhevskij', 'Алексей', 'Андреевич', 'Ржевский', '/images/figures/rzhevsky/rzhevsky-portret.png',
            'written');
