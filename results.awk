@@ -1,85 +1,34 @@
-BEGIN { FS="[:,][[:space:]]+"; }
-
-function findfield (start) {
-    for (i = 2; i <= NF; i++)
-    {
-        if (index($i, start) == 1)
-        {
-            return substr($i, length(start) + 1);
-        }
-    }
-    return ""
-}
-
-function dump() {
-    if (!anything_found)
-    {
-        print "<strong>Найденные тексты:</strong>";
-        print "<p>"
-        print "<ul>";
-        anything_found = 1;
-    }
-    else
-    {
-        print "</ul>"
-    }
-    hilite = "";
-    for (f in FRAGS)
-    {
-        sub(/^NAME/, "", f);
-        hilite = hilite (hilite ? "+" : "") f;
-    }
-    if (hilite)
-        hilite = "?hilite=" hilite
-    printf "<li>%s. <a href=\"/cgi-bin/gettext.cgi/%s%s\">%s</a>\n", AUTHOR, urlencode_path(BASEFILE), hilite, TITLE;
-    print "<ul>";
-    for (f in REFS) {
-        print "<li>";
-        if (FRAGS[f])
-        {
-            print REFS[f];        
-            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">...%s...</a>\n", urlencode_path(BASEFILE), hilite, f, FRAGS[f];
-        }
-        else
-        {
-            printf "<a href=\"/cgi-bin/gettext.cgi/%s%s#%s\">%s</a>\n", urlencode_path(BASEFILE), hilite, f, REFS[f];
-        }
-    }
-    
-    delete REFS;
-    delete FRAGS;
-}
-
-
-
-$1 ~ /#/ {
-    frag = findfield("fragment::");
-    ref = findfield("ref::");
-    if (frag || ref)
-    {
-        gsub(/@/, "\\&", frag);
-        sub(/^.*#/, "", $1);
-        REFS[$1] = ref;
-        FRAGS[$1] = frag;
-    }
-    next
-}
-
+BEGIN { FS="|"; first_fragment = 1; }
 
 {
-    if (AUTHOR) dump();
-    AUTHOR = findfield("author::");
-    TITLE = findfield("title::");
-    gsub(/@/, "\\&", TITLE);
-    gsub(/@/, "\\&", AUTHOR);
-    AUTHOR = gensub(/^(.)[^&]*&32;(.)[^&]*&32;/, "\\1. \\2. ", 1, AUTHOR);
-    BASEFILE = $1;
+	if (!anything_found)
+	{
+		anything_found = 1;
+		print "<ul>"
+	}
+	if ($1 != current_url)
+	{
+		if (!first_fragment) print "</ul>";
+		printf "<li>%s <a href='%s'>%s</a>\n", $2, urlencode_path($1), $3;
+		first_fragment = 1;
+		current_url = $1;
+	}
+	if ($4)
+	{
+		if (first_fragment)
+		{
+			print "<ul>";
+			first_fragment = "";
+		}
+		printf "<li><a href='%s%s'>%s</a>\n", $5, urlencode_path($1), $6 ? "#" $6 : "";
+	}
 }
 
 END {
-    if (AUTHOR) dump();
     if (anything_found)
+	{
         print "</ul>";
+	}
     else
     {
         print "<p>К сожалению, по Вашему запросу ничего не найдено"

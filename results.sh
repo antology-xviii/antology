@@ -6,18 +6,51 @@ SEARCH_author='author_id = $$@$$'
 SEARCH_title='title = $$@$$'
 SEARCH_origtitle='original_title = $$@$$'
 SEARCH_firstline='first_line = $$@$$'
-SEARCH_kind='kinds.category = $$@$$'
-SEARCH_kind='genres.category = $$@$$'
+subquery_class_all_common='select tc.category from text_classifications as tc where'
+subquery_class_common="$subquery_class_all_common tc.text_id = url"
+SEARCH_kind='tc.category = $$@$$'
+subquery_kind_common="tc.taxonomy = 'kind' and (@)"
+SUBQUERY_kind_any="$subquery_class_common and $subquery_kind_common"
+SUBQUERY_kind_all="$subquery_class_common intersect $subquery_class_all_common $subquery_kind_common"
+SEARCH_genre='tc.category = $$@$$'
+subquery_genre_common="tc.taxonomy = 'genre' and (@)"
+SUBQUERY_genre_any="$subquery_class_common and $subquery_genre_common"
+SUBQUERY_genre_all="$subquery_class_common intersect $subquery_class_all_common $subquery_genre_common"
 SEARCH_written='written = $$@$$'
 SEARCH_published='(published = $$@$$ or performed = $$@$$)'
 SEARCH_publisher='publisher = $$@$$'
-SEARCH_theme='themes.annotation = $$@$$'
-SEARCH_place='names.name_class = split_part($$@$$, $$=$$, 1) and names.proper_name = split_part($$@$$, $$=$$, 2)'
+SEARCH_theme='$$@$$'
+SEARCH_place='(n.name_class = split_part($$@$$, $$=$$, 1) and n.proper_name = split_part($$@$$, $$=$$, 2))'
+subquery_place_common="select n.names_class || '=' || n.proper_name from text_names as n where "
+subquery_place_text="$subquery_place_common n.text_id = url and n.frag_id = tf.label"
+SUBQUERY_place_any="$subquery_place_text and (@)"
+SUBQUERY_place_all="$subquery_place_text intersect $subquery_place_common (@)"
 SEARCH_name="$SEARCH_place"
-SEARCH_rhyme='rhymes.characteristic = $$@$$'
-SEARCH_metric='metrics.characteristic like $$%@%$$'
-SEARCH_mscheme='metrics.characteristic = $$@$$'
-SEARCH_addressee='addressees.annotation = $$@$$'
+JOIN_name_fields="jn.refid, jn.occurrence"
+JOIN_name_join="left join text_names as jn on jn.text_id = url and jn.frag_id = tf.label"
+JOIN_place_fields="$JOIN_name_fields"
+JOIN_place_join="$JOIN_name_join"
+SUBQUERY_name_any="$SUBQUERY_place_any"
+SUBQUERY_name_all="$SUBQUERY_place_all"
+subquery_metric_all_common='select m.characteristic from text_metric as m where'
+subquery_metric_common="$subquery_metric_all_common m.text_id = url and m.frag_id = tf.label"
+SEARCH_rhyme='m.characteristic = $$@$$'
+subquery_rhyme_common='m.sys_id = $$rhyme$$ and (@)'
+SUBQUERY_rhyme_any="$subquery_metric_common and $subquery_rhyme_common"
+SUBQUERY_rhyme_all="$subquery_metric_common intersect $subquery_metric_all_common $subquery_rhyme_common"
+SEARCH_metric='m.characteristic like $$%@%$$'
+subquery_msys_common='m.sys_id = $$met$$ and (@)'
+SUBQUERY_metric_any="$subquery_metric_common and $subquery_msys_common"
+SUBQUERY_metric_all="$subquery_metric_common intersect $subquery_metric_all_common $subquery_msys_common"
+SEARCH_mscheme='m.characteristic = $$@$$'
+SUBQUERY_mscheme_any="$SUBQUERY_metic_any"
+SUBQUERY_mscheme_all="$SUBQUERY_metic_all"
+SEARCH_addressee='ta.annotation = $$@$$'
+subquery_anno_all_common='select ta.annotation from text_annotations as ta where'
+subquery_anno_common="$subquery_anno_all_common ta.text_id = url and ta.frag_id = tf.label"
+subquery_addressee_common='ta.kind = $$addressee$$ and (@)'
+SUBQUERY_addressee_any="$subquery_anno_common and $subquery_addressee_common"
+SUBQUERY_addressee_all="$subquery_anno_common intersect $subquery_anno_all_common $subquery_addressee_common"
 
 PARMNAME_author="автор"
 PARMNAME_title="название"
@@ -37,7 +70,7 @@ PARMNAME_addressee="адресат"
 
 
 IFS="&;" read -a parameters
-   
+ 
 for idx in ${!parameters[*]}; do
     name="${parameters[$idx]%%=*}"        
     value="${parameters[$idx]#*=}"
@@ -53,19 +86,27 @@ for idx in ${!parameters[*]}; do
             searchterm="${!searchvar//@/$value}"
             qvar="Q_$name"
             if [ -n "$searchterm" ]; then
-                declare "$qvar"="${!qvar:-(}${!qvar:+ && }$searchterm"
+                declare "$qvar"="${!qvar:+ or }$searchterm"
             fi
         fi
     fi
 done
-tagexpr=""
+sqlexpr=""
+addfields=""
+addjoin=""
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
+        value="${!var}"
         modevar="${var#Q_}_mode"
-        if [ "${!modevar}" = "any" ]; then
-            declare "$var"="${!var//&&/||}"
+        subq="SUBQUERY_${var#Q_}_${!modevar}"       
+        if [ -n "${!subq}" ]; then
+            value="exists(${!subq//@/$value})"
         fi
-        tagexpr+="${tagexpr:+ && }${!var})"
+        sqlexpr+=" and (${!var})"
+		jf="JOIN_${var#Q_}_fields"
+		addfields+="${!jf}"
+		jn="JOIN_${var#Q_}_join"
+		addjoin+="${!jn}"
     fi
 done
 echo "<html>"
@@ -100,14 +141,15 @@ for idx in ${!parameters[*]}; do
         if [ -n "${!name}" ]; then
             value="${value//+/ }"
             value="`eval echo "$'${value//\%/\x}'"`"
-            value="${value//@/&}"
             echo "<td>${value}"
         fi
     fi
 done
 echo "</table>"
 echo "<!-- split -->"
-tagcoll grep "$tagexpr" $TAGCOLL | awk -f urlencode.awk -f results.awk
+sqlexpr="select url, auth.given_name || ' ' || auth.patronymic || ' ' || auth.surname, title, tf.label, tf.fragment $addfields from texts, authors as auth, text_structure as tf $addjoin where auth.uid = author_id and tf.text_id = url $sqlexpr order by author_id, title, url, tf.label"
+echo "<!-- SQL query was: $sqlexpr -->"
+psql -A -t -q antology -c "$sqlexpr" | awk -f urlencode.awk -f results.awk
 rc=$?
 echo "<!-- +foot -->"
 echo "</body>"
