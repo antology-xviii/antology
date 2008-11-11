@@ -183,3 +183,12 @@ insert into people (uid, job_title, organization, departement, given_name, patro
 'Алексеевна',
 'Стародубова',
 '/images/portrait/starodubova.jpg');
+
+insert into people (uid, job_title, organization, faculty, departement, given_name, surname, photo) values (
+'tachkova', 'студентка',
+'Санкт-Петербургский государственный университет',
+'факультет филологии и искусств',
+'отделение русского языка и литературы',
+'Татьяна',
+'Тачкова',
+'/images/portrait/tachkova.jpg');
