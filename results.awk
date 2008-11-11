@@ -9,18 +9,23 @@ BEGIN { FS="|"; first_fragment = 1; }
 	if ($1 != current_url)
 	{
 		if (!first_fragment) print "</ul>";
-		printf "<li>%s <a href='%s'>%s</a>\n", $2, urlencode_path($1), $3;
+		printf "<li>%s <a href='/cgi-bin/gettext.cgi/%s'>%s</a>\n", $2, urlencode_path($1), $3;
 		first_fragment = 1;
 		current_url = $1;
+		current_fragment = "";
 	}
-	if ($4)
+	if ($6)
 	{
-		if (first_fragment)
+		if (current_fragment != $5)
 		{
-			print "<ul>";
-			first_fragment = "";
+			current_fragment = $5;
+			if (first_fragment)
+			{
+				print "<ul>";
+				first_fragment = "";
+			}
+			printf "<li><a href='/cgi-bin/gettext.cgi/%s%s'>%s</a>\n", urlencode_path($1), $6 ? "#" $6 : "", $5;
 		}
-		printf "<li><a href='%s%s'>%s</a>\n", $5, urlencode_path($1), $6 ? "#" $6 : "";
 	}
 }
 

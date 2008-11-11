@@ -6,7 +6,7 @@ SEARCH_author='author_id = $$@$$'
 SEARCH_title='title = $$@$$'
 SEARCH_origtitle='original_title = $$@$$'
 SEARCH_firstline='first_line = $$@$$'
-subquery_class_all_common='select tc.category from text_classifications as tc where'
+subquery_class_all_common='select tc.category from text_classification as tc where'
 subquery_class_common="$subquery_class_all_common tc.text_id = url"
 SEARCH_kind='tc.category = $$@$$'
 subquery_kind_common="tc.taxonomy = 'kind' and (@)"
@@ -19,16 +19,17 @@ SUBQUERY_genre_all="$subquery_class_common intersect $subquery_class_all_common 
 SEARCH_written='written = $$@$$'
 SEARCH_published='(published = $$@$$ or performed = $$@$$)'
 SEARCH_publisher='publisher = $$@$$'
-SEARCH_theme='$$@$$'
 SEARCH_place='(n.name_class = split_part($$@$$, $$=$$, 1) and n.proper_name = split_part($$@$$, $$=$$, 2))'
-subquery_place_common="select n.names_class || '=' || n.proper_name from text_names as n where "
+subquery_place_common="select n.name_class || '=' || n.proper_name from text_names as n where "
 subquery_place_text="$subquery_place_common n.text_id = url and n.frag_id = tf.label"
 SUBQUERY_place_any="$subquery_place_text and (@)"
 SUBQUERY_place_all="$subquery_place_text intersect $subquery_place_common (@)"
 SEARCH_name="$SEARCH_place"
-JOIN_name_fields="jn.refid, jn.occurrence"
-JOIN_name_join="left join text_names as jn on jn.text_id = url and jn.frag_id = tf.label"
+JOIN_name_fields=", jn.refid, jn.occurrence"
+JOIN_name_from=", text_names as jn"
+JOIN_name_join="and jn.text_id = url and jn.frag_id = tf.label"
 JOIN_place_fields="$JOIN_name_fields"
+JOIN_place_from="$JOIN_name_from"
 JOIN_place_join="$JOIN_name_join"
 SUBQUERY_name_any="$SUBQUERY_place_any"
 SUBQUERY_name_all="$SUBQUERY_place_all"
@@ -51,6 +52,10 @@ subquery_anno_common="$subquery_anno_all_common ta.text_id = url and ta.frag_id 
 subquery_addressee_common='ta.kind = $$addressee$$ and (@)'
 SUBQUERY_addressee_any="$subquery_anno_common and $subquery_addressee_common"
 SUBQUERY_addressee_all="$subquery_anno_common intersect $subquery_anno_all_common $subquery_addressee_common"
+SEARCH_theme="$SEARCH_addressee"
+subquery_theme_common='ta.kind = $$theme$$ and (@)'
+SUBQUERY_theme_any="$subquery_anno_common and $subquery_theme_common"
+SUBQUERY_theme_all="$subquery_anno_common intersect $subquery_anno_all_common $subquery_theme_common"
 
 PARMNAME_author="автор"
 PARMNAME_title="название"
@@ -94,17 +99,21 @@ done
 sqlexpr=""
 addfields=""
 addjoin=""
+addfrom=""
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         value="${!var}"
         modevar="${var#Q_}_mode"
-        subq="SUBQUERY_${var#Q_}_${!modevar}"       
+        subq="SUBQUERY_${var#Q_}_${!modevar:-any}"       
+	echo "$subq ($modevar) -> ${!subq}" >&2 
         if [ -n "${!subq}" ]; then
             value="exists(${!subq//@/$value})"
         fi
-        sqlexpr+=" and (${!var})"
+        sqlexpr+=" and (${value})"
 		jf="JOIN_${var#Q_}_fields"
 		addfields+="${!jf}"
+		jf="JOIN_${var#Q_}_from"
+		addfrom+="${!jf}"
 		jn="JOIN_${var#Q_}_join"
 		addjoin+="${!jn}"
     fi
@@ -147,7 +156,7 @@ for idx in ${!parameters[*]}; do
 done
 echo "</table>"
 echo "<!-- split -->"
-sqlexpr="select url, auth.given_name || ' ' || auth.patronymic || ' ' || auth.surname, title, tf.label, tf.fragment $addfields from texts, authors as auth, text_structure as tf $addjoin where auth.uid = author_id and tf.text_id = url $sqlexpr order by author_id, title, url, tf.label"
+sqlexpr="select url, auth.given_name || ' ' || auth.patronymic || ' ' || auth.surname, title, tf.label, tf.fragment $addfields from texts, authors as auth, text_structure as tf $addfrom where auth.uid = author_id and tf.text_id = url $sqlexpr $addjoin order by author_id, title, url, tf.label"
 echo "<!-- SQL query was: $sqlexpr -->"
 psql -A -t -q antology -c "$sqlexpr" | awk -f urlencode.awk -f results.awk
 rc=$?
