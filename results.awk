@@ -24,7 +24,8 @@ BEGIN { FS="|"; first_fragment = 1; }
 				print "<ul>";
 				first_fragment = "";
 			}
-			printf "<li><a href='/cgi-bin/gettext.cgi/%s%s'>%s</a>\n", urlencode_path($1), $6 ? "#" $6 : "", $5;
+			printf "<li><a href='/cgi-bin/gettext.cgi/%s%s'>%s</a>\n", 
+                 urlencode_path($1), $6 ? "#" $6 : ($8 ? "#" $8 : ""), $5;
 		}
 	}
 }
