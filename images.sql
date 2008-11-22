@@ -338,3 +338,9 @@ insert into photos (url, description) values ($$/images/figures/derjavin/2/PICT0
 insert into photos (url, description) values ($$/images/figures/derjavin/2/PICT0133-1.jpg$$, $$Зима$$);
 insert into photos (url) values ($$/images/figures/fonvizin/panin.jpg$$);
 
+insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry1.jpg$$, $$Ф. Снядецкий. Дмитрий Самозванец. 17 в.$$);
+insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry2.jpg$$, $$Лжедмитрий$$);
+insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry3.jpg$$, $$К. Лебедев. Вступление Лжедмитрия I в Москву$$);
+insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry4.jpg$$, $$Василий Шуйский$$);
+
+

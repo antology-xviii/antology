@@ -80,7 +80,8 @@ create table text_annotations (
 create table text_pictures (
        text_id varchar(255) not null references texts,
        kind varchar(32) not null,
-       url varchar(255) not null references photos);
+       url varchar(255) not null references photos,
+       sortkey smallint);
 
 create table taxonomy (
        id varchar(255) primary key,
