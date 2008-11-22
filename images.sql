@@ -347,3 +347,5 @@ insert into photos (url, description) values ($$/images/figures/sumarokov/horev1
 
 insert into photos (url, description) values ($$/images/figures/sumarokov/sinav.jpg$$, $$Б. Чориков. Рюрик, Синеус и Трувор. 862 год.$$);
 
+insert into photos (url, description) values ($$/images/figures/sumarokov/semira.jpg$$, $$Князь Олег$$);
+
