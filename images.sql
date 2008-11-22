@@ -343,4 +343,6 @@ insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry
 insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry3.jpg$$, $$К. Лебедев. Вступление Лжедмитрия I в Москву$$);
 insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry4.jpg$$, $$Василий Шуйский$$);
 
+insert into photos (url, description) values ($$/images/figures/sumarokov/horev1.jpg$$, $$Кий, Щек, Хорив и Лыбедь (миниатюра Радзивилловской летописи)$$);
+
 

@@ -81,7 +81,8 @@ create table text_pictures (
        text_id varchar(255) not null references texts,
        kind varchar(32) not null,
        url varchar(255) not null references photos,
-       sortkey smallint);
+       sortkey smallint,
+       primary key (text_id, kind, url));
 
 create table taxonomy (
        id varchar(255) primary key,

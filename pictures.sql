@@ -99,5 +99,5 @@ insert into text_pictures (text_id, kind, url) values ('texts/Письмо_6.tei', 'le
 
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry1.jpg$$, $$leading$$, 2);
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry2.jpg$$, $$leading$$, 1);
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry3.jpg$$, $$trailing$$, 1);
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry4.jpg$$, $$trailing$$, 2);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry3.jpg$$, $$trailing$$, 2);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий.tei$$, $$/images/figures/sumarokov/dmitry4.jpg$$, $$trailing$$, 1);
