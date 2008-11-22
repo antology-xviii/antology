@@ -45,7 +45,7 @@
                                                       attributes: '(("align" "center") ("valign" "center"))
                                                       (make empty-element gi: "img"
                                                             attributes: `(("width" "220")
-                                                                          ("src" ,(string-append "/images/figures/" (caar list)))
+                                                                          ("src" ,(caar list))
                                                                           ("alt" ,(cdar list))))
                                                       (make empty-element gi: "br")
                                                       (split-lines (cdar list))))))))))
