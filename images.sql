@@ -345,4 +345,5 @@ insert into photos (url, description) values ($$/images/figures/sumarokov/dmitry
 
 insert into photos (url, description) values ($$/images/figures/sumarokov/horev1.jpg$$, $$Кий, Щек, Хорив и Лыбедь (миниатюра Радзивилловской летописи)$$);
 
+insert into photos (url, description) values ($$/images/figures/sumarokov/sinav.jpg$$, $$Б. Чориков. Рюрик, Синеус и Трувор. 862 год.$$);
 

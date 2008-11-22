@@ -104,3 +104,5 @@ insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Димитрий
 
 
 insert into text_pictures (text_id, url, kind) values ($$texts/Хорев.tei$$, $$/images/figures/sumarokov/horev1.jpg$$, $$leading$$);
+
+insert into text_pictures (text_id, url, kind) values ($$texts/Синав_и_Трувор.tei$$, $$/images/figures/sumarokov/sinav.jpg$$, $$leading$$);
