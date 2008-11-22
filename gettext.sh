@@ -24,7 +24,7 @@ for idx in ${!parameters[*]}; do
     name="${parameters[$idx]%%=*}"        
     value="${parameters[$idx]#*=}"
     value="${value//+/ }"
-    value="`eval echo "$'${value//\%/\x}'"`"
+    value="$(eval echo "$'${value//\%/\x}'")"
     case "$name" in
         hilite) 
             HILITE="'($value)"
@@ -41,49 +41,11 @@ for idx in ${!parameters[*]}; do
     esac
 done
 
-LEADING_PICTURES=""
-INLINE_PICTURES=""
-TRAILING_PICTURES=""
-for p in `| tagcoll grep -i "${2#/}"`; do
-    case "$p" in
-        picture::leading::*)
-        p="${p#picture::leading::}"
-        name="${p%%::*}"
-        descr="${p#*::}"
-        descr="${descr//@/&}"
-        descr="${descr//&#32;/ }"
-        descr="${descr//&#44;/,}"
-        descr="${descr//&#40;/(}"
-        descr="${descr//&#41;/)}"
-        descr="${descr//&#13;/\\carriage-return;}"
-        LEADING_PICTURES="$LEADING_PICTURES (\"$name\" . \"$descr\")"
-        ;;
-        picture::inline::*)
-        p="${p#picture::inline::}"
-        name="${p%%::*}"
-        descr="${p#*::}"
-        descr="${descr//@/&}"
-        descr="${descr//&#32;/ }"
-        descr="${descr//&#44;/,}"
-        descr="${descr//&#40;/(}"
-        descr="${descr//&#41;/)}"
-        descr="${descr//&#13;/\\carriage-return;}"
-        INLINE_PICTURES="$INLINE_PICTURES (\"$name\" . \"$descr\")"
-        ;;
-        picture::trailing::*)
-        p="${p#picture::trailing::}"
-        name="${p%%::*}"
-        descr="${p#*::}"
-        descr="${descr//@/&}"
-        descr="${descr//&#32;/ }"
-        descr="${descr//&#44;/,}"
-        descr="${descr//&#40;/(}"
-        descr="${descr//&#41;/)}"
-        descr="${descr//&#13;/\\carriage-return;}"
-        TRAILING_PICTURES="$TRAILING_PICTURES (\"$name\" . \"$descr\")"
-        ;;
-    esac
-done
+
+
+LEADING_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'leading';")"
+INLINE_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'inline';")"
+TRAILING_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'trailing';")"
 
 SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R \
     -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \
