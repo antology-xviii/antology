@@ -8,7 +8,7 @@ SEARCH_origtitle='original_title = $$@$$'
 SEARCH_firstline='first_line = $$@$$'
 JOIN_kind=' left join (select * from text_classification where taxonomy = $$kind$$) as kinds on kinds.text_id = url'
 SEARCH_kind='kinds.category = $$@$$'
-JOIN_genre=' left join (select * from text_classification where taxonomy = $$genre$$) as genres on kinds.text_id = url'
+JOIN_genre=' left join (select * from text_classification where taxonomy = $$genre$$) as genres on genres.text_id = url'
 SEARCH_genre='genres.category = $$@$$'
 SEARCH_written='written = $$@$$'
 SEARCH_published='(published = $$@$$ or performed = $$@$$)'
@@ -35,6 +35,7 @@ PARMNAME_title="название"
 PARMNAME_origtitle="название при первой публикации"
 PARMNAME_firstline="первая строка"
 PARMNAME_kind="литературный род"
+PARMNAME_genre="жанр"
 PARMNAME_written="дата написания"
 PARMNAME_published="дата публикации/постановки"
 PARMNAME_publisher="место публикации"
@@ -59,31 +60,36 @@ for idx in ${!parameters[*]}; do
         else
             value="${value//+/ }"
             value="$(eval echo "$'${value//\%/\x}'")"
-            value="${value//[$@]/}"
+            value="${value//[\$@]/}"
             searchvar="SEARCH_$name"   
             searchterm="${!searchvar//@/$value}"
             qvar="Q_$name"
             if [ -n "$searchterm" ]; then
-                declare "$qvar"="${!qvar:+ @+@ }@(@$searchterm@)@"
+                declare "$qvar"="${!qvar}${!qvar:+ @+@ }@(@$searchterm@)@"
             fi
         fi
     fi
 done
 sqlexpr="select url, auth.given_name || ' ' || auth.patronymic || ' ' || auth.surname, title, tf.label, tf.fragment"
+isqlexpr="select url "
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         fname="FIELDS_${var#Q_}"
         sqlexpr="$sqlexpr${!fname}"
     fi
 done
-sqlexpr="$sqlexpr from texts left join authors as auth on author_id = auth.uid left join text_structure as tf on tf.text_id = url "
+basicfrom=" from texts left join authors as auth on author_id = auth.uid left join text_structure as tf on tf.text_id = 
+url "
+sqlexpr="$sqlexpr $basicfrom "
+isqlexpr="$isqlexpr $basicfrom "
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         jname="JOIN_${var#Q_}"
         sqlexpr="$sqlexpr${!jname}"
+        isqlexpr="$isqlexpr${!jname}"
     fi
 done
-sqlexpr="$sqlexpr where auth.uid = author_id and tf.text_id = url"
+isqlexpr="$isqlexpr where true "
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         name="${var#Q_}"
@@ -95,18 +101,18 @@ for var in ${!Q_*}; do
                 value="${value//@(@/(}"
                 value="${value//@)@/)}"
                 value="${value//@+@/or}"
-                sqlexpr="$sqlexpr and ($value)"
+                isqlexpr="$isqlexpr and ($value)"
                 ;;
             all)
                 value="${value//@+@/intersect}"
                 value="${value//@)@/}"
-                sqlexpr="${value//@(@/$sqlexpr and}"
+                isqlexpr="${value//@(@/$isqlexpr and }"
                 ;;
             *)
                 value="${value//@+@/}"
                 value="${value//@(@/(}"
                 value="${value//@)@/)}"
-                sqlexpr="$sqlexpr and $value"
+                isqlexpr="$isqlexpr and $value"
                 ;;
         esac
     fi
@@ -149,7 +155,7 @@ for idx in ${!parameters[*]}; do
 done
 echo "</table>"
 echo "<!-- split -->"
-sqlexpr="$sqlexpr order by author_id, title, url, tf.label"
+sqlexpr="$sqlexpr where url in ($isqlexpr) order by author_id, title, url, tf.label"
 echo "<!-- SQL query was: $sqlexpr -->"
 psql -A -t -q antology -c "$sqlexpr" | awk -f urlencode.awk -f results.awk
 rc=$?

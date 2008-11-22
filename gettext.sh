@@ -41,11 +41,12 @@ for idx in ${!parameters[*]}; do
     esac
 done
 
+pict_sql_common="select '(\"' || url || '\" . \"' || description || '\")' from text_pictures natural left join photos where text_id = '${2#/}' and" 
+pict_ordering="order by sortkey, url"
 
-
-LEADING_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'leading';")"
-INLINE_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'inline';")"
-TRAILING_PICTURES="$(psql -A -t -q -c "select '(\"' || url || '\" . \"' || description || '\")' from text_pictures where kind = 'trailing';")"
+LEADING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'leading' $pict_ordering")" 
+INLINE_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'inline' $pict_ordering")" 
+TRAILING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'trailing' $pict_ordering")" 
 
 SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R \
     -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \

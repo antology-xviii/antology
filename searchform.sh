@@ -72,7 +72,7 @@ makelistfield title "`makesql 'distinct title' texts`"   Заглавие
 makelistfield origtitle "`makesql 'distinct original_title' texts`"  "Заглавие при первой публикации"
 makelistfield firstline "`makesql 'distinct first_line' texts 'first_line is not null'`" "Первая строка"
 makelistfield kind "`makesql 'id, description' categories 'taxonomy = $$kind$$' description`" "Литературный род"
-makelistfield kind "`makesql 'id, description' categories 'taxonomy = $$genre$$' description`" "Жанр"
+makelistfield genre "`makesql 'id, description' categories 'taxonomy = $$genre$$' description`" "Жанр"
 maketextfield written "Год написания"
 maketextfield published "Год первой публикации/постановки"
 makelistfield publisher "`makesql 'distinct publisher' texts`" "Место первой публикации"

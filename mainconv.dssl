@@ -67,14 +67,7 @@
         ""
         (string-append prefix val " Ç."))))
 
-(define (protect-specials str)
-  (define (encode c) (case c
-			((#\space) "@#32;")
-			((#\() "@#40;")
-			((#\)) "@#41;")
-			((#\,) "@#44;")
-			(else (string c))))
-  (apply string-append (map encode (string->list str))))
+(define (protect-specials str) str)
 
 (define (build-passport-items)
   (define (mkrow name val)
