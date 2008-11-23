@@ -363,8 +363,17 @@ insert into photos (url, description) values ($$/images/figures/karamzin/mz2.jpg
 
 insert into photos (url, description) values ($$/images/figures/karamzin/natalia1.jpg$$, $$В. И. Суриков. Боярская дочь. 1884-1887$$);
 
-insert into photos (url, description) values ($$/images/figures/karamzin/ivan1.jpg$$, $$Иван III Васильевич. Гравюра из 'Космографии' А. Теве, 1575 год$$);
-insert into photos (url, description) values ($$/images/figures/karamzin/ivan2.jpg$$, $$Иван III Васильевич. Из альбома В. П. Верещагина 'История Государства Российского в изображениях Державных его Правителей'. 1890$$);
-insert into photos (url, description) values ($$/images/figures/karamzin/veche1.jpg$$, $$'Новгородское Вече' (А.П.Рябушкин, конец XIX века)$$);
-insert into photos (url, description) values ($$/images/figures/karamzin/marfa1.jpg$$, $$Д. Иванов. Марфа Посадница (Вручение пустынником Феодосием Борецким меча Ратмира юному вождю новгородцев Мирославу, назначенному Марфой Посадницей в мужья своей дочери Ксении)$$);
-insert into photos (url, description) values ($$/images/figures/karamzin/marfa3.jpg$$, $$К. Лебедев. Марфа Посадница. Уничтожение новгородского веча. 1889$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/ivan1.jpg$$, $$Иван III Васильевич. 
+Гравюра из 'Космографии' А. Теве, 1575 год$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/ivan2.jpg$$, $$Иван III Васильевич. 
+Из альбома В. П. Верещагина 'История Государства Российского 
+в изображениях Державных его Правителей'. 1890$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/veche1.jpg$$, $$'Новгородское Вече' 
+(А.П.Рябушкин, конец XIX века)$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/marfa1.jpg$$, $$Д. Иванов. Марфа Посадница 
+(Вручение пустынником Феодосием Борецким 
+меча Ратмира юному вождю новгородцев Мирославу, 
+назначенному Марфой Посадницей 
+в мужья своей дочери Ксении)$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/marfa3.jpg$$, $$К. Лебедев. Марфа Посадница. 
+Уничтожение новгородского веча. 1889$$);
