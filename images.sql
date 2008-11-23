@@ -349,3 +349,6 @@ insert into photos (url, description) values ($$/images/figures/sumarokov/sinav.
 
 insert into photos (url, description) values ($$/images/figures/sumarokov/semira.jpg$$, $$Князь Олег$$);
 
+insert into photos (url, description) values ($$/images/figures/karamzin/lisa1.jpg$$, $$Иллюстрация к "Бедной Лизе" (ксилография)$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/lisa2.jpg$$, $$О. А. Кипренский. Бедная Лиза. 1827$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/lisa3.jpg$$, $$Фронтиспис первого издания "Бедной Лизы"$$);
