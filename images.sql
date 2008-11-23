@@ -377,3 +377,6 @@ insert into photos (url, description) values ($$/images/figures/karamzin/marfa1.
 в мужья своей дочери Ксении)$$);
 insert into photos (url, description) values ($$/images/figures/karamzin/marfa3.jpg$$, $$К. Лебедев. Марфа Посадница. 
 Уничтожение новгородского веча. 1889$$);
+
+insert into photos (url, description) values ($$/images/figures/karamzin/aglaya.jpg$$, $$Аглая. Кн. 1. 1794$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/bastille.jpg$$, $$Взятие Бастилии 14 июля 1789$$);
