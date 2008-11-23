@@ -358,3 +358,7 @@ insert into photos (url, description) values ($$/images/figures/karamzin/mz1.jpg
 insert into photos (url, description) values ($$/images/figures/karamzin/dt.jpg$$, $$Детское чтение для сердца и разума. 1789(тит. лист).$$);
 
 insert into photos (url, description) values ($$/images/figures/karamzin/progulka1.jpg$$, $$К.-Д. Фридрих. Мужчина и женщина, смотрящие на луну. 1830-1835$$);
+
+insert into photos (url, description) values ($$/images/figures/karamzin/mz2.jpg$$, $$Московский журнал. Ч. 8, 1792 (тит. лист)$$);
+
+insert into photos (url, description) values ($$/images/figures/karamzin/natalia1.jpg$$, $$В. И. Суриков. Боярская дочь. 1884-1887$$);
