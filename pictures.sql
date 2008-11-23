@@ -114,3 +114,7 @@ insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/liza3.jpg$$, $$leading$$, 2);
 
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/mz1.jpg$$, $$leading$$, 1);
+
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Прогулка.tei$$, $$/images/figures/karamzin/dt.jpg$$, $$leading$$, 1);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Прогулка.tei$$, $$/images/figures/karamzin/progulka1.jpg$$, $$trailing$$, 1);
+

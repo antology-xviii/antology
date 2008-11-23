@@ -353,4 +353,8 @@ insert into photos (url, description) values ($$/images/figures/karamzin/liza1.j
 insert into photos (url, description) values ($$/images/figures/karamzin/liza2.jpg$$, $$О. А. Кипренский. Бедная Лиза. 1827$$);
 insert into photos (url, description) values ($$/images/figures/karamzin/liza3.jpg$$, $$Фронтиспис первого издания 'Бедной Лизы'$$);
 
-insert into photos (url, description) values ($$/images/figures/karamzin/mz1.jpg$$, $$Московский журнал. Ч. 1792 (тит. лист)$$);
+insert into photos (url, description) values ($$/images/figures/karamzin/mz1.jpg$$, $$Московский журнал. Ч. 6, 1792 (тит. лист)$$);
+
+insert into photos (url, description) values ($$/images/figures/karamzin/dt.jpg$$, $$Детское чтение для сердца и разума. 1789(тит. лист).$$);
+
+insert into photos (url, description) values ($$/images/figures/karamzin/progulka1.jpg$$, $$К.-Д. Фридрих. Мужчина и женщина, смотрящие на луну. 1830-1835$$);
