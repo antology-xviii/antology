@@ -120,3 +120,9 @@ insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин
 
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Наталья.tei$$, $$/images/figures/karamzin/mz2.jpg$$, $$leading$$, 1);
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Наталья.tei$$, $$/images/figures/karamzin/natalia1.jpg$$, $$trailing$$, 1);
+
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/ivan1.jpg$$, $$leading$$, 1);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/ivan2.jpg$$, $$leading$$, 2);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/veche1.jpg$$, $$leading$$, 3);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/marfa1.jpg$$, $$leading$$, 4);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/marfa3.jpg$$, $$trailing$$, 1);
