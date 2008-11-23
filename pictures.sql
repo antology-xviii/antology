@@ -109,6 +109,8 @@ insert into text_pictures (text_id, url, kind) values ($$texts/Синав_и_Трувор.te
 
 insert into text_pictures (text_id, url, kind) values ($$texts/Семира.tei$$, $$/images/figures/sumarokov/semira.jpg$$, $$leading$$);
 
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/lisa1.jpg$$, $$leading$$, 2);
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/lisa2.jpg$$, $$trailing$$, 1);
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/lisa3.jpg$$, $$leading$$, 1);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/liza1.jpg$$, $$leading$$, 3);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/liza2.jpg$$, $$trailing$$, 1);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/liza3.jpg$$, $$leading$$, 2);
+
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Бедная_Лиза.tei$$, $$/images/figures/karamzin/mz1.jpg$$, $$leading$$, 1);
