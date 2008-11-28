@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -82,11 +87,12 @@
 <span from='whole' type='theme' value='мужество'>
 <span from='whole' type='theme' value='поэзия'>
 <span from="whole" type="addressee" value="С.Ф. Голицыну">
-    <body id='whole'><div0 met='Я4' rhyme="(XxXxXxXx+AbAbCdCd+EfEfGhGh)...">
+    <body id='whole'><div0 met='Я4'
+rhyme="(XxXxXxXx+AbAbCdCd+EfEfGhGh)...">
 <lg1 type='stanza'>
 <l>Спустил седой <name type="character"><name type="mythologic">Эол</name>
-</name>   <name type="character" reg="Борей"><name type="mythologic"
-reg="Борей">Борея</name></name>
+</name> <name type="mythologic"
+reg="Борей">Борея</name>
       <l>С цепей чугунных из пещер;
       <l>Ужасные криле расширя,
       <l>Махнул по свету богатырь;
@@ -143,27 +149,27 @@ reg="Борей">Борея</name></name>
 <lg1 type='stanza'>
       <l>Ушел олень на тундры мшисты,
       <l>И в логовище лег медведь;
-<l>По селам <name type="mythologic" reg="нимфа"><name
-type="character">нимфы</name></name> голосисты
+<l>По селам <name type="mythologic" reg="нимфы"></name> голосисты
       <l>Престали в хороводах петь;
       <l>Дымятся серым дымом домы,
       <l>Поспешно едет путник в путь,
-      <l>Небесный       <name        type="        mythologic        "><name
+      <l>Небесный       <name        type="        mythologic
+"><name
 type="character">Марс</name></name> оставил громы
       <l>И лег в туманы отдохнуть.
 
 
 <lg1 type='stanza'>
-<l>Российский только <name type=" mythologic ">Марс</name>   , <name type="
-person" reg="Г.А. Потемкин">Потемкин</name>,
+<l>Российский только <name type=" mythologic ">Марс</name>, <name type="
+person" reg="Потемкин Г. А.">Потемкин</name>,
       <l>Не ужасается зимы:
       <l>По развевающим знаменам
       <l>Полков, водимых им, орел
 <l>Над древним царством <name type=" person"
-reg="Митридат">Митридата</name>
+reg="Митридат VI ">Митридата</name>
       <l>Летает и темнит луну;
       <l>Под звучным крил его мельканьем
-<l>То черн, то бледн, то рдян<name type="place" reg="Черное
+<l>То черн, то бледн, то рдян <name type="place" reg="Черное
 море">Эвксин</name>.
 
 
@@ -182,8 +188,8 @@ reg="Митридат">Митридата</name>
       <l>Мужайся, твердый росс и верный,
       <l>Еще победой возблистать!
       <l>Ты не наемник - сын усердный;
-      <l>Твоя <name type="person">Екатерина</name> мать,
-<l><name type=" person" reg="Потемкин Г.А.">Потемкин</name> - вождь, бог -
+      <l>Твоя <name type="person" reg="Екатерина II">Екатерина</name> мать,
+<l><name type=" person" reg="Потемкин Г. А.">Потемкин</name> - вождь, бог -
 покровитель;
       <l>Твоя геройска грудь - твой щит,
       <l>Честь - мзда твоя, вселена - зритель,
@@ -193,13 +199,13 @@ reg="Митридат">Митридата</name>
 <lg1 type='stanza'>
 <l>Мужайтесь, росски <name type="mythologic" reg="Ахиллес">Ахиллесы</name>,
       <l>Богини северной сыны!
-<l>Хотя вы в <name type="mythologic" reg="Стикс">Стикс</name> не
+<l>Хотя вы в <name type="mythologicPlace" reg="Стикс">Стикс</name>не
 погружались,
       <l>Но вы бессмертны по делам.
       <l>На вас всех мысль, на вас всех взоры,
       <l>Дерзайте ваших вслед отцов!
-<l>И ты спеши скорей, <name type=" person" reg="Голицын
-С.Ф.">Голицын</name>!
+<l>И ты спеши скорей, <name type=" person" reg="Голицын С.
+Ф.">Голицын</name>!
       <l>Принесть в твой дом с оливой лавр.
 
 
@@ -250,7 +256,7 @@ reg="Митридат">Митридата</name>
 <lg1 type='stanza'>
       <l>В чертоге вкруг ее безмолвном
 <l>Не смеют <name type="mythologic" reg="нимфа">нимфы</name> пошептать;
-<l>В восторге только <name type="mythologic" reg="муза">музы</name> томном
+<l>В восторге только <name type="mythologic" reg="муза">муза</name> томном
 <l>Осмелились сей стих бряцать. -
 <l>Румяна <name type="character">Осень</name>! радость мира!
       <l>Умножь, умножь еще твой плод!
@@ -259,6 +265,7 @@ reg="Митридат">Митридата</name>
     </body>
   </text>
 </tei.2>
+
 
 
 

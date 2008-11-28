@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -57,8 +62,7 @@
                 <title> Задумчивость </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Сочинения Державина, ч.1-4. </publisher>
-<pubPlace>СПб.</pubPlace>
+                <publisher> Сочинения Державина. СПб. Ч. 1-4.</publisher>
                 <date>1808</date>
               </publicationStmt>
             </biblFull>
@@ -80,7 +84,7 @@
     <span from='whole' type='theme' value='задумчивость'>
 <span from='whole' type='theme' value='любовь'>
 <body id='whole'><div0 met='Я6' rhyme="AbAb+AbAb+CCd+EEd.">
-<lg1 type="quatrain"> 
+<lg1 type="quatrain">
 <l>Задумчиво, один, широкими шагами
 <l>Хожу и меряю пустых пространство мест;
 <l>Очами мрачными смотрю перед ногами,
@@ -104,3 +108,4 @@
 </body>
   </text>
 </tei.2>
+

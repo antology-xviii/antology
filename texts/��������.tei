@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -43,8 +48,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor> В. П. Степанов, Г. П. Макогоненко</editor>
           </titleStmt>
           <publicationStmt>
             <publisher> Художественная литература</publisher>
@@ -80,10 +85,10 @@
 <span from='whole' type='theme' value='птица'>
 <span from='whole' type='theme' value='полёт'>
 <body id='whole'><div0 met='(Ам3)' rhyme="A'BA'B+CdCd*10+EfEfEE">
-<salute>К <name type='person'>Е.Я. Бастидон- Державиной</name></salute>
+<salute>К <name type='person'>Бастидон- Державиной Е. Я.</name></salute>
 
 <lg1 type='stanza'>
-      <l> О домовитая Ласточка!
+      <l> О домовитая <name type="character">Ласточка</name>!
       <l> О милосизая птичка!
       <l> Грудь красно-бела, касаточка,
       <l> Летняя гостья, певичка!
@@ -96,13 +101,13 @@
       <l> Иль стелешься долу, несешься,
       <l> Иль в небе, простряся, плывешь.
       <l> Ты часто во зеркале водном
-      <l> Под рдяной играешь зарёй,
+      <l> Под рдяной играешь зарей,
       <l> На зыбком лазуре бездонном
       <l> Тенью мелькаешь твоей.
       <l> Ты часто, как молния, реешь
       <l> Мгновенно туды и сюды;
       <l> Сама за собой не успеешь
-      <l> Невидимы видеть следы,-
+      <l> Невидимы видеть следы, -
       <l> Но видишь там всю ты вселенну,
       <l> Как будто с высот на ковре:
       <l> Там башню, как жар, позлащенну,
@@ -119,7 +124,7 @@
       <l> И осени скучной приход;
       <l> И прячешься в бездны подземны,
       <l> Хладея зимою, как лед.
-      <l> Во мраке лежишь бездыханна,-
+      <l> Во мраке лежишь бездыханна, -
       <l> Но только лишь придет весна
       <l> И роза вздохнет лишь румяна,
       <l> Встаешь ты от смертного сна;
@@ -132,10 +137,11 @@
       <l> Не ты ли перната сия? -
       <l> Воспой же бессмертие, лира!
       <l> Восстану, восстану и я,
-      <l> Восстану,- и в бездне эфира
-      <l> Увижу ль тебя я, <name type="character"> Пленира </name>?
+      <l> Восстану, - и в бездне эфира
+      <l> Увижу ль тебя я, <name type="character">Пленира</name>?
 
 </body>
   </text>
 </tei.2>
+
 

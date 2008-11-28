@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -59,7 +64,7 @@
 зимы на лето </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Санкт-Петербургский вестник </publisher>
+                <publisher> Санкт-Петербургский вестник. N 12.</publisher>
                 <date>1779</date>
               </publicationStmt>
             </biblFull>
@@ -81,9 +86,9 @@
     <span from='whole' type='theme' value='идеальный правитель'>
 <span from='whole' type='theme' value='Россия'>
 <span from='whole' type='theme' value='добродетель'>
-<span from='whole' type="addressee" value="Александру Павловичу ">
+<span from='whole' type="addressee" value="Александр Павлович">
     <body id='whole'><div0 met='Х4' rhyme="(AbAb...*17)cXcDcDc(EfEf...*4)">
-<l>С белыми <name type="mythologic"> Борей </name>власами
+<l>С белыми <name type="mythologic">Борей </name>власами
 <l>И с седою бородой,
 <l>Потрясая небесами,
 <l>Облака сжимал рукой;
@@ -123,9 +128,9 @@
 <l>Растворен судеб чертог;
 <l>И подумал в изумленьи:
 <l> <q>Знать, родился некий бог </q>
-<l>Гении к нему слетели
+<l><name type="mythologic" reg="гений">Гении</name> к нему слетели
 <l>В светлом облаке с небес;
-<l>Каждый гений к колыбели
+<l>Каждый <name type="mythologic">гений</name> к колыбели
 <l>Дар рожденному принес:
 <l>Тот принес ему гром в руки
 <l>Для предбудущих побед;
@@ -148,13 +153,13 @@
 <l> <q>Будь страстей твоих владетель
 <l>Будь на троне человек!</q>
 <l>Все крылами восплескали,
-<l>Каждый гений восклицал:
+<l>Каждый <name type="mythologic">гений</name> восклицал:
 <q><l>Се божественный,</q>- вещали,-
 <q><l>Дар младенцу он избрал!
 <l>Дар, добротам всем венец!
 <l>Кто приемлет с ним порфиру,
 <l>Будет подданным отец!</q> -
-<q><l>Будет,- и Судьбы гласили, </q>-
+<q><l>Будет,</q> - и Судьбы гласили, -
 <q><l>Он монархам образец!</q>
 <l>Лес и горы повторили:
 <q><l>Утешением сердец!</q> -
@@ -177,3 +182,4 @@
 </body>
   </text>
 </tei.2>
+

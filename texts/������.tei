@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -43,8 +48,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor>В. П. Степанов, Г. П. Макогоненко</editor>
           </titleStmt>
           <publicationStmt>
             <publisher> Художественная литература</publisher>
@@ -123,11 +128,11 @@
 <lg1 type='stanza'>
 
 
-<l> С <name type="place" reg="Курильские острова" >Курильских
+<l> С <name type="place" reg="Курильские острова">Курильских
 островов</name>
 до <name type="place" reg="Западный Буг" >Буга</name>,
-<l> От <name type="place" reg="Белое море" >Белых</name>
-      до <name type="place" reg="Каспийское море" >Каспийских вод</name>
+<l> От <name type="place" reg="Белое море">Белых</name>
+      до <name type="place" reg="Каспийское море">Каспийских вод</name>
       <l> Народы, света с полукруга,
       <l> Составившие россов род,
 <lg1 type='stanza'>
@@ -140,10 +145,10 @@
 <lg1 type='stanza'>
 
 
-      <l> <q>Вот тот летит, что, строя лиру,
-      <l> Языком сердца говорил
-      <l> И, проповедуя мир миру,
-      <l> Себя всех счастьем веселил</q>.
+      <l><q>Вот тот летит, что, строя лиру,
+      <l>Языком сердца говорил
+      <l>И, проповедуя мир миру,
+      <l>Себя всех счастьем веселил</q>.
 <lg1 type='stanza'>
 
 
@@ -154,5 +159,6 @@
 </body>
   </text>
 </tei.2>
+
 
 

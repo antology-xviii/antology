@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -80,7 +85,7 @@
       <span from='whole' type='theme' value='политика'>
 <body id="whole">
 
-<dateline><name type="place">Монпелье, </name> <date>15/26 января
+<dateline><name type="place">Монпелье</name>, <date>15/26 января
 1778</date></dateline>
 <p>
 Получа на сих днях радостное для всех россиян известие о разрешении от
@@ -102,7 +107,7 @@
 провинции уже кончился. Все разъехались из <name type=" place"
 reg="Монпелье">Монпелье</name>, знатные и богатые в <name type=" place"
 reg="Париж">Париж</name>, а мелкие и бедные по деревням своим. Первые
-приезжали сюда делать то, что хотят, или, справедливое сказать, делать то,
+приезжали сюда делать то, что хотят, или, справедливее сказать, делать то,
 чем у двора на счет последних выслужиться можно; а последние собраны были
 для формы, дабы соблюдена была в точности наружность земского суда, - я
 называю наружность, для того что в самом существе она не значит ничего. Все
@@ -123,7 +128,8 @@ reg="Париж">Париж</name>, а мелкие и бедные по деревням своим. Первые
 Вся честность на словах, и чем складнее у кого фразы, тем больше
 остерегаться должно какого-нибудь обмана. Ни порода, ни наружные знаки
 почестей не препятствуют нимало снисходить до подлейших обманов, как скоро
-дело идет о малейшей корысти. Сколько кавалеров св. Людовика, которые тем и
+дело идет о малейшей корысти. Сколько кавалеров <name type="person"
+reg="Людовик, св">св. Людовика</name>, которые тем и
 живут, что, подлестясь к чужестранцу и заняв у него, сколько простосердечие
 его взять позволяет, на другой же день скрываются вовсе и с деньгами от
 своего заимодавца! Сколько промышляют своими супругами, сестрами, дочерьми!
@@ -144,19 +150,21 @@ contre la politesse fran&ccedil;aise.<note resp="editor"> Нарушением
 всеобщее; оно совершенно отвращает господ французов от всякого
 человеческого размышления и делает их простым эхом того человека, с коим
 разговаривают. Почти всякий француз, если спросить его утвердительным
-образом, отвечает: да, а если отрицательным, о той же материи, отвечает:
-нет. Сколько раз, имея случай разговаривать с отличными людьми, например о
+образом, отвечает: <emph>да</emph>, а если отрицательным, о той же материи,
+отвечает:
+<emph>нет</emph>. Сколько раз, имея случай разговаривать с отличными
+людьми, например о
 вольности, начинал я речь мою тем, что, сколько мне кажется, сие первое
 право человека во Франции свято сохраняется; на что с восторгом мне
-отвечают: que le Fran&ccedil;ais est n&egrave; libre,<note resp="editor">
-Что француз рожден свободным (франц.).</note> что сие право составляет их
+отвечают: que le Fran&ccedil;ais est n&eacute; libre<note resp="editor">
+Что француз рожден свободным (франц.).</note>, что сие право составляет их
 истинное счастие, что они помрут прежде, нежели стерпят малейшее оному
 нарушение. Выслушав сие, завожу я речь о примечаемых мною неудобствах и
 нечувствительно открываю им мысль мою, что желательно б было, если б
 вольность была у них не пустое слово. Поверите ли, милостивый государь, что
 те же самые люди, кои восхищались своею вольностию, тот же час отвечают
 мне: <q>О monsieur, vous avez raison! Le Fran&ccedil;ais est
-&egrave;cras&egrave;, le Fran&ccedil;ais est &egrave;sclave</q><note
+&eacute;cras&eacute;, le Fran&ccedil;ais est &eacute;sclave</q><note
 resp="editor"> О сударь, вы правы! Француз раздавлен, француз - раб
 (франц.).</note>. Говоря сие, впадают в преужасный восторг негодования, и
 если не унять, то хотя целые сутки рады бранить правление и унижать свое
@@ -185,9 +193,9 @@ resp="editor"> О сударь, вы правы! Француз раздавлен, француз - раб
 сиятельство чтением вдруг весьма пространного письма.
 <p>На прошедшей почте упомянул я о разнесшемся здесь слухе, будто бы
 живущий в <name type="place" reg="Париж">Париже</name> американский
-поверенный <name type=" person " reg="Франклин Вениамин"> Франклин </name>
+поверенный <name type=" person " reg="Франклин В."> Франклин </name>
 признан в характере посла. Сей слух оказался ложен и взят оттого, что <name
-type=" person " reg="Франклин Вениамин">Франклин</name>
+type=" person " reg="Франклин В.">Франклин</name>
 Франклин действительно был, неизвестно зачем, призван в <name type="place"
 reg="Версаль">Версаль</name>.
 <p>Будучи весьма доволен в лечении жены моей, считаю я остаться здесь до
@@ -196,5 +204,6 @@ reg="Версаль">Версаль</name>.
 </body>
 </text>
 </tei.2>
+
 
 

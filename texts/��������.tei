@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.drama "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.drama "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 
@@ -78,7 +83,8 @@
       <span from='whole' type='theme' value='галломания'>
       <span from='whole' type='theme' value='семейная мораль'>
       <span from='whole' type='theme' value='дворянство'>
-      <span from='whole' type='theme' value='права и обязанности дворянства'>
+      <span from='whole' type='theme' value='права и обязанности
+дворянства'>
     <front>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
@@ -94,7 +100,7 @@
         <castItem><role id="Dobroljubov">Добролюбов</role>,
 <roleDesc>любовник Софьи</roleDesc>.
         <castItem><role id="Sluga">Слуга советничий</role>.
-	 </castList>
+       </castList>
 </front>
 <body id='whole'>
       <div1 type="act">
@@ -118,7 +124,8 @@
 <p>
 Очень изрядно, добрый сосед. Мы хотя друг друга и недавно узнали, однако
 это не помешало мне, проезжая из <name type="place"
-reg="Петербург">Петербурга</name>  домой, заехать к вам в деревню с женою и
+reg="Санкт-Петербург">Петербурга</name>  домой, заехать к вам в деревню с
+женою и
 сыном. Такой советник, как ты, достоин быть другом от армии бригадиру, и я
 начал уже со всеми вами обходиться без чинов.
 <sp who="Sovetnica"><speaker>Советница.</speaker>
@@ -198,8 +205,8 @@ reg="Париж">Париже</name> не был.
 <sp who="Ivanushka"><speaker>Сын.</speaker>
 <p>
  Madame, вы говорите правду. О! Vous avez raison. <note resp="editor"> Вы
-правы.
-</note> Я сам, кроме романов, ничего не читывал, и для того-то я таков, как
+правы. </note> Я сам, кроме романов, ничего не читывал, и для того-то я
+таков, как
 вы меня видите.
 <sp who="Sofja"><speaker>Софья.</speaker>
 <stage type="delivery"> (в сторону).</>
@@ -221,7 +228,7 @@ reg="Париж">Париже</name> не был.
 <sp who="Brigadir"><speaker> Бригадир. </speaker>
 <p>
 О! это пройдет. У меня жена перед свадьбою недели полторы без ума шаталась;
-однако после того лет десятка с три и таком совершенном благоразумии
+однако после того лет десятка с три в таком совершенном благоразумии
 здравствует, что никто того и приметить не может, чтоб она когда-нибудь
 была умнее.
 <sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
@@ -354,13 +361,13 @@ type="delivery">
 будет худо!
 <sp who="Ivanushka"><speaker>Сын.</speaker>
 <p>
-Моn р&euml;rе! <note resp="editor"> Отец!</note>. Не горячитесь.
+Моn р&egrave;rе! <note resp="editor"> Отец!</note>. Не горячитесь.
 <sp who="Brigadir"><speaker> Бригадир. </speaker>
 <p>
  Что, не горячитесь?
 <sp who="Ivanushka"><speaker>Сын.</speaker>
 <p>
- Моn р&euml;rе, я говорю, не горячитесь.
+ Моn р&egrave;rе, я говорю, не горячитесь.
 <sp who="Brigadir"><speaker> Бригадир. </speaker>
 <p>
  Да первого-то слова, черт те знает, я не разумею.
@@ -799,8 +806,8 @@ resp="editor"> О, как мы счастливы! </note> Нам надобно непременно оставить
 <sp who="Dobroljubov"><speaker> Добролюбов.</speaker>
 <p>
  Правда, только разница состоит в том, что их любовь смешна, позорна и
-делает им
-бесчестие. Наша же любовь основана на честном намерении и достойна того,
+делает им бесчестие. Наша же любовь основана на честном намерении и
+достойна того,
 чтоб всякий пожелал нашего счастия. Ты знаешь, что ежели б мой малый
 достаток не отвратил отца твоего иметь меня своим, то бы я давно уже был
 тобою благополучен.
@@ -872,7 +879,7 @@ resp="editor"> О, как мы счастливы! </note> Нам надобно непременно оставить
 довольны были: и судья, и истец, и ответчик.
 <sp who="Sofja"><speaker>Софья.</speaker>
 <p>
- Позвольте мне, батюшка, усумнитъся; я думаю, что правый, конечно,
+ Позвольте мне, батюшка, усумниться; я думаю, что правый, конечно,
 оставался тогда виноватым, когда он обвинен был.
 <sp who="Sovetnik"><speaker>Советник.</speaker>
 <p>
@@ -1072,7 +1079,8 @@ resp="editor"> О, как мы счастливы! </note> Нам надобно непременно оставить
 откроет он и французскую, и немецкую, и всякую грамоту, а я, грешная, и по-
 русски-то худо смышлю. Вот с тобою не теперь уже говорю, а больше речей
 твоих не разумею. Иванушку и твою сожительницу почти головою не разумею.
-Коли больше всех разберу, так это своего Игнатья Андреевича. Все слова
+Коли чью я речь больше всех разберу, так это своего Игнатья Андреевича. Все
+слова
 выговаривает он так чисто, так речисто, как попугай... Да видал ли ты, мой
 батюшка, попугаев?
 <sp who="Sovetnik"><speaker>Советник.</speaker>
@@ -1152,7 +1160,7 @@ type="exit">(Оторопев, выходит.)</stage>
 <stage type="setting"> Те же и советница.</stage>
 <sp who="Ivanushka"><speaker>Сын.</speaker>
 <p>
-Madamo, я теперь был свидетелем пресмешныя сцены. J'ai pens&eacute; crever
+Madame, я теперь был свидетелем пресмешныя сцены. J'ai pens&eacute; crever
 de rire. <note resp="editor"> Я думал, что лопну со смеху.</note> Твой муж
 объявил любовь свою моей матушке! Ха-ха-ха-ха!
 <sp who="Sovetnica"><speaker>Советница.</speaker>
@@ -1202,7 +1210,8 @@ de rire. <note resp="editor"> Я думал, что лопну со смеху.</note> Твой муж
 <sp who="Ivanushka"><speaker>Сын.</speaker>
 <p>
 Конечно, в шутку. Я знавал в <name type="place" reg="Париж"> Париже
-</name>, да и здесь, превеликое множество разумных людей, et mкme fort
+</name>, да и здесь, превеликое множество разумных людей, et m&ecirc;me
+fort
 honn&ecirc;tes gens, <note resp="editor"> И даже очень порядочных
 людей.</note>  которые божбу ни во что ставят.
 <sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
@@ -1325,8 +1334,10 @@ resp="editor"> Остатки наших дней.</note> будем иметь утешение проводить с
 <p>
  Et pourquoi non? <note resp="editor"> А почему нет?</note>
  Я читал в прекрасной книге, как бишь ее зовут... le nom m'est
-&eacute;chappe, <note resp="editor"> Название я позабыл. </note> да... в
-книге &quot;Les sottises du temps&quot;, <note resp="editor">  <Ошибки времени>.
+&eacute;chapp&eacute;, <note resp="editor"> Название я позабыл. </note>
+да... в
+книге &quot;Les sottises du temps&quot;, <note resp="editor">  <Ошибки
+времени>.
 </note> что один сын в <name type="place" reg="Париж"> Париже </name>
 вызывал отца своего на дуэль... а я, или я скот, чтоб не последовать тому,
 что хотя один раз случилося в <name type="place" reg="Париж"> Париже
@@ -1391,7 +1402,7 @@ resp="editor"> Остатки наших дней.</note> будем иметь утешение проводить с
 </div1>
 
 <div1 type="act">
-        <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
+<head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
         <div2 type="scene">
           <head>ЯВЛЕНИЕ I</head>
           <stage type="setting">Бригадир и сын.</stage>
@@ -1422,7 +1433,8 @@ reg="Россия">Руси</name> родился.
 что строгость вам не удалася.
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      Ну, не прямой ли ты болван? Я тебя назвал дураком, а ты думаешь, что я
+      Ну, не прямой ли ты болван? Я тебя назвал дураком, а ты думаешь, что
+я
 льщу тебе: эдакой осел!
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
@@ -1457,7 +1469,8 @@ reg="Париж">Париже</name> .
 надлежит, по нашему военному уставу, прогнать тебя спицрутеном.
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
-      Батюшка, вам все кажется, будто вы стоите пред фрунтом и командуете. К
+      Батюшка, вам все кажется, будто вы стоите пред фрунтом и командуете.
+К
 чему так шуметь?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
@@ -1488,7 +1501,8 @@ caract&egrave;re. Да какое право имеете вы надо мною властвовать?
 resp="editor">Животные. </note>, одинаковы?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      Это к чему? Конечно, все. От человека до скота. Да что за вздор ты мне
+      Это к чему? Конечно, все. От человека до скота. Да что за вздор ты
+мне
 молоть хочешь?
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
@@ -1505,7 +1519,8 @@ resp="editor">Уважать. </note> того пса, кто был его отец, то должен ли я
 вам хотя малейшим респектом?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      Что ты щенок, так в том никто не сомневается; однако я тебе, Иван, как
+      Что ты щенок, так в том никто не сомневается; однако я тебе, Иван,
+как
 присяжный человек, клянусь, что ежели ты меня еще применишь к собаке, то
 скоро сам с рожи на человека походить не будешь. Я тебя научу, как с отцом
 и заслуженным человеком говорить должно. Жаль, что нет со мною палки,
@@ -1551,7 +1566,7 @@ resp="editor">Уважать. </note> того пса, кто был его отец, то должен ли я
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <stage type="delivery"> (зевает.) </stage>
       <p>
-      Quelles espХces! <note resp="editor">Что за уроды! </note>
+      Quelles esp&egrave;ces! <note resp="editor">Что за уроды! </note>
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
       Вот, говори ты с ним, пожалуй, а он лишь только рот дерет. Иван, не
@@ -1582,7 +1597,7 @@ barbarie? <note resp="editor">Варварство. </note>
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <stage type="delivery"> (к советнице.) </stage>
       <p>
-      C'est 1'homme le plus bourru, que je connais. <note resp="editor">Это
+      C'est l'homme le plus bourru, que je connais. <note resp="editor">Это
 самый ворчливый человек, какого я знаю. </note>
       <sp who="Sovetnica"><speaker> Советница.</speaker>
       <p>
@@ -1629,10 +1644,11 @@ reg="Париж">Париже</name> принят.
       <p>
       Скажи лучше, что не хотел; а ежели я вас, monsieur, попрошу теперь,
 чтоб вы о своем вояже что-нибудь поговорили, согласитесь ли вы меня
-контактировать? <note resp="editor">Удовольствовать. </note>
+контантировать? <note resp="editor">Удовольствовать. </note>
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
-      De lout mon coeur, madame; <note resp="editor">От всего сердца, мадам.
+      De tout mon coeur, madame; <note resp="editor">От всего сердца,
+мадам.
 </note> только в присутствии батюшки мне неспособно исполнить вашу волю. Он
 зашумит, помешает, остановит...
       <sp who="Sovetnica"><speaker> Советница.</speaker>
@@ -1644,7 +1660,8 @@ reg="Париж">Париже</name> принят.
 пока мочь будет. Говори, Иван.
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
-      С чего же начать? Par оЫ commencer? ? <note resp="editor">С чего
+      С чего же начать? Par о&ugrave; commencer? ? <note resp="editor">С
+чего
 начать? </note>
       <sp who="Sovetnica"><speaker> Советница.</speaker>
       <p>
@@ -1673,7 +1690,8 @@ type=" place" reg="Париж">Парижу</name>?
 продолжайте. </note>
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <p>
-      В <name type=" place" reg="Париж">Париже</name> все почитали меня так,
+      В <name type=" place" reg="Париж">Париже</name> все почитали меня
+так,
 как я заслуживаю. Куда бы я ни приходил, везде или я один говорил, или все
 обо мне говорили. Все моим разговором восхищались. Где меня ни видали,
 везде у всех радость являлася на лицах, и часто, не могши ее скрыть,
@@ -1712,7 +1730,8 @@ reg="Франция">Франции</name> получила уже от тебя изрядную идею. Не правда
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <stage type="delivery"> (с восторгом.) </stage>
       <p>
-      Vous avez le don de dИviner. <note resp="editor">У вас дар отгадывать.
+      Vous avez le don de d&eacute;viner. <note resp="editor">У вас дар
+отгадывать.
 </note>
       <sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
       <p>
@@ -1746,7 +1765,8 @@ place" reg="Париж ">Париже</name>, забыть совершенно то, что они русские?
       <sp who="Ivanushka"><speaker> Сын. </speaker>
       <stage type="delivery"> (к советнице.) </stage>
       <p>
-      Cela m'excХde, je me retire. <note resp="editor">Это выводит меня из
+      Cela m'exc&eacute;de, je me retire. <note resp="editor">Это выводит
+меня из
 себя, я удаляюсь. </note>  <stage type="delivery"> (выходит.) </>.
       <sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
       <stage type="delivery"> (к советнице.) </stage>
@@ -1759,11 +1779,13 @@ place" reg="Париж ">Париже</name>, забыть совершенно то, что они русские?
           <stage type="setting">Бригадир, советница.</stage>
       <sp who="Sovetnica"><speaker> Советница.</speaker>
       <p>
-      Вот что вы сделали. Вы лишили меня удовольствия слышать историю вашего
+      Вот что вы сделали. Вы лишили меня удовольствия слышать историю
+вашего
 сына и целого Парижа.
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      А я бы думал, что я избавил тебя от неудовольствия слышать дурачествы.
+      А я бы думал, что я избавил тебя от неудовольствия слышать
+дурачествы.
 Разве, матушка, тебе угодно шутить над моим сыном?
       <sp who="Sovetnica"><speaker> Советница.</speaker>
       <p>
@@ -1788,7 +1810,8 @@ resp="editor">Почтительность. </note>
 французский дух вышибу; я вижу, что он и вам уже скучен.
       <sp who="Sovetnica"><speaker> Советница.</speaker>
       <p>
-      Вы ошиблись; перестаньте грубить вашему сыну. Ведаете ли вы, что я его
+      Вы ошиблись; перестаньте грубить вашему сыну. Ведаете ли вы, что я
+его
 словами восхищаюсь?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
@@ -1799,7 +1822,8 @@ resp="editor">Почтительность. </note>
 себе и о Париже?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      Я бы хотел так быть на этот раз, матушка; я вижу, что вы теперь шутить
+      Я бы хотел так быть на этот раз, матушка; я вижу, что вы теперь
+шутить
 изволите; рассказы его - пустошь. Он хотя и мой сын, однако таить нечего;
 где он был? в каких походах? на которой акции? А ежели ты охотница слушать
 и впрямь что-нибудь приятное, то прикажи мне, я тебе в один миг расскажу,
@@ -1871,7 +1895,8 @@ resp="editor">Почтительность. </note>
       Что ж вы, сударь?
       <sp who="Brigadir"><speaker> Бригадир. </speaker>
       <p>
-      Матушка! Это не такое дело, о котором бы я говорил при вашем сожителе.
+      Матушка! Это не такое дело, о котором бы я говорил при вашем
+сожителе.
 <stage type="delivery"> (выходя.) .</stage>    Я с досады тресну.
 </div2>
 <div2 type="scene">
@@ -1913,7 +1938,7 @@ resp="editor">Почтительность. </note>
 погнавшись за ним, не растерял и достальное.
       <sp who= "Dobroljubov" ><speaker> Добролюбов.</speaker>
       <p>
-      Ваша правда. Корыстолюбие наших лихоимцев перешло все предолы.
+      Ваша правда. Корыстолюбие наших лихоимцев перешло все пределы.
 Кажется, что нет таких запрещений, которые их унять бы могли.
       <sp who="Sovetnik"><speaker> Советник. </speaker>
       <p>
@@ -1945,7 +1970,7 @@ resp="editor">Почтительность. </note>
       <stage type="delivery"> (к Добролюбову.) </stage>
       <p>
       Мне кажется, что вам время уже себя этаблировать, <note
-      resp="editor">устроить. </note>  время жениться.
+      resp="editor">Устроить. </note>  время жениться.
       <sp who= "Dobroljubov" ><speaker> Добролюбов.</speaker>
       <p>
       Я ни на ком жениться не хочу, когда вы не соглашаетесь за меня отдать
@@ -1969,6 +1994,7 @@ resp="editor">Почтительность. </note>
       <trailer>Конец третьего действия.</trailer>
 
 </div1>
+
 
 <div1 type="act">
 <head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
@@ -1999,28 +2025,28 @@ resp="editor">Почтительность. </note>
 
 <stage type="setting">Те же и бригадирша.</stage>
 <sp who=" Dobroljubov "><speaker>Добролюбов</speaker><stage
-type="delivery"> (видя, что бригадирша слезы отирает).</> <p>О чем вы
+type="delivery"> (видя, что бригадирша слезы отирает).</> <p> О чем вы
 плакали, сударыня?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Я, мой батюшка,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Я, мой батюшка,
 не первый раз на веку плачу. Один господь видит, каково мое житье!
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Что такое, сударыня?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Закажу и другу
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Закажу и другу
 и ворогу идти замуж.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Как, сударыня? Можете ли вы
 говорить это в самое то время, когда хотите ни того, чтоб я женою была
 вашего сына?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Тебе, матушка,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Тебе, матушка,
 для чего за него нейти? Я сказала так про себя.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Нет, вы про всех
 теперь сказать изволили.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>И ведомо.
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>И ведомо.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Как же это: то про себя, то
 про всех? Скажите, матушка, что-нибудь одно.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Ты изволь
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Ты изволь
 говорить; а мне что?
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Что же вам
 угодно?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Ничего. Я
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Ничего. Я
 пришла сюда так, поплакать в свою волю.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Да о чем же?
 <sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <stage
@@ -2032,36 +2058,36 @@ type="delivery"> (плача). </> <p>О том, что мне грустно. Теперь Игнатий
 сударыня.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Да за что он так на вас
 теперь напал?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Так, слово за
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Так, слово за
 слово. Он же такого крутого нраву, что упаси господи; того и смотрю, что
 резнет меня чем ни попало; рассуди ж, моя матушка, вить долго ль до беды:
 раскроит череп разом. После и спохватится, да не что сделаешь.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Поэтому ваша
 жизнь всякую минуту в опасности?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>До лихого часу
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>До лихого часу
 долго ли?
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Неужели он с вами столько
 варварски поступал, что вы от него уже и терпели на это похожее?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>То нет, моя
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>То нет, моя
 матушка. Этого еще не бывало, чтоб он убил меня до смерти. Нет, нет еще.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Об этом,
 сударыня, вас никто и не спрашивает.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Довольно, ежели он имел
 варварство пользоваться правом сильного.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>То он силен,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>То он силен,
 матушка. Однажды, и то без сердцов, знаешь, в шутку, потолкнул он меня в
 грудь, так веришь ли, мать моя, господу богу, что я насилу вздохнула: так
 глазки под лоб и закатились, не взвидела света божьего.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>И это было в шутку!
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Насилу
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Насилу
 отдохнула; а он, мой батюшка, хохочет да тешится.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Изрядный смех!
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Недель через
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Недель через
 пять-шесть и я тому смеялась, а тогда, мать моя, чуть было чуть богу души
 не отдала без покаяния.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Да как же вы с
 ним жить можете, когда он и в шутку чуть было вас на тот свет не отправил?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Так и жить.
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Так и жить.
 Вить я, мать моя, не одна замужем. Мое житье-то худо-худо, а все не так,
 как, бывало, наших офицершей. Я всего нагляделась. У нас был нашего полку
 первой роты капитан, по прозванью Гвоздилов; жена у него была такая
@@ -2071,7 +2097,7 @@ type="delivery"> (плача). </> <p>О том, что мне грустно. Теперь Игнатий
 сторона дело, а ино наплачешься, на нее глядя.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Пожалуйте, сударыня,
 перестаньте рассказывать о том, что возмущает человечество.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Вот, матушка,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Вот, матушка,
 ты и слушать об этом не хочешь, каково же было терпеть капитанше?
 </div2>
 
@@ -2079,11 +2105,12 @@ type="delivery"> (плача). </> <p>О том, что мне грустно. Теперь Игнатий
 <head>ЯВЛЕНИЕ III</head>
 
 <stage type="setting">Те же, сын и советница.</stage>
-<sp who=" Sovetnica"><speaker> Советница </speaker> <stage type="delivery">
+<sp who=" Sovetnica"><speaker> Советница </speaker> <stage
+type="delivery">
 (сыну). </> <p>Не угодно ли сыграть партию в карты?
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>С великой охотою, avec
 plaisir. <note resp="editor"> С удовольствием.</note>
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Так велеть подать
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Так велеть подать
 карты. Лакей, стол и карты. <stage type="delivery"> (К Добролюбову.) </> Не
 изволите ли вы здесь партию в кадриль?
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Ежели вам угодно.
@@ -2091,24 +2118,24 @@ plaisir. <note resp="editor"> С удовольствием.</note>
 <sp who=" Ivanushka "><speaker> Сын</speaker> <stage type="delivery">
 (разбирает карты и подает каждому по карте для мест. К советнице). </>
 <p>Madame! <stage type="delivery"> (К бригадирше.) </> Madame!
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Это на что,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Это на что,
 Иванушка? Да коли играть, так все раздай. Разве, мой батюшка, ныне по одной
 карточке играют?
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Это для мест.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>И! Мне и так,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>И! Мне и так,
 по милости хозяйской, место будет.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Матушка, берите же.
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>Да что мне,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>Да что мне,
 батюшка, в одной карточке?
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Играете ли вы в
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Играете ли вы в
 кадриль, сударыня?
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>И, мать моя, я
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>И, мать моя, я
 и слухом не слыхала, что это.
 <sp who=" Sovetnica"><speaker> Советница </speaker> <stage type="delivery">
 (к Софье). </> <p>Так возьмите вы.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Mademoiselle! <stage
 type="delivery"> (Подает, все садятся, между тем как сын сдает карты.) </>
-<sp who=" Brigadirsha "><speaker> Бригадирша .</speaker> <p>А я сяду,
+<sp who=" Brigadirsha "><speaker> Бригадирша.</speaker> <p>А я сяду,
 матушка, да посмотрю на вас, как вы забавляетесь.
 </div2>
 
@@ -2117,60 +2144,61 @@ type="delivery"> (Подает, все садятся, между тем как сын сдает карты.) </>
 <stage type="setting"> Те же, бригадир и советник.</stage>
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Ба! здесь и картеж
 завели!
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>А ты не изволишь ли
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>А ты не изволишь ли
 со мною игорку в шахматы, в большую?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Давай, бери.
 <stage type="delivery"> Садятся в другом конце. Между тем как советник
 с бригадиром выступают и один другому говорит:
 <Я так>, а тот ему: <А я так>. </>
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>В кёрах волю.
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>В кёрах волю.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Passe.
-И все пасуют.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Они и они.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Что за околесица
+<stage type="delivery">И все пасуют</>.
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Они и они.
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Что за
+околесица
 - они и они? Кто это они?
 <sp who=" Sovetnik"><speaker> Советник </speaker> <stage type="delivery">
 (услышав ее вопрос). </> <p>Ныне, матушка, всех игор и не разберешь, в
 которые люди тешиться изволят.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Так, мой
-батюшка, уж чего ныне не выдумают. Они и они! Куды мудрен народ! 
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Так, мой
+батюшка, уж чего ныне не выдумают. Они и они! Куды мудрен народ!
 <stage type="delivery"> (Заглянув к сыну в карты.) </> Ах, Иванушка, как на
 руках-то у тебя жлудей, жлудей!
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Матушка, я брошу карты;
 je les jette par terre. <note resp="editor"> Я брошу их наземь.</note>
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>И впрямь, сударыня,
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>И впрямь, сударыня,
 вы бы могли это держать только на уме... Рекиз.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <stage type="delivery">
 (вслушавшись в речь советницы). </> <p>На уме? Было бы на чем!.. Шаx!
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Плохо, плохо мне
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Плохо, плохо мне
 приходит.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>Не шути, сватушка.
 <sp who=" Ivanushka "><speaker> Сын</speaker> <stage
 type="delivery">(показав карты). </> <p> Санпрандер шесть матедоров.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Что, мой
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Что, мой
 батюшка, что ты сказал, мададуры? Вот нынче стали играть и в дуры, а,
 бывало, так все в дураки игрывали.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Так, матушка моя,
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Так, матушка моя,
 мало ли чего бывало и чего нет, - чего не бывало и что есть.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Так, мой
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Так, мой
 батюшка. Бывала и я в людях; а ныне - что уж и говорить - старость пришла;
 уж и памяти нет.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>А ума не бывало.
 <sp who=" Ivanushka "><speaker> Сын</speaker> <stage type="delivery"> (поет
-французскую песню; советчица пристает к нему. К советнице). </><p>Madame!
+французскую песню; советница пристает к нему. К советнице). </><p>Madame!
 мы оба беты. <note resp="editor"> В дураках. </note> Матушка, пропойте-ка
 вы нам какую-нибудь эр. <note resp="editor"> Арию. </note>
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Что пропеть? И,
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Что пропеть? И,
 мой батюшка, голосу нет. Дух занимает... Да что это у вас за игра идет? Я
 не разберу, хоть ты меня зарежь. Бывало, как мы заведем игру, так или в
 марьяж, или в дураки; а всего веселей, бывало, в хрюшки. Раздадут по три
 карточки; у кого пигус, тот и вышел; а кто останется, так дранье такое
 подымут, что животики надорвешь.
 <sp who=" Sovetnik"><speaker> Советник </speaker> <stage type="delivery">
-(смеется с нежностию).</> <p>Ха-ха-ха! И сам игрывал, бывало, и, помнится
+(смеется с нежностию).</> <p> Ха-ха-ха! Я сам игрывал, бывало, и, помнится
 мне, при всякой карте разные забавы.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker>  <p>Медиатор.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Так, мой
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Так, мой
 батюшка! <stage type="delivery"> (Схватила одни карты и подбежала к
 советнику.) </> Вот, бывало, коли кто виноват, так и скажут: с той стороны
 не проси вот этого, а с этой этогo; а потом <stage type="delivery"> (держа
@@ -2183,41 +2211,42 @@ type="delivery">(показав карты). </> <p> Санпрандер шесть матедоров.
 не кончим.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Pardieu! Матушка, куда ты
 карты девала?
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Здесь, Иванушка.
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Здесь,
+Иванушка.
 <sp who=" Ivanushka "><speaker> Сын</speaker> <stage
 type="delivery">(вскоча). </> <p>Il еst impossible de jouer. <note
 resp="editor"> Невозможно играть.</note>
 
 <stage type="delivery">Все встают</>.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Да я нам что,
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Да я вам что,
 мой батюшка, помешала? Вить у вас есть карты, да еще и с тройками.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>Слушай, жена! Ты
 куда ни придешь, везде напроказишь.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Да тебе, мой
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Да тебе, мой
 батюшка, чем я помешала? Ты бы знал выступал своей игрой. Вить я к нему
-подошла <stage type="delivery"> (указывая на советника) </>, а не к тебе.
+подошла <stage type="delivery"> (указывая на советника)</>, а не к тебе.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>У кого нет ума, тот,
 подошедши к одному, всем помешать может.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Вот так; я же
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Вот так; я же
 виновата стала.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Матушка, да разве я
 виноват? <stage type="delivery"> (Указывая на Добролюбова.) </> Ou ce
 monsieur? <note resp="editor"> Или этот господин? </note> <stage
-type="delivery">(Указывая на женщин) </>. Оu ces dames? <note
+type="delivery">(Указывая на женщин)</>. Оu ces dames? <note
 resp="editor"> Или эти дамы? </note>
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Полно, зятюшка: тебе
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Полно, зятюшка: тебе
 бы и грешно было упрекать рождшую.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>А вам стыдно,
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>А вам стыдно,
 сударь, не в ваши дела вступаться.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>Я, сват, тебя люблю;
 а с женою моей, пожалуй, ты не мири меня. Разве ты, сват, не ведаешь
 пословицы: свои собаки грызутся, чужая не приставай?
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Так, батюшка, все
 пословицы справедливы, а особливо французские. Не правда <stage
-type="delivery">(к Добролюбову) </>, monsieur?
+type="delivery">(к Добролюбову)</>, monsieur?
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>Я знаю много и
 русских очень справедливых; не правда ли, сударыня <stage type="delivery">
-(к Софье) </>?
+(к Софье)</>?
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Правда.
 <sp who=" Ivanushka "><speaker> Сын</speaker> <stage type="delivery"> (к
 Софье). </> <p> А какие ж?
@@ -2225,18 +2254,18 @@ type="delivery">(к Добролюбову) </>, monsieur?
 что хочешь, со вранья пошлин не берут.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>Так, матушка, ай
 люблю! Вот тебе пословица и загадка. А ежели хочешь ты, Иван, чтоб я
-отгадал ее, так дураком выйдешь ты.
+отгадал ее, так дурак-от выйдешь ты.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Par quelle raison? <note
 resp="editor">На каком основании?</note>
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>По какому резону?
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>По какому резону?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>По такому, матушка,
 что он врет беспошлинно.
-<sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>Слава богу,
+<sp who=" Brigadirsha "><speaker> Бригадирша. </speaker> <p>Слава богу,
 милость божия, что на вранье-то пошлин нет. Вить куда бы какое всем нам
 было разорение!
 <sp who=" Brigadir "><speaker> Бригадир.</speaker>  <p>Ништо тебе: ты бы
 часов в пять-шесть пошла по миру.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Не гневайся, матушка,
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Не гневайся, матушка,
 на своего супруга, на него сегодня худой стих нашел.
 <sp who=" Brigadirsha "><speaker> Бригадирша </speaker> <p>И, мой батюшка,
 мне ль сердиться, когда он гневается; мое дело убираться теперь дале.
@@ -2248,7 +2277,7 @@ resp="editor">На каком основании?</note>
 <stage type="setting"> Бригадир, советник, советница, Добролюбов, сын,
 Софья .</stage>
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p> Дело и сделала.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <stage
+<sp who=" Sovetnica"><speaker> Советница </speaker> <stage
 type="delivery">(к Софье). </> <p>Поди ж, сударыня, к своей свекрови. Ведь
 ей не одной сидеть тамо.
 <sp who=" Sofja "><speaker>Софья.</speaker> <p>Иду, сударыня. <stage
@@ -2259,14 +2288,14 @@ type="exit"><move who=" Sofja " type="exit">(Отходит.) </stage>
 <head>ЯВЛЕНИЕ VI</head>
 <stage type="setting"> Бригадир, советник, советница, Добролюбов,
 сын.</stage>
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Воля твоя, братец. Ты
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Воля твоя, братец. Ты
 весьма худо поступаешь с своею супругою.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>А она весьма худо со
 мной.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Чем же, сударь?
-<sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Том, матушка, что она
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Чем же, сударь?
+<sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Тем, матушка, что она
 не к месту печальна, не к добру весела, зажилась, греха много, некстати.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Как некстати? Что ж
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Как некстати? Что ж
 ты и заправду, сватушка? Дай бог ей многолетное здоровье и долгие веки. С
 умом ли ты? Кому ты желаешь смерти?
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Желать смерти никому не
@@ -2277,7 +2306,7 @@ type="exit"><move who=" Sofja " type="exit">(Отходит.) </stage>
 правду.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Говори ее тогда,
 когда спрашивают.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Для чего же вы
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Для чего же вы
 говорите ему тогда, когда он вас не спрашивает?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Для того, матушка,
 что он мой сын; каково же мне будет, когда люди станут говорить, что у
@@ -2285,7 +2314,7 @@ type="exit"><move who=" Sofja " type="exit">(Отходит.) </stage>
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Батюшка, я негодница! Je
 vous demande pardon; <note resp="editor"> Я прошу прощенья. </note> я такой
 сын, по которому свет узнает вас больше, нежели по вашем бригадирстве! Вы,
-monsieur <stage type="delivery"> (к Добролюбову) </>, конечно, знаете сами
+monsieur <stage type="delivery"> (к Добролюбову)</>, конечно, знаете сами
 много детей, которые делают честь своим отцам.
 <sp who=" Dobroljubov "><speaker>Добролюбов.</speaker> <p>А еще больше
 таких, которые им делают бесчестье. Правда и то, что всему причиной
@@ -2294,22 +2323,22 @@ monsieur <stage type="delivery"> (к Добролюбову) </>, конечно, знаете сами
 это правда. Дура мать его, а моя жена, причиною тому, что он сделался
 повесою, и тем хуже, что сделался он повесою французскою. Худы русские, а
 французские еще гаже.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Э! Господа бога не
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Э! Господа бога не
 боишься ты, сватушка; за что ругаешь ты так свою супругу, которая может
 назваться вместилищем человеческих добродетелей?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Каких?
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Она смиренна, яко
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Она смиренна, яко
 агнец, трудолюбива, яко пчела, прекрасна, яко райская птица <stage
-type="delivery"> (вздыхая) </>, и верна, яко горлица.
+type="delivery"> (вздыхая)</>, и верна, яко горлица.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Разве умна, как
 корова, прекрасна, как бы и то... как сова.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Как дерзаешь ты
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Как дерзаешь ты
 применить свою супругу к ночной птице?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Денную дуру к ночной
 птице применить, кажется, можно.
 <sp who=" Sovetnik"><speaker> Советник </speaker> <stage type="delivery">
 (вздыхая). </> <p>Однако она все тебе верна пребывает.
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>В самом деле, много
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>В самом деле, много
 в ней добродетели, если она вас любит.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Да кого же ей любить-
 то, ежели не меня? Мне дурно самому хвастать; а, право, я, кажется,
@@ -2318,7 +2347,7 @@ type="delivery"> (вздыхая) </>, и верна, яко горлица.
 надобно. Так как же ей другого-то и полюбить можно? А кабы я не таков был,
 тогда посмотрел бы ее добродетель; а особливо когда бы поискал в ней кто-
 нибудь также из нашей братьи первых пяти классов.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Нет, братец, не
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Нет, братец, не
 говори того: супруга твоя воистину не такова. Да не похвалится всяка плоть
 пред богом; а хотя бы достойный и предостойный человек поискал в ней, право
 бы ничего не нашел. Вить это, мой друг, не город, - штурмом не возьмешь.
@@ -2328,11 +2357,11 @@ type="delivery"> (вздыхая) </>, и верна, яко горлица.
 ха-ха! Неужели вы думаете сердце взять штурмом?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Иван, мне кажется,
 нет ли теперь штурмы в твоей головушке? Не можно ли потише?
-<sp who=" Sovetnica"><speaker> Советница .</speaker> <p>Вы сами шуметь
+<sp who=" Sovetnica"><speaker> Советница.</speaker> <p>Вы сами шуметь
 больше всех любите. Я не знаю, для чего вы хотите, чтоб сын ваш не говорил
 того, что он думает? Вы ужесь как бизарны! <note resp="editor"> Странны.
-</note> <stage type="delivery"> (К сыну и Добролюбову) </>. Messieurs!
-<note resp="editor"> Господа! </note> я хочу оставить их продолжать, важные
+</note> <stage type="delivery"> (К сыну и Добролюбову)</>. Messieurs!
+<note resp="editor"> Господа! </note> я хочу оставить их продолжать важные
 их дискуры и вас прошу сделать то же.
 <sp who=" Ivanushka "><speaker> Сын.</speaker> <p>Я иду за вами. Adieu,
 messieurs! <note resp="editor"> До свиданья, господа! </note>.
@@ -2344,45 +2373,45 @@ messieurs! <note resp="editor"> До свиданья, господа! </note>.
 <head>ЯВЛЕНИЕ VII</head>
 
 <stage type="setting">Бригадир и советник. </stage>
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>И жена моя уже
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>И жена моя уже
 приметила, что ты на свою супругу нападаешь.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Нет, а я приметил,
 что она слишком горячо вступается за моего сына.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Я того не примечаю.
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Я того не примечаю.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Тем хуже.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>А что же?
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>А что же?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Ничего, сват; однако
 я моей жене не советовал бы за чужого детину так при мне вступаться.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Ты думаешь, братец,
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Ты думаешь, братец,
 что и я спустил бы жене моей, ежели б усмотрел я что-нибудь у нее блажное
 на уме... Слава богу, у меня глаза-то есть; я не из тех мужей, которые
 смотрят, да не видят.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Я, с моей стороны,
 спокоен; жена моя другого не полюбит.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Целомудрие ее
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Целомудрие ее
 известно тому, кто, по несчастию, ослеплен ее прелестьми.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Однако такого дурака
 нет на свете, которому бы вспало на мысль за нею волочиться.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Да за что же ты
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Да за что же ты
 бранишься?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Кого? Нет, братец. Я
 говорю, что этакого скота еще не родилось, который бы вздумал искать в моей
 жене.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Да за что же ты
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Да за что же ты
 бранишься?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Будто я бранюсь,
 когда я говорю, что надобно быть великому скареду, ежели прельститься моею
 женою.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Будто ты и не
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Будто ты и не
 бранишься? <stage type="delivery"> (С сердцем.) </> Почему же тот дурак,
 который бы пленился Акулиной Тимофеевной?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Потому что она дура.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>А она так разумна,
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>А она так разумна,
 что все ее слова напечатать можно.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Для чего не
 напечатать? Я слыхал, сват, что в нонешних печатных книгах врут не умнее
 жены моей.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Возможно ли тому
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Возможно ли тому
 статься, чтоб в книгах врали? Да ведаешь ли ты, братец, что печатному-то
 надлежит верить всем нам православным? Видно, вера-то у нас пошатнулась.
 Еретиков стало больше.
@@ -2390,68 +2419,68 @@ messieurs! <note resp="editor"> До свиданья, господа! </note>.
 много печатного вздору у нас не оттого, что больше стало еретиков, а разно
 оттого, что больше стало дураков. Вить я, говоря о жене моей, не говорю
 того, чтоб она всех была глупее.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>А я говорю, о твоей
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>А я говорю, о твоей
 супруге и всегда скажу, что нет ее разумнее.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Хотя бы мне с досады
 треснуть случилось, однако не отопрусь, что твоя хозяйка весьма разумна.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Всякому, братец, в
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Всякому, братец, в
 чужой руке ломоть больше кажется. Я в своей жене много вижу, чего ты не
 видишь.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Положим, что это
 правда; однако и то не ложь, что я в супруге твоей также много теперь вижу,
 чего ты не видишь.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>А что бы такое?
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>А что бы такое?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>То, что ты, может
 быть, увидишь, да поздно.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Я знаю, братец, к
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Я знаю, братец, к
 чему ты пригибаешь! Ты думаешь, что я мало смотрю за моею женою; однако для
 счастия мужей, дай, господи боже, чтоб все жены таковы целомудренны были,
 как моя.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Женщины обыкновенно
 бывают целомудренны с людьми заслуженными, а с повесами редко.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Мудрено, братец
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Мудрено, братец
 Игнатий Андреевич, меня обмануть.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>А всего мудренее,
 ежели я в этом обманываюсь.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Мы оба, кажется, не
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Мы оба, кажется, не
 таковы, чтоб наши жены могли от нас полюбить чужого мужика. Я с первою
 женою жил лет с пятнадцать и могу, благодаря бога, сказать, что она так же
 жила, как и эта. Я в женах не бессчастен.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Разумею.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Жена какая бы ни
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Жена какая бы ни
 была, да только ежели у доброго мужа, то ей и на ум не вспадет полюбить
 другого.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Не говори, братец. Со
 мною служил в одном полку секунд-майором - до имени нужды нет - мужик не
 дурак и на взгляд детина добр. Ростом чуть не вдвое меня выше...
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Этому статься нельзя,
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Этому статься нельзя,
 братец...
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Однако я не лгу. В
 мое время, когда я еще был помоложе, народ был гораздо крупнее.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Только все не так
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Только все не так
 крупен, как ты сказываешь. Правда, что и в нашей коллегии был канцелярист
 один, чуть не впятеро меня толще...
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Этому статься нельзя,
 братец...
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Конечно, так. Когда я
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Конечно, так. Когда я
 был в коллегии, тогда, от президента до сторожа, все были люди дородные.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>Ты, братец, перебил
 только речь мою. Да о чем бишь я тебе хотел сказывать?
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Право, не знаю.
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Право, не знаю.
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>И я не ведаю... о чем
 бишь... да, о секунд-майоре. Он был мужик предорогой; целый полк знал, что
 жена его любила нашего полковника, подполковника, премьер-майора, или,
 лучше сказать, все ведали, что из наших штаб- и обер-офицеров не любила она
 одного его; а он, собачин сын, и мыслить не хотел, чтоб она кроме его кого-
 нибудь полюбить могла.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Что ж мы так долго
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Что ж мы так долго
 одни заговорились?
 <sp who=" Brigadir "><speaker> Бригадир.</speaker> <p>О деле я говорить
 нескучлив; однако пойдем туда, где все. <stage type="exit"><move
 who="Brigadir " type="exit"> (Выходя.) </stage> Впрямь, ежели не переставая
 сказывать о том, как люди ошибаются, то мы не сойдем с места и до скончания
 нашей жизни.
-<sp who=" Sovetnik"><speaker> Советник .</speaker> <p>Пойдем же, пойдем.
+<sp who=" Sovetnik"><speaker> Советник.</speaker> <p>Пойдем же, пойдем.
 </div2>
 <trailer> Конец четвертого действия.</trailer>
 </div1>
@@ -2460,207 +2489,207 @@ who="Brigadir " type="exit"> (Выходя.) </stage> Впрямь, ежели не переставая
         <head>ДЕЙСТВИЕ ПЯТОЕ</head>
         <div2 type="scene">
           <head>ЯВЛЕНИЕ I</head>
-          <stage type="setting">Бригадирша, сын.</stage>
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+          <stage type="setting">Бригадирша и сын.</stage>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Не упрямься, Иванушка. Для чего тебе не жениться?
-<sp who="Ivanushka"><speaker>сын</speaker>
+<sp who="Ivanushka"><speaker>Сын.</speaker>
             <p>
  Матушка, довольно видеть вас с батюшкою, чтоб получить совершенную аверсию
 <note resp="editor" > Отвращение. </note>  к женитьбе.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  А что ж бы такое, друг мой? Разве мы спустя рукава живем? То правда, что
 деньжонок у нас немного, однако ж они не переводятся.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Мало иль ничего, c'est la m&ecirc;me chose,<note resp="editor" > Это одно и
 то же. </note> для меня все равно.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Как все равно, батюшка! Случится иногда и в десяти копейках нужда, так и
 тех из земли не выроешь. Уж куда, право, ноне вы прихотливы стали! У вас
 вот и десять копеек за помёт, а того и не помнишь, что гривною в день можно
 быть сыту.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Матушка! Я хочу быть лучше голоден, нежели сыт за гривну.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Куда больно, Иванушка! Не покорми-ка тебя сегодня, не покорми-тко завтре,
 так ты небось и нашим сухарям рад будешь.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 В случае голода, осмеливаюсь думать, что и природный француз унизил бы себя
 кушать наши сухари... Матушка, когда вы говорите о чем-нибудь русском,
 тогда желал бы я от вас быть на сто миль французских, а особливо когда дело
 идет до моей женитьбы.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Как же, Иванушка? Вить мы уж на слове положили.
 <sp who=" Ivanushka "><speaker>Cын.</speaker>
             <p>
  Да я нет.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
- Да что нам до этого? Наше дело сыскать тебе невесту, и твое дело жениться.
+ Да что нам до этого? Наше дело сыскать тебе невесту, а твое дело жениться.
 Ты уж не в свое дело и не вступайся.
 <sp who=" Ivanushka "><speaker>Cын.</speaker>
             <p>
-Как, ma m&egrave; re <note resp="editor" > Матушка. </note>, я женюсь, и
+Как, ma m&egrave;re <note resp="editor" > Матушка. </note>, я женюсь, и
 мне нужды нет до выбору невесты?
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 И ведомо. А как отец твой женился? А как я за него вышла? Мы друг о друге и
 слухом не слыхали. Я с ним до свадьбы отроду слова не говорила и начала уже
 мало-помалу кое-как заговаривать с ним недели две спустя после свадьбы.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Зато после слишком вы друг с другом говорили.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Дай-то господи, чтоб и тебе так же удалось жить, как нам.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
- Dieu m'en pres&egrave; rve! <note resp="editor" > Боже меня сохрани!
+ Dieu m'en pres&egrave;rve! <note resp="editor" > Боже меня сохрани!
 </note>
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Буди с вами милость божия и мое благословение.
 <sp who=" Ivanushka "><speaker>сын</speaker>
             <p>
  Тr&egrave;s oblig&eacute;. <note resp="editor" > Премного обязан. </note>
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Или я глуха стала, или ты нем.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
- Ni lun, ni lautre.<note resp="editor" > Ни то ни другое. </note>
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+ Ni l`un, ni l`autre.<note resp="editor" > Ни то ни другое. </note>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Чтой-то мне с тобою будет, Иванушка? Да по-каковски ты со мною говорить
 можешь?
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Виноват. Я и забыл, что мне надобно говорить с вами по-русски.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Иванушка, друг мой, или ты выучи меня по-французскому, или сам разучись. Я
 вижу, что мне никак нельзя ни слушать тебя, ни самой говорить.
 <stage type="exit"><move who="Brigadirsha"
 type="exit">(Отходит.)</stage>
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Как изволишь.
         </div2>
 
 <div2 type="scene">
 <head>ЯВЛЕНИЕ II </head>
-          <stage type="setting"> Сын, советница.</stage>
-<sp who="Sovetnica"><speaker>Советница</speaker>
+          <stage type="setting"> Сын и советница.</stage>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Знаешь ли что, душа моя? Мне кажется, будто твой отец очень ревнует, нам
 как возможно стараться надобно скрывать любовь нашу.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
            <p>
- Madamе, возможно ли скрыть пожар? И такой сильный, саг je br&ucirc; le-
-moi. <note resp="editor" > Ведь я пылаю. </note>
-<sp who="Sovetnica"><speaker>Советница</speaker>
+ Madamе, возможно ли скрыть пожар? И такой сильный, саг je br&ucirc;le-moi.
+<note resp="editor" > Ведь я пылаю. </note>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
  Я боюсь того, чтоб, сведав о нашем пламени, твой отец и дурак муж мой не
 пришли его тушить.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
- Так, vous avez raison<note resp="editor" > Вы правы. </note>: это такие
+ Так, vous avez raison:<note resp="editor" > Вы правы. </note> это такие
 люди, которые не в свои дела вступаться любят.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
  А особливо муж мой. Ему ничего нет приятнее, как быть замешану маль а
 пропо <note resp="editor" > Некстати. </note> в такое дело, которое до него
 не принадлежит, и чем меньше ему нужды до нашего пламени, тем больше он в
 том интересоваться будет.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Vous avez raison. И какая бы ему тут была нужда?
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Вот какая: он говорит, жизнь моя, что будто муж и жена составляют одного
 человека.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Тем лучше: par consequent<note resp="editor" > Следовательно. </note>,
 ежели тебе приятно любить меня, так и ему должно то быть приятно, что ты
 меня любишь.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
-Конечно, он сам себе контрадирует<note resp="editor" > Противоречит.
+Конечно, он сам себе контрадирует.<note resp="editor" > Противоречит.
 </note>
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Madame, ты не была в Париже, а знаешь все французские слова.
  <stage type="delivery">(Садятся оба.)</>
-Avouez ,<note resp="editor" > Признайтесь. </note>
-<stage type="delivery">(с веселым видом) </>
+Avouez<note resp="editor" > Признайтесь. </note>
+<stage type="delivery">(с веселым видом), </>
  не имела ли ты коннесансу <note resp="editor" > Знакомства. </note> с
 каким французом?
 <sp who="Sovetnica"><speaker>Советница</speaker>
- <stage type="delivery">(застыдясь) </>
+ <stage type="delivery">(застыдясь). </>
 <p>
  Нет, душа моя. Мне нельзя было ни с кем, живучи в Москве, познакомиться.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Et pourquoi? <note resp="editor" > А почему? </note> Там разве мало
 французов?
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
- Я никого не знала,
-<stage type="delivery">(с презрением) </>
+ Я никого не знала
+<stage type="delivery">(с презрением), </>
  кроме учителей.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Да знаешь ли ты, каковы наши французские учители? Даром, что большая из
 них половина грамоте не знает, однако для воспитания они предорогие люди;
 ведаешь ли ты, что я, - я, которого ты видишь, - я до отъезду моего в Париж
 был здесь на пансионе у французского кучера.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Ежели это правда, душа моя, jе vous demande pardon.<note resp="editor" >
 Прошу прощенья. </note> С сего часа буду я в сердце моем сохранять истинное
 почтение к французским кучерам.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Я советую. Я одному из них должен за любовь мою к французам и за
 холодность мою к русским. Молодой человек подобен воску. Ежели б
 malheureusement <note resp="editor" >По несчастью. </note>  я попался к
 русскому, который бы любил свою нацию, я, может быть, и не был бы таков.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
-Счастье твое и мое, душа моя, что ты подался к французскому кучеру.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+Счастье твое и мое, душа моя, что ты попался к французскому кучеру.
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Однако оставим кучера и поговорим об отце моем и о твоем муже.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Возможно ли, душа моя, с такой высокой материи перейти вдруг в такую
 низкую?
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Для разумных людей нет невозможного.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Говори же.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Нам надобно взять свои меры; prendre nos mesures.<note resp="editor"
 >Принять меры. </note>
-<stage type="enter">< move who="Brigadir, Sovetnik"type="enter"> Входят: с
-одного конца бригадир, с другого советник. .</stage>
+<stage type="enter"><move who="Brigadir Sovetnik" type="enter"> Входят: с
+одного конца бригадир, с другого советник.</stage>
 <stage type="delivery">( А они, не видя их, продолжают.) </>
 
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
  Я, любя тебя, на все соглашаюсь.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 На все!
 <stage type="delivery">(Кидается на колени.) </>
@@ -2669,20 +2698,20 @@ malheureusement <note resp="editor" >По несчастью. </note>  я попался к
 
 <div2 type="scene">
 <head>ЯВЛЕНИЕ  III </head>
-          <stage type="setting"> Те же, бригадир, советник.</stage>
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+          <stage type="setting"> Те же, бригадир и советник.</stage>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Ба! Это что? Наяву или во сне?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
  С нами бог! Уж не обморочен ли я?
-<sp who=" Ivanushka "><speaker>сын</speaker>
- <stage type="delivery">(вскоча и оторопев.) </>
+<sp who=" Ivanushka "><speaker>Сын</speaker>
+ <stage type="delivery">(вскоча и оторопев). </>
 <p>
 Serviteur tr&egrave;s humble. <note resp="editor" >Ваш покорнейший слуга.
 </note>
 
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
  Теперь я с тобой, Иван, по-русски поговорить хочу.
 <sp who="Sovetnica"><speaker>Советница</speaker><stage type="delivery">( к
@@ -2694,25 +2723,25 @@ Serviteur tr&egrave;s humble. <note resp="editor" >Ваш покорнейший слуга.
 <p>
 Что мне сделалось, проклятая! А разве не ты, говоря с этой повесою, на все
 соглашалась?
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
  Да вы за что меня браните! Пусть изволит меня бранить батюшка.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Нет, друг мой. Я тебя поколотить сбираюсь.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Как! Вы его за то бить хотите, что он из политесу <note resp="editor" > Из
 вежливости. </note> стал передо мною на колени?
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Так, моя матушка. Видел я, видел. Поздравляю тебя, братец, переменив зятя
 на свояка.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 О создатель мой господи! Приходило ль на мое помышление видеть такое
 богомерзкое дело!
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
  Я, братец, тебе, помнишь, говорил: береги жену, не давай ей воли; вот что
 и вышло. Мы с тобою породнились, да не с той стороны. Ты обижен, дочь твоя
@@ -2720,12 +2749,12 @@ Serviteur tr&egrave;s humble. <note resp="editor" >Ваш покорнейший слуга.
  <stage type="delivery">(в сторону)</>
 <p>
 да и я не меньше.
-<sp who=" Ivanushka "><speaker>сын</speaker><stage type="delivery">(к
+<sp who=" Ivanushka "><speaker>Сын</speaker><stage type="delivery">(к
 советнику).</stage>
             <p>
  Не все ли равно, monsieur: вы хотите иметь меня своим свойственником: я
 охотно...
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
  О злодейка! ты лишила меня чести - моего последнего сокровища.
 <sp who="Brigadir"><speaker>Бригадир</speaker>
@@ -2733,28 +2762,28 @@ Serviteur tr&egrave;s humble. <note resp="editor" >Ваш покорнейший слуга.
 <p>
  Ежели у тебя, сват, только сокровища и оставалось, то не слишком же ты
 богат: не за чем и гнаться.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Рассуди ж, ты сам разумный человек, и это малое сокровище вверил я вот в
-какие руки .
-<stage type="delivery">(указывая на свою жену) </>
+какие руки
+<stage type="delivery">(указывая на свою жену). </>
 </div2>
 
 <div2 type="scene">
 <head>ЯВЛЕНИЕ  IV </head>
           <stage type="setting"> Те же, бригадирша, Софья,
 Добролюбов.</stage>
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Сокровище! Что за сокровище? Никак вы клад нашли! Дай-то господи!
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Клад не клад, а кой-что нашли, чего и не чаяли.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Что такое?
 <sp who="Brigadir"><speaker>Бригадир</speaker>
-<stage type="delivery" >(указывая на советника) </>
+<stage type="delivery" >(указывая на советника). </>
 <p>
   Вот он в прибылях.
 <sp who="Sovetnik"><speaker>Советник</speaker><stage type="delivery">(к
@@ -2762,178 +2791,178 @@ Serviteur tr&egrave;s humble. <note resp="editor" >Ваш покорнейший слуга.
             <p>
 Проклятая жена моя, не убояся бога, не устыдясь добрых людей, полюбила сына
 твоего, а моего нареченного зятя!
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Ха-ха-ха! Какая околесица, мой батюшка. У Иванушки есть невеста, так как
 ему полюбить ее! Это не водится.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Конечно, не водится; да хотя бы и водилось, то за такую безделицу, pour une
 bagatelle, <note resp="editor" > За пустяк. </note> честным людям сердиться
 невозможно. Между людьми, знающими свет, этому смеются.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Кабы кто-нибудь за моей старухой имел дурачество поволочиться, я бы не стал
 от него ждать дальних разговоров: отсочил бы я ему бока, где ни встретился.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Нет, государь мой; я знаю, что с сыном вашим делать. Он меня обесчестил; а
 сколько мне бесчестья положено по указам, об этом я ведаю.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 Как! Нам платить бесчестье! Напомни бога, за что?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
-За то, моя матушка, что мне всего дороже честь... Я все дележки,
+За то, моя матушка, что мне всего дороже честь... Я все денежки,
 определенные мне по чину, возьму с него и не уступлю ни полушки.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Слушай, брат: коли впрямь дойдет дело до платежа, то сыну моему должно
 будет платить одну половину, а другую пусть заплатит тебе жена твоя. Ведь
 они обесчестили тебя заодно.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
 И ведомо, грех пополам.
 <sp who="Sovetnica"><speaker>Советница</speaker><stage type="delivery">(к
 мужу).</stage>
             <p>
 Разве вы не хотите иметь его своим зятем?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Загради уста твои, проклятая!
-<sp who="Sofja"><speaker>Софья</speaker>
+<sp who="Sofja"><speaker>Софья.</speaker>
             <p>
 Батюшка, после такого поступка, который сделал мой жених, позвольте мне
 уверить вас, что я в жизнь мою за него не выйду.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Я на это согласен.
 <sp who="Dobroljubov"><speaker>Добролюбов</speaker><stage
 type="delivery">(к Софье).</stage>
             <p>
  Надежда мне льстит от часу более.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 И я не хочу того, чтоб сын мой имел такую целомудренную тещу; а с тобой,
 Иван, я разделаюсь вот чем.
-<stage type="delivery">(указывая палкою) </>
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<stage type="delivery">(указывая палкою). </>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
  Так, государь мой, ты палкой, а я монетою.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Батюшка, вы не слушайте его: он недостоин иметь ее женою.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Изменник! варвар! тиран!
 <sp who="Sovetnik"><speaker>Советник</speaker>
             <p>
-<stage type="delivery">(оторопев) </>
+<stage type="delivery">(оторопев). </>
  Что, что такое?
-<sp who=" Ivanushka "><speaker>сын</speaker><stage type="delivery">(к
+<sp who=" Ivanushka "><speaker>Сын</speaker><stage type="delivery">(к
 советнику).</stage>
             <p>
 Разве не я видел, как вы становились на колени перед матушкою?
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Кто на колени? Ба! Перед кем?
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Он перед моей матушкой.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
  Слышишь ли, друг мой? А? Что это?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Не смею воззрети на небо.
 <sp who="Brigadir"><speaker>Бригадир</speaker><stage type="delivery">( к
 бригадирше).</stage>
             <p>
  Он за тобою волочился, а ты мне этого, дурища, и не сказала!
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Батюшка мой, Игнатий Андреевич, как перед богом сказать, я сама об этом не
 ведала; мне после сказали добрые люди.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Брат, с Иваном-то я разделаюсь; а тебе, я вижу, и на меня тоже челобитную
 подавать приходит, только не в бесчестье, а в увечье.
 <sp who="Sovetnik"><speaker>Советник</speaker>
-<stage type="delivery">( иструсясь) </>
+<stage type="delivery">( иструсясь). </>
 <p>
  Ваше высокородие! И господь кающегося приемлет. Прости меня, согреших пред
 тобою.
-<sp who=" Ivanushka "><speaker>сын</speaker>
+<sp who=" Ivanushka "><speaker>Сын.</speaker>
             <p>
 Mon p&egrave;re! Из благопристойности...
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Не учи ты меня, Иван, не забудь того, что я тебя бить сбираюсь.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
  Что ж ты и вправду затеял?
-<stage type="delivery" >( Приступя к нему)</>
+<stage type="delivery" >( Приступя к нему.)</>
  Разве не ты объявлял мне здесь, на этом месте, любовь свою?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Как? Что такое, государь мой?..
 <sp who="Brigadir"><speaker>Бригадир</speaker>
-<stage type="delivery" >(тише) </>
+<stage type="delivery" >(тише). </>
 <p>
  Чего изволишь?
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 О ком она сказывает?
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Обо мне.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Так ты, государь мой, приехал в дом мой затем разве, чтоб искушать жену
 мою?
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Коли так, то я и назад поеду.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Не мешкав ни часа.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Ни минуты. Видно, что я к честным и заслуженным людям в руки попался. Иван,
 вели скорей подать коляску. Жена! Сей минуты выедем вон из такого дому, где
 я, честный человек, чуть было не сделался бездельником.
-<sp who="Brigadirsha"><speaker>Бригадирша</speaker>
+<sp who="Brigadirsha"><speaker>Бригадирша.</speaker>
             <p>
  Батюшка мой, дай мне хоть прибрать кое-что.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 В чем стоишь, в том со двора долой!
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 А что останется, то мое.
-<sp who=" Ivanushka "><speaker>сын</speaker
-<stage type="delivery" >(к советнице кинувшись) </>
+<sp who=" Ivanushka "><speaker>Сын</speaker
+<stage type="delivery" >(к советнице кинувшись). </>
 <p>
  Прости, la moiti&eacute; de mon &acirc;mе! <note resp="editor" > Половина
 души моей. </note>
 <sp who="Sovetnica"><speaker>Советница</speaker>
-<stage type="delivery" >(кинувшись к сыну) </>
+<stage type="delivery" >(кинувшись к сыну). </>
 <p>
  Adieu, <note resp="editor" >Прощай. </note> полдуши моей!
-Бригадир и советник кидаются разнимать их.
-<sp who="Brigadir"><speaker>Бригадир</speaker>
+<stage type="delivery">Бригадир и советник кидаются разнимать их</>.
+<sp who="Brigadir"><speaker>Бригадир.</speaker>
             <p>
 Куды, собака!
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Куды, проклятая! О господи!
 <sp who="Brigadir"><speaker>Бригадир</speaker>
-<stage type="delivery" >(передразнивая его) </>
+<stage type="delivery" >(передразнивая его).</>
 <p>
  О господи! Нет, брат, я вижу по этому, что у кого чаще всех господь на
 языке, у того черт на сердце... Вон, все мои!
 <sp who="Sovetnik"><speaker>Советник</speaker>
-<stage type="delivery" >(вслед за бригадиршей, всплеснув руками) </>
+<stage type="delivery" >(вслед за бригадиршей, всплеснув руками). </>
 <p>
  Прости, Акулина Тимофеевна!
 </div2>
@@ -2942,45 +2971,45 @@ Mon p&egrave;re! Из благопристойности...
 <head>ЯВЛЕНИЕ  V </head>
           <stage type="setting"> Советник, советница, Софья,
 Добролюбов.</stage>
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 О господи! Наказуешь нас по делам нашим. А ты, Софьюшка, за что ты лишилась
 жениха своего?
-<sp who="Dobroljubov"><speaker>Добролюбов</speaker>
+<sp who="Dobroljubov"><speaker>Добролюбов.</speaker>
             <p>
 Если ваша воля согласится с желанием
 нашим, то я, став женихом ее, почту себя за преблагополучного человека.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Как? Ты, получив уже две тысячи душ, не переменяешь своего намерения?
-<sp who="Dobroljubov"><speaker>Добролюбов</speaker>
+<sp who="Dobroljubov"><speaker>Добролюбов.</speaker>
             <p>
 Меня ничто на свете не привлечет переменить его.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 И ты, Софьюшка, идти за него согласна?
-<sp who="Sofja"><speaker>Софья</speaker>
+<sp who="Sofja"><speaker>Софья.</speaker>
             <p>
 Если ваше и матушкино желание не препятствуют тому, то я с радостию хочу
 быть его женою.
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
 Я вашему счастию никогда не препятствовала.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Ежели так, то будьте вы жених и невеста.
 <sp who="Dobroljubov"><speaker>Добролюбов</speaker><stage
 type="delivery">( к Софье).</stage>
             <p>
  Желание наше совершается; сколь много я благополучен!
-<sp who="Sofja"><speaker>Софья</speaker>
+<sp who="Sofja"><speaker>Софья.</speaker>
             <p>
  Я одним тобою могу на свете быть счастлива.
-<sp who="Sovetnik"><speaker>Советник</speaker>
+<sp who="Sovetnik"><speaker>Советник.</speaker>
             <p>
 Будьте вы благополучны, а я, за все мои грехи, довольно господом наказан:
 вот моя геенна!
-<sp who="Sovetnica"><speaker>Советница</speaker>
+<sp who="Sovetnica"><speaker>Советница.</speaker>
             <p>
  Я желаю вам счастливой фортуны, а я до смерти страдать осуждена: вот мой
 тартар!
@@ -2996,3 +3025,5 @@ type="delivery">( к Софье).</stage>
 </body>
 </text>
 </tei.2>
+
+

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -87,7 +92,7 @@
 <lg1 type='stanza'>
       <l>Товарищ давний, вновь сосед,
 <l>Приятный, острый <name type=" person" reg="Храповицкий
-А.В.">Храповицкой</name>!
+А. В.">Храповицкой</name>!
       <l>Ты умный мне даешь совет,
       <l>Чтобы владычице киргизской
            <l><p> Я песни пел
@@ -105,7 +110,8 @@
       <l>Но ежели наложен долг
       <l>Мне от судеб и вышня трона,
       <l>Чтоб не лучистый милый бог
-<l>С высот лазурна <name type="mythologic" reg="Геликон">Геликона</name>
+<l>С высот лазурна <name type="mythologicPlace"
+reg="Геликон">Геликона</name>
 <l><p> Меня внушал,
 <l><p> Но я экстракты б сочинял,
 
@@ -120,7 +126,8 @@
 <lg1 type='stanza'>
 <l>То как <name type=" person" reg="Якоби И. В.">Я<кобия></name> оставить,
       <l>Которого весь мир теснит?
-      <l>Как <name type=" person" reg="Логинов И. В.">Л<огинова></name> дать
+      <l>Как <name type=" person" reg="Логинов И. В.">Л<огинова></name>
+дать
 оправить,
       <l>Который золотом гремит?
            <l><p> Богов певец
@@ -136,6 +143,7 @@
     </body>
   </text>
 </tei.2>
+
 
 
 

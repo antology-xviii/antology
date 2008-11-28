@@ -1,7 +1,10 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -50,7 +53,7 @@
                 <title> К лире </title>
               </titleStmt>
               <publicationStmt>
-                <publisher><Анакреонтические песни> Державина.
+                <publisher>Анакреонтические песни Державина.
 СПб.</publisher>
                 <date>1804</date>
               </publicationStmt>
@@ -72,11 +75,11 @@
   <text>
     <span from='whole' type='theme' value='творчество'>
     <body id='whole' ><div0 met='X4' rhyme=' AbAb...'>
-<l>Петь <name type="person" reg="П. А. Румянцев"> Румянцева </name>
+<l>Петь <name type="person" reg="П. А. Румянцев"> Румянцова </name>
 сбирался,
 <l>Петь <name type="person" reg="А. В. Суворов"> Суворова</name> хотел;
 <l>Гром от лиры раздавался,
-<l>И со струн огонь летел.
+<l>И со струн огонь летел;
 <l>Но завистливой судьбою
 <l><name type=" person" reg="П. А. Румянцев">Задунайский </name> кончил
 век;
@@ -88,9 +91,10 @@
 <l>Мир без нас не позабудет
 <l>Их бессмертные дела.
 <l>Так не надо звучных строев,
-<l>Переладим струны вновь:
+<l>Переладим струны вновь;
 <l>Петь откажемся героев,
 <l>А начнем мы петь любовь.
     </body>
   </text>
 </tei.2>
+

@@ -1,23 +1,24 @@
-<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
-]>
 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+   <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+   <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+   <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+   %ISOnum;
+   %ISOpub;
+   %ISOlat1;
+   %ISOcyr1;
+   <!ENTITY % TEI.prose "INCLUDE" >
+   <!ENTITY % TEI.names.dates "INCLUDE" >
+   <!ENTITY % TEI.analysis "INCLUDE">
+   <!ENTITY % TEI.linking "INCLUDE">
+   <!ENTITY Encoding SYSTEM "encoding.tei">
+   <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
 
 <tei.2>
   <teiHeader>
@@ -35,7 +36,7 @@
       </titleStmt>
         <publicationStmt>
         <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p><p>&copy; 2007 ИФИ</availability>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
         <title>Электронная антология &quot;Русская литература XVIII
@@ -81,7 +82,7 @@
       <span from='whole' type='theme' value='церковный праздник'>
 <body id="whole">
 
-<dateline><name type="place">Монпелье, </name> <date>1/12 декабря
+<dateline><name type="place">Монпелье</name>, <dateline><date>1/12 декабря
 1777. </date></dateline>
 <p>
 Мы изрядно поживаем, и жена моя, кажется, в гораздо лучшем состоянии,
@@ -114,17 +115,18 @@ accompagn&eacute; de sa livr&eacute;e</q>. <note resp="editor"> Сударь, это
 благоговением шапку с архиерея, складывал ее чиннехонько вшестеро и клал в
 карман свой; а когда шапку надлежало надевать, то, вынув ее из кармана и
 расправя, надевал ее опять на архиерея с благоговением. Бог знает, что это
-за обедня, которую служили; и толку не нашел. Проповедь сказывал другой
+за обедня, которую служили; я толку не нашел. Проповедь сказывал другой
 архиерей. На половине вдруг остановился, и весь народ начал разговаривать
 друг с другом. Я опросил, что это значит? И мне оказали в ответ, что
 архиерей устал и отдыхает, а как отдохнет, то достальное доскажет. И
 действительно, чрез полчетверти часа опять замолчали и он проповедь стал
 сказывать. После обеда пошла процессия по всему городу. Сперва шли монахи
 разных орденов, по два в ряд. Перед каждым орденом несли крест, а потом
-певчие шли и пели. За ними архиерей, а потом под балдахином нес тело
-Христово епископ здешний, а перед телом Христовым шли барабанщики и били в
-барабаны. Затем шли попы, а за попами граф <name type="character" reg="
-Перигор"> Перигор</name>, бароны, все дворянство
+певчие шли и пели. За ними архиерей, а потом под балдахином нес тело<name
+type="biblical" reg="Иисус Христос">Христово</name> епископ здешний, а
+перед телом <name type="biblical" reg="Иисус Христос">Христовым</name> шли
+барабанщики и били в
+барабаны. Затем шли попы, а за попами граф Перигор, бароны, все дворянство
 и народ. Я с женою смотрел сию церемонию из окошка у маркизы de
 Fraigeville. Церемония воротилась в церковь, и потом все разошлись. Правду
 сказать, что для чужестранцев весьма любопытно сие торжество и подает повод
@@ -133,4 +135,5 @@ Fraigeville. Церемония воротилась в церковь, и потом все разошлись. Правду
 </body>
 </text>
 </tei.2>
+
 

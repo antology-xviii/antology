@@ -1,7 +1,10 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -74,12 +77,13 @@
 <span from='whole' type='theme' value='птица'>
     <body id='whole' ><div0 met='Я4' rhyme='AbAb.'>
 <l>Поймали птичку голосисту
-<l>И ну сжимать ее рукой.
-<l>Пищит бедняжка вместо свисту,
-<l>А ей твердят: Пой, птичка, пой!
+<l>И ну сжимать ее рукой;
+<l>Пищит бедняжка вместо свисту -
+<l>А ей твердят: <q>Пой, птичка, пой! </q>
     </body>
   </text>
 </tei.2>
+
 
 
 

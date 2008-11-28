@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -79,7 +84,7 @@
       <span from='whole' type='theme' value='политика'>
 <body id="whole">
 
-<dateline><name type="place">Монпелье, </name> <date>24 декабря 1777 (4
+<dateline><name type="place">Монпелье</name>, <date>24 декабря 1777 (4
 января 1778). </date></dateline>
 <p>
 Я имел честь получить милостивое письмо ваше от 16 октября, за которое
@@ -126,7 +131,7 @@
 <p>Вашему сиятельству, без сомнения, известны уже худые успехи англичан
 против американцев. Вчера пронесся слух, будто находящийся от стороны сих
 последних в <name type=" place" reg="Париж">Париже</name> поверенный, <name
-type=" person " reg="Франклин Вениамин">Франклин</name>, признан от
+type=" person " reg="Франклин В.">Франклин</name>, признан от
 здешнего двора послом от американской республики. Если это правда, то
 война, кажется, неизбежна; но должно ожидать сему верного подтверждения, а
 между тем, все англичане поднялись вдруг отсюда и спешат выехать. Все то,
@@ -137,4 +142,5 @@ reg="Тулон">Тулоне</name> по воскресеньям и праздникам работают, равно как
 </body>
 </text>
 </tei.2>
+
 

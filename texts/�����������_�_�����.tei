@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -43,7 +48,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
+            <title>Г. Р. Державин. Сочинения</title>
             <editor> В. П. Степанов, Г. П. Макогоненко </editor>
           </titleStmt>
           <publicationStmt>
@@ -57,7 +62,7 @@
                 <title> Приглашение к обеду </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Сочинения Державина, ч.1. М. </publisher>
+                <publisher> Сочинения Державина, ч.1. М.</publisher>
                 <date>1798</date>
               </publicationStmt>
             </biblFull>
@@ -76,9 +81,9 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <span from='whole' type='theme' value=' пир '>
+    <span from='whole' type='theme' value='пир'>
 <span from='whole' type='theme' value='наслаждение жизнью'>
-<span from='whole' type="addressee" value=" Безбородко А.А.">
+<span from='whole' type="addressee" value="Безбородко А. А.">
 <body id='whole'><div0 met='Я4' rhyme="AbAbCCdEEd">
 
 <lg1 type='stanza'>
@@ -152,14 +157,15 @@
 <l> Из званых милых мне гостей,
 <l> Чертоги предпочтя златые
 <l> И яствы сахарны царей,
-<l> Ко мне не срядитесь откушать,-
+<l> Ко мне не срядитесь откушать, -
 <l> Извольте мой вы толк прослушать:
 <l> Блаженство не в лучах порфир,
 <l> Не в вкусе яств, не в неге слуха,
-<l> Но в здравьи и спокойстве духа,-
+<l> Но в здравьи и спокойстве духа, -
 <l> Умеренность есть лучший пир.
     </body>
   </text>
 </tei.2>
+
 
 

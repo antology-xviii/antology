@@ -1,28 +1,34 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> На смерть графини <name type="person" reg="М.А.Румянцова">
+        <title> На смерть графини <name type="person" reg="Румянцова М.
+А.">
 Румянцовой </name> </title>
         <author>
           <persName>
@@ -55,10 +61,11 @@
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title> На смерть графини Румянцовой </title>
+                <title>Ода на смерть графини <name type="person"
+reg="Румянцова М. А.">Румянцовой</name> к Н***</title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Московский журнал </publisher>
+                <publisher> Московский журнал. N 3.</publisher>
                 <date>1791</date>
               </publicationStmt>
             </biblFull>
@@ -80,7 +87,7 @@
     <span from='whole' type='theme' value='смерть'>
 <span from='whole' type='theme' value='терпение'>
 <span from='whole' type='theme' value='творчество'>
-<span from='whole' type="addressee" value="Е. Р. Дашковой">
+<span from='whole' type="addressee" value="Дашкова Е. Р.">
     <body id='whole'><div0 met='Я4' rhyme="AbAbCdCd">
 <lg1 type="stanza">
 <l>Не беспрестанно дождь стремится
@@ -94,10 +101,10 @@
 
 <lg1 type="stanza">
 <l>Подобно и тебе крушиться
-<l>Не должно, <name type="person" reg="Е.Р.Дашкова"> Дашкова</name>,
+<l>Не должно, <name type="person" reg="Дашкова Е. Р."> Дашкова</name>,
 всегда,
 <l>Готово ль солнце в бездну скрыться
-<l>Иль паки утру быть чреда; .
+<l>Иль паки утру быть чреда;
 <l>Ты жизнь свою в тоске проводишь,
 <l>По английским твоим коврам,
 <l>Уединясь, в смущеньи ходишь
@@ -111,11 +118,12 @@
 <l>И мрачной тени под покровом,
 <l>Во дремлющих своих ветвях,
 <l>Сокрыл недавно в гробе новом
-<l> <name type="person" reg="М.А.Румянцова"> Румянцовой</name> почтенный
+<l> <name type="person" reg="Румянцова М. А."> Румянцовой</name> почтенный
 прах.
 
 <lg1 type="stanza">
-<l> <name type="person" reg="М.А.Румянцова"> Румянцовой</name>! - Она блистала
+<l> <name type="person" reg="Румянцова М. А."> Румянцовой</name>! - Она
+блистала
 <l>Умом, породой, красотой
 <l>И в старости любовь снискала
 <l>У всех любезною душой;
@@ -131,7 +139,7 @@
 <l>Ни для кого, ни для чего;
 <l>А доброе и злое купно
 <l>Собою испытала всё.
-<l>И как вертится всеминутио
+<l>И как вертится всеминутно
 <l>Людской фортуны колесо.
 
 <lg1 type="stanza">
@@ -205,9 +213,10 @@
 <l>Не должно ли и нам терпеть?
 
 <lg1 type="stanza">
-<l>Терпи! - <name type="person" > Самсон </name> сотрет льву зубы,
-<l>А <name type="person"> Навин</name> потемнит луну;
-<l><name type="person" reg="П.А.Румянцев">  Румянцев</name>  молньи  дхнет
+<l>Терпи! - <name type="biblical" > Самсон </name> сотрет льву зубы,
+<l>А <name type="biblical" reg="Иисус Навин"> Навин</name> потемнит луну;
+<l><name type="person" reg="Румянцев П. А.">  Румянцев</name>  молньи
+дхнет
 сугубы,
 <l><name type="person" reg="Екатерина I"> Екатерина </name>- тишину;
 <l>Меня ж ничто вредить не может,

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -44,7 +49,7 @@
         <biblFull>
           <titleStmt>
             <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <editor> В. П. Степанов, Г. П. Макогоненко</editor>
           </titleStmt>
           <publicationStmt>
             <publisher> Художественная литература</publisher>
@@ -57,7 +62,7 @@
                 <title> Ода к соседу моему господину N </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Санкт-Петербургский вестник N8 </publisher>
+                <publisher> Санкт-Петербургский вестник N8</publisher>
                 <date>1780</date>
               </publicationStmt>
             </biblFull>
@@ -76,13 +81,14 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <span from='whole' type="addressee" value=" Голиков М.С. ">
+    <span from='whole' type="addressee" value="Голиков М. С.">
 <span from='whole' type='theme' value='пир'>
 <span from='whole' type='theme' value=' мимолетность жизни '>
 <body id='whole'><div0 met='Я4' rhyme="AbAbCCdEEd">
 <lg1 type='stanza'>
       <l> Кого роскошными пирами
-      <l> На  влажных  <name  type="place"  reg="Нева"  ><name  type="place"
+      <l> На  влажных  <name  type="place"  reg="Нева"  ><name
+type="place"
 reg="острова">Невских островах</name></name>,
       <l> Между тенистыми древами,
       <l> На мураве и на цветах,
@@ -104,7 +110,7 @@ reg="острова">Невских островах</name></name>,
       <l> И пиво русское с британским,
       <l> И мозель с зельцерской водой.
 <lg1 type='stanza'>
-      <l> В вертепе мраморном, прохладном
+      <l> В вертепе мраморном, прохладном,
       <l> В котором льется водоскат,
       <l> На ложе роз благоуханном,
       <l> Средь лени, неги и отрад,
@@ -121,7 +127,7 @@ reg="острова">Невских островах</name></name>,
       <l> Блаженства вкруг тебя цветы,
       <l> Что парка дней твоих не косит,
       <l> Что откуп вновь тебе приносит
-      <l> Сибирски горы серебра
+      <l> <name type="place">Сибирски горы</name> серебра
       <l> И дождь златый к тебе лиется.
       <l> Блажен, кто поутру проснется
       <l> Так счастливым, как был вчера!
@@ -134,7 +140,7 @@ reg="острова">Невских островах</name></name>,
       <l> Горам подобны гонят воды
       <l> И с пеною песок мутят.
 <l> <name type="place" reg="Санкт-Петербург">Петрополь</name> сосны
-осеняли,-
+осеняли, -
       <l> Но вихрем пораженны пали,
       <l> Теперь корнями вверх лежат.
 <lg1 type='stanza'>

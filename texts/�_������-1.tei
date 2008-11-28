@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 
@@ -140,6 +145,7 @@ type="place" reg=" Борисово "> Борисове </name>, в карете, а поутру 24-го
 читала тогда книгу и вдруг, захватя глаз рукою, вскричала без памяти. Я
 обмер, испугался, услышав, что она кричит: <q>ах, глаз! </q> Боже мой!
 Представь себе, каково мне было слышать ее восклицания и притом и видеть из-
+
 под руки текущую кровь. Не могу описать, что я чувствовал, а помню только,
 что я кричал ей: <q>Матушка, взгляни!</q> Наконец она взглянула, и,
 благодаря бога, мы узнали, что озорочек не поврежден, а коснулось стекло
@@ -157,7 +163,7 @@ reg=" Варшава">Варшавы </name>, стекол уже не поднимали. 27-го обедали в
 достойно, какие плуты, из каких плутов ничего не изгоняя, обогащаются и
 купаются в душах таких простаков, каковы поляки. Словом, суеверие здесь
 дошло до невероятной степени и в самих господах. Ночевать приехали мы в
-город <name type="place" reg=" Мир "> Мир </name>. Сей городишко набит
+город <name type="place" reg="Мир"> Мир </name>. Сей городишко набит
 жидами. Они и попы завладели всею <name type="place" reg=" Польша"> Польшею
 </name>. 28-го приехали обедать в местечко <name type="place" reg="
 Полонечно "> Полонечно </name>, принадлежащее <name type=" person"
@@ -173,6 +179,7 @@ type="place" reg=" Слоним "> Слоним </name>, резиденцию гетмана литовского.
 Ночевали также в карете, в деревне <name type="place" reg=" Зельви ">
 Зельви </name>. Весь день ехали под дождем в лесу, не находя убежища, кроме
 жидовских корчем, возмущающих человеческое обоняние нестерпимым образом. 31-
+
 го поутру проехали местечко<name type="place" reg=" Избелин "> Избелин
 </name> и другое, называемое <name type="place" reg=" Инстигов "> Инстигов
 </name>. Ни то, ни другое не заслуживают внимания. Снаружи кажутся
@@ -194,6 +201,7 @@ type="place" reg=" Варшава "> Варшаву </name>, чтоб изготовить для нас
 квартиру. 4-го обедали в местечке <name type="place" reg=" Маковцы ">
 Маковцы </name>, а ночевали в местечке <name type="place" reg="
 Станиславово "> Станиславове </name>. Оба сии местечка я даром не возьму. 5-
+
 го обедали в местечке <name type="place" reg=" Окунево "> Окуневе </name>,
 а ввечеру приехали в <name type="place" reg=" Варшава"> Варшаву </name>,
 которая с <name type="place" reg=" Москва "> Москвою </name> невероятное
@@ -246,6 +254,7 @@ resp="editor"> Внимания (франц.).</note>,  которую б он хотел мне сделать.
 </body>
 </text>
 </tei.2>
+
 
 
 

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -43,8 +48,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor> В. П. Степанов, Г. П. Макогоненко</editor>
           </titleStmt>
           <publicationStmt>
             <publisher> Художественная литература</publisher>
@@ -58,7 +63,7 @@
 к***</title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Санкт-Петербургский вестник, N9 </publisher>
+                <publisher> Санкт-Петербургский вестник, N9</publisher>
                 <date>1779</date>
               </publicationStmt>
             </biblFull>
@@ -79,7 +84,7 @@
   <text>
     <span from='whole' type='theme' value='смерть'>
 <span from='whole' type='theme' value='быстротечность жизни'>
-<span from='whole' type="addressee" value=" Перфильев С.В. ">
+<span from='whole' type="addressee" value="Перфильев С. В.">
     <body id='whole'><div0 met='Я4' rhyme="aBaBcDDc">
 <lg1 type='stanza'>
       <l> Глагол времен! металла звон!
@@ -119,14 +124,14 @@
       <l> Слетают к гордым вышинам.
 <lg1 type='stanza'>
       <l> Сын роскоши, прохлад и нег,
-<l> Куда, <name type="person" reg="Мещерский А.И." >Мещерский</name>! ты
+<l> Куда, <name type="person" reg="Мещерский А. И." >Мещерский</name>! ты
 сокрылся?
       <l> Оставил ты сей жизни брег,
       <l> К брегам ты мертвых удалился;
       <l> Здесь персть твоя, а духа нет.
-      <l> Где ж он? - Он там.- Где там? - Не знаем.
+      <l> Где ж он? - Он там. - Где там? - Не знаем.
       <l> Мы только плачем и взываем:
-      <l> <q>О, горе нам, рожденным в свет! </q>
+      <l> <q>О, горе нам, рожденным в свет!</q>
 <lg1 type='stanza'>
       <l> Утехи, радость и любовь
       <l> Где купно с здравием блистали,
@@ -174,8 +179,8 @@
       <l> Я в дверях вечности стою.
 <lg1 type='stanza'>
       <l> Сей день иль завтра умереть,
-<l> <name type="person" reg=" Перфильев С.В." >Перфильев</name>! должно нам
-конечно:
+<l> <name type="person" reg="Перфильев С. В." >Перфильев</name>!
+должно нам конечно:
       <l> Почто ж терзаться и скорбеть,
       <l> Что смертный друг твой жил не вечно?
       <l> Жизнь есть небес мгновенный дар;
@@ -185,4 +190,5 @@
 </body>
   </text>
 </tei.2>
+
 

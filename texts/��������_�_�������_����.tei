@@ -1,28 +1,34 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Прогулка в Сарском Селе </title>
+        <title> Прогулка в <name type ="place" reg="Царское Село">Сарском
+Селе</name></title>
         <author>
           <persName>
             <forename>Гавриил</forename>
@@ -54,10 +60,11 @@
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title> Прогулка в Сарском Селе </title>
+                <title> Прогулка в <name type="place" reg="Царское
+Село">Сарском Селе</name></title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Московский журнал </publisher>
+                <publisher> Московский журнал. N 8.</publisher>
                 <date>1791</date>
               </publicationStmt>
             </biblFull>
@@ -151,9 +158,10 @@
 <l>К любви всем тварям в дух.
 <l>И ты, сидя при розе,
 <l>Так, дней весенних сын,
-<l>Пой, <name type="person" reg="Н.М.Карамзин">Карамзин</name>! - И в
+<l>Пой, <name type="person" reg="Карамзин Н. М.">Карамзин</name>! - И в
 прозе
 <l>Глас слышен соловьин.
 </body>
   </text>
 </tei.2>
+

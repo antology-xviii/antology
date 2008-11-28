@@ -1,7 +1,10 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -79,7 +82,7 @@
 <l>Не мрамор <name type="place" reg="Тифда">...</name>Тифды и <name
 type="place" reg="Уральские горы"> Рифея </name>,
 <l>Не Невски зеркала, фарфор,
-<l>Не шелк <name type="place" reg="Баку"> Баки</name>, не глазумея,
+<l>Не шелк <name type="place" reg="Баку"> Баки</name>, не глазумея
 <l>Благоуханные пары
 <l>Вельможей делают известность,
 <l>Но некий твердый дух и честность,
@@ -131,7 +134,7 @@ type="place" reg="Уральские горы"> Рифея </name>,
 <l>И царь и раб в него придет.
 <l>К чему ж с столь рвеньем ты безмерным
 <l>Свой постоялый строишь двор,
-<l>И ах! сокровищи Тавриды
+<l>И ах! сокровищи <name type="place" reg="Таврида"> Тавриды</name>
 <l>На барках свозишь в пирамиды
 <l>Средь полицейских ссор?
 
@@ -157,4 +160,5 @@ type="place" reg="Уральские горы"> Рифея </name>,
     </body>
   </text>
 </tei.2>
+
 

@@ -1,7 +1,10 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -91,7 +94,7 @@
             <l>И круглолицая, своим
             <l>Взмахнув челом, там у потока,
             <l>А белокурая живым
-            <l>Нам Лиза, как зефир порханьем
+            <l>Нам Лиза, как <name type="mythologic">зефир</name> порханьем
             <l>Пропляшут вместе козачка,
             <l>И нектар с пламенным сверканьем
             <l>Их розова подаст рука.
@@ -108,5 +111,6 @@
     </body>
   </text>
 </tei.2>
+
 
 

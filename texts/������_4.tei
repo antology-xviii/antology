@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -79,7 +84,7 @@
 
 <body id="whole">
 
-<dateline><name type="place">Монпелье, </name> <date>25 генв. (5 февр.)
+<dateline><name type="place">Монпелье</name>, <date>25 генв. (5 февр.)
 1778</date></dateline>
 <p>
 Ведая, сколь милостивое участие ваше сиятельство приемлете в моем
@@ -105,12 +110,12 @@
 приему последнего мучительного способа масло произвело все желаемое
 действие и выгнало червя; по рассмотрению его в микроскоп нашли не только
 его голову, но и приметили образ его репродукции. Здешний медицинский
-факультет считает сие новым откровением, и славный натуралист господин
-<name type="character" reg="Гуан">Гуан</name> сочиняет диссертацию с
+факультет считает сие новым откровением, и славный натуралист господин Гуан
+сочиняет диссертацию с
 пространным описанием сих примечаний. Я весьма рад, что выгнанный червь
 занимает такие умные головы, но гораздо больше рад тому, что он выгнан.
-<p>Отдавая справедливость искусству доктора <name type="character"
-reg="Деламюр">г. Деламюра</name>, который лечил жену мою с крайнею
+<p>Отдавая справедливость искусству доктора г. Деламюра, который лечил жену
+мою с крайнею
 осторожностию и рачением, должен я признаться, что и климат способствовал
 много. Но все время ничего похожего на зиму мы не видали, кроме нескольких
 дождливых дней. Гульбище всегда было наполнено людьми. Прошлого 15/26
@@ -130,5 +135,6 @@ reg="Марсель">Марсель</name> и <name type="place" reg="Тулон">Тулон</name>.
 </body>
 </text>
 </tei.2>
+
 
 

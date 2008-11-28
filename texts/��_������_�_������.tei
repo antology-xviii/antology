@@ -1,8 +1,12 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-   <!NOTATION JPEG PUBLIC   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN' >
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+   <!NOTATION JPEG PUBLIC   'ISO DIS 10918//NOTATION JPEG Graphics
+Format//EN' >
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -76,10 +80,10 @@
   <text>
     <span from='whole' type='theme' value='слава'>
 <span from='whole' type='theme' value='военные победы'>
-<span from='whole' type='theme' value='А. В. Суворов'>
+<span from='whole' type='theme' value='Суворов А. В.'>
 <span from='whole' type="addressee" value="А. В. Суворову">
-    <figure entity="fig1"><head>Д. Г. Левицкий           
-	Портрет Г. Р. Державина</figure>
+    <figure entity="fig1"><head>Д. Г. Левицкий
+      Портрет Г. Р. Державина</figure>
     <body id='whole' ><div0 met='Я4' rhyme='AbAbCdCd '>
 <lg1 type='stanza'>
 <l>Ударь во сребряный, священный,
@@ -120,7 +124,7 @@
 <l>Звезда, прешедша мира тропы,
 <l>Которой след - огня черты,
 <l>Меч Павлов, щит царей Европы,
-<l>Князь славы!" - Се, <name type="person" reg="А. В. Суворов">
+<l>Князь славы!" - Се, <name type="person" reg="Суворов А. В.">
 Суворов</name>, ты!
 
 <lg1 type='stanza'>
@@ -135,5 +139,6 @@
     </body>
   </text>
 </tei.2>
+
 
 

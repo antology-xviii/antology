@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -57,7 +62,7 @@
                 <title> Урна </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Сочинения Державина, ч.1-4. СПб.</publisher>
+                <publisher> Сочинения Державина. СПб. Ч. 1-4.</publisher>
                 <date>1808</date>
               </publicationStmt>
             </biblFull>
@@ -76,7 +81,7 @@
     </profileDesc>
   </teiHeader>
   <text>
-<span from='whole' type="addressee" value="И.И.Шувалову">
+<span from='whole' type="addressee" value="Шувалов И. И.">
 <span from='whole' type='theme' value='смерть'>
 <span from='whole' type='theme' value='просвещение'>
 <span from='whole' type='theme' value='искусство'>
@@ -95,12 +100,14 @@
 <l>Над кем сей мавзолей священный
 <l>Вкруг отеняет кипарис
 <l>И лира гласы шлет плачевны?
-<l>Кто,   <name   type="person">Меценат</name>   иль   <name   type="person"
+<l>Кто,   <name   type="person">Меценат</name>   иль   <name
+type="person"
 reg="Лоренцо Медичи">Медицис</name>,
 <l>Тут орошается слезами?
 <l>Чьи бледные лица черты
 <l>Луной блистают меж ветвями?
-<l>Кто зрится мне? - <name type="person" reg="Шувалов  И.И.">Шувалов</name>,
+<l>Кто зрится мне? - <name type="person" reg="Шувалов И.
+И.">Шувалов</name>,
 ты!
 
 <lg1 type="stanza">
@@ -108,7 +115,7 @@ reg="Лоренцо Медичи">Медицис</name>,
 <l>Без благодарной песни я?
 <l>Тебя ли мне, тебя ль не славить?
 <l>Я твой питомец и - судья.
-<l>О нет! уж муза возлетает
+<l>О нет! уж <name type="mythologic">муза</name> возлетает
 <l>Моя ко облакам златым,
 <l>Вслед выспренних певцов дерзает
 <l>Воспеть тебе надгробный гимн.
@@ -161,10 +168,10 @@ reg="Лоренцо Медичи">Медицис</name>,
 <l>Ты просвещенья был любитель -
 <l>И божества сияй в лучах.
 <l>Ты поощрял петь славу россов,
-<l>Ты   чтил   <name   type="person"   reg="Петр   I">Петра</name>,    <name
+<l>Ты   чтил   <name   type="person"   reg="Петр   I">Петра</name>, <name
 type="person" reg="Елизавета Петровна">Елисавет</name> -
-<l>Внимай,     как     звучно     <name     type="person"     reg="Ломоносов
-М.В.">Ломоносов</name>
+<l>Внимай,     как     звучно     <name     type="person"
+reg="Ломоносов М. В.">Ломоносов</name>
 <l>Здесь славу вечную поет!
 </lg>
 </q>
@@ -211,7 +218,7 @@ type="person" reg="Елизавета Петровна">Елисавет</name> -
 
 <lg1 type="stanza">
 <l>Стой, урна, вечно невредима,
-<l><name type="person" reg="Шувалов И.И.">Шувалова</name> являя вид!
+<l><name type="person" reg="Шувалов И. И.">Шувалова</name> являя вид!
 <l>Будь лирами пиитов чтима,
 <l>В тебе предстатель их сокрыт.
 <l>Внуши, тверди его доброты
@@ -221,3 +228,4 @@ type="person" reg="Елизавета Петровна">Елисавет</name> -
 </body>
   </text>
 </tei.2>
+

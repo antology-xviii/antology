@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -57,7 +62,7 @@
                 <title> Царь-девица</title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Сочинений Державина, ч. 5. СПб.</publisher>
+                <publisher> Сочинения Державина. СПб. Ч. 5.</publisher>
                 <date>1816</date>
               </publicationStmt>
             </biblFull>
@@ -80,8 +85,8 @@
 <span from='whole' type='theme' value='государство'>
 <body id='whole'><div0 met='Х4' rhyme="AbAb">
 <lg1 type="stanza">
-<l>Царь жила-была девица,-
-<l>Шепчет русска старина,-
+<l>Царь жила-была девица, -
+<l>Шепчет русска старина, -
 <l>Будто солнце светлолица,
 <l>Будто тихая весна.
 
@@ -128,7 +133,7 @@
 <l>На часах богатыри.
 
 <lg1 type="stanza">
-<l>И Полканы всюду чудны
+<l>И <name type="character" reg="Полкан">Полканы</name> всюду чудны
 <l>Дом стрегли ее и трон;
 <l>С колоколен самогудный
 <l>Слышался и ночью звон.
@@ -148,7 +153,7 @@
 <lg1 type="stanza">
 <l>Конь под ней, как вихрь, крутился,
 <l>Чув девицу ездока;
-<l>Полк за нею нимф тащился
+<l>Полк за нею <name type="mythologic" reg="нимфы">нимф</name> тащился
 <l>По следам издалека.
 
 <lg1 type="stanza">
@@ -299,7 +304,7 @@
 <l>Конь к тому ж в пути обратном
 <l>Тронул сеть садовых струн;
 <l>Град познал в сем звуке страшном,
-<l>Что был дерзок Маркобрун.
+<l>Что был дерзок <name type="character">Маркобрун</name>.
 
 <lg1 type="stanza">
 <l>Вот и встал дым коромыслом
@@ -368,7 +373,7 @@
 <l>Чем его и вспомянуть.
 
 <lg1 type="stanza">
-<l>Кровь народа Маркобруна
+<l>Кровь народа <name type="character" reg="Маркобрун">Маркобруна</name>
 <l>Уподобилась реке;
 <l>Он дрожал ее перуна
 <l>И в своем уж чердаке.
@@ -380,7 +385,7 @@
 <l>Часто ей своей внушал.
 
 <lg1 type="stanza">
-<l><q>Виноват,</q>- пел,- <q>пред тобою,</q>
+<l><q>Виноват,</q>- пел, - <q>пред тобою,</q>
 <l><q>Что прекрасна ты, мила</q>.
 <l><q>Сердце тронь мое рукою.</q>
 <l><q>Сядь со мной!</q> - она рекла...
@@ -393,3 +398,4 @@
 </body>
   </text>
 </tei.2>
+

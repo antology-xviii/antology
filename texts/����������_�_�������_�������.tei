@@ -1,7 +1,10 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
    %ISOnum;
    %ISOpub;
    %ISOcyr1;
@@ -37,8 +40,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor> В. П. Степанов, Г. П. Макогоненко</editor>
           </titleStmt>
           <publicationStmt>
             <publisher> Художественная литература</publisher>
@@ -108,3 +111,4 @@
     </body>
   </text>
 </tei.2>
+

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 <tei.2>
 
@@ -101,13 +106,13 @@
 
               </publicationStmt>
 
-            </biblFull>         
+            </biblFull>
 
           </sourceDesc>
 
         </biblFull>
 
-      </sourceDesc>     
+      </sourceDesc>
 
     </fileDesc>
 
@@ -140,7 +145,8 @@
 
 <span from='whole' type='theme' value='смирение'>
 
-<body id='whole'><div0 met='ДкРз44442' rhyme="AAbbc//DDeec + FFbbg//HHiig + jjkkl // mmnnl + ooppq//rrssq.">
+<body id='whole'><div0 met='ДкРз44442' rhyme="AAbbc//DDeec + FFbbg//HHiig +
+jjkkl // mmnnl + ooppq//rrssq.">
 
 <span from='whole' type="addressee" value="А.Н. Ярцову">
 
@@ -160,7 +166,7 @@
 
 <l>Разных птиц голоса, вьющихся тучи,
 
-<l>Шум снопов, бег телег, оси скрыпучи,
+<l>Шум снопов, бег телег, оси скрипучи,
 
 <l>Стук цепов по токам, в рощах лай псов,
 
@@ -172,13 +178,13 @@
 
 <l>Как мил сей природы радостный образ!
 
-<l>Как тварей довольных сладостен возглас!
+<l>Как тварей довольных сладостен возглас,
 
 <l>Где <name type="character"> Осень </name> обилье рукою ведет,
 
 <l>Царям и червям всем пищу дает
 
-<l>Общий отец.
+<l>Общий Отец!
 
 <lg1 type='stanza'>
 
@@ -191,7 +197,7 @@
 
 <l>Там в бледных туманах ржет нам война:
 
-<l>Благ ли творец?
+<l>Благ ли Творец?
 
 <lg1 type='stanza'>
 
@@ -203,7 +209,7 @@
 
 <l>Сам часто своих ты ищешь сетей:
 
-<l>Хранит только бог.
+<l>Хранит только Бог.
 
 <lg1 type='stanza'>
 
@@ -221,20 +227,20 @@
 
 <l>Так если с <name type="place" reg="Урал">Урала</name> златые ключи
 
-<l>В царский лил кладезь, их сам не пьючи,  - 
+<l>В царский лил кладезь, их сам не пьючи,  -
 
 <l>Я дни мнил <name type="mythologic" reg="Астрея"> Астреи </name>, мир
 и покой
 
-<l>Ввесть распрей в вертеп; и с чистой душой
+<l>Ввесть распрей в вертеп, -  и с чистой душой
 
-<l>Благ всем желал.
+<l>Благ всем желал;
 
 <lg1 type='stanza'>
 
 <l>Но то коль не надо,  -  оставим судьбам
 
-<l>Премудрым дать лучший здесь жребий людям
+<l>Премудрым дать лучший здесь жребий людям;
 
 <l>Сев, сами прикажем в нашем гнезде
 
@@ -247,4 +253,5 @@
   </text>
 
 </tei.2>
+
 

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -81,60 +86,67 @@
 <dateline><name type="place">Париж, </name> <date>20/31 марта 1778.
 </date></dateline>
 <p>
-Вчера <name type=" person " reg="Вольтер Франсуа-Мари-Аруэ">Волтер</name>
+Вчера <name type=" person " reg="Вольтер Ф.-М.-А.">Волтер</name>
 был во Французской академии. Собрание было многочисленное. Члены Академии
 вышли ему навстречу. Он посажен был на директорское место и, минуя
 обыкновенное баллотирование, выбран единогласно в директоры на апрельскую
 четверть года. От Академии до театра, куда он поехал, народ провожал его с
-непрестанными восклицаниями. Представлена была новая трагедия: <Ирена, или
-Алексий Комнин>. При входе в ложу публика аплодировала ему многократно с
+непрестанными восклицаниями. Представлена была новая трагедия:
+<bibl><title> Ирена, или
+Алексий Комнин</title></bibl>. При входе в ложу публика аплодировала ему
+многократно с
 неописанным восторгом, а спустя несколько минут <name type=" person "
-reg="Бризар Жан-Батист">Бризар</name>, как старший актер, вошел к нему в
+reg="Бризар Ж.-Б.">Бризар</name>, как старший актер, вошел к нему в
 ложу с венком, который надел ему на голову. <name type=" person "
-reg="Вольтер Франсуа-Мари-Аруэ">Вольтер</name> тотчас снял с себя венок и,
-заплакав от радости, сказал вслух <name type=" person " reg="Бризар Жан-
-Батист">Бризару</name>: <q>&quot;Ah, Dieu, vous voulez done me faire
+reg="Вольтер Ф.-М.-А.">Вольтер</name> тотчас снял с себя венок и,
+заплакав от радости, сказал вслух <name type=" person " reg="Бризар Ж.-
+Б.">Бризару</name>: <q>&quot;Ah, Dieu, vous voulez done me faire
 mourir!&quot;</q> <note resp="editor"> Ах, боже, вы хотите уморить меня!
 (франц.). </note> Трагедия играна была гораздо с большим совершенством,
 нежели в первые представления. По окончании ее новое зрелище открылось.
 Занавес опять был поднят; все актеры и актрисы, окружа бюст <name type="
-person " reg="Вольтер Франсуа-Мари-Аруэ"> Волтеров </name>, увенчивали его
+person " reg="Вольтер Ф.-М.-А.">Волтеров</name>, увенчивали его
 лавровыми венками. Сие приношение публика сопровождала громким
 рукоплесканием, продолжавшимся близ четверти часа непрерывно. Наконец
-представлявшая <name type="character" reg="Ирена"> Ирену </name> г-жа <name
-type=" person " reg="Вестрис Мари-Роза">.Вестрис</name>  оборотясь к <name
-type=" person " reg="Вольтер Франсуа-Мари-Аруэ"> Волтеру </name>, читала
+представлявшая <name type="character" reg="Ирена">Ирену</name> г-жа <name
+type=" person " reg="Вестрис М.-Р.">.Вестрис</name> оборотясь к <name
+type=" person " reg="Вольтер Ф.-М.-А.">Волтеру</name>, читала
 следующие стихи:
-<p>
-<quote>Aux yeux de <name type=" place" reg="Париж"> Paris </name>
+<quote>
+<lg type="stanza">
+<l>Aux yeux de <name type=" place" reg="Париж"> Paris </name>
 enchant&eacute;
-<p>Re&ccedil;ois en се jour un hommage,
-<p>Que confirmera d'&acirc;ge en &acirc;ge
-<p>La s&eacute;v&egrave;re post&eacute;rit&eacute;.
-<p>Non, tu n'as pas besoin d'atteindre au noir rivage
-<p>Pour jouir de l`honneur de 1'immortalit&eacute;!
-<p><name type=" person " reg="Вольтер Франсуа-Мари-Аруэ"> Voltaire </name>,
+<l>Re&ccedil;ois en се jour un hommage,
+<l>Que confirmera d'&acirc;ge en &acirc;ge
+<l>La s&eacute;v&egrave;re post&eacute;rit&eacute;.
+</lg>
+<lg type="stanza">
+<l>Non, tu n'as pas besoin d'atteindre au noir rivage
+<l>Pour jouir de l`honneur de l'immortalit&eacute;!
+<l><name type=" person " reg="Вольтер Ф.-М.-А."> Voltaire </name>,
 re&ccedil;ois la couronne
-<p>Que l`on vient de te pr&eacute; senter;
-<p>Il est beau de la meriter
-<p>Quand c'est <name type="place" reg="Франция"> la France </name> qui la
-donne. </quote> <note resp="editor"> На глазах восхищенного <name
+<l>Que l`on vient de te pr&eacute;senter;
+<l>Il est beau de la m&eacute;riter
+<l>Quand c'est <name type="place" reg="Франция"> la France </name> qui la
+donne. </lg></quote> <note resp="editor"> На глазах восхищенного <name
 type="place" reg="Париж"> Парижа </name> прими сегодня дань уважения,
 которое из века в век будет подтверждать строгое потомство. Нет, тебе не
 нужно ждать предела жизни, чтобы наслаждаться славой бессмертия! Прими,
-<name type=" person" reg="Вольтер Франсуа-Мари-Аруэ ">Вольтер</name> ,
+<name type=" person" reg="Вольтер Ф.-М.-А. ">Вольтер</name> ,
 венок, который тебе дарят; прекрасно заслужить его, когда <name
 type="place"> Франция </name> тебе его преподносит (франц.). </note>
 <p>
 Для показания своего удовольствия публика велела повторить чтение сих
 стихов и аплодировала им с великим криком. Как же скоро <name type="
-person" reg="Вольтер Франсуа-Мари-Аруэ">Вольтер</name>, выходя из театра,
+person" reg="Вольтер Ф.-М.-А.">Вольтер</name>, выходя из театра,
 стал садиться в свою карету, то народ закричал: <q>des flambeaux, des
 flambeaux!</q> <note resp="editor"> Факелов, факелов! (франц.). </note> По
 принесении факелов, велели кучеру ехать шагом, и бесчисленное множество
 народа с факелами провожало его до самого дома, крича непрестанно: <q>Vive
-Voltaire!</q><note resp="editor"> Да здравствует <name type=" person"
-reg="Вольтер Франсуа-Мари-Аруэ">Вольтер</name> ! (франц.). </note>
+<name type=" person" reg="Вольтер Ф.-М.-А."> Voltaire</name>! </q><note
+resp="editor"> Да здравствует <name type=" person"
+reg="Вольтер Ф.-М.-А.">Вольтер</name> ! (франц.). </note>
 </body>
 </text>
 </tei.2>
+

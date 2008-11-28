@@ -1,82 +1,87 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+ <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title> Водопад </title>
-        <author>
-          <persName>
-            <forename>Гавриил</forename>
-            <forename type='patronym'>Романович</forename>
-            <surname>Державин</surname>
-          </persName>
-        </author>
-        <principal>Наталья Перкова</principal>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2007 ИФИ</availability>
-      </publicationStmt>
-      <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title> Водопад </title>
+ <author>
+ <persName>
+ <forename>Гавриил</forename>
+ <forename type='patronym'>Романович</forename>
+ <surname>Державин</surname>
+ </persName>
+ </author>
+ <principal>Наталья Перкова</principal>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+ <availability status='free'><p>&copy; 2007 ИФИ</availability>
+ </publicationStmt>
+ <seriesStmt>
+ <title>Электронная антология &quot;Русская литература XVIII
 века&quot;</title>
-      </seriesStmt>
-      <sourceDesc>
-        <biblFull>
-          <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
-          </titleStmt>
-          <publicationStmt>
-            <publisher> Художественная литература</publisher>
-            <pubPlace>Л.</pubPlace>
-            <date>1987</date>
-          </publicationStmt>
-          <sourceDesc>
-            <biblFull>
-              <titleStmt>
-                <title> Водопад </title>
-              </titleStmt>
-              <publicationStmt>
-                <publisher> Сочинения Державина, ч.1. </publisher>
-                <date>1798</date>
-              </publicationStmt>
-            </biblFull>
-          </sourceDesc>
-        </biblFull>
-      </sourceDesc>
-    </fileDesc>
+ </seriesStmt>
+ <sourceDesc>
+ <biblFull>
+ <titleStmt>
+ <title>Г. Р. Державин. Сочинения </title>
+ <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+ </titleStmt>
+ <publicationStmt>
+ <publisher> Художественная литература</publisher>
+ <pubPlace>Л.</pubPlace>
+ <date>1987</date>
+ </publicationStmt>
+ <sourceDesc>
+ <biblFull>
+ <titleStmt>
+ <title> Водопад </title>
+ </titleStmt>
+ <publicationStmt>
+ <publisher> Сочинения Державина. М. Ч.1. </publisher>
+ <date>1798</date>
+ </publicationStmt>
+ </biblFull>
+ </sourceDesc>
+ </biblFull>
+ </sourceDesc>
+ </fileDesc>
 &Encoding;
-    <profileDesc>
-      <creation>
-        <date> 1791-1794</date>
-      </creation>
-      <textClass>
-        <catRef scheme="kind" target="verse">
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text>
-    <span from='whole' type='theme' value='идеальный герой'>
+ <profileDesc>
+ <creation>
+ <date> 1791-1794</date>
+ </creation>
+ <textClass>
+ <catRef scheme="kind" target="verse">
+ </textClass>
+ </profileDesc>
+ </teiHeader>
+ <text>
+ <span from='whole' type='theme' value='идеальный герой'>
 <span from='whole' type='theme' value='жизнь'>
 <span from='whole' type='theme' value='смерть'>
 <span from='whole' type='theme' value='слава'>
@@ -183,7 +188,7 @@
 
 <lg type="stanza">
 <l>Падут - и вождь непобедимый,
-<l>В Сенате <name type="person" reg="Цезарь Гай Юлий"> Цезарь </name>  средь
+<l>В Сенате <name type="person" reg="Цезарь"> Цезарь </name> средь
 похвал,
 <l>В тот миг, желал как диадимы,
 <l>Закрыв лице плащом, упал;
@@ -455,7 +460,7 @@
 <l>Соседей хищных истребил,
 <l>Пространны области пустынны
 <l>Во грады, в нивы обратил,
-<l>Покрыл   <name   type="place"   reg="Черное   море">понт    Черный</name>
+<l>Покрыл <name type="place" reg="Черное море">понт Черный</name>
 кораблями,
 <l>Потряс среду земли громами?
 
@@ -463,8 +468,8 @@
 <l>Не ты ль, который знал избрать
 <l>Достойный подвиг росской силе,
 <l>Стихии самые попрать
-<l>В <name type="place" reg="Очаков">Очакове</name> и в  <name  type="place"
-reg="Измаил">Измаиле </name>
+<l>В <name type="place" reg="Очаков">Очакове</name> и в <name type="place"
+reg="Измаил">Измаиле</name>
 <l>И твердой дерзостью такой
 <l>Быть дивом храбрости самой?
 
@@ -474,8 +479,8 @@ reg="Измаил">Измаиле </name>
 <l>Не шел ты средь путей известных.
 <l>Но проложил их сам - и шум
 <l>Оставил по себе в потомки;
-<l>Се  ты,  о  чудный  вождь  <name  type="person"  reg="  Потемкин  Г.   А.
-">Потемкин</name>!
+<l>Се ты, о чудный вождь <name type="person" reg=" Потемкин Г.
+А.">Потемкин</name>!
 
 <lg1 type="stanza">
 <l>Се ты, которому врата
@@ -490,7 +495,7 @@ reg="Измаил">Измаиле </name>
 <l>Кому едва я посвятил,
 <l>В созвучность громкого <name type="person" reg="Пиндар">Пиндара</name>
 <l>Мою настроить лиру мнил,
-<l>Воспел победу <name type="place" reg="Измаил">Измаила</name>,
+<l>Воспел победу <name type="Измаил">Измаила</name>,
 <l>Воспел,- но смерть тебя скосила!
 
 <lg1 type="stanza">
@@ -523,8 +528,8 @@ reg="Измаил">Измаиле </name>
 <l>Родства и дружбы вопли, стоны
 <l>И муз ахейских жалкий звук
 <l>Вокруг <name type="person" reg="Перикл">Перикла</name> раздается:
-<l><name     type="person">Марон</name>     по      <name      type="person"
-	reg="Меценат">Меценате</name> рвется,
+<l><name type="person">Марон</name> по <name type="person"
+reg="Меценат">Меценате</name> рвется,
 
 <lg1 type="stanza">
 <l>Который почестей в лучах,
@@ -564,10 +569,10 @@ reg="Измаил">Измаиле </name>
 <l>Нетленна память, похвала
 <l>И из развалин вылетают,
 <l>Как холмы, гробы их цветут;
-<l>Напишется <name type="person" reg="Потемкин Г.А.">Потемкин</name> труд.
+<l>Напишется <name type="person" reg="Потемкин Г. А.">Потемкин</name> труд.
 
 <lg1 type="stanza">
-<l>Театр    его    -    был    край    <name    type="place"     reg="Черное
+<l>Театр его - был край <name type="place" reg="Черное
 море">Эвксина</name>,
 <l>Сердца обязанные - храм;
 <l>Рука с венцом - <name type="person">Екатерина II</name>;
@@ -587,7 +592,7 @@ reg="Измаил">Измаиле </name>
 <l>Дрожит - и во очах сокрытых
 <l>Еще ему штыки блестят,
 <l>Где сорок тысяч вдруг убитых
-<l>Вкруг   гроба   <name   type="person"   reg="Вейсман   фон    Вейсенштейн
+<l>Вкруг гроба <name type="person" reg="Вейсман фон Вейсенштейн
 О.">Вейсмана</name> лежат.
 <l>Мечтаются ему их тени
 <l>И росс в крови их по колени!
@@ -630,14 +635,14 @@ reg="Измаил">Измаиле </name>
 <l>Лежат объяты серны сном
 <l>И пар вокруг холмов виется,
 <l>Пришедши, старец надпись зрит:
-<q><l>Здесь труп <name  type="person"  reg="Потемкин  Г.А.">Потемкина</name>
+<q><l>Здесь труп <name type="person" reg="Потемкин Г. А.">Потемкина</name>
 сокрыт!</q>
 
 <lg1 type="stanza">
 <l><name type="person" reg="Алкивиад">Алцибиадов</name> прах! - И смеет
 <l>Червь ползать вкруг его главы?
 <l>Взять шлем <name type="mythologic" reg="Ахилл">Ахиллов</name> не робеет,
-<l>Нашедши в поле, <name type="mythologic">Фирс</name>? - Увы!
+<l>Нашедши в поле, <name type="myhologic">Фирс</name>? - Увы!
 <l>И плоть, и труд коль истлевает,
 <l>Что ж нашу славу составляет?
 
@@ -693,10 +698,11 @@ reg="Измаил">Измаиле </name>
 <l>И без примеса чуждых вод
 <l>Поя златые в нивах бреги,
 <l>Великолепный свой ты ход
-<l>Вливаешь   в    светлый    сонм    <name    type="place"    reg="Онежское
+<l>Вливаешь в светлый сонм <name type="place" reg="Онежское
 озеро">Онеги</name> -
 <l>Какое зрелище очам!
 <l>Ты тут подобна небесам.
-    </body>
-  </text>
+ </body>
+ </text>
 </tei.2>
+

@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -57,7 +62,7 @@
                 <title> Вельможа </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Сочинения Державина, ч.1. М.</publisher>
+                <publisher> Сочинения Державина. М. Ч. 1.</publisher>
                 <date>1798</date>
               </publicationStmt>
             </biblFull>
@@ -76,7 +81,7 @@
     </profileDesc>
   </teiHeader>
   <text>
-<span from='whole' type="addressee" value="П.А.Румянцову">
+<span from='whole' type="addressee" value="Румянцов П. А.">
 <span from='whole' type='theme' value='честь'>
 <span from='whole' type='theme' value='государственная служба'>
 <span from='whole' type='theme' value='долг'>
@@ -106,7 +111,7 @@
 <l>Кумир, поставленный в позор,
 <l>Несмысленную чернь прельщает;
 <l>Но коль художников в нем взор
-<l>Прямых красот не ощущает,-
+<l>Прямых красот не ощущает, -
 <l>Се образ ложныя молвы,
 <l>Се глыба грязи позлащенной!
 <l>И вы, без благости душевной,
@@ -114,7 +119,7 @@
 
 <lg1 type="stanza">
 <l>Не перлы перские на вас
-<l>И не бразильски звезды ясны,-
+<l>И не бразильски звезды ясны, -
 <l>Для возлюбивших правду глаз
 <l>Лишь добродетели прекрасны,
 <l>Они суть смертных похвала.
@@ -138,26 +143,25 @@
 <l>Не можно век носить личин,
 <l>И истина должна открыться.
 <l>Когда не сверг в боях, в судах,
-<l>В советах царских супостатов,-
-<l>Всяк думает, что я <name type="person" reg="В.А.Чупятов"> Чупятов
-</name>
+<l>В советах царских супостатов, -
+<l>Всяк думает, что я <name type="person" reg="Чупятов В.
+А.">Чупятов</name>
 <l>В мароккских лентах и звездах.
 
 <lg1 type="stanza">
 <l>Оставя скипетр, трон, чертог,
 <l>Быв странником, в пыли и в поте,
-<l>Великий <name type=" person" reg="Петр I"> Петр</name>, как
-некий бог,
+<l>Великий <name type=" person" reg="Петр I"> Петр</name>, как некий бог,
 <l>Блистал величеством в работе:
 <l>Почтен и в рубище герой!
-<l><name type="person"> <name type=" person" reg="Екатерина II"> Екатерина
-</name> </name> в низкой доле
+<l><name type="person"> <name type=" person" reg="Екатерина
+II">Екатерина</name> </name> в низкой доле
 <l>И не на царском бы престоле
 <l>Была великою женой.
 
 <lg1 type="stanza">
 <l>И впрямь, коль самолюбья лесть
-<l>Не обаяла б ум надменный,-
+<l>Не обаяла б ум надменный, -
 <l>Что наше благородство, честь,
 <l>Как не изящности душевны?
 <l>Я князь - коль мой сияет дух;
@@ -207,20 +211,20 @@
 
 <lg1 type="stanza">
 <l>Орел, по высоте паря,
-<l>Уж солнце зрит в лучах полдневных,-
+<l>Уж солнце зрит в лучах полдневных, -
 <l>Но твой чертог едва заря
 <l>Румянит сквозь завес червленных;
 <l>Едва по зыблющим грудям
 <l>С тобой лежащия <name type="mythologic" reg= "Цирцея"> Цирцеи  </name>,
 <l>Блистают розы и лилеи,
-<l>Ты с ней покойно спишь,- а там?
+<l>Ты с ней покойно спишь, - а там?
 
 <lg1 type="stanza">
 <l>А там израненный герой,
 <l>Как лунь во бранях поседевший,
-<l>Начальник прежде бывший твой,-
+<l>Начальник прежде бывший твой, -
 <l>В переднюю к тебе пришедший
-<l>Принять по службе твой приказ,-
+<l>Принять по службе твой приказ, -
 <l>Меж челядью твоей златою,
 <l>Поникнув лавровой главою,
 <l>Сидит и ждет тебя уж час!
@@ -246,8 +250,8 @@
 <l>Для хлеба от тебя куска.
 
 <lg1 type="stanza">
-<l>А там,- где жирный пес лежит,
-<l>Гордится вратник галунами,-
+<l>А там, - где жирный пес лежит,
+<l>Гордится вратник галунами, -
 <l>Заимодавцев полк стоит,
 <l>К тебе пришедших за долгами.
 <l>Проснися, сибарит! - Ты спишь
@@ -282,12 +286,12 @@
 <l>Чужого не касаясь дела;
 <l>Глава не ждет от ног ума
 <l>И сил у рук не отнимает,
-<l>Ей взор и ухо предлагает,-
+<l>Ей взор и ухо предлагает, -
 <l>Повелевает же сама.
 
 <lg1 type="stanza">
 <l>Сим твердым узлом естества
-<l>Коль царство лишь живет счастливым,-
+<l>Коль царство лишь живет счастливым, -
 <l>Вельможи! - славы, торжества
 <l>Иных вам нет, как быть правдивым;
 <l>Как блюсть народ, царя любить,
@@ -302,13 +306,13 @@
 <l>Какой ты не причастен славы?
 <l>Каких в тебе вельможей нет?
 <l>Тот храбрым был средь бранных звуков;
-<l>Здесь дал бесстрашный <name type="person" reg="Я.Ф.Долгоруков">
-Долгоруков</name>
+<l>Здесь дал бесстрашный <name type="person" reg="Долгоруков Я.
+Ф.">Долгоруков</name>
 <l>Монарху грозному ответ.
 
 <lg1 type="stanza">
 <l>И в наши вижу времена
-<l>Того я славного <name type="person" reg="Камилл"> Камилла </name>,
+<l>Того я славного <name type="person" reg="Камилл">Камилла</name>,
 <l>Которого труды, война
 <l>И старость дух не утомила.
 <l>От грома звучных он побед
@@ -331,10 +335,11 @@
 <l>По мракам смутного эфира
 <l>Громовой пролети струёй
 <l>И, опочив на лоне мира,
-<l>Возвесели еще царя.-
+<l>Возвесели еще царя. -
 <l>Простри твой поздный блеск в народе,
 <l>Как отдает свой долг природе
 <l>Румяна вечера заря.
 </body>
   </text>
 </tei.2>
+

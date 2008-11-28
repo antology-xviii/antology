@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -125,17 +130,18 @@ reg="Киприда">Киприды</name>
 <l>А тут <name type="mythologic" reg="Амур">амуры</name> и <name
 type="mythologic" reg="Эрот">эроты</name>
       <l>Уединялись с ней одни;
-      <l>Тут был <name type=" mythologic ">Эдем</name> ее прелестный
+      <l>Тут был <name type="mythologicPlace" reg="Эдем">Эдем</name> ее
+прелестный
       <l>Наполнен меж купин цветов,
       <l>Здесь тек под синий свод небесный
       <l>В купальню скрытый шум ручьев;
       <l>Здесь был театр, а тут качели,
       <l>Тут азиатских домик нег;
-<l>Тут на <name type="mythologic" reg="Парнас">Парнасе</name> <name
-type="mythologic" reg="муза">музы</name>пели,
+<l>Тут на <name type="mythologicPlace" reg="Парнас">Парнасе</name> <name
+type="mythologic" reg="музы">музы</name>пели,
       <l>Тут звери жили для утех.
       <l>Здесь в разны игры забавлялась,
-<l>А тут прекрасных <name type="mythologic" reg="нимфа">нимф</name> с
+<l>А тут прекрасных <name type="mythologic" reg="нимфы">нимф</name> с
 полком
       <l>Под вечер красный собиралась
       <l>В прогулку с легким посошком;
@@ -143,7 +149,7 @@ type="mythologic" reg="муза">музы</name>пели,
       <l>По мягкой мураве близ вод,
       <l>По желтым среди роз тропинам;
       <l>А тут, затея хоровод,
-<l>Велела <name type="mythologic" reg="нимфа">нимфам</name>, <name
+<l>Велела <name type="mythologic" reg="нимфы">нимфам</name>, <name
 type="mythologic" reg="Купидон">купидонам</name>
       <l>Играть, плясать между собой
       <l>По слышимым приятным тонам
@@ -192,8 +198,9 @@ type="mythologic" reg="Купидон">купидонам</name>
       <l>Трофеи мира и войны,
       <l>Здоровье, радости и смехи
       <l>И легкие приятны сны.
-<l>В сем тереме, <name type="mythologic" reg="Олимп">Олимпу</name> равном,
-      <l>Из яшм прозрачных, перлов гнёзд,
+<l>В сем тереме, <name type="mythologicPlace" reg="Олимп">Олимпу</name>
+равном,
+      <l>Из яшм прозрачных, перлов гнезд,
       <l>Художеством различным славном,
       <l>Горели ночью тучи звезд,
       <l>Красу богини умножали;
@@ -211,6 +218,7 @@ type="mythologic" reg="Купидон">купидонам</name>
     </body>
   </text>
 </tei.2>
+
 
 
 

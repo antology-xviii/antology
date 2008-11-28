@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -264,7 +269,7 @@ reg="Мальта"> Мальте </name> не радеешь,
 
 <lg1 type="stanza">
 <l>Бывало, милые науки
-<l>И музы, простирая руки,
+<l>И <name type="mythologic" reg="муза">музы</name>, простирая руки,
 <l>Позавтракать ко мне придут
 <l>И всё мое усядут ложе;
 <l>А я, свирель настроя тут,
@@ -282,7 +287,8 @@ reg="Мальта"> Мальте </name> не радеешь,
 <l>Амур без перьев - нетопырь,
 <l>Едва вспорхнет, и нос повесит.
 <l>Сокрылся и в игре мой клад;
-<l>Не страстны мной, как прежде, музы;
+<l>Не страстны мной, как прежде, <name type="mythologic"
+reg="муза">музы</name>;
 <l>Бояра понадули пузы,
 <l>И я у всех стал виноват.
 
@@ -300,7 +306,7 @@ reg="Мальта"> Мальте </name> не радеешь,
 
 <lg1 type="stanza">
 <l>Но, ах! как некая ты сфера
-<l>Иль легкий шар <name type="person" reg="Монгольфиер">
+<l>Иль легкий шар <name type="person" reg="Монгольфьер">
 Монгольфиера</name>,
 <l>Блистая в воздухе, летишь;
 <l>Вселенна длани простирает,
@@ -337,7 +343,7 @@ reg="Мальта"> Мальте </name> не радеешь,
 
 <lg1 type="stanza">
 <l>Увы! еще ты не внимаешь,
-<l>О <name type="character"> Счастие</name>! моей мольбе,
+<l>О <name type="character" reg="Счастье"> Счастие</name>! моей мольбе,
 <l>Мои обеты презираешь -
 <l>Знать, неугоден я тебе.
 <l>Но на софах ли ты пуховых,
@@ -349,3 +355,4 @@ reg="Мальта"> Мальте </name> не радеешь,
 </body>
   </text>
 </tei.2>
+

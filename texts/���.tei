@@ -1,21 +1,26 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
-	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
-	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
-	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
-	%ISOnum;
-	%ISOpub;
-	%ISOcyr1;
-	%ISOlat1;
-	%ISOlat2;
-	<!ENTITY % TEI.verse "INCLUDE" >
-	<!ENTITY % TEI.names.dates "INCLUDE" >
-	<!ENTITY % TEI.analysis "INCLUDE">
-	<!ENTITY % TEI.linking "INCLUDE">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
-	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding SYSTEM "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 ]>
 
 <tei.2>
@@ -57,7 +62,7 @@
                 <title> Бог </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Собеседник любителей российского слова
+                <publisher> Собеседник любителей российского слова. Ч. 13.
 </publisher>
                 <date>1784</date>
               </publicationStmt>
@@ -96,12 +101,12 @@
 <lg1 type="stanza">
 <l>Измерить океан глубокий,
 <l>Сочесть пески, лучи планет
-<l>Хотя и мог бы ум высокий,-
+<l>Хотя и мог бы ум высокий, -
 <l>Тебе числа и меры нет!
 <l>Не могут духи просвещенны,
 <l>От света твоего рожденны,
 <l>Исследовать судеб твоих:
-<l>Лишь мысль к тебе взнестись дерзает,-
+<l>Лишь мысль к тебе взнестись дерзает, -
 <l>В твоем величьи исчезает,
 <l>Как в вечности прошедший миг.
 
@@ -126,7 +131,7 @@
 <l>Так солнцы от тебя родятся;
 <l>Как в мразный, ясный день зимой
 <l>Пылинки инея сверкают,
-<l>Вратятся, зыблются, сияют,-
+<l>Вратятся, зыблются, сияют, -
 <l>Так звезды в безднах под тобой.
 
 <lg1 type="stanza">
@@ -148,7 +153,7 @@
 <l>И что перед тобою я?
 <l>В воздушном океане оном,
 <l>Миры умножа миллионом
-<l>Стократ других миров,- и то,
+<l>Стократ других миров, - и то,
 <l>Когда дерзну сравнить с тобою,
 <l>Лишь будет точкою одною:
 <l>А я перед тобой - ничто.
@@ -215,3 +220,4 @@
 </body>
   </text>
 </tei.2>
+

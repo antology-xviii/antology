@@ -1,8 +1,12 @@
+
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
-   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
    <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
-   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
-   <!NOTATION JPEG PUBLIC   'ISO DIS 10918//NOTATION JPEG Graphics Format//EN' >
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+   <!NOTATION JPEG PUBLIC   'ISO DIS 10918//NOTATION JPEG Graphics
+Format//EN' >
    <!NOTATION MP3 SYSTEM 'MP3'>
    %ISOnum;
    %ISOpub;
@@ -336,7 +340,8 @@
       <l>Ты не дурачишь так людей;
       <l>В твои от дел отдохновеньи
       <l>Ты пишешь в сказках поученьи
-      <l>И <name type="character" reg="Хлор"> Хлору </name> в азбуке твердишь:
+      <l>И <name type="character" reg="Хлор"> Хлору </name> в азбуке
+твердишь:
       <q>Не делай ничего худого,
       <l>И самого сатира злого
       <l>Лжецом презренным сотворишь</q>.
@@ -357,7 +362,8 @@
 
 
       <lg1 type='stanza'>
-      <l><name type="person" reg="Фелица"> Фелицы </name> слава - слава бога,
+      <l><name type="person" reg="Фелица"> Фелицы </name> слава - слава
+бога,
       <l>Который брани усмирил;
       <l>Который сира и убога
       <l>Покрыл, одел и накормил;
@@ -398,8 +404,10 @@
       <lg1 type='stanza'>
       <l>Но где твой трон сияет в мире?
       <l>Где, ветвь небесная, цветешь?
-      <l>В <name type="place" reg="Багдад"> Багдаде</name>? <name  type="place"
-reg="Смирна">Смирне</name>?  <name   type="place"   reg="Кашмир">   Кашемире
+      <l>В <name type="place" reg="Багдад"> Багдаде</name>? <name
+type="place"
+reg="Смирна">Смирне</name>?  <name   type="place"   reg="Кашмир">
+Кашемире
 </name>?-
       <l>Послушай, где ты ни живешь:
       <l>Хвалы мои тебе приметя,
@@ -424,4 +432,5 @@ reg="Смирна">Смирне</name>?  <name   type="place"   reg="Кашмир">   Кашемире
 </body>
   </text>
 </tei.2>
+
 
