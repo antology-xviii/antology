@@ -227,8 +227,9 @@
                           (build-images trailing-pictures)))))
 (element front (process-children))
 (element body (anchored #f #f))
-(element name (let ((contents (anchored #t #t)))
-                (if (member (element-number (current-node)) hilite-names)
+(element name (let ((contents (anchored #t #t))
+                    (val (or (attribute-string "reg") (data (current-node)))))
+                (if (member val hilite-names)
                     (make element gi: "span"
                           attributes: '(("class" "search"))
                           contents)
