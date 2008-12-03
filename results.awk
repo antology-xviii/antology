@@ -18,12 +18,12 @@ BEGIN { FS="|"; first_fragment = 1; }
         print "<ul>";
         subst_frag = $5;
         if ($11)
-            gsub($11, "<strong>" $11 "</strong>", subst_frag);
+            gsub($11, "<big>" $11 "</big>", subst_frag);
         if ($8)
-            gsub($8, "<strong>" $8 "</strong>", subst_frag);
+            gsub($8, "<big>" $8 "</big>", subst_frag);
         printf "<li><a href='/cgi-bin/gettext.cgi/%s%s%s'>%s</a>\n", 
             urlencode_path($1), $10 ? "#" $10 : ($7 ? "#" $7 : ""), 
-            $9 ? "?hilite=" urlencode_path($9) : ($6 ? "?hilite=" urlencode_path($6) : ""),
+            $9 ? "?hilite=" urlencode_path("\"" $9 "\"") : ($6 ? "?hilite=" urlencode_path("\"" $6 "\"") : ""),
             subst_frag;
 	}
 }
