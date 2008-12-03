@@ -12,21 +12,19 @@ BEGIN { FS="|"; first_fragment = 1; }
 		printf "<li>%s <a href='/cgi-bin/gettext.cgi/%s'>%s</a>\n", $2, urlencode_path($1), $3;
 		first_fragment = 1;
 		current_url = $1;
-		current_fragment = "";
 	}
 	if ($6)
 	{
-		if (current_fragment != $5)
-		{
-			current_fragment = $5;
-			if (first_fragment)
-			{
-				print "<ul>";
-				first_fragment = "";
-			}
-			printf "<li><a href='/cgi-bin/gettext.cgi/%s%s'>%s</a>\n", 
-                 urlencode_path($1), $6 ? "#" $6 : ($8 ? "#" $8 : ""), $5;
-		}
+        print "<ul>";
+        subst_frag = $5;
+        if ($11)
+            gsub($11, "<strong>" $11 "</strong>", subst_frag);
+        if ($8)
+            gsub($8, "<strong>" $8 "</strong>", subst_frag);
+        printf "<li><a href='/cgi-bin/gettext.cgi/%s%s%s'>%s</a>\n", 
+            urlencode_path($1), $10 ? "#" $10 : ($7 ? "#" $7 : ""), 
+            $9 ? "?hilite=" urlencode_path($9) : ($6 ? "?hilite=" urlencode_path($6) : ""),
+            subst_frag;
 	}
 }
 

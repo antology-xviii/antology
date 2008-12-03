@@ -14,11 +14,13 @@ SEARCH_written='written = $$@$$'
 SEARCH_published='(published = $$@$$ or performed = $$@$$)'
 SEARCH_publisher='publisher = $$@$$'
 JOIN_place=' left join text_names as places on places.text_id = url and places.frag_id = tf.label'
-FIELDS_place=',places.proper_name, places.refid'
+FIELDS_place=',places.proper_name, places.refid, places.occurrence'
 SEARCH_place='(places.name_class = split_part($$@$$, $$=$$, 1) and places.proper_name = split_part($$@$$, $$=$$, 2))'
+ISNAME_place=true
 JOIN_name=' left join text_names as names on names.text_id = url and names.frag_id = tf.label'
-FIELDS_name=',names.proper_name, names.refid'
+FIELDS_name=',names.proper_name, names.refid, names.occurrence'
 SEARCH_name='(names.name_class = split_part($$@$$, $$=$$, 1) and names.proper_name = split_part($$@$$, $$=$$, 2))'
+ISNAME_name=true
 JOIN_rhyme=' left join (select * from text_metric where sys_id = $$rhyme$$) as rhymes on rhymes.text_id = url and rhymes.frag_id = tf.label'
 SEARCH_rhyme='rhymes.characteristic = $$@$$'
 JOIN_metric=' left join (select * from text_metric where sys_id = $$met$$) as metrics on metrics.text_id = url and metrics.frag_id = tf.label'
@@ -46,7 +48,6 @@ PARMNAME_rhyme="схема рифмовки"
 PARMNAME_metric="метр/размер"
 PARMNAME_mscheme="метрическая схема"
 PARMNAME_addressee="адресат"
-
 
 IFS="&;" read -a parameters
  
@@ -80,13 +81,22 @@ for var in ${!Q_*}; do
 done
 basicfrom=" from texts left join authors as auth on author_id = auth.uid left join text_structure as tf on tf.text_id = 
 url "
-sqlexpr="$sqlexpr $basicfrom "
+sqlexpr="$sqlexpr $basicfrom $namefrom"
 isqlexpr="$isqlexpr $basicfrom "
+namewhere=""
 for var in ${!Q_*}; do
     if [ -n "${!var}" ]; then
         jname="JOIN_${var#Q_}"
         sqlexpr="$sqlexpr${!jname}"
         isqlexpr="$isqlexpr${!jname}"
+        isname="ISNAME_${var#Q_}"
+        if [ -n "${!isname}" ]; then
+            searchterm="${!var}"
+            searchterm="${searchterm//@(@/}"
+            searchterm="${searchterm//@)@/}"
+            searchterm="${searchterm//@+@/ or }"
+            namewhere+=" and ($searchterm)"
+        fi
     fi
 done
 isqlexpr="$isqlexpr where true "
@@ -155,7 +165,7 @@ for idx in ${!parameters[*]}; do
 done
 echo "</table>"
 echo "<!-- split -->"
-sqlexpr="$sqlexpr where url in ($isqlexpr) order by author_id, title, url, tf.label"
+sqlexpr="$sqlexpr where url in ($isqlexpr) $namewhere order by author_id, title, url, tf.label"
 echo "<!-- SQL query was: $sqlexpr -->"
 psql -A -t -q antology -c "$sqlexpr" | awk -f urlencode.awk -f results.awk
 rc=$?
