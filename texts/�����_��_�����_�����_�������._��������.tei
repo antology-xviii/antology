@@ -88,7 +88,7 @@ Graphic//EN">
 <span from='whole' type='theme' value='поэзия'>
 <span from="whole" type="addressee" value="С.Ф. Голицыну">
     <body id='whole'><div0 met='Я4'
-rhyme="(XxXxXxXx+AbAbCdCd+EfEfGhGh)...">
+rhyme="XxXxXxXx + AbAbCdCd + EfEfGhGh">
 <lg1 type='stanza'>
 <l>Спустил седой <name type="character"><name type="mythologic">Эол</name>
 </name> <name type="mythologic"
