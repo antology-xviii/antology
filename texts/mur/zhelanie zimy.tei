@@ -1,0 +1,216 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+
+  <TEIHEADER>
+
+    <FILEDESC>
+
+      <TITLESTMT>
+
+        <TITLE>Желание зимы </TITLE>
+
+        <AUTHOR>
+
+          <PERSNAME>
+
+            <FORENAME>Михаил</FORENAME>
+
+            <FORENAME TYPE="patronym">Никитич</FORENAME>
+
+            <SURNAME>Муравьев</SURNAME>
+
+            </PERSNAME>
+
+          </AUTHOR>
+
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+
+        </TITLESTMT>
+
+      <PUBLICATIONSTMT>
+
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+
+        </PUBLICATIONSTMT>
+
+      <SERIESSTMT>
+
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+
+          века&quot;</TITLE>
+
+        </SERIESSTMT>
+
+      <SOURCEDESC>
+
+        <BIBLFULL>
+
+          <TITLESTMT>
+
+            <TITLE>М. Н.  Муравьев. Стихотворения</TITLE>
+
+            <EDITOR>Л. И. Кулакова </EDITOR>
+
+            </TITLESTMT>
+
+          <PUBLICATIONSTMT>
+
+            <PUBLISHER>Советский писатель</PUBLISHER>
+
+         <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
+                библиотека</XREF></DISTRIBUTOR>
+<PUBPLACE>Л.</PUBPLACE>
+
+            <DATE>1967</DATE>
+
+            </PUBLICATIONSTMT>
+
+          <SOURCEDESC>
+
+            <BIBLFULL>
+
+              <TITLESTMT>
+
+                <TITLE>Желание зимы</TITLE>
+
+                </TITLESTMT>
+
+              <PUBLICATIONSTMT>
+
+                <PUBLISHER>Санкт-петербургский вестник. Ч. 2. </PUBLISHER>
+
+                <DATE>1778</DATE>
+
+                </PUBLICATIONSTMT>
+
+              </BIBLFULL>
+
+            </SOURCEDESC>
+
+          </BIBLFULL>
+
+        </SOURCEDESC>
+
+      </FILEDESC>
+
+&Encoding;
+<PROFILEDESC>
+     <CREATION>
+
+        <DATE>1776</DATE>
+
+        </CREATION>
+
+      <TEXTCLASS>
+
+        <CATREF SCHEME="KIND" TARGET="VERSE">
+
+        </TEXTCLASS>
+
+      </PROFILEDESC>
+
+    </TEIHEADER>
+
+  <TEXT>
+
+    <SPAN FROM="WHOLE" VALUE="природа" TYPE="theme">
+
+    <SPAN FROM="WHOLE" VALUE="смерть" TYPE="theme">
+
+    <SPAN FROM="WHOLE" VALUE="зима" TYPE="theme">
+
+<BODY ID="WHOLE"><DIV0 RHYME="AbAbCdCd " MET="ЯРз 63636363">
+
+<LG1 TYPE="stanza">
+
+<L>Проникнув из земли, былинка жить не чает
+<L><space dim="horizontal" extent="7 letters"> И клонится, томна,
+<L>И кажется, сама природа примечает,
+<L><space dim="horizontal" extent="7 letters"> Что рушится она.
+<L>Вотще ей иногда ласкает день прекрасный,
+<L><space dim="horizontal" extent="7 letters"> Чтоб после обмануть;
+<L>Она уж, отступясь, свой видит труд напрасный
+<L><space dim="horizontal" extent="7 letters"> И хочет отдохнуть.
+<LG1 TYPE="stanza">
+
+<L>На листвиях цветов их нежны нити стерты,
+<L><space dim="horizontal" extent="7 letters"> Объемля стебли, мрут.
+<L>Матерых трупы древ на землю ниц простерты,
+<L><space dim="horizontal" extent="7 letters"> Младой природы труд.
+<L>Страдание земли зрит солнце потаенно.
+<L><space dim="horizontal" extent="7 letters"> Се суть <name type="mythologic" reg="Борей">Борея</name> дни.
+<L>Во мрачны облака всё небо облеченно,
+<L><space dim="horizontal" extent="7 letters"> И ходят вкруг они.
+
+<LG1 TYPE="stanza">
+
+
+<L>Приди скорей, зима, и ветров заговоры,
+<L><space dim="horizontal" extent="7 letters"> Владычица, низринь;
+<L>Меж ними рождена решить их буйны споры,
+<L><space dim="horizontal" extent="7 letters"> Ослушных в бездны кинь.
+<L>Стели свой нежный пух воздушною тропою,
+<L><space dim="horizontal" extent="7 letters"> С зарею иней сей
+<L>И с играми спеши со пляшущей толпою
+<L><space dim="horizontal" extent="7 letters"> Со праздностью своей.
+<LG1 TYPE="stanza">
+
+
+<L>Поля их белизной луч солнца заражают,
+<L><space dim="horizontal" extent="7 letters"> К себе его сводя;
+<L>Воздушны шарики друг друга отражают
+<L><space dim="horizontal" extent="7 letters"> И скачут, с ним сходя.
+<L>О, как я, восхищен, влеку свое дыханье!
+<L><space dim="horizontal" extent="7 letters"> Сверши, зима, сверши!
+<L>Лишь крылья ты сплеснешь, пойдет их осязанье
+<L><space dim="horizontal" extent="7 letters"> По жилам до души.
+<L>Но что? не гласы ль мне сдаются вопиющих?
+<L><space dim="horizontal" extent="7 letters"> Не се ли рога звук?
+<L>Дианиных подруг я зрю, <name type="mythologic" reg="богиня">богинь</name>
+
+
+бегущих,
+<L><space dim="horizontal" extent="7 letters"> Златой на раме лук.
+<L>Ты медлишь здесь, олень, а рок твой близко ходит;
+<L><space dim="horizontal" extent="7 letters"> Оставь свой сладкий мох.
+<L>Пугливый житель рощ напрасно след отводит:
+<L><space dim="horizontal" extent="7 letters"> Издаст последний вздох.
+<L>Любови не совсем отходят в заточенье
+<L><space dim="horizontal" extent="7 letters"> И дышат и зимой;
+<L>Не та же ль <name type="mythologic">Хлоя</name> днесь и <name type="mythologic" reg="грация"> граций</name> ополченье
+<L><space dim="horizontal" extent="7 letters"> Опасно ей самой?
+<L>Блюди, чтобы на дни мои не искосился
+<L><space dim="horizontal" extent="7 letters"> Завистливый <name type="mythologic">Сатурн</name>,
+<L>Зима, чтоб твой певец спокоен покусился
+<L><space dim="horizontal" extent="7 letters"> Кичливый вздеть котурн.
+
+</BODY>
+
+</TEXT>
+
+</TEI.2>
+
+
+
