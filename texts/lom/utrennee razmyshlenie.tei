@@ -1,0 +1,142 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Утреннее размышление о Божием Величестве</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+            <SURNAME>Ломоносов</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Головченко</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т. 8.
+Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</TITLE>
+            <EDITOR>Виноградов В. В., Андреев А. И., Блок Г. П.</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">ФЭБ: Фундаментальная
+электронная библиотека &quot;Русская литература и фольклор&quot;</XREF></DISTRIBUTOR>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1959</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Утреннее размышление о Божием Величестве</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Ломоносов М. Собрание разных сочинений в стихах
+и прозе. СПб.</PUBLISHER>
+                <DATE>1751</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>1743</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="AbAbcc" MET="Я4">
+<lg1 type="stanza">
+<l>Уже прекрасное светило
+<l>Простерло блеск свой по земли
+<l>И Божия дела открыло.
+<l>Мой дух, с веселием внемли,
+<l>Чудяся ясным толь лучам,
+<l>Представь, каков <name type="biblical" reg="Бог">Зиждитель</name> сам!
+
+<lg1 type="stanza">
+<l>Когда бы смертным толь высоко
+<l>Возможно было возлететь,
+<l>Чтоб к солнцу бренно наше око
+<l>Могло приближившись возреть,
+<l>Тогдаб со всех открылся стран
+<l>Горящий вечно Океан.
+
+<lg1 type="stanza">
+<l>Там огненны валы стремятся
+<l>И не находят берегов,
+<l>Там вихри пламенны крутятся,
+<l>Борющись множество веков;
+<l>Там камни, как вода, кипят,
+<l>Горящи там дожди шумят.
+
+<lg1 type="stanza">
+<l>Сия ужасная громада -
+<l>Как искра пред тобой одна.
+<l>О коль пресветлая лампада
+<l>Тобою, <name type="biblical" reg="Бог">Боже</name>, возжжена
+<l>Для наших повседневных дел,
+<l>Что ты творить нам повелел!
+
+<lg1 type="stanza">
+<l>От мрачной ночи свободились
+<l>Поля, бугры, моря и лес
+<l>И взору нашему открылись,
+<l>Исполненны твоих чудес.
+<l>Там всякая взывает плоть:
+<l><q>Велик <name type="biblical" reg="Бог">Зиждитель</name> наш, <name
+type="biblical" reg="Бог">Господь</name>!</q>
+
+<lg1 type="stanza">
+<l>Светило дневное блистает
+<l>Лишь только на поверхность тел,
+<l>Но взор твой в бездну проницает,
+<l>Не зная никаких предел.
+<l>От светлости твоих очей
+<l>Лиется радость твари всей.
+
+<lg1 type="stanza">
+<l><name type="biblical" reg="Бог">Творец</name>! Покрытому мне тмою
+<l>Простри премудрости лучи
+<l>И что угодно пред Тобою
+<l>Всегда творити научи
+<l>И, на Твою взирая тварь,
+<l>Хвалить тебя, бессмертный <name type="biblical" reg="Бог">Царь</name>.
+    </BODY>
+  </TEXT>
+</TEI.2>

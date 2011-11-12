@@ -1,0 +1,117 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Я знак бессмертия себе воздвигнул...</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+            <SURNAME>Ломоносов</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Головченко</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т. 8.
+Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</TITLE>
+            <EDITOR>Виноградов В. В., Андреев А. И., Блок Г. П.</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">ФЭБ: Фундаментальная
+электронная библиотека &quot;Русская литература и фольклор&quot;</XREF></DISTRIBUTOR>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1959</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Я знак бессмертия себе воздвигнул...</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Ломоносов М. Краткое руководство к красноречию.
+Книга первая, в которой содержится риторика, показующая общие правила
+обоего красноречия, то есть оратории и поэзии. СПб.</PUBLISHER>
+                <DATE>1748</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>1747</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. б. с." MET="Я5">
+<lg1 type="stanza">
+<l>Я знак бессмертия себе воздвигнул
+<l>Превыше пирамид и крепче меди,
+<l>Что бурный <name type="mythologic">Аквилон</name> сотреть не может,
+<l>Ни множество веков, ни едка древность.
+<l>Не вовсе я умру, но смерть оставит
+<l>Велику часть мою, как жизнь скончаю.
+<l>Я буду возрастать повсюду славой,
+<l>Пока великий <name type="place">Рим</name> владеет светом.
+<l>Где быстрыми шумит струями <name type="place" reg="Офанто">Авфид</name>,
+<l>Где <name type="person" reg="Давн">Давнус</name> царствовал в простом
+народе,
+<l>Отечество мое молчать не будет,
+<l>Что мне беззнатной род препятством небыл.
+<l>Чтоб внесть в <name type="place" reg="Италия">Италию</name> стихи
+Еольски
+<l>И перьвому звенеть Алцейской Лирой.
+<l>Взгордися праведной заслугой, <name type="mythologic">муза</name>,
+<l>И увенчай главу Дельфийским лавром.<note resp="editor">Т. VII наст.
+изд., стр. 314-315, ╖ 268. <name type="person">Гораций</name>. Оды, III,
+30. Умышленное отступление допущено в стихе 8, где устранен малопонятный
+без комментария образ жреца, восходящего на <name
+type="place">Капитолий</name> в сопровождении молчаливой девы. Слова qua
+violens и т. д. (стихи 10-12) ошибочно отнесены к dicar (правильное
+отнесение их к deduxisse указано уже древними комментаторами <name
+type="person" reg="Гораций">Горация</name>). В отнесении слов ex humili к
+самому <name type="person" reg="Гораций">Горацию</name>, а не к <name
+type="person" reg="Давн">Давну</name> <name type="person" reg="Ломоносов М.
+В.">Ломоносов</name> следует наиболее распространенной
+интерпретации.</note>
+    </BODY>
+  </TEXT>
+</TEI.2>

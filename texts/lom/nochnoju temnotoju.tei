@@ -1,0 +1,147 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Ночною темнотою...</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+            <SURNAME>Ломоносов</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Головченко</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т.8. Поэзия.
+Ораторская проза. Надписи. 1732-1764 гг.</TITLE>
+            <EDITOR>Виноградов В. В., Андреев А. И., Блок Г. П.</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">ФЭБ: Фундаментальная
+электронная библиотека &quot;Русская литература и фольклор&quot;</XREF></DISTRIBUTOR>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1959</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Ночною темнотою...</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Ломоносов М. Краткое руководство к красноречию.
+Книга первая, в которой содержится риторика, показующая общие правила
+обоего красноречия, то есть оратории и поэзии. СПб.</PUBLISHER>
+                <DATE>1748</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>1747</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="AbAb" MET="Я3">
+<lg1 type="stanza">
+<l>Ночною темнотою
+<l>Покрылись небеса,
+<l>Все люди для покою
+<l>Сомкнули уж глаза.
+<l>Внезапно постучался
+<l>У двери <name type="mythologic">Купидон</name>,
+<l>Приятной перервался
+<l>В начале самом сон.
+<l><q>Кто так стучится смело?</q> -
+<l>Со гневом я вскричал;
+<l><q>Согрей обмерзло тело,</q> -
+<l>Сквозь дверь он отвечал, -
+<l><q>Чего ты устрашился?
+<l>Я - мальчик, чуть дышу,
+<l>Я ночью заблудился,
+<l>Обмок и весь дрожу</q>.
+<l>Тогда мне жалко стало,
+<l>Я свечку засветил,
+<l>Немедливши ни мало
+<l>К себе его пустил.
+<l>Увидел, что крилами
+<l>Он машет за спиной.
+<l>Колчан набит стрелами,
+<l>Лук стянут тетивой.
+<l>Жалея о нещастье,
+<l>Огонь я разложил
+<l>И при таком ненастье
+<l>К камину посадил.
+<l>Я теплыми руками
+<l>Холодны руки мял,
+<l>Я крылья и с кудрями
+<l>До суха выжимал.
+<l>Он чуть лиш ободрился:
+<l><q>Каков-то</q>, - молвил, - <q>лук?
+<l>В дожже, чать, повредился</q>.
+<l>И с словом стрелил вдруг.
+<l>Тут грудь мою пронзила
+<l>Преострая стрела
+<l>И сильно уязвила,
+<l>Как злобная пчела.
+<l>Он громко засмеялся
+<l>И тот час заплясал:
+<l><q>Чего ты испугался?</q> -
+<l>С насмешкою сказал, -
+<l><q>Мой лук еще годится.
+<l>И цел и с тетивой;
+<l>Ты будешь век крушиться
+<l>Отнынь, хозяин мой</q>.<note resp="editor">Т. VII наст. изд., стр. 366-
+368, ╖ 309. Анакреонтические стихотворения, 33 (31). <name type="person"
+reg="Ломоносов М. В.">Ломоносов</name> чрезвычайно искусно воспроизвел
+напевный характер оригинала, создаваемый совпадением четкого ритмического
+членения с синтаксическим членением текста. Перевод в общем точен; в
+начальных строках устранено описательное обозначение поздней ночной поры
+(<quote>когда Медведица поворачивается к руке Боота</quote>), которое в
+переводе выпадало бы из простого и непринужденного стиля стихотворения.
+<name type="person" reg="Курганов Н. Г.">Н. Г. Курганов</name> перепечатал
+этот перевод <name type="person" reg="Ломоносов М. В.">Ломоносова</name> в
+своем <title><orig reg="Письмовник">Письмовнике</orig></title> (Кург., стр.
+320).</note>
+    </BODY>
+  </TEXT>
+</TEI.2>

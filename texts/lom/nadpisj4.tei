@@ -1,0 +1,103 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Надпись 4 [к статуе <name type="person" reg="Пётр I">Петра
+Великаго</name>]</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+            <SURNAME>Ломоносов</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Головченко</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т. 8.
+Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</TITLE>
+            <EDITOR>Виноградов В. В., Андреев А. И., Блок Г. П.</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">ФЭБ: Фундаментальная
+электронная библиотека &quot;Русская литература и фольклор&quot;</XREF></DISTRIBUTOR>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1959</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Надпись 4 [к статуе <name type="person" reg="Пётр
+I">Петра Великаго</name>]</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Ломоносов М. Собрание разных сочинений в стихах
+и прозе. СПб.</PUBLISHER>
+                <DATE>1751</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>1750</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="Я6">
+<lg1 type="stanza">
+<l>Зваянным образам, что в древни времена
+<l>Героям ставили за славные походы,
+<l>Невежеством веков честь божеска дана,
+<l>И чтили жертвой их последовавши роды,
+<l>Что вера правая творить всегда претит.
+<l>Но вам простительно, о поздые потомки,
+<l>Когда, услышав вы дела Петровы громки,
+<l>Поставите олтарь пред сей Геройский вид;
+<l>Мы вас давно своим примером оправдали:
+<l>Чудясь делам Его, превышшим смертных сил,
+<l>Не верили, что <name type="person" reg="Пётр I">Он</name> един от
+смертных был,
+<l>Но в жизнь <name type="person" reg="Пётр I">Его</name> уже за <name
+type="biblical" reg="Бог">Бога</name> почитали.
+    </BODY>
+  </TEXT>
+</TEI.2>
