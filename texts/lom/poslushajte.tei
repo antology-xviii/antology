@@ -1,0 +1,133 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Послушайте, прошу, что старому случилось...</TITLE>
+
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+
+            <SURNAME>Ломоносов</SURNAME>
+
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Ульяна Палилова</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т.
+8.</TITLE>
+
+            <editor>В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+      <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">Фундаментальная
+
+электронная библиотека "Русская литература и
+
+фольклор"</XREF></DISTRIBUTOR>
+
+            <PUBPLACE>М.; Л.</PUBPLACE>
+            <DATE>1959</DATE>
+
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Послушайте, прошу, что старому случилось...</TITLE>
+
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Риторика.</PUBLISHER>
+                <PUBPLACE>СПб.</PUBPLACE>
+                <DATE>1748</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+<PROFILEDESC>
+      <CREATION>
+        <DATE certainty="ca">1747</DATE>
+
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="людские речи" TYPE="theme">
+
+    <SPAN FROM="WHOLE" VALUE="пересуды" TYPE="theme">
+
+<BODY ID="WHOLE"><DIV0 RHYME="Астрофич. п. р." MET="Я6">
+
+<lg1 type="stanza">
+<l>Послушайте, прошу, что старому случилось,
+<l>Когда ему гулять заблаго рассудилось.
+<l>Он ехал на осле, а следом парень шол;
+<l>И только лишь с горы они спустились в дол,
+<l>Прохожей осудил тотчас его на встрече:
+<l><q>Ах, как ты малому даешь бресть толь далече?</q>
+<l>Старик сошол с осла и сына посадил,
+<l>И только лишь за ним десяток раз ступил,
+
+
+<l>То люди начали указывать перстами:
+<l><q>Такими, вот, весь свет наполнен дураками:
+<l>Не можноль на осле им ехать обоим?</q>
+<l>Старик к ребенку сел и едет вместе с ним.
+<l>Однако, чуть минул местечка половину,
+<l>Весь рынок закричал: <q>Что мучишь так скотину?</q>
+<l>Тогда старик осла домой поворотил
+<l>И, скуки не стерпя, себе проговорил:
+<l><q>Как стану я смотреть на все людския речи,
+<l>То будет и осла взвалить к себе на плечи</q>.<note resp="editor"> Т. VII
+наст. изд., стр. 365-366, ╖ 308. Вольный перевод отрывка из басни
+<bibl><author><orig reg="Лафонтен Ж.
+де">Лафонтена</orig></author><title>Мельник, его сын и осел</title></bibl>,
+кн. III, &numero;1.</note>
+</body>
+
+</text>
+
+</tei.2>
+

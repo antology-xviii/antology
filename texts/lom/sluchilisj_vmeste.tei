@@ -1,0 +1,141 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
+]>
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Случились вместе два Астронома в пиру...</TITLE>
+
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Михаил</FORENAME>
+
+            <FORENAME TYPE="patronym">Васильевич</FORENAME>
+
+            <SURNAME>Ломоносов</SURNAME>
+
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Ульяна Палилова</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т.
+8.</TITLE>
+
+            <editor>В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
+      <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">Фундаментальная
+
+электронная библиотека "Русская литература и
+
+фольклор"</XREF></DISTRIBUTOR>
+
+            <PUBPLACE>М.; Л.</PUBPLACE>
+            <DATE>1959</DATE>
+
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Случились вместе два Астронома в пиру...</TITLE>
+
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Явление Венеры на Солнце, наблюденное в
+Санктпетербургской Академии наук майя 26 дня 1761 года.</PUBLISHER>
+                <PUBPLACE>СПб.</PUBPLACE>
+                <DATE>1761</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+<PROFILEDESC>
+      <CREATION>
+        <DATE>1761</DATE>
+
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="наука" TYPE="theme">
+
+    <SPAN FROM="WHOLE" VALUE="научные открытия" TYPE="theme">
+
+    <SPAN FROM="WHOLE" VALUE="астрономия" TYPE="theme">
+
+<BODY ID="WHOLE"><DIV0 RHYME=" Астрофич. п. р." MET="Я6">
+
+<lg1 type="stanza">
+<l>Случились вместе два Астронома в пиру
+<l>И спорили весьма между собой в жару.
+<l>Один твердил: <q><name type="place">Земля</name>, вертясь, круг <name
+type="place" reg="Солнце">Солнца</name> ходит</q>;
+<l>Другой, что <name type="place">Солнце</name> все с собой планеты водит.
+
+<l>Один <name type="person" reg="Коперник Н.">Коперник</name> был, другой
+слыл <name type="person" reg="Птолемей">Птоломей</name>.
+<l>Тут повар спор решил усмешкою своей.
+<l>Хозяин спрашивал: <q>Ты звезд теченье знаешь?
+<l>Скажи, как ты о сем сомненье разсуждаешь?</q>
+<l>Он дал такой ответ: <q>Что в том <name type="person" reg="Коперник
+Н.">Коперник</name> прав,
+<l>Я правду докажу, на <name type="place">Солнце</name> не бывав.
+<l>Кто видел простака из поваров такова,
+<l>Который бы вертел очаг кругом жаркова?</q><note
+resp="editor">Публикуемое стихотворение является оригинальным произведением
+<name type="person" reg="Ломоносов М. В.">Ломоносова</name>, но, как
+установлено <name type="person" reg="Благой Д. Д.">Д. Д. Благим</name>,
+аргумент, вложенный в уста повара, заимствован из весьма известного, много
+раз переиздававшегося во второй половине XVII в. прозаического произведения
+французского писателя <bibl><author><orig reg="Бержерак С. де"> Сирано де
+Бержерака</orig></author> <title>Иной свет, или Государства и империи
+Луны</title></bibl>, где автор говорит: <quote>Было бы одинаково смешно
+думать, что это великое светило [Солнце] станет вращаться вокруг точки, до
+которой ему нет никакого дела, как было бы смешно предположить при виде
+жареного жаворонка, что вокруг него вертелась печь</quote> (цитируется по
+русскому переводу, выпущенному отдельным изданием - М. - Л., 1931,
+стр. 137).</note>
+
+</body>
+
+</text>
+
+</tei.2>
+
