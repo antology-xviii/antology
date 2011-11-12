@@ -127,5 +127,5 @@ insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/marfa1.jpg$$, $$leading$$, 4);
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Марфа.tei$$, $$/images/figures/karamzin/marfa3.jpg$$, $$trailing$$, 1);
 
-insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Мелодор_к_Филалету.tei$$, $$/images/figures/karamzin/aglaya.jpg$$, $$leading$$, 1);
+insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Борнгольм.tei$$, $$/images/figures/karamzin/aglaya.jpg$$, $$leading$$, 1);
 insert into text_pictures (text_id, url, kind, sortkey) values ($$texts/Карамзин_Мелодор_к_Филалету.tei$$, $$/images/figures/karamzin/bastille.jpg$$, $$trailing$$, 1);
