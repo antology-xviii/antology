@@ -1,0 +1,143 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Дельфин и невежа хвастун</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Александр</FORENAME>
+            <FORENAME TYPE="patronym">Петрович</FORENAME>
+            <SURNAME>Сумароков</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Ольга Овчарская</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+<sourceDesc>
+  <biblFull>
+    <titleStmt>
+       <title level="a">Дельфин и невежа хвастун</title>
+       <title level="m" type="main">Полное собрание всех
+       сочинений, в стихах и прозе, покойного действительного статского
+       советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания
+       члена, Александра Петровича Сумарокова.
+        </title>
+        <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 2.</title>
+        <respStmt>
+        <resp>
+        Собраны и изданы в
+        удовольствие любителей российской учености
+        <name reg="Новиков Н.И." type="person">Николаем Новиковым</name>,
+членом
+        Вольного российского собрания при Императорском Московском
+        университете.
+        </resp>
+        </respStmt>
+    </titleStmt>
+    <publicationStmt>
+       <publisher>Университетская типография</publisher>
+       <pubPlace>Москва</pubPlace>
+       <date>1787</date>
+    </publicationStmt>
+  </biblFull>
+  </sourceDesc>
+	</filedesc>
+  &Encoding;
+  <PROFILEDESC>
+		<CREATION>
+			<date>1787</date>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
+<lg1 type="stanza">
+<l>Когда б невежи то побольше разбирали,
+<l>Как должно говорить, они бы меньше врали.
+<l><space dim="horizontal" extent="16 letters">Какой то человек
+<l><space dim="horizontal" extent="16 letters">В каком то море тонет,
+<l><space dim="horizontal" extent="16 letters">Окончевает век.
+<l><space dim="horizontal" extent="20 letters">Кричит и стонет.
+<l><space dim="horizontal" extent="16 letters">Сплетен такой рассказ,
+<l>Что будто жестоко Дельфины любят нас.
+<l>Немножко должно мне теперь полицемерить
+<l>Рассказу этому и я хочу поверить
+<l><space dim="horizontal" extent="29 letters">Хочу
+<l>Я пошлины за то в казну не заплачу.
+<l><space dim="horizontal" extent="10 letters">Дельфин стенящего спасает
+<l><space dim="horizontal" extent="10 letters">И на спину к себе бросает:
+<l>Мой всадник по морю гуляет на коне.
+<l><space dim="horizontal" extent="21 letters"><q>Скажи ты мне,</q>
+<l><space dim="horizontal" extent="10 letters"><q>В какой  родился  ты  стране?
+</q> -
+<l>Дельфин его спросил. Мой всадник отвечает:
+<l><q>Родился тамо я, а там и там бывал</q>.
+<l>Что ведомо ему, того не забывал,
+<l>И Географии Дельфина научает.
+<l>Дельфин его спросил: <q>В <name  type="place"  reg="Москва">Москве</name>
+бывал ли ты,</q>
+<l><q>Во обиталище девичьей красоты? </q>
+<l>В рассказы всадник мой гораздо углубился
+<l><space   dim="horizontal"    extent="22    letters"><name    type="place"
+reg="Москва">Москвы</name> не знал,
+<l>Однако  о   <name   type="place"   reg="Москва">Москве</name>,   вздыхая,
+вспоминал,
+<l>И говорит: он там со многими любился.
+<l>Дельфин его спросил: <q>Известна ли тебе</q>
+<l><q>В      <name      type="place"      reg="Россия">России</name>      <name
+type="place">Волга</name>? </q> - <q>Да, я счастья там и боле
+<l><space dim="horizontal" extent="17 letters">В любви имел себе,
+<l><space dim="horizontal" extent="16 letters">Цветов колико в поле,
+<l><space dim="horizontal" extent="23 letters">Толико там
+<space dim="horizontal" extent="23 letters">Прекрасных дам.
+<l><space   dim="horizontal"    extent="10    letters"><name    type="place"
+reg="Москва">Москвы</name> сей город больше вдвое,
+<l><space dim="horizontal" extent="10 letters">А может быть, и втрое</q>.
+<l><space dim="horizontal" extent="20 letters">На те слова
+<l>Дельфин ответствует проворному детине:
+<q><l>А этот город, ты со мной в котором ныне,
+<l>В котором путает безмозгла голова,
+<l><space  dim="horizontal"   extent="17   letters">И   <name   type="place"
+reg="Волга">Волги</name> больше вдвое,
+<l><space dim="horizontal" extent="17 letters">А может быть, и втрое
+<l><space dim="horizontal" extent="17 letters">А во стенах сих мест
+<l>Толика много дам, колико в небе звезд</q>.
+<l>Собросил со спины Дельфин сего детину
+<l><space dim="horizontal" extent="15 letters">И говорил еще:
+<l><space dim="horizontal" extent="15 letters"><q>Я спас тебя вотще;</q>
+<l><q>Мы возим на себе людей, а не скотину</q>.
+</BODY>
+</TEXT>
+</TEI.2>

@@ -1,0 +1,118 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Посол осел</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Александр</FORENAME>
+            <FORENAME TYPE="patronym">Петрович</FORENAME>
+            <SURNAME>Сумароков</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
+            <EDITOR>П.Н. Берков</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
+библиотека</XREF></DISTRIBUTOR>
+            <PUBPLACE>Л. </PUBPLACE>
+            <DATE>1957</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Посол осел</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER> А. П. Сумароков. Полное собрание всех
+сочинений.
+                  М.</PUBLISHER>
+                <DATE>1781</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+<PROFILEDESC>
+      <CREATION>
+        <DATE>?</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="дипломатия" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="глупость" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="Я6">
+<L>В <name type="place" reg="Венеция">Венеции</name>
+послом шалун какой-то был,
+<L>Был горд, и многим он довольно нагрубил.
+<L>Досадой на него венециане дышут,
+<L>И ко двору о том, отколь посол был, пишут.
+<L>Там ведают уже о тьме посольских врак.
+<L>Ответствуют: <q>Его простите, он дурак.
+<L>Не будет со ослом у человека драк</q>.
+<L>Они на то: <q>И мы не скудны здесь ослами,
+<L>Однако мы ослов не делаем послами</q>.
+</BODY>
+
+</TEXT>
+
+</TEI.2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

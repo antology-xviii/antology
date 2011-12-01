@@ -1,0 +1,119 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE> Из 110 псалма. Если Божий страх в сердце обитает </TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Александр</FORENAME>
+            <FORENAME TYPE="patronym">Петрович </FORENAME>
+            <SURNAME>Сумароков</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Ксения Оверина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+<sourceDesc>
+  <biblFull>
+    <titleStmt>
+       <title level="a">Из 110 псалма. Если Божий страх в сердце
+обитает</title>
+       <title level="m" type="main">Полное собрание всех
+       сочинений, в стихах и прозе, покойного действительного статского
+       советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания
+       члена, Александра Петровича Сумарокова.
+        </title>
+        <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн.
+16.</title>
+        <respStmt>
+        <resp>
+        Собраны и изданы в
+        удовольствие любителей российской учености
+        <name reg="Н. Новиков" type="person">Николаем Новиковым</name>,
+членом
+        Вольного российского собрания при Императорском Московском
+        университете.
+        </resp>
+        </respStmt>
+    </titleStmt>
+    <publicationStmt>
+       <publisher>Университетская типография</publisher>
+       <pubPlace>Москва</pubPlace>
+       <date>1787</date>
+    </publicationStmt>
+  </biblFull>
+            </SOURCEDESC>
+      </FILEDESC>
+&Encoding;
+<PROFILEDESC>
+      <CREATION>
+        <DATE></DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <catRef scheme="kind" target="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="величие Бога" TYPE="theme">
+        <SPAN FROM="WHOLE" VALUE="благочестие" TYPE="theme">
+<SPAN FROM="WHOLE" VALUE="вера" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="ААbb" MET="Х6">
+	<opener>
+           <emph>Исповемся тебе, Господи, всем сердцем моим.</emph>
+
+
+           <emph>По начальным литерам:</emph>
+
+
+           <emph rend="spacing">ЕКАТЕРИНА ВЕЛИКАЯ</emph>
+    </opener>
+
+<lg1 type="stanza"><l>Если Божий страх в сердце обитает,
+<l>К вышнему умом кто всегда взлетает,
+<l>Адаманта сей чище много раз,
+<l>Тверд как камень той в честности всяк час.
+
+<lg1 type="stanza"><l>Ежели не зрим Божья мы величья,
+<l>Разна чудеси многого отличья
+<l>И порядка в них пышна естества;
+<l>Не узрим вовек мы и божества.
+
+<lg1 type="stanza"><l>Ах! когда б его мы не забывали,
+<l>В добродетели б тверды пребывали:
+<l>Ей в нас место есть, только корень слаб:
+<l>Лютости страстей редкой в нас не раб.
+
+<lg1 type="stanza"><l>Истина одна нас путем да водит!
+<l>К трону в небеси ложь и не подходит.
+<l>Ангели Царя держат тамо трон:
+<l>Я погиб, когда мной погиб закон.
+</text>
+</tei.2>

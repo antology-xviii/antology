@@ -1,0 +1,118 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Зрящее мя безгласна</title>
+        <author>
+          <persName>
+            <forename>Александр</forename>
+            <forename type='patronym'>Петрович</forename>
+            <surname>Сумароков</surname>
+          </persName>
+        </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2011 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor>П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Зрящее мя безгласна</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Праздное время, в пользу
+употребленное</publisher>
+                <date>1760</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1760</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+<span from='whole' type='theme' value='смерть'>
+<span from='whole' type='theme' value='душа'>
+
+<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. п. р.">
+<l>Непреминуемой повержена судьбою,
+<l>Безгласна зря меня лежаща пред собою,
+<l>Восплачите о мне, знакомые, друзья,
+<l>Все сродники мои, все, кем любим был я!
+<l>Вчера беседовал я с вами,
+<l>И вдруг я смерть узрел перед очами:
+<l>Пришел ко мне престрашный смертный час,
+<l>Навек лишаюсь вас.
+<l>Но приидите все пред вечным расставаньем,
+<l>Целуйте мя уже последним целованьем,
+<l>Не буду с вами я сообщества иметь,
+<l>Ниж<emph>е</emph> беседовати впредь.
+<l>Душа престала в тленном теле:
+<l>Уже отселе
+<l>Иду
+<l>К нелицемерному суду,
+<l>Где вкупе предстоят владыко, раб, царь, воин,
+<l>Богат или убог, где равно всяк достоин,
+<l>От дел бо только всяк награду получит
+<l>И славу там и стыд.
+<l>Но всех прошу, молю, чтоб очи возносили
+<l>К небесной стороне
+<l>И чтобы обо мне
+<l>Все господа просили,
+<l>Чтоб я не свержен был
+<l>По дни от вас моей разлуки
+<l>За согрешения мои на место муки <note resp="editor">Место муки
+-ад.</note>,
+<l>Но чтобы я вступил
+<l>В сие жилище вечно<note resp="editor">Жилище вечно - рай.</note>,
+<l>Где жизни свет, веселье бесконечно!
+</body>
+  </text>
+</tei.2>
+

@@ -1,0 +1,124 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Кошка</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Александр</FORENAME>
+            <FORENAME TYPE="patronym">Петрович</FORENAME>
+            <SURNAME>Сумароков</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Ольга Овчарская</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+<sourceDesc>
+  <biblFull>
+    <titleStmt>
+       <title level="a">Кошка</title>
+       <title level="m" type="main">Полное собрание всех
+       сочинений, в стихах и прозе, покойного действительного статского
+       советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания
+       члена, Александра Петровича Сумарокова.
+        </title>
+        <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 1.</title>
+        <respStmt>
+        <resp>
+        Собраны и изданы в
+        удовольствие любителей российской учености
+        <name reg="Новиков Н.И." type="person">Николаем Новиковым</name>,
+членом
+        Вольного российского собрания при Императорском Московском
+        университете.
+        </resp>
+        </respStmt>
+    </titleStmt>
+    <publicationStmt>
+       <publisher>Университетская типография</publisher>
+       <pubPlace>Москва</pubPlace>
+       <date>1787</date>
+    </publicationStmt>
+  </biblFull>
+  </sourceDesc>
+  </fileDesc>
+  &Encoding;
+  <profileDesc>
+        <CREATION>1787</CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="verse">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
+<lg1 type="stanza">
+<l>Привычку одолеть гораздо трудно,
+<l><space dim="horizontal" extent="4 letters">Природу одолеть гораздо
+чудно.
+<l>Я нечто вам теперь об этом предложу,
+<l><space dim="horizontal" extent="17 letters">И басенку скажу.
+<l>Я кошек не люблю и кошечья языка,
+<l>А больше мне всего противна их музыка;
+<l><space dim="horizontal" extent="10 letters">Но был какой то господин;
+<l><space dim="horizontal" extent="5 letters">Хозяйки не имел, и жил один,
+<l><space dim="horizontal" extent="16 letters">И кошку, не в издевку,
+<l><space dim="horizontal" extent="21 letters">Любил как девку.
+<l>Да кошка по его не знает говорить.
+<l><space dim="horizontal" extent="5 letters">Просил богов, чтоб кошку
+претворить,
+<l><space dim="horizontal" extent="10 letters">Чтоб кошка человеком стала,
+<l>И под алмазами как барыня блистала.
+<l>Исполнили они желание его:
+<l>У кошки кошечья нет больше ничего.
+<l><space dim="horizontal" extent="10 letters">На кошке фишбейная юбка
+<l><space dim="horizontal" extent="15 letters">Из китовых усов,
+<l><space dim="horizontal" extent="5 letters">Алмазы светятся из волосов,
+<l><space dim="horizontal" extent="10 letters">И ходит кошка будто шлюпка,
+<l><space dim="horizontal" extent="10 letters">Да только по сухом пути
+<l><space dim="horizontal" extent="10 letters">Водой пешком нельзя идти;
+<l>у кошки не один костей на юбке ярус,
+<l>А юбка дуется в погоду будто парус.
+<l><space dim="horizontal" extent="5 letters">Настал его желаниям конец:
+<l><space dim="horizontal" extent="5 letters">Женился наш на кошке молодец,
+<l>И до приятнейша дошел часа и места;
+<l><space dim="horizontal" extent="17 letters">Он лег, легла невеста.
+<l>Вдруг выбежала мышь. О, рок! о, случай злой!
+<l>Вскочила барыня за ней с одра долой,
+<l>Пресеклась барину потешиться дорожка,
+<l><space dim="horizontal" extent="5 letters">Вскочила барыня - и стала
+кошка.
+</BODY>
+</TEXT>
+</TEI.2>
+
+
+
