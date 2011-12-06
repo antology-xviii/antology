@@ -48,7 +48,7 @@ LEADING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'leading' $pict_or
 INLINE_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'inline' $pict_ordering")" 
 TRAILING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'trailing' $pict_ordering")" 
 
-SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R \
+SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R -D.\
     -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \
     -V"(define show-speaker-only $SHOW_SPEAKER)" \
     -V"(define leading-pictures '($LEADING_PICTURES))" \
