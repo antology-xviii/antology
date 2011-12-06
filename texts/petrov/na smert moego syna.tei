@@ -1,0 +1,226 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+	<!ENTITY icystress   SDATA "[icystress  ]">
+	<!ENTITY ocystress   SDATA "[ocystress  ]">
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Смерть моего сына марта 1795 года</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Василий</FORENAME>
+            <FORENAME TYPE="patronym">Петрович</FORENAME>
+            <SURNAME>Петров</SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Татьяна Тачкова</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2010 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE>Поэты XVIII века. Т. 1.</TITLE>
+<editor role="compiler">Г. П. Макогоненко, И. З. Серман</editor>
+<editor role="commentator">Н. Д. Кочеткова</editor>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Художественная литература</PUBLISHER>
+            <PUBPLACE>Л.</PUBPLACE>
+            <DATE>1972</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Смерть моего сына марта 1795 года</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER> В. Петров Сочинения. Ч.3.
+                  СПб.</PUBLISHER>
+                <DATE>1811</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	&Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>1795</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="смерть" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="AbAb" MET="Я4">
+
+<lg1 type="stanza">
+<l>Так нет тебя, дитя любезно!
+<l>Сомкнул ты очи навсегда
+<l>И лег, всем зрелище преслезно,
+<l>О, скорбь! о, лютая беда!
+
+<lg1 type="stanza">
+<l>Страдалец, мук не заслуживший,
+<l>За что ты горьку чашу пил?
+<l>Меж человеков ангел живший,
+<l>Чем тако небо оскорбил?
+
+<lg1 type="stanza">
+<l>Не ты, не ты, отец твой грешен,
+<l>Отец несносен твой судьбе.
+<l>Затем он был тобой потешен,
+<l>Чтоб после плакал о тебе.
+
+<lg1 type="stanza">
+<l>Я плачу, глаз не осушая,
+<l>И стоном надрываю грудь.
+<l>И льзя ль, себя не сокрушая,
+<l><name type="Николай, сын В. П. Петрова">Николеньку</name> воспомянуть?
+
+<lg1 type="stanza">
+<l>Душа велика в теле малом,
+<l>О, как он люту скорбь сносил,
+<l>И коим огражден забралом,
+<l>Явил в борьбе с ней столько сил?
+
+<lg1 type="stanza">
+<l>Не вышла вздоха ни едина,
+<l>Боль тщился в сердце запереть.
+<l>Седый отец! учись у сына,
+<l>Как должно мужу умереть.
+
+<lg1 type="stanza">
+<l>Расстанься мудрых ты с собором;
+<l>Оставь все книги наконец.
+<l>В дому твоем, твоим под взором,
+<l>Взрастал безграмотный мудрец.
+
+<lg1 type="stanza">
+<l>Читай его, и помни вечно,
+<l>Как умер он, и как он жил:
+<l>Он жизнию своей, конечно,
+<l>Тебя и смертью одолжил.
+
+<lg1 type="stanza">
+<l>Учися быть ему подобен:
+<l>Печаль внутрь сердца ты запри;
+<l>Живи, как он, правдив, незлобен;
+<l>Как он, нетрепетно умри.
+
+<lg1 type="stanza">
+<l>О ангел, существо бесплотно,
+<l>Предтеча мой во оный свет!
+<l>Иду туда, иду охотно,
+<l>Куда меня твой взгляд зовет.
+
+<lg1 type="stanza">
+<l>Ах!.. ты еще ко мне взираешь,
+<l>В мой одр твой тихий ход клоня!
+<l>Ко мне ты руки простираешь,
+<l>Объяти силишься меня!
+
+<lg1 type="stanza">
+<l>Иду, от смертных устранюся;
+<l>Теку с поспешностью в твой след:
+<l>Да там с тобой соединюся,
+<l>Где нет печалей, страхов, бед.
+
+<lg1 type="stanza">
+<l>Мы станем тамо наед&icystress;не
+<l>Беседовать, в садах гулять;
+<l>Я буду там тебя, мой сыне!
+<l>А ты меня увеселять.
+
+<lg1 type="stanza">
+<l>За радостию п&ocystress;йдет радость,
+<l>За лирным шумом - новый шум;
+<l>Со сладостью сплетется сладость:
+<l>Плененья чувств, восторги дум!
+
+<lg1 type="stanza">
+<l>Но как?.. я грешен, ты невинен;
+<l>Я вихрь, ты сладка тишина;
+<l>Я буй, ты ангел благочинен -
+<l>Часть наша будет ли равна?
+
+<lg1 type="stanza">
+<l>Хотя всем милы круги звездны,
+<l>И я достигнуть в оны льщусь,
+<l>Но, меж тобой и мною бездны
+<l>Чтобы не пролегли, страшусь.
+
+<lg1 type="stanza">
+<l>Ты будешь в цвето<но>сном поле,
+<l>Во недрах самого творца;
+<l>Взгляни, дитя, ко мне оттоле,
+<l>Утешь улыбкою отца.
+
+<lg1 type="stanza">
+<l>Утешь его улыбкой тою,
+<l>Какой ты тешил здесь его;
+<l>Зарею облачен златою
+<l>Кинь нань луч блеска твоего.
+
+<lg1 type="stanza">
+<l>Ты рад меня одеть всем светом;
+<l>Ты рад, моя о иста кровь!
+<l>Так в сердце, от родства согретом,
+<l>Найду и тамо я любовь!
+
+<lg1 type="stanza">
+<l>Когда все ставят твердь защиты
+<l>В героях из своей семьи,
+<l>И мне врата в <name type="biblicalPlace" reg="Эдем">Эдем</name> открыты:
+<l>Там блещут сынове мои.
+
+<lg1 type="stanza">
+<l>Но я доколе пресмыкаюсь,
+<l>Болезнен, в бренном телеси,
+<l>Покровом я твоим ласкаюсь:
+<l>Сияй мне, сыне, с небеси.
+
+<lg1 type="stanza">
+<l>Ты благ, ты ангелом быть стоишь,
+<l>Будь страж, хранитель буди мой.
+<l>Ты всё во благо мне устроишь,
+<l>Души и сердца вождь прямой.
+
+<lg1 type="stanza">
+<l>Ты знаешь, в чем моя потреба,
+<l>Куда желанье я простер:
+<l>Тебе блюсти дано от неба
+<l>Меня, мать, братьев и сестер.
+
+
+</text>
+</tei.2>
