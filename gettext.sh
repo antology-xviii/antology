@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 TAGCOLL="$1"
 
@@ -48,11 +48,11 @@ LEADING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'leading' $pict_or
 INLINE_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'inline' $pict_ordering")" 
 TRAILING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'trailing' $pict_ordering")" 
 
-SP_ENCODING=KOI8-R openjade -t sgml -bKOI8-R -D.\
+SP_ENCODING=KOI8-R openjade -t sgml -D.\
     -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \
     -V"(define show-speaker-only $SHOW_SPEAKER)" \
     -V"(define leading-pictures '($LEADING_PICTURES))" \
     -V"(define inline-pictures '($INLINE_PICTURES))" \
     -V"(define trailing-pictures '($TRAILING_PICTURES))" \
     -Vcurrent-file="${2#/}" \
-    -d mainconv.dssl ".$2"
+    -d mainconv.dssl ".$2" | tee /tmp/spy.openjade.$PID

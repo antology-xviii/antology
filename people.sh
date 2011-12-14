@@ -1,4 +1,4 @@
-#! /bin/sh -f
+#! /bin/bash -f
 
 cat <<'EOF'
 <html>

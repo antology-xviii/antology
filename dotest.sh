@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 SESSIONDIR="${TMPDIR:-/tmp}/.tests-${2#/}"
 
