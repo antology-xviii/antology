@@ -12,24 +12,38 @@
           pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/author/persname, Author),
                    teitools:abbreviate_name(Author, Author_Name)"/>
     <meta name="DC.creator" content="%(Creator)%" pwp:att="%"
-          pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(text), Creator)"/>
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(normalize_space), Creator)"/>
     <meta name="DC.publisher" content="%(Publisher)%" pwp:att="%"
-          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/publisher(text), Publisher)" />
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/publisher(normalize_space), Publisher)" />
     <meta name="DC.rights" content="%(Rights)%" pwp:att="%"
-          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/availability(text), Rights)"/>
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/availability(normalize_space), Rights)"/>
     <meta name="DC.keywords" content="%(Topics)%" pwp:att="%"
           pwp:ask="findall(T, xpath(Source, //span(@type = 'theme', @value), T), X), 
                    atomic_list_concat(X, ', ', Topics)" />
   </head>
   <body>
     <div pwp:use="'www/templates/navigation.pwp'" pwp:how="xml-file" pwp:tag="-" />
-    <div>      
-      <div pwp:use="Contents" pwp:how="xml" />
+    <div>
+      <table class="passport">
+        <tr><td class="passport-key"/><td class="passport-value" pwp:ask="
+        xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), Title),
+        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), Editor0),
+        atomic_list_concat(['Ред. ', Editor0, '. '], Editor) ; Editor = ''),
+        xpath_chk(Source, teiheader/filedesc/publicationstmt/pubplace(normalize_space), PubPlace),
+        xpath_chk(Source, teiheader/filedesc/publicationstmt/publisher(normalize_space), Publisher),
+        xpath_chk(Source, teiheader/filedesc/publicationstmt/date(normalize_space), PubDate),
+        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/seriesstmt/title(normalize_space), SeriesTitle0),
+        atomic_list_concat(['(', SeriesTitle0, ') '], SeriesTitle) ; SeriesTitle = ''),
+        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/notesstmt(normalize_space), Notes); Notes = ''),
+        " pwp:use="" /></tr>
+        <tr>
+      </table>
+      <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
       <div class="comments">
         <a href="">Логическая разметка текста:</a>
         <span class="tei-principal" 
-              pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(text), Principal)"
+              pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(normalize_space), Principal)"
               pwp:use="Principal" />
       </div>
     </div>
