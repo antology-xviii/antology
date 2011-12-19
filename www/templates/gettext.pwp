@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:pwp="http://www.cs.otago.ac.nz/staffpriv/ok/pwp.pl"
+      pwp:ask="use_module(library(xpath))">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8"
+          pwp:use="'www/templates/header.pwp'" pwp:how="xml-file" pwp:tag="-" />
+    <meta name="title" content="" pwp:att="%" />
+    <meta name="DC.author" content="%(Author_Name)%" pwp:att="%" 
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/author/persname, Author),
+                   teitools:abbreviate_name(Author, Author_Name)"/>
+    <meta name="DC.creator" content="%(Creator)%" pwp:att="%"
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(text), Creator)"/>
+    <meta name="DC.publisher" content="%(Publisher)%" pwp:att="%"
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/publisher(text), Publisher)" />
+    <meta name="DC.rights" content="%(Rights)%" pwp:att="%"
+          pwp:ask="xpath_chk(Source, teiheader/filedesc/publicationstmt/availability(text), Rights)"/>
+    <meta name="DC.keywords" content="%(Topics)%" pwp:att="%"
+          pwp:ask="findall(T, xpath(Source, //span(@type = 'theme', @value), T), X), 
+                   atomic_list_concat(X, ', ', Topics)" />
+  </head>
+  <body>
+    <div pwp:use="'www/templates/navigation.pwp'" pwp:how="xml-file" pwp:tag="-" />
+    <div>      
+      <div pwp:use="Contents" pwp:how="xml" />
+      <hr/>
+      <div class="comments">
+        <a href="">Логическая разметка текста:</a>
+        <span class="tei-principal" 
+              pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(text), Principal)"
+              pwp:use="Principal" />
+      </div>
+    </div>
+    <div pwp:use="'www/templates/footer.pwp'" pwp:how="xml-file" pwp:tag="-" />
+  </body>
+</html>

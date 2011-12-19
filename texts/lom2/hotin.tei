@@ -18,7 +18,7 @@
 	<!ENTITY ycystress SDATA "[ycystress ]">
 	<!ENTITY iecystress SDATA "[iecystress ]">
 	<!ENTITY ocystress SDATA "[ocystress ]">
-	<!ENTITY Encoding SYSTEM "encoding.tei">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
 	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
 ]>
 
