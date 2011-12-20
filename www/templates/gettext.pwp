@@ -105,6 +105,14 @@
                                               LitKindDescr)" pwp:tag="-"/>
           </td>
         </tr>
+        <tr pwp:ask="xpath_chk(Source, teiheader/profiledesc/creation/date(normalize_space), WDate)">
+          <td class="passport-key">Год написания:</td>
+          <td class="passport-value" pwp:use="WDate">
+        </tr>
+        <tr pwp:ask="xpath_chk(Source, teiheader/profiledesc/creation/name(@type='place',normalize_space), WPlace)">
+          <td class="passport-key">Место написания:</td>
+          <td class="passport-value" pwp:use="WPlace">
+        </tr>
       </table>
       <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
