@@ -154,29 +154,23 @@ process_template(Rules, State, Dom, (A , B), Result) :- !,
     (ResultA \= [] ->
      (process_template(Rules, State, Dom, B, ResultB), append(ResultA, ResultB, Result)) ;
      Result = ResultA).
-process_template(_, _, _, X, [X]) :- assertion(atom(X) ; X = sdata(_) ; X = ndata(_) ; X = pi(_)).
+process_template(_, _, _, X, [X]) :-assertion(atom(X) ; X = sdata(_) ; X = ndata(_) ; X = pi(_)).
 
-process_templatex(X, Y, Z, T, U) :-
-    once(writeln((Z -> T))),
-    process_template(X, Y, Z, T, U),
-    writeln(U).
-process_templatex(_, _, _, _, _) :- writeln(fail), fail.
-
-transform_dom(_, _, [], []).
-transform_dom(Rules, State, [H | T], Result) :-
+transform_dom(_, _, [], []) :- !.
+transform_dom(Rules, State, [H | T], Result) :- !,
     transform_dom(Rules, State, H, Result1),
     transform_dom(Rules, State, T, Result2),
     append(Result1, Result2, Result).
 transform_dom(Rules, State, Source, Result) :-
     call(Rules, Source, Template),
-    process_templatex(Rules, State, Source, Template, Result),
+    process_template(Rules, State, Source, Template, Result),
     make_processed(Source).
 transform_dom(Rules, State, X, Result) :-
-    X = element(_, _, Children),
+    X = element(_, _, Children), !,
     transform_dom(Rules, State, Children, Result),
     make_processed(X).
-transform_dom(_, _, pi(_), []).
-transform_dom(_, _, ndata(_), []).
+transform_dom(_, _, pi(_), []) :- !.
+transform_dom(_, _, ndata(_), []) :- !.
 transform_dom(_, State, _, []) :- memberchk(notext, State), !.
 transform_dom(_, _, X, [X]) :- assertion(atom(X) ; X = sdata(_)).
 

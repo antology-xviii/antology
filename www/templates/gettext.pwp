@@ -28,29 +28,34 @@
         <tr>
           <td class="passport-key">Цит. по.:</td>
           <td class="passport-value">
-            <span 
+            <span class="tei-title-passport"
                pwp:ask="xpath_chk(Source, 
                         teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), 
                         Title)" 
                pwp:use="Title"/>. 
-            <span pwp:ask="xpath_chk(Source, 
-                           teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space),
+            <span class="tei-editor-passport"
+                  pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/titlestmt/editor(normalize_space),
                            Editor)" pwp:tag="-">
               Ред. <span pwp:use="Editor"/>. 
             </span>
-            <span pwp:ask="xpath_chk(Source, 
-                           teiheader/filedesc/publicationstmt/pubplace(normalize_space), 
+            <span class="tei-pubplace-passport" 
+                  pwp:ask="xpath_chk(Source,
+                           teiheader/filedesc/sourcedesc/biblfull/publicationstmt/pubplace(normalize_space), 
                            PubPlace)" 
                   pwp:use="PubPlace"/>,
-            <span pwp:ask="xpath_chk(Source, 
-                           teiheader/filedesc/publicationstmt/publisher(normalize_space), 
+            <span class="tei-publisher-passport" 
+                  pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/publicationstmt/publisher(normalize_space), 
                            Publisher)"
                   pwp:use="Publisher" />,
-            <span pwp:ask="xpath_chk(Source, 
-                           teiheader/filedesc/publicationstmt/date(normalize_space),
+            <span class="tei-date-passport"  
+                  pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/publicationstmt/date(normalize_space),
                            PubDate)"
                   pwp:use="PubDate"/>.
-            <span pwp:ask="xpath_chk(Source, 
+            <span class="tei-title-passport-series" 
+                  pwp:ask="xpath_chk(Source, 
                            teiheader/filedesc/sourcedesc/biblfull/seriesstmt/title(normalize_space), 
                            SeriesTitle)">
               (<span pwp:use="SeriesTitle"/>).
@@ -59,10 +64,11 @@
                            teiheader/filedesc/sourcedesc/biblfull/notesstmt(normalize_space), 
                            Notes)"
                   pwp:use="Notes"/>
-            <span pwp:ask="xpath_chk(Source,
+            <span class="tei-distributor-passport"
+                  pwp:ask="xpath_chk(Source,
                            teiheader/filedesc/sourcedesc/biblfull/publicationstmt/distributor,
                            Distrib)">
-              [<span pwp:ask="teihtml:tei_to_html([], Distrib, DistribFmt)" 
+              [<span pwp:ask="once(teihtml:tei_to_html([], Distrib, DistribFmt))" 
                      pwp:use="DistribFmt"
                      pwp:how="xml"/>]
             </span>
@@ -72,37 +78,38 @@
                      Original)">
           <td class="passport-key">Первая публикация:</td>
           <td class="passport-value">
-            <span pwp:ask="xpath(Original, titlestmt/title, OTitle), 
-                           writeln(OTitle),
-                           tei_to_html([reference = true], OTitle, OTitleFmt)"
+            <span class="tei-title-passport" 
+                  pwp:ask="findall(OTitle, xpath(Original, titlestmt/title, OTitle), OTitles), 
+                           once(teihtml:tei_to_html([reference = true], OTitles, OTitleFmt))"
                   pwp:use="OTitleFmt" pwp:how="xml" />
             <strong>в:</strong>
-            <span pwp:ask="xpath(Original, publicationstmt/publisher(normalize_space), Publisher)"
+            <span class="tei-publisher-passport"
+                  pwp:ask="xpath(Original, publicationstmt/publisher(normalize_space), Publisher)"
                   pwp:use="Publisher"/>,
-            <span pwp:ask="xpath(Original, publicationstmt/date(normalize_space), PubDate)"
+            <span class="tei-date-passport"
+                  pwp:ask="xpath(Original, publicationstmt/date(normalize_space), PubDate)"
                   pwp:use="PubDate"/>
           </td>
         </tr>
         <tr pwp:ask="xpath_chk(Source, //performance/p/date(normalize_space), PDate)">
           <td class="passport-key">Первая постановка:</td>
-          <td class="passport-value" pwp:use="PDate"/>
+          <td class="passport-value" class="tei-date-passport" pwp:use="PDate"/>
         </tr>
         <tr>
           <td class="passport-key">Литературный род:</td>
           <td class="passport-value" pwp:ask="xpath_chk(Source, 
                                               teiheader/profiledesc/textclass/catref(@scheme='kind',@target),
-                                              LitKind),
-                                              xpath_chk(Source,
-                                              teiheader/encodingdesc/classdecl/taxonomy(@id='kind')/category(@id=LitKind,normalize_space),
-                                              LitKindDescr)">
-            <span pwp:use="LitKindDescr" pwp:tag="-"/>
+                                              [LitKind])">
+            <span pwp:use="LitKindDescr" pwp:ask="xpath_chk(Source,
+                                                  teiheader/encodingdesc/classdecl//category(@id=LitKind)/catdesc(normalize_space),
+                                              LitKindDescr)" pwp:tag="-"/>
           </td>
         </tr>
       </table>
       <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
       <div class="comments">
-        <a href="">Логическая разметка текста:</a>
+        <a href="/cgi-bin/structure.cgi%(Path)%" pwp:att="%">Логическая разметка текста:</a>
         <span class="tei-principal" 
               pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/principal(normalize_space), Principal)"
               pwp:use="Principal" />

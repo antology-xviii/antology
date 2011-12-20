@@ -11,7 +11,7 @@ main :-
     uri_encoded(path, Filename, Path),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
-    open('www/templates/gettext.pwp', read, Template),
+    open('www/templates/gettext.pwp', read, Template, [encoding(octet)]),
     load_tei(Filename0, Source),
     tei_to_html([], Source, Formatted),
     writeln('Content-Type: text/html; charset=utf-8'),

@@ -97,16 +97,16 @@ teirule(element(label, _, _), ((list = synced ; list = simple ; list = sync) -> 
 teirule(element(label, _, _), []).
 
 teirule(element(list, _, _), (@type = ordered -> (list = ordered) : [&(head),
-                                                 element(ol, [class='tei-list.ordered'], &(item))])).
+                                                 element(ol, [class='tei-list-ordered'], &(item))])).
 teirule(element(list, _, _), (@type = bulleted -> (list = bulleted) : [&(head), 
-                                                  element(ul, [class='tei-list.bulleted'], &(item))])).
+                                                  element(ul, [class='tei-list-bulleted'], &(item))])).
 teirule(element(list, _, _), (@type = dialogue -> (list = definition) : [&(head), 
-                                                  element(dl, [class='tei-list.dialogue'], &(item))])).
+                                                  element(dl, [class='tei-list-dialogue'], &(item))])).
 teirule(element(list, _, _), (@type = bill -> (list = bill) :
-                             element(table, [class='tei-list.bulleted'], &))).
-teirule(element(list, _, _), ((@type = simple , @corresp) -> once([element(table, [class='tei-list.simple'],
+                             element(table, [class='tei-list-bill'], &))).
+teirule(element(list, _, _), ((@type = simple , @corresp) -> once([element(table, [class='tei-list-simple'],
                                                                                (list = sync) : &)]))).
-teirule(element(list, _, _), (@type = simple -> element(table, [class = 'tei-list.simple'],
+teirule(element(list, _, _), (@type = simple -> element(table, [class = 'tei-list-simple'],
                                                         (list = simple) : &))).
 teirule(element(table, _, _), [element(table, [class='tei-table'], &)]).
 teirule(element(tr, _, _), [element(tr, [class='tei-row'], &)]).
@@ -125,13 +125,13 @@ teirule(element(argument, _, _), [element(p, [class='tei-signed'],
 teirule(element(epigraph, _, _), [element(p, [class='tei-epigraph'], &)]).
 
 teirule(element(sp, _, _), (aligned -> [element(tr, [], [element(td, [class='tei-sp'], &)])])).
-teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp.corresp'],
+teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp-corresp'],
                                                       [(aligned = true) : &(self),
                                                        (aligned = true) : call(teihtml:find_corresponding),
-                                                       element(big, [class='tei-sp.corresp'], ['}'])])))).
+                                                       element(big, [class='tei-sp-corresp'], ['}'])])))).
 
 teirule(element(speaker, _, _), [element(strong, [class='tei-speaker'], &)]).
-teirule(element(stage, _, _), (@type = delivery -> [element(em, [class='tei-stage.delivery'], &)])).
+teirule(element(stage, _, _), (@type = delivery -> [element(em, [class='tei-stage-delivery'], &)])).
 teirule(element(stage, _, _), element(p, [class='tei-stage'], &)).
 teirule(element(move, _, _), []).
 teirule(element(castlist, _, _), (list = cast) : [&(head), element(ul, [class='tei-castlist'], &(castitem))]).
@@ -152,10 +152,11 @@ teirule(element(socalled, _, _), element(em, [class='tei-socalled'], &)).
 teirule(element(hi, _, _), element(em, [class='tei-hi'], &)).
 teirule(element(trailer, _, _), element(p, [class='tei-trailer'], &)).
 teirule(element(closer, _, _), element(p, [class='tei-closer'], &)).
-teirule(element(note, _, _), (@place = inline -> element(small, [class='tei-note.inline'], &))).
-teirule(element(note, _, _), (footnote -> [element(sup, [class='tei-note.footnote'],
-                                                   element(a, [class='tei-note.footnote',
-                                                               name='note.footnote.' : &(self(@id)),
+teirule(element(note, _, _), ((footnote, @place = inline) -> [])).
+teirule(element(note, _, _), (@place = inline -> element(small, [class='tei-note-inline'], &))).
+teirule(element(note, _, _), (footnote -> [element(sup, [class='tei-note-footnote'],
+                                                   element(a, [class='tei-note-footnote',
+                                                               name='note-footnote.' : &(self(@id)),
                                                                href='#note.anchor.' : &(self(@id))],
                                                            [&(self(@n))])),
                                            &, call(noteresp)])).
