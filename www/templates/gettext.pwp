@@ -7,6 +7,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html" charset="UTF-8"
           pwp:use="'www/templates/header.pwp'" pwp:how="xml-file" pwp:tag="-" />
+    <link rel="stylesheet" href="/css/tei.css" type="text/css" />
     <meta name="title" content="" pwp:att="%" />
     <meta name="DC.author" content="%(Author_Name)%" pwp:att="%" 
           pwp:ask="xpath_chk(Source, teiheader/filedesc/titlestmt/author/persname, Author),
