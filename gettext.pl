@@ -6,6 +6,7 @@
 :- use_module(library(uri)).
 
 main :-
+    working_directory('/home/antology/data'),
     catch(main0, E, on_error(E)).
 
 main0 :-
@@ -16,12 +17,17 @@ main0 :-
     current_output(Stdout),
     open('www/templates/gettext.pwp', read, Template, [encoding(octet)]),
     load_tei(Filename0, Source),
-    tei_to_html([], Source, Formatted),
+    tei_to_html([], Source, Formatted), !,
     writeln('Content-Type: text/html; charset=utf-8'),
     nl,
     pwp_stream(Template, Stdout, ['Path' = Path,
                                   'Source' = Source,
                                   'Contents' = Formatted]).
+
+main0 :- writeln('Content-Type: text/plain'),
+    writeln('Status: 404 Not Found'),
+    nl,
+    writeln('Not found').
 
 on_error(E) :-
     print_message(error, E),
