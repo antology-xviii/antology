@@ -3,10 +3,12 @@
 :- use_module('teihtml.pl').
 :- use_module(library(pwp)).
 :- use_module(library(cgi)).
+:- use_module(library(uri)).
 
 main :-
     cgi_get_form(Arguments),
-    getenv('PATH_INFO', Filename),
+    getenv('PATH_INFO', Path),
+    uri_encoded(path, Filename, Path),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
     open('www/templates/gettext.pwp', read, Template),
@@ -14,4 +16,6 @@ main :-
     tei_to_html([], Source, Formatted),
     writeln('Content-Type: text/html; charset=utf-8'),
     nl,
-    pwp_stream(Template, Stdout, ['Source' = Source, 'Contents' = Formatted]).
+    pwp_stream(Template, Stdout, ['Path' = Path,
+                                  'Source' = Source,
+                                  'Contents' = Formatted]).

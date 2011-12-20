@@ -37,6 +37,7 @@ teirule(element('tei.2', _, _), [element(div, [],
 teirule(element(bibl, _, _), bibl : &).
 teirule(element(author, _, _), bibl -> &).
 teirule(element(author, _, _), element(p, [class='tei-author'], &)).
+teirule(element(title, _, _), (reference -> &)).
 teirule(element(title, _, _), (bibl -> ['"', &, '"'])).
 teirule(element(title, _, _), (@type = subordinate -> element(h : (level + 1), [], &))).
 teirule(element(title, _, _), (@type = subordinate -> element(h2, [], &))).

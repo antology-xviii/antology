@@ -25,18 +25,79 @@
     <div pwp:use="'www/templates/navigation.pwp'" pwp:how="xml-file" pwp:tag="-" />
     <div>
       <table class="passport">
-        <tr><td class="passport-key"/><td class="passport-value" pwp:ask="
-        xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), Title),
-        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), Editor0),
-        atomic_list_concat(['Ред. ', Editor0, '. '], Editor) ; Editor = ''),
-        xpath_chk(Source, teiheader/filedesc/publicationstmt/pubplace(normalize_space), PubPlace),
-        xpath_chk(Source, teiheader/filedesc/publicationstmt/publisher(normalize_space), Publisher),
-        xpath_chk(Source, teiheader/filedesc/publicationstmt/date(normalize_space), PubDate),
-        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/seriesstmt/title(normalize_space), SeriesTitle0),
-        atomic_list_concat(['(', SeriesTitle0, ') '], SeriesTitle) ; SeriesTitle = ''),
-        (xpath_chk(Source, teiheader/filedesc/sourcedesc/biblfull/notesstmt(normalize_space), Notes); Notes = ''),
-        " pwp:use="" /></tr>
         <tr>
+          <td class="passport-key">Цит. по.:</td>
+          <td class="passport-value">
+            <span 
+               pwp:ask="xpath_chk(Source, 
+                        teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space), 
+                        Title)" 
+               pwp:use="Title"/>. 
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/titlestmt/title(normalize_space),
+                           Editor)" pwp:tag="-">
+              Ред. <span pwp:use="Editor"/>. 
+            </span>
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/publicationstmt/pubplace(normalize_space), 
+                           PubPlace)" 
+                  pwp:use="PubPlace"/>,
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/publicationstmt/publisher(normalize_space), 
+                           Publisher)"
+                  pwp:use="Publisher" />,
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/publicationstmt/date(normalize_space),
+                           PubDate)"
+                  pwp:use="PubDate"/>.
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/seriesstmt/title(normalize_space), 
+                           SeriesTitle)">
+              (<span pwp:use="SeriesTitle"/>).
+            </span>
+            <span pwp:ask="xpath_chk(Source, 
+                           teiheader/filedesc/sourcedesc/biblfull/notesstmt(normalize_space), 
+                           Notes)"
+                  pwp:use="Notes"/>
+            <span pwp:ask="xpath_chk(Source,
+                           teiheader/filedesc/sourcedesc/biblfull/publicationstmt/distributor,
+                           Distrib)">
+              [<span pwp:ask="teihtml:tei_to_html([], Distrib, DistribFmt)" 
+                     pwp:use="DistribFmt"
+                     pwp:how="xml"/>]
+            </span>
+        </td></tr>
+        <tr pwp:ask="xpath_chk(Source,
+                     teiheader/filedesc/sourcedesc/biblfull/sourcedesc/biblfull,
+                     Original)">
+          <td class="passport-key">Первая публикация:</td>
+          <td class="passport-value">
+            <span pwp:ask="xpath(Original, titlestmt/title, OTitle), 
+                           writeln(OTitle),
+                           tei_to_html([reference = true], OTitle, OTitleFmt)"
+                  pwp:use="OTitleFmt" pwp:how="xml" />
+            <strong>в:</strong>
+            <span pwp:ask="xpath(Original, publicationstmt/publisher(normalize_space), Publisher)"
+                  pwp:use="Publisher"/>,
+            <span pwp:ask="xpath(Original, publicationstmt/date(normalize_space), PubDate)"
+                  pwp:use="PubDate"/>
+          </td>
+        </tr>
+        <tr pwp:ask="xpath_chk(Source, //performance/p/date(normalize_space), PDate)">
+          <td class="passport-key">Первая постановка:</td>
+          <td class="passport-value" pwp:use="PDate"/>
+        </tr>
+        <tr>
+          <td class="passport-key">Литературный род:</td>
+          <td class="passport-value" pwp:ask="xpath_chk(Source, 
+                                              teiheader/profiledesc/textclass/catref(@scheme='kind',@target),
+                                              LitKind),
+                                              xpath_chk(Source,
+                                              teiheader/encodingdesc/classdecl/taxonomy(@id='kind')/category(@id=LitKind,normalize_space),
+                                              LitKindDescr)">
+            <span pwp:use="LitKindDescr" pwp:tag="-"/>
+          </td>
+        </tr>
       </table>
       <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
