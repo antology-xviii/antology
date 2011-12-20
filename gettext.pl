@@ -6,6 +6,9 @@
 :- use_module(library(uri)).
 
 main :-
+    catch(main, E, on_error(E)).
+
+main0 :-
     cgi_get_form(Arguments),
     getenv('PATH_INFO', Path),
     uri_encoded(path, Filename, Path),
@@ -19,3 +22,10 @@ main :-
     pwp_stream(Template, Stdout, ['Path' = Path,
                                   'Source' = Source,
                                   'Contents' = Formatted]).
+
+on_error(E) :-
+    print_message(error, E),
+    writeln('Content-Type: text/plain'),
+    writeln('Status: 500 Internal Server Error'),
+    nl,
+    write(E)
