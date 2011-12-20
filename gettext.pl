@@ -6,7 +6,6 @@
 :- use_module(library(uri)).
 
 main :-
-    working_directory('/home/antology/data'),
     catch(main0, E, on_error(E)).
 
 main0 :-
