@@ -10,4 +10,5 @@ create temporary table results as
                        given_name || ' ' || surname) as photo_description
               from people 
               left join photos on people.photo = photos.url
-              left join photos as large_photos on people.large_photo = large_photos.url;
+              left join photos as large_photos on people.large_photo = large_photos.url
+	      where activE;
