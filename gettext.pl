@@ -28,4 +28,4 @@ on_error(E) :-
     writeln('Content-Type: text/plain'),
     writeln('Status: 500 Internal Server Error'),
     nl,
-    write(E)
+    write(E).
