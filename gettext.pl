@@ -6,7 +6,7 @@
 :- use_module(library(uri)).
 
 main :-
-    catch(main, E, on_error(E)).
+    catch(main0, E, on_error(E)).
 
 main0 :-
     cgi_get_form(Arguments),
