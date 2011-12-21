@@ -11,8 +11,9 @@ main :-
 main0 :-
     cgi_get_form(Arguments),
     getenv('PATH_INFO', Filename),
-    uri_encoded(path, Filename, FilenameN),
-    uri_iri(Path, FilenameN),
+    atom_codes(Filename, Codes),
+    print_message(error, Codes),
+    uri_iri(Path, Filename),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
     open('www/templates/gettext.pwp', read, Template, [encoding(octet)]),
