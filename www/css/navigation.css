@@ -57,6 +57,9 @@ a:hover {
     font-weight: bold;
 }
 
+table.passport {
+    font-size: 100%;
+}
 
 td.passport-key {
     font-weight: bold;
