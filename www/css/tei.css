@@ -2,21 +2,23 @@ p.tei-author {
     font-style: italic;
 }
 
-h1 {
+p.tei-div h1 {
 	font-size: 200%;
 	font-weight: bold;
+    text-align: center;
 }
 
-h2 {
+p.tei-div h2 {
 	font-size: 180%;
 	color: #000000;
-       font-weight: normal;
-
+    font-weight: normal;
+    text-align: center;
 }
 
-h3 {
+p.tei-div h3 {
 	font-size: 120%;
 	font-weight: bold;
+    text-align: center;
 }
 
 p.tei-lg {
