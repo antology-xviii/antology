@@ -1,29 +1,16 @@
-<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
-  <tr>
-    <td class="border">&#x00a0;</td>
-    <td width="75%" align="center"> 
-      <h1 style="topheading">&quot;Русская литература XVIII века&quot;</h1>
-      <h2 style="topsubhead">Информационно-поисковая система</h2>
-    </td>
-    <td width="25%" align="left"><br/>
-      <a href="/index.html">
-        <img src="/images/ins1.gif" width="119" height="100" border="0"/>
-      </a>
-    </td>
-    <td class="border">&#x00a0;</td>
-  </tr>
+<div class="header">
+  <div class="logo">
+    <h1>&quot;Русская литература XVIII века&quot;</h1>
+    <h2>Информационно-поисковая система</h2>
+  </div>
 
-  <tr height="30">
-    <td class="border">&#x00a0;</td>
-    <td colspan=2 class="a" align="center" valign="center">
-      [<a href="/index.html" class=menu>главная</a>]
-      [<a href="/cgi-bin/searchform.cgi" class=menu>поиск</a>]
-      [<a href="/lecture.html" class=menu>справочные и учебные материалы</a>]
-      <!-- [<a href="/tests.html" class=menu>тесты и задания</a>]<br> -->
-      [<a href="/cgi-bin/people.cgi" class=menu>об участниках проекта</a>]
-      [<a href="/manual.pdf" class=menu>руководство для пользователя</a>]
-      [<a href="/contact.html" class=menu>контакты</a>] 
-    </td>
-    <td class="border">&#x00a0;</td>
-  </tr>
-</table>
+  <div class="navigation">
+    [<a href="/index.html" class=menu>главная</a>]
+    [<a href="/cgi-bin/searchform.cgi" class=menu>поиск</a>]
+    [<a href="/lecture.html" class=menu>справочные и учебные материалы</a>]
+    <!-- [<a href="/tests.html" class=menu>тесты и задания</a>]<br> -->
+    [<a href="/cgi-bin/people.cgi" class=menu>об участниках проекта</a>]
+    [<a href="/manual.pdf" class=menu>руководство для пользователя</a>]
+    [<a href="/contact.html" class=menu>контакты</a>] 
+  </div>
+</div>

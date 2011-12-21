@@ -11,98 +11,14 @@ body {
 
 }
 
-P {text-align: justify;}
+p {text-align: justify;}
 
-p.poetry {
-     margin-left: 40;
-
-
+table.passport {
+    width: 240;
+    border: 2px solid #888888;
+    padding:14;
+    margin-right: 80;
 }
-
-p.poetry-indented {
-     margin-left: 80;
-
-
-}
-
-td.a {
-
- background-color: #668B8B;
-	font-size: 11px;
-    color: #ffffff;
-    font-weight: bold;
-
-}
-
-table.passport
-
-{
-
-width: 240;
-border: 2px solid #888888;
-padding:14;
-margin-right: 80;
-
- }
-
-table.image 
-{
-
-width: 240;
-border: 2px solid #888888;
-padding:14;
-margin-right: 80;
-}
-
-table.correspondence
-{
-	display: inline;
-}
-
-span.correspondence
-{
-	vertical-align: middle;
-}
-
-table.lecture
-
-{
-
-width: 700;
-border: 2px solid #888888;
-padding:14;
-
-
- }
-
-td {
-	background-color: #ffffff;
-	font-size: 11px;
-}
-
-td.b {
-	background-color: #e0e0ff;
-}
-
-td.border
-
-{  	background-color: #222222;
-    width: 1px;
-    padding: 0px;
-
-}
-
-.text {
-	color: #000033;
-	font-family: verdana, arial;
-	font-size: 8px;
-	font-weight: normal;
-	text-decoration: none;
-}
-
-.dotted { 
-    border-style: dotted;
- }
 
 a:visited {
 	color: #660000;
@@ -112,8 +28,8 @@ a:visited {
 
 a:link {
    color: #bb3333;
-	text-decoration: underline;
-    font-weight: bold
+   text-decoration: underline;
+   font-weight: bold
 }
 
 a:hover {
@@ -122,152 +38,4 @@ a:hover {
     font-weight: bold;
 }
 
- a:visited.index {
-	color: #000000;
-	text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-}
 
-a:link.index {
-   color: #000000;
-	text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-a:hover.index {
-	color: #aaaaaa;
-	text-decoration: underline;
-}
-
-a:link.menu, a:visited.menu {
-	color: #ffffff;
-	font-family: verdana, arial;
-	font-size: 11px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a:hover.menu {
-	color: #111111;
-	font-family: verdana, arial;
-	font-size: 11px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
- a:link.head, a:visited.head {
-	color: #000000;
-	font-family: verdana, arial;
-	font-size: 9px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a:hover.head {
-	color: #883333;
-	font-family: verdana, arial;
-	font-size: 9px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-h1.topheading {
-	font-size: 32px;
-	font-weight: bold;
-}
-
-h1 {
-	font-size: 20px;
-	font-weight: bold;
-}
-
-h2.topsubhead {
-	font-size: 18px;
-	font-weight: bold;
-}
-
-
-h2 {
-	font-size: 20px;
-	color: #000000;
-       font-weight: normal;
-
-}
-h3 {
-	font-size: 12px;
-	font-weight: bold;
-}
-
-
-h2.poetry {
-	font-size: 20px;
-	color: #000000;
-       font-weight: normal;
-       margin-left: 60;
-
-}
-h3.poetry {
-	font-size: 12px;
-	font-weight: bold;
-    margin-left: 60;
-}
-
-
-
-span.search {
-     background-color: #222266;
-     color: #ffffff;
-     }
-
-span.answer {
-	font-style: italic;
-    color: #00bb00;
-}
-
-span.menutitle { 
-  text-decoration: underline;
-  font-weight: bold;
-} 
-
-span.correct { 
-  color: #00bb00;               
-}
-
-span.incorrect { 
-  color: #ff0000;               
-}
-
-div.scrolled
-{ 
-  overflow: auto;
-  height: 30ex;
-}
-
-select.searchlist
-{ 
-  overflow: auto;
-  width: 30em;
-}
-
-pre 
-{
-  font-family: courier;
-  overflow: auto;
-}
-
-.structag 
-{
-  color: #bb3333;
-}
-
-.structattr
-{
-  color: #660000;
-}
-
-.structent
-{
-  color: #660000;
-}
