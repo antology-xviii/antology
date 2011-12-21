@@ -10,7 +10,7 @@ main :-
 
 main0 :-
     cgi_get_form(Arguments),
-    getenv('PATH_INFO', Path),
+    getenv('PATH_INFO', Filename),
     uri_encoded(path, Filename, Path),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
