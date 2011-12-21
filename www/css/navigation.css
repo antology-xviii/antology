@@ -61,6 +61,10 @@ table.passport {
     font-size: 100%;
 }
 
+table.passport td {
+    vertical-align: top;
+}
+
 td.passport-key {
     font-weight: bold;
 }
