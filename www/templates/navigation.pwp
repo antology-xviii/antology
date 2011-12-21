@@ -5,12 +5,12 @@
   </div>
 
   <div class="navigation">
-    [<a href="/index.html" class=menu>главная</a>]
-    [<a href="/cgi-bin/searchform.cgi" class=menu>поиск</a>]
-    [<a href="/lecture.html" class=menu>справочные и учебные материалы</a>]
+    [<a href="/index.html" class="menu">главная</a>]
+    [<a href="/cgi-bin/searchform.cgi" class="menu">поиск</a>]
+    [<a href="/lecture.html" class="menu">справочные и учебные материалы</a>]
     <!-- [<a href="/tests.html" class=menu>тесты и задания</a>]<br> -->
-    [<a href="/cgi-bin/people.cgi" class=menu>об участниках проекта</a>]
-    [<a href="/manual.pdf" class=menu>руководство для пользователя</a>]
-    [<a href="/contact.html" class=menu>контакты</a>] 
+    [<a href="/cgi-bin/people.cgi" class="menu">об участниках проекта</a>]
+    [<a href="/manual.pdf" class="menu">руководство для пользователя</a>]
+    [<a href="/contact.html" class="menu">контакты</a>] 
   </div>
 </div>
