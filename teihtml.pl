@@ -41,8 +41,8 @@ teirule(element(title, _, _), (reference -> &)).
 teirule(element(title, _, _), (bibl -> ['"', &, '"'])).
 teirule(element(title, _, _), (@type = subordinate -> element(h : (level + 1), [], &))).
 teirule(element(title, _, _), (@type = subordinate -> element(h2, [], &))).
-teirule(element(title, _, _), element(h : +level, [], &)).
-teirule(element(title, _, _), element(h1, [], &)).
+teirule(element(title, _, _), element(h : +level, [class='tei-title'], &)).
+teirule(element(title, _, _), element(h1, [class='tei-title'], &)).
 teirule(element(forename, _, _), [&, ' ']).
 teirule(element(surname, _, _), [&, ' ']).
 teirule(element(div, _, _), [element(div, [class='tei-div'],

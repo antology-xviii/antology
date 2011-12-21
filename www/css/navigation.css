@@ -11,12 +11,7 @@ body {
 
 }
 
-div.header {
-    text-align: center;
-    width: 100%;
-}
-
-div.footer {
+div.header, div.footer {
     text-align: center;
     width: 100%;
 }
