@@ -12,7 +12,7 @@ main0 :-
     cgi_get_form(Arguments),
     getenv('PATH_INFO', Filename),
     uri_encoded(path, Filename, FilenameN),
-    uri_iri(FilenameN, Path),
+    uri_iri(Path, FilenameN),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
     open('www/templates/gettext.pwp', read, Template, [encoding(octet)]),
