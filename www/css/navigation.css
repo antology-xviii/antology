@@ -21,6 +21,13 @@ div.footer {
     width: 100%;
 }
 
+div.logo h1 {
+    font-size: 240%;
+}
+
+div.logo h2 {
+    font-size: 200%;
+}
 
 p {text-align: justify;}
 
@@ -35,13 +42,13 @@ table.passport {
 a:visited {
 	color: #660000;
 	text-decoration: underline;
-    font-weight: bold
+    font-weight: bold;
 }
 
 a:link {
    color: #bb3333;
    text-decoration: underline;
-   font-weight: bold
+   font-weight: bold;
 }
 
 a:hover {
