@@ -18,3 +18,19 @@ h3 {
 	font-size: 12px;
 	font-weight: bold;
 }
+
+p.tei-lg {
+     margin-left: 40;
+}
+
+p.tei-lg1 {
+     margin-left: 40;
+}
+
+p.tei-lg p.tei-lg {
+     margin-left: 80;
+}
+
+p.tei-lg2 {
+     margin-left: 40;
+}
