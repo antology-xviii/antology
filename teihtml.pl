@@ -159,7 +159,7 @@ teirule(element(note, _, _), (@place = inline -> element(small, [class='tei-note
 teirule(element(note, _, _), (footnotes -> [element(p, [class='tei-note-footnote'],
                                                   [element(sup, [class='tei-note-footnote'],
                                                            [element(a, [class='tei-note-footnote',
-                                                                       name='note-footnote.' : &(/self(@id)),
+                                                                       name='note.footnote.' : &(/self(@id)),
                                                                        href='#note.anchor.' : &(/self(@id))],
                                                                    [&(/self(@n))])]),
                                                    &, call(teihtml:noteresp)])])).
