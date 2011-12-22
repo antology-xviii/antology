@@ -146,7 +146,7 @@ teirule(element(performance, _, _), []).
 teirule(element(dateline, _, _), element(p, [class='tei-dateline'], [element(em, [], &)])).
 teirule(element(xref, _, _), element(a, [class='tei-xref', href=''], &)).
 teirule(element(figure, _, _), []).
-teirule(element(date, _, _), [call(teihtml:dateprefix), (&, " г.")]).
+teirule(element(date, _, _), [call(teihtml:dateprefix), (&, ' г.')]).
 teirule(element(emph, _, _), element(em, [class='tei-emph'], &)).
 teirule(element(term, _, _), element(strong, [class='tei-term'], &)).
 teirule(element(mentioned, _, _), element(em, [class='tei-mentioned'], &)).
