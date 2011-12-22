@@ -23,12 +23,12 @@ dateprefix(_, element(_, Attrs, _), [Cert]) :-
 dateprefix(_, _, []).
 
 
-noteresp(_, element(_, Attrs, _), element(em, [class='tei-note.resp'],
-                                          ['(Прим. ', RespStr, ')'])) :-
+noteresp(_, element(_, Attrs, _), [element(em, [class='tei-note.resp'],
+                                          ['(Прим. ', RespStr, ')'])]) :-
     memberchk(resp = Resp, Attrs),
     Resp = 'author' -> RespStr = 'авт.' ;
     Resp = 'editor' -> RespStr = 'ред.'.
-noteresp(_, X, X).
+noteresp(_, _, []).
 
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
