@@ -2,7 +2,7 @@
 :- use_module(library(sgml)).
 :- use_module(library(xpath)).
 :- use_module('sgmltools.pl').
-
+:- encoding(utf8).
 
 do_note(element(note, Attrs, Children), element(note, Attrs0, XChildren), N, M) :-
     ((memberchk(n = _, Attrs) ; memberchk(place = inline, Attrs)) ->
@@ -72,6 +72,13 @@ map_entity('[THORN ]', '\u00DE').
 map_entity('[uacute]', '\u00FA'). 
 map_entity('[Uacute]', '\u00DA'). 
 map_entity('[ucirc ]', '\u00FB'). 
+
+map_entity('[acystress]', 'а\u0301').
+map_entity('[iecystress]', 'е\u0301').
+map_entity('[icystress]', 'и\u0301').
+map_entity('[ocystress]', 'о\u0301').
+map_entity('[ucystress]', 'у\u0301').
+map_entity('[ycystress]', 'ы\u0301').
 
 
 replace_sdata(sdata(Text), Result) :-
