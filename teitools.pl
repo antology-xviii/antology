@@ -8,8 +8,9 @@ do_note(element(note, Attrs, Children), element(note, Attrs0, XChildren), N, M) 
     ((memberchk(n = _, Attrs) ; memberchk(place = inline, Attrs)) ->
      Attrs0 = Attrs, N0 = N;
      atom_number(AN, N),
-     Attrs = [n = AN | Attrs],
+     Attrs0 = [n = AN | Attrs],
      N0 is N + 1),
+    writeln(note(N0)),
     sew_dom(do_note, Children, XChildren, N0, M).
 
 map_entity('[quot  ]', '"').
