@@ -114,6 +114,24 @@
           <td class="passport-key">Место написания:</td>
           <td class="passport-value" pwp:use="WPlace"/>
         </tr>
+        <tr pwp:ask="setof(M, xpath(Source, text//'*'(@met=M), Schemes), Schemes = [H|T]">
+          <td class="passport-key">Метрическая схема:</td>
+          <td class="passport-value">
+            <a pwp:use="H" pwp:att="%" href="/cgi-bin/results.cgi?mscheme=%(H)%" />
+            <span pwp:ask="member(X, T)" pwp:tag="-">, 
+              <a pwp:use="X" pwp:att="%" href="/cgi-bin/results.cgi?mscheme=%(X)%" />
+            </span>
+          </td>
+        </tr>
+        <tr pwp:ask="setof(R, xpath(Source, text//'*'(@rhyme=M), Rhyming), Rhyming = [H|T]">
+          <td class="passport-key">Рифмовка:</td>
+          <td class="passport-value">
+            <a pwp:use="H" pwp:att="%" href="/cgi-bin/results.cgi?rhyme=%(H)%" />
+            <span pwp:ask="member(X, T)" pwp:tag="-">, 
+              <a pwp:use="X" pwp:att="%" href="/cgi-bin/results.cgi?rhyme=%(X)%" />
+            </span>
+          </td>
+        </tr>
       </table>
       <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
