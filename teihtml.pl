@@ -160,7 +160,7 @@ teirule(element(note, _, _), (footnotes -> [element(sup, [class='tei-note-footno
                                                                name='note-footnote.' : &(/self(@id)),
                                                                href='#note.anchor.' : &(/self(@id))],
                                                            [&(/self(@n))])),
-                                           &, call(noteresp)])).
+                                           &, call(teihtml:noteresp)])).
 teirule(element(note, _, _), element(sup, [class='tei-note'],
                                      element(a, [class='tei-note',
                                                  name='note.anchor.' : &(/self(@id)),
