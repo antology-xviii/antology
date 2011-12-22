@@ -62,7 +62,7 @@ teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
 teirule(element(space, _, _), (@dim = horizontal -> [element(hr,
                                                                  [height = 0,
-                                                                  width = (&(/self(@extent)) - ' characters') : 'em'], [])])).
+                                                                  width = (&(/self(@extent)) - ' letters') : 'em'], [])])).
 teirule(element(anchor, _, []), ['||']).
 
 teirule(element(item, _, _), (list = definition -> [element(dt, [class = 'tei-label'], &(label/'*')),
