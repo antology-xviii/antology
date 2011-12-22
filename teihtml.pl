@@ -86,11 +86,11 @@ teirule(element(item, _, _), (list = simple ->
 teirule(element(head, _, _), (list = sync ->
                                   [element(tr, [class='tei-head'],
                                            [element(th, [], &),
-                                            (list = synced) : id(self(@corresp))])])).
+                                            (list = synced) : id(/self(@corresp))])])).
 
 teirule(element(item, _, _), (list = sync -> [element(tr, [class='tei-item'],
                                                                  [element(td, [], &),
-                                                                  (list = synced) : id(self(@corresp))])])).
+                                                                  (list = synced) : id(/self(@corresp))])])).
 teirule(element(item, _, _), [element(li, [class='tei-item'], &)]).
 teirule(element(head, _, _), (list = _ -> [element(p, [class='tei-head'], &)])).
 teirule(element(label, _, _), ((list = synced ; list = simple ; list = sync) -> &)).
@@ -110,7 +110,7 @@ teirule(element(list, _, _), (@type = simple -> element(table, [class = 'tei-lis
                                                         (list = simple) : &))).
 teirule(element(table, _, _), [element(table, [class='tei-table'], &)]).
 teirule(element(tr, _, _), [element(tr, [class='tei-row'], &)]).
-teirule(element(cell, _, _), [element(td, [class='tei-cell', rowspan = &(self(@))], [& ; sdata(nbsp)])]).
+teirule(element(cell, _, _), [element(td, [class='tei-cell', rowspan = &(/self(@))], [& ; sdata(nbsp)])]).
 teirule(element(lg, _, _), [element(p, [class='tei-lg'], &)]).
 teirule(element(lg1, _, _), [element(p, [class='tei-lg1'], &)]).
 teirule(element(lg2, _, _), [element(p, [class='tei-lg2'], &)]).
@@ -126,7 +126,7 @@ teirule(element(epigraph, _, _), [element(p, [class='tei-epigraph'], &)]).
 
 teirule(element(sp, _, _), (aligned -> [element(tr, [], [element(td, [class='tei-sp'], &)])])).
 teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp-corresp'],
-                                                      [(aligned = true) : &(self),
+                                                      [(aligned = true) : &(/self),
                                                        (aligned = true) : call(teihtml:find_corresponding),
                                                        element(big, [class='tei-sp-corresp'], ['}'])])))).
 
@@ -157,13 +157,13 @@ teirule(element(note, _, _), ((footnote, @place = inline) -> [])).
 teirule(element(note, _, _), (@place = inline -> element(small, [class='tei-note-inline'], &))).
 teirule(element(note, _, _), (footnote -> [element(sup, [class='tei-note-footnote'],
                                                    element(a, [class='tei-note-footnote',
-                                                               name='note-footnote.' : &(self(@id)),
-                                                               href='#note.anchor.' : &(self(@id))],
-                                                           [&(self(@n))])),
+                                                               name='note-footnote.' : &(/self(@id)),
+                                                               href='#note.anchor.' : &(/self(@id))],
+                                                           [&(/self(@n))])),
                                            &, call(noteresp)])).
 teirule(element(note, _, _), element(sup, [class='tei-note'],
                                      element(a, [class='tei-note',
-                                                 name='note.anchor.' : &(self(@id)),
-                                                 href='#note.footnote.' : &(self(@id))],
-                                             [&(self(@n))]))).
+                                                 name='note.anchor.' : &(/self(@id)),
+                                                 href='#note.footnote.' : &(/self(@id))],
+                                             [&(/self(@n))]))).
 
