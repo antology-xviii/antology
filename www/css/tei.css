@@ -29,3 +29,6 @@ p.tei-lg p.tei-lg, p.tei-lg2 {
      margin-left: 30%;
 }
 
+span.tei-role {
+    font-weight: bold;
+}
