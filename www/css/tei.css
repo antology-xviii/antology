@@ -32,3 +32,7 @@ p.tei-lg p.tei-lg, p.tei-lg2 {
 span.tei-role {
     font-weight: bold;
 }
+
+span.tei-space-horizontal {
+    display: inline-block;
+}
