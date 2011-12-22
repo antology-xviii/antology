@@ -28,6 +28,7 @@ noteresp(_, element(_, Attrs, _), element(em, [class='tei-note.resp'],
     memberchk(resp = Resp, Attrs),
     Resp = 'author' -> RespStr = 'авт.' ;
     Resp = 'editor' -> RespStr = 'ред.'.
+noteresp(_, X, X).
 
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
