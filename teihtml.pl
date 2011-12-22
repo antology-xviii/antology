@@ -60,8 +60,8 @@ teirule(element(div3, _, _), [element(div, [class='tei-div'],
 teirule(element(name, _, _), [element(a, [class = 'tei-name.' : &(/self(@type)), name = &(/self(@id))], &)]).
 teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
-teirule(element(space, _, _), (@dim = horizontal -> [element(hr, [class = 'tei-space-horizontal',
-                                                                    style = 'width:' : (&(/self(@extent)) - ' letters') : 'em'], [])])).
+teirule(element(space, _, _), (@dim = horizontal -> [element(span, [class = 'tei-space-horizontal',
+                                                                    style = 'width:' : (&(/self(@extent)) - ' letters') : 'em'], [' '])])).
 teirule(element(anchor, _, []), ['||']).
 
 teirule(element(item, _, _), (list = definition -> [element(dt, [class = 'tei-label'], &(label/'*')),
