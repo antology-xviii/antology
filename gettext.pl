@@ -15,7 +15,7 @@ main0 :-
     open('www/templates/gettext.pwp', read, Template, [encoding(octet)]),
     load_tei(Filename0, Source),
     tei_to_html([], Source, Formatted), !,
-    writeln('Content-Type: text/xhtml; charset=utf-8'),
+    writeln('Content-Type: application/xhtml+xml; charset=utf-8'),
     nl,
     pwp_stream(Template, Stdout, ['Path' = Filename,
                                   'Source' = Source,
