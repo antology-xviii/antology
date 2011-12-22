@@ -132,6 +132,24 @@
             </span>
           </td>
         </tr>
+        <tr pwp:ask="setof(A, xpath(Source, text//span(@type='addressee',@value), A), Addressee), Addressee = [H|T]">
+          <td class="passport-key">Адресат:</td>
+          <td class="passport-value">
+            <a pwp:use="H" pwp:att="%" href="/cgi-bin/results.cgi?addressee=%(H)%" />
+            <span pwp:ask="member(X, T)" pwp:tag="-">, 
+              <a pwp:use="X" pwp:att="%" href="/cgi-bin/results.cgi?addressee=%(X)%" />
+            </span>
+          </td>
+        </tr>
+        <tr pwp:ask="setof(A, xpath(Source, text//span(@type='theme',@value), A), Themes), Themes = [H|T]">
+          <td class="passport-key">Темы:</td>
+          <td class="passport-value">
+            <a pwp:use="H" pwp:att="%" href="/cgi-bin/results.cgi?theme=%(H)%" />
+            <span pwp:ask="member(X, T)" pwp:tag="-">, 
+              <a pwp:use="X" pwp:att="%" href="/cgi-bin/results.cgi?theme=%(X)%" />
+            </span>
+          </td>
+        </tr>
       </table>
       <div pwp:use="Contents" pwp:how="xml" pwp:tag="-" />
       <hr/>
