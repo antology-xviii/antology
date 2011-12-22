@@ -18,5 +18,5 @@ if ! [ -x "$runscript" ]; then
     exit 1
 fi
 
-echo "At $PATH_INO $QUERY_STRING" >>/var/log/lighttpd/cgi.log
+echo "At $PATH_INFO $QUERY_STRING" >>/var/log/lighttpd/cgi.log
 exec ./$runscript 2>>/var/log/lighttpd/cgi.log
