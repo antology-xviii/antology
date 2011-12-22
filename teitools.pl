@@ -73,12 +73,12 @@ map_entity('[uacute]', '\u00FA').
 map_entity('[Uacute]', '\u00DA'). 
 map_entity('[ucirc ]', '\u00FB'). 
 
-map_entity('[acystress]', 'а\u0301').
+map_entity('[acystress ]', 'а\u0301').
 map_entity('[iecystress]', 'е\u0301').
-map_entity('[icystress]', 'и\u0301').
-map_entity('[ocystress]', 'о\u0301').
-map_entity('[ucystress]', 'у\u0301').
-map_entity('[ycystress]', 'ы\u0301').
+map_entity('[icystress ]', 'и\u0301').
+map_entity('[ocystress ]', 'о\u0301').
+map_entity('[ucystress ]', 'у\u0301').
+map_entity('[ycystress ]', 'ы\u0301').
 
 
 replace_sdata(sdata(Text), Result) :-
