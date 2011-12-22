@@ -1,6 +1,7 @@
 :- module(teihtml, [tei_to_html/3]).
 :- use_module('sgmltools.pl').
 :- use_module(library(xpath)).
+:- encoding(utf-8)
 
 tei_to_html(State, In, Out) :-
     reset_transform,
