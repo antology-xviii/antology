@@ -157,12 +157,13 @@ teirule(element(trailer, _, _), element(p, [class='tei-trailer'], &)).
 teirule(element(closer, _, _), element(p, [class='tei-closer'], &)).
 teirule(element(note, _, _), ((footnotes, @place = inline) -> [])).
 teirule(element(note, _, _), (@place = inline -> element(small, [class='tei-note-inline'], &))).
-teirule(element(note, _, _), (footnotes -> [element(sup, [class='tei-note-footnote'],
-                                                   element(a, [class='tei-note-footnote',
-                                                               name='note-footnote.' : &(/self(@id)),
-                                                               href='#note.anchor.' : &(/self(@id))],
-                                                           [&(/self(@n))])),
-                                           &, call(teihtml:noteresp)])).
+teirule(element(note, _, _), (footnotes -> [element(p, [class='tei-note-footnote'],
+                                                  [element(sup, [class='tei-note-footnote'],
+                                                           [element(a, [class='tei-note-footnote',
+                                                                       name='note-footnote.' : &(/self(@id)),
+                                                                       href='#note.anchor.' : &(/self(@id))],
+                                                                   [&(/self(@n))])]),
+                                                   &, call(teihtml:noteresp)])])).
 teirule(element(note, _, _), element(sup, [class='tei-note'],
                                      element(a, [class='tei-note',
                                                  name='note.anchor.' : &(/self(@id)),
