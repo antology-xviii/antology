@@ -3,6 +3,7 @@
 :- use_module('teihtml.pl').
 :- use_module(library(pwp)).
 :- use_module(library(cgi)).
+:- use_module(library(uri)).
 
 main :-
     catch(main0, E, on_error(E)).

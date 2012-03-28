@@ -50,6 +50,13 @@ PARMNAME_mscheme="метрическая схема"
 PARMNAME_addressee="адресат"
 
 IFS="&;" read -a parameters
+
+for idx in ${!parameters[*]}; do
+    if [ "${parameters[$idx]}" = "encoding=koi8-r" ]; then
+       NO_UTF=1
+       break
+    fi
+done
  
 for idx in ${!parameters[*]}; do
     name="${parameters[$idx]%%=*}"        
@@ -62,6 +69,7 @@ for idx in ${!parameters[*]}; do
             value="${value//+/ }"
             value="$(eval echo "$'${value//\%/\x}'")"
             value="${value//[\$@]/}"
+	    test -z "$NO_UTF" && value="`echo $value | iconv -f utf-8 -t koi8-r`"
             searchvar="SEARCH_$name"   
             searchterm="${!searchvar//@/$value}"
             qvar="Q_$name"
@@ -159,6 +167,7 @@ for idx in ${!parameters[*]}; do
         if [ -n "${!name}" ]; then
             value="${value//+/ }"
             value="$(eval echo "$'${value//\%/\x}'")"
+	    test -z "$NO_UTF" && value="`echo $value | iconv -f utf-8 -t koi8-r`"
             echo "<td>${value}"
         fi
     fi

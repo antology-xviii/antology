@@ -67,6 +67,7 @@ echo "<body>"
 echo "<!-- -middle -->"
 echo "<h2 align=\"left\">Поиск текстов</h2>"
 echo "<form action=\"/cgi-bin/results.cgi\" method=\"GET\">"
+echo "<input type=\"hidden\" name=\"encoding\" value=\"koi8-r\">"
 echo "<table>"
 
 makelistfield author "`makesql 'uid, given_name || $$ $$ || patronymic || $$ $$ || surname' authors '' 'surname, given_name, patronymic'`"  Автор

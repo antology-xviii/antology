@@ -16,10 +16,10 @@
 	<!ENTITY % TEI.linking "INCLUDE">
 	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
 	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
-	<!ENTITY acystress   SDATA "[acystress  ]">
-	<!ENTITY icystress   SDATA "[icystress  ]">
-	<!ENTITY ocystress   SDATA "[ocystress  ]">
-	<!ENTITY ycystress   SDATA "[ycystress  ]">
+	<!ENTITY acystress   SDATA "[acystress ]">
+	<!ENTITY icystress   SDATA "[icystress ]">
+	<!ENTITY ocystress   SDATA "[ocystress ]">
+	<!ENTITY ycystress   SDATA "[ycystress ]">
 ]>
 
 <tei.2>
