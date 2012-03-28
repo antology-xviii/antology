@@ -24,4 +24,11 @@ function urlencode_path(str)
     return urlencode(str, ":/@");
 }
 
+function urlencode_utf8(str,  iconv)
+{
+    iconv = sprintf("echo -n \"%s\" | iconv -f koi8-r -t utf-8", str);
+    iconv | getline str;
+    close(iconv);
+    return urlencode_path(str);
+}
 
