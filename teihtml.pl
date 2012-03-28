@@ -31,6 +31,14 @@ noteresp(_, element(_, Attrs, _), [element(em, [class='tei-note.resp'],
     Resp = 'editor' -> RespStr = 'ред.'.
 noteresp(_, _, []).
 
+:- initialization(nb_setval(name_count, 0)).
+
+count_names(_, NameN) :-
+    b_getval(name_count, NOld),
+    N is NOld + 1,
+    b_setval(name_count, N),
+    atomic_concat('NAME', N, NameN).    
+
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
                                           &(teiheader/filedesc/titlestmt/title),
@@ -57,7 +65,7 @@ teirule(element(div2, _, _), [element(div, [class='tei-div'],
                                       (level = 2) : &)]).
 teirule(element(div3, _, _), [element(div, [class='tei-div'],
                                       (level = 3) : &)]).
-teirule(element(name, _, _), [element(a, [class = 'tei-name.' : &(/self(@type)), name = &(/self(@id))], &)]).
+teirule(element(name, _, _), [element(a, [class = 'tei-name.' : &(/self(@type)), name = call(teihtml:count_names)], &)]).
 teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
 teirule(element(space, _, _), (@dim = horizontal -> [element(span, [class = 'tei-space-horizontal',
