@@ -28,8 +28,9 @@ BEGIN { FS="|"; first_fragment = 1; }
         subst_frag = gensub(/^[^<]*[.!?]([^.!?<]*<big>.*)/, "...\\1", "1", subst_frag);
         subst_frag = gensub(/(.*<\/big>[^.!?>]*)[.!?][^>]*$/, "\\1...", "1", subst_frag);
         printf "<li><a href='/cgi-bin/gettext.cgi/%s%s%s'>%s</a>\n", 
-            urlencode_path($1), $10 ? "#" $10 : ($7 ? "#" $7 : ""), 
+            urlencode_path($1),
             $9 ? "?hilite=" urlencode_path("\"" $9 "\"") : ($6 ? "?hilite=" urlencode_path("\"" $6 "\"") : ""),
+            $10 ? "#" $10 : ($7 ? "#" $7 : ""), 
             subst_frag;
 	}
 }
