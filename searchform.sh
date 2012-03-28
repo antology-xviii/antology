@@ -40,7 +40,7 @@ makecomplexlistfield() {
 
     psql -A -t -q antology -c "$query" | gawk -F\| '{
         gsub(/&/, "\\&amp;"); gsub(/"/, "\\&quot;"); gsub(/</, "\\&lt;"); gsub(/>/, "\\&gt;");
-        if ($1 != oldgroup) { if (oldgroup) print "</optgroup>"; printf "<optgroup label="%s">\n", $1; oldgroup = $1 }
+        if ($1 != oldgroup) { if (oldgroup) print "</optgroup>"; printf "<optgroup label=\"%s\">\n", $1; oldgroup = $1 }
         printf "<option value=\"%s\"> %s %s</option>\n", $1 "=" $2, $3, $4 ? "(" $4 ")" : "";
     }
     END { if (oldgroup) print "</optgroup>" }'
