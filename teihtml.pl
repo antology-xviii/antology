@@ -1,7 +1,8 @@
-:- module(teihtml, [tei_to_html/3]).
+:- module(teihtml, [tei_to_html/3, hilite_name/1]).
 :- use_module('sgmltools.pl').
 :- use_module(library(xpath)).
 :- encoding(utf8).
+:- dynamic hilite_name/1.
 
 tei_to_html(State, In, Out) :-
     reset_transform,
@@ -39,6 +40,13 @@ count_names(_, NameN) :-
     b_setval(name_count, N),
     atomic_concat('NAME', N, NameN).    
 
+name_class(Node, Class) :-
+    (xpath_chk(Node, /self(@reg), Reg), normalize_space(Reg, Name);
+     xpath_chk(Node, /self(normalize_space), Name)),
+    (hilite_name(Name) -> Class = 'hilite' ;
+     xpath_chk(Node, /self(@type), Type),
+     atom_concat('tei.name.', Type, Class)).
+
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
                                           &(teiheader/filedesc/titlestmt/title),
@@ -65,7 +73,7 @@ teirule(element(div2, _, _), [element(div, [class='tei-div'],
                                       (level = 2) : &)]).
 teirule(element(div3, _, _), [element(div, [class='tei-div'],
                                       (level = 3) : &)]).
-teirule(element(name, _, _), [element(a, [class = 'tei-name.' : &(/self(@type)), id = call(teihtml:count_names)], &)]).
+teirule(element(name, _, _), [element(a, [class = call(teitml:name_class), id = call(teihtml:count_names)], &)]).
 teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
 teirule(element(space, _, _), (@dim = horizontal -> [element(span, [class = 'tei-space-horizontal',

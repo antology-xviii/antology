@@ -36,3 +36,7 @@ span.tei-role {
 span.tei-space-horizontal {
     display: inline-block;
 }
+
+.hilite {
+  background-color: #ffff00;
+}

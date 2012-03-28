@@ -9,6 +9,9 @@ main :-
 
 main0 :-
     cgi_get_form(Arguments),
+    (memberchk(hilite(HiliteName), Arguments) ->
+     assert(teihtml:hilite_name(HiliteName));
+     true),
     getenv('PATH_INFO', Filename),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
