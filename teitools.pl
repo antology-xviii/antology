@@ -72,6 +72,8 @@ map_entity('[THORN ]', '\u00DE').
 map_entity('[uacute]', '\u00FA'). 
 map_entity('[Uacute]', '\u00DA'). 
 map_entity('[ucirc ]', '\u00FB'). 
+map_entity('[laquo ]', '«').
+map_entity('[raquo ]', '»').
 
 map_entity('[acystress ]', 'а\u0301').
 map_entity('[iecystress]', 'е\u0301').
