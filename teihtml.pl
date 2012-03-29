@@ -48,7 +48,7 @@ name_class(Node, Class) :-
      xpath_chk(Node, /self(@type), Type),
      atom_concat('tei.name.', Type, Class)).
 
-included_speaker(_, Attrs) :-
+included_speaker(_, _) :-
     \+ limit_to_speaker(_), !.
 included_speaker(_, Attrs) :-
     memberchk(who = Speakers, Attrs),
