@@ -154,7 +154,7 @@ teirule(element(move, _, _), []).
 teirule(element(castlist, _, _), (list = cast) : [&(head), element(ul, [class='tei-castlist'], &(castitem))]).
 teirule(element(castitem, _, _), element(li, [class='tei-castitem'], &)).
 teirule(element(head, _, _), (list = cast -> element(h2, &))).
-teirule(element(role, _, _), [element(a, [class='tei-role', href=('?' : @id)], &), ' ']).
+teirule(element(role, _, _), [element(a, [class='tei-role', href=('?speaker=' : @id)], &), ' ']).
 teirule(element(roledesc, _, _), element(span, [class='tei-roledesc'], &)).
 teirule(element(set, _, _), element(p, [class='tei-set'], &)).
 teirule(element(performance, _, _), []).
