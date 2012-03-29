@@ -90,6 +90,7 @@ check_cond(State, Attrs, (C1; C2)) :-
 check_cond(State, Attrs, \+ C) :- \+ check_cond(State, Attrs, C), !.
 check_cond(_, Attrs, (@X = Y)) :- memberchk(X = Y, Attrs), !.
 check_cond(_, Attrs, @X) :- memberchk(X = _, Attrs), !.
+check_cond(State, Attrs, call(F)) :- call(F, State, Attrs), !.
 check_cond(State, _, (X = Y)) :- memberchk(X = Y, State), !.
 check_cond(State, _, X) :- memberchk(X = true, State).
 

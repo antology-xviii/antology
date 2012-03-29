@@ -1,8 +1,9 @@
-:- module(teihtml, [tei_to_html/3, hilite_name/1]).
+:- module(teihtml, [tei_to_html/3, hilite_name/1, limit_to_speaker/1]).
 :- use_module('sgmltools.pl').
 :- use_module(library(xpath)).
 :- encoding(utf8).
 :- dynamic hilite_name/1.
+:- dynamic limit_to_speaker/1.
 
 tei_to_html(State, In, Out) :-
     reset_transform,
@@ -46,6 +47,11 @@ name_class(Node, Class) :-
     (hilite_name(Name) -> Class = 'hilite' ;
      xpath_chk(Node, /self(@type), Type),
      atom_concat('tei.name.', Type, Class)).
+
+excluded_speaker(_, Attrs) :-
+    limit_to_speaker(_),
+    memberchk(who = Speaker, Attrs),
+    \+ limit_to_speaker(Speaker).
 
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
@@ -141,6 +147,7 @@ teirule(element(argument, _, _), [element(p, [class='tei-signed'],
                                           [element(em, [], &)])]).
 teirule(element(epigraph, _, _), [element(p, [class='tei-epigraph'], &)]).
 
+teirule(element(sp, _, _), (call(excluded_speaker) -> [])).
 teirule(element(sp, _, _), (aligned -> [element(tr, [], [element(td, [class='tei-sp'], &)])])).
 teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp-corresp'],
                                                       [(aligned = true) : &(/self),

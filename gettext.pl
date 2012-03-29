@@ -12,6 +12,9 @@ main0 :-
     (memberchk(hilite(HiliteName), Arguments) ->
      assert(teihtml:hilite_name(HiliteName));
      true),
+    (memberchk(speaker(LimitSpeaker), Arguments) ->
+     assert(teihtml:limit_to_speaker(LimitSpeaker));
+     true),
     getenv('PATH_INFO', Filename),
     sub_atom(Filename, 1, _, 0, Filename0),
     current_output(Stdout),
