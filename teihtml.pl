@@ -147,7 +147,7 @@ teirule(element(argument, _, _), [element(p, [class='tei-signed'],
                                           [element(em, [], &)])]).
 teirule(element(epigraph, _, _), [element(p, [class='tei-epigraph'], &)]).
 
-teirule(element(sp, _, _), (call(excluded_speaker) -> [])).
+teirule(element(sp, _, _), (call(teihtml:excluded_speaker) -> [])).
 teirule(element(sp, _, _), (aligned -> [element(tr, [], [element(td, [class='tei-sp'], &)])])).
 teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp-corresp'],
                                                       [(aligned = true) : &(/self),
