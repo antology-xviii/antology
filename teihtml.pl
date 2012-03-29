@@ -50,8 +50,8 @@ name_class(Node, Class) :-
 
 excluded_speaker(_, Attrs) :-
     limit_to_speaker(_),
-    memberchk(who = Speakers, Attrs),   
-    \+ (member(Speaker, Speakers), limit_to_speaker(SpeakerD)).
+    memberchk(who = [Speaker], Attrs),   
+    limit_to_speaker(Speaker).
 
 teirule(element('tei.2', _, _), [element(div, [],
                                          [&(teiheader/filedesc/titlestmt/author),
