@@ -42,7 +42,7 @@ count_names(_, NameN) :-
     atomic_concat('NAME', N, NameN).    
 
 name_class(Node, Class) :-
-    (xpath_chk(Node, /self(@reg), Reg), normalize_space(Reg, Name);
+    (xpath_chk(Node, /self(@reg), Reg), normalize_space(atom(Name), Reg);
      xpath_chk(Node, /self(normalize_space), Name)),
     (hilite_name(Name) -> Class = 'hilite' ;
      xpath_chk(Node, /self(@type), Type),
