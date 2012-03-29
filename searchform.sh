@@ -82,8 +82,8 @@ makelistfield theme "`makesql 'distinct annotation' text_annotations 'kind = $$t
 makelistfield metric "`makesql 'id, interpretation' metric_elements 'sys_id = $$met$$' interpretation`" "Метр/размер" multiple
 makelistfield mscheme "`makesql 'distinct characteristic' text_metric 'sys_id = $$met$$'`" "Метрическая схема"
 makelistfield rhyme "`makesql 'distinct characteristic' text_metric 'sys_id = $$rhyme$$'`" "Рифмовка"
-makecomplexlistfield place "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) like $$%place$$' 'nc.name_class, tn.proper_name, nc.abbreviated'`" "Географические названия"
-makecomplexlistfield name "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) not like $$%place$$' 'nc.name_class, tn.proper_name, nc.abbreviated'`" "Имена собственные" 
+makecomplexlistfield place "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) like $$%place$$' 'nc.description, nc.name_class, tn.proper_name, nc.abbreviated'`" "Географические названия"
+makecomplexlistfield name "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) not like $$%place$$' 'nc.description, nc.name_class, tn.proper_name, nc.abbreviated'`" "Имена собственные" 
 makelistfield addressee "`makesql 'distinct annotation' text_annotations 'kind = $$addressee$$'`" Адресат
 
 echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
