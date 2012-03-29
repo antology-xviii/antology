@@ -48,9 +48,11 @@ name_class(Node, Class) :-
      xpath_chk(Node, /self(@type), Type),
      atom_concat('tei.name.', Type, Class)).
 
-excluded_speaker(_, Attrs) :-
-    limit_to_speaker(_),
-    memberchk(who = [Speaker], Attrs),   
+included_speaker(_, Attrs) :-
+    \+ limit_to_speaker(_), !.
+included_speaker(_, Attrs) :-
+    memberchk(who = Speakers, Attrs),
+    member(Speaker, Speakers),
     limit_to_speaker(Speaker).
 
 teirule(element('tei.2', _, _), [element(div, [],
@@ -147,7 +149,7 @@ teirule(element(argument, _, _), [element(p, [class='tei-signed'],
                                           [element(em, [], &)])]).
 teirule(element(epigraph, _, _), [element(p, [class='tei-epigraph'], &)]).
 
-teirule(element(sp, _, _), (call(teihtml:excluded_speaker) -> [])).
+teirule(element(sp, _, _), ((\+call(teihtml:excluded_speaker)) -> [])).
 teirule(element(sp, _, _), (aligned -> [element(tr, [], [element(td, [class='tei-sp'], &)])])).
 teirule(element(sp, _, _), (@corresp -> once(element(table, [class='tei-sp-corresp'],
                                                       [(aligned = true) : &(/self),
