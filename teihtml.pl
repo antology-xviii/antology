@@ -73,7 +73,7 @@ teirule(element(div2, _, _), [element(div, [class='tei-div'],
                                       (level = 2) : &)]).
 teirule(element(div3, _, _), [element(div, [class='tei-div'],
                                       (level = 3) : &)]).
-teirule(element(name, _, _), [element(a, [class = call(teihtml:name_class), id = ('NAME' : @n)], &_)]).
+teirule(element(name, _, _), [element(a, [class = call(teihtml:name_class), id = ('NAME' : @n)], &)]).
 teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
 teirule(element(space, _, _), (@dim = horizontal -> [element(span, [class = 'tei-space-horizontal',
