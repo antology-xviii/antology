@@ -8,7 +8,8 @@ echo "<!-- +middle -->"
 echo "</head>"
 echo "<body>"
 echo "<!-- -middle -->"
-SP_ENCODING=KOI8-R onsgmls -oline -oomitted ".$2" | awk -f structure.awk
+recoded="`echo "$2" | iconv -f utf8 -t koi8-t`"
+SP_ENCODING=KOI8-R onsgmls -oline -oomitted ".$recoded" | awk -f structure.awk
 rc=$?
 echo "<!-- +foot -->"
 echo "</body>"
