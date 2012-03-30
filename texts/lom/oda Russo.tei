@@ -17,7 +17,7 @@
     <!ENTITY % TEI.transcr "INCLUDE">
 	<!ENTITY ocystress SDATA "[ocystress ]">
 	<!ENTITY icystress SDATA "[icystress ]">
-	<!ENTITY iecystress SDATA "[iecystress ]">
+	<!ENTITY iecystress SDATA "[iecystress]">
 	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
 	<!ENTITY feb-web SYSTEM "<url>http://feb-web.ru" NDATA HTML>
 ]>

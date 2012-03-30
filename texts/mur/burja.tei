@@ -18,7 +18,7 @@
 	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
 	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
 	<!ENTITY ocystress SDATA "[ocystress ]">
-	<!ENTITY iecystress SDATA "[iecystress ]">
+	<!ENTITY iecystress SDATA "[iecystress]">
 ]>
 
 <TEI.2>
