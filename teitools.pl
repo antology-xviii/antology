@@ -12,6 +12,10 @@ do_note(element(note, Attrs, Children), element(note, Attrs0, XChildren), N, M) 
      N0 is N + 1),
     sew_dom(do_note, Children, XChildren, N0, M).
 
+do_names(element(name, Attrs, Children), element(name, [n = N | Attrs], XChildren), N, M) :-
+    N0 is N + 1,
+    sew_dom(do_names, Children, XChildren, N0, M).
+
 map_entity('[quot  ]', '"').
 map_entity('[apos  ]', '\'').
 map_entity('[lt    ]', '<').
@@ -87,9 +91,10 @@ replace_sdata(sdata(Text), Result) :-
     map_entity(Text, Result).
 replace_sdata(sdata(Text), Text).
 
-preprocess_tree(Dom, Dom1) :-
-    complete_ids(Dom, Dom0),
-    sew_dom(do_note, Dom0, Dom1, 1, _).
+preprocess_tree(Dom, Dom2) :-
+    complete_ids(Dom, Dom0),    
+    sew_dom(do_note, Dom0, Dom1, 1, _),
+    sew_dom(do_names, Dom1, Dom2, 1, _).
 
 load_tei(File, Dom) :-
     sgml_register_catalog_file('catalog.fix', start),

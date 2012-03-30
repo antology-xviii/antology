@@ -33,14 +33,6 @@ noteresp(_, element(_, Attrs, _), [element(em, [class='tei-note.resp'],
     Resp = 'editor' -> RespStr = 'ред.'.
 noteresp(_, _, []).
 
-:- initialization(nb_setval(name_count, 0)).
-
-count_names(_, NameN) :-
-    b_getval(name_count, NOld),
-    N is NOld + 1,
-    b_setval(name_count, N),
-    atomic_concat('NAME', N, NameN).    
-
 name_class(Node, Class) :-
     (xpath_chk(Node, /self(@reg), Reg), normalize_space(atom(Name), Reg);
      xpath_chk(Node, /self(normalize_space), Name)),
@@ -81,7 +73,7 @@ teirule(element(div2, _, _), [element(div, [class='tei-div'],
                                       (level = 2) : &)]).
 teirule(element(div3, _, _), [element(div, [class='tei-div'],
                                       (level = 3) : &)]).
-teirule(element(name, _, _), [element(a, [class = call(teihtml:name_class), id = call(teihtml:count_names)], &)]).
+teirule(element(name, _, _), [element(a, [class = call(teihtml:name_class), id = 'NAME' : @n, &)]).
 teirule(element(add, _, _), [element(small, [class='tei-add'], &)]).
 teirule(element(abbr, _, _), [&, '. ']).
 teirule(element(space, _, _), (@dim = horizontal -> [element(span, [class = 'tei-space-horizontal',
