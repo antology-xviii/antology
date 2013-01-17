@@ -1,0 +1,95 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Пес чван</title>
+        <author>
+          <persName>
+            <forename>Василий</forename>
+            <forename type='patronym'>Кириллович</forename>
+            <surname>Тредиаковский</surname>
+          </persName>
+        </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor>Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Пес чван</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1752</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='тщеславие'>
+<span from='whole' type='theme' value='глупость'>
+<body id='whole'><div0 met='Я6' rhyme="Астрофич. п.р.">
+<lg1 type="stanza">
+<l>Лихому Псу звонок на шею привязать
+<l>Велел хозяин сам, чрез то б всем показать,
+<l>Что Пес тот лют добре<note resp="editor"><quote>Лют добре</quote> - очень злой.</note>; затем бы прочь бежали,
+<l>Иль палку б на него в руках своих держали.
+<l>Но злой Пес, мня, что то его мзда удальства,
+<l>Стал с спеси презирать всех лучшего сродства<note resp="editor"><quote>Всех лучшего сродства</quote> - всех более породистых.</note>.
+<l>То видя, говорил товарищ стар годами:
+<l><q>Собака! без ума ты чванишься пред нами:
+<l>Тебе ведь не в красу, но дан в признак звонок,
+<l>Что нравами ты зол, а разумом щенок</q>.
+</body>
+  </text>
+</tei.2>

@@ -1,0 +1,101 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Ворон и лисица</title>
+        <author>
+          <persName>
+            <forename>Василий</forename>
+            <forename type='patronym'>Кириллович</forename>
+            <surname>Тредиаковский</surname>
+          </persName>
+        </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor>Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Ворона и Лисица</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1752</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='лесть'>
+<span from='whole' type='theme' value='глупость'>
+<body id='whole'><div0 met='Х7' rhyme="Астрофич. п.р.">
+<lg1 type="stanza">
+<l>Негде Ворону унесть сыра часть случилось;
+<l>На дерево с тем взлетел, кое полюбилось.
+<l>Оного Лисице захотелось вот поесть;
+<l>Для того, домочься б, вздумала такую лесть:
+<l>Воронову красоту, перья цвет почтивши,
+<l>И его вещбу еще также похваливши,
+<l><q>Прямо,</q> - говорила, - <q>птицею почту тебя
+<l>Зевсовою впредки<note resp="editor"><quote>Птицею почту тебя Зевсовою</quote> Птицею Зевса считался орел.</note>, буде глас твой для себя
+<l>И услышу песнь, доброт всех твоих достойну</q>.
+<l>Ворон похвалой надмен, мня себе пристойну<note resp="editor"><quote>Мня себе пристойну</quote> - т. е. считая, что похвала ему пристойна.</note>,
+<l>Начал, сколько можно громче, кракать и кричать,
+<l>Чтоб похвал последню получить себе печать;
+<l>Но тем самым из его носа растворенна
+<l>Выпал на землю тот сыр. Лиска, ободренна
+<l>Оною корыстью, говорит тому на смех:
+<l><q>Всем ты добр, мой Ворон; только ты без сердца мех</q>.<note resp="editor"><quote>Без сердца мех</quote> - чучело.</note>
+</body>
+  </text>
+</tei.2>

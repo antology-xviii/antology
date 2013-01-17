@@ -1,0 +1,131 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+		<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Эклога</title>
+        <author>
+          <persName>
+            <forename>Ипполит</forename>
+            <forename type='patronym'>Федорович</forename>
+            <surname>Богданович</surname>
+          </persName>
+        </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor>Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher><<Советский писатель>></publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
+библиотека</XREF></DISTRIBUTOR>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Эклога</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+            <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='течение времени'>
+<span from='whole' type='theme' value='любовь'>
+<body id='whole'><div0 met='Я6' rhyme="
+AAbbCCaaCCeeAAccCCccCCaaCCeeCCbbAAeeBB.">
+<lg1 type="stanza">
+<l>Уже осенние морозы гонят лето,
+<l>И поле, зеленью приятною одето,
+<l>Теряет прежний вид, теряет все красы;
+<l>Проходят радости, проходят те часы,
+<l>В которы пастухи средь рощи обитали.
+<l>Уже стада ходить на паству перестали,
+<l>И миновалася приятность прежних дней,
+<l>Когда предвозвещал <name type="mythologic"
+reg="Аврора">Аврору</name>соловей,
+<l>На зыблющихся пел сучках и утешался,
+<l>И голос одного по рощам раздавался.
+<l>Не летний дождь идет, и не из прежних туч;
+<l>Светило с высоты пускает слабый луч.
+<l>Холодный дует ветр, <name type="mythologic">зефир</name>уже не веет;
+<l>Летит с деревьев лист, и вянет и желтеет.
+<l>Вчера овец погнав, уже в последний раз
+<l>Кларису я узрел, о, час, приятный час!
+<l>Но лето кончилось и паству пресекает,
+<l>И вместе с ним моя свобода утекает.
+<l>Клариса день один со мной овец пасла,
+<l>Но навсегда мою свободу унесла.
+<l>Я чувствую в себе; но что? и сам не знаю;
+<l>Кларису я любить сердечно начинаю.
+<l>Что думать ни начну, я думаю об ней,
+<l>Нейдет Клариса вон из памяти моей.
+<l>Люблю, и видеть я хочу ее всечасно:
+<l>Расстаться с нею мне... и мыслить то ужасно.
+<l>Нельзя изобразить, что я без ней терплю,
+<l>Как только, что ее сердечно я люблю.
+<l>Приятно чувствовать, и мыслить то приятно:
+<l>Ах! если б ей любви желанье было внятно!
+<l>Приятней и того мне с нею говорить.
+<l>Увидя раз ее, не можно позабыть.
+<l>Пойду за нею вслед, она живет у речки,
+<l>Скажу, что наши там смешалися овечки,
+<l>Что в стаде двух иль трех своих не нахожу,
+<l>А между тем я ей и более скажу;
+<l>И, может быть, найдем другие мы причины,
+<l>Чтоб видеться всегда с Кларисой без скотины.
+</body>
+  </text>
+</tei.2>
+

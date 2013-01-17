@@ -1,0 +1,152 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Похвала Ижерской земле
+ и царствующьму граду Санктпетербургу</title>
+        <author>
+          <persName>
+            <forename>Василий</forename>
+            <forename type='patronym'>Кириллович</forename>
+            <surname>Тредиаковский</surname>
+          </persName>
+        </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor>Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Похвала Ижерской земле
+ и царствующьму граду Санктпетербургу</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1752</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='Петр I'>
+<span from='whole' type='theme' value='Санкт-Петербург'>
+<span from='whole' type='theme' value='военная слава России'>
+<body id='whole'><div0 met='Я5' rhyme="aBaB">
+<lg1 type="stanza">
+<l>Приятный брег! Любезная страна!
+<l>Где свой <name type="place" reg="Нева, р.">Нева</name> поток стремит к пучине.
+<l>О! прежде дебрь, се коль населена!
+<l>Мы град в тебе престольный видим ныне.
+<lg1 type="stanza">
+<l>Немало зрю в округе я доброт:
+<l>Реки твоей струи легки и чисты;
+<l>Студен воздух, но здрав его есть род:
+<l>Осушены почти уж блата мшисты.
+<lg1 type="stanza">
+<l>Где место ты низвергнуть подала
+<l>Врагов своих блаженну <name type="person" reg="Александр Невский, кн.">Александру</name><note resp="editor"><quote>Александр</quote> - Александр Ярославович, за победу над шведами на Неве (1240 г.) прозванный Невским.</note>,
+<l>В трофей и лавр там лавра<note resp="editor"><quote>Лавра</quote> - укрепленный монастырь; в 1710 г. Петром I в память побед над шведами был заложен Александро-Невский монастырь, впоследствии официально названный лаврой.</note> процвела;
+<l>Там почернил багряну ток <name type="mythologicPlace" reg="Скамандр, р.">Скамандру</name>.<note resp="editor"><quote>Там почернил багряну ток Скамандру</quote> - там поток (Невы) посрамил багряную Скамандру. Река Скамандр во время Троянской войны стала, как говорится в ?Илиаде?, багряной от крови.</note>
+<lg1 type="stanza">
+<l>Отверзла путь, торжественны врата
+<l>К полтавским тем полям<note resp="editor"><quote>К полтавским? полям</quote> - к победе Петра I под Полтавой (1709 г.)</note> сия победа;
+<l>Великий сам, о! слава, красота,
+<l>Сразил на них <name type="person" reg="Петр I">Петр</name> равного ж соседа. <note resp="editor"><quote>Равного ж соседа</quote> - т. е. шведов.</note>
+<lg1 type="stanza">
+<l>Преславный град, что <name type="person" reg="Петр I">Петр</name> наш основал
+<l>И на красе построил толь полезно,
+<l>Уж древним всем он ныне равен стал,
+<l>И обитать в нём всякому любезно.
+<lg1 type="stanza">
+<l>Не больше лет, как токмо с пятьдесят,
+<l>Отнеле ж все хвалу от удивленной
+<l>Ему души со славою гласят,
+<l>И честь притом достойну во вселенной.
+<lg1 type="stanza">
+<l>Что ж бы тогда, как пройдет уж сто лет?
+<l>О! вы, по нас идущие потомки,
+<l>Вам слышать то, сему коль граду свет<note resp="editor"><quote>Сему коль граду свет</quote> - сколь громкие хвалы этому городу будет петь пришедший в восторг мир.</note>,
+<l>В восторг пришед, хвалы петь будет громки.
+<lg1 type="stanza">
+<l>Авзонских стран <name type="place">Венеция</name>, и <name type="place">Рим</name>,
+<l>И <name type="place">Амстердам</name> батавский, и столица
+<l>Британских мест, тот долгий <name type="place">Лондон</name><note resp="editor"><quote>Долгий Лондон</quote> - После пожара в XVII в. Лондон, расположенный вдоль р. Темзы, быстро застраивался на запад от Сити.</note> к сим,
+<l>Париж градам как верьх, или царица, -
+<lg1 type="stanza">
+<l>Все сии цель есть шествий наших в них,
+<l>Желаний вещь<note resp="editor"><quote>Все сии цель есть шествий наших в них, Желаний вещь</quote> - все эти города цель наших путешествий, предмет желаний.</note>, честное наше странство, 
+<l>Разлука нам от кровнейших своих;
+<l>Влечет туда нас слава и убранство.
+<lg1 type="stanza">
+<l>Сей люб тому, иному - тот из нас:
+<l>Как веселил того, другой другого,
+<l>Так мы об них беседуем мног час<note resp="editor"><quote>Мног час</quote> - многие часы.</note>,
+<l>И помним, что случилось там драгого.
+<lg1 type="stanza">
+<l>Но вам узреть, потомки, в граде сем,
+<l>Из всех тех стран<note resp="editor"><quote>Из всех тех стран</quote> - т. е. из Италии, Голландии, Англии, Франции.</note> слетающихся густо,
+<l>Смотрящих всё, дивящихся о всем,
+<l>Гласящих: <q>Се рай стал, где было пусто!</q>
+<lg1 type="stanza">
+<l>Явится им здесь мудрость по всему,<note resp="editor"><quote>Явится им здесь мудрость по всему</quote> - Здесь мудрость явится во всех делах им (иноземцам) не отраженно.</note>
+<l>И из всего <name type="person" reg="Петр I">Петрова</name> не в зерцале:
+<l><name type="place" reg="Санкт-Петербург">Санктпетербург</name> не образ есть чему? <note resp="editor"><quote>Санктпетербург не образ есть чему?</quote> - Чему образцом не может быть сам Петербург?</note>
+<l>Восстенут: <q>Жаль! Зиждитель сам жил вмале</q>.
+<lg1 type="stanza">
+<l>О! боже, твой предел да сотворит,
+<l>Да о <name type="person" reg="Петр I">Петре</name><note resp="editor"><quote>О Петре</quote> - ради Петра.</note> <name type="place" reg="Россия">России</name> всей в отраду,
+<l>Светило дня впредь равного не зрит,
+<l>Из всех градов, везде <name type="place" reg="Санкт-Петербург">Петрову граду</name>.
+</body>
+  </text>
+</tei.2>
