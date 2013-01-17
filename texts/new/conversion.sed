@@ -15,6 +15,7 @@
 	<!ENTITY % TEI.names.dates "INCLUDE" >\
 	<!ENTITY % TEI.analysis "INCLUDE">\
 	<!ENTITY % TEI.linking "INCLUDE">\
+	<!ENTITY % TEI.transcr "INCLUDE">\
 	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">\
 	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>\
 ]>
