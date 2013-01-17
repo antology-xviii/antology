@@ -1,0 +1,112 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Паук и мухи</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Паук и мухи</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N...
+                  СПб.</PUBLISHER>
+                <DATE>1782</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>неизвестно </DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="социальная несправедливость" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="власть сильных" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="угнетение слабых " TYPE="theme">
+<BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="12 letters"><q>Постой, - <name
+type="character">паук</name> сказал, -
+<L> <space dim="horizontal" extent="8 letters"> Я чаю, я нашел причину,
+<L>Зачем еще большой я <name type="character" reg="муха"> мухи</name> не
+поймал,
+<L>А попадается всё мелочь; дай раскину
+<L> <space dim="horizontal" extent="12 letters"> Пошире паутину,
+<L>Авось-либо тогда поймаю и больших</q>.
+<L> <space dim="horizontal" extent="8 letters"> Раскинув, нажидает их;
+<L> <space dim="horizontal" extent="12 letters"> Всё мелочь попадает:
+<L> <space dim="horizontal" extent="8 letters"> Большая <name
+type="character" > муха</name> налетит -
+<L>Прорвется и сама, и паутину мчит.
+
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="8 letters"> А это и с людьми бывает,
+<L> <space dim="horizontal" extent="12 letters"> Что маленьким, куда
+<L> <space dim="horizontal" extent="12 letters"> Ни обернись, беда.
+<L>Вор, например, большой, хоть в краже попадется
+<L> <space dim="horizontal" extent="8 letters">Выходит прав из-под суда,
+<L> <space dim="horizontal" extent="4 letters"> А маленький наказан
+остается.
+</BODY>
+</TEXT>
+</TEI.2>
+
+

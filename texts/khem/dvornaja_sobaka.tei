@@ -1,0 +1,165 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+	 <!ENTITY ucystress SDATA "[ucystress ]">
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Дворная собака </TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR> Л. Е. Боброва, В. Э. Вацуро </EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Дворовая собака</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N
+                  СПб.</PUBLISHER>
+                <DATE>1782</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE> неизвестно</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="лживость обещаний" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="доверчивость и глупость" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+<LG1 TYPE="stanza">
+<L>Жила у <name type="character" reg="барин">барина</name>
+<name type="character">собака</name>
+на дворе
+<L> <space dim="horizontal" extent="7 letters">В таком довольстве и добре,
+<L>В каком, бывало, жил чернец в монастыре;
+<L> <space dim="horizontal" extent="15 letters">Всего же боле,
+<L> <space dim="horizontal" extent="11 letters">Что жить могла на воле.
+
+<LG1 TYPE="stanza">
+<L><name type="character">Сосед</name>, который в дом к <name
+type="character" reg="боярин">боярину</name> ходил,
+<L> <space dim="horizontal" extent="7 letters"><name type="character"
+reg="собака">Собаку</name> эту полюбил,
+ <L> <space dim="horizontal" extent="7 letters">Да как достать ее, не
+знает:
+<L>Просить <name type="character" reg="боярин">боярина</name>
+об ней ой не хотел,
+ <L> <space dim="horizontal" extent="8 letters">Украсть ее - бездельством
+счел.
+<L> <space dim="horizontal" extent="8 letters"><q>Нет, надобно, - он
+рассуждает, -
+<L> <space dim="horizontal" extent="12 letters">Скромнее поступить
+<L>И тонким образом <name type="character" reg="собака"> собаку</name> ту
+сманить</q>.
+<L>Бездельство тонкое бездельством не считает.
+<L>И всякий раз, когда, бывало, ни придет,
+ <L> <space dim="horizontal" extent="8 letters">Речь о <name
+type="character" reg="собака">собаке</name> заведет,
+<L>При ней самой ее как можно выхваляет,
+ <L> <space dim="horizontal" extent="8 letters">А <name type="character"
+reg="барин">барину</name> пенять начнет,
+<L>Что содержание ей у него худое:
+<L><q>Нет, у меня житье ей было б не такое;
+<L>Иного я куска и сам бы есть не стал,
+<L> <space dim="horizontal" extent="8 letters">Да этой бы <name
+type="character" reg="собака"> собаке</name> дал,
+<L> <space dim="horizontal" extent="8 letters">Всегда бы спать с собою
+клал.
+<L>А у тебя она лишь кости подбирает
+ <L> <space dim="horizontal" extent="12 letters">И как случится спит</q>.
+
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="8 letters">Всё, что <name
+type="character">сосед</name> ни говорит,
+<L> <space dim="horizontal" extent="8 letters"><name type="character">
+Собака</name>
+правдою считает
+<L> <space dim="horizontal" extent="4 letters">И думает: <q>Что? может
+быть, и впрям
+<L> <space dim="horizontal" extent="8 letters">Еще мне лучше будет там,
+<L>Хоть хорошо и здесь... отведать бы пуститься;
+<L>А худо - и назад ведь можно воротиться</q>.
+<L> <space dim="horizontal" extent="4 letters">Подумала, да и с двора
+долой,
+<L> <space dim="horizontal" extent="8 letters">К <name type="character"
+reg="сосед">соседу</name> прямо прибежала.
+<L>Живет дней несколько, и месяц, и другой;
+<L>Не только что куска того не получала,
+<L> <space dim="horizontal" extent="8 letters">Которого, <name
+type="character"> сосед</name> сказал,
+<L><space dim="horizontal" extent="8 letters">Не съел бы сам, а ей бы дал,
+<L><space dim="horizontal" extent="8 letters">И костью с н&ucystress;ждою
+случится
+<L> <space dim="horizontal" extent="8 letters"><name type="character"
+reg="собака">Собаке</name>
+в праздник поживиться.
+<L> <space dim="horizontal" extent="8 letters">Спать - хуже прежнего спала;
+<L>А сверх того еще привязана была.
+<L> <space dim="horizontal" extent="8 letters">И поделом: зачем сбежала?
+<L>Вперед, <name type="character"> собака</name>, знай, когда еще не знала,
+<L> <space dim="horizontal" extent="4 letters">Что многие умеют мягко
+стлать,
+<L> <space dim="horizontal" extent="16 letters">Да жестко спать.
+<L><name type="character" reg="собака"> Собаки</name>
+добрые с двора на двор не рыщут
+ <L> <space dim="horizontal" extent="8 letters">И от добра добра не ищут.
+</BODY>
+</TEXT>
+</TEI.2>
+

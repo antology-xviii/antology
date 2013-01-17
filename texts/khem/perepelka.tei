@@ -1,0 +1,174 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric
+encoding declarations//RU" "encoding.tei">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Перепелка с детьми и крестьянин</title>
+        <author>
+          <persName>
+            <forename>Иван</forename>
+            <forename type='patronym'>Иванович</forename>
+            <surname>Хемницер</surname>
+          </persName>
+        </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Перепелка и крестьянин</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Басни и сказки И. И. Хемницера, в трех частях.
+Ч. 3.</publisher>
+                <date>1799</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>неизвестно</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='мудрость'>
+<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
+<l>Прилежность и труды в делах употребя,
+<l>Надежда лучшая к успеху на себя.
+<lg1 type="group">
+<l><space dim="horizontal" extent="16 letters">Все знают,
+<l><space dim="horizontal" extent="8 letters">Что<name type="character"
+reg="перепелка">перепелки</name>гнезды вьют,
+<l>Когда хлеба еще далёко не цветут,
+<l>А не тогда, когда почти уж поспевают;
+<l><space dim="horizontal" extent="13 letters">То есть порой
+<l><space dim="horizontal" extent="16 letters">Такой,
+<l><space dim="horizontal" extent="8 letters">Когда весна лишь наступает
+<l>И вдвое всё, что есть, любиться заставляет
+<l><space dim="horizontal" extent="8 letters">Да думать, как дружка найти,
+<l>Чтоб род и племя вновь с дружком произвести.
+<l>Одна, не знаю как, однако опоздала,
+<l>Так что гнезда себе порою не свила,
+<l>А стала вить, когда пора почти прошла
+<l><space dim="horizontal" extent="8 letters">И в поле рожь уж поспевала.
+<l><space dim="horizontal" extent="10 letters">Однако молодых
+<l><space dim="horizontal" extent="8 letters">Кое-как вывела своих;
+<l><space dim="horizontal" extent="8 letters">Да только что летать не
+сможат.
+<l><space dim="horizontal" extent="10 letters">И детям говорит:
+<l><q>Ох, дети! эта рожь нам не добром грозит:
+<l>Того и жди, что нас отсюда потревожат;
+<l>Однако слушайте: я стану отлетать
+<l><space dim="horizontal" extent="10 letters">Вам корму промышлять,
+<l><space dim="horizontal" extent="13 letters">А вы смотрите:
+<l>Хозяин этой ржи как станет приходить,
+<l><space dim="horizontal" extent="8 letters">Так, что ни будет говорить,
+<l>Всё до последнего мне слова расскажите</q>.
+<l>Пришедши днем одним хозяин между тем,
+<l><space dim="horizontal" extent="8 letters">Как<name
+type="character">перепелка</name>отлетела,
+<l><space dim="horizontal" extent="8 letters"><q>А! рожь-та, - говорит,-
+совсем,
+<l><space dim="horizontal" extent="8 letters">Как вижу я, уже поспела.
+<l>Пойти было друзьям, приятелям сказать,
+<l>Чтоб с светом помогли мне эту рожь пожать</q>.
+<l><space dim="horizontal" extent="8 letters">И! тут, помилуй бог, какая
+<l>Тревога сделалась промеж перепелят!
+<l><space dim="horizontal" extent="8 letters"><q>Ах, матушка! ахти! -
+кричат.-
+<l><space dim="horizontal" extent="8 letters">Друзей, приятелей сбирая,
+<l><space dim="horizontal" extent="8 letters">Рожь хочет с светом вдруг
+пожать</q>.
+<l><space dim="horizontal" extent="10 letters">- <q>И! - говорит им мать. -
+<l><space dim="horizontal" extent="8 letters">Пустое! нечего бояться.
+<l>Мы можем, где мы есть, с покоем оставаться.
+<l><space dim="horizontal" extent="8 letters">Вот вам, поешьте между тем
+<l>И спите эту ночь, не думав ни о чем,
+<l><space dim="horizontal" extent="8 letters">Да только завтра тож
+смотрите,
+<l>Что ни услышите, мне всё перескажите</q>.
+<lg1 type="group">
+<l>Пришед хозяин, ждать-пождать; нет никого!
+<l><space dim="horizontal" extent="8 letters"><q>Вот, - говорит, - до
+одного
+<l>Все обещались быть, а сами не бывали.
+<l>Надейся! Ну, пойти ж родню свою собрать,
+<l>Чтоб завтра поутру пришли и рожь пожали</q>.
+<l><space dim="horizontal" extent="8 letters">Тревога меж перепелят
+<l>Где пуще прежнего! - <q>Родне своей, - кричат,-
+<l><space dim="horizontal" extent="8 letters">Родне, он сказывал,
+сбираться!</q>
+<l><space dim="horizontal" extent="8 letters">- <q>Всё нечего еще бояться,
+-
+<l>Сказала мать, - когда лишь только и всего</q>.
+<l>Пришел хозяин так, как приходил и прежде,
+<l>Да видит, и родни нет также никого.
+<l><q>Нет, - говорит, - в пустой, как вижу, я надежде!
+<l>Впредь верить ни родне не стану, ни друзьям.
+<l>До своего добра никто таков, как сам.
+<l>Знать, завтра поутру с семьею приниматься
+<l><space dim="horizontal" extent="8 letters">Хлеб этот помаленьку
+сжать</q>.
+<l><space dim="horizontal" extent="8 letters">- <q>Ну, дети! - тут сказала
+мать.-
+<l>Теперь уж нечего нам больше дожидаться</q>.
+<l><space dim="horizontal" extent="13 letters">Тут кто поршком,
+<l><space dim="horizontal" extent="13 letters">Кто кувырком
+<l><space dim="horizontal" extent="8 letters">Ну поскоряе убираться.
+</body>
+  </text>
+</tei.2>
+
+
