@@ -1,0 +1,267 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Осень во время осады Очакова </title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Осень в селе Зубриловке </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Отдельное издание </publisher>
+                <date>1788</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1788</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='природа'>
+<span from='whole' type='theme' value='война'>
+<span from='whole' type='theme' value='любовь'>
+<span from='whole' type='theme' value='мужество'>
+<span from='whole' type='theme' value='поэзия'>
+<span from="whole" type="addressee" value="С.Ф. Голицыну">
+    <body id='whole'><div0 met='Я4'
+rhyme="XxXxXxXx + AbAbCdCd + EfEfGhGh">
+<lg1 type='stanza'>
+<l>Спустил седой <name type="character"><name type="mythologic">Эол</name>
+</name> <name type="mythologic"
+reg="Борей">Борея</name>
+      <l>С цепей чугунных из пещер;
+      <l>Ужасные криле расширя,
+      <l>Махнул по свету богатырь;
+      <l>Погнал стадами воздух синий,
+      <l>Сгустил туманы в облака,
+      <l>Давнул - и облака расселись,
+      <l>Пустился дождь и восшумел.
+
+      <lg1 type='stanza'>
+      <l>Уже румяна <name type="character">Осень</name> носит
+      <l>Снопы златые на гумно,
+      <l>И роскошь винограду просит
+      <l>Рукою жадной на вино.
+      <l>Уже стада толпятся птичьи,
+      <l>Ковыль сребрится по степям;
+      <l>Шумящи красно-желты листьи
+      <l>Расстлались всюду по тропам.
+
+
+<lg1 type='stanza'>
+      <l>В опушке заяц быстроногий,
+      <l>Как колпик поседев, лежит;
+      <l>Ловецки раздаются роги,
+      <l>И выжлиц лай и гул гремит.
+      <l>Запасшися крестьянин хлебом,
+      <l>Ест добры щи и пиво пьет;
+      <l>Обогащенный щедрым небом,
+      <l>Блаженство дней своих поет.
+
+
+<lg1 type='stanza'>
+<l><name type="character"><name type="mythologic">Борей</name> </name>
+на<name type="character" reg="Осень"> Осень</name> хмурит брови
+<l>И <name type="character" reg="Зима">Зиму</name>с севера зовет:
+      <l>Идет седая чародейка,
+      <l>Косматым машет рукавом;
+      <l>И снег, и мраз, и иней сыплет
+      <l>И воды претворяет в льды;
+      <l>От хладного ее дыханья
+      <l>Природы взор оцепенел.
+
+
+<lg1 type='stanza'>
+      <l>Наместо радуг испещренных
+      <l>Висит по небу мгла вокруг,
+      <l>А на коврах полей зеленых
+      <l>Лежит рассыпан белый пух.
+      <l>Пустыни сетуют и долы,
+      <l>Голодны волки воют в них;
+      <l>Древа стоят и холмы голы,
+      <l>И не пасется стад при них.
+
+
+<lg1 type='stanza'>
+      <l>Ушел олень на тундры мшисты,
+      <l>И в логовище лег медведь;
+<l>По селам <name type="mythologic" reg="нимфы"></name> голосисты
+      <l>Престали в хороводах петь;
+      <l>Дымятся серым дымом домы,
+      <l>Поспешно едет путник в путь,
+      <l>Небесный       <name        type="        mythologic
+"><name
+type="character">Марс</name></name> оставил громы
+      <l>И лег в туманы отдохнуть.
+
+
+<lg1 type='stanza'>
+<l>Российский только <name type=" mythologic ">Марс</name>, <name type="
+person" reg="Потемкин Г. А.">Потемкин</name>,
+      <l>Не ужасается зимы:
+      <l>По развевающим знаменам
+      <l>Полков, водимых им, орел
+<l>Над древним царством <name type=" person"
+reg="Митридат VI ">Митридата</name>
+      <l>Летает и темнит луну;
+      <l>Под звучным крил его мельканьем
+<l>То черн, то бледн, то рдян <name type="place" reg="Черное
+море">Эвксин</name>.
+
+
+<lg1 type='stanza'>
+      <l>Огонь, в волнах неугасимый,
+      <l>Очаковские стены жрет,
+      <l>Пред ними росс непобедимый
+      <l>И в мраз зелены лавры жнет;
+      <l>Седые бури презирает,
+      <l>На льды, на рвы, на гром летит,
+      <l>В водах и в пламе помышляет:
+      <l>Или умрет, иль победит.
+
+
+<lg1 type='stanza'>
+      <l>Мужайся, твердый росс и верный,
+      <l>Еще победой возблистать!
+      <l>Ты не наемник - сын усердный;
+      <l>Твоя <name type="person" reg="Екатерина II">Екатерина</name> мать,
+<l><name type=" person" reg="Потемкин Г. А.">Потемкин</name> - вождь, бог -
+покровитель;
+      <l>Твоя геройска грудь - твой щит,
+      <l>Честь - мзда твоя, вселена - зритель,
+      <l>Потомство плесками гремит.
+
+
+<lg1 type='stanza'>
+<l>Мужайтесь, росски <name type="mythologic" reg="Ахиллес">Ахиллесы</name>,
+      <l>Богини северной сыны!
+<l>Хотя вы в <name type="mythologicPlace" reg="Стикс">Стикс</name>не
+погружались,
+      <l>Но вы бессмертны по делам.
+      <l>На вас всех мысль, на вас всех взоры,
+      <l>Дерзайте ваших вслед отцов!
+<l>И ты спеши скорей, <name type=" person" reg="Голицын С.
+Ф.">Голицын</name>!
+      <l>Принесть в твой дом с оливой лавр.
+
+
+<lg1 type='stanza'>
+      <l>Твоя супруга златовласа,
+      <l>Пленира сердцем и лицом,
+      <l>Давно желанного ждет гласа,
+      <l>Когда ты к ней приедешь в дом;
+      <l>Когда с горячностью обнимешь
+      <l>Ты семерых твоих сынов,
+      <l>На матерь нежны взоры вскинешь
+      <l>И в радости не сыщешь слов.
+
+
+<lg1 type='stanza'>
+      <l>Когда обильными речами
+      <l>Потом восторг свой изъявишь,
+      <l>Бесценными побед венцами
+      <l>Твою супругу удивишь;
+      <l>Геройские дела расскажешь
+      <l>Ее ты дяди и отца,
+      <l>И дух и ум его докажешь
+      <l>И как к себе он влек сердца.
+
+
+<lg1 type='stanza'>
+      <l>Спеши, супруг, к супруге верной,
+      <l>Обрадуй ты, утешь ее;
+      <l>Она задумчива, печальна,
+      <l>В простой одежде, и, власы
+      <l>Рассыпав по челу нестройно,
+      <l>Сидит за столиком в софе;
+      <l>И светло-голубые взоры
+      <l>Ее всечасно слезы льют.
+
+
+<lg1 type='stanza'>
+      <l>Она к тебе вседневно пишет:
+      <l>Твердит то славу, то любовь,
+      <l>То жалостью, то негой дышит
+      <l>То страх ее смущает кровь;
+      <l>То дяде торжества желает,
+      <l>То жаждет мужниной любви,
+      <l>Мятется, борется, вещает:
+      <l> <q>Коль долг велит, ты лавры рви!</q>
+
+
+<lg1 type='stanza'>
+      <l>В чертоге вкруг ее безмолвном
+<l>Не смеют <name type="mythologic" reg="нимфа">нимфы</name> пошептать;
+<l>В восторге только <name type="mythologic" reg="муза">муза</name> томном
+<l>Осмелились сей стих бряцать. -
+<l>Румяна <name type="character">Осень</name>! радость мира!
+      <l>Умножь, умножь еще твой плод!
+      <l>Приди, желанна весть! - и лира
+      <l>Любовь и славу воспоет.
+    </body>
+  </text>
+</tei.2>
+
+
+
+

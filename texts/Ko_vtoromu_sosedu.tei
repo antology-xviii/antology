@@ -1,0 +1,162 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+   <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+   <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+   <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+   %ISOnum;
+   %ISOpub;
+   %ISOcyr1;
+   <!ENTITY % TEI.verse "INCLUDE" >
+   <!ENTITY % TEI.names.dates "INCLUDE" >
+   <!ENTITY % TEI.analysis "INCLUDE">
+   <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ко второму соседу</title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Ко второму соседу </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. Ч. 2. СПб.</publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1791</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='слава'>
+<span from='whole' type='theme' value='непостоянство времени'>
+<span from='whole' type='theme' value='строительство дома'>
+<span from='whole' type="addressee" value="М. А. Гарновскому ">
+    <body id='whole' ><div0 met="ЯРз44444443" rhyme='aBaBcDDc'>
+<lg1 type='stanza'>
+<l>Не кость резная <name type="place" reg="Холмогоры"> Колмогор</name>,
+<l>Не мрамор <name type="place" reg="Тифда">...</name>Тифды и <name
+type="place" reg="Урал, горы"> Рифея </name>,
+<l>Не Невски зеркала, фарфор,
+<l>Не шелк <name type="place" reg="Баку"> Баки</name>, не глазумея
+<l>Благоуханные пары
+<l>Вельможей делают известность,
+<l>Но некий твердый дух и честность,
+<l>А паче - муз дары.
+
+<lg1 type='stanza'>
+<l>Почто же, мой вторый сосед,
+<l>Столь зданьем пышным, столь отличным
+<l>Мне солнца застеняя свет,
+<l>Двором межуешь безграничным
+<l>Ты дому моего забор?
+<l>Ужель полей, прудов и речек,
+<l>Тьмы скупленных тобой местечек
+<l>Твой не насытят взор?
+
+<lg1 type='stanza'>
+<l>В тот миг, как с пошвы до конька
+<l>И около, презренным взглядом,
+<l>Мое строение слегка
+<l>С своим обозревая рядом,
+<l>Ты в гордости своей с высот
+<l>На низменны мои мнишь кровы
+<l>Навесить темный сад кедровый
+<l>И шумны токи вод,-
+
+<lg1 type='stanza'>
+<l>Кто весть, что рок готовит нам?
+<l>Быть может, что сии чертоги,
+<l>Назначенны тобой царям,
+<l>Жестоки времена и строги
+<l>Во стойлы конски обратят.
+<l>За счастие поруки нету,
+<l>И чтоб твой <name type="mythologic"> Феб</name> светил век свету,
+<l>Не бейся об заклад.
+
+<lg1 type='stanza'>
+<l>Так, так! - но примечай, как день,
+<l>Увы! ночь темна затмевает;
+<l>Луну скрывает облак, тень;
+<l>Она растет иль убывает,-
+<l>С сумой не ссорься и тюрьмой.
+<l>Хоть днесь к звездам ты высишь стены,
+<l>Но знай: ты прах одушевленный
+<l>И скроешься землей.
+
+<lg1 type='stanza'>
+<l>Надежней гроба дома нет,
+<l>Богатым он отверст и бедным;
+<l>И царь и раб в него придет.
+<l>К чему ж с столь рвеньем ты безмерным
+<l>Свой постоялый строишь двор,
+<l>И ах! сокровищи <name type="place" reg="Таврида"> Тавриды</name>
+<l>На барках свозишь в пирамиды
+<l>Средь полицейских ссор?
+
+<lg1 type='stanza'>
+<l>Любовь граждан и слава нам
+<l>Лишь воздвигают прочны домы;
+<l>Они, подобно небесам,
+<l>Стоят и презирают громы.
+<l>Зри, хижина <name type="person" reg="Петр I"> Петра </name> до днесь,
+<l>Как храм, нетленна средь столицы!
+<l>Свят дом, под кой народ гробницы
+<l> <name type=" person" reg="Артамон Матвеев"> Матвееву </name> принес!
+
+<lg1 type='stanza'>
+<l>Рабочих в шуме голосов,
+<l>Машин во скрыпе, во стенаньи,
+<l>Средь громких песен и пиров
+<l>Трудись, сосед, и строй ты зданьи;
+<l>Но мой не отнимай лишь свет.
+<l>А то оставь молве правдивой
+<l>Решить: чей дом скорей крапивой
+<l>Иль плющем зарастет?
+    </body>
+  </text>
+</tei.2>
+
+

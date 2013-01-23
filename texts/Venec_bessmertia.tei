@@ -1,0 +1,142 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Венец бессмертия </title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Полное собрание стихотворений </title>
+            <editor> В. А. Западов </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Библиотека поэта; Большая серия</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Венец бессмертия </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Анакреонтические песни Державина. СПб.
+</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1793</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='любовь'>
+<span from='whole' type='theme' value='поэзия'>
+<body id='whole'><div0 met='Я4' rhyme="AbAb">
+<lg1 type="stanza">
+<l>Беседовал с <name type="person" reg="Анакреонт">Анакреоном</name>
+<l>В приятном я недавно сне,
+<l>Под жарким, светлым небосклоном,
+<l>В тени он пальм явился мне,
+
+<lg1 type="stanza">
+<l><name type="mythologic" reg="хариты">Хариты</name> вкруг его, <name
+type="mythologic" reg="Эрот">эроты</name>,
+<l>С братиною златою <name type="mythologic">Вакх</name>,
+<l><name type="character" reg="Вафилл">Вафиль</name> прекрасный - в рощи,
+гроты
+<l>Ходили в розовых венках.
+
+<lg1 type="stanza">
+<l>Он дев плясаньем забавлялся,
+<l>Тряхнув подчас сам сединой,
+<l>На белы груди любовался,
+<l>На взор метал их пламень свой.
+
+<lg1 type="stanza">
+<l>Или, возлегши раменами
+<l>На мягки розы, отдыхал;
+<l>Огнистыми склонясь устами,
+<l>Из кубка мед златый вкушал.
+
+<lg1 type="stanza">
+<l>Иль, сидя с юным другом, нежным,
+<l>Потрепывал его рукой,
+<l>А взором вкруг себя прилежным
+<l>Искал красавицы какой.
+
+<lg1 type="stanza">
+<l>Цари к себе его просили
+<l>Поесть, попить и погостить,
+<l>Таланты злата подносили,
+<l>Хотели с ним друзьями быть.
+
+<lg1 type="stanza">
+<l>Но он покой, любовь, свободу
+<l>Чинам, богатству предпочел;
+<l>Средь игр, веселий, короводу
+<l>С красавицами век провел.
+
+<lg1 type="stanza">
+<l>Беседовал, резвился с ними,
+<l>Шутил, пел песни и вздыхал,
+<l>И шутками себе такими
+<l>Венец бессмертия снискал.
+
+<lg1 type="stanza">
+<l>Посмейтесь, красоты российски,
+<l>Что я в мороз, у камелька,
+<l>Так вами, как <name type="person" reg="Анакреонт">певец Тииский</name>,
+<l>Дерзнул себе искать венка.
+</body>
+  </text>
+</tei.2>
+

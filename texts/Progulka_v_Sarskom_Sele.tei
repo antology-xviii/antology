@@ -1,0 +1,163 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Прогулка в <name type ="place" reg="Царское Село">Сарском
+Селе</name></title>
+        <author>
+          <persName>
+            <forename>Гавриил</forename>
+            <forename type='patronym'>Романович</forename>
+            <surname>Державин</surname>
+          </persName>
+        </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title> Прогулка в <name type="place" reg="Царское
+Село">Сарском Селе</name></title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Московский журнал. N 8.</publisher>
+                <date>1791</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1791</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <span from='whole' type='theme' value='природа'>
+<span from='whole' type='theme' value='весна'>
+<span from='whole' type='theme' value='красота'>
+<body id='whole'><div0 met='Я3' rhyme="вольн.рифм.">
+<lg1 type="group">
+<l>В прекрасный майский день,
+<l>В час ясныя погоды,
+<l>Как всюду длинна тень,
+<l>Ложась в стеклянны воды,
+<l>В их зеркале брегов
+<l>Изображала виды,
+<l>И как между столпов
+<l>И зданиев <name type="mythologic" reg= "Фемида"> Фемиды </name>,
+<l>Сооруженных ей
+<l>Героев росских в славу,
+<l>При гласе лебедей,
+<l>В прохладу и забаву,
+<l>Вечернею порой
+<l>От всех уединяясь,
+<l>С <name type="character" reg="Пленира"> Пленирою </name> младой
+<l>Мы, в лодочке катаясь,
+<l>Гуляли в озерке;
+<l>Она в корме сидела,
+<l>А посредине я.
+<l>За нами вслед летела
+<l>Жемчужная струя,
+<l>Кристалл шумел от весел;
+<l>О, сколько с нею я
+<l>В прогулке сей был весел!
+<l>Любезная моя! -
+<l>Я тут сказал, - <name type="character"> Пленира </name>!
+<l>Тобой пленен мой дух,
+<l>Ты дар всего мне мира.
+<l>Взгляни, взгляни вокруг
+<l>И виждь, красы природы
+<l>Как бы стеклись к нам вдруг:
+<l>Сребром сверкают воды,
+<l>Рубином облака,
+<l>Багряным златом кровы;
+<l>Как огненна река,
+<l>Свет ясный, пурпуровый
+<l>Объял все воды вкруг;
+<l>Смотри в них рыб плесканье,
+<l>Плывущих птиц на луг
+<l>И крыл их трепетанье.
+
+<lg1 type="group">
+<l>Весна во всех местах
+<l>Нам взор свой осклабляет,
+<l>В зеленых муравах
+<l>Ковры нам подстилает;
+<l>Послушай рога рев,
+<l>Там эха хохотанье,
+<l>Тут шепоты ручьев,
+<l>Здесь розы воздыхание!
+<l>Се ветер помавал
+<l>Крылами тихо слуху.
+
+<lg1 type="group">
+<l>Какая пища духу! -
+<l>В восторге я сказал,-
+<l>Коль красен взор природы
+<l>И памятников вид,
+<l>Они где зрятся в воды
+<l>И соловей сидит
+<l>Где близ и воспевает,
+<l>Зря розу иль зарю!
+<l>Он будто изъявляет
+<l>И богу и царю
+<l>Свое благодаренье:
+<l>Царю - за память слуг;
+<l>Творцу - что влил стремленье
+<l>К любви всем тварям в дух.
+<l>И ты, сидя при розе,
+<l>Так, дней весенних сын,
+<l>Пой, <name type="person" reg="Карамзин Н. М.">Карамзин</name>! - И в
+прозе
+<l>Глас слышен соловьин.
+</body>
+  </text>
+</tei.2>
+
