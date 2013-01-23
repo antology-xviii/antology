@@ -10,7 +10,9 @@
 	%ISOcyr1;
 	%ISOlat1;
 	%ISOlat2;
+	<!ENTITY % TEI.mixed "INCLUDE" >
 	<!ENTITY % TEI.drama "INCLUDE" >
+	<!ENTITY % TEI.verse "INCLUDE" >
 	<!ENTITY % TEI.names.dates "INCLUDE" >
 	<!ENTITY % TEI.analysis "INCLUDE">
 	<!ENTITY % TEI.linking "INCLUDE">

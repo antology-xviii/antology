@@ -10,7 +10,9 @@
 	%ISOcyr1;
 	%ISOlat1;
 	%ISOlat2;
+	<!ENTITY % TEI.mixed 'INCLUDE' >
 	<!ENTITY % TEI.drama "INCLUDE" >
+	<!ENTITY % TEI.verse 'INCLUDE' >
 	<!ENTITY % TEI.names.dates "INCLUDE" >
 	<!ENTITY % TEI.analysis "INCLUDE">
 	<!ENTITY % TEI.linking "INCLUDE">
@@ -92,7 +94,8 @@
        </castList>
       <set><p>Действие в Кремле, в царском доме</set>
 </front>
-<body id='whole' met="Я6" rhyme="Астрофич. п. р." >
+<body id='whole'>
+<div0 met="Я6" rhyme="Астрофич. п. р." >
 
 <div1 type="act">
 
