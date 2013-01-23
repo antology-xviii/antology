@@ -24,43 +24,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Дележ львиный </TITLE>
+        <TITLE>п■п╣п╩п╣п╤ п╩я▄п╡п╦п╫я▀п╧ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Дележ львиный</TITLE>
+                <TITLE>п■п╣п╩п╣п╤ п╩я▄п╡п╦п╫я▀п╧</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -71,7 +71,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE>неизвестно </DATE>
+        <DATE>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬ </DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -79,49 +79,49 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="власть сильного" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="раболепие слабых" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п╡п╩п╟я│я┌я▄ я│п╦п╩я▄п╫п╬пЁп╬" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я─п╟п╠п╬п╩п╣п©п╦п╣ я│п╩п╟п╠я▀я┘" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
 <L> <space dim="horizontal" extent="4 letters"><name type="character">
-Осел</name> с <name type="character" reg="овца">овцой</name>, с <name
-type="character" reg="корова"> коровой</name>и с <name type="character"
-reg="коза"> козой</name>
-<L> <space dim="horizontal" extent="8 letters">Когда-то в пайщики вступили
-<L> <space dim="horizontal" extent="8 letters">И <name type="character"
-reg="лев">льва</name> с собою пригласили
-<L> <space dim="horizontal" extent="12 letters">На договор такой,
-<L> <space dim="horizontal" extent="12 letters">Что если зверь какой
-<L> На чьей-нибудь земле, случится, попадется
-<L> И зверя этого удастся изловить,
-<L> То б в случае таком добычу разделить
-<L> По равной части всем, кому что доведется.
-<L> <space dim="horizontal" extent="20 letters">Случись,
+п·я│п╣п╩</name> я│ <name type="character" reg="п╬п╡я├п╟">п╬п╡я├п╬п╧</name>, я│ <name
+type="character" reg="п╨п╬я─п╬п╡п╟"> п╨п╬я─п╬п╡п╬п╧</name>п╦ я│ <name type="character"
+reg="п╨п╬п╥п╟"> п╨п╬п╥п╬п╧</name>
+<L> <space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟-я┌п╬ п╡ п©п╟п╧я┴п╦п╨п╦ п╡я│я┌я┐п©п╦п╩п╦
+<L> <space dim="horizontal" extent="8 letters">п≤ <name type="character"
+reg="п╩п╣п╡">п╩я▄п╡п╟</name> я│ я│п╬п╠п╬я▌ п©я─п╦пЁп╩п╟я│п╦п╩п╦
+<L> <space dim="horizontal" extent="12 letters">п²п╟ п╢п╬пЁп╬п╡п╬я─ я┌п╟п╨п╬п╧,
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬ п╣я│п╩п╦ п╥п╡п╣я─я▄ п╨п╟п╨п╬п╧
+<L> п²п╟ я┤я▄п╣п╧-п╫п╦п╠я┐п╢я▄ п╥п╣п╪п╩п╣, я│п╩я┐я┤п╦я┌я│я▐, п©п╬п©п╟п╢п╣я┌я│я▐
+<L> п≤ п╥п╡п╣я─я▐ я█я┌п╬пЁп╬ я┐п╢п╟я│я┌я│я▐ п╦п╥п╩п╬п╡п╦я┌я▄,
+<L> п╒п╬ п╠ п╡ я│п╩я┐я┤п╟п╣ я┌п╟п╨п╬п╪ п╢п╬п╠я▀я┤я┐ я─п╟п╥п╢п╣п╩п╦я┌я▄
+<L> п÷п╬ я─п╟п╡п╫п╬п╧ я┤п╟я│я┌п╦ п╡я│п╣п╪, п╨п╬п╪я┐ я┤я┌п╬ п╢п╬п╡п╣п╢п╣я┌я│я▐.
+<L> <space dim="horizontal" extent="20 letters">п║п╩я┐я┤п╦я│я▄,
 <L> <space dim="horizontal" extent="4 letters"><name
-type="character">Олень</name> к <name type="character"
-reg="коза">козе</name> в тенета попадись.
-<L> <space dim="horizontal" extent="8 letters">Тотч&acystress;с друг другу
-повестили,
-<L> <space dim="horizontal" extent="4 letters">И вместе все <name
-type="character" reg="олень">оленя</name> задушили.
+type="character">п·п╩п╣п╫я▄</name> п╨ <name type="character"
+reg="п╨п╬п╥п╟">п╨п╬п╥п╣</name> п╡ я┌п╣п╫п╣я┌п╟ п©п╬п©п╟п╢п╦я│я▄.
+<L> <space dim="horizontal" extent="8 letters">п╒п╬я┌я┤&acystress;я│ п╢я─я┐пЁ п╢я─я┐пЁя┐
+п©п╬п╡п╣я│я┌п╦п╩п╦,
+<L> <space dim="horizontal" extent="4 letters">п≤ п╡п╪п╣я│я┌п╣ п╡я│п╣ <name
+type="character" reg="п╬п╩п╣п╫я▄">п╬п╩п╣п╫я▐</name> п╥п╟п╢я┐я┬п╦п╩п╦.
 <LG1 TYPE="stanza">
-<L> Дошло до дележа. <name type="character" reg="лев"> Лев</name>
-т&ocystress;тчас говорит:
-<L> <q>Одна тут часть моя и мне принадлежит
-<L> Затем, что договор такой мы положили</q>.
-<L>- <q>Об этом слова нет!</q> - <q>Другая часть моя,
-<L> <space dim="horizontal" extent="15 letters">Затем что я
+<L> п■п╬я┬п╩п╬ п╢п╬ п╢п╣п╩п╣п╤п╟. <name type="character" reg="п╩п╣п╡"> п⌡п╣п╡</name>
+я┌&ocystress;я┌я┤п╟я│ пЁп╬п╡п╬я─п╦я┌:
+<L> <q>п·п╢п╫п╟ я┌я┐я┌ я┤п╟я│я┌я▄ п╪п╬я▐ п╦ п╪п╫п╣ п©я─п╦п╫п╟п╢п╩п╣п╤п╦я┌
+<L> п≈п╟я┌п╣п╪, я┤я┌п╬ п╢п╬пЁп╬п╡п╬я─ я┌п╟п╨п╬п╧ п╪я▀ п©п╬п╩п╬п╤п╦п╩п╦</q>.
+<L>- <q>п·п╠ я█я┌п╬п╪ я│п╩п╬п╡п╟ п╫п╣я┌!</q> - <q>п■я─я┐пЁп╟я▐ я┤п╟я│я┌я▄ п╪п╬я▐,
+<L> <space dim="horizontal" extent="15 letters">п≈п╟я┌п╣п╪ я┤я┌п╬ я▐
 <L> <space dim="horizontal" extent="15 letters"><name type="character"
-reg="лев"> Львом</name>называюсь
-<L> <space dim="horizontal" extent="8 letters">И первым между вас
-считаюсь</q>.
-<L> <space dim="horizontal" extent="4 letters">- <q>Пускай и то!</q> - <q>И
-третья часть моя
-<L> <space dim="horizontal" extent="8 letters">По праву кто кого храбряе.
-<L> Еще четверту часть беру себе же я
-<L> <space dim="horizontal" extent="8 letters">По праву кто кого сильняе.
-<L> А за последнюю лишь только кто примись,
-<L> <space dim="horizontal" extent="12 letters">То тут же и простись</q>.
+reg="п╩п╣п╡"> п⌡я▄п╡п╬п╪</name>п╫п╟п╥я▀п╡п╟я▌я│я▄
+<L> <space dim="horizontal" extent="8 letters">п≤ п©п╣я─п╡я▀п╪ п╪п╣п╤п╢я┐ п╡п╟я│
+я│я┤п╦я┌п╟я▌я│я▄</q>.
+<L> <space dim="horizontal" extent="4 letters">- <q>п÷я┐я│п╨п╟п╧ п╦ я┌п╬!</q> - <q>п≤
+я┌я─п╣я┌я▄я▐ я┤п╟я│я┌я▄ п╪п╬я▐
+<L> <space dim="horizontal" extent="8 letters">п÷п╬ п©я─п╟п╡я┐ п╨я┌п╬ п╨п╬пЁп╬ я┘я─п╟п╠я─я▐п╣.
+<L> п∙я┴п╣ я┤п╣я┌п╡п╣я─я┌я┐ я┤п╟я│я┌я▄ п╠п╣я─я┐ я│п╣п╠п╣ п╤п╣ я▐
+<L> <space dim="horizontal" extent="8 letters">п÷п╬ п©я─п╟п╡я┐ п╨я┌п╬ п╨п╬пЁп╬ я│п╦п╩я▄п╫я▐п╣.
+<L> п░ п╥п╟ п©п╬я│п╩п╣п╢п╫я▌я▌ п╩п╦я┬я▄ я┌п╬п╩я▄п╨п╬ п╨я┌п╬ п©я─п╦п╪п╦я│я▄,
+<L> <space dim="horizontal" extent="12 letters">п╒п╬ я┌я┐я┌ п╤п╣ п╦ п©я─п╬я│я┌п╦я│я▄</q>.
 </BODY>
 </TEXT>
 </TEI.2>

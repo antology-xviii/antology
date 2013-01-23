@@ -22,46 +22,46 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Посол осел</TITLE>
+        <TITLE>п÷п╬я│п╬п╩ п╬я│п╣п╩</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Посол осел</TITLE>
+                <TITLE>п÷п╬я│п╬п╩ п╬я│п╣п╩</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Полное собрание всех
-сочинений.
-                  М.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ п╡я│п╣я┘
+я│п╬я┤п╦п╫п╣п╫п╦п╧.
+                  п°.</PUBLISHER>
                 <DATE>1781</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -80,19 +80,19 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="дипломатия" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="глупость" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="Я6">
-<L>В <name type="place" reg="Венеция">Венеции</name>
-послом шалун какой-то был,
-<L>Был горд, и многим он довольно нагрубил.
-<L>Досадой на него венециане дышут,
-<L>И ко двору о том, отколь посол был, пишут.
-<L>Там ведают уже о тьме посольских врак.
-<L>Ответствуют: <q>Его простите, он дурак.
-<L>Не будет со ослом у человека драк</q>.
-<L>Они на то: <q>И мы не скудны здесь ослами,
-<L>Однако мы ослов не делаем послами</q>.
+    <SPAN FROM="WHOLE" VALUE="п╢п╦п©п╩п╬п╪п╟я┌п╦я▐" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="пЁп╩я┐п©п╬я│я┌я▄" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞6">
+<L>п▓ <name type="place" reg="п▓п╣п╫п╣я├п╦я▐">п▓п╣п╫п╣я├п╦п╦</name>
+п©п╬я│п╩п╬п╪ я┬п╟п╩я┐п╫ п╨п╟п╨п╬п╧-я┌п╬ п╠я▀п╩,
+<L>п▒я▀п╩ пЁп╬я─п╢, п╦ п╪п╫п╬пЁп╦п╪ п╬п╫ п╢п╬п╡п╬п╩я▄п╫п╬ п╫п╟пЁя─я┐п╠п╦п╩.
+<L>п■п╬я│п╟п╢п╬п╧ п╫п╟ п╫п╣пЁп╬ п╡п╣п╫п╣я├п╦п╟п╫п╣ п╢я▀я┬я┐я┌,
+<L>п≤ п╨п╬ п╢п╡п╬я─я┐ п╬ я┌п╬п╪, п╬я┌п╨п╬п╩я▄ п©п╬я│п╬п╩ п╠я▀п╩, п©п╦я┬я┐я┌.
+<L>п╒п╟п╪ п╡п╣п╢п╟я▌я┌ я┐п╤п╣ п╬ я┌я▄п╪п╣ п©п╬я│п╬п╩я▄я│п╨п╦я┘ п╡я─п╟п╨.
+<L>п·я┌п╡п╣я┌я│я┌п╡я┐я▌я┌: <q>п∙пЁп╬ п©я─п╬я│я┌п╦я┌п╣, п╬п╫ п╢я┐я─п╟п╨.
+<L>п²п╣ п╠я┐п╢п╣я┌ я│п╬ п╬я│п╩п╬п╪ я┐ я┤п╣п╩п╬п╡п╣п╨п╟ п╢я─п╟п╨</q>.
+<L>п·п╫п╦ п╫п╟ я┌п╬: <q>п≤ п╪я▀ п╫п╣ я│п╨я┐п╢п╫я▀ п╥п╢п╣я│я▄ п╬я│п╩п╟п╪п╦,
+<L>п·п╢п╫п╟п╨п╬ п╪я▀ п╬я│п╩п╬п╡ п╫п╣ п╢п╣п╩п╟п╣п╪ п©п╬я│п╩п╟п╪п╦</q>.
 </BODY>
 
 </TEXT>

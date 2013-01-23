@@ -16,43 +16,43 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>К лире</title>
+        <title>п  п╩п╦я─п╣</title>
         <author>
           <persName>
-            <forename>Гавриил</forename>
-            <forename type='patronym'>Романович</forename>
-            <surname>Державин</surname>
+            <forename>п⌠п╟п╡я─п╦п╦п╩</forename>
+            <forename type='patronym'>п═п╬п╪п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п■п╣я─п╤п╟п╡п╦п╫</surname>
           </persName>
         </author>
-        <principal>Марина Пономарева</principal>
+        <principal>п°п╟я─п╦п╫п╟ п÷п╬п╫п╬п╪п╟я─п╣п╡п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения </title>
-            <editor> В. П. Степанов, Г. П. Макогоненко </editor>
+            <title>п⌠. п═. п■п╣я─п╤п╟п╡п╦п╫. п║п╬я┤п╦п╫п╣п╫п╦я▐ </title>
+            <editor> п▓. п÷. п║я┌п╣п©п╟п╫п╬п╡, п⌠. п÷. п°п╟п╨п╬пЁп╬п╫п╣п╫п╨п╬ </editor>
           </titleStmt>
           <publicationStmt>
-            <publisher> Художественная литература</publisher>
-            <pubPlace>Л.</pubPlace>
+            <publisher> п╔я┐п╢п╬п╤п╣я│я┌п╡п╣п╫п╫п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟</publisher>
+            <pubPlace>п⌡.</pubPlace>
             <date>1987</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title> К лире </title>
+                <title> п  п╩п╦я─п╣ </title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Анакреонтические песни Державина.
-СПб.</publisher>
+                <publisher>п░п╫п╟п╨я─п╣п╬п╫я┌п╦я┤п╣я│п╨п╦п╣ п©п╣я│п╫п╦ п■п╣я─п╤п╟п╡п╦п╫п╟.
+п║п÷п╠.</publisher>
                 <date>1804</date>
               </publicationStmt>
             </biblFull>
@@ -71,27 +71,27 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <span from='whole' type='theme' value='творчество'>
+    <span from='whole' type='theme' value='я┌п╡п╬я─я┤п╣я│я┌п╡п╬'>
     <body id='whole' ><div0 met='X4' rhyme=' AbAb...'>
-<l>Петь <name type="person" reg="П. А. Румянцев"> Румянцова </name>
-сбирался,
-<l>Петь <name type="person" reg="А. В. Суворов"> Суворова</name> хотел;
-<l>Гром от лиры раздавался,
-<l>И со струн огонь летел;
-<l>Но завистливой судьбою
-<l><name type=" person" reg="П. А. Румянцев">Задунайский </name> кончил
-век;
-<l>А <name type=" person" reg="А. В. Суворов"> Рымникский </name> скрылся
-тьмою,
-<l>Как неславный человек.
-<l>Что ж? Приятна ли им будет,
-<l>Лира! днесь твоя хвала?
-<l>Мир без нас не позабудет
-<l>Их бессмертные дела.
-<l>Так не надо звучных строев,
-<l>Переладим струны вновь;
-<l>Петь откажемся героев,
-<l>А начнем мы петь любовь.
+<l>п÷п╣я┌я▄ <name type="person" reg="п÷. п░. п═я┐п╪я▐п╫я├п╣п╡"> п═я┐п╪я▐п╫я├п╬п╡п╟ </name>
+я│п╠п╦я─п╟п╩я│я▐,
+<l>п÷п╣я┌я▄ <name type="person" reg="п░. п▓. п║я┐п╡п╬я─п╬п╡"> п║я┐п╡п╬я─п╬п╡п╟</name> я┘п╬я┌п╣п╩;
+<l>п⌠я─п╬п╪ п╬я┌ п╩п╦я─я▀ я─п╟п╥п╢п╟п╡п╟п╩я│я▐,
+<l>п≤ я│п╬ я│я┌я─я┐п╫ п╬пЁп╬п╫я▄ п╩п╣я┌п╣п╩;
+<l>п²п╬ п╥п╟п╡п╦я│я┌п╩п╦п╡п╬п╧ я│я┐п╢я▄п╠п╬я▌
+<l><name type=" person" reg="п÷. п░. п═я┐п╪я▐п╫я├п╣п╡">п≈п╟п╢я┐п╫п╟п╧я│п╨п╦п╧ </name> п╨п╬п╫я┤п╦п╩
+п╡п╣п╨;
+<l>п░ <name type=" person" reg="п░. п▓. п║я┐п╡п╬я─п╬п╡"> п═я▀п╪п╫п╦п╨я│п╨п╦п╧ </name> я│п╨я─я▀п╩я│я▐
+я┌я▄п╪п╬я▌,
+<l>п п╟п╨ п╫п╣я│п╩п╟п╡п╫я▀п╧ я┤п╣п╩п╬п╡п╣п╨.
+<l>п╖я┌п╬ п╤? п÷я─п╦я▐я┌п╫п╟ п╩п╦ п╦п╪ п╠я┐п╢п╣я┌,
+<l>п⌡п╦я─п╟! п╢п╫п╣я│я▄ я┌п╡п╬я▐ я┘п╡п╟п╩п╟?
+<l>п°п╦я─ п╠п╣п╥ п╫п╟я│ п╫п╣ п©п╬п╥п╟п╠я┐п╢п╣я┌
+<l>п≤я┘ п╠п╣я│я│п╪п╣я─я┌п╫я▀п╣ п╢п╣п╩п╟.
+<l>п╒п╟п╨ п╫п╣ п╫п╟п╢п╬ п╥п╡я┐я┤п╫я▀я┘ я│я┌я─п╬п╣п╡,
+<l>п÷п╣я─п╣п╩п╟п╢п╦п╪ я│я┌я─я┐п╫я▀ п╡п╫п╬п╡я▄;
+<l>п÷п╣я┌я▄ п╬я┌п╨п╟п╤п╣п╪я│я▐ пЁп╣я─п╬п╣п╡,
+<l>п░ п╫п╟я┤п╫п╣п╪ п╪я▀ п©п╣я┌я▄ п╩я▌п╠п╬п╡я▄.
     </body>
   </text>
 </tei.2>

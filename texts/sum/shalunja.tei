@@ -23,46 +23,46 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Шалунья</TITLE>
+        <TITLE>п╗п╟п╩я┐п╫я▄я▐</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Шалунья</TITLE>
+                <TITLE>п╗п╟п╩я┐п╫я▄я▐</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Полное собрание всех
-сочинений.
-                 М.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ п╡я│п╣я┘
+я│п╬я┤п╦п╫п╣п╫п╦п╧.
+                 п°.</PUBLISHER>
                 <DATE>1781</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -81,30 +81,30 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="галломания" TYPE="theme">
-  <SPAN FROM="WHOLE" VALUE="невежество" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
-<L> <space dim="horizontal" extent="9 letters">Шалунья некая в беседе,
+    <SPAN FROM="WHOLE" VALUE="пЁп╟п╩п╩п╬п╪п╟п╫п╦я▐" TYPE="theme">
+  <SPAN FROM="WHOLE" VALUE="п╫п╣п╡п╣п╤п╣я│я┌п╡п╬" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
+<L> <space dim="horizontal" extent="9 letters">п╗п╟п╩я┐п╫я▄я▐ п╫п╣п╨п╟я▐ п╡ п╠п╣я│п╣п╢п╣,
 
-<L> <space dim="horizontal" extent="9 letters">В торжественном обеде,
+<L> <space dim="horizontal" extent="9 letters">п▓ я┌п╬я─п╤п╣я│я┌п╡п╣п╫п╫п╬п╪ п╬п╠п╣п╢п╣,
 
-<L> Не бредила без слов французских ничего.
+<L> п²п╣ п╠я─п╣п╢п╦п╩п╟ п╠п╣п╥ я│п╩п╬п╡ я└я─п╟п╫я├я┐п╥я│п╨п╦я┘ п╫п╦я┤п╣пЁп╬.
 
-<L> <space dim="horizontal" extent="9 letters">Хотя она из языка сего
+<L> <space dim="horizontal" extent="9 letters">п╔п╬я┌я▐ п╬п╫п╟ п╦п╥ я▐п╥я▀п╨п╟ я│п╣пЁп╬
 
-<L> <space dim="horizontal" extent="13 letters">Не знала ничего,
+<L> <space dim="horizontal" extent="13 letters">п²п╣ п╥п╫п╟п╩п╟ п╫п╦я┤п╣пЁп╬,
 
-<L> <space dim="horizontal" extent="10 letters">Ни слова одного,
+<L> <space dim="horizontal" extent="10 letters">п²п╦ я│п╩п╬п╡п╟ п╬п╢п╫п╬пЁп╬,
 
-<L> Однако знанием хотела поблистати
+<L> п·п╢п╫п╟п╨п╬ п╥п╫п╟п╫п╦п╣п╪ я┘п╬я┌п╣п╩п╟ п©п╬п╠п╩п╦я│я┌п╟я┌п╦
 
-<L> И ставила слова французские некстати;
+<L> п≤ я│я┌п╟п╡п╦п╩п╟ я│п╩п╬п╡п╟ я└я─п╟п╫я├я┐п╥я│п╨п╦п╣ п╫п╣п╨я│я┌п╟я┌п╦;
 
-<L> Сказала между тем: <q>Я еду делать кур</q>.
+<L> п║п╨п╟п╥п╟п╩п╟ п╪п╣п╤п╢я┐ я┌п╣п╪: <q>п╞ п╣п╢я┐ п╢п╣п╩п╟я┌я▄ п╨я┐я─</q>.
 
-<L> Сказали дурище, внимая то, соседки:
+<L> п║п╨п╟п╥п╟п╩п╦ п╢я┐я─п╦я┴п╣, п╡п╫п╦п╪п╟я▐ я┌п╬, я│п╬я│п╣п╢п╨п╦:
 
-<L> <q>Какой плетешь ты вздор! кур делают наседки</q>.
+<L> <q>п п╟п╨п╬п╧ п©п╩п╣я┌п╣я┬я▄ я┌я▀ п╡п╥п╢п╬я─! п╨я┐я─ п╢п╣п╩п╟я▌я┌ п╫п╟я│п╣п╢п╨п╦</q>.
 
 </BODY>
 

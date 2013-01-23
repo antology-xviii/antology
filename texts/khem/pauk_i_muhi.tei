@@ -23,43 +23,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Паук и мухи</TITLE>
+        <TITLE>п÷п╟я┐п╨ п╦ п╪я┐я┘п╦</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Паук и мухи</TITLE>
+                <TITLE>п÷п╟я┐п╨ п╦ п╪я┐я┘п╦</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -70,7 +70,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE>неизвестно </DATE>
+        <DATE>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬ </DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -78,33 +78,33 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="социальная несправедливость" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="власть сильных" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="угнетение слабых " TYPE="theme">
-<BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="я│п╬я├п╦п╟п╩я▄п╫п╟я▐ п╫п╣я│п©я─п╟п╡п╣п╢п╩п╦п╡п╬я│я┌я▄" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╡п╩п╟я│я┌я▄ я│п╦п╩я▄п╫я▀я┘" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я┐пЁп╫п╣я┌п╣п╫п╦п╣ я│п╩п╟п╠я▀я┘ " TYPE="theme">
+<BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="12 letters"><q>Постой, - <name
-type="character">паук</name> сказал, -
-<L> <space dim="horizontal" extent="8 letters"> Я чаю, я нашел причину,
-<L>Зачем еще большой я <name type="character" reg="муха"> мухи</name> не
-поймал,
-<L>А попадается всё мелочь; дай раскину
-<L> <space dim="horizontal" extent="12 letters"> Пошире паутину,
-<L>Авось-либо тогда поймаю и больших</q>.
-<L> <space dim="horizontal" extent="8 letters"> Раскинув, нажидает их;
-<L> <space dim="horizontal" extent="12 letters"> Всё мелочь попадает:
-<L> <space dim="horizontal" extent="8 letters"> Большая <name
-type="character" > муха</name> налетит -
-<L>Прорвется и сама, и паутину мчит.
+<L> <space dim="horizontal" extent="12 letters"><q>п÷п╬я│я┌п╬п╧, - <name
+type="character">п©п╟я┐п╨</name> я│п╨п╟п╥п╟п╩, -
+<L> <space dim="horizontal" extent="8 letters"> п╞ я┤п╟я▌, я▐ п╫п╟я┬п╣п╩ п©я─п╦я┤п╦п╫я┐,
+<L>п≈п╟я┤п╣п╪ п╣я┴п╣ п╠п╬п╩я▄я┬п╬п╧ я▐ <name type="character" reg="п╪я┐я┘п╟"> п╪я┐я┘п╦</name> п╫п╣
+п©п╬п╧п╪п╟п╩,
+<L>п░ п©п╬п©п╟п╢п╟п╣я┌я│я▐ п╡я│я▒ п╪п╣п╩п╬я┤я▄; п╢п╟п╧ я─п╟я│п╨п╦п╫я┐
+<L> <space dim="horizontal" extent="12 letters"> п÷п╬я┬п╦я─п╣ п©п╟я┐я┌п╦п╫я┐,
+<L>п░п╡п╬я│я▄-п╩п╦п╠п╬ я┌п╬пЁп╢п╟ п©п╬п╧п╪п╟я▌ п╦ п╠п╬п╩я▄я┬п╦я┘</q>.
+<L> <space dim="horizontal" extent="8 letters"> п═п╟я│п╨п╦п╫я┐п╡, п╫п╟п╤п╦п╢п╟п╣я┌ п╦я┘;
+<L> <space dim="horizontal" extent="12 letters"> п▓я│я▒ п╪п╣п╩п╬я┤я▄ п©п╬п©п╟п╢п╟п╣я┌:
+<L> <space dim="horizontal" extent="8 letters"> п▒п╬п╩я▄я┬п╟я▐ <name
+type="character" > п╪я┐я┘п╟</name> п╫п╟п╩п╣я┌п╦я┌ -
+<L>п÷я─п╬я─п╡п╣я┌я│я▐ п╦ я│п╟п╪п╟, п╦ п©п╟я┐я┌п╦п╫я┐ п╪я┤п╦я┌.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters"> А это и с людьми бывает,
-<L> <space dim="horizontal" extent="12 letters"> Что маленьким, куда
-<L> <space dim="horizontal" extent="12 letters"> Ни обернись, беда.
-<L>Вор, например, большой, хоть в краже попадется
-<L> <space dim="horizontal" extent="8 letters">Выходит прав из-под суда,
-<L> <space dim="horizontal" extent="4 letters"> А маленький наказан
-остается.
+<L> <space dim="horizontal" extent="8 letters"> п░ я█я┌п╬ п╦ я│ п╩я▌п╢я▄п╪п╦ п╠я▀п╡п╟п╣я┌,
+<L> <space dim="horizontal" extent="12 letters"> п╖я┌п╬ п╪п╟п╩п╣п╫я▄п╨п╦п╪, п╨я┐п╢п╟
+<L> <space dim="horizontal" extent="12 letters"> п²п╦ п╬п╠п╣я─п╫п╦я│я▄, п╠п╣п╢п╟.
+<L>п▓п╬я─, п╫п╟п©я─п╦п╪п╣я─, п╠п╬п╩я▄я┬п╬п╧, я┘п╬я┌я▄ п╡ п╨я─п╟п╤п╣ п©п╬п©п╟п╢п╣я┌я│я▐
+<L> <space dim="horizontal" extent="8 letters">п▓я▀я┘п╬п╢п╦я┌ п©я─п╟п╡ п╦п╥-п©п╬п╢ я│я┐п╢п╟,
+<L> <space dim="horizontal" extent="4 letters"> п░ п╪п╟п╩п╣п╫я▄п╨п╦п╧ п╫п╟п╨п╟п╥п╟п╫
+п╬я│я┌п╟п╣я┌я│я▐.
 </BODY>
 </TEXT>
 </TEI.2>

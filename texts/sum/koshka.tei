@@ -23,48 +23,48 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Кошка</TITLE>
+        <TITLE>п п╬я┬п╨п╟</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Ольга Овчарская</PRINCIPAL>
+        <PRINCIPAL>п·п╩я▄пЁп╟ п·п╡я┤п╟я─я│п╨п╟я▐</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
 <sourceDesc>
   <biblFull>
     <titleStmt>
-       <title level="a">Кошка</title>
-       <title level="m" type="main">Полное собрание всех
-       сочинений, в стихах и прозе, покойного действительного статского
-       советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания
-       члена, Александра Петровича Сумарокова.
+       <title level="a">п п╬я┬п╨п╟</title>
+       <title level="m" type="main">п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ п╡я│п╣я┘
+       я│п╬я┤п╦п╫п╣п╫п╦п╧, п╡ я│я┌п╦я┘п╟я┘ п╦ п©я─п╬п╥п╣, п©п╬п╨п╬п╧п╫п╬пЁп╬ п╢п╣п╧я│я┌п╡п╦я┌п╣п╩я▄п╫п╬пЁп╬ я│я┌п╟я┌я│п╨п╬пЁп╬
+       я│п╬п╡п╣я┌п╫п╦п╨п╟, п·я─п╢п╣п╫п╟ я│п╡. п░п╫п╫я▀ п╨п╟п╡п╟п╩п╣я─п╟ п╦ п⌡п╣п╧п©я├п╦пЁя│п╨п╬пЁп╬ я┐я┤п╣п╫п╬пЁп╬ я│п╬п╠я─п╟п╫п╦я▐
+       я┤п╩п╣п╫п╟, п░п╩п╣п╨я│п╟п╫п╢я─п╟ п÷п╣я┌я─п╬п╡п╦я┤п╟ п║я┐п╪п╟я─п╬п╨п╬п╡п╟.
         </title>
-        <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 1.</title>
+        <title level="m" type="subordinate"> п╖.7. п÷я─п╦я┌я┤п╦. п п╫. 1.</title>
         <respStmt>
         <resp>
-        Собраны и изданы в
-        удовольствие любителей российской учености
-        <name reg="Новиков Н.И." type="person">Николаем Новиковым</name>,
-членом
-        Вольного российского собрания при Императорском Московском
-        университете.
+        п║п╬п╠я─п╟п╫я▀ п╦ п╦п╥п╢п╟п╫я▀ п╡
+        я┐п╢п╬п╡п╬п╩я▄я│я┌п╡п╦п╣ п╩я▌п╠п╦я┌п╣п╩п╣п╧ я─п╬я│я│п╦п╧я│п╨п╬п╧ я┐я┤п╣п╫п╬я│я┌п╦
+        <name reg="п²п╬п╡п╦п╨п╬п╡ п².п≤." type="person">п²п╦п╨п╬п╩п╟п╣п╪ п²п╬п╡п╦п╨п╬п╡я▀п╪</name>,
+я┤п╩п╣п╫п╬п╪
+        п▓п╬п╩я▄п╫п╬пЁп╬ я─п╬я│я│п╦п╧я│п╨п╬пЁп╬ я│п╬п╠я─п╟п╫п╦я▐ п©я─п╦ п≤п╪п©п╣я─п╟я┌п╬я─я│п╨п╬п╪ п°п╬я│п╨п╬п╡я│п╨п╬п╪
+        я┐п╫п╦п╡п╣я─я│п╦я┌п╣я┌п╣.
         </resp>
         </respStmt>
     </titleStmt>
     <publicationStmt>
-       <publisher>Университетская типография</publisher>
-       <pubPlace>Москва</pubPlace>
+       <publisher>пёп╫п╦п╡п╣я─я│п╦я┌п╣я┌я│п╨п╟я▐ я┌п╦п©п╬пЁя─п╟я└п╦я▐</publisher>
+       <pubPlace>п°п╬я│п╨п╡п╟</pubPlace>
        <date>1787</date>
     </publicationStmt>
   </biblFull>
@@ -79,43 +79,43 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
 <lg1 type="stanza">
-<l>Привычку одолеть гораздо трудно,
-<l><space dim="horizontal" extent="4 letters">Природу одолеть гораздо
-чудно.
-<l>Я нечто вам теперь об этом предложу,
-<l><space dim="horizontal" extent="17 letters">И басенку скажу.
-<l>Я кошек не люблю и кошечья языка,
-<l>А больше мне всего противна их музыка;
-<l><space dim="horizontal" extent="10 letters">Но был какой то господин;
-<l><space dim="horizontal" extent="5 letters">Хозяйки не имел, и жил один,
-<l><space dim="horizontal" extent="16 letters">И кошку, не в издевку,
-<l><space dim="horizontal" extent="21 letters">Любил как девку.
-<l>Да кошка по его не знает говорить.
-<l><space dim="horizontal" extent="5 letters">Просил богов, чтоб кошку
-претворить,
-<l><space dim="horizontal" extent="10 letters">Чтоб кошка человеком стала,
-<l>И под алмазами как барыня блистала.
-<l>Исполнили они желание его:
-<l>У кошки кошечья нет больше ничего.
-<l><space dim="horizontal" extent="10 letters">На кошке фишбейная юбка
-<l><space dim="horizontal" extent="15 letters">Из китовых усов,
-<l><space dim="horizontal" extent="5 letters">Алмазы светятся из волосов,
-<l><space dim="horizontal" extent="10 letters">И ходит кошка будто шлюпка,
-<l><space dim="horizontal" extent="10 letters">Да только по сухом пути
-<l><space dim="horizontal" extent="10 letters">Водой пешком нельзя идти;
-<l>у кошки не один костей на юбке ярус,
-<l>А юбка дуется в погоду будто парус.
-<l><space dim="horizontal" extent="5 letters">Настал его желаниям конец:
-<l><space dim="horizontal" extent="5 letters">Женился наш на кошке молодец,
-<l>И до приятнейша дошел часа и места;
-<l><space dim="horizontal" extent="17 letters">Он лег, легла невеста.
-<l>Вдруг выбежала мышь. О, рок! о, случай злой!
-<l>Вскочила барыня за ней с одра долой,
-<l>Пресеклась барину потешиться дорожка,
-<l><space dim="horizontal" extent="5 letters">Вскочила барыня - и стала
-кошка.
+<l>п÷я─п╦п╡я▀я┤п╨я┐ п╬п╢п╬п╩п╣я┌я▄ пЁп╬я─п╟п╥п╢п╬ я┌я─я┐п╢п╫п╬,
+<l><space dim="horizontal" extent="4 letters">п÷я─п╦я─п╬п╢я┐ п╬п╢п╬п╩п╣я┌я▄ пЁп╬я─п╟п╥п╢п╬
+я┤я┐п╢п╫п╬.
+<l>п╞ п╫п╣я┤я┌п╬ п╡п╟п╪ я┌п╣п©п╣я─я▄ п╬п╠ я█я┌п╬п╪ п©я─п╣п╢п╩п╬п╤я┐,
+<l><space dim="horizontal" extent="17 letters">п≤ п╠п╟я│п╣п╫п╨я┐ я│п╨п╟п╤я┐.
+<l>п╞ п╨п╬я┬п╣п╨ п╫п╣ п╩я▌п╠п╩я▌ п╦ п╨п╬я┬п╣я┤я▄я▐ я▐п╥я▀п╨п╟,
+<l>п░ п╠п╬п╩я▄я┬п╣ п╪п╫п╣ п╡я│п╣пЁп╬ п©я─п╬я┌п╦п╡п╫п╟ п╦я┘ п╪я┐п╥я▀п╨п╟;
+<l><space dim="horizontal" extent="10 letters">п²п╬ п╠я▀п╩ п╨п╟п╨п╬п╧ я┌п╬ пЁп╬я│п©п╬п╢п╦п╫;
+<l><space dim="horizontal" extent="5 letters">п╔п╬п╥я▐п╧п╨п╦ п╫п╣ п╦п╪п╣п╩, п╦ п╤п╦п╩ п╬п╢п╦п╫,
+<l><space dim="horizontal" extent="16 letters">п≤ п╨п╬я┬п╨я┐, п╫п╣ п╡ п╦п╥п╢п╣п╡п╨я┐,
+<l><space dim="horizontal" extent="21 letters">п⌡я▌п╠п╦п╩ п╨п╟п╨ п╢п╣п╡п╨я┐.
+<l>п■п╟ п╨п╬я┬п╨п╟ п©п╬ п╣пЁп╬ п╫п╣ п╥п╫п╟п╣я┌ пЁп╬п╡п╬я─п╦я┌я▄.
+<l><space dim="horizontal" extent="5 letters">п÷я─п╬я│п╦п╩ п╠п╬пЁп╬п╡, я┤я┌п╬п╠ п╨п╬я┬п╨я┐
+п©я─п╣я┌п╡п╬я─п╦я┌я▄,
+<l><space dim="horizontal" extent="10 letters">п╖я┌п╬п╠ п╨п╬я┬п╨п╟ я┤п╣п╩п╬п╡п╣п╨п╬п╪ я│я┌п╟п╩п╟,
+<l>п≤ п©п╬п╢ п╟п╩п╪п╟п╥п╟п╪п╦ п╨п╟п╨ п╠п╟я─я▀п╫я▐ п╠п╩п╦я│я┌п╟п╩п╟.
+<l>п≤я│п©п╬п╩п╫п╦п╩п╦ п╬п╫п╦ п╤п╣п╩п╟п╫п╦п╣ п╣пЁп╬:
+<l>пё п╨п╬я┬п╨п╦ п╨п╬я┬п╣я┤я▄я▐ п╫п╣я┌ п╠п╬п╩я▄я┬п╣ п╫п╦я┤п╣пЁп╬.
+<l><space dim="horizontal" extent="10 letters">п²п╟ п╨п╬я┬п╨п╣ я└п╦я┬п╠п╣п╧п╫п╟я▐ я▌п╠п╨п╟
+<l><space dim="horizontal" extent="15 letters">п≤п╥ п╨п╦я┌п╬п╡я▀я┘ я┐я│п╬п╡,
+<l><space dim="horizontal" extent="5 letters">п░п╩п╪п╟п╥я▀ я│п╡п╣я┌я▐я┌я│я▐ п╦п╥ п╡п╬п╩п╬я│п╬п╡,
+<l><space dim="horizontal" extent="10 letters">п≤ я┘п╬п╢п╦я┌ п╨п╬я┬п╨п╟ п╠я┐п╢я┌п╬ я┬п╩я▌п©п╨п╟,
+<l><space dim="horizontal" extent="10 letters">п■п╟ я┌п╬п╩я▄п╨п╬ п©п╬ я│я┐я┘п╬п╪ п©я┐я┌п╦
+<l><space dim="horizontal" extent="10 letters">п▓п╬п╢п╬п╧ п©п╣я┬п╨п╬п╪ п╫п╣п╩я▄п╥я▐ п╦п╢я┌п╦;
+<l>я┐ п╨п╬я┬п╨п╦ п╫п╣ п╬п╢п╦п╫ п╨п╬я│я┌п╣п╧ п╫п╟ я▌п╠п╨п╣ я▐я─я┐я│,
+<l>п░ я▌п╠п╨п╟ п╢я┐п╣я┌я│я▐ п╡ п©п╬пЁп╬п╢я┐ п╠я┐п╢я┌п╬ п©п╟я─я┐я│.
+<l><space dim="horizontal" extent="5 letters">п²п╟я│я┌п╟п╩ п╣пЁп╬ п╤п╣п╩п╟п╫п╦я▐п╪ п╨п╬п╫п╣я├:
+<l><space dim="horizontal" extent="5 letters">п√п╣п╫п╦п╩я│я▐ п╫п╟я┬ п╫п╟ п╨п╬я┬п╨п╣ п╪п╬п╩п╬п╢п╣я├,
+<l>п≤ п╢п╬ п©я─п╦я▐я┌п╫п╣п╧я┬п╟ п╢п╬я┬п╣п╩ я┤п╟я│п╟ п╦ п╪п╣я│я┌п╟;
+<l><space dim="horizontal" extent="17 letters">п·п╫ п╩п╣пЁ, п╩п╣пЁп╩п╟ п╫п╣п╡п╣я│я┌п╟.
+<l>п▓п╢я─я┐пЁ п╡я▀п╠п╣п╤п╟п╩п╟ п╪я▀я┬я▄. п·, я─п╬п╨! п╬, я│п╩я┐я┤п╟п╧ п╥п╩п╬п╧!
+<l>п▓я│п╨п╬я┤п╦п╩п╟ п╠п╟я─я▀п╫я▐ п╥п╟ п╫п╣п╧ я│ п╬п╢я─п╟ п╢п╬п╩п╬п╧,
+<l>п÷я─п╣я│п╣п╨п╩п╟я│я▄ п╠п╟я─п╦п╫я┐ п©п╬я┌п╣я┬п╦я┌я▄я│я▐ п╢п╬я─п╬п╤п╨п╟,
+<l><space dim="horizontal" extent="5 letters">п▓я│п╨п╬я┤п╦п╩п╟ п╠п╟я─я▀п╫я▐ - п╦ я│я┌п╟п╩п╟
+п╨п╬я┬п╨п╟.
 </BODY>
 </TEXT>
 </TEI.2>

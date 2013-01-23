@@ -23,43 +23,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Лев, учредивший совет </TITLE>
+        <TITLE>п⌡п╣п╡, я┐я┤я─п╣п╢п╦п╡я┬п╦п╧ я│п╬п╡п╣я┌ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Лев, учредивший совет </TITLE>
+                <TITLE>п⌡п╣п╡, я┐я┤я─п╣п╢п╦п╡я┬п╦п╧ я│п╬п╡п╣я┌ </TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1779</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -70,7 +70,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -78,45 +78,45 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="власть глупости" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="бюрократизм" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п╡п╩п╟я│я┌я▄ пЁп╩я┐п©п╬я│я┌п╦" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╠я▌я─п╬п╨я─п╟я┌п╦п╥п╪" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> <name type="character"> Лев</name>
-учредил совет какой-то, неизвестно,
-<L> И, посадя в совет сочленами <name type="character" reg="слоны">
-слонов</name>,
-<L> <space dim="horizontal" extent="4 letters">Большую часть прибавил к ним
-<name type="character" reg="ослы">ослов</name>.
-<L> Хотя <name type="character" reg="слоны">слонам</name>
-сидеть с <name type="character" reg="ослы"> ослами</name>
-и невместно,
-<L> Но <name type="character"> лев</name>
-не мог того числа <name type="character" reg="слоны"> слонов</name>
-набрать,
-<L> <space dim="horizontal" extent="8 letters">Какому прямо надлежало
-<L> <space dim="horizontal" extent="8 letters">В совете этом заседать.
-<L> Ну, что ж? пускай числа всего бы недостало,
-<L> <space dim="horizontal" extent="12 letters">Ведь это б не мешало
-<L> <space dim="horizontal" extent="12 letters">Дела производить.
-<L> Нет, как же? а устав ужли переступить?
-<L> Хоть будь глупцы судьи, лишь счетом бы их стало.
+<L> <name type="character"> п⌡п╣п╡</name>
+я┐я┤я─п╣п╢п╦п╩ я│п╬п╡п╣я┌ п╨п╟п╨п╬п╧-я┌п╬, п╫п╣п╦п╥п╡п╣я│я┌п╫п╬,
+<L> п≤, п©п╬я│п╟п╢я▐ п╡ я│п╬п╡п╣я┌ я│п╬я┤п╩п╣п╫п╟п╪п╦ <name type="character" reg="я│п╩п╬п╫я▀">
+я│п╩п╬п╫п╬п╡</name>,
+<L> <space dim="horizontal" extent="4 letters">п▒п╬п╩я▄я┬я┐я▌ я┤п╟я│я┌я▄ п©я─п╦п╠п╟п╡п╦п╩ п╨ п╫п╦п╪
+<name type="character" reg="п╬я│п╩я▀">п╬я│п╩п╬п╡</name>.
+<L> п╔п╬я┌я▐ <name type="character" reg="я│п╩п╬п╫я▀">я│п╩п╬п╫п╟п╪</name>
+я│п╦п╢п╣я┌я▄ я│ <name type="character" reg="п╬я│п╩я▀"> п╬я│п╩п╟п╪п╦</name>
+п╦ п╫п╣п╡п╪п╣я│я┌п╫п╬,
+<L> п²п╬ <name type="character"> п╩п╣п╡</name>
+п╫п╣ п╪п╬пЁ я┌п╬пЁп╬ я┤п╦я│п╩п╟ <name type="character" reg="я│п╩п╬п╫я▀"> я│п╩п╬п╫п╬п╡</name>
+п╫п╟п╠я─п╟я┌я▄,
+<L> <space dim="horizontal" extent="8 letters">п п╟п╨п╬п╪я┐ п©я─я▐п╪п╬ п╫п╟п╢п╩п╣п╤п╟п╩п╬
+<L> <space dim="horizontal" extent="8 letters">п▓ я│п╬п╡п╣я┌п╣ я█я┌п╬п╪ п╥п╟я│п╣п╢п╟я┌я▄.
+<L> п²я┐, я┤я┌п╬ п╤? п©я┐я│п╨п╟п╧ я┤п╦я│п╩п╟ п╡я│п╣пЁп╬ п╠я▀ п╫п╣п╢п╬я│я┌п╟п╩п╬,
+<L> <space dim="horizontal" extent="12 letters">п▓п╣п╢я▄ я█я┌п╬ п╠ п╫п╣ п╪п╣я┬п╟п╩п╬
+<L> <space dim="horizontal" extent="12 letters">п■п╣п╩п╟ п©я─п╬п╦п╥п╡п╬п╢п╦я┌я▄.
+<L> п²п╣я┌, п╨п╟п╨ п╤п╣? п╟ я┐я│я┌п╟п╡ я┐п╤п╩п╦ п©п╣я─п╣я│я┌я┐п©п╦я┌я▄?
+<L> п╔п╬я┌я▄ п╠я┐п╢я▄ пЁп╩я┐п©я├я▀ я│я┐п╢я▄п╦, п╩п╦я┬я▄ я│я┤п╣я┌п╬п╪ п╠я▀ п╦я┘ я│я┌п╟п╩п╬.
  <LG1 TYPE="stanza">
 
-<L> А сверх того, как <name type="character"> лев </name>
-совет сей учреждал,
-<L> <space dim="horizontal" extent="12 letters">Он вот как полагал
-<L> <space dim="horizontal" extent="20 letters">И льстился:
-<L> <space dim="horizontal" extent="8 letters">Ужли и впрям, что ум <name
-type="character" reg="слоны"> слонов</name>
-<L> <space dim="horizontal" extent="8 letters">На ум не наведет <name
-type="character" reg="ослы">ослов</name>?
+<L> п░ я│п╡п╣я─я┘ я┌п╬пЁп╬, п╨п╟п╨ <name type="character"> п╩п╣п╡ </name>
+я│п╬п╡п╣я┌ я│п╣п╧ я┐я┤я─п╣п╤п╢п╟п╩,
+<L> <space dim="horizontal" extent="12 letters">п·п╫ п╡п╬я┌ п╨п╟п╨ п©п╬п╩п╟пЁп╟п╩
+<L> <space dim="horizontal" extent="20 letters">п≤ п╩я▄я│я┌п╦п╩я│я▐:
+<L> <space dim="horizontal" extent="8 letters">пёп╤п╩п╦ п╦ п╡п©я─я▐п╪, я┤я┌п╬ я┐п╪ <name
+type="character" reg="я│п╩п╬п╫я▀"> я│п╩п╬п╫п╬п╡</name>
+<L> <space dim="horizontal" extent="8 letters">п²п╟ я┐п╪ п╫п╣ п╫п╟п╡п╣п╢п╣я┌ <name
+type="character" reg="п╬я│п╩я▀">п╬я│п╩п╬п╡</name>?
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Однако, как совет открылся,
-<L> Дела совсем другим порядком потекли:
+<L> <space dim="horizontal" extent="8 letters">п·п╢п╫п╟п╨п╬, п╨п╟п╨ я│п╬п╡п╣я┌ п╬я┌п╨я─я▀п╩я│я▐,
+<L> п■п╣п╩п╟ я│п╬п╡я│п╣п╪ п╢я─я┐пЁп╦п╪ п©п╬я─я▐п╢п╨п╬п╪ п©п╬я┌п╣п╨п╩п╦:
 <L> <space dim="horizontal" extent="8 letters"><name
-type="character">Ослы</name> <name type="character" reg="слоны">
-слонов</name> с ума свели.
+type="character">п·я│п╩я▀</name> <name type="character" reg="я│п╩п╬п╫я▀">
+я│п╩п╬п╫п╬п╡</name> я│ я┐п╪п╟ я│п╡п╣п╩п╦.
 </BODY>
 </TEXT>
 </TEI.2>

@@ -30,43 +30,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Лев-сват</title>
+<title>п⌡п╣п╡-я│п╡п╟я┌</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Лев-сват</title>
+                <title>п⌡п╣п╡-я│п╡п╟я┌</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Сочинения и письма Хемницера по подлинным его
-рукописям, с биографической статьей и примечаниями Я. Грота</publisher>
+                <publisher>п║п╬я┤п╦п╫п╣п╫п╦я▐ п╦ п©п╦я│я▄п╪п╟ п╔п╣п╪п╫п╦я├п╣я─п╟ п©п╬ п©п╬п╢п╩п╦п╫п╫я▀п╪ п╣пЁп╬
+я─я┐п╨п╬п©п╦я│я▐п╪, я│ п╠п╦п╬пЁя─п╟я└п╦я┤п╣я│п╨п╬п╧ я│я┌п╟я┌я▄п╣п╧ п╦ п©я─п╦п╪п╣я┤п╟п╫п╦я▐п╪п╦ п╞. п⌠я─п╬я┌п╟</publisher>
                 <date>1873</date>
               </publicationStmt>
             </biblFull>
@@ -77,7 +77,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -85,49 +85,49 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='фаворитизм'>
-<span from='whole' type='theme' value='сватовство'>
-<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
-<l><name type="character">Лев</name>, сказывали мне, любовницу имел
-<l>(Ведь занимаются любовными делами
-<l>Не только меж людьми, но также меж скотами),
-<l>И жар к любовнице его охолодел.
-<l>А для того он тож (как люди поступают,
-<l>Что за другого с рук любовницу сживают,
-<l>Когда соскучится им всё одну любить)
-<l>Хотел красавицу, но не бесчестно, сжить:
-<l>Он барса пестрого хотел на ней женить.
-<l><space dim="horizontal" extent="10 letters">Но как он ни старался,
-<l>Жених замеченный никак не поддавался,
-<l><space dim="horizontal" extent="8 letters">Да<name
-type="character">лев</name>бы только приказал, -
-<l><space dim="horizontal" extent="8 letters">Любить указ ведь не дается;
-<l>А в случаях таких политика ведется
-<l><space dim="horizontal" extent="14 letters">И у зверей,
-<l><space dim="horizontal" extent="14 letters">Как у людей.
-<l><space dim="horizontal" extent="8 letters">К тому же дело щекотливо
-<l>Любовницу себе в жен&ycystress; такую взять,
-<l>Котору ищет сам любовник с рук отдать.
-<l><space dim="horizontal" extent="8 letters">А потому ничуть не диво,
-<l>Что жениха не мог невесте он сыскать.
-<l>Но свадьбы не хотел уж больше отлагать;
-<l>Без всех чинов<name type="character" reg="осел">осла</name>он прямо
-избирает:
-<l><q>Послушай, - говорит, - назначил я тебя
-<l><space dim="horizontal" extent="8 letters">Любовницы моей супругом.
-<l><space dim="horizontal" extent="8 letters">Возьми ее ты за себя,
-<l><space dim="horizontal" extent="10 letters">А я за то тебя
-<l>Пожалую в чины, и будешь ты мне другом</q>.
-<l><name type="character" reg="осел">осла</name>, не как других, раздумье
-не берет:
+<span from='whole' type='theme' value='я└п╟п╡п╬я─п╦я┌п╦п╥п╪'>
+<span from='whole' type='theme' value='я│п╡п╟я┌п╬п╡я│я┌п╡п╬'>
+<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
+<l><name type="character">п⌡п╣п╡</name>, я│п╨п╟п╥я▀п╡п╟п╩п╦ п╪п╫п╣, п╩я▌п╠п╬п╡п╫п╦я├я┐ п╦п╪п╣п╩
+<l>(п▓п╣п╢я▄ п╥п╟п╫п╦п╪п╟я▌я┌я│я▐ п╩я▌п╠п╬п╡п╫я▀п╪п╦ п╢п╣п╩п╟п╪п╦
+<l>п²п╣ я┌п╬п╩я▄п╨п╬ п╪п╣п╤ п╩я▌п╢я▄п╪п╦, п╫п╬ я┌п╟п╨п╤п╣ п╪п╣п╤ я│п╨п╬я┌п╟п╪п╦),
+<l>п≤ п╤п╟я─ п╨ п╩я▌п╠п╬п╡п╫п╦я├п╣ п╣пЁп╬ п╬я┘п╬п╩п╬п╢п╣п╩.
+<l>п░ п╢п╩я▐ я┌п╬пЁп╬ п╬п╫ я┌п╬п╤ (п╨п╟п╨ п╩я▌п╢п╦ п©п╬я│я┌я┐п©п╟я▌я┌,
+<l>п╖я┌п╬ п╥п╟ п╢я─я┐пЁп╬пЁп╬ я│ я─я┐п╨ п╩я▌п╠п╬п╡п╫п╦я├я┐ я│п╤п╦п╡п╟я▌я┌,
+<l>п п╬пЁп╢п╟ я│п╬я│п╨я┐я┤п╦я┌я│я▐ п╦п╪ п╡я│я▒ п╬п╢п╫я┐ п╩я▌п╠п╦я┌я▄)
+<l>п╔п╬я┌п╣п╩ п╨я─п╟я│п╟п╡п╦я├я┐, п╫п╬ п╫п╣ п╠п╣я│я┤п╣я│я┌п╫п╬, я│п╤п╦я┌я▄:
+<l>п·п╫ п╠п╟я─я│п╟ п©п╣я│я┌я─п╬пЁп╬ я┘п╬я┌п╣п╩ п╫п╟ п╫п╣п╧ п╤п╣п╫п╦я┌я▄.
+<l><space dim="horizontal" extent="10 letters">п²п╬ п╨п╟п╨ п╬п╫ п╫п╦ я│я┌п╟я─п╟п╩я│я▐,
+<l>п√п╣п╫п╦я┘ п╥п╟п╪п╣я┤п╣п╫п╫я▀п╧ п╫п╦п╨п╟п╨ п╫п╣ п©п╬п╢п╢п╟п╡п╟п╩я│я▐,
+<l><space dim="horizontal" extent="8 letters">п■п╟<name
+type="character">п╩п╣п╡</name>п╠я▀ я┌п╬п╩я▄п╨п╬ п©я─п╦п╨п╟п╥п╟п╩, -
+<l><space dim="horizontal" extent="8 letters">п⌡я▌п╠п╦я┌я▄ я┐п╨п╟п╥ п╡п╣п╢я▄ п╫п╣ п╢п╟п╣я┌я│я▐;
+<l>п░ п╡ я│п╩я┐я┤п╟я▐я┘ я┌п╟п╨п╦я┘ п©п╬п╩п╦я┌п╦п╨п╟ п╡п╣п╢п╣я┌я│я▐
+<l><space dim="horizontal" extent="14 letters">п≤ я┐ п╥п╡п╣я─п╣п╧,
+<l><space dim="horizontal" extent="14 letters">п п╟п╨ я┐ п╩я▌п╢п╣п╧.
+<l><space dim="horizontal" extent="8 letters">п  я┌п╬п╪я┐ п╤п╣ п╢п╣п╩п╬ я┴п╣п╨п╬я┌п╩п╦п╡п╬
+<l>п⌡я▌п╠п╬п╡п╫п╦я├я┐ я│п╣п╠п╣ п╡ п╤п╣п╫&ycystress; я┌п╟п╨я┐я▌ п╡п╥я▐я┌я▄,
+<l>п п╬я┌п╬я─я┐ п╦я┴п╣я┌ я│п╟п╪ п╩я▌п╠п╬п╡п╫п╦п╨ я│ я─я┐п╨ п╬я┌п╢п╟я┌я▄.
+<l><space dim="horizontal" extent="8 letters">п░ п©п╬я┌п╬п╪я┐ п╫п╦я┤я┐я┌я▄ п╫п╣ п╢п╦п╡п╬,
+<l>п╖я┌п╬ п╤п╣п╫п╦я┘п╟ п╫п╣ п╪п╬пЁ п╫п╣п╡п╣я│я┌п╣ п╬п╫ я│я▀я│п╨п╟я┌я▄.
+<l>п²п╬ я│п╡п╟п╢я▄п╠я▀ п╫п╣ я┘п╬я┌п╣п╩ я┐п╤ п╠п╬п╩я▄я┬п╣ п╬я┌п╩п╟пЁп╟я┌я▄;
+<l>п▒п╣п╥ п╡я│п╣я┘ я┤п╦п╫п╬п╡<name type="character" reg="п╬я│п╣п╩">п╬я│п╩п╟</name>п╬п╫ п©я─я▐п╪п╬
+п╦п╥п╠п╦я─п╟п╣я┌:
+<l><q>п÷п╬я│п╩я┐я┬п╟п╧, - пЁп╬п╡п╬я─п╦я┌, - п╫п╟п╥п╫п╟я┤п╦п╩ я▐ я┌п╣п╠я▐
+<l><space dim="horizontal" extent="8 letters">п⌡я▌п╠п╬п╡п╫п╦я├я▀ п╪п╬п╣п╧ я│я┐п©я─я┐пЁп╬п╪.
+<l><space dim="horizontal" extent="8 letters">п▓п╬п╥я▄п╪п╦ п╣п╣ я┌я▀ п╥п╟ я│п╣п╠я▐,
+<l><space dim="horizontal" extent="10 letters">п░ я▐ п╥п╟ я┌п╬ я┌п╣п╠я▐
+<l>п÷п╬п╤п╟п╩я┐я▌ п╡ я┤п╦п╫я▀, п╦ п╠я┐п╢п╣я┬я▄ я┌я▀ п╪п╫п╣ п╢я─я┐пЁп╬п╪</q>.
+<l><name type="character" reg="п╬я│п╣п╩">п╬я│п╩п╟</name>, п╫п╣ п╨п╟п╨ п╢я─я┐пЁп╦я┘, я─п╟п╥п╢я┐п╪я▄п╣
+п╫п╣ п╠п╣я─п╣я┌:
 <l><space dim="horizontal" extent="8 letters"><name
-type="character">Осел</name>в бесчестье не зазорен,
-<l>На предложенье<name type="character" reg="лев">льва</name><name
-type="character">осел</name>тотчас сговорен,
-<l>Сказав:<q>Хоть чести мне в женитьбе этой нет,
-<l><space dim="horizontal" extent="8 letters">Как говорит и судит свет,
-<l>Да милость львиную она мне обещает.
-<l>К тому и меж людьми то ж самое бывает</q>.
+type="character">п·я│п╣п╩</name>п╡ п╠п╣я│я┤п╣я│я┌я▄п╣ п╫п╣ п╥п╟п╥п╬я─п╣п╫,
+<l>п²п╟ п©я─п╣п╢п╩п╬п╤п╣п╫я▄п╣<name type="character" reg="п╩п╣п╡">п╩я▄п╡п╟</name><name
+type="character">п╬я│п╣п╩</name>я┌п╬я┌я┤п╟я│ я│пЁп╬п╡п╬я─п╣п╫,
+<l>п║п╨п╟п╥п╟п╡:<q>п╔п╬я┌я▄ я┤п╣я│я┌п╦ п╪п╫п╣ п╡ п╤п╣п╫п╦я┌я▄п╠п╣ я█я┌п╬п╧ п╫п╣я┌,
+<l><space dim="horizontal" extent="8 letters">п п╟п╨ пЁп╬п╡п╬я─п╦я┌ п╦ я│я┐п╢п╦я┌ я│п╡п╣я┌,
+<l>п■п╟ п╪п╦п╩п╬я│я┌я▄ п╩я▄п╡п╦п╫я┐я▌ п╬п╫п╟ п╪п╫п╣ п╬п╠п╣я┴п╟п╣я┌.
+<l>п  я┌п╬п╪я┐ п╦ п╪п╣п╤ п╩я▌п╢я▄п╪п╦ я┌п╬ п╤ я│п╟п╪п╬п╣ п╠я▀п╡п╟п╣я┌</q>.
 </body>
   </text>
 </tei.2>

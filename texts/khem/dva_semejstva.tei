@@ -27,43 +27,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Два семейства </TITLE>
+        <TITLE>п■п╡п╟ я│п╣п╪п╣п╧я│я┌п╡п╟ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Два семейства</TITLE>
+                <TITLE>п■п╡п╟ я│п╣п╪п╣п╧я│я┌п╡п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1779</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -74,7 +74,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE>неизвестно </DATE>
+        <DATE>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬ </DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -82,54 +82,54 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="семейное счастье" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="семейные раздоры" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="я│п╣п╪п╣п╧п╫п╬п╣ я│я┤п╟я│я┌я▄п╣" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я│п╣п╪п╣п╧п╫я▀п╣ я─п╟п╥п╢п╬я─я▀" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Уж исстари, не ныне знают,
-<L> Что от согласия все вещи возрастают,
-<L> А несогласия все вещи разрушают.
-<L> Я правду эту вновь примером докажу,
-<L> Картины Грёзовы<note resp="author">Нашего века исторический
-живописец.</note> я сказкой расскажу.
-<L> Одна счастливую семью изображает,
-<L> Другая же семью несчастну представляет.
+<L> <space dim="horizontal" extent="8 letters">пёп╤ п╦я│я│я┌п╟я─п╦, п╫п╣ п╫я▀п╫п╣ п╥п╫п╟я▌я┌,
+<L> п╖я┌п╬ п╬я┌ я│п╬пЁп╩п╟я│п╦я▐ п╡я│п╣ п╡п╣я┴п╦ п╡п╬п╥я─п╟я│я┌п╟я▌я┌,
+<L> п░ п╫п╣я│п╬пЁп╩п╟я│п╦я▐ п╡я│п╣ п╡п╣я┴п╦ я─п╟п╥я─я┐я┬п╟я▌я┌.
+<L> п╞ п©я─п╟п╡п╢я┐ я█я┌я┐ п╡п╫п╬п╡я▄ п©я─п╦п╪п╣я─п╬п╪ п╢п╬п╨п╟п╤я┐,
+<L> п п╟я─я┌п╦п╫я▀ п⌠я─я▒п╥п╬п╡я▀<note resp="author">п²п╟я┬п╣пЁп╬ п╡п╣п╨п╟ п╦я│я┌п╬я─п╦я┤п╣я│п╨п╦п╧
+п╤п╦п╡п╬п©п╦я│п╣я├.</note> я▐ я│п╨п╟п╥п╨п╬п╧ я─п╟я│я│п╨п╟п╤я┐.
+<L> п·п╢п╫п╟ я│я┤п╟я│я┌п╩п╦п╡я┐я▌ я│п╣п╪я▄я▌ п╦п╥п╬п╠я─п╟п╤п╟п╣я┌,
+<L> п■я─я┐пЁп╟я▐ п╤п╣ я│п╣п╪я▄я▌ п╫п╣я│я┤п╟я│я┌п╫я┐ п©я─п╣п╢я│я┌п╟п╡п╩я▐п╣я┌.
 
 <LG1 TYPE="stanza">
-<L> Семейством сч&acystress;стливым представлен муж с женой,
-<L> Плывущие с детьми на лодочке одной
-<L> <space dim="horizontal" extent="15 letters">Такой рекой,
-<L> Где камней и мел&iecystress;й премножество встречают,
-<L> Которы трудности сей жизни представляют.
-<L> <space dim="horizontal" extent="7 letters">  Согласно муж с женой
-<L> <space dim="horizontal" extent="7 letters">  Своею лодкой управляя,
-<L> <space dim="horizontal" extent="7 letters">   От камней, мелей удаляя,
-<L> <space dim="horizontal" extent="7 letters">   Счастливо к берегу
-плывут;
-<L> Любовь сама в лице, грести им пособляя,
- <L> <space dim="horizontal" extent="7 letters"> Их тяжкий облегчает труд;
-<L> Спокойно в лодочке их дети почивают;
-<L> <space dim="horizontal" extent="7 letters">  Покой и счастие детей
-<L> <space dim="horizontal" extent="11 letters"> В заботной жизни сей
- <L> <space dim="horizontal" extent="7 letters"> Труды отцовски награждают.
+<L> п║п╣п╪п╣п╧я│я┌п╡п╬п╪ я│я┤&acystress;я│я┌п╩п╦п╡я▀п╪ п©я─п╣п╢я│я┌п╟п╡п╩п╣п╫ п╪я┐п╤ я│ п╤п╣п╫п╬п╧,
+<L> п÷п╩я▀п╡я┐я┴п╦п╣ я│ п╢п╣я┌я▄п╪п╦ п╫п╟ п╩п╬п╢п╬я┤п╨п╣ п╬п╢п╫п╬п╧
+<L> <space dim="horizontal" extent="15 letters">п╒п╟п╨п╬п╧ я─п╣п╨п╬п╧,
+<L> п⌠п╢п╣ п╨п╟п╪п╫п╣п╧ п╦ п╪п╣п╩&iecystress;п╧ п©я─п╣п╪п╫п╬п╤п╣я│я┌п╡п╬ п╡я│я┌я─п╣я┤п╟я▌я┌,
+<L> п п╬я┌п╬я─я▀ я┌я─я┐п╢п╫п╬я│я┌п╦ я│п╣п╧ п╤п╦п╥п╫п╦ п©я─п╣п╢я│я┌п╟п╡п╩я▐я▌я┌.
+<L> <space dim="horizontal" extent="7 letters">  п║п╬пЁп╩п╟я│п╫п╬ п╪я┐п╤ я│ п╤п╣п╫п╬п╧
+<L> <space dim="horizontal" extent="7 letters">  п║п╡п╬п╣я▌ п╩п╬п╢п╨п╬п╧ я┐п©я─п╟п╡п╩я▐я▐,
+<L> <space dim="horizontal" extent="7 letters">   п·я┌ п╨п╟п╪п╫п╣п╧, п╪п╣п╩п╣п╧ я┐п╢п╟п╩я▐я▐,
+<L> <space dim="horizontal" extent="7 letters">   п║я┤п╟я│я┌п╩п╦п╡п╬ п╨ п╠п╣я─п╣пЁя┐
+п©п╩я▀п╡я┐я┌;
+<L> п⌡я▌п╠п╬п╡я▄ я│п╟п╪п╟ п╡ п╩п╦я├п╣, пЁя─п╣я│я┌п╦ п╦п╪ п©п╬я│п╬п╠п╩я▐я▐,
+ <L> <space dim="horizontal" extent="7 letters"> п≤я┘ я┌я▐п╤п╨п╦п╧ п╬п╠п╩п╣пЁя┤п╟п╣я┌ я┌я─я┐п╢;
+<L> п║п©п╬п╨п╬п╧п╫п╬ п╡ п╩п╬п╢п╬я┤п╨п╣ п╦я┘ п╢п╣я┌п╦ п©п╬я┤п╦п╡п╟я▌я┌;
+<L> <space dim="horizontal" extent="7 letters">  п÷п╬п╨п╬п╧ п╦ я│я┤п╟я│я┌п╦п╣ п╢п╣я┌п╣п╧
+<L> <space dim="horizontal" extent="11 letters"> п▓ п╥п╟п╠п╬я┌п╫п╬п╧ п╤п╦п╥п╫п╦ я│п╣п╧
+ <L> <space dim="horizontal" extent="7 letters"> п╒я─я┐п╢я▀ п╬я┌я├п╬п╡я│п╨п╦ п╫п╟пЁя─п╟п╤п╢п╟я▌я┌.
 
 <LG1 TYPE="stanza">
-<L> Другим семейством тож представлен муж с женой,
-<L>Плывущие с детьми на лодочке одной
-<L><space dim="horizontal" extent="11 letters"> Такою же рекой,
-<L>Где камней и мел&iecystress;й премножество встречают;
-<L><space dim="horizontal" extent="7 letters"> Но худо лодка их плывет;
-<L><space dim="horizontal" extent="7  letters"> С женой у мужа ладу нет:
-<L><space dim="horizontal" extent="7 letters"> Жена весло свое бросает,
-<L><space dim="horizontal" extent="11 letters"> Сидит, не помогает,
-<L><space dim="horizontal" extent="7 letters"> Ничто их труд не облегчает.
-<L>Любовь летит от них и вздорных оставляет;
-<L>А мужа одного напрасен тяжкий труд,
-<L>И вкриво с лодкою и вкось они плывут;
-<L><space dim="horizontal" extent="7 letters">Покою дети не вкушают
-<L>И хлеб друг &ucystress; друга с слезами отнимают;
-<L>Всё хуже между них час &ocystress;т часу идет;
-<L><space dim="horizontal" extent="7 letters"> В пучину лодку их несет.
+<L> п■я─я┐пЁп╦п╪ я│п╣п╪п╣п╧я│я┌п╡п╬п╪ я┌п╬п╤ п©я─п╣п╢я│я┌п╟п╡п╩п╣п╫ п╪я┐п╤ я│ п╤п╣п╫п╬п╧,
+<L>п÷п╩я▀п╡я┐я┴п╦п╣ я│ п╢п╣я┌я▄п╪п╦ п╫п╟ п╩п╬п╢п╬я┤п╨п╣ п╬п╢п╫п╬п╧
+<L><space dim="horizontal" extent="11 letters"> п╒п╟п╨п╬я▌ п╤п╣ я─п╣п╨п╬п╧,
+<L>п⌠п╢п╣ п╨п╟п╪п╫п╣п╧ п╦ п╪п╣п╩&iecystress;п╧ п©я─п╣п╪п╫п╬п╤п╣я│я┌п╡п╬ п╡я│я┌я─п╣я┤п╟я▌я┌;
+<L><space dim="horizontal" extent="7 letters"> п²п╬ я┘я┐п╢п╬ п╩п╬п╢п╨п╟ п╦я┘ п©п╩я▀п╡п╣я┌;
+<L><space dim="horizontal" extent="7  letters"> п║ п╤п╣п╫п╬п╧ я┐ п╪я┐п╤п╟ п╩п╟п╢я┐ п╫п╣я┌:
+<L><space dim="horizontal" extent="7 letters"> п√п╣п╫п╟ п╡п╣я│п╩п╬ я│п╡п╬п╣ п╠я─п╬я│п╟п╣я┌,
+<L><space dim="horizontal" extent="11 letters"> п║п╦п╢п╦я┌, п╫п╣ п©п╬п╪п╬пЁп╟п╣я┌,
+<L><space dim="horizontal" extent="7 letters"> п²п╦я┤я┌п╬ п╦я┘ я┌я─я┐п╢ п╫п╣ п╬п╠п╩п╣пЁя┤п╟п╣я┌.
+<L>п⌡я▌п╠п╬п╡я▄ п╩п╣я┌п╦я┌ п╬я┌ п╫п╦я┘ п╦ п╡п╥п╢п╬я─п╫я▀я┘ п╬я│я┌п╟п╡п╩я▐п╣я┌;
+<L>п░ п╪я┐п╤п╟ п╬п╢п╫п╬пЁп╬ п╫п╟п©я─п╟я│п╣п╫ я┌я▐п╤п╨п╦п╧ я┌я─я┐п╢,
+<L>п≤ п╡п╨я─п╦п╡п╬ я│ п╩п╬п╢п╨п╬я▌ п╦ п╡п╨п╬я│я▄ п╬п╫п╦ п©п╩я▀п╡я┐я┌;
+<L><space dim="horizontal" extent="7 letters">п÷п╬п╨п╬я▌ п╢п╣я┌п╦ п╫п╣ п╡п╨я┐я┬п╟я▌я┌
+<L>п≤ я┘п╩п╣п╠ п╢я─я┐пЁ &ucystress; п╢я─я┐пЁп╟ я│ я│п╩п╣п╥п╟п╪п╦ п╬я┌п╫п╦п╪п╟я▌я┌;
+<L>п▓я│я▒ я┘я┐п╤п╣ п╪п╣п╤п╢я┐ п╫п╦я┘ я┤п╟я│ &ocystress;я┌ я┤п╟я│я┐ п╦п╢п╣я┌;
+<L><space dim="horizontal" extent="7 letters"> п▓ п©я┐я┤п╦п╫я┐ п╩п╬п╢п╨я┐ п╦я┘ п╫п╣я│п╣я┌.
 </BODY>
 </TEXT>
 </TEI.2>

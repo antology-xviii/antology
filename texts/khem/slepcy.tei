@@ -25,43 +25,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Слепцы </TITLE>
+        <TITLE>п║п╩п╣п©я├я▀ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Слепцы </TITLE>
+                <TITLE>п║п╩п╣п©я├я▀ </TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -72,7 +72,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -80,70 +80,70 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="слепота и упрямство людей" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="жажда власти" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="я│п╩п╣п©п╬я┌п╟ п╦ я┐п©я─я▐п╪я│я┌п╡п╬ п╩я▌п╢п╣п╧" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╤п╟п╤п╢п╟ п╡п╩п╟я│я┌п╦" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> Шло несколько <name type="character" reg="слепцы"> слепцов</name>, как
-все слепые ходят,
-<L> <space dim="horizontal" extent="8 letters">Когда их зрячие не водят:
-<L> <space dim="horizontal" extent="12 letters">Почти что шаг пройдут -
-<L> <space dim="horizontal" extent="8 letters">Споткнутся или упадут.
+<L> п╗п╩п╬ п╫п╣я│п╨п╬п╩я▄п╨п╬ <name type="character" reg="я│п╩п╣п©я├я▀"> я│п╩п╣п©я├п╬п╡</name>, п╨п╟п╨
+п╡я│п╣ я│п╩п╣п©я▀п╣ я┘п╬п╢я▐я┌,
+<L> <space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟ п╦я┘ п╥я─я▐я┤п╦п╣ п╫п╣ п╡п╬п╢я▐я┌:
+<L> <space dim="horizontal" extent="12 letters">п÷п╬я┤я┌п╦ я┤я┌п╬ я┬п╟пЁ п©я─п╬п╧п╢я┐я┌ -
+<L> <space dim="horizontal" extent="8 letters">п║п©п╬я┌п╨п╫я┐я┌я│я▐ п╦п╩п╦ я┐п©п╟п╢я┐я┌.
 
 <LG1 TYPE="stanza">
-<L> <name type="character" >Прохожий</name>, чтоб <name type="character"
-reg="слепцы">слепцам</name>
-не столько спотыкаться,
-<L> <space dim="horizontal" extent="8 letters">Дает им палку опираться.
-<L> Взяв палку, передом один <name type="character" > слепец</name>
-пошел,
-<L> <space dim="horizontal" extent="8 letters">А за собой других повел.
-<L> <space dim="horizontal" extent="8 letters">Пошли, друг з&acystress;
-друга держались,
-<L> И меньше прежнего при палке спотыкались.
+<L> <name type="character" >п÷я─п╬я┘п╬п╤п╦п╧</name>, я┤я┌п╬п╠ <name type="character"
+reg="я│п╩п╣п©я├я▀">я│п╩п╣п©я├п╟п╪</name>
+п╫п╣ я│я┌п╬п╩я▄п╨п╬ я│п©п╬я┌я▀п╨п╟я┌я▄я│я▐,
+<L> <space dim="horizontal" extent="8 letters">п■п╟п╣я┌ п╦п╪ п©п╟п╩п╨я┐ п╬п©п╦я─п╟я┌я▄я│я▐.
+<L> п▓п╥я▐п╡ п©п╟п╩п╨я┐, п©п╣я─п╣п╢п╬п╪ п╬п╢п╦п╫ <name type="character" > я│п╩п╣п©п╣я├</name>
+п©п╬я┬п╣п╩,
+<L> <space dim="horizontal" extent="8 letters">п░ п╥п╟ я│п╬п╠п╬п╧ п╢я─я┐пЁп╦я┘ п©п╬п╡п╣п╩.
+<L> <space dim="horizontal" extent="8 letters">п÷п╬я┬п╩п╦, п╢я─я┐пЁ п╥&acystress;
+п╢я─я┐пЁп╟ п╢п╣я─п╤п╟п╩п╦я│я▄,
+<L> п≤ п╪п╣п╫я▄я┬п╣ п©я─п╣п╤п╫п╣пЁп╬ п©я─п╦ п©п╟п╩п╨п╣ я│п©п╬я┌я▀п╨п╟п╩п╦я│я▄.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Вдруг спор между <name
-type="character" reg="слепцы">слепцов</name> зашел:
-<L> <space dim="horizontal" extent="8 letters">Вожатым каждый быть хотел;
-<L> И спор еще другой о палке затевают:
-<L> Какого дерева почесть ее - не знают.
-<L> <space dim="horizontal" extent="16 letters">Кто говорит,
-<L> <space dim="horizontal" extent="12 letters">Что палка та кленова;
-<L> <space dim="horizontal" extent="16 letters">Другой твердит:
-<L> <space dim="horizontal" extent="20 letters">Дубова.
-<L> И ощупью <name type="character" > слепцы</name>
-хотят о том судить,
-<L> Чт&ocystress; должно зрячему глазами различить.
+<L> <space dim="horizontal" extent="8 letters">п▓п╢я─я┐пЁ я│п©п╬я─ п╪п╣п╤п╢я┐ <name
+type="character" reg="я│п╩п╣п©я├я▀">я│п╩п╣п©я├п╬п╡</name> п╥п╟я┬п╣п╩:
+<L> <space dim="horizontal" extent="8 letters">п▓п╬п╤п╟я┌я▀п╪ п╨п╟п╤п╢я▀п╧ п╠я▀я┌я▄ я┘п╬я┌п╣п╩;
+<L> п≤ я│п©п╬я─ п╣я┴п╣ п╢я─я┐пЁп╬п╧ п╬ п©п╟п╩п╨п╣ п╥п╟я┌п╣п╡п╟я▌я┌:
+<L> п п╟п╨п╬пЁп╬ п╢п╣я─п╣п╡п╟ п©п╬я┤п╣я│я┌я▄ п╣п╣ - п╫п╣ п╥п╫п╟я▌я┌.
+<L> <space dim="horizontal" extent="16 letters">п я┌п╬ пЁп╬п╡п╬я─п╦я┌,
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬ п©п╟п╩п╨п╟ я┌п╟ п╨п╩п╣п╫п╬п╡п╟;
+<L> <space dim="horizontal" extent="16 letters">п■я─я┐пЁп╬п╧ я┌п╡п╣я─п╢п╦я┌:
+<L> <space dim="horizontal" extent="20 letters">п■я┐п╠п╬п╡п╟.
+<L> п≤ п╬я┴я┐п©я▄я▌ <name type="character" > я│п╩п╣п©я├я▀</name>
+я┘п╬я┌я▐я┌ п╬ я┌п╬п╪ я│я┐п╢п╦я┌я▄,
+<L> п╖я┌&ocystress; п╢п╬п╩п╤п╫п╬ п╥я─я▐я┤п╣п╪я┐ пЁп╩п╟п╥п╟п╪п╦ я─п╟п╥п╩п╦я┤п╦я┌я▄.
 <L> <space dim="horizontal" extent="8 letters"><name type="character">
-Слепцы</name> не могут согласиться,
-<L> И всё сильняе спор о палке становится.
-<L> Из спора в спор <name type="character"> слепцы</name>, потом до бранных
-слов
-<L> <space dim="horizontal" extent="8 letters">Уже доходит меж <name
-type="character" reg="слепцы"> слепцов</name>,
-<L> <space dim="horizontal" extent="8 letters">А там и в драку меж собою,
-<L> <space dim="horizontal" extent="8 letters">И палкою друг друга тою,
-<L> Котора им дана была, чтоб их водить,
-<L> <space dim="horizontal" extent="12 letters">Немилосердо бить.
-<L> Но всё не думают друг другу уступить,
-<L> <space dim="horizontal" extent="8 letters">Хоть умереть, готовы
-драться,
-<L> <space dim="horizontal" extent="12 letters">А в споре не поддаться.
-<L> <space dim="horizontal" extent="8 letters">И до того не унялись,
-<L> <space dim="horizontal" extent="8 letters">Пока насмерть передрались.
+п║п╩п╣п©я├я▀</name> п╫п╣ п╪п╬пЁя┐я┌ я│п╬пЁп╩п╟я│п╦я┌я▄я│я▐,
+<L> п≤ п╡я│я▒ я│п╦п╩я▄п╫я▐п╣ я│п©п╬я─ п╬ п©п╟п╩п╨п╣ я│я┌п╟п╫п╬п╡п╦я┌я│я▐.
+<L> п≤п╥ я│п©п╬я─п╟ п╡ я│п©п╬я─ <name type="character"> я│п╩п╣п©я├я▀</name>, п©п╬я┌п╬п╪ п╢п╬ п╠я─п╟п╫п╫я▀я┘
+я│п╩п╬п╡
+<L> <space dim="horizontal" extent="8 letters">пёп╤п╣ п╢п╬я┘п╬п╢п╦я┌ п╪п╣п╤ <name
+type="character" reg="я│п╩п╣п©я├я▀"> я│п╩п╣п©я├п╬п╡</name>,
+<L> <space dim="horizontal" extent="8 letters">п░ я┌п╟п╪ п╦ п╡ п╢я─п╟п╨я┐ п╪п╣п╤ я│п╬п╠п╬я▌,
+<L> <space dim="horizontal" extent="8 letters">п≤ п©п╟п╩п╨п╬я▌ п╢я─я┐пЁ п╢я─я┐пЁп╟ я┌п╬я▌,
+<L> п п╬я┌п╬я─п╟ п╦п╪ п╢п╟п╫п╟ п╠я▀п╩п╟, я┤я┌п╬п╠ п╦я┘ п╡п╬п╢п╦я┌я▄,
+<L> <space dim="horizontal" extent="12 letters">п²п╣п╪п╦п╩п╬я│п╣я─п╢п╬ п╠п╦я┌я▄.
+<L> п²п╬ п╡я│я▒ п╫п╣ п╢я┐п╪п╟я▌я┌ п╢я─я┐пЁ п╢я─я┐пЁя┐ я┐я│я┌я┐п©п╦я┌я▄,
+<L> <space dim="horizontal" extent="8 letters">п╔п╬я┌я▄ я┐п╪п╣я─п╣я┌я▄, пЁп╬я┌п╬п╡я▀
+п╢я─п╟я┌я▄я│я▐,
+<L> <space dim="horizontal" extent="12 letters">п░ п╡ я│п©п╬я─п╣ п╫п╣ п©п╬п╢п╢п╟я┌я▄я│я▐.
+<L> <space dim="horizontal" extent="8 letters">п≤ п╢п╬ я┌п╬пЁп╬ п╫п╣ я┐п╫я▐п╩п╦я│я▄,
+<L> <space dim="horizontal" extent="8 letters">п÷п╬п╨п╟ п╫п╟я│п╪п╣я─я┌я▄ п©п╣я─п╣п╢я─п╟п╩п╦я│я▄.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Вот так <name
-type="character" reg="слепцы">слепцам</name>
-во вред служило,
-<L> <space dim="horizontal" extent="8 letters">Что в пользу их дано им
-было.
-<L> <space dim="horizontal" extent="12 letters">А этаких <name
-type="character" reg="слепцы"> слепцов</name>,
-<L> <space dim="horizontal" extent="8 letters">От ересей и спорных слов,
-<L> Которые они рассеяли в законы<note resp="editor">здесь: религия</note>,
-<L> На свете не одни погибли миллионы.
+<L> <space dim="horizontal" extent="8 letters">п▓п╬я┌ я┌п╟п╨ <name
+type="character" reg="я│п╩п╣п©я├я▀">я│п╩п╣п©я├п╟п╪</name>
+п╡п╬ п╡я─п╣п╢ я│п╩я┐п╤п╦п╩п╬,
+<L> <space dim="horizontal" extent="8 letters">п╖я┌п╬ п╡ п©п╬п╩я▄п╥я┐ п╦я┘ п╢п╟п╫п╬ п╦п╪
+п╠я▀п╩п╬.
+<L> <space dim="horizontal" extent="12 letters">п░ я█я┌п╟п╨п╦я┘ <name
+type="character" reg="я│п╩п╣п©я├я▀"> я│п╩п╣п©я├п╬п╡</name>,
+<L> <space dim="horizontal" extent="8 letters">п·я┌ п╣я─п╣я│п╣п╧ п╦ я│п©п╬я─п╫я▀я┘ я│п╩п╬п╡,
+<L> п п╬я┌п╬я─я▀п╣ п╬п╫п╦ я─п╟я│я│п╣я▐п╩п╦ п╡ п╥п╟п╨п╬п╫я▀<note resp="editor">п╥п╢п╣я│я▄: я─п╣п╩п╦пЁп╦я▐</note>,
+<L> п²п╟ я│п╡п╣я┌п╣ п╫п╣ п╬п╢п╫п╦ п©п╬пЁп╦п╠п╩п╦ п╪п╦п╩п╩п╦п╬п╫я▀.
 </BODY>
 </TEXT>
 </TEI.2>

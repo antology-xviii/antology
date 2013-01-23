@@ -22,45 +22,45 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Ода</TITLE>
+        <TITLE>п·п╢п╟</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Михаил</FORENAME>
-            <FORENAME TYPE="patronym">Никитич</FORENAME>
-            <SURNAME>Муравьев</SURNAME>
+            <FORENAME>п°п╦я┘п╟п╦п╩</FORENAME>
+            <FORENAME TYPE="patronym">п²п╦п╨п╦я┌п╦я┤</FORENAME>
+            <SURNAME>п°я┐я─п╟п╡я▄п╣п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>М. Н. Муравьев. Стихотворения</TITLE>
-            <EDITOR>Л. И. Кулакова </EDITOR>
+            <TITLE>п°. п². п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐</TITLE>
+            <EDITOR>п⌡. п≤. п я┐п╩п╟п╨п╬п╡п╟ </EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-      <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-                библиотека</XREF></DISTRIBUTOR>
-<PUBPLACE>Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+      <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+                п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+<PUBPLACE>п⌡.</PUBPLACE>
             <DATE>1967</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Ода</TITLE>
+                <TITLE>п·п╢п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>М. Н. Муравьев. Стихотворения.
-Л. </PUBLISHER>
+                <PUBLISHER>п°. п². п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐.
+п⌡. </PUBLISHER>
                 <DATE>1967</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -79,19 +79,19 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-   <SPAN FROM="WHOLE" VALUE="торжественная поэзия" TYPE="theme">
-<SPAN FROM="WHOLE" VALUE="природа" TYPE="theme">
-<BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в.р." MET="Х4">
-<L> Восприял я лиру в длани
-<L> И хощу гласити песни,
-<L> Песни громки и высоки.
-<L> Но мои незвонки струны
-<L> Не хотят бряцати песни,
-<L> Песни громки и высоки,
-<L> А хотят гласить природу,
-<L> Обновившуюсь весною.
-<L> Я, покинув звуки громки,
-<L> Не для вас пою, потомки.
+   <SPAN FROM="WHOLE" VALUE="я┌п╬я─п╤п╣я│я┌п╡п╣п╫п╫п╟я▐ п©п╬я█п╥п╦я▐" TYPE="theme">
+<SPAN FROM="WHOLE" VALUE="п©я─п╦я─п╬п╢п╟" TYPE="theme">
+<BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╔4">
+<L> п▓п╬я│п©я─п╦я▐п╩ я▐ п╩п╦я─я┐ п╡ п╢п╩п╟п╫п╦
+<L> п≤ я┘п╬я┴я┐ пЁп╩п╟я│п╦я┌п╦ п©п╣я│п╫п╦,
+<L> п÷п╣я│п╫п╦ пЁя─п╬п╪п╨п╦ п╦ п╡я▀я│п╬п╨п╦.
+<L> п²п╬ п╪п╬п╦ п╫п╣п╥п╡п╬п╫п╨п╦ я│я┌я─я┐п╫я▀
+<L> п²п╣ я┘п╬я┌я▐я┌ п╠я─я▐я├п╟я┌п╦ п©п╣я│п╫п╦,
+<L> п÷п╣я│п╫п╦ пЁя─п╬п╪п╨п╦ п╦ п╡я▀я│п╬п╨п╦,
+<L> п░ я┘п╬я┌я▐я┌ пЁп╩п╟я│п╦я┌я▄ п©я─п╦я─п╬п╢я┐,
+<L> п·п╠п╫п╬п╡п╦п╡я┬я┐я▌я│я▄ п╡п╣я│п╫п╬я▌.
+<L> п╞, п©п╬п╨п╦п╫я┐п╡ п╥п╡я┐п╨п╦ пЁя─п╬п╪п╨п╦,
+<L> п²п╣ п╢п╩я▐ п╡п╟я│ п©п╬я▌, п©п╬я┌п╬п╪п╨п╦.
 
 </BODY>
 </TEXT>

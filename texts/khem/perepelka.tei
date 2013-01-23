@@ -28,43 +28,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Перепелка с детьми и крестьянин</title>
+<title>п÷п╣я─п╣п©п╣п╩п╨п╟ я│ п╢п╣я┌я▄п╪п╦ п╦ п╨я─п╣я│я┌я▄я▐п╫п╦п╫</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Перепелка и крестьянин</title>
+                <title>п÷п╣я─п╣п©п╣п╩п╨п╟ п╦ п╨я─п╣я│я┌я▄я▐п╫п╦п╫</title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Басни и сказки И. И. Хемницера, в трех частях.
-Ч. 3.</publisher>
+                <publisher> п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─п╟, п╡ я┌я─п╣я┘ я┤п╟я│я┌я▐я┘.
+п╖. 3.</publisher>
                 <date>1799</date>
               </publicationStmt>
             </biblFull>
@@ -75,7 +75,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -83,90 +83,90 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='мудрость'>
-<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
-<l>Прилежность и труды в делах употребя,
-<l>Надежда лучшая к успеху на себя.
+<span from='whole' type='theme' value='п╪я┐п╢я─п╬я│я┌я▄'>
+<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
+<l>п÷я─п╦п╩п╣п╤п╫п╬я│я┌я▄ п╦ я┌я─я┐п╢я▀ п╡ п╢п╣п╩п╟я┘ я┐п©п╬я┌я─п╣п╠я▐,
+<l>п²п╟п╢п╣п╤п╢п╟ п╩я┐я┤я┬п╟я▐ п╨ я┐я│п©п╣я┘я┐ п╫п╟ я│п╣п╠я▐.
 <lg1 type="group">
-<l><space dim="horizontal" extent="16 letters">Все знают,
-<l><space dim="horizontal" extent="8 letters">Что<name type="character"
-reg="перепелка">перепелки</name>гнезды вьют,
-<l>Когда хлеба еще далёко не цветут,
-<l>А не тогда, когда почти уж поспевают;
-<l><space dim="horizontal" extent="13 letters">То есть порой
-<l><space dim="horizontal" extent="16 letters">Такой,
-<l><space dim="horizontal" extent="8 letters">Когда весна лишь наступает
-<l>И вдвое всё, что есть, любиться заставляет
-<l><space dim="horizontal" extent="8 letters">Да думать, как дружка найти,
-<l>Чтоб род и племя вновь с дружком произвести.
-<l>Одна, не знаю как, однако опоздала,
-<l>Так что гнезда себе порою не свила,
-<l>А стала вить, когда пора почти прошла
-<l><space dim="horizontal" extent="8 letters">И в поле рожь уж поспевала.
-<l><space dim="horizontal" extent="10 letters">Однако молодых
-<l><space dim="horizontal" extent="8 letters">Кое-как вывела своих;
-<l><space dim="horizontal" extent="8 letters">Да только что летать не
-сможат.
-<l><space dim="horizontal" extent="10 letters">И детям говорит:
-<l><q>Ох, дети! эта рожь нам не добром грозит:
-<l>Того и жди, что нас отсюда потревожат;
-<l>Однако слушайте: я стану отлетать
-<l><space dim="horizontal" extent="10 letters">Вам корму промышлять,
-<l><space dim="horizontal" extent="13 letters">А вы смотрите:
-<l>Хозяин этой ржи как станет приходить,
-<l><space dim="horizontal" extent="8 letters">Так, что ни будет говорить,
-<l>Всё до последнего мне слова расскажите</q>.
-<l>Пришедши днем одним хозяин между тем,
-<l><space dim="horizontal" extent="8 letters">Как<name
-type="character">перепелка</name>отлетела,
-<l><space dim="horizontal" extent="8 letters"><q>А! рожь-та, - говорит,-
-совсем,
-<l><space dim="horizontal" extent="8 letters">Как вижу я, уже поспела.
-<l>Пойти было друзьям, приятелям сказать,
-<l>Чтоб с светом помогли мне эту рожь пожать</q>.
-<l><space dim="horizontal" extent="8 letters">И! тут, помилуй бог, какая
-<l>Тревога сделалась промеж перепелят!
-<l><space dim="horizontal" extent="8 letters"><q>Ах, матушка! ахти! -
-кричат.-
-<l><space dim="horizontal" extent="8 letters">Друзей, приятелей сбирая,
-<l><space dim="horizontal" extent="8 letters">Рожь хочет с светом вдруг
-пожать</q>.
-<l><space dim="horizontal" extent="10 letters">- <q>И! - говорит им мать. -
-<l><space dim="horizontal" extent="8 letters">Пустое! нечего бояться.
-<l>Мы можем, где мы есть, с покоем оставаться.
-<l><space dim="horizontal" extent="8 letters">Вот вам, поешьте между тем
-<l>И спите эту ночь, не думав ни о чем,
-<l><space dim="horizontal" extent="8 letters">Да только завтра тож
-смотрите,
-<l>Что ни услышите, мне всё перескажите</q>.
+<l><space dim="horizontal" extent="16 letters">п▓я│п╣ п╥п╫п╟я▌я┌,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬<name type="character"
+reg="п©п╣я─п╣п©п╣п╩п╨п╟">п©п╣я─п╣п©п╣п╩п╨п╦</name>пЁп╫п╣п╥п╢я▀ п╡я▄я▌я┌,
+<l>п п╬пЁп╢п╟ я┘п╩п╣п╠п╟ п╣я┴п╣ п╢п╟п╩я▒п╨п╬ п╫п╣ я├п╡п╣я┌я┐я┌,
+<l>п░ п╫п╣ я┌п╬пЁп╢п╟, п╨п╬пЁп╢п╟ п©п╬я┤я┌п╦ я┐п╤ п©п╬я│п©п╣п╡п╟я▌я┌;
+<l><space dim="horizontal" extent="13 letters">п╒п╬ п╣я│я┌я▄ п©п╬я─п╬п╧
+<l><space dim="horizontal" extent="16 letters">п╒п╟п╨п╬п╧,
+<l><space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟ п╡п╣я│п╫п╟ п╩п╦я┬я▄ п╫п╟я│я┌я┐п©п╟п╣я┌
+<l>п≤ п╡п╢п╡п╬п╣ п╡я│я▒, я┤я┌п╬ п╣я│я┌я▄, п╩я▌п╠п╦я┌я▄я│я▐ п╥п╟я│я┌п╟п╡п╩я▐п╣я┌
+<l><space dim="horizontal" extent="8 letters">п■п╟ п╢я┐п╪п╟я┌я▄, п╨п╟п╨ п╢я─я┐п╤п╨п╟ п╫п╟п╧я┌п╦,
+<l>п╖я┌п╬п╠ я─п╬п╢ п╦ п©п╩п╣п╪я▐ п╡п╫п╬п╡я▄ я│ п╢я─я┐п╤п╨п╬п╪ п©я─п╬п╦п╥п╡п╣я│я┌п╦.
+<l>п·п╢п╫п╟, п╫п╣ п╥п╫п╟я▌ п╨п╟п╨, п╬п╢п╫п╟п╨п╬ п╬п©п╬п╥п╢п╟п╩п╟,
+<l>п╒п╟п╨ я┤я┌п╬ пЁп╫п╣п╥п╢п╟ я│п╣п╠п╣ п©п╬я─п╬я▌ п╫п╣ я│п╡п╦п╩п╟,
+<l>п░ я│я┌п╟п╩п╟ п╡п╦я┌я▄, п╨п╬пЁп╢п╟ п©п╬я─п╟ п©п╬я┤я┌п╦ п©я─п╬я┬п╩п╟
+<l><space dim="horizontal" extent="8 letters">п≤ п╡ п©п╬п╩п╣ я─п╬п╤я▄ я┐п╤ п©п╬я│п©п╣п╡п╟п╩п╟.
+<l><space dim="horizontal" extent="10 letters">п·п╢п╫п╟п╨п╬ п╪п╬п╩п╬п╢я▀я┘
+<l><space dim="horizontal" extent="8 letters">п п╬п╣-п╨п╟п╨ п╡я▀п╡п╣п╩п╟ я│п╡п╬п╦я┘;
+<l><space dim="horizontal" extent="8 letters">п■п╟ я┌п╬п╩я▄п╨п╬ я┤я┌п╬ п╩п╣я┌п╟я┌я▄ п╫п╣
+я│п╪п╬п╤п╟я┌.
+<l><space dim="horizontal" extent="10 letters">п≤ п╢п╣я┌я▐п╪ пЁп╬п╡п╬я─п╦я┌:
+<l><q>п·я┘, п╢п╣я┌п╦! я█я┌п╟ я─п╬п╤я▄ п╫п╟п╪ п╫п╣ п╢п╬п╠я─п╬п╪ пЁя─п╬п╥п╦я┌:
+<l>п╒п╬пЁп╬ п╦ п╤п╢п╦, я┤я┌п╬ п╫п╟я│ п╬я┌я│я▌п╢п╟ п©п╬я┌я─п╣п╡п╬п╤п╟я┌;
+<l>п·п╢п╫п╟п╨п╬ я│п╩я┐я┬п╟п╧я┌п╣: я▐ я│я┌п╟п╫я┐ п╬я┌п╩п╣я┌п╟я┌я▄
+<l><space dim="horizontal" extent="10 letters">п▓п╟п╪ п╨п╬я─п╪я┐ п©я─п╬п╪я▀я┬п╩я▐я┌я▄,
+<l><space dim="horizontal" extent="13 letters">п░ п╡я▀ я│п╪п╬я┌я─п╦я┌п╣:
+<l>п╔п╬п╥я▐п╦п╫ я█я┌п╬п╧ я─п╤п╦ п╨п╟п╨ я│я┌п╟п╫п╣я┌ п©я─п╦я┘п╬п╢п╦я┌я▄,
+<l><space dim="horizontal" extent="8 letters">п╒п╟п╨, я┤я┌п╬ п╫п╦ п╠я┐п╢п╣я┌ пЁп╬п╡п╬я─п╦я┌я▄,
+<l>п▓я│я▒ п╢п╬ п©п╬я│п╩п╣п╢п╫п╣пЁп╬ п╪п╫п╣ я│п╩п╬п╡п╟ я─п╟я│я│п╨п╟п╤п╦я┌п╣</q>.
+<l>п÷я─п╦я┬п╣п╢я┬п╦ п╢п╫п╣п╪ п╬п╢п╫п╦п╪ я┘п╬п╥я▐п╦п╫ п╪п╣п╤п╢я┐ я┌п╣п╪,
+<l><space dim="horizontal" extent="8 letters">п п╟п╨<name
+type="character">п©п╣я─п╣п©п╣п╩п╨п╟</name>п╬я┌п╩п╣я┌п╣п╩п╟,
+<l><space dim="horizontal" extent="8 letters"><q>п░! я─п╬п╤я▄-я┌п╟, - пЁп╬п╡п╬я─п╦я┌,-
+я│п╬п╡я│п╣п╪,
+<l><space dim="horizontal" extent="8 letters">п п╟п╨ п╡п╦п╤я┐ я▐, я┐п╤п╣ п©п╬я│п©п╣п╩п╟.
+<l>п÷п╬п╧я┌п╦ п╠я▀п╩п╬ п╢я─я┐п╥я▄я▐п╪, п©я─п╦я▐я┌п╣п╩я▐п╪ я│п╨п╟п╥п╟я┌я▄,
+<l>п╖я┌п╬п╠ я│ я│п╡п╣я┌п╬п╪ п©п╬п╪п╬пЁп╩п╦ п╪п╫п╣ я█я┌я┐ я─п╬п╤я▄ п©п╬п╤п╟я┌я▄</q>.
+<l><space dim="horizontal" extent="8 letters">п≤! я┌я┐я┌, п©п╬п╪п╦п╩я┐п╧ п╠п╬пЁ, п╨п╟п╨п╟я▐
+<l>п╒я─п╣п╡п╬пЁп╟ я│п╢п╣п╩п╟п╩п╟я│я▄ п©я─п╬п╪п╣п╤ п©п╣я─п╣п©п╣п╩я▐я┌!
+<l><space dim="horizontal" extent="8 letters"><q>п░я┘, п╪п╟я┌я┐я┬п╨п╟! п╟я┘я┌п╦! -
+п╨я─п╦я┤п╟я┌.-
+<l><space dim="horizontal" extent="8 letters">п■я─я┐п╥п╣п╧, п©я─п╦я▐я┌п╣п╩п╣п╧ я│п╠п╦я─п╟я▐,
+<l><space dim="horizontal" extent="8 letters">п═п╬п╤я▄ я┘п╬я┤п╣я┌ я│ я│п╡п╣я┌п╬п╪ п╡п╢я─я┐пЁ
+п©п╬п╤п╟я┌я▄</q>.
+<l><space dim="horizontal" extent="10 letters">- <q>п≤! - пЁп╬п╡п╬я─п╦я┌ п╦п╪ п╪п╟я┌я▄. -
+<l><space dim="horizontal" extent="8 letters">п÷я┐я│я┌п╬п╣! п╫п╣я┤п╣пЁп╬ п╠п╬я▐я┌я▄я│я▐.
+<l>п°я▀ п╪п╬п╤п╣п╪, пЁп╢п╣ п╪я▀ п╣я│я┌я▄, я│ п©п╬п╨п╬п╣п╪ п╬я│я┌п╟п╡п╟я┌я▄я│я▐.
+<l><space dim="horizontal" extent="8 letters">п▓п╬я┌ п╡п╟п╪, п©п╬п╣я┬я▄я┌п╣ п╪п╣п╤п╢я┐ я┌п╣п╪
+<l>п≤ я│п©п╦я┌п╣ я█я┌я┐ п╫п╬я┤я▄, п╫п╣ п╢я┐п╪п╟п╡ п╫п╦ п╬ я┤п╣п╪,
+<l><space dim="horizontal" extent="8 letters">п■п╟ я┌п╬п╩я▄п╨п╬ п╥п╟п╡я┌я─п╟ я┌п╬п╤
+я│п╪п╬я┌я─п╦я┌п╣,
+<l>п╖я┌п╬ п╫п╦ я┐я│п╩я▀я┬п╦я┌п╣, п╪п╫п╣ п╡я│я▒ п©п╣я─п╣я│п╨п╟п╤п╦я┌п╣</q>.
 <lg1 type="group">
-<l>Пришед хозяин, ждать-пождать; нет никого!
-<l><space dim="horizontal" extent="8 letters"><q>Вот, - говорит, - до
-одного
-<l>Все обещались быть, а сами не бывали.
-<l>Надейся! Ну, пойти ж родню свою собрать,
-<l>Чтоб завтра поутру пришли и рожь пожали</q>.
-<l><space dim="horizontal" extent="8 letters">Тревога меж перепелят
-<l>Где пуще прежнего! - <q>Родне своей, - кричат,-
-<l><space dim="horizontal" extent="8 letters">Родне, он сказывал,
-сбираться!</q>
-<l><space dim="horizontal" extent="8 letters">- <q>Всё нечего еще бояться,
+<l>п÷я─п╦я┬п╣п╢ я┘п╬п╥я▐п╦п╫, п╤п╢п╟я┌я▄-п©п╬п╤п╢п╟я┌я▄; п╫п╣я┌ п╫п╦п╨п╬пЁп╬!
+<l><space dim="horizontal" extent="8 letters"><q>п▓п╬я┌, - пЁп╬п╡п╬я─п╦я┌, - п╢п╬
+п╬п╢п╫п╬пЁп╬
+<l>п▓я│п╣ п╬п╠п╣я┴п╟п╩п╦я│я▄ п╠я▀я┌я▄, п╟ я│п╟п╪п╦ п╫п╣ п╠я▀п╡п╟п╩п╦.
+<l>п²п╟п╢п╣п╧я│я▐! п²я┐, п©п╬п╧я┌п╦ п╤ я─п╬п╢п╫я▌ я│п╡п╬я▌ я│п╬п╠я─п╟я┌я▄,
+<l>п╖я┌п╬п╠ п╥п╟п╡я┌я─п╟ п©п╬я┐я┌я─я┐ п©я─п╦я┬п╩п╦ п╦ я─п╬п╤я▄ п©п╬п╤п╟п╩п╦</q>.
+<l><space dim="horizontal" extent="8 letters">п╒я─п╣п╡п╬пЁп╟ п╪п╣п╤ п©п╣я─п╣п©п╣п╩я▐я┌
+<l>п⌠п╢п╣ п©я┐я┴п╣ п©я─п╣п╤п╫п╣пЁп╬! - <q>п═п╬п╢п╫п╣ я│п╡п╬п╣п╧, - п╨я─п╦я┤п╟я┌,-
+<l><space dim="horizontal" extent="8 letters">п═п╬п╢п╫п╣, п╬п╫ я│п╨п╟п╥я▀п╡п╟п╩,
+я│п╠п╦я─п╟я┌я▄я│я▐!</q>
+<l><space dim="horizontal" extent="8 letters">- <q>п▓я│я▒ п╫п╣я┤п╣пЁп╬ п╣я┴п╣ п╠п╬я▐я┌я▄я│я▐,
 -
-<l>Сказала мать, - когда лишь только и всего</q>.
-<l>Пришел хозяин так, как приходил и прежде,
-<l>Да видит, и родни нет также никого.
-<l><q>Нет, - говорит, - в пустой, как вижу, я надежде!
-<l>Впредь верить ни родне не стану, ни друзьям.
-<l>До своего добра никто таков, как сам.
-<l>Знать, завтра поутру с семьею приниматься
-<l><space dim="horizontal" extent="8 letters">Хлеб этот помаленьку
-сжать</q>.
-<l><space dim="horizontal" extent="8 letters">- <q>Ну, дети! - тут сказала
-мать.-
-<l>Теперь уж нечего нам больше дожидаться</q>.
-<l><space dim="horizontal" extent="13 letters">Тут кто поршком,
-<l><space dim="horizontal" extent="13 letters">Кто кувырком
-<l><space dim="horizontal" extent="8 letters">Ну поскоряе убираться.
+<l>п║п╨п╟п╥п╟п╩п╟ п╪п╟я┌я▄, - п╨п╬пЁп╢п╟ п╩п╦я┬я▄ я┌п╬п╩я▄п╨п╬ п╦ п╡я│п╣пЁп╬</q>.
+<l>п÷я─п╦я┬п╣п╩ я┘п╬п╥я▐п╦п╫ я┌п╟п╨, п╨п╟п╨ п©я─п╦я┘п╬п╢п╦п╩ п╦ п©я─п╣п╤п╢п╣,
+<l>п■п╟ п╡п╦п╢п╦я┌, п╦ я─п╬п╢п╫п╦ п╫п╣я┌ я┌п╟п╨п╤п╣ п╫п╦п╨п╬пЁп╬.
+<l><q>п²п╣я┌, - пЁп╬п╡п╬я─п╦я┌, - п╡ п©я┐я│я┌п╬п╧, п╨п╟п╨ п╡п╦п╤я┐, я▐ п╫п╟п╢п╣п╤п╢п╣!
+<l>п▓п©я─п╣п╢я▄ п╡п╣я─п╦я┌я▄ п╫п╦ я─п╬п╢п╫п╣ п╫п╣ я│я┌п╟п╫я┐, п╫п╦ п╢я─я┐п╥я▄я▐п╪.
+<l>п■п╬ я│п╡п╬п╣пЁп╬ п╢п╬п╠я─п╟ п╫п╦п╨я┌п╬ я┌п╟п╨п╬п╡, п╨п╟п╨ я│п╟п╪.
+<l>п≈п╫п╟я┌я▄, п╥п╟п╡я┌я─п╟ п©п╬я┐я┌я─я┐ я│ я│п╣п╪я▄п╣я▌ п©я─п╦п╫п╦п╪п╟я┌я▄я│я▐
+<l><space dim="horizontal" extent="8 letters">п╔п╩п╣п╠ я█я┌п╬я┌ п©п╬п╪п╟п╩п╣п╫я▄п╨я┐
+я│п╤п╟я┌я▄</q>.
+<l><space dim="horizontal" extent="8 letters">- <q>п²я┐, п╢п╣я┌п╦! - я┌я┐я┌ я│п╨п╟п╥п╟п╩п╟
+п╪п╟я┌я▄.-
+<l>п╒п╣п©п╣я─я▄ я┐п╤ п╫п╣я┤п╣пЁп╬ п╫п╟п╪ п╠п╬п╩я▄я┬п╣ п╢п╬п╤п╦п╢п╟я┌я▄я│я▐</q>.
+<l><space dim="horizontal" extent="13 letters">п╒я┐я┌ п╨я┌п╬ п©п╬я─я┬п╨п╬п╪,
+<l><space dim="horizontal" extent="13 letters">п я┌п╬ п╨я┐п╡я▀я─п╨п╬п╪
+<l><space dim="horizontal" extent="8 letters">п²я┐ п©п╬я│п╨п╬я─я▐п╣ я┐п╠п╦я─п╟я┌я▄я│я▐.
 </body>
   </text>
 </tei.2>

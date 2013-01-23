@@ -23,45 +23,45 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE><name type="mythologic">Сатир</name> и гнусные люди</TITLE>
+        <TITLE><name type="mythologic">п║п╟я┌п╦я─</name> п╦ пЁп╫я┐я│п╫я▀п╣ п╩я▌п╢п╦</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Сатир и гнусные люди</TITLE>
+                <TITLE>п║п╟я┌п╦я─ п╦ пЁп╫я┐я│п╫я▀п╣ п╩я▌п╢п╦</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Притчи. Книга 3.
-                  СПб.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷я─п╦я┌я┤п╦. п п╫п╦пЁп╟ 3.
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1769</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -80,128 +80,128 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="поэт и толпа" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="нравы дворянства" TYPE="theme">
-<SPAN FROM="WHOLE" VALUE="пьянство" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
-<L> Сквозь темную пред оком тучу
+    <SPAN FROM="WHOLE" VALUE="п©п╬я█я┌ п╦ я┌п╬п╩п©п╟" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╫я─п╟п╡я▀ п╢п╡п╬я─я▐п╫я│я┌п╡п╟" TYPE="theme">
+<SPAN FROM="WHOLE" VALUE="п©я▄я▐п╫я│я┌п╡п╬" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
+<L> п║п╨п╡п╬п╥я▄ я┌п╣п╪п╫я┐я▌ п©я─п╣п╢ п╬п╨п╬п╪ я┌я┐я┤я┐
 
-<L> Взгляни, читатель, ты
+<L> п▓п╥пЁп╩я▐п╫п╦, я┤п╦я┌п╟я┌п╣п╩я▄, я┌я▀
 
-<L> На светски суеты!
+<L> п²п╟ я│п╡п╣я┌я│п╨п╦ я│я┐п╣я┌я▀!
 
-<L> Увидишь общего дурачества ты кучу;
+<L> пёп╡п╦п╢п╦я┬я▄ п╬п╠я┴п╣пЁп╬ п╢я┐я─п╟я┤п╣я│я┌п╡п╟ я┌я▀ п╨я┐я┤я┐;
 
-<L> Однако для ради спокойства своего,
+<L> п·п╢п╫п╟п╨п╬ п╢п╩я▐ я─п╟п╢п╦ я│п©п╬п╨п╬п╧я│я┌п╡п╟ я│п╡п╬п╣пЁп╬,
 
-<L> Пожалуй, никогда не шевели его;
+<L> п÷п╬п╤п╟п╩я┐п╧, п╫п╦п╨п╬пЁп╢п╟ п╫п╣ я┬п╣п╡п╣п╩п╦ п╣пЁп╬;
 
-<L> Основана сия над страшным куча адом,
+<L> п·я│п╫п╬п╡п╟п╫п╟ я│п╦я▐ п╫п╟п╢ я│я┌я─п╟я┬п╫я▀п╪ п╨я┐я┤п╟ п╟п╢п╬п╪,
 
-<L> <space dim="horizontal" extent="7 letters">Наполнена различным гадом,
+<L> <space dim="horizontal" extent="7 letters">п²п╟п©п╬п╩п╫п╣п╫п╟ я─п╟п╥п╩п╦я┤п╫я▀п╪ пЁп╟п╢п╬п╪,
 
-<L> <space dim="horizontal" extent="13 letters">Покрыта ядом.
+<L> <space dim="horizontal" extent="13 letters">п÷п╬п╨я─я▀я┌п╟ я▐п╢п╬п╪.
 
-<L> С великим пастухи в долине были стадом.
+<L> п║ п╡п╣п╩п╦п╨п╦п╪ п©п╟я│я┌я┐я┘п╦ п╡ п╢п╬п╩п╦п╫п╣ п╠я▀п╩п╦ я│я┌п╟п╢п╬п╪.
 
-<L> <space dim="horizontal" extent="13 letters">Когда?
+<L> <space dim="horizontal" extent="13 letters">п п╬пЁп╢п╟?
 
-<L> <space dim="horizontal" extent="7 letters">Не думай, что тогда,
+<L> <space dim="horizontal" extent="7 letters">п²п╣ п╢я┐п╪п╟п╧, я┤я┌п╬ я┌п╬пЁп╢п╟,
 
-<L> <space dim="horizontal" extent="7 letters">Когда для человека
+<L> <space dim="horizontal" extent="7 letters">п п╬пЁп╢п╟ п╢п╩я▐ я┤п╣п╩п╬п╡п╣п╨п╟
 
-<L> <space dim="horizontal" extent="7 letters">Текли часы златаго века,
+<L> <space dim="horizontal" extent="7 letters">п╒п╣п╨п╩п╦ я┤п╟я│я▀ п╥п╩п╟я┌п╟пЁп╬ п╡п╣п╨п╟,
 
-<L> Когда еще наук премудрость не ввела
+<L> п п╬пЁп╢п╟ п╣я┴п╣ п╫п╟я┐п╨ п©я─п╣п╪я┐п╢я─п╬я│я┌я▄ п╫п╣ п╡п╡п╣п╩п╟
 
-<L> И в свете истина без школ еще цвела,
+<L> п≤ п╡ я│п╡п╣я┌п╣ п╦я│я┌п╦п╫п╟ п╠п╣п╥ я┬п╨п╬п╩ п╣я┴п╣ я├п╡п╣п╩п╟,
 
-<L> Как не был чин еще достоинства свидетель,
+<L> п п╟п╨ п╫п╣ п╠я▀п╩ я┤п╦п╫ п╣я┴п╣ п╢п╬я│я┌п╬п╦п╫я│я┌п╡п╟ я│п╡п╦п╢п╣я┌п╣п╩я▄,
 
-<L> <space dim="horizontal" extent="13 letters">Но добродетель.
+<L> <space dim="horizontal" extent="13 letters">п²п╬ п╢п╬п╠я─п╬п╢п╣я┌п╣п╩я▄.
 
-<L> И, словом, я скажу вот это наконец:
-<L> Реченны пастухи вчера пасли овец,
+<L> п≤, я│п╩п╬п╡п╬п╪, я▐ я│п╨п╟п╤я┐ п╡п╬я┌ я█я┌п╬ п╫п╟п╨п╬п╫п╣я├:
+<L> п═п╣я┤п╣п╫п╫я▀ п©п╟я│я┌я┐я┘п╦ п╡я┤п╣я─п╟ п©п╟я│п╩п╦ п╬п╡п╣я├,
 
-<L> По всякий день у них была тревога всяка:
+<L> п÷п╬ п╡я│я▐п╨п╦п╧ п╢п╣п╫я▄ я┐ п╫п╦я┘ п╠я▀п╩п╟ я┌я─п╣п╡п╬пЁп╟ п╡я│я▐п╨п╟:
 
-<L> <space dim="horizontal" extent="7 letters">Вздор, пьянство, шум и
-драка.
+<L> <space dim="horizontal" extent="7 letters">п▓п╥п╢п╬я─, п©я▄я▐п╫я│я┌п╡п╬, я┬я┐п╪ п╦
+п╢я─п╟п╨п╟.
 
-<L> <space dim="horizontal" extent="13 letters">И, словом, так:
+<L> <space dim="horizontal" extent="13 letters">п≤, я│п╩п╬п╡п╬п╪, я┌п╟п╨:
 
-<L>Из паства сделали они себе кабак -
+<L>п≤п╥ п©п╟я│я┌п╡п╟ я│п╢п╣п╩п╟п╩п╦ п╬п╫п╦ я│п╣п╠п╣ п╨п╟п╠п╟п╨ -
 
-<L> <space dim="horizontal" extent="13 letters">Во глотку,
+<L> <space dim="horizontal" extent="13 letters">п▓п╬ пЁп╩п╬я┌п╨я┐,
 
-<L> <space dim="horizontal" extent="7 letters">И в брюхо, и в бока
+<L> <space dim="horizontal" extent="7 letters">п≤ п╡ п╠я─я▌я┘п╬, п╦ п╡ п╠п╬п╨п╟
 
-<L> <space dim="horizontal" extent="7 letters">На место молока
+<L> <space dim="horizontal" extent="7 letters">п²п╟ п╪п╣я│я┌п╬ п╪п╬п╩п╬п╨п╟
 
-<L> <space dim="horizontal" extent="13 letters">Цедили водку,
+<L> <space dim="horizontal" extent="13 letters">п╕п╣п╢п╦п╩п╦ п╡п╬п╢п╨я┐,
 
-<L> И не жалел никто ни зуб, ни кулака,
+<L> п≤ п╫п╣ п╤п╟п╩п╣п╩ п╫п╦п╨я┌п╬ п╫п╦ п╥я┐п╠, п╫п╦ п╨я┐п╩п╟п╨п╟,
 
-<L> Кабашный нектар сей имеючи лекарством,
+<L> п п╟п╠п╟я┬п╫я▀п╧ п╫п╣п╨я┌п╟я─ я│п╣п╧ п╦п╪п╣я▌я┤п╦ п╩п╣п╨п╟я─я│я┌п╡п╬п╪,
 
-<L> А бешеную жизнь имев небесным царством.
+<L> п░ п╠п╣я┬п╣п╫я┐я▌ п╤п╦п╥п╫я▄ п╦п╪п╣п╡ п╫п╣п╠п╣я│п╫я▀п╪ я├п╟я─я│я┌п╡п╬п╪.
 
-<L> <space dim="horizontal" extent="5 letters">От водки голова болит,
+<L> <space dim="horizontal" extent="5 letters">п·я┌ п╡п╬п╢п╨п╦ пЁп╬п╩п╬п╡п╟ п╠п╬п╩п╦я┌,
 
-<L> <space dim="horizontal" extent="5 letters">Но водка сердце веселит,
+<L> <space dim="horizontal" extent="5 letters">п²п╬ п╡п╬п╢п╨п╟ я│п╣я─п╢я├п╣ п╡п╣я│п╣п╩п╦я┌,
 
-<L> <space dim="horizontal" extent="5 letters">Молошное питье не диво,
+<L> <space dim="horizontal" extent="5 letters">п°п╬п╩п╬я┬п╫п╬п╣ п©п╦я┌я▄п╣ п╫п╣ п╢п╦п╡п╬,
 
-<L> <space dim="horizontal" extent="10 letters">Его хмельняй и пиво;
+<L> <space dim="horizontal" extent="10 letters">п∙пЁп╬ я┘п╪п╣п╩я▄п╫я▐п╧ п╦ п©п╦п╡п╬;
 
-<L> <space dim="horizontal" extent="5 letters">Какое ж им питье и пить,
+<L> <space dim="horizontal" extent="5 letters">п п╟п╨п╬п╣ п╤ п╦п╪ п©п╦я┌я▄п╣ п╦ п©п╦я┌я▄,
 
-<L> <space dim="horizontal" extent="10 letters">Коль водки не купить?
+<L> <space dim="horizontal" extent="10 letters">п п╬п╩я▄ п╡п╬п╢п╨п╦ п╫п╣ п╨я┐п©п╦я┌я▄?
 
-<L> А деньги для чего иного им копить?
+<L> п░ п╢п╣п╫я▄пЁп╦ п╢п╩я▐ я┤п╣пЁп╬ п╦п╫п╬пЁп╬ п╦п╪ п╨п╬п©п╦я┌я▄?
 
-<L> В лесу над долом сим <name type="mythologic" >Сатир</name>
+<L> п▓ п╩п╣я│я┐ п╫п╟п╢ п╢п╬п╩п╬п╪ я│п╦п╪ <name type="mythologic" >п║п╟я┌п╦я─</name>
 
-жил очень близко,
+п╤п╦п╩ п╬я┤п╣п╫я▄ п╠п╩п╦п╥п╨п╬,
 
-<L> И тварию их он презренною считал,
+<L> п≤ я┌п╡п╟я─п╦я▌ п╦я┘ п╬п╫ п©я─п╣п╥я─п╣п╫п╫п╬я▌ я│я┤п╦я┌п╟п╩,
 
-<L> Что низки так они, живут колико низко.
+<L> п╖я┌п╬ п╫п╦п╥п╨п╦ я┌п╟п╨ п╬п╫п╦, п╤п╦п╡я┐я┌ п╨п╬п╩п╦п╨п╬ п╫п╦п╥п╨п╬.
 
-<L> Всегда он видел их, всегда и хохотал,
+<L> п▓я│п╣пЁп╢п╟ п╬п╫ п╡п╦п╢п╣п╩ п╦я┘, п╡я│п╣пЁп╢п╟ п╦ я┘п╬я┘п╬я┌п╟п╩,
 
-<L> Что нет ни чести тут, ни разума, ни мира.
+<L> п╖я┌п╬ п╫п╣я┌ п╫п╦ я┤п╣я│я┌п╦ я┌я┐я┌, п╫п╦ я─п╟п╥я┐п╪п╟, п╫п╦ п╪п╦я─п╟.
 
-<L> <space dim="horizontal" extent="5 letters">Поймали пастухи <name
-type="mythologic" reg="Сатир">Сатира</name>
+<L> <space dim="horizontal" extent="5 letters">п÷п╬п╧п╪п╟п╩п╦ п©п╟я│я┌я┐я┘п╦ <name
+type="mythologic" reg="п║п╟я┌п╦я─">п║п╟я┌п╦я─п╟</name>
 
-<L> <space dim="horizontal" extent="14 letters">И бьют сего -
+<L> <space dim="horizontal" extent="14 letters">п≤ п╠я▄я▌я┌ я│п╣пЁп╬ -
 
-<L> Без милосердия - невинна <name type="person"
-reg="Демокрит">Демокрита</name>.
+<L> п▒п╣п╥ п╪п╦п╩п╬я│п╣я─п╢п╦я▐ - п╫п╣п╡п╦п╫п╫п╟ <name type="person"
+reg="п■п╣п╪п╬п╨я─п╦я┌">п■п╣п╪п╬п╨я─п╦я┌п╟</name>.
 
-<L> Не видит помощи <name type="mythologic" >Сатир</name> ни от кого.
+<L> п²п╣ п╡п╦п╢п╦я┌ п©п╬п╪п╬я┴п╦ <name type="mythologic" >п║п╟я┌п╦я─</name> п╫п╦ п╬я┌ п╨п╬пЁп╬.
 
-<L> Однако <name type="mythologic" >Пан</name>пришел спасти <name
-type="mythologic" reg="Сатир">Сатира</name>бита;
+<L> п·п╢п╫п╟п╨п╬ <name type="mythologic" >п÷п╟п╫</name>п©я─п╦я┬п╣п╩ я│п©п╟я│я┌п╦ <name
+type="mythologic" reg="п║п╟я┌п╦я─">п║п╟я┌п╦я─п╟</name>п╠п╦я┌п╟;
 
-<L> <name type="mythologic" reg="Сатир">Сатира</name>отнял он, и говорил им
-<name type="mythologic" >Пан</name>:
+<L> <name type="mythologic" reg="п║п╟я┌п╦я─">п║п╟я┌п╦я─п╟</name>п╬я┌п╫я▐п╩ п╬п╫, п╦ пЁп╬п╡п╬я─п╦п╩ п╦п╪
+<name type="mythologic" >п÷п╟п╫</name>:
 
-<L> <q>За что поделали ему вы столько ран?
+<L> <q>п≈п╟ я┤я┌п╬ п©п╬п╢п╣п╩п╟п╩п╦ п╣п╪я┐ п╡я▀ я│я┌п╬п╩я▄п╨п╬ я─п╟п╫?
 
-<L> <space dim="horizontal" extent="5 letters">Напредки меньше пейте;
+<L> <space dim="horizontal" extent="5 letters">п²п╟п©я─п╣п╢п╨п╦ п╪п╣п╫я▄я┬п╣ п©п╣п╧я┌п╣;
 
-<L> А что смеялся он, за то себя вы бейте,
+<L> п░ я┤я┌п╬ я│п╪п╣я▐п╩я│я▐ п╬п╫, п╥п╟ я┌п╬ я│п╣п╠я▐ п╡я▀ п╠п╣п╧я┌п╣,
 
-<L> <space dim="horizontal" extent="5 letters">А ты вперед, мой друг,
+<L> <space dim="horizontal" extent="5 letters">п░ я┌я▀ п╡п©п╣я─п╣п╢, п╪п╬п╧ п╢я─я┐пЁ,
 
-<L> Ко наставлению не делай им услуг;
+<L> п п╬ п╫п╟я│я┌п╟п╡п╩п╣п╫п╦я▌ п╫п╣ п╢п╣п╩п╟п╧ п╦п╪ я┐я│п╩я┐пЁ;
 
-<L> <space dim="horizontal" extent="5 letters">Опасно наставленье строго,
+<L> <space dim="horizontal" extent="5 letters">п·п©п╟я│п╫п╬ п╫п╟я│я┌п╟п╡п╩п╣п╫я▄п╣ я│я┌я─п╬пЁп╬,
 
-<L> <space dim="horizontal" extent="5 letters">Где зверства и безумства
-много</q>.
+<L> <space dim="horizontal" extent="5 letters">п⌠п╢п╣ п╥п╡п╣я─я│я┌п╡п╟ п╦ п╠п╣п╥я┐п╪я│я┌п╡п╟
+п╪п╫п╬пЁп╬</q>.
 
 </BODY>
 

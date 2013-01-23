@@ -26,39 +26,39 @@
 
       <TITLESTMT>
 
-        <TITLE>Мои стихи, мой друг, - осенние листы... </TITLE>
+        <TITLE>п°п╬п╦ я│я┌п╦я┘п╦, п╪п╬п╧ п╢я─я┐пЁ, - п╬я│п╣п╫п╫п╦п╣ п╩п╦я│я┌я▀... </TITLE>
 
         <AUTHOR>
 
           <PERSNAME>
 
-            <FORENAME>Михаил</FORENAME>
+            <FORENAME>п°п╦я┘п╟п╦п╩</FORENAME>
 
-            <FORENAME TYPE="patronym">Никитич</FORENAME>
+            <FORENAME TYPE="patronym">п²п╦п╨п╦я┌п╦я┤</FORENAME>
 
-            <SURNAME>Муравьев</SURNAME>
+            <SURNAME>п°я┐я─п╟п╡я▄п╣п╡</SURNAME>
 
             </PERSNAME>
 
           </AUTHOR>
 
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
 
         </TITLESTMT>
 
       <PUBLICATIONSTMT>
 
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
 
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
 
         </PUBLICATIONSTMT>
 
       <SERIESSTMT>
 
-        <TITLE>Электронная антология &quot;Русская литература XVIII
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
 
-          века&quot;</TITLE>
+          п╡п╣п╨п╟&quot;</TITLE>
 
         </SERIESSTMT>
 
@@ -68,19 +68,19 @@
 
           <TITLESTMT>
 
-            <TITLE>М. Н.  Муравьев. Стихотворения</TITLE>
+            <TITLE>п°. п².  п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐</TITLE>
 
-            <EDITOR>Л. И. Кулакова </EDITOR>
+            <EDITOR>п⌡. п≤. п я┐п╩п╟п╨п╬п╡п╟ </EDITOR>
 
             </TITLESTMT>
 
           <PUBLICATIONSTMT>
 
-            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
 
-       <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-         библиотека</XREF></DISTRIBUTOR>
-<PUBPLACE>Л.</PUBPLACE>
+       <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+         п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+<PUBPLACE>п⌡.</PUBPLACE>
 
             <DATE>1967</DATE>
 
@@ -92,15 +92,15 @@
 
               <TITLESTMT>
 
-                <TITLE>Мои стихи, мой друг, - опавшие листы... </TITLE>
+                <TITLE>п°п╬п╦ я│я┌п╦я┘п╦, п╪п╬п╧ п╢я─я┐пЁ, - п╬п©п╟п╡я┬п╦п╣ п╩п╦я│я┌я▀... </TITLE>
 
                 </TITLESTMT>
 
               <PUBLICATIONSTMT>
 
-                <PUBLISHER>М. Н. Муравьев. Стихотворения.
+                <PUBLISHER>п°. п². п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐.
 
-Л. </PUBLISHER>
+п⌡. </PUBLISHER>
 
                 <DATE>1967</DATE>
 
@@ -136,22 +136,22 @@
 
   <TEXT>
 
-    <SPAN FROM="WHOLE" VALUE="поэзия" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п©п╬я█п╥п╦я▐" TYPE="theme">
 
-    <SPAN FROM="WHOLE" VALUE="жалобы поэта" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╤п╟п╩п╬п╠я▀ п©п╬я█я┌п╟" TYPE="theme">
 
-<BODY ID="WHOLE"><DIV0 RHYME=" aBaBcDcDxX. " MET="Я6">
+<BODY ID="WHOLE"><DIV0 RHYME=" aBaBcDcDxX. " MET="п╞6">
 
-<L> Мои стихи, мой друг, - осенние листы:
-<L> Родятся блеклые, без живости и цвету,
-<L> И, восхищаемы дыханий злых усты,
-<L> Пренебрегаемы разносятся по свету,
-<L> Не чтомые никем. Но дух во мне кипит
-<L> И слезы зависти катятся по ланитам,
-<L> Что, указуемый гражданами пиит,
-<L> Не достигаю я в сообщество к пиитам,
-<L> Биющим верные удары во сердца,
-<L> Со воздыханьями влекущим слезы сладки.
+<L> п°п╬п╦ я│я┌п╦я┘п╦, п╪п╬п╧ п╢я─я┐пЁ, - п╬я│п╣п╫п╫п╦п╣ п╩п╦я│я┌я▀:
+<L> п═п╬п╢я▐я┌я│я▐ п╠п╩п╣п╨п╩я▀п╣, п╠п╣п╥ п╤п╦п╡п╬я│я┌п╦ п╦ я├п╡п╣я┌я┐,
+<L> п≤, п╡п╬я│я┘п╦я┴п╟п╣п╪я▀ п╢я▀я┘п╟п╫п╦п╧ п╥п╩я▀я┘ я┐я│я┌я▀,
+<L> п÷я─п╣п╫п╣п╠я─п╣пЁп╟п╣п╪я▀ я─п╟п╥п╫п╬я│я▐я┌я│я▐ п©п╬ я│п╡п╣я┌я┐,
+<L> п²п╣ я┤я┌п╬п╪я▀п╣ п╫п╦п╨п╣п╪. п²п╬ п╢я┐я┘ п╡п╬ п╪п╫п╣ п╨п╦п©п╦я┌
+<L> п≤ я│п╩п╣п╥я▀ п╥п╟п╡п╦я│я┌п╦ п╨п╟я┌я▐я┌я│я▐ п©п╬ п╩п╟п╫п╦я┌п╟п╪,
+<L> п╖я┌п╬, я┐п╨п╟п╥я┐п╣п╪я▀п╧ пЁя─п╟п╤п╢п╟п╫п╟п╪п╦ п©п╦п╦я┌,
+<L> п²п╣ п╢п╬я│я┌п╦пЁп╟я▌ я▐ п╡ я│п╬п╬п╠я┴п╣я│я┌п╡п╬ п╨ п©п╦п╦я┌п╟п╪,
+<L> п▒п╦я▌я┴п╦п╪ п╡п╣я─п╫я▀п╣ я┐п╢п╟я─я▀ п╡п╬ я│п╣я─п╢я├п╟,
+<L> п║п╬ п╡п╬п╥п╢я▀я┘п╟п╫я▄я▐п╪п╦ п╡п╩п╣п╨я┐я┴п╦п╪ я│п╩п╣п╥я▀ я│п╩п╟п╢п╨п╦.
 
 </BODY>
 

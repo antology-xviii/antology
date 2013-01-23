@@ -23,46 +23,46 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE><name type="character">Ось</name> и <name
-type="character">Бык</name></TITLE>
+        <TITLE><name type="character">п·я│я▄</name> п╦ <name
+type="character">п▒я▀п╨</name></TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Ось и бык</TITLE>
+                <TITLE>п·я│я▄ п╦ п╠я▀п╨</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Всякая всячина.
-                  СПб.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п▓я│я▐п╨п╟я▐ п╡я│я▐я┤п╦п╫п╟.
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1769</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -81,34 +81,34 @@ type="character">Бык</name></TITLE>
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="мотовство дворян" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="трудолюбие крестьян" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
-<L> <space dim="horizontal" extent="6 letters">В лесу воспитанная с негой,
+    <SPAN FROM="WHOLE" VALUE="п╪п╬я┌п╬п╡я│я┌п╡п╬ п╢п╡п╬я─я▐п╫" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я┌я─я┐п╢п╬п╩я▌п╠п╦п╣ п╨я─п╣я│я┌я▄я▐п╫" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
+<L> <space dim="horizontal" extent="6 letters">п▓ п╩п╣я│я┐ п╡п╬я│п©п╦я┌п╟п╫п╫п╟я▐ я│ п╫п╣пЁп╬п╧,
 
-<L> <space dim="horizontal" extent="6 letters">Под тяжкой трется <name
-type="character"> Ось </name> телегой
+<L> <space dim="horizontal" extent="6 letters">п÷п╬п╢ я┌я▐п╤п╨п╬п╧ я┌я─п╣я┌я│я▐ <name
+type="character"> п·я│я▄ </name> я┌п╣п╩п╣пЁп╬п╧
 
-<L> <space dim="horizontal" extent="6 letters">И, неподмазанна, кричит.
+<L> <space dim="horizontal" extent="6 letters">п≤, п╫п╣п©п╬п╢п╪п╟п╥п╟п╫п╫п╟, п╨я─п╦я┤п╦я┌.
 
-<L> А <name type="character"> Бык </name>, который то везет, везя молчит,
+<L> п░ <name type="character"> п▒я▀п╨ </name>, п╨п╬я┌п╬я─я▀п╧ я┌п╬ п╡п╣п╥п╣я┌, п╡п╣п╥я▐ п╪п╬п╩я┤п╦я┌,
 
-<L> Изображает <name type="character"> Ось </name> господчика мне нежна,
+<L> п≤п╥п╬п╠я─п╟п╤п╟п╣я┌ <name type="character"> п·я│я▄ </name> пЁп╬я│п©п╬п╢я┤п╦п╨п╟ п╪п╫п╣ п╫п╣п╤п╫п╟,
 
-<L> <space dim="horizontal" extent="6 letters">Который держит худо счет,
+<L> <space dim="horizontal" extent="6 letters">п п╬я┌п╬я─я▀п╧ п╢п╣я─п╤п╦я┌ я┘я┐п╢п╬ я│я┤п╣я┌,
 
-<L> <space dim="horizontal" extent="13 letters">По-русски - мот,
+<L> <space dim="horizontal" extent="13 letters">п÷п╬-я─я┐я│я│п╨п╦ - п╪п╬я┌,
 
-<L> <space dim="horizontal" extent="6 letters">А <name type="character">
-Бык </name>  - крестьянина прилежна.
+<L> <space dim="horizontal" extent="6 letters">п░ <name type="character">
+п▒я▀п╨ </name>  - п╨я─п╣я│я┌я▄я▐п╫п╦п╫п╟ п©я─п╦п╩п╣п╤п╫п╟.
 
-<L> Страдает от долгов обремененный мот,
+<L> п║я┌я─п╟п╢п╟п╣я┌ п╬я┌ п╢п╬п╩пЁп╬п╡ п╬п╠я─п╣п╪п╣п╫п╣п╫п╫я▀п╧ п╪п╬я┌,
 
-<L> <space dim="horizontal" extent="6 letters">А этого не воспомянет,
+<L> <space dim="horizontal" extent="6 letters">п░ я█я┌п╬пЁп╬ п╫п╣ п╡п╬я│п©п╬п╪я▐п╫п╣я┌,
 
-<L> <space dim="horizontal" extent="6 letters">Что пахарь, изливая пот,
+<L> <space dim="horizontal" extent="6 letters">п╖я┌п╬ п©п╟я┘п╟я─я▄, п╦п╥п╩п╦п╡п╟я▐ п©п╬я┌,
 
-<L> Трудится и тягло ему на карты тянет.
+<L> п╒я─я┐п╢п╦я┌я│я▐ п╦ я┌я▐пЁп╩п╬ п╣п╪я┐ п╫п╟ п╨п╟я─я┌я▀ я┌я▐п╫п╣я┌.
 
 </BODY>
 

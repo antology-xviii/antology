@@ -22,48 +22,48 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Надпись 2 [к статуе <name type="person" reg="Пётр I">Петра
-Великаго</name>]</TITLE>
+        <TITLE>п²п╟п╢п©п╦я│я▄ 2 [п╨ я│я┌п╟я┌я┐п╣ <name type="person" reg="п÷я▒я┌я─ I">п÷п╣я┌я─п╟
+п▓п╣п╩п╦п╨п╟пЁп╬</name>]</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Михаил</FORENAME>
-            <FORENAME TYPE="patronym">Васильевич</FORENAME>
-            <SURNAME>Ломоносов</SURNAME>
+            <FORENAME>п°п╦я┘п╟п╦п╩</FORENAME>
+            <FORENAME TYPE="patronym">п▓п╟я│п╦п╩я▄п╣п╡п╦я┤</FORENAME>
+            <SURNAME>п⌡п╬п╪п╬п╫п╬я│п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Головченко</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠п╬п╩п╬п╡я┤п╣п╫п╨п╬</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>М. В. Ломоносов. Полное собрание сочинений. Т.8. Поэзия.
-Ораторская проза. Надписи. 1732-1764 гг.</TITLE>
-            <EDITOR>Виноградов В. В., Андреев А. И., Блок Г. П.</EDITOR>
+            <TITLE>п°. п▓. п⌡п╬п╪п╬п╫п╬я│п╬п╡. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒.8. п÷п╬я█п╥п╦я▐.
+п·я─п╟я┌п╬я─я│п╨п╟я▐ п©я─п╬п╥п╟. п²п╟п╢п©п╦я│п╦. 1732-1764 пЁпЁ.</TITLE>
+            <EDITOR>п▓п╦п╫п╬пЁя─п╟п╢п╬п╡ п▓. п▓., п░п╫п╢я─п╣п╣п╡ п░. п≤., п▒п╩п╬п╨ п⌠. п÷.</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Издательство Академии наук СССР</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">ФЭБ: Фундаментальная
-электронная библиотека &quot;Русская литература и фольклор&quot;</XREF></DISTRIBUTOR>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п╫п╟я┐п╨ п║п║п║п═</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="feb-web" TO="ROOT">п╓п╜п▒: п╓я┐п╫п╢п╟п╪п╣п╫я┌п╟п╩я▄п╫п╟я▐
+я█п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ п╦ я└п╬п╩я▄п╨п╩п╬я─&quot;</XREF></DISTRIBUTOR>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1959</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Надпись 2 [к статуе <name type="person" reg="Пётр
-I">Петра Великаго</name>]</TITLE>
+                <TITLE>п²п╟п╢п©п╦я│я▄ 2 [п╨ я│я┌п╟я┌я┐п╣ <name type="person" reg="п÷я▒я┌я─
+I">п÷п╣я┌я─п╟ п▓п╣п╩п╦п╨п╟пЁп╬</name>]</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Ломоносов М. Собрание разных сочинений в стихах
-и прозе. СПб.</PUBLISHER>
+                <PUBLISHER>п⌡п╬п╪п╬п╫п╬я│п╬п╡ п°. п║п╬п╠я─п╟п╫п╦п╣ я─п╟п╥п╫я▀я┘ я│п╬я┤п╦п╫п╣п╫п╦п╧ п╡ я│я┌п╦я┘п╟я┘
+п╦ п©я─п╬п╥п╣. п║п÷п╠.</PUBLISHER>
                 <DATE>1751</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -82,13 +82,13 @@ I">Петра Великаго</name>]</TITLE>
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <BODY ID="WHOLE"><DIV0 RHYME="ааВВ." MET="Я6">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟п╟п▓п▓." MET="п╞6">
 <lg1 type="stanza">
-<l><name type="person" reg="Елизавета Петровна">Елисавета</name> здесь
-воздвигла зрак Петров
-<l>К утехе Россов всех, но кто он был таков,
-<l>Гласит сей град и флот, художества и войски,
-<l>Гражданские труды и подвиги Геройски.
+<l><name type="person" reg="п∙п╩п╦п╥п╟п╡п╣я┌п╟ п÷п╣я┌я─п╬п╡п╫п╟">п∙п╩п╦я│п╟п╡п╣я┌п╟</name> п╥п╢п╣я│я▄
+п╡п╬п╥п╢п╡п╦пЁп╩п╟ п╥я─п╟п╨ п÷п╣я┌я─п╬п╡
+<l>п  я┐я┌п╣я┘п╣ п═п╬я│я│п╬п╡ п╡я│п╣я┘, п╫п╬ п╨я┌п╬ п╬п╫ п╠я▀п╩ я┌п╟п╨п╬п╡,
+<l>п⌠п╩п╟я│п╦я┌ я│п╣п╧ пЁя─п╟п╢ п╦ я└п╩п╬я┌, я┘я┐п╢п╬п╤п╣я│я┌п╡п╟ п╦ п╡п╬п╧я│п╨п╦,
+<l>п⌠я─п╟п╤п╢п╟п╫я│п╨п╦п╣ я┌я─я┐п╢я▀ п╦ п©п╬п╢п╡п╦пЁп╦ п⌠п╣я─п╬п╧я│п╨п╦.
     </BODY>
   </TEXT>
 </TEI.2>

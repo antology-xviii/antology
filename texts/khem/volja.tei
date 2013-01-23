@@ -31,42 +31,42 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Воля и неволя</title>
+<title>п▓п╬п╩я▐ п╦ п╫п╣п╡п╬п╩я▐</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Воля и неволя</title>
+                <title>п▓п╬п╩я▐ п╦ п╫п╣п╡п╬п╩я▐</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Басни и сказки [И. И. Хемницера]. Ч.
+                <publisher>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ [п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─п╟]. п╖.
 2</publisher>
                 <date>1782</date>
               </publicationStmt>
@@ -78,7 +78,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -86,98 +86,98 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='неволя'>
-<span from='whole' type='theme' value='свобода'>
-<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
-<l><name type="character">Волк</name>, долго не имев поживы никакой,
-<l><space dim="horizontal" extent="15 letters">Был тощ, худой
-<l><space dim="horizontal" extent="17 letters">Такой,
-<l><space dim="horizontal" extent="8 letters">Что кости лишь одни да кожа.
-<l><space dim="horizontal" extent="8 letters">И<name type="character"
-reg="волк">волку</name>этому случись
-<l><space dim="horizontal" extent="10 letters">С <name type="character"
-reg="собака">собакою</name>сойтись,
-<l>Которая была собой росла, пригожа,
-<l><space dim="horizontal" extent="17 letters">Жирна,
-<l><space dim="horizontal" extent="10 letters">Дородна и сильна.
-<l><name type="character">Волк</name>рад бы всей душой с<name
-type="character" reg="собака">собакою</name>схватиться
-<l><space dim="horizontal" extent="10 letters">И ею поживиться,
-<l><space dim="horizontal" extent="8 letters">Да полно, для того не смел,
-<l><space dim="horizontal" extent="8 letters">Что не по нем была<name
-type="character">собака</name>
-<l><space dim="horizontal" extent="8 letters">И не по нем была бы драка.
-<l>И так со стороны учтивой подошел,
-<l><space dim="horizontal" extent="8 letters">Лисой к ней начал
-подбиваться,
-<l><space dim="horizontal" extent="8 letters">Ее дородству удивляться
-<l><space dim="horizontal" extent="8 letters">И всячески ее хвалить.
+<span from='whole' type='theme' value='п╫п╣п╡п╬п╩я▐'>
+<span from='whole' type='theme' value='я│п╡п╬п╠п╬п╢п╟'>
+<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
+<l><name type="character">п▓п╬п╩п╨</name>, п╢п╬п╩пЁп╬ п╫п╣ п╦п╪п╣п╡ п©п╬п╤п╦п╡я▀ п╫п╦п╨п╟п╨п╬п╧,
+<l><space dim="horizontal" extent="15 letters">п▒я▀п╩ я┌п╬я┴, я┘я┐п╢п╬п╧
+<l><space dim="horizontal" extent="17 letters">п╒п╟п╨п╬п╧,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ п╨п╬я│я┌п╦ п╩п╦я┬я▄ п╬п╢п╫п╦ п╢п╟ п╨п╬п╤п╟.
+<l><space dim="horizontal" extent="8 letters">п≤<name type="character"
+reg="п╡п╬п╩п╨">п╡п╬п╩п╨я┐</name>я█я┌п╬п╪я┐ я│п╩я┐я┤п╦я│я▄
+<l><space dim="horizontal" extent="10 letters">п║ <name type="character"
+reg="я│п╬п╠п╟п╨п╟">я│п╬п╠п╟п╨п╬я▌</name>я│п╬п╧я┌п╦я│я▄,
+<l>п п╬я┌п╬я─п╟я▐ п╠я▀п╩п╟ я│п╬п╠п╬п╧ я─п╬я│п╩п╟, п©я─п╦пЁп╬п╤п╟,
+<l><space dim="horizontal" extent="17 letters">п√п╦я─п╫п╟,
+<l><space dim="horizontal" extent="10 letters">п■п╬я─п╬п╢п╫п╟ п╦ я│п╦п╩я▄п╫п╟.
+<l><name type="character">п▓п╬п╩п╨</name>я─п╟п╢ п╠я▀ п╡я│п╣п╧ п╢я┐я┬п╬п╧ я│<name
+type="character" reg="я│п╬п╠п╟п╨п╟">я│п╬п╠п╟п╨п╬я▌</name>я│я┘п╡п╟я┌п╦я┌я▄я│я▐
+<l><space dim="horizontal" extent="10 letters">п≤ п╣я▌ п©п╬п╤п╦п╡п╦я┌я▄я│я▐,
+<l><space dim="horizontal" extent="8 letters">п■п╟ п©п╬п╩п╫п╬, п╢п╩я▐ я┌п╬пЁп╬ п╫п╣ я│п╪п╣п╩,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ п╫п╣ п©п╬ п╫п╣п╪ п╠я▀п╩п╟<name
+type="character">я│п╬п╠п╟п╨п╟</name>
+<l><space dim="horizontal" extent="8 letters">п≤ п╫п╣ п©п╬ п╫п╣п╪ п╠я▀п╩п╟ п╠я▀ п╢я─п╟п╨п╟.
+<l>п≤ я┌п╟п╨ я│п╬ я│я┌п╬я─п╬п╫я▀ я┐я┤я┌п╦п╡п╬п╧ п©п╬п╢п╬я┬п╣п╩,
+<l><space dim="horizontal" extent="8 letters">п⌡п╦я│п╬п╧ п╨ п╫п╣п╧ п╫п╟я┤п╟п╩
+п©п╬п╢п╠п╦п╡п╟я┌я▄я│я▐,
+<l><space dim="horizontal" extent="8 letters">п∙п╣ п╢п╬я─п╬п╢я│я┌п╡я┐ я┐п╢п╦п╡п╩я▐я┌я▄я│я▐
+<l><space dim="horizontal" extent="8 letters">п≤ п╡я│я▐я┤п╣я│п╨п╦ п╣п╣ я┘п╡п╟п╩п╦я┌я▄.
 <lg1 type="group">
-<l><q>Не стоит ничего тебе таким же быть, -
-<l><name type="character">собака</name>говорит, - как скоро согласишься
-<l><space dim="horizontal" extent="8 letters">Идти со мною в город жить.
-<l>Ты будешь весь иной и так переродишься,
-<l><space dim="horizontal" extent="8 letters">Что сам себе не надивишься.
-<l>Что ваша жизнь и впрям? Скитайся всё, рыщи
-<l>И с горем пополам поесть чего ищи;
-<l>А даром и куском не думай поживиться:
-<l><space dim="horizontal" extent="10 letters">Всё с бою должно взять;
-<l><space dim="horizontal" extent="8 letters">А это на какую стать!
-<l><space dim="horizontal" extent="8 letters">Куды такая жизнь годится?
-<l>Ведь посмотреть, так в чем душа-та, право, в вас?
-<l>Не евши целы дни, вы все как испитые,
-<l><space dim="horizontal" extent="10 letters">Поджарые, худые.
-<l><space dim="horizontal" extent="8 letters">Нет, то-то жизнь-та как у
-нас!
-<l>Ешь не хочу всего, чего душа желает:
-<l><space dim="horizontal" extent="13 letters">После гостей
-<l><space dim="horizontal" extent="13 letters">Костей, костей,
-<l>Остатков от стола, так столько их бывает,
-<l><space dim="horizontal" extent="10 letters">Что некуды девать!
-<l>А ласки от господ - уж подлинно сказать!</q>
+<l><q>п²п╣ я│я┌п╬п╦я┌ п╫п╦я┤п╣пЁп╬ я┌п╣п╠п╣ я┌п╟п╨п╦п╪ п╤п╣ п╠я▀я┌я▄, -
+<l><name type="character">я│п╬п╠п╟п╨п╟</name>пЁп╬п╡п╬я─п╦я┌, - п╨п╟п╨ я│п╨п╬я─п╬ я│п╬пЁп╩п╟я│п╦я┬я▄я│я▐
+<l><space dim="horizontal" extent="8 letters">п≤п╢я┌п╦ я│п╬ п╪п╫п╬я▌ п╡ пЁп╬я─п╬п╢ п╤п╦я┌я▄.
+<l>п╒я▀ п╠я┐п╢п╣я┬я▄ п╡п╣я│я▄ п╦п╫п╬п╧ п╦ я┌п╟п╨ п©п╣я─п╣я─п╬п╢п╦я┬я▄я│я▐,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ я│п╟п╪ я│п╣п╠п╣ п╫п╣ п╫п╟п╢п╦п╡п╦я┬я▄я│я▐.
+<l>п╖я┌п╬ п╡п╟я┬п╟ п╤п╦п╥п╫я▄ п╦ п╡п©я─я▐п╪? п║п╨п╦я┌п╟п╧я│я▐ п╡я│я▒, я─я▀я┴п╦
+<l>п≤ я│ пЁп╬я─п╣п╪ п©п╬п©п╬п╩п╟п╪ п©п╬п╣я│я┌я▄ я┤п╣пЁп╬ п╦я┴п╦;
+<l>п░ п╢п╟я─п╬п╪ п╦ п╨я┐я│п╨п╬п╪ п╫п╣ п╢я┐п╪п╟п╧ п©п╬п╤п╦п╡п╦я┌я▄я│я▐:
+<l><space dim="horizontal" extent="10 letters">п▓я│я▒ я│ п╠п╬я▌ п╢п╬п╩п╤п╫п╬ п╡п╥я▐я┌я▄;
+<l><space dim="horizontal" extent="8 letters">п░ я█я┌п╬ п╫п╟ п╨п╟п╨я┐я▌ я│я┌п╟я┌я▄!
+<l><space dim="horizontal" extent="8 letters">п я┐п╢я▀ я┌п╟п╨п╟я▐ п╤п╦п╥п╫я▄ пЁп╬п╢п╦я┌я│я▐?
+<l>п▓п╣п╢я▄ п©п╬я│п╪п╬я┌я─п╣я┌я▄, я┌п╟п╨ п╡ я┤п╣п╪ п╢я┐я┬п╟-я┌п╟, п©я─п╟п╡п╬, п╡ п╡п╟я│?
+<l>п²п╣ п╣п╡я┬п╦ я├п╣п╩я▀ п╢п╫п╦, п╡я▀ п╡я│п╣ п╨п╟п╨ п╦я│п©п╦я┌я▀п╣,
+<l><space dim="horizontal" extent="10 letters">п÷п╬п╢п╤п╟я─я▀п╣, я┘я┐п╢я▀п╣.
+<l><space dim="horizontal" extent="8 letters">п²п╣я┌, я┌п╬-я┌п╬ п╤п╦п╥п╫я▄-я┌п╟ п╨п╟п╨ я┐
+п╫п╟я│!
+<l>п∙я┬я▄ п╫п╣ я┘п╬я┤я┐ п╡я│п╣пЁп╬, я┤п╣пЁп╬ п╢я┐я┬п╟ п╤п╣п╩п╟п╣я┌:
+<l><space dim="horizontal" extent="13 letters">п÷п╬я│п╩п╣ пЁп╬я│я┌п╣п╧
+<l><space dim="horizontal" extent="13 letters">п п╬я│я┌п╣п╧, п╨п╬я│я┌п╣п╧,
+<l>п·я│я┌п╟я┌п╨п╬п╡ п╬я┌ я│я┌п╬п╩п╟, я┌п╟п╨ я│я┌п╬п╩я▄п╨п╬ п╦я┘ п╠я▀п╡п╟п╣я┌,
+<l><space dim="horizontal" extent="10 letters">п╖я┌п╬ п╫п╣п╨я┐п╢я▀ п╢п╣п╡п╟я┌я▄!
+<l>п░ п╩п╟я│п╨п╦ п╬я┌ пЁп╬я│п©п╬п╢ - я┐п╤ п©п╬п╢п╩п╦п╫п╫п╬ я│п╨п╟п╥п╟я┌я▄!</q>
 <lg1 type="group">
-<l><space dim="horizontal" extent="5 letters">Растаял<name
-type="character">волк</name>, услыша весть такую,
-<l><space dim="horizontal" extent="8 letters">И даже слезы на глазах
-<l>От размышления о будущих пирах.
-<l><q>А должность отправлять за это мне какую?</q> -
-<l>Спросил<name type="character" reg="собака">собаку</name><name
-type="character">волк</name>. - <q>Что? должность? ничего! -
-<l><space dim="horizontal" extent="10 letters">Вот только лишь всего,
-<l>Чтоб не пускать на двор чужого никого,
-<l><space dim="horizontal" extent="10 letters">К хозяину ласкаться
-<l>И около людей домашних увиваться</q>.
+<l><space dim="horizontal" extent="5 letters">п═п╟я│я┌п╟я▐п╩<name
+type="character">п╡п╬п╩п╨</name>, я┐я│п╩я▀я┬п╟ п╡п╣я│я┌я▄ я┌п╟п╨я┐я▌,
+<l><space dim="horizontal" extent="8 letters">п≤ п╢п╟п╤п╣ я│п╩п╣п╥я▀ п╫п╟ пЁп╩п╟п╥п╟я┘
+<l>п·я┌ я─п╟п╥п╪я▀я┬п╩п╣п╫п╦я▐ п╬ п╠я┐п╢я┐я┴п╦я┘ п©п╦я─п╟я┘.
+<l><q>п░ п╢п╬п╩п╤п╫п╬я│я┌я▄ п╬я┌п©я─п╟п╡п╩я▐я┌я▄ п╥п╟ я█я┌п╬ п╪п╫п╣ п╨п╟п╨я┐я▌?</q> -
+<l>п║п©я─п╬я│п╦п╩<name type="character" reg="я│п╬п╠п╟п╨п╟">я│п╬п╠п╟п╨я┐</name><name
+type="character">п╡п╬п╩п╨</name>. - <q>п╖я┌п╬? п╢п╬п╩п╤п╫п╬я│я┌я▄? п╫п╦я┤п╣пЁп╬! -
+<l><space dim="horizontal" extent="10 letters">п▓п╬я┌ я┌п╬п╩я▄п╨п╬ п╩п╦я┬я▄ п╡я│п╣пЁп╬,
+<l>п╖я┌п╬п╠ п╫п╣ п©я┐я│п╨п╟я┌я▄ п╫п╟ п╢п╡п╬я─ я┤я┐п╤п╬пЁп╬ п╫п╦п╨п╬пЁп╬,
+<l><space dim="horizontal" extent="10 letters">п  я┘п╬п╥я▐п╦п╫я┐ п╩п╟я│п╨п╟я┌я▄я│я▐
+<l>п≤ п╬п╨п╬п╩п╬ п╩я▌п╢п╣п╧ п╢п╬п╪п╟я┬п╫п╦я┘ я┐п╡п╦п╡п╟я┌я▄я│я▐</q>.
 <lg1 type="group">
-<l><name type="character">Волк</name>, слыша это всё, не шел бы, а летел;
-<l><space dim="horizontal" extent="8 letters">И лес ему так омерзел,
-<l>Что про него уж он и думать не хотел,
-<l>И всех<name type="character" reg="волк">волков</name>себя счастливее
-считает.
+<l><name type="character">п▓п╬п╩п╨</name>, я│п╩я▀я┬п╟ я█я┌п╬ п╡я│я▒, п╫п╣ я┬п╣п╩ п╠я▀, п╟ п╩п╣я┌п╣п╩;
+<l><space dim="horizontal" extent="8 letters">п≤ п╩п╣я│ п╣п╪я┐ я┌п╟п╨ п╬п╪п╣я─п╥п╣п╩,
+<l>п╖я┌п╬ п©я─п╬ п╫п╣пЁп╬ я┐п╤ п╬п╫ п╦ п╢я┐п╪п╟я┌я▄ п╫п╣ я┘п╬я┌п╣п╩,
+<l>п≤ п╡я│п╣я┘<name type="character" reg="п╡п╬п╩п╨">п╡п╬п╩п╨п╬п╡</name>я│п╣п╠я▐ я│я┤п╟я│я┌п╩п╦п╡п╣п╣
+я│я┤п╦я┌п╟п╣я┌.
 <lg1 type="group">
-<l>Вдруг на<name type="character" reg="собака">собаке</name>он дорогой
-примечает,
-<l><space dim="horizontal" extent="8 letters">Что с шеи шерсть у ней сошла.
-<l><space dim="horizontal" extent="10 letters"><q>А это что такое,
-<l><space dim="horizontal" extent="8 letters">Что шея у тебя гола?</q>
-<l><space dim="horizontal" extent="8 letters">- <q>Так, это ничего,
-пустое</q>.
-<l>- <q>Однако нет, скажи</q>. - <q>Так, право ничего.
-<l><space dim="horizontal" extent="17 letters">Я чаю,
-<l><space dim="horizontal" extent="15 letters">Это оттого,
-<l>Когда я иногда на привязи бываю</q>.
-<l><space dim="horizontal" extent="8 letters">- <q>На привязи? - тут<name
-type="character">волк</name>вскричал. -
-<l><space dim="horizontal" extent="8 letters">Так ты не всё живешь на
-воле?</q>
-<l>- <q>Не всё; да полно, что в том н&ucystress;жды?</q> - <name
-type="character">пес</name>сказал.
-<l>- <q>А н&ucystress;жды столько в том, что не хочу я боле
-<l><space dim="horizontal" extent="8 letters">Ни з&acystress; что всех
-пиров твоих;
-<l><space dim="horizontal" extent="8 letters">Нет, воля мне дороже их,
-<l>А к ней на привязи, я знаю, нет дороги!</q> -
-<l><space dim="horizontal" extent="8 letters">Сказал, и к лесу дай бог
-ноги.
+<l>п▓п╢я─я┐пЁ п╫п╟<name type="character" reg="я│п╬п╠п╟п╨п╟">я│п╬п╠п╟п╨п╣</name>п╬п╫ п╢п╬я─п╬пЁп╬п╧
+п©я─п╦п╪п╣я┤п╟п╣я┌,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ я│ я┬п╣п╦ я┬п╣я─я│я┌я▄ я┐ п╫п╣п╧ я│п╬я┬п╩п╟.
+<l><space dim="horizontal" extent="10 letters"><q>п░ я█я┌п╬ я┤я┌п╬ я┌п╟п╨п╬п╣,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ я┬п╣я▐ я┐ я┌п╣п╠я▐ пЁп╬п╩п╟?</q>
+<l><space dim="horizontal" extent="8 letters">- <q>п╒п╟п╨, я█я┌п╬ п╫п╦я┤п╣пЁп╬,
+п©я┐я│я┌п╬п╣</q>.
+<l>- <q>п·п╢п╫п╟п╨п╬ п╫п╣я┌, я│п╨п╟п╤п╦</q>. - <q>п╒п╟п╨, п©я─п╟п╡п╬ п╫п╦я┤п╣пЁп╬.
+<l><space dim="horizontal" extent="17 letters">п╞ я┤п╟я▌,
+<l><space dim="horizontal" extent="15 letters">п╜я┌п╬ п╬я┌я┌п╬пЁп╬,
+<l>п п╬пЁп╢п╟ я▐ п╦п╫п╬пЁп╢п╟ п╫п╟ п©я─п╦п╡я▐п╥п╦ п╠я▀п╡п╟я▌</q>.
+<l><space dim="horizontal" extent="8 letters">- <q>п²п╟ п©я─п╦п╡я▐п╥п╦? - я┌я┐я┌<name
+type="character">п╡п╬п╩п╨</name>п╡я│п╨я─п╦я┤п╟п╩. -
+<l><space dim="horizontal" extent="8 letters">п╒п╟п╨ я┌я▀ п╫п╣ п╡я│я▒ п╤п╦п╡п╣я┬я▄ п╫п╟
+п╡п╬п╩п╣?</q>
+<l>- <q>п²п╣ п╡я│я▒; п╢п╟ п©п╬п╩п╫п╬, я┤я┌п╬ п╡ я┌п╬п╪ п╫&ucystress;п╤п╢я▀?</q> - <name
+type="character">п©п╣я│</name>я│п╨п╟п╥п╟п╩.
+<l>- <q>п░ п╫&ucystress;п╤п╢я▀ я│я┌п╬п╩я▄п╨п╬ п╡ я┌п╬п╪, я┤я┌п╬ п╫п╣ я┘п╬я┤я┐ я▐ п╠п╬п╩п╣
+<l><space dim="horizontal" extent="8 letters">п²п╦ п╥&acystress; я┤я┌п╬ п╡я│п╣я┘
+п©п╦я─п╬п╡ я┌п╡п╬п╦я┘;
+<l><space dim="horizontal" extent="8 letters">п²п╣я┌, п╡п╬п╩я▐ п╪п╫п╣ п╢п╬я─п╬п╤п╣ п╦я┘,
+<l>п░ п╨ п╫п╣п╧ п╫п╟ п©я─п╦п╡я▐п╥п╦, я▐ п╥п╫п╟я▌, п╫п╣я┌ п╢п╬я─п╬пЁп╦!</q> -
+<l><space dim="horizontal" extent="8 letters">п║п╨п╟п╥п╟п╩, п╦ п╨ п╩п╣я│я┐ п╢п╟п╧ п╠п╬пЁ
+п╫п╬пЁп╦.
 </body>
   </text>
 </tei.2>

@@ -28,42 +28,42 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Эпиграмма</title>
+<title>п╜п©п╦пЁя─п╟п╪п╪п╟</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Эпиграмма</title>
+                <title>п╜п©п╦пЁя─п╟п╪п╪п╟</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Pусская старина, апрель.</publisher>
+                <publisher>Pя┐я│я│п╨п╟я▐ я│я┌п╟я─п╦п╫п╟, п╟п©я─п╣п╩я▄.</publisher>
                 <date>1872</date>
               </publicationStmt>
             </biblFull>
@@ -74,7 +74,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -82,13 +82,13 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='писательская бездарность'>
-<body id='whole'><div0 met='ЯРз 6466' rhyme="aaBB.">
-<l>Что<name type="person" reg="Майков В.
-И.">М<add>айков?</add></name>никогда, писав, не упадал,
-<l><space dim="horizontal" extent="8 letters">Ты правду точную сказал.
-<l>Я мненья этого об нем всегда держался:
-<l>Он, сколько ни писал, нигде не возвышался.
+<span from='whole' type='theme' value='п©п╦я│п╟я┌п╣п╩я▄я│п╨п╟я▐ п╠п╣п╥п╢п╟я─п╫п╬я│я┌я▄'>
+<body id='whole'><div0 met='п╞п═п╥ 6466' rhyme="aaBB.">
+<l>п╖я┌п╬<name type="person" reg="п°п╟п╧п╨п╬п╡ п▓.
+п≤.">п°<add>п╟п╧п╨п╬п╡?</add></name>п╫п╦п╨п╬пЁп╢п╟, п©п╦я│п╟п╡, п╫п╣ я┐п©п╟п╢п╟п╩,
+<l><space dim="horizontal" extent="8 letters">п╒я▀ п©я─п╟п╡п╢я┐ я┌п╬я┤п╫я┐я▌ я│п╨п╟п╥п╟п╩.
+<l>п╞ п╪п╫п╣п╫я▄я▐ я█я┌п╬пЁп╬ п╬п╠ п╫п╣п╪ п╡я│п╣пЁп╢п╟ п╢п╣я─п╤п╟п╩я│я▐:
+<l>п·п╫, я│п╨п╬п╩я▄п╨п╬ п╫п╦ п©п╦я│п╟п╩, п╫п╦пЁп╢п╣ п╫п╣ п╡п╬п╥п╡я▀я┬п╟п╩я│я▐.
 </body>
   </text>
 </tei.2>

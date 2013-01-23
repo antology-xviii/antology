@@ -22,44 +22,44 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title> К домику <name type="person" reg="Петр I">Петра Великого</name>
+<title> п  п╢п╬п╪п╦п╨я┐ <name type="person" reg="п÷п╣я┌я─ I">п÷п╣я┌я─п╟ п▓п╣п╩п╦п╨п╬пЁп╬</name>
 </title>
         <author>
           <persName>
-            <forename>Александр</forename>
-            <forename type='patronym'>Петрович</forename>
-            <surname>Сумароков</surname>
+            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
+            <forename type='patronym'>п÷п╣я┌я─п╬п╡п╦я┤</forename>
+            <surname>п║я┐п╪п╟я─п╬п╨п╬п╡</surname>
           </persName>
         </author>
-        <principal>Мария Буланская</principal>
+        <principal>п°п╟я─п╦я▐ п▒я┐п╩п╟п╫я│п╨п╟я▐</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2011 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2011 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>А. П. Сумароков. Избранные произведения</title>
-            <editor>П. Н. Берков</editor>
+            <title>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</title>
+            <editor>п÷. п². п▒п╣я─п╨п╬п╡</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п⌡.</pubPlace>
             <date>1957</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>К домику <name type="person" reg="Петр I">Петра
-Великого</name></title>
+                <title>п  п╢п╬п╪п╦п╨я┐ <name type="person" reg="п÷п╣я┌я─ I">п÷п╣я┌я─п╟
+п▓п╣п╩п╦п╨п╬пЁп╬</name></title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Ежемесячные сочинения</publisher>
+                <publisher>п∙п╤п╣п╪п╣я│я▐я┤п╫я▀п╣ я│п╬я┤п╦п╫п╣п╫п╦я▐</publisher>
                 <date>1756</date>
               </publicationStmt>
             </biblFull>
@@ -78,20 +78,20 @@
     </profileDesc>
   </teiHeader>
   <text>
-<span from='whole' type='theme' value='Петр I'>
-<span from='whole' type='theme' value='Петербург'>
+<span from='whole' type='theme' value='п÷п╣я┌я─ I'>
+<span from='whole' type='theme' value='п÷п╣я┌п╣я─п╠я┐я─пЁ'>
 
-<body id='whole'><div0 met='Я6' rhyme="AAbbccDD.">
-<l>В пустынях хижинка состроена сия,
-<l>Не для затворника состроили ея:
-<l>В порфире, с скипетром, с державой и короной
-<l><name type="person" reg="Петр I"> Великий государь</name> имел жилище в
-оной.
-<l>Льзя ль пышный было град сим домом обещать?
-<l>Никто не мог того в то время предвещать;
-<l>Но то исполнилось; стал город скоро в цвете...
-<l>Каков сей домик мал, так <name type="person" reg="Петр I">Петр</name>
-  велик на свете.
+<body id='whole'><div0 met='п╞6' rhyme="AAbbccDD.">
+<l>п▓ п©я┐я│я┌я▀п╫я▐я┘ я┘п╦п╤п╦п╫п╨п╟ я│п╬я│я┌я─п╬п╣п╫п╟ я│п╦я▐,
+<l>п²п╣ п╢п╩я▐ п╥п╟я┌п╡п╬я─п╫п╦п╨п╟ я│п╬я│я┌я─п╬п╦п╩п╦ п╣я▐:
+<l>п▓ п©п╬я─я└п╦я─п╣, я│ я│п╨п╦п©п╣я┌я─п╬п╪, я│ п╢п╣я─п╤п╟п╡п╬п╧ п╦ п╨п╬я─п╬п╫п╬п╧
+<l><name type="person" reg="п÷п╣я┌я─ I"> п▓п╣п╩п╦п╨п╦п╧ пЁп╬я│я┐п╢п╟я─я▄</name> п╦п╪п╣п╩ п╤п╦п╩п╦я┴п╣ п╡
+п╬п╫п╬п╧.
+<l>п⌡я▄п╥я▐ п╩я▄ п©я▀я┬п╫я▀п╧ п╠я▀п╩п╬ пЁя─п╟п╢ я│п╦п╪ п╢п╬п╪п╬п╪ п╬п╠п╣я┴п╟я┌я▄?
+<l>п²п╦п╨я┌п╬ п╫п╣ п╪п╬пЁ я┌п╬пЁп╬ п╡ я┌п╬ п╡я─п╣п╪я▐ п©я─п╣п╢п╡п╣я┴п╟я┌я▄;
+<l>п²п╬ я┌п╬ п╦я│п©п╬п╩п╫п╦п╩п╬я│я▄; я│я┌п╟п╩ пЁп╬я─п╬п╢ я│п╨п╬я─п╬ п╡ я├п╡п╣я┌п╣...
+<l>п п╟п╨п╬п╡ я│п╣п╧ п╢п╬п╪п╦п╨ п╪п╟п╩, я┌п╟п╨ <name type="person" reg="п÷п╣я┌я─ I">п÷п╣я┌я─</name>
+  п╡п╣п╩п╦п╨ п╫п╟ я│п╡п╣я┌п╣.
 </body>
   </text>
 </tei.2>

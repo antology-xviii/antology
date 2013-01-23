@@ -24,46 +24,46 @@
     <fileDesc>
       <titleStmt>
 
-                           <title> СОНЕТ, ЗАКЛЮЧАЮЩИЙ В СЕБЕ ТРИ МЫСЛИ:
+                           <title> п║п·п²п∙п╒, п≈п░п п⌡п╝п╖п░п╝п╘п≤п≥ п▓ п║п∙п▒п∙ п╒п═п≤ п°п╚п║п⌡п≤:
 
-   читай весь по порядку, одни первые полустишия и другие полустишия
+   я┤п╦я┌п╟п╧ п╡п╣я│я▄ п©п╬ п©п╬я─я▐п╢п╨я┐, п╬п╢п╫п╦ п©п╣я─п╡я▀п╣ п©п╬п╩я┐я│я┌п╦я┬п╦я▐ п╦ п╢я─я┐пЁп╦п╣ п©п╬п╩я┐я│я┌п╦я┬п╦я▐
 
 </title>
         <author>
           <persName>
-            <forename>Алексей</forename>
-            <forename type='patronym'>Андреевич</forename>
-            <surname>Ржевский</surname>
+            <forename>п░п╩п╣п╨я│п╣п╧</forename>
+            <forename type='patronym'>п░п╫п╢я─п╣п╣п╡п╦я┤</forename>
+            <surname>п═п╤п╣п╡я│п╨п╦п╧</surname>
           </persName>
         </author>
-        <principal>Ольга Петрова</principal>
+        <principal>п·п╩я▄пЁп╟ п÷п╣я┌я─п╬п╡п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-<title>Поэты XVIII века. Т. 1.</title>
-<editor> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман </editor>
+<title>п÷п╬я█я┌я▀ XVIII п╡п╣п╨п╟. п╒. 1.</title>
+<editor> п⌠. п÷. п°п╟п╨п╬пЁп╬п╫п╣п╫п╨п╬, п². п■. п п╬я┤п╣я┌п╨п╬п╡п╟, п≤. п≈. п║п╣я─п╪п╟п╫ </editor>
 </titleStmt>
 <publicationStmt>
-<publisher> Художественная литература</publisher>
-<pubPlace>Л.</pubPlace>
+<publisher> п╔я┐п╢п╬п╤п╣я│я┌п╡п╣п╫п╫п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟</publisher>
+<pubPlace>п⌡.</pubPlace>
 <date>1972</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Сонет, заключающий в себе три мысли </title>
+                <title>п║п╬п╫п╣я┌, п╥п╟п╨п╩я▌я┤п╟я▌я┴п╦п╧ п╡ я│п╣п╠п╣ я┌я─п╦ п╪я▀я│п╩п╦ </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Полезное увеселение, &numero; 5</publisher>
+                <publisher> п÷п╬п╩п╣п╥п╫п╬п╣ я┐п╡п╣я│п╣п╩п╣п╫п╦п╣, &numero; 5</publisher>
                 <date>1761</date>
               </publicationStmt>
             </biblFull>
@@ -82,36 +82,36 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <span from='whole' type='theme' value='любовь'>
-    <body id='whole'><div0 met="Я6" rhyme="aBaB cDcD eeF ggF.">
+    <span from='whole' type='theme' value='п╩я▌п╠п╬п╡я▄'>
+    <body id='whole'><div0 met="п╞6" rhyme="aBaB cDcD eeF ggF.">
 
 
 
 <lg1 type="quatrain">
-<l>Вовеки не пленюсь <anchor id="half"> красавицей иной;
-<l>Ты ведай, я тобой <anchor corresp="half">  всегда прельщаться стану,
-<l>По смерть не пременюсь;    <anchor corresp="half"> вовек жар будет мой,
-<l>Век буду с мыслью той, <anchor corresp="half"> доколе не увяну.
+<l>п▓п╬п╡п╣п╨п╦ п╫п╣ п©п╩п╣п╫я▌я│я▄ <anchor id="half"> п╨я─п╟я│п╟п╡п╦я├п╣п╧ п╦п╫п╬п╧;
+<l>п╒я▀ п╡п╣п╢п╟п╧, я▐ я┌п╬п╠п╬п╧ <anchor corresp="half">  п╡я│п╣пЁп╢п╟ п©я─п╣п╩я▄я┴п╟я┌я▄я│я▐ я│я┌п╟п╫я┐,
+<l>п÷п╬ я│п╪п╣я─я┌я▄ п╫п╣ п©я─п╣п╪п╣п╫я▌я│я▄;    <anchor corresp="half"> п╡п╬п╡п╣п╨ п╤п╟я─ п╠я┐п╢п╣я┌ п╪п╬п╧,
+<l>п▓п╣п╨ п╠я┐п╢я┐ я│ п╪я▀я│п╩я▄я▌ я┌п╬п╧, <anchor corresp="half"> п╢п╬п╨п╬п╩п╣ п╫п╣ я┐п╡я▐п╫я┐.
 
 
 
 <lg1 type="quatrain">
-<l>Не лестна для меня  <anchor id="half1"> иная красота;
-<l>Лишь в свете ты одна  <anchor corresp="half1"> мой дух  воспламенила.
-<l>Скажу я не маня:  <anchor corresp="half1"> свобода отнята -
-<l>Та часть тебе дана <anchor corresp="half1"> о ты, что дух пленила!
+<l>п²п╣ п╩п╣я│я┌п╫п╟ п╢п╩я▐ п╪п╣п╫я▐  <anchor id="half1"> п╦п╫п╟я▐ п╨я─п╟я│п╬я┌п╟;
+<l>п⌡п╦я┬я▄ п╡ я│п╡п╣я┌п╣ я┌я▀ п╬п╢п╫п╟  <anchor corresp="half1"> п╪п╬п╧ п╢я┐я┘  п╡п╬я│п©п╩п╟п╪п╣п╫п╦п╩п╟.
+<l>п║п╨п╟п╤я┐ я▐ п╫п╣ п╪п╟п╫я▐:  <anchor corresp="half1"> я│п╡п╬п╠п╬п╢п╟ п╬я┌п╫я▐я┌п╟ -
+<l>п╒п╟ я┤п╟я│я┌я▄ я┌п╣п╠п╣ п╢п╟п╫п╟ <anchor corresp="half1"> п╬ я┌я▀, я┤я┌п╬ п╢я┐я┘ п©п╩п╣п╫п╦п╩п╟!
 
 
 <lg1 type="tercet">
-<l>Быть ввек противной мне, <anchor id="half2">  измены не брегись,
-<l> В сей ты одна стране  <anchor corresp="half2">  со мною век любись.
-<l>Мне горесть и беда, <anchor corresp="half2"> я мучуся тоскою,
+<l>п▒я▀я┌я▄ п╡п╡п╣п╨ п©я─п╬я┌п╦п╡п╫п╬п╧ п╪п╫п╣, <anchor id="half2">  п╦п╥п╪п╣п╫я▀ п╫п╣ п╠я─п╣пЁп╦я│я▄,
+<l> п▓ я│п╣п╧ я┌я▀ п╬п╢п╫п╟ я│я┌я─п╟п╫п╣  <anchor corresp="half2">  я│п╬ п╪п╫п╬я▌ п╡п╣п╨ п╩я▌п╠п╦я│я▄.
+<l>п°п╫п╣ пЁп╬я─п╣я│я┌я▄ п╦ п╠п╣п╢п╟, <anchor corresp="half2"> я▐ п╪я┐я┤я┐я│я▐ я┌п╬я│п╨п╬я▌,
 
 
 <lg1 type="tercet">
-<l>Противен мне тот час, <anchor id="half3"> коль нет тебя со мной;
-<l>Как зрю твоих взор глаз, <anchor corresp="half3"> минутой счастлив той,
-<l>Смущаюся всегда <anchor corresp="half3"> и весел, коль с тобою.
+<l>п÷я─п╬я┌п╦п╡п╣п╫ п╪п╫п╣ я┌п╬я┌ я┤п╟я│, <anchor id="half3"> п╨п╬п╩я▄ п╫п╣я┌ я┌п╣п╠я▐ я│п╬ п╪п╫п╬п╧;
+<l>п п╟п╨ п╥я─я▌ я┌п╡п╬п╦я┘ п╡п╥п╬я─ пЁп╩п╟п╥, <anchor corresp="half3"> п╪п╦п╫я┐я┌п╬п╧ я│я┤п╟я│я┌п╩п╦п╡ я┌п╬п╧,
+<l>п║п╪я┐я┴п╟я▌я│я▐ п╡я│п╣пЁп╢п╟ <anchor corresp="half3"> п╦ п╡п╣я│п╣п╩, п╨п╬п╩я▄ я│ я┌п╬п╠п╬я▌.
 
 </body>
   </text>

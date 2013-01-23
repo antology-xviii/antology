@@ -23,45 +23,45 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Пир у <name type="character" reg="Лев">Льва</name></TITLE>
+        <TITLE>п÷п╦я─ я┐ <name type="character" reg="п⌡п╣п╡">п⌡я▄п╡п╟</name></TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Пир у льва</TITLE>
+                <TITLE>п÷п╦я─ я┐ п╩я▄п╡п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Притчи. Книга 1.
-                  СПб.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷я─п╦я┌я┤п╦. п п╫п╦пЁп╟ 1.
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1762</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -80,115 +80,115 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="истина" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="власть правителя" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="поведение подданных" TYPE="theme">
-<BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в.р." MET="ЯВ">
-<L><space dim="horizontal" extent="4 letters"> Коль истиной не можно
-отвечать,
+    <SPAN FROM="WHOLE" VALUE="п╦я│я┌п╦п╫п╟" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╡п╩п╟я│я┌я▄ п©я─п╟п╡п╦я┌п╣п╩я▐" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п©п╬п╡п╣п╢п╣п╫п╦п╣ п©п╬п╢п╢п╟п╫п╫я▀я┘" TYPE="theme">
+<BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
+<L><space dim="horizontal" extent="4 letters"> п п╬п╩я▄ п╦я│я┌п╦п╫п╬п╧ п╫п╣ п╪п╬п╤п╫п╬
+п╬я┌п╡п╣я┤п╟я┌я▄,
 
- <L><space dim="horizontal" extent="9 letters"> Всего полезнее молчать.
+ <L><space dim="horizontal" extent="9 letters"> п▓я│п╣пЁп╬ п©п╬п╩п╣п╥п╫п╣п╣ п╪п╬п╩я┤п╟я┌я▄.
 
-<L> С боярами как жить, потребно это ведать.
+<L> п║ п╠п╬я▐я─п╟п╪п╦ п╨п╟п╨ п╤п╦я┌я▄, п©п╬я┌я─п╣п╠п╫п╬ я█я┌п╬ п╡п╣п╢п╟я┌я▄.
 
-<L><space dim="horizontal" extent="12 letters"> У <name type="character"
-reg="Лев">Льва</name> был пир,
+<L><space dim="horizontal" extent="12 letters"> пё <name type="character"
+reg="п⌡п╣п╡">п⌡я▄п╡п╟</name> п╠я▀п╩ п©п╦я─,
 
-<L><space dim="horizontal" extent="12 letters"> Пришел весь мир
+<L><space dim="horizontal" extent="12 letters"> п÷я─п╦я┬п╣п╩ п╡п╣я│я▄ п╪п╦я─
 
- <L><space dim="horizontal" extent="17 letters"> Обедать.
+ <L><space dim="horizontal" extent="17 letters"> п·п╠п╣п╢п╟я┌я▄.
 
-<L><space dim="horizontal" extent="12 letters">  В покоях вонь у <name
-type="character" reg="Лев">Льва</name>:
+<L><space dim="horizontal" extent="12 letters">  п▓ п©п╬п╨п╬я▐я┘ п╡п╬п╫я▄ я┐ <name
+type="character" reg="п⌡п╣п╡">п⌡я▄п╡п╟</name>:
 
-<L><space dim="horizontal" extent="12 letters"> Квартера такова.
+<L><space dim="horizontal" extent="12 letters"> п п╡п╟я─я┌п╣я─п╟ я┌п╟п╨п╬п╡п╟.
 
-<L><space dim="horizontal" extent="9 letters"> А <name type="character"
-reg="Лев">львы</name>живут нескудно,
+<L><space dim="horizontal" extent="9 letters"> п░ <name type="character"
+reg="п⌡п╣п╡">п╩я▄п╡я▀</name>п╤п╦п╡я┐я┌ п╫п╣я│п╨я┐п╢п╫п╬,
 
-<L><space dim="horizontal" extent="12 letters"> Так это чудно.
+<L><space dim="horizontal" extent="12 letters"> п╒п╟п╨ я█я┌п╬ я┤я┐п╢п╫п╬.
 
-<L> Подобны в чистоте жилищ они чухнам
+<L> п÷п╬п╢п╬п╠п╫я▀ п╡ я┤п╦я│я┌п╬я┌п╣ п╤п╦п╩п╦я┴ п╬п╫п╦ я┤я┐я┘п╫п╟п╪
 
-<L><space dim="horizontal" extent="9 letters"> Или посадским мужикам,
+<L><space dim="horizontal" extent="9 letters"> п≤п╩п╦ п©п╬я│п╟п╢я│п╨п╦п╪ п╪я┐п╤п╦п╨п╟п╪,
 
-<L> Которые в торги умеренно вступили
+<L> п п╬я┌п╬я─я▀п╣ п╡ я┌п╬я─пЁп╦ я┐п╪п╣я─п╣п╫п╫п╬ п╡я│я┌я┐п©п╦п╩п╦
 
-<L> И откупами нас еще не облупили
+<L> п≤ п╬я┌п╨я┐п©п╟п╪п╦ п╫п╟я│ п╣я┴п╣ п╫п╣ п╬п╠п╩я┐п©п╦п╩п╦
 
-<L> И вместо портупей имеют кушаки,
+<L> п≤ п╡п╪п╣я│я┌п╬ п©п╬я─я┌я┐п©п╣п╧ п╦п╪п╣я▌я┌ п╨я┐я┬п╟п╨п╦,
 
-<L><space dim="horizontal" extent="4 letters"> А кратче так: торговы
-мужики.
+<L><space dim="horizontal" extent="4 letters"> п░ п╨я─п╟я┌я┤п╣ я┌п╟п╨: я┌п╬я─пЁп╬п╡я▀
+п╪я┐п╤п╦п╨п╦.
 
-<L><space dim="horizontal" extent="9 letters"> Пришла вонь <name
-type="character" reg="Волк">Волку</name> к носу;
+<L><space dim="horizontal" extent="9 letters"> п÷я─п╦я┬п╩п╟ п╡п╬п╫я▄ <name
+type="character" reg="п▓п╬п╩п╨">п▓п╬п╩п╨я┐</name> п╨ п╫п╬я│я┐;
 
-<L> <name type="character" >Волк</name> это объявил в беседе без допросу,
+<L> <name type="character" >п▓п╬п╩п╨</name> я█я┌п╬ п╬п╠я┼я▐п╡п╦п╩ п╡ п╠п╣я│п╣п╢п╣ п╠п╣п╥ п╢п╬п©я─п╬я│я┐,
 
-<L><space dim="horizontal" extent="12 letters"> Что запах худ.
+<L><space dim="horizontal" extent="12 letters"> п╖я┌п╬ п╥п╟п©п╟я┘ я┘я┐п╢.
 
-<L>Услышав, <name type="character" >Лев</name> кричит: <q>Бездельник ты и
-плут,
+<L>пёя│п╩я▀я┬п╟п╡, <name type="character" >п⌡п╣п╡</name> п╨я─п╦я┤п╦я┌: <q>п▒п╣п╥п╢п╣п╩я▄п╫п╦п╨ я┌я▀ п╦
+п©п╩я┐я┌,
 
-<L>Худого запаха и не бывало тут.
+<L>п╔я┐п╢п╬пЁп╬ п╥п╟п©п╟я┘п╟ п╦ п╫п╣ п╠я▀п╡п╟п╩п╬ я┌я┐я┌.
 
-<L><space dim="horizontal" extent="4 letters"> И смеют ли в такие толки
+<L><space dim="horizontal" extent="4 letters"> п≤ я│п╪п╣я▌я┌ п╩п╦ п╡ я┌п╟п╨п╦п╣ я┌п╬п╩п╨п╦
 
-<L><space dim="horizontal" extent="4 letters"> Входить о львовом доме <name
-type="character" reg="Волк">волки</name>?</q>
+<L><space dim="horizontal" extent="4 letters"> п▓я┘п╬п╢п╦я┌я▄ п╬ п╩я▄п╡п╬п╡п╬п╪ п╢п╬п╪п╣ <name
+type="character" reg="п▓п╬п╩п╨">п╡п╬п╩п╨п╦</name>?</q>
 
-<L>А чтобы бредить <name type="character" >Волк</name>Волк напредки не
-дерзал,
+<L>п░ я┤я┌п╬п╠я▀ п╠я─п╣п╢п╦я┌я▄ <name type="character" >п▓п╬п╩п╨</name>п▓п╬п╩п╨ п╫п╟п©я─п╣п╢п╨п╦ п╫п╣
+п╢п╣я─п╥п╟п╩,
 
-<L><space dim="horizontal" extent="4 letters"> Немножечко он <name
-type="character" reg="Волк">Волка</name>потазал
+<L><space dim="horizontal" extent="4 letters"> п²п╣п╪п╫п╬п╤п╣я┤п╨п╬ п╬п╫ <name
+type="character" reg="п▓п╬п╩п╨">п▓п╬п╩п╨п╟</name>п©п╬я┌п╟п╥п╟п╩
 
-<L><space dim="horizontal" extent="4 letters"> И для поправки наказал,
+<L><space dim="horizontal" extent="4 letters"> п≤ п╢п╩я▐ п©п╬п©я─п╟п╡п╨п╦ п╫п╟п╨п╟п╥п╟п╩,
 
-<L>А именно - на части растерзал.
+<L>п░ п╦п╪п╣п╫п╫п╬ - п╫п╟ я┤п╟я│я┌п╦ я─п╟я│я┌п╣я─п╥п╟п╩.
 
 <L><space dim="horizontal" extent="4 letters"> <name type="character">
-Мартышка</name>, видя страшны грозы,
+п°п╟я─я┌я▀я┬п╨п╟</name>, п╡п╦п╢я▐ я│я┌я─п╟я┬п╫я▀ пЁя─п╬п╥я▀,
 
-<L><space dim="horizontal" extent="4 letters"> Сказала: <q>Здесь нарциссы,
-розы
+<L><space dim="horizontal" extent="4 letters"> п║п╨п╟п╥п╟п╩п╟: <q>п≈п╢п╣я│я▄ п╫п╟я─я├п╦я│я│я▀,
+я─п╬п╥я▀
 
-<L><space dim="horizontal" extent="17 letters"> Цветут</q>.
+<L><space dim="horizontal" extent="17 letters"> п╕п╡п╣я┌я┐я┌</q>.
 
-<L><name type="character" >Лев</name> ей ответствовал: <q>И ты такой же
-плут:
+<L><name type="character" >п⌡п╣п╡</name> п╣п╧ п╬я┌п╡п╣я┌я│я┌п╡п╬п╡п╟п╩: <q>п≤ я┌я▀ я┌п╟п╨п╬п╧ п╤п╣
+п©п╩я┐я┌:
 
-<L>Нарциссов, роз и не бывало тут.
+<L>п²п╟я─я├п╦я│я│п╬п╡, я─п╬п╥ п╦ п╫п╣ п╠я▀п╡п╟п╩п╬ я┌я┐я┌.
 
-<L><space dim="horizontal" extent="4 letters"> Напредки не сплетай ты
-лести,
+<L><space dim="horizontal" extent="4 letters"> п²п╟п©я─п╣п╢п╨п╦ п╫п╣ я│п©п╩п╣я┌п╟п╧ я┌я▀
+п╩п╣я│я┌п╦,
 
-<L><space dim="horizontal" extent="9 letters"> А за такие вести
+<L><space dim="horizontal" extent="9 letters"> п░ п╥п╟ я┌п╟п╨п╦п╣ п╡п╣я│я┌п╦
 
-<L><space dim="horizontal" extent="9 letters"> И за приязнь
+<L><space dim="horizontal" extent="9 letters"> п≤ п╥п╟ п©я─п╦я▐п╥п╫я▄
 
-<L>Прими и ты достойну казнь</q>.
+<L>п÷я─п╦п╪п╦ п╦ я┌я▀ п╢п╬я│я┌п╬п╧п╫я┐ п╨п╟п╥п╫я▄</q>.
 
-<L><space dim="horizontal" extent="4 letters"> Преставился <name
-type="character" reg="Волк">Волчишка</name>,
+<L><space dim="horizontal" extent="4 letters"> п÷я─п╣я│я┌п╟п╡п╦п╩я│я▐ <name
+type="character" reg="п▓п╬п╩п╨">п▓п╬п╩я┤п╦я┬п╨п╟</name>,
 
-<L><space dim="horizontal" extent="4 letters"> Преставилась <name
-type="character" >Мартышка</name>.
+<L><space dim="horizontal" extent="4 letters"> п÷я─п╣я│я┌п╟п╡п╦п╩п╟я│я▄ <name
+type="character" >п°п╟я─я┌я▀я┬п╨п╟</name>.
 
-<L> <q>Скажи, <name type="character" >Лисица</name>, ты, - хозяин вопрошал,
+<L> <q>п║п╨п╟п╤п╦, <name type="character" >п⌡п╦я│п╦я├п╟</name>, я┌я▀, - я┘п╬п╥я▐п╦п╫ п╡п╬п©я─п╬я┬п╟п╩,
 -
 
-<L><space dim="horizontal" extent="4 letters"> Какой бы запах нам дышал?
+<L><space dim="horizontal" extent="4 letters"> п п╟п╨п╬п╧ п╠я▀ п╥п╟п©п╟я┘ п╫п╟п╪ п╢я▀я┬п╟п╩?
 
-<L>Я знаю, что твое гораздо чувство нежно;
+<L>п╞ п╥п╫п╟я▌, я┤я┌п╬ я┌п╡п╬п╣ пЁп╬я─п╟п╥п╢п╬ я┤я┐п╡я│я┌п╡п╬ п╫п╣п╤п╫п╬;
 
-<L><space dim="horizontal" extent="4 letters"> Понюхай ты прилежно</q>.
+<L><space dim="horizontal" extent="4 letters"> п÷п╬п╫я▌я┘п╟п╧ я┌я▀ п©я─п╦п╩п╣п╤п╫п╬</q>.
 
 <L><space dim="horizontal" extent="4 letters"> <name
-type="character">Лисица</name> на этот вопрос
+type="character">п⌡п╦я│п╦я├п╟</name> п╫п╟ я█я┌п╬я┌ п╡п╬п©я─п╬я│
 
-<L>Сказала: <q>У меня залег сегодни нос</q>.
+<L>п║п╨п╟п╥п╟п╩п╟: <q>пё п╪п╣п╫я▐ п╥п╟п╩п╣пЁ я│п╣пЁп╬п╢п╫п╦ п╫п╬я│</q>.
 
 </BODY>
 

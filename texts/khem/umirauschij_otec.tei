@@ -23,43 +23,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Умирающий отец </TITLE>
+        <TITLE>пёп╪п╦я─п╟я▌я┴п╦п╧ п╬я┌п╣я├ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Умирающий отец</TITLE>
+                <TITLE>пёп╪п╦я─п╟я▌я┴п╦п╧ п╬я┌п╣я├</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1779</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -70,7 +70,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -78,52 +78,52 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="глупость и ум" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="отношения родителей и детей" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
-<L> <space dim="horizontal" extent="16 letters">Был <name type="character">
-отец</name>,
-<L> <space dim="horizontal" extent="8 letters">И были у него два <name
-type="character" reg="сын"> сына</name>:
-<L> Один <name type="character"> сын</name>
-был умен, другой <name type="character"> сын</name>
-был глупец.
-<L> <space dim="horizontal" extent="16 letters">Отцова настает кончина;
-<L> <space dim="horizontal" extent="12 letters">И, видя свой конец,
+    <SPAN FROM="WHOLE" VALUE="пЁп╩я┐п©п╬я│я┌я▄ п╦ я┐п╪" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╬я┌п╫п╬я┬п╣п╫п╦я▐ я─п╬п╢п╦я┌п╣п╩п╣п╧ п╦ п╢п╣я┌п╣п╧" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
+<L> <space dim="horizontal" extent="16 letters">п▒я▀п╩ <name type="character">
+п╬я┌п╣я├</name>,
+<L> <space dim="horizontal" extent="8 letters">п≤ п╠я▀п╩п╦ я┐ п╫п╣пЁп╬ п╢п╡п╟ <name
+type="character" reg="я│я▀п╫"> я│я▀п╫п╟</name>:
+<L> п·п╢п╦п╫ <name type="character"> я│я▀п╫</name>
+п╠я▀п╩ я┐п╪п╣п╫, п╢я─я┐пЁп╬п╧ <name type="character"> я│я▀п╫</name>
+п╠я▀п╩ пЁп╩я┐п©п╣я├.
+<L> <space dim="horizontal" extent="16 letters">п·я┌я├п╬п╡п╟ п╫п╟я│я┌п╟п╣я┌ п╨п╬п╫я┤п╦п╫п╟;
+<L> <space dim="horizontal" extent="12 letters">п≤, п╡п╦п╢я▐ я│п╡п╬п╧ п╨п╬п╫п╣я├,
 <L> <space dim="horizontal" extent="20 letters"><name type="character">
-Отец</name>
-<L> <space dim="horizontal" extent="12 letters">Тревожится, скучает,
-<L> Что <name type="character" reg="сын"> сына</name>
-умного на свете покидает,
-<L> <space dim="horizontal" extent="4 letters">А будущей его судьбы не
-знает,
-<L> И говорит ему: <q>Ах! <name type="character" >сын</name>
-любезный мой,
-<L> <space dim="horizontal" extent="20 letters">С какой
-<L> <space dim="horizontal" extent="20 letters">Тоской
-<L> <space dim="horizontal" extent="12 letters">Я расстаюсь с тобой,
-<L> Что умным я тебя на свете покидаю!
-<L> <space dim="horizontal" extent="8 letters">И как ты проживешь, не знаю.
+п·я┌п╣я├</name>
+<L> <space dim="horizontal" extent="12 letters">п╒я─п╣п╡п╬п╤п╦я┌я│я▐, я│п╨я┐я┤п╟п╣я┌,
+<L> п╖я┌п╬ <name type="character" reg="я│я▀п╫"> я│я▀п╫п╟</name>
+я┐п╪п╫п╬пЁп╬ п╫п╟ я│п╡п╣я┌п╣ п©п╬п╨п╦п╢п╟п╣я┌,
+<L> <space dim="horizontal" extent="4 letters">п░ п╠я┐п╢я┐я┴п╣п╧ п╣пЁп╬ я│я┐п╢я▄п╠я▀ п╫п╣
+п╥п╫п╟п╣я┌,
+<L> п≤ пЁп╬п╡п╬я─п╦я┌ п╣п╪я┐: <q>п░я┘! <name type="character" >я│я▀п╫</name>
+п╩я▌п╠п╣п╥п╫я▀п╧ п╪п╬п╧,
+<L> <space dim="horizontal" extent="20 letters">п║ п╨п╟п╨п╬п╧
+<L> <space dim="horizontal" extent="20 letters">п╒п╬я│п╨п╬п╧
+<L> <space dim="horizontal" extent="12 letters">п╞ я─п╟я│я│я┌п╟я▌я│я▄ я│ я┌п╬п╠п╬п╧,
+<L> п╖я┌п╬ я┐п╪п╫я▀п╪ я▐ я┌п╣п╠я▐ п╫п╟ я│п╡п╣я┌п╣ п©п╬п╨п╦п╢п╟я▌!
+<L> <space dim="horizontal" extent="8 letters">п≤ п╨п╟п╨ я┌я▀ п©я─п╬п╤п╦п╡п╣я┬я▄, п╫п╣ п╥п╫п╟я▌.
 
-<L> Послушай, - продолжал, - тебя я одного
-<L> Наследником всего именья оставляю,
-<L> <space dim="horizontal" extent="12 letters">А брата твоего
-<L> <space dim="horizontal" extent="8 letters">Я от наследства отрешаю:
-<L> <space dim="horizontal" extent="8 letters">Оно не нужно для него</q>.
+<L> п÷п╬я│п╩я┐я┬п╟п╧, - п©я─п╬п╢п╬п╩п╤п╟п╩, - я┌п╣п╠я▐ я▐ п╬п╢п╫п╬пЁп╬
+<L> п²п╟я│п╩п╣п╢п╫п╦п╨п╬п╪ п╡я│п╣пЁп╬ п╦п╪п╣п╫я▄я▐ п╬я│я┌п╟п╡п╩я▐я▌,
+<L> <space dim="horizontal" extent="12 letters">п░ п╠я─п╟я┌п╟ я┌п╡п╬п╣пЁп╬
+<L> <space dim="horizontal" extent="8 letters">п╞ п╬я┌ п╫п╟я│п╩п╣п╢я│я┌п╡п╟ п╬я┌я─п╣я┬п╟я▌:
+<L> <space dim="horizontal" extent="8 letters">п·п╫п╬ п╫п╣ п╫я┐п╤п╫п╬ п╢п╩я▐ п╫п╣пЁп╬</q>.
 <L> <space dim="horizontal" extent="8 letters"><name type="character" >
-Сын</name> усумнился и не знает,
-<L> <space dim="horizontal" extent="8 letters">Как речь отцову рассудить;
-<L> Но наконец <name type="character" reg="отец"> отцу</name>
-о брате представляет:
-<L> <space dim="horizontal" extent="12 letters"><q>А брату чем же жить,
-<L> <space dim="horizontal" extent="8 letters">Когда мне одному в
-наследство,
-<L> С его обидою, именье получить?</q>
-<L> - <q>О брате нечего, - сказал <name type="character"> отец</name>, -
-тужить:
-<L> <space dim="horizontal" extent="8 letters">Дурак уж верно сыщет
-средство
-<space dim="horizontal" extent="12 letters">Счастливым в свете быть</q>.
+п║я▀п╫</name> я┐я│я┐п╪п╫п╦п╩я│я▐ п╦ п╫п╣ п╥п╫п╟п╣я┌,
+<L> <space dim="horizontal" extent="8 letters">п п╟п╨ я─п╣я┤я▄ п╬я┌я├п╬п╡я┐ я─п╟я│я│я┐п╢п╦я┌я▄;
+<L> п²п╬ п╫п╟п╨п╬п╫п╣я├ <name type="character" reg="п╬я┌п╣я├"> п╬я┌я├я┐</name>
+п╬ п╠я─п╟я┌п╣ п©я─п╣п╢я│я┌п╟п╡п╩я▐п╣я┌:
+<L> <space dim="horizontal" extent="12 letters"><q>п░ п╠я─п╟я┌я┐ я┤п╣п╪ п╤п╣ п╤п╦я┌я▄,
+<L> <space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟ п╪п╫п╣ п╬п╢п╫п╬п╪я┐ п╡
+п╫п╟я│п╩п╣п╢я│я┌п╡п╬,
+<L> п║ п╣пЁп╬ п╬п╠п╦п╢п╬я▌, п╦п╪п╣п╫я▄п╣ п©п╬п╩я┐я┤п╦я┌я▄?</q>
+<L> - <q>п· п╠я─п╟я┌п╣ п╫п╣я┤п╣пЁп╬, - я│п╨п╟п╥п╟п╩ <name type="character"> п╬я┌п╣я├</name>, -
+я┌я┐п╤п╦я┌я▄:
+<L> <space dim="horizontal" extent="8 letters">п■я┐я─п╟п╨ я┐п╤ п╡п╣я─п╫п╬ я│я▀я┴п╣я┌
+я│я─п╣п╢я│я┌п╡п╬
+<space dim="horizontal" extent="12 letters">п║я┤п╟я│я┌п╩п╦п╡я▀п╪ п╡ я│п╡п╣я┌п╣ п╠я▀я┌я▄</q>.
 </BODY>
 </TEXT>
 </TEI.2>

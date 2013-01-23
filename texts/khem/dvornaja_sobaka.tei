@@ -24,43 +24,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Дворная собака </TITLE>
+        <TITLE>п■п╡п╬я─п╫п╟я▐ я│п╬п╠п╟п╨п╟ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR> Л. Е. Боброва, В. Э. Вацуро </EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR> п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬ </EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Дворовая собака</TITLE>
+                <TITLE>п■п╡п╬я─п╬п╡п╟я▐ я│п╬п╠п╟п╨п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -71,7 +71,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -79,86 +79,86 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="лживость обещаний" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="доверчивость и глупость" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п╩п╤п╦п╡п╬я│я┌я▄ п╬п╠п╣я┴п╟п╫п╦п╧" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╢п╬п╡п╣я─я┤п╦п╡п╬я│я┌я▄ п╦ пЁп╩я┐п©п╬я│я┌я▄" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L>Жила у <name type="character" reg="барин">барина</name>
-<name type="character">собака</name>
-на дворе
-<L> <space dim="horizontal" extent="7 letters">В таком довольстве и добре,
-<L>В каком, бывало, жил чернец в монастыре;
-<L> <space dim="horizontal" extent="15 letters">Всего же боле,
-<L> <space dim="horizontal" extent="11 letters">Что жить могла на воле.
+<L>п√п╦п╩п╟ я┐ <name type="character" reg="п╠п╟я─п╦п╫">п╠п╟я─п╦п╫п╟</name>
+<name type="character">я│п╬п╠п╟п╨п╟</name>
+п╫п╟ п╢п╡п╬я─п╣
+<L> <space dim="horizontal" extent="7 letters">п▓ я┌п╟п╨п╬п╪ п╢п╬п╡п╬п╩я▄я│я┌п╡п╣ п╦ п╢п╬п╠я─п╣,
+<L>п▓ п╨п╟п╨п╬п╪, п╠я▀п╡п╟п╩п╬, п╤п╦п╩ я┤п╣я─п╫п╣я├ п╡ п╪п╬п╫п╟я│я┌я▀я─п╣;
+<L> <space dim="horizontal" extent="15 letters">п▓я│п╣пЁп╬ п╤п╣ п╠п╬п╩п╣,
+<L> <space dim="horizontal" extent="11 letters">п╖я┌п╬ п╤п╦я┌я▄ п╪п╬пЁп╩п╟ п╫п╟ п╡п╬п╩п╣.
 
 <LG1 TYPE="stanza">
-<L><name type="character">Сосед</name>, который в дом к <name
-type="character" reg="боярин">боярину</name> ходил,
+<L><name type="character">п║п╬я│п╣п╢</name>, п╨п╬я┌п╬я─я▀п╧ п╡ п╢п╬п╪ п╨ <name
+type="character" reg="п╠п╬я▐я─п╦п╫">п╠п╬я▐я─п╦п╫я┐</name> я┘п╬п╢п╦п╩,
 <L> <space dim="horizontal" extent="7 letters"><name type="character"
-reg="собака">Собаку</name> эту полюбил,
- <L> <space dim="horizontal" extent="7 letters">Да как достать ее, не
-знает:
-<L>Просить <name type="character" reg="боярин">боярина</name>
-об ней ой не хотел,
- <L> <space dim="horizontal" extent="8 letters">Украсть ее - бездельством
-счел.
-<L> <space dim="horizontal" extent="8 letters"><q>Нет, надобно, - он
-рассуждает, -
-<L> <space dim="horizontal" extent="12 letters">Скромнее поступить
-<L>И тонким образом <name type="character" reg="собака"> собаку</name> ту
-сманить</q>.
-<L>Бездельство тонкое бездельством не считает.
-<L>И всякий раз, когда, бывало, ни придет,
- <L> <space dim="horizontal" extent="8 letters">Речь о <name
-type="character" reg="собака">собаке</name> заведет,
-<L>При ней самой ее как можно выхваляет,
- <L> <space dim="horizontal" extent="8 letters">А <name type="character"
-reg="барин">барину</name> пенять начнет,
-<L>Что содержание ей у него худое:
-<L><q>Нет, у меня житье ей было б не такое;
-<L>Иного я куска и сам бы есть не стал,
-<L> <space dim="horizontal" extent="8 letters">Да этой бы <name
-type="character" reg="собака"> собаке</name> дал,
-<L> <space dim="horizontal" extent="8 letters">Всегда бы спать с собою
-клал.
-<L>А у тебя она лишь кости подбирает
- <L> <space dim="horizontal" extent="12 letters">И как случится спит</q>.
+reg="я│п╬п╠п╟п╨п╟">п║п╬п╠п╟п╨я┐</name> я█я┌я┐ п©п╬п╩я▌п╠п╦п╩,
+ <L> <space dim="horizontal" extent="7 letters">п■п╟ п╨п╟п╨ п╢п╬я│я┌п╟я┌я▄ п╣п╣, п╫п╣
+п╥п╫п╟п╣я┌:
+<L>п÷я─п╬я│п╦я┌я▄ <name type="character" reg="п╠п╬я▐я─п╦п╫">п╠п╬я▐я─п╦п╫п╟</name>
+п╬п╠ п╫п╣п╧ п╬п╧ п╫п╣ я┘п╬я┌п╣п╩,
+ <L> <space dim="horizontal" extent="8 letters">пёп╨я─п╟я│я┌я▄ п╣п╣ - п╠п╣п╥п╢п╣п╩я▄я│я┌п╡п╬п╪
+я│я┤п╣п╩.
+<L> <space dim="horizontal" extent="8 letters"><q>п²п╣я┌, п╫п╟п╢п╬п╠п╫п╬, - п╬п╫
+я─п╟я│я│я┐п╤п╢п╟п╣я┌, -
+<L> <space dim="horizontal" extent="12 letters">п║п╨я─п╬п╪п╫п╣п╣ п©п╬я│я┌я┐п©п╦я┌я▄
+<L>п≤ я┌п╬п╫п╨п╦п╪ п╬п╠я─п╟п╥п╬п╪ <name type="character" reg="я│п╬п╠п╟п╨п╟"> я│п╬п╠п╟п╨я┐</name> я┌я┐
+я│п╪п╟п╫п╦я┌я▄</q>.
+<L>п▒п╣п╥п╢п╣п╩я▄я│я┌п╡п╬ я┌п╬п╫п╨п╬п╣ п╠п╣п╥п╢п╣п╩я▄я│я┌п╡п╬п╪ п╫п╣ я│я┤п╦я┌п╟п╣я┌.
+<L>п≤ п╡я│я▐п╨п╦п╧ я─п╟п╥, п╨п╬пЁп╢п╟, п╠я▀п╡п╟п╩п╬, п╫п╦ п©я─п╦п╢п╣я┌,
+ <L> <space dim="horizontal" extent="8 letters">п═п╣я┤я▄ п╬ <name
+type="character" reg="я│п╬п╠п╟п╨п╟">я│п╬п╠п╟п╨п╣</name> п╥п╟п╡п╣п╢п╣я┌,
+<L>п÷я─п╦ п╫п╣п╧ я│п╟п╪п╬п╧ п╣п╣ п╨п╟п╨ п╪п╬п╤п╫п╬ п╡я▀я┘п╡п╟п╩я▐п╣я┌,
+ <L> <space dim="horizontal" extent="8 letters">п░ <name type="character"
+reg="п╠п╟я─п╦п╫">п╠п╟я─п╦п╫я┐</name> п©п╣п╫я▐я┌я▄ п╫п╟я┤п╫п╣я┌,
+<L>п╖я┌п╬ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╣п╧ я┐ п╫п╣пЁп╬ я┘я┐п╢п╬п╣:
+<L><q>п²п╣я┌, я┐ п╪п╣п╫я▐ п╤п╦я┌я▄п╣ п╣п╧ п╠я▀п╩п╬ п╠ п╫п╣ я┌п╟п╨п╬п╣;
+<L>п≤п╫п╬пЁп╬ я▐ п╨я┐я│п╨п╟ п╦ я│п╟п╪ п╠я▀ п╣я│я┌я▄ п╫п╣ я│я┌п╟п╩,
+<L> <space dim="horizontal" extent="8 letters">п■п╟ я█я┌п╬п╧ п╠я▀ <name
+type="character" reg="я│п╬п╠п╟п╨п╟"> я│п╬п╠п╟п╨п╣</name> п╢п╟п╩,
+<L> <space dim="horizontal" extent="8 letters">п▓я│п╣пЁп╢п╟ п╠я▀ я│п©п╟я┌я▄ я│ я│п╬п╠п╬я▌
+п╨п╩п╟п╩.
+<L>п░ я┐ я┌п╣п╠я▐ п╬п╫п╟ п╩п╦я┬я▄ п╨п╬я│я┌п╦ п©п╬п╢п╠п╦я─п╟п╣я┌
+ <L> <space dim="horizontal" extent="12 letters">п≤ п╨п╟п╨ я│п╩я┐я┤п╦я┌я│я▐ я│п©п╦я┌</q>.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Всё, что <name
-type="character">сосед</name> ни говорит,
+<L> <space dim="horizontal" extent="8 letters">п▓я│я▒, я┤я┌п╬ <name
+type="character">я│п╬я│п╣п╢</name> п╫п╦ пЁп╬п╡п╬я─п╦я┌,
 <L> <space dim="horizontal" extent="8 letters"><name type="character">
-Собака</name>
-правдою считает
-<L> <space dim="horizontal" extent="4 letters">И думает: <q>Что? может
-быть, и впрям
-<L> <space dim="horizontal" extent="8 letters">Еще мне лучше будет там,
-<L>Хоть хорошо и здесь... отведать бы пуститься;
-<L>А худо - и назад ведь можно воротиться</q>.
-<L> <space dim="horizontal" extent="4 letters">Подумала, да и с двора
-долой,
-<L> <space dim="horizontal" extent="8 letters">К <name type="character"
-reg="сосед">соседу</name> прямо прибежала.
-<L>Живет дней несколько, и месяц, и другой;
-<L>Не только что куска того не получала,
-<L> <space dim="horizontal" extent="8 letters">Которого, <name
-type="character"> сосед</name> сказал,
-<L><space dim="horizontal" extent="8 letters">Не съел бы сам, а ей бы дал,
-<L><space dim="horizontal" extent="8 letters">И костью с н&ucystress;ждою
-случится
+п║п╬п╠п╟п╨п╟</name>
+п©я─п╟п╡п╢п╬я▌ я│я┤п╦я┌п╟п╣я┌
+<L> <space dim="horizontal" extent="4 letters">п≤ п╢я┐п╪п╟п╣я┌: <q>п╖я┌п╬? п╪п╬п╤п╣я┌
+п╠я▀я┌я▄, п╦ п╡п©я─я▐п╪
+<L> <space dim="horizontal" extent="8 letters">п∙я┴п╣ п╪п╫п╣ п╩я┐я┤я┬п╣ п╠я┐п╢п╣я┌ я┌п╟п╪,
+<L>п╔п╬я┌я▄ я┘п╬я─п╬я┬п╬ п╦ п╥п╢п╣я│я▄... п╬я┌п╡п╣п╢п╟я┌я▄ п╠я▀ п©я┐я│я┌п╦я┌я▄я│я▐;
+<L>п░ я┘я┐п╢п╬ - п╦ п╫п╟п╥п╟п╢ п╡п╣п╢я▄ п╪п╬п╤п╫п╬ п╡п╬я─п╬я┌п╦я┌я▄я│я▐</q>.
+<L> <space dim="horizontal" extent="4 letters">п÷п╬п╢я┐п╪п╟п╩п╟, п╢п╟ п╦ я│ п╢п╡п╬я─п╟
+п╢п╬п╩п╬п╧,
+<L> <space dim="horizontal" extent="8 letters">п  <name type="character"
+reg="я│п╬я│п╣п╢">я│п╬я│п╣п╢я┐</name> п©я─я▐п╪п╬ п©я─п╦п╠п╣п╤п╟п╩п╟.
+<L>п√п╦п╡п╣я┌ п╢п╫п╣п╧ п╫п╣я│п╨п╬п╩я▄п╨п╬, п╦ п╪п╣я│я▐я├, п╦ п╢я─я┐пЁп╬п╧;
+<L>п²п╣ я┌п╬п╩я▄п╨п╬ я┤я┌п╬ п╨я┐я│п╨п╟ я┌п╬пЁп╬ п╫п╣ п©п╬п╩я┐я┤п╟п╩п╟,
+<L> <space dim="horizontal" extent="8 letters">п п╬я┌п╬я─п╬пЁп╬, <name
+type="character"> я│п╬я│п╣п╢</name> я│п╨п╟п╥п╟п╩,
+<L><space dim="horizontal" extent="8 letters">п²п╣ я│я┼п╣п╩ п╠я▀ я│п╟п╪, п╟ п╣п╧ п╠я▀ п╢п╟п╩,
+<L><space dim="horizontal" extent="8 letters">п≤ п╨п╬я│я┌я▄я▌ я│ п╫&ucystress;п╤п╢п╬я▌
+я│п╩я┐я┤п╦я┌я│я▐
 <L> <space dim="horizontal" extent="8 letters"><name type="character"
-reg="собака">Собаке</name>
-в праздник поживиться.
-<L> <space dim="horizontal" extent="8 letters">Спать - хуже прежнего спала;
-<L>А сверх того еще привязана была.
-<L> <space dim="horizontal" extent="8 letters">И поделом: зачем сбежала?
-<L>Вперед, <name type="character"> собака</name>, знай, когда еще не знала,
-<L> <space dim="horizontal" extent="4 letters">Что многие умеют мягко
-стлать,
-<L> <space dim="horizontal" extent="16 letters">Да жестко спать.
-<L><name type="character" reg="собака"> Собаки</name>
-добрые с двора на двор не рыщут
- <L> <space dim="horizontal" extent="8 letters">И от добра добра не ищут.
+reg="я│п╬п╠п╟п╨п╟">п║п╬п╠п╟п╨п╣</name>
+п╡ п©я─п╟п╥п╢п╫п╦п╨ п©п╬п╤п╦п╡п╦я┌я▄я│я▐.
+<L> <space dim="horizontal" extent="8 letters">п║п©п╟я┌я▄ - я┘я┐п╤п╣ п©я─п╣п╤п╫п╣пЁп╬ я│п©п╟п╩п╟;
+<L>п░ я│п╡п╣я─я┘ я┌п╬пЁп╬ п╣я┴п╣ п©я─п╦п╡я▐п╥п╟п╫п╟ п╠я▀п╩п╟.
+<L> <space dim="horizontal" extent="8 letters">п≤ п©п╬п╢п╣п╩п╬п╪: п╥п╟я┤п╣п╪ я│п╠п╣п╤п╟п╩п╟?
+<L>п▓п©п╣я─п╣п╢, <name type="character"> я│п╬п╠п╟п╨п╟</name>, п╥п╫п╟п╧, п╨п╬пЁп╢п╟ п╣я┴п╣ п╫п╣ п╥п╫п╟п╩п╟,
+<L> <space dim="horizontal" extent="4 letters">п╖я┌п╬ п╪п╫п╬пЁп╦п╣ я┐п╪п╣я▌я┌ п╪я▐пЁп╨п╬
+я│я┌п╩п╟я┌я▄,
+<L> <space dim="horizontal" extent="16 letters">п■п╟ п╤п╣я│я┌п╨п╬ я│п©п╟я┌я▄.
+<L><name type="character" reg="я│п╬п╠п╟п╨п╟"> п║п╬п╠п╟п╨п╦</name>
+п╢п╬п╠я─я▀п╣ я│ п╢п╡п╬я─п╟ п╫п╟ п╢п╡п╬я─ п╫п╣ я─я▀я┴я┐я┌
+ <L> <space dim="horizontal" extent="8 letters">п≤ п╬я┌ п╢п╬п╠я─п╟ п╢п╬п╠я─п╟ п╫п╣ п╦я┴я┐я┌.
 </BODY>
 </TEXT>
 </TEI.2>

@@ -24,47 +24,47 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE><name type="character">Ворона</name> и <name
-type="character">Лиса</name></TITLE>
+        <TITLE><name type="character">п▓п╬я─п╬п╫п╟</name> п╦ <name
+type="character">п⌡п╦я│п╟</name></TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Ворона и лиса</TITLE>
+                <TITLE>п▓п╬я─п╬п╫п╟ п╦ п╩п╦я│п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Полное собрание всех
-сочинений.
-                  М.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ п╡я│п╣я┘
+я│п╬я┤п╦п╫п╣п╫п╦п╧.
+                  п°.</PUBLISHER>
                 <DATE>1781</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -83,81 +83,81 @@ type="character">Лиса</name></TITLE>
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="лесть" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="глупость" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
-<L> И птицы держатся людского ремесла.
+    <SPAN FROM="WHOLE" VALUE="п╩п╣я│я┌я▄" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="пЁп╩я┐п©п╬я│я┌я▄" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
+<L> п≤ п©я┌п╦я├я▀ п╢п╣я─п╤п╟я┌я│я▐ п╩я▌п╢я│п╨п╬пЁп╬ я─п╣п╪п╣я│п╩п╟.
 
-<L> <name type="character" > Ворона </name>
+<L> <name type="character" > п▓п╬я─п╬п╫п╟ </name>
 
-сыру кус когда-то унесла
+я│я▀я─я┐ п╨я┐я│ п╨п╬пЁп╢п╟-я┌п╬ я┐п╫п╣я│п╩п╟
 
-<L> <space dim="horizontal" extent="13 letters">И н&acystress;
- дуб села.
+<L> <space dim="horizontal" extent="13 letters">п≤ п╫&acystress;
+ п╢я┐п╠ я│п╣п╩п╟.
 
-<L> <space dim="horizontal" extent="18 letters">Села,
+<L> <space dim="horizontal" extent="18 letters">п║п╣п╩п╟,
 
-<L> Да только лишь еще ни крошечки не ела.
+<L> п■п╟ я┌п╬п╩я▄п╨п╬ п╩п╦я┬я▄ п╣я┴п╣ п╫п╦ п╨я─п╬я┬п╣я┤п╨п╦ п╫п╣ п╣п╩п╟.
 
-<L> Увидела <name type="character" >Лиса </name>
+<L> пёп╡п╦п╢п╣п╩п╟ <name type="character" >п⌡п╦я│п╟ </name>
 
-во рту у ней кусок
+п╡п╬ я─я┌я┐ я┐ п╫п╣п╧ п╨я┐я│п╬п╨
 
-<L> И думает она: <q>Я дам <name type="character" reg="Ворона ">Вороне
-</name> сок!
+<L> п≤ п╢я┐п╪п╟п╣я┌ п╬п╫п╟: <q>п╞ п╢п╟п╪ <name type="character" reg="п▓п╬я─п╬п╫п╟ ">п▓п╬я─п╬п╫п╣
+</name> я│п╬п╨!
 
-<L> <space dim="horizontal" extent="8 letters">Хотя туда не вспряну,
+<L> <space dim="horizontal" extent="8 letters">п╔п╬я┌я▐ я┌я┐п╢п╟ п╫п╣ п╡я│п©я─я▐п╫я┐,
 
-<L> <space dim="horizontal" extent="8 letters">Кусочек этот я достану,
+<L> <space dim="horizontal" extent="8 letters">п я┐я│п╬я┤п╣п╨ я█я┌п╬я┌ я▐ п╢п╬я│я┌п╟п╫я┐,
 
-<L> <space dim="horizontal" extent="8 letters">Дуб сколько ни высок</q>.
+<L> <space dim="horizontal" extent="8 letters">п■я┐п╠ я│п╨п╬п╩я▄п╨п╬ п╫п╦ п╡я▀я│п╬п╨</q>.
 
-   <L> <space dim="horizontal" extent="8 letters"><q>Здорово, - говорит
-<name type="character" reg="Лиса"> Лисица </name>, -
+   <L> <space dim="horizontal" extent="8 letters"><q>п≈п╢п╬я─п╬п╡п╬, - пЁп╬п╡п╬я─п╦я┌
+<name type="character" reg="п⌡п╦я│п╟"> п⌡п╦я│п╦я├п╟ </name>, -
 
-<L> Дружок, <name type="character" reg="Ворона "> Воронушка </name>,
-названая сестрица!
+<L> п■я─я┐п╤п╬п╨, <name type="character" reg="п▓п╬я─п╬п╫п╟ "> п▓п╬я─п╬п╫я┐я┬п╨п╟ </name>,
+п╫п╟п╥п╡п╟п╫п╟я▐ я│п╣я│я┌я─п╦я├п╟!
 
-<L> <space dim="horizontal" extent="12 letters"> Прекрасная ты птица!
+<L> <space dim="horizontal" extent="12 letters"> п÷я─п╣п╨я─п╟я│п╫п╟я▐ я┌я▀ п©я┌п╦я├п╟!
 
-<L> <space dim="horizontal" extent="8 letters"> Какие ноженьки, какой
-носок,
+<L> <space dim="horizontal" extent="8 letters"> п п╟п╨п╦п╣ п╫п╬п╤п╣п╫я▄п╨п╦, п╨п╟п╨п╬п╧
+п╫п╬я│п╬п╨,
 
-<L> И можно то сказать тебе без лицемерья,
+<L> п≤ п╪п╬п╤п╫п╬ я┌п╬ я│п╨п╟п╥п╟я┌я▄ я┌п╣п╠п╣ п╠п╣п╥ п╩п╦я├п╣п╪п╣я─я▄я▐,
 
-<L> Что паче всех ты мер, мой светик, хороша!
+<L> п╖я┌п╬ п©п╟я┤п╣ п╡я│п╣я┘ я┌я▀ п╪п╣я─, п╪п╬п╧ я│п╡п╣я┌п╦п╨, я┘п╬я─п╬я┬п╟!
 
-<L> И попугай ничто перед тобой, душа,
+<L> п≤ п©п╬п©я┐пЁп╟п╧ п╫п╦я┤я┌п╬ п©п╣я─п╣п╢ я┌п╬п╠п╬п╧, п╢я┐я┬п╟,
 
-<L> Прекраснее стократ твои павлиньих перья!></q>
+<L> п÷я─п╣п╨я─п╟я│п╫п╣п╣ я│я┌п╬п╨я─п╟я┌ я┌п╡п╬п╦ п©п╟п╡п╩п╦п╫я▄п╦я┘ п©п╣я─я▄я▐!></q>
 
-<L> (Нелестны похвалы приятно нам терпеть).
+<L> (п²п╣п╩п╣я│я┌п╫я▀ п©п╬я┘п╡п╟п╩я▀ п©я─п╦я▐я┌п╫п╬ п╫п╟п╪ я┌п╣я─п©п╣я┌я▄).
 
-<L><q>О, если бы еще умела ты и петь,
+<L><q>п·, п╣я│п╩п╦ п╠я▀ п╣я┴п╣ я┐п╪п╣п╩п╟ я┌я▀ п╦ п©п╣я┌я▄,
 
-<L> Так не было б тебе подобной птицы в мире!</q>
+<L> п╒п╟п╨ п╫п╣ п╠я▀п╩п╬ п╠ я┌п╣п╠п╣ п©п╬п╢п╬п╠п╫п╬п╧ п©я┌п╦я├я▀ п╡ п╪п╦я─п╣!</q>
 
-<L> <name type="character" > Ворона </name> горлышко разинула пошире,
+<L> <name type="character" > п▓п╬я─п╬п╫п╟ </name> пЁп╬я─п╩я▀я┬п╨п╬ я─п╟п╥п╦п╫я┐п╩п╟ п©п╬я┬п╦я─п╣,
 
-<L> <space dim="horizontal" extent="8 letters"> Чтоб быти соловьем,
+<L> <space dim="horizontal" extent="8 letters"> п╖я┌п╬п╠ п╠я▀я┌п╦ я│п╬п╩п╬п╡я▄п╣п╪,
 
-<L><q>А сыру, - думает, - и после я поем.
+<L><q>п░ я│я▀я─я┐, - п╢я┐п╪п╟п╣я┌, - п╦ п©п╬я│п╩п╣ я▐ п©п╬п╣п╪.
 
-<L> В сию минуту мне здесь дело не о пире!</q>
+<L> п▓ я│п╦я▌ п╪п╦п╫я┐я┌я┐ п╪п╫п╣ п╥п╢п╣я│я▄ п╢п╣п╩п╬ п╫п╣ п╬ п©п╦я─п╣!</q>
 
-<L> <space dim="horizontal" extent="12 letters"> Разинула уста
+<L> <space dim="horizontal" extent="12 letters"> п═п╟п╥п╦п╫я┐п╩п╟ я┐я│я┌п╟
 
-<L> <space dim="horizontal" extent="12 letters"> И дождалась поста.
+<L> <space dim="horizontal" extent="12 letters"> п≤ п╢п╬п╤п╢п╟п╩п╟я│я▄ п©п╬я│я┌п╟.
 
-<L> Чуть видит лишь конец Лисицына хвоста.
+<L> п╖я┐я┌я▄ п╡п╦п╢п╦я┌ п╩п╦я┬я▄ п╨п╬п╫п╣я├ п⌡п╦я│п╦я├я▀п╫п╟ я┘п╡п╬я│я┌п╟.
 
-<L> <space dim="horizontal" extent="12 letters"> Хотела петь, не пела,
+<L> <space dim="horizontal" extent="12 letters"> п╔п╬я┌п╣п╩п╟ п©п╣я┌я▄, п╫п╣ п©п╣п╩п╟,
 
-<L> <space dim="horizontal" extent="12 letters"> Хотела есть, не ела.
+<L> <space dim="horizontal" extent="12 letters"> п╔п╬я┌п╣п╩п╟ п╣я│я┌я▄, п╫п╣ п╣п╩п╟.
 
-<L> Причина та тому, что сыру больше нет.
+<L> п÷я─п╦я┤п╦п╫п╟ я┌п╟ я┌п╬п╪я┐, я┤я┌п╬ я│я▀я─я┐ п╠п╬п╩я▄я┬п╣ п╫п╣я┌.
 
-<L> Сыр выпал из роту, - <name type="character" reg="Лиса" >Лисице</name> на обед.
+<L> п║я▀я─ п╡я▀п©п╟п╩ п╦п╥ я─п╬я┌я┐, - <name type="character" reg="п⌡п╦я│п╟" >п⌡п╦я│п╦я├п╣</name> п╫п╟ п╬п╠п╣п╢.
 
 </BODY>
 

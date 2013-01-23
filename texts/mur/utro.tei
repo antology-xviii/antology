@@ -22,45 +22,45 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Утро</TITLE>
+        <TITLE>пёя┌я─п╬</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Михаил</FORENAME>
-            <FORENAME TYPE="patronym">Никитич</FORENAME>
-            <SURNAME>Муравьев</SURNAME>
+            <FORENAME>п°п╦я┘п╟п╦п╩</FORENAME>
+            <FORENAME TYPE="patronym">п²п╦п╨п╦я┌п╦я┤</FORENAME>
+            <SURNAME>п°я┐я─п╟п╡я▄п╣п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>М. Н. Муравьев. Стихотворения</TITLE>
-            <EDITOR>Л. И. Кулакова </EDITOR>
+            <TITLE>п°. п². п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐</TITLE>
+            <EDITOR>п⌡. п≤. п я┐п╩п╟п╨п╬п╡п╟ </EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-      <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-                библиотека</XREF></DISTRIBUTOR>
-<PUBPLACE>Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+      <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+                п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+<PUBPLACE>п⌡.</PUBPLACE>
             <DATE>1967</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Утро</TITLE>
+                <TITLE>пёя┌я─п╬</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>М. Н. Муравьев. Стихотворения.
-Л. </PUBLISHER>
+                <PUBLISHER>п°. п². п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐.
+п⌡. </PUBLISHER>
                 <DATE>1967</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -79,19 +79,19 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-   <SPAN FROM="WHOLE" VALUE="рассвет" TYPE="theme">
-<SPAN FROM="WHOLE" VALUE="радость" TYPE="theme">
-<BODY ID="WHOLE"><DIV0 RHYME="AbAbCCdEEd." MET="Я4">
-<L>Тревожится кипяща младость,
-<L>И рушится мой сладкий сон.
-<L>Опять земле приносит радость
-<L>Из волн спешащий <name type="mythologic">Аполлон</name>,
-<L>Предвозвещаемый денницей,
-<L>С своей горящей колесницей
-<L>Поверх является валов.
-<L>В востоке злато разлиянно,
-<L>И вещество благоуханно
-<L>Лиется в воздух со цветов.
+   <SPAN FROM="WHOLE" VALUE="я─п╟я│я│п╡п╣я┌" TYPE="theme">
+<SPAN FROM="WHOLE" VALUE="я─п╟п╢п╬я│я┌я▄" TYPE="theme">
+<BODY ID="WHOLE"><DIV0 RHYME="AbAbCCdEEd." MET="п╞4">
+<L>п╒я─п╣п╡п╬п╤п╦я┌я│я▐ п╨п╦п©я▐я┴п╟ п╪п╩п╟п╢п╬я│я┌я▄,
+<L>п≤ я─я┐я┬п╦я┌я│я▐ п╪п╬п╧ я│п╩п╟п╢п╨п╦п╧ я│п╬п╫.
+<L>п·п©я▐я┌я▄ п╥п╣п╪п╩п╣ п©я─п╦п╫п╬я│п╦я┌ я─п╟п╢п╬я│я┌я▄
+<L>п≤п╥ п╡п╬п╩п╫ я│п©п╣я┬п╟я┴п╦п╧ <name type="mythologic">п░п©п╬п╩п╩п╬п╫</name>,
+<L>п÷я─п╣п╢п╡п╬п╥п╡п╣я┴п╟п╣п╪я▀п╧ п╢п╣п╫п╫п╦я├п╣п╧,
+<L>п║ я│п╡п╬п╣п╧ пЁп╬я─я▐я┴п╣п╧ п╨п╬п╩п╣я│п╫п╦я├п╣п╧
+<L>п÷п╬п╡п╣я─я┘ я▐п╡п╩я▐п╣я┌я│я▐ п╡п╟п╩п╬п╡.
+<L>п▓ п╡п╬я│я┌п╬п╨п╣ п╥п╩п╟я┌п╬ я─п╟п╥п╩п╦я▐п╫п╫п╬,
+<L>п≤ п╡п╣я┴п╣я│я┌п╡п╬ п╠п╩п╟пЁп╬я┐я┘п╟п╫п╫п╬
+<L>п⌡п╦п╣я┌я│я▐ п╡ п╡п╬п╥п╢я┐я┘ я│п╬ я├п╡п╣я┌п╬п╡.
 </BODY>
 </TEXT>
 </TEI.2>

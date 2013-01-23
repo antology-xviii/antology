@@ -29,46 +29,46 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>От зрителя комедии <bibl><title>Недоросля</title></bibl></title>
+<title>п·я┌ п╥я─п╦я┌п╣п╩я▐ п╨п╬п╪п╣п╢п╦п╦ <bibl><title>п²п╣п╢п╬я─п╬я│п╩я▐</title></bibl></title>
         <author>
           <persName>
-            <forename>Ипполит</forename>
-            <forename type='patronym'>Федорович</forename>
-            <surname>Богданович</surname>
+            <forename>п≤п©п©п╬п╩п╦я┌</forename>
+            <forename type='patronym'>п╓п╣п╢п╬я─п╬п╡п╦я┤</forename>
+            <surname>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤</surname>
           </persName>
         </author>
-        <principal>Ольга Рощина</principal>
+        <principal>п·п╩я▄пЁп╟ п═п╬я┴п╦п╫п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
-            <editor>Серман И.З.</editor>
+            <title>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤ п≤. п╓. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐ п╦ п©п╬я█п╪я▀.</title>
+            <editor>п║п╣я─п╪п╟п╫ п≤.п≈.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher><<Советский писатель>></publisher>
-<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <pubPlace>Л.</pubPlace>
+            <publisher><<п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄>></publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <pubPlace>п⌡.</pubPlace>
             <date>1957</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>От зрителя комедии
-<bibl><title>Недоросля</title></bibl></title>
+                <title>п·я┌ п╥я─п╦я┌п╣п╩я▐ п╨п╬п╪п╣п╢п╦п╦
+<bibl><title>п²п╣п╢п╬я─п╬я│п╩я▐</title></bibl></title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Стихотворения Ипполита Федоровича Богдановича,
-найденные по смерти его и списанные с подлинных его руки</publisher>
+                <publisher>п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐ п≤п©п©п╬п╩п╦я┌п╟ п╓п╣п╢п╬я─п╬п╡п╦я┤п╟ п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤п╟,
+п╫п╟п╧п╢п╣п╫п╫я▀п╣ п©п╬ я│п╪п╣я─я┌п╦ п╣пЁп╬ п╦ я│п©п╦я│п╟п╫п╫я▀п╣ я│ п©п╬п╢п╩п╦п╫п╫я▀я┘ п╣пЁп╬ я─я┐п╨п╦</publisher>
                 <date>1782 (?)</date>
               </publicationStmt>
             </biblFull>
@@ -84,17 +84,17 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='критика'>
-<body id='whole'><div0 met='Я3' rhyme="aaBBbbB.">
+<span from='whole' type='theme' value='п╨я─п╦я┌п╦п╨п╟'>
+<body id='whole'><div0 met='п╞3' rhyme="aaBBbbB.">
 <lg1 type="stanza">
-<l><space dim="horizontal" extent="14 letters">Почтенный <name
-type="character">Стародум</name>,
-<l><space dim="horizontal" extent="14 letters">Услышав подлый шум,
-<l><space dim="horizontal" extent="14 letters">Где баба не пригоже
-<l><space dim="horizontal" extent="14 letters">С ногтями лезет к роже,
-<l><space dim="horizontal" extent="14 letters">Ушел скорей домой.
-<l><space dim="horizontal" extent="14 letters">Писатель дорогой!
-<l><space dim="horizontal" extent="14 letters">Прости, я сделал то же.
+<l><space dim="horizontal" extent="14 letters">п÷п╬я┤я┌п╣п╫п╫я▀п╧ <name
+type="character">п║я┌п╟я─п╬п╢я┐п╪</name>,
+<l><space dim="horizontal" extent="14 letters">пёя│п╩я▀я┬п╟п╡ п©п╬п╢п╩я▀п╧ я┬я┐п╪,
+<l><space dim="horizontal" extent="14 letters">п⌠п╢п╣ п╠п╟п╠п╟ п╫п╣ п©я─п╦пЁп╬п╤п╣
+<l><space dim="horizontal" extent="14 letters">п║ п╫п╬пЁя┌я▐п╪п╦ п╩п╣п╥п╣я┌ п╨ я─п╬п╤п╣,
+<l><space dim="horizontal" extent="14 letters">пёя┬п╣п╩ я│п╨п╬я─п╣п╧ п╢п╬п╪п╬п╧.
+<l><space dim="horizontal" extent="14 letters">п÷п╦я│п╟я┌п╣п╩я▄ п╢п╬я─п╬пЁп╬п╧!
+<l><space dim="horizontal" extent="14 letters">п÷я─п╬я│я┌п╦, я▐ я│п╢п╣п╩п╟п╩ я┌п╬ п╤п╣.
 </body>
   </text>
 </tei.2>

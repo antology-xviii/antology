@@ -29,45 +29,45 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Стихи на дружбу</title>
+<title>п║я┌п╦я┘п╦ п╫п╟ п╢я─я┐п╤п╠я┐</title>
         <author>
           <persName>
-            <forename>Ипполит</forename>
-            <forename type='patronym'>Федорович</forename>
-            <surname>Богданович</surname>
+            <forename>п≤п©п©п╬п╩п╦я┌</forename>
+            <forename type='patronym'>п╓п╣п╢п╬я─п╬п╡п╦я┤</forename>
+            <surname>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤</surname>
           </persName>
         </author>
-        <principal>Ольга Рощина</principal>
+        <principal>п·п╩я▄пЁп╟ п═п╬я┴п╦п╫п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
-            <editor>Серман И.З.</editor>
+            <title>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤ п≤. п╓. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐ п╦ п©п╬я█п╪я▀.</title>
+            <editor>п║п╣я─п╪п╟п╫ п≤.п≈.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher><<Советский писатель>></publisher>
-<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <pubPlace>Л.</pubPlace>
+            <publisher><<п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄>></publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <pubPlace>п⌡.</pubPlace>
             <date>1957</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Стихи на дружбу</title>
+                <title>п║я┌п╦я┘п╦ п╫п╟ п╢я─я┐п╤п╠я┐</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Лира, или Собрание разных в стихах сочинений и
-переводов некоторого муз любителя</publisher>
+                <publisher>п⌡п╦я─п╟, п╦п╩п╦ п║п╬п╠я─п╟п╫п╦п╣ я─п╟п╥п╫я▀я┘ п╡ я│я┌п╦я┘п╟я┘ я│п╬я┤п╦п╫п╣п╫п╦п╧ п╦
+п©п╣я─п╣п╡п╬п╢п╬п╡ п╫п╣п╨п╬я┌п╬я─п╬пЁп╬ п╪я┐п╥ п╩я▌п╠п╦я┌п╣п╩я▐</publisher>
                 <date>1773</date>
               </publicationStmt>
             </biblFull>
@@ -83,23 +83,23 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='дружба'>
-<body id='whole'><div0 met='ЯРз' rhyme="aBaBccCaaCaaCC.">
+<span from='whole' type='theme' value='п╢я─я┐п╤п╠п╟'>
+<body id='whole'><div0 met='п╞п═п╥' rhyme="aBaBccCaaCaaCC.">
 <lg1 type="stanza">
-<l>Без дружбы человек себя особо зрит,
- <l><space dim="horizontal" extent="14 letters">Пустыннику подобен,
- <l><space dim="horizontal" extent="14 letters">Который жизнь влачит,
- <l><space dim="horizontal" extent="14 letters">К утехам неспособен;
- <l><space dim="horizontal" extent="14 letters">Но дружбою свое
- <l><space dim="horizontal" extent="14 letters">Мы множим бытие.
- <l><space dim="horizontal" extent="14 letters">О дружба, дар небесный!
-<l>Тобою счастливы на свете мы,
- <l><space dim="horizontal" extent="14 letters">Тобою кроткие умы
-<l>Чувствительных сердец союз узнали тесный.
-<l><space dim="horizontal" extent="14 letters">Тишайшее пристанище души,
-<l>О дружба! наконец ты стих мой доверши,
-<l><space dim="horizontal" extent="8 letters">И будь толико в нем любезна,
-<l><space dim="horizontal" extent="14 letters">Колико ты полезна.
+<l>п▒п╣п╥ п╢я─я┐п╤п╠я▀ я┤п╣п╩п╬п╡п╣п╨ я│п╣п╠я▐ п╬я│п╬п╠п╬ п╥я─п╦я┌,
+ <l><space dim="horizontal" extent="14 letters">п÷я┐я│я┌я▀п╫п╫п╦п╨я┐ п©п╬п╢п╬п╠п╣п╫,
+ <l><space dim="horizontal" extent="14 letters">п п╬я┌п╬я─я▀п╧ п╤п╦п╥п╫я▄ п╡п╩п╟я┤п╦я┌,
+ <l><space dim="horizontal" extent="14 letters">п  я┐я┌п╣я┘п╟п╪ п╫п╣я│п©п╬я│п╬п╠п╣п╫;
+ <l><space dim="horizontal" extent="14 letters">п²п╬ п╢я─я┐п╤п╠п╬я▌ я│п╡п╬п╣
+ <l><space dim="horizontal" extent="14 letters">п°я▀ п╪п╫п╬п╤п╦п╪ п╠я▀я┌п╦п╣.
+ <l><space dim="horizontal" extent="14 letters">п· п╢я─я┐п╤п╠п╟, п╢п╟я─ п╫п╣п╠п╣я│п╫я▀п╧!
+<l>п╒п╬п╠п╬я▌ я│я┤п╟я│я┌п╩п╦п╡я▀ п╫п╟ я│п╡п╣я┌п╣ п╪я▀,
+ <l><space dim="horizontal" extent="14 letters">п╒п╬п╠п╬я▌ п╨я─п╬я┌п╨п╦п╣ я┐п╪я▀
+<l>п╖я┐п╡я│я┌п╡п╦я┌п╣п╩я▄п╫я▀я┘ я│п╣я─п╢п╣я├ я│п╬я▌п╥ я┐п╥п╫п╟п╩п╦ я┌п╣я│п╫я▀п╧.
+<l><space dim="horizontal" extent="14 letters">п╒п╦я┬п╟п╧я┬п╣п╣ п©я─п╦я│я┌п╟п╫п╦я┴п╣ п╢я┐я┬п╦,
+<l>п· п╢я─я┐п╤п╠п╟! п╫п╟п╨п╬п╫п╣я├ я┌я▀ я│я┌п╦я┘ п╪п╬п╧ п╢п╬п╡п╣я─я┬п╦,
+<l><space dim="horizontal" extent="8 letters">п≤ п╠я┐п╢я▄ я┌п╬п╩п╦п╨п╬ п╡ п╫п╣п╪ п╩я▌п╠п╣п╥п╫п╟,
+<l><space dim="horizontal" extent="14 letters">п п╬п╩п╦п╨п╬ я┌я▀ п©п╬п╩п╣п╥п╫п╟.
 </body>
   </text>
 </tei.2>

@@ -29,43 +29,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Два льва соседи</title>
+<title>п■п╡п╟ п╩я▄п╡п╟ я│п╬я│п╣п╢п╦</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Два льва соседи</title>
+                <title>п■п╡п╟ п╩я▄п╡п╟ я│п╬я│п╣п╢п╦</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Сочинения и письма Хемницера по подлинным его
-рукописям, с биографической статьею и примечаниями Я. Грота</publisher>
+                <publisher>п║п╬я┤п╦п╫п╣п╫п╦я▐ п╦ п©п╦я│я▄п╪п╟ п╔п╣п╪п╫п╦я├п╣я─п╟ п©п╬ п©п╬п╢п╩п╦п╫п╫я▀п╪ п╣пЁп╬
+я─я┐п╨п╬п©п╦я│я▐п╪, я│ п╠п╦п╬пЁя─п╟я└п╦я┤п╣я│п╨п╬п╧ я│я┌п╟я┌я▄п╣я▌ п╦ п©я─п╦п╪п╣я┤п╟п╫п╦я▐п╪п╦ п╞. п⌠я─п╬я┌п╟</publisher>
                 <date>1873</date>
               </publicationStmt>
             </biblFull>
@@ -76,7 +76,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -84,59 +84,59 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='война'>
-<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
-<l><space dim="horizontal" extent="5 letters">Два <name type="character"
-reg="лев">льва</name>, соседи меж собой,
-<l><space dim="horizontal" extent="8 letters">Пошли друг н&acystress; друга
-войной,
-<l><space dim="horizontal" extent="8 letters">За что, про что - никто не
-знает;
-<l><space dim="horizontal" extent="8 letters">Так им хотелось, говорят.
-<l>А сверх того, когда лишь только захотят,-
-<l>Как у людских царей, случается, бывает, -
-<l><space dim="horizontal" extent="8 letters">Найдут причину не одну,
-<l><space dim="horizontal" extent="10 letters">Чтоб завести войну.
-<l><name type="character" reg="лев">Львы</name>эти только в том от них
-отменны были,
-<l>Когда войну они друг другу объявили,
-<l><space dim="horizontal" extent="8 letters">Что мира вечного трактат,
-<l>Который иногда не служит ни недели,
-<l><space dim="horizontal" extent="8 letters">Нарушить нужды не имели,-
-<l>Как у людских царей бывает, говорят,-
-<l><space dim="horizontal" extent="8 letters">Затем что не в обыкновеньи
-<l><space dim="horizontal" extent="8 letters">У<name type="character"
-reg="лев">львов</name>такие сочиненьи.
-<l><space dim="horizontal" extent="8 letters">Итак, один из этих <name
-type="character" reg="лев">львов</name>
-<l>Другого полонил и область и скотов.
-<l><space dim="horizontal" extent="8 letters">Привычка и предубежденье
-<l><space dim="horizontal" extent="8 letters">Свое имеют рассужденье:
-<l><space dim="horizontal" extent="8 letters">Хотя, как слышал я о том,
-<l><space dim="horizontal" extent="8 letters">Житье зверям за этим<name
-type="character" reg="лев">львом</name>
-<l>Противу прежнего ничем не хуже стало
-<l>(Не знаю, каково прошедшее бывало),
-<l>Однако каждый зверь всё тайным был врагом,
-<l><space dim="horizontal" extent="8 letters">И только на уме держали,
-<l><space dim="horizontal" extent="10 letters">Как это им начать,
-<l><space dim="horizontal" extent="8 letters">Чтоб им опять за старым,
-быть.
-<l>Как в свете всё идет своею чередою, -
-<l>Оправясь, старый<name type="character">лев</name>о том стал помышлять
-<l>Войною возвратить, что потерял войною.
-<l><space dim="horizontal" extent="8 letters">Лишь только случай изменить
+<span from='whole' type='theme' value='п╡п╬п╧п╫п╟'>
+<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
+<l><space dim="horizontal" extent="5 letters">п■п╡п╟ <name type="character"
+reg="п╩п╣п╡">п╩я▄п╡п╟</name>, я│п╬я│п╣п╢п╦ п╪п╣п╤ я│п╬п╠п╬п╧,
+<l><space dim="horizontal" extent="8 letters">п÷п╬я┬п╩п╦ п╢я─я┐пЁ п╫&acystress; п╢я─я┐пЁп╟
+п╡п╬п╧п╫п╬п╧,
+<l><space dim="horizontal" extent="8 letters">п≈п╟ я┤я┌п╬, п©я─п╬ я┤я┌п╬ - п╫п╦п╨я┌п╬ п╫п╣
+п╥п╫п╟п╣я┌;
+<l><space dim="horizontal" extent="8 letters">п╒п╟п╨ п╦п╪ я┘п╬я┌п╣п╩п╬я│я▄, пЁп╬п╡п╬я─я▐я┌.
+<l>п░ я│п╡п╣я─я┘ я┌п╬пЁп╬, п╨п╬пЁп╢п╟ п╩п╦я┬я▄ я┌п╬п╩я▄п╨п╬ п╥п╟я┘п╬я┌я▐я┌,-
+<l>п п╟п╨ я┐ п╩я▌п╢я│п╨п╦я┘ я├п╟я─п╣п╧, я│п╩я┐я┤п╟п╣я┌я│я▐, п╠я▀п╡п╟п╣я┌, -
+<l><space dim="horizontal" extent="8 letters">п²п╟п╧п╢я┐я┌ п©я─п╦я┤п╦п╫я┐ п╫п╣ п╬п╢п╫я┐,
+<l><space dim="horizontal" extent="10 letters">п╖я┌п╬п╠ п╥п╟п╡п╣я│я┌п╦ п╡п╬п╧п╫я┐.
+<l><name type="character" reg="п╩п╣п╡">п⌡я▄п╡я▀</name>я█я┌п╦ я┌п╬п╩я▄п╨п╬ п╡ я┌п╬п╪ п╬я┌ п╫п╦я┘
+п╬я┌п╪п╣п╫п╫я▀ п╠я▀п╩п╦,
+<l>п п╬пЁп╢п╟ п╡п╬п╧п╫я┐ п╬п╫п╦ п╢я─я┐пЁ п╢я─я┐пЁя┐ п╬п╠я┼я▐п╡п╦п╩п╦,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ п╪п╦я─п╟ п╡п╣я┤п╫п╬пЁп╬ я┌я─п╟п╨я┌п╟я┌,
+<l>п п╬я┌п╬я─я▀п╧ п╦п╫п╬пЁп╢п╟ п╫п╣ я│п╩я┐п╤п╦я┌ п╫п╦ п╫п╣п╢п╣п╩п╦,
+<l><space dim="horizontal" extent="8 letters">п²п╟я─я┐я┬п╦я┌я▄ п╫я┐п╤п╢я▀ п╫п╣ п╦п╪п╣п╩п╦,-
+<l>п п╟п╨ я┐ п╩я▌п╢я│п╨п╦я┘ я├п╟я─п╣п╧ п╠я▀п╡п╟п╣я┌, пЁп╬п╡п╬я─я▐я┌,-
+<l><space dim="horizontal" extent="8 letters">п≈п╟я┌п╣п╪ я┤я┌п╬ п╫п╣ п╡ п╬п╠я▀п╨п╫п╬п╡п╣п╫я▄п╦
+<l><space dim="horizontal" extent="8 letters">пё<name type="character"
+reg="п╩п╣п╡">п╩я▄п╡п╬п╡</name>я┌п╟п╨п╦п╣ я│п╬я┤п╦п╫п╣п╫я▄п╦.
+<l><space dim="horizontal" extent="8 letters">п≤я┌п╟п╨, п╬п╢п╦п╫ п╦п╥ я█я┌п╦я┘ <name
+type="character" reg="п╩п╣п╡">п╩я▄п╡п╬п╡</name>
+<l>п■я─я┐пЁп╬пЁп╬ п©п╬п╩п╬п╫п╦п╩ п╦ п╬п╠п╩п╟я│я┌я▄ п╦ я│п╨п╬я┌п╬п╡.
+<l><space dim="horizontal" extent="8 letters">п÷я─п╦п╡я▀я┤п╨п╟ п╦ п©я─п╣п╢я┐п╠п╣п╤п╢п╣п╫я▄п╣
+<l><space dim="horizontal" extent="8 letters">п║п╡п╬п╣ п╦п╪п╣я▌я┌ я─п╟я│я│я┐п╤п╢п╣п╫я▄п╣:
+<l><space dim="horizontal" extent="8 letters">п╔п╬я┌я▐, п╨п╟п╨ я│п╩я▀я┬п╟п╩ я▐ п╬ я┌п╬п╪,
+<l><space dim="horizontal" extent="8 letters">п√п╦я┌я▄п╣ п╥п╡п╣я─я▐п╪ п╥п╟ я█я┌п╦п╪<name
+type="character" reg="п╩п╣п╡">п╩я▄п╡п╬п╪</name>
+<l>п÷я─п╬я┌п╦п╡я┐ п©я─п╣п╤п╫п╣пЁп╬ п╫п╦я┤п╣п╪ п╫п╣ я┘я┐п╤п╣ я│я┌п╟п╩п╬
+<l>(п²п╣ п╥п╫п╟я▌, п╨п╟п╨п╬п╡п╬ п©я─п╬я┬п╣п╢я┬п╣п╣ п╠я▀п╡п╟п╩п╬),
+<l>п·п╢п╫п╟п╨п╬ п╨п╟п╤п╢я▀п╧ п╥п╡п╣я─я▄ п╡я│я▒ я┌п╟п╧п╫я▀п╪ п╠я▀п╩ п╡я─п╟пЁп╬п╪,
+<l><space dim="horizontal" extent="8 letters">п≤ я┌п╬п╩я▄п╨п╬ п╫п╟ я┐п╪п╣ п╢п╣я─п╤п╟п╩п╦,
+<l><space dim="horizontal" extent="10 letters">п п╟п╨ я█я┌п╬ п╦п╪ п╫п╟я┤п╟я┌я▄,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬п╠ п╦п╪ п╬п©я▐я┌я▄ п╥п╟ я│я┌п╟я─я▀п╪,
+п╠я▀я┌я▄.
+<l>п п╟п╨ п╡ я│п╡п╣я┌п╣ п╡я│я▒ п╦п╢п╣я┌ я│п╡п╬п╣я▌ я┤п╣я─п╣п╢п╬я▌, -
+<l>п·п©я─п╟п╡я▐я│я▄, я│я┌п╟я─я▀п╧<name type="character">п╩п╣п╡</name>п╬ я┌п╬п╪ я│я┌п╟п╩ п©п╬п╪я▀я┬п╩я▐я┌я▄
+<l>п▓п╬п╧п╫п╬я▌ п╡п╬п╥п╡я─п╟я┌п╦я┌я▄, я┤я┌п╬ п©п╬я┌п╣я─я▐п╩ п╡п╬п╧п╫п╬я▌.
+<l><space dim="horizontal" extent="8 letters">п⌡п╦я┬я▄ я┌п╬п╩я▄п╨п╬ я│п╩я┐я┤п╟п╧ п╦п╥п╪п╣п╫п╦я┌я▄
 <l><space dim="horizontal" extent="8 letters"><name type="character"
-reg="лев">Льву</name>звери новому сыскали,
-<l><space dim="horizontal" extent="8 letters">Другого случая не ждали:
-<l>Ягнята, так сказать, волками даже стали.
-<l>Какую ж пользу<name type="character">лев</name>тот прежний получил,
-<l>Что на другого<name type="character" reg="лев">льва</name>войною он
-ходил?
-<l>Родных своих зверей, воюя, потерял,
-<l>А этих для себя не впрок завоевал.
-<l>Вот какова война: родное потеряй,
-<l>А что завоевал, своим не называй.
+reg="п╩п╣п╡">п⌡я▄п╡я┐</name>п╥п╡п╣я─п╦ п╫п╬п╡п╬п╪я┐ я│я▀я│п╨п╟п╩п╦,
+<l><space dim="horizontal" extent="8 letters">п■я─я┐пЁп╬пЁп╬ я│п╩я┐я┤п╟я▐ п╫п╣ п╤п╢п╟п╩п╦:
+<l>п╞пЁп╫я▐я┌п╟, я┌п╟п╨ я│п╨п╟п╥п╟я┌я▄, п╡п╬п╩п╨п╟п╪п╦ п╢п╟п╤п╣ я│я┌п╟п╩п╦.
+<l>п п╟п╨я┐я▌ п╤ п©п╬п╩я▄п╥я┐<name type="character">п╩п╣п╡</name>я┌п╬я┌ п©я─п╣п╤п╫п╦п╧ п©п╬п╩я┐я┤п╦п╩,
+<l>п╖я┌п╬ п╫п╟ п╢я─я┐пЁп╬пЁп╬<name type="character" reg="п╩п╣п╡">п╩я▄п╡п╟</name>п╡п╬п╧п╫п╬я▌ п╬п╫
+я┘п╬п╢п╦п╩?
+<l>п═п╬п╢п╫я▀я┘ я│п╡п╬п╦я┘ п╥п╡п╣я─п╣п╧, п╡п╬я▌я▐, п©п╬я┌п╣я─я▐п╩,
+<l>п░ я█я┌п╦я┘ п╢п╩я▐ я│п╣п╠я▐ п╫п╣ п╡п©я─п╬п╨ п╥п╟п╡п╬п╣п╡п╟п╩.
+<l>п▓п╬я┌ п╨п╟п╨п╬п╡п╟ п╡п╬п╧п╫п╟: я─п╬п╢п╫п╬п╣ п©п╬я┌п╣я─я▐п╧,
+<l>п░ я┤я┌п╬ п╥п╟п╡п╬п╣п╡п╟п╩, я│п╡п╬п╦п╪ п╫п╣ п╫п╟п╥я▀п╡п╟п╧.
 </body>
   </text>
 </tei.2>

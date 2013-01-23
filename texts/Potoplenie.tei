@@ -16,42 +16,42 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Потопление</title>
+        <title> п÷п╬я┌п╬п©п╩п╣п╫п╦п╣</title>
         <author>
           <persName>
-            <forename>Гавриил</forename>
-            <forename type='patronym'>Романович</forename>
-            <surname>Державин</surname>
+            <forename>п⌠п╟п╡я─п╦п╦п╩</forename>
+            <forename type='patronym'>п═п╬п╪п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п■п╣я─п╤п╟п╡п╦п╫</surname>
           </persName>
         </author>
-        <principal>Марина Пономарева</principal>
+        <principal>п°п╟я─п╦п╫п╟ п÷п╬п╫п╬п╪п╟я─п╣п╡п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2007 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2007 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Г. Р. Державин. Сочинения</title>
-            <editor> В. П. Степанов, Г. П. Макогоненко</editor>
+            <title>п⌠. п═. п■п╣я─п╤п╟п╡п╦п╫. п║п╬я┤п╦п╫п╣п╫п╦я▐</title>
+            <editor> п▓. п÷. п║я┌п╣п©п╟п╫п╬п╡, п⌠. п÷. п°п╟п╨п╬пЁп╬п╫п╣п╫п╨п╬</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher> Художественная литература</publisher>
-            <pubPlace>Л.</pubPlace>
+            <publisher> п╔я┐п╢п╬п╤п╣я│я┌п╡п╣п╫п╫п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟</publisher>
+            <pubPlace>п⌡.</pubPlace>
             <date>1987</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title> Романс на потопление NN </title>
+                <title> п═п╬п╪п╟п╫я│ п╫п╟ п©п╬я┌п╬п©п╩п╣п╫п╦п╣ NN </title>
               </titleStmt>
               <publicationStmt>
-                <publisher> Муза, &numero; 8</publisher>
+                <publisher> п°я┐п╥п╟, &numero; 8</publisher>
                 <date>1796</date>
               </publicationStmt>
             </biblFull>
@@ -70,32 +70,32 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <span from='whole' type='theme' value='мореплавание'>
-<span from='whole' type='theme' value='быстротечность жизни'>
-    <body id='whole' ><div0 met='Х4' rhyme='AbAb'>
+    <span from='whole' type='theme' value='п╪п╬я─п╣п©п╩п╟п╡п╟п╫п╦п╣'>
+<span from='whole' type='theme' value='п╠я▀я│я┌я─п╬я┌п╣я┤п╫п╬я│я┌я▄ п╤п╦п╥п╫п╦'>
+    <body id='whole' ><div0 met='п╔4' rhyme='AbAb'>
 <lg1 type='stanza'>
-<l>Из-за облак месяц красный
-<l>Встал и смотрится в реке,
-<l>Сквозь туман и мрак ужасный
-<l>Путник едет в челноке.
+<l>п≤п╥-п╥п╟ п╬п╠п╩п╟п╨ п╪п╣я│я▐я├ п╨я─п╟я│п╫я▀п╧
+<l>п▓я│я┌п╟п╩ п╦ я│п╪п╬я┌я─п╦я┌я│я▐ п╡ я─п╣п╨п╣,
+<l>п║п╨п╡п╬п╥я▄ я┌я┐п╪п╟п╫ п╦ п╪я─п╟п╨ я┐п╤п╟я│п╫я▀п╧
+<l>п÷я┐я┌п╫п╦п╨ п╣п╢п╣я┌ п╡ я┤п╣п╩п╫п╬п╨п╣.
 
 <lg1 type='stanza'>
-<l>Блеск луны пред ним сверкает,
-<l>Он гребет сквозь волн и тьму;
-<l>Мысль веселье вображает,
-<l>Берег видится ему.
+<l>п▒п╩п╣я│п╨ п╩я┐п╫я▀ п©я─п╣п╢ п╫п╦п╪ я│п╡п╣я─п╨п╟п╣я┌,
+<l>п·п╫ пЁя─п╣п╠п╣я┌ я│п╨п╡п╬п╥я▄ п╡п╬п╩п╫ п╦ я┌я▄п╪я┐;
+<l>п°я▀я│п╩я▄ п╡п╣я│п╣п╩я▄п╣ п╡п╬п╠я─п╟п╤п╟п╣я┌,
+<l>п▒п╣я─п╣пЁ п╡п╦п╢п╦я┌я│я▐ п╣п╪я┐.
 
 <lg1 type='stanza'>
-<l>Но челнок вдруг погрузился,
-<l>Путник мрачну пьет волну;
-<l>Сколь ни силился, ни бился,
-<l>Камнем вниз пошел ко дну.
+<l>п²п╬ я┤п╣п╩п╫п╬п╨ п╡п╢я─я┐пЁ п©п╬пЁя─я┐п╥п╦п╩я│я▐,
+<l>п÷я┐я┌п╫п╦п╨ п╪я─п╟я┤п╫я┐ п©я▄п╣я┌ п╡п╬п╩п╫я┐;
+<l>п║п╨п╬п╩я▄ п╫п╦ я│п╦п╩п╦п╩я│я▐, п╫п╦ п╠п╦п╩я│я▐,
+<l>п п╟п╪п╫п╣п╪ п╡п╫п╦п╥ п©п╬я┬п╣п╩ п╨п╬ п╢п╫я┐.
 
 <lg1 type='stanza'>
-<l>Се вид жизни скоротечной!
-<l>Сколь надежда нам ни льсти,
-<l>Все потонем в бездне вечной,
-<l>Дружба и любовь, прости!
+<l>п║п╣ п╡п╦п╢ п╤п╦п╥п╫п╦ я│п╨п╬я─п╬я┌п╣я┤п╫п╬п╧!
+<l>п║п╨п╬п╩я▄ п╫п╟п╢п╣п╤п╢п╟ п╫п╟п╪ п╫п╦ п╩я▄я│я┌п╦,
+<l>п▓я│п╣ п©п╬я┌п╬п╫п╣п╪ п╡ п╠п╣п╥п╢п╫п╣ п╡п╣я┤п╫п╬п╧,
+<l>п■я─я┐п╤п╠п╟ п╦ п╩я▌п╠п╬п╡я▄, п©я─п╬я│я┌п╦!
     </body>
   </text>
 </tei.2>

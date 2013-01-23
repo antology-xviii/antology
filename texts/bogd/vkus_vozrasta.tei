@@ -29,44 +29,44 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Вкус возраста</title>
+<title>п▓п╨я┐я│ п╡п╬п╥я─п╟я│я┌п╟</title>
         <author>
           <persName>
-            <forename>Ипполит</forename>
-            <forename type='patronym'>Федорович</forename>
-            <surname>Богданович</surname>
+            <forename>п≤п©п©п╬п╩п╦я┌</forename>
+            <forename type='patronym'>п╓п╣п╢п╬я─п╬п╡п╦я┤</forename>
+            <surname>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤</surname>
           </persName>
         </author>
-        <principal>Ольга Рощина</principal>
+        <principal>п·п╩я▄пЁп╟ п═п╬я┴п╦п╫п╟</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
-            <editor>Серман И.З.</editor>
+            <title>п▒п╬пЁп╢п╟п╫п╬п╡п╦я┤ п≤. п╓. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐ п╦ п©п╬я█п╪я▀.</title>
+            <editor>п║п╣я─п╪п╟п╫ п≤.п≈.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher><<Советский писатель>></publisher>
-<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <pubPlace>Л.</pubPlace>
+            <publisher><<п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄>></publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <pubPlace>п⌡.</pubPlace>
             <date>1957</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Епиграмма</title>
+                <title>п∙п©п╦пЁя─п╟п╪п╪п╟</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Невинное упражнение</publisher>
+                <publisher>п²п╣п╡п╦п╫п╫п╬п╣ я┐п©я─п╟п╤п╫п╣п╫п╦п╣</publisher>
                 <date>1763</date>
               </publicationStmt>
             </biblFull>
@@ -82,14 +82,14 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='любовь'>
-<span from='whole' type='theme' value='мудрость возраста'>
-<body id='whole'><div0 met='Я6' rhyme="aBBa.">
+<span from='whole' type='theme' value='п╩я▌п╠п╬п╡я▄'>
+<span from='whole' type='theme' value='п╪я┐п╢я─п╬я│я┌я▄ п╡п╬п╥я─п╟я│я┌п╟'>
+<body id='whole'><div0 met='п╞6' rhyme="aBBa.">
 <lg1 type="stanza">
-<l>Игрушки свойственны во время первых лет,
-<l>И свойственно любить, когда любить прилично,
-<l>А умными тогда бываем мы обычно,
-<l>Как свет оставит нас и мы оставим свет.
+<l>п≤пЁя─я┐я┬п╨п╦ я│п╡п╬п╧я│я┌п╡п╣п╫п╫я▀ п╡п╬ п╡я─п╣п╪я▐ п©п╣я─п╡я▀я┘ п╩п╣я┌,
+<l>п≤ я│п╡п╬п╧я│я┌п╡п╣п╫п╫п╬ п╩я▌п╠п╦я┌я▄, п╨п╬пЁп╢п╟ п╩я▌п╠п╦я┌я▄ п©я─п╦п╩п╦я┤п╫п╬,
+<l>п░ я┐п╪п╫я▀п╪п╦ я┌п╬пЁп╢п╟ п╠я▀п╡п╟п╣п╪ п╪я▀ п╬п╠я▀я┤п╫п╬,
+<l>п п╟п╨ я│п╡п╣я┌ п╬я│я┌п╟п╡п╦я┌ п╫п╟я│ п╦ п╪я▀ п╬я│я┌п╟п╡п╦п╪ я│п╡п╣я┌.
 </body>
   </text>
 </tei.2>

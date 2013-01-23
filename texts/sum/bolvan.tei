@@ -24,46 +24,46 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE><name type="character">Болван</name></TITLE>
+        <TITLE><name type="character">п▒п╬п╩п╡п╟п╫</name></TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Болван</TITLE>
+                <TITLE>п▒п╬п╩п╡п╟п╫</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Праздное время, в пользу
-употребленное.
-СПб.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷я─п╟п╥п╢п╫п╬п╣ п╡я─п╣п╪я▐, п╡ п©п╬п╩я▄п╥я┐
+я┐п©п╬я┌я─п╣п╠п╩п╣п╫п╫п╬п╣.
+п║п÷п╠.</PUBLISHER>
                 <DATE>1760</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -82,78 +82,78 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="раболепие" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="глупость" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
-<L> <space dim="horizontal" extent="6 letters"> Был выбран некто в боги:
+    <SPAN FROM="WHOLE" VALUE="я─п╟п╠п╬п╩п╣п©п╦п╣" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="пЁп╩я┐п©п╬я│я┌я▄" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
+<L> <space dim="horizontal" extent="6 letters"> п▒я▀п╩ п╡я▀п╠я─п╟п╫ п╫п╣п╨я┌п╬ п╡ п╠п╬пЁп╦:
 
-<L> Имел он голову, имел он руки, ноги
+<L> п≤п╪п╣п╩ п╬п╫ пЁп╬п╩п╬п╡я┐, п╦п╪п╣п╩ п╬п╫ я─я┐п╨п╦, п╫п╬пЁп╦
 
-<space dim="horizontal" extent="13 letters"> И стан;
+<space dim="horizontal" extent="13 letters"> п≤ я│я┌п╟п╫;
 
-<L> Лишь не было ума на полполушку,
+<L> п⌡п╦я┬я▄ п╫п╣ п╠я▀п╩п╬ я┐п╪п╟ п╫п╟ п©п╬п╩п©п╬п╩я┐я┬п╨я┐,
 
-<L> И деревянную имел он душку.
+<L> п≤ п╢п╣я─п╣п╡я▐п╫п╫я┐я▌ п╦п╪п╣п╩ п╬п╫ п╢я┐я┬п╨я┐.
 
-<L> <space dim="horizontal" extent="6 letters">Был - идол, попросту: <name
-type="character"> Болван </name>.
+<L> <space dim="horizontal" extent="6 letters">п▒я▀п╩ - п╦п╢п╬п╩, п©п╬п©я─п╬я│я┌я┐: <name
+type="character"> п▒п╬п╩п╡п╟п╫ </name>.
 
-<L>И зачали <name type="character" reg="Болван">Болвану</name> все
-молиться,
+<L>п≤ п╥п╟я┤п╟п╩п╦ <name type="character" reg="п▒п╬п╩п╡п╟п╫">п▒п╬п╩п╡п╟п╫я┐</name> п╡я│п╣
+п╪п╬п╩п╦я┌я▄я│я▐,
 
-<L> <space dim="horizontal" extent="6 letters">Слезами пред <name
-type="character" reg="Болван">Болваном</name> литься
+<L> <space dim="horizontal" extent="6 letters">п║п╩п╣п╥п╟п╪п╦ п©я─п╣п╢ <name
+type="character" reg="п▒п╬п╩п╡п╟п╫">п▒п╬п╩п╡п╟п╫п╬п╪</name> п╩п╦я┌я▄я│я▐
 
-<L> <space dim="horizontal" extent="9 letters">И в перси бить.
+<L> <space dim="horizontal" extent="9 letters">п≤ п╡ п©п╣я─я│п╦ п╠п╦я┌я▄.
 
-<L> Кричат: <q>Потщися нам, потщися пособить!</q>
+<L> п я─п╦я┤п╟я┌: <q>п÷п╬я┌я┴п╦я│я▐ п╫п╟п╪, п©п╬я┌я┴п╦я│я▐ п©п╬я│п╬п╠п╦я┌я▄!</q>
 
-<L> <space dim="horizontal" extent="6 letters">Всяк помощи великой чает.
+<L> <space dim="horizontal" extent="6 letters">п▓я│я▐п╨ п©п╬п╪п╬я┴п╦ п╡п╣п╩п╦п╨п╬п╧ я┤п╟п╣я┌.
 
 <L><space dim="horizontal" extent="13 letters"> <name type="character">
-Болван </name>того
+п▒п╬п╩п╡п╟п╫ </name>я┌п╬пЁп╬
 
-<L><space dim="horizontal" extent="13 letters"> Не примечает
+<L><space dim="horizontal" extent="13 letters"> п²п╣ п©я─п╦п╪п╣я┤п╟п╣я┌
 
-<L><space dim="horizontal" extent="13 letters"> И ничего
+<L><space dim="horizontal" extent="13 letters"> п≤ п╫п╦я┤п╣пЁп╬
 
-<L><space dim="horizontal" extent="13 letters"> Не отвечает:
+<L><space dim="horizontal" extent="13 letters"> п²п╣ п╬я┌п╡п╣я┤п╟п╣я┌:
 
-<L>Не слушает <name type="character"> Болван </name> речей ни от кого,
+<L>п²п╣ я│п╩я┐я┬п╟п╣я┌ <name type="character"> п▒п╬п╩п╡п╟п╫ </name> я─п╣я┤п╣п╧ п╫п╦ п╬я┌ п╨п╬пЁп╬,
 
-<L>Не смотрит, как жрецы мошны искусно слабят
+<L>п²п╣ я│п╪п╬я┌я─п╦я┌, п╨п╟п╨ п╤я─п╣я├я▀ п╪п╬я┬п╫я▀ п╦я│п╨я┐я│п╫п╬ я│п╩п╟п╠я▐я┌
 
-<L> <space dim="horizontal" extent="6 letters">Перед его пришедших олтари
+<L> <space dim="horizontal" extent="6 letters">п÷п╣я─п╣п╢ п╣пЁп╬ п©я─п╦я┬п╣п╢я┬п╦я┘ п╬п╩я┌п╟я─п╦
 
-<L><space dim="horizontal" extent="13 letters"> И деньги грабят
+<L><space dim="horizontal" extent="13 letters"> п≤ п╢п╣п╫я▄пЁп╦ пЁя─п╟п╠я▐я┌
 
-<L><space dim="horizontal" extent="3 letters"> Таким подобием, каким
-секретари
+<L><space dim="horizontal" extent="3 letters"> п╒п╟п╨п╦п╪ п©п╬п╢п╬п╠п╦п╣п╪, п╨п╟п╨п╦п╪
+я│п╣п╨я─п╣я┌п╟я─п╦
 
-<L><space dim="horizontal" extent="13 letters"> В приказе
+<L><space dim="horizontal" extent="13 letters"> п▓ п©я─п╦п╨п╟п╥п╣
 
-<L>Под несмотрением несмысленных судей
+<L>п÷п╬п╢ п╫п╣я│п╪п╬я┌я─п╣п╫п╦п╣п╪ п╫п╣я│п╪я▀я│п╩п╣п╫п╫я▀я┘ я│я┐п╢п╣п╧
 
-<L>Сбирают подати в карман себе с людей,
+<L>п║п╠п╦я─п╟я▌я┌ п©п╬п╢п╟я┌п╦ п╡ п╨п╟я─п╪п╟п╫ я│п╣п╠п╣ я│ п╩я▌п╢п╣п╧,
 
-<L>Не помня, что о том написано в указе.
+<L>п²п╣ п©п╬п╪п╫я▐, я┤я┌п╬ п╬ я┌п╬п╪ п╫п╟п©п╦я│п╟п╫п╬ п╡ я┐п╨п╟п╥п╣.
 
-<L>Потратя множество и злата и сребра
+<L>п÷п╬я┌я─п╟я┌я▐ п╪п╫п╬п╤п╣я│я┌п╡п╬ п╦ п╥п╩п╟я┌п╟ п╦ я│я─п╣п╠я─п╟
 
-<L>И не видав себе молебщики добра,
+<L>п≤ п╫п╣ п╡п╦п╢п╟п╡ я│п╣п╠п╣ п╪п╬п╩п╣п╠я┴п╦п╨п╦ п╢п╬п╠я─п╟,
 
-<L> <space dim="horizontal" extent="6 letters">Престали кланяться уроду
+<L> <space dim="horizontal" extent="6 letters">п÷я─п╣я│я┌п╟п╩п╦ п╨п╩п╟п╫я▐я┌я▄я│я▐ я┐я─п╬п╢я┐
 
-<L> <space dim="horizontal" extent="6 letters">И бросили <name
-type="character" reg="Болван">Болвана</name> в воду,
+<L> <space dim="horizontal" extent="6 letters">п≤ п╠я─п╬я│п╦п╩п╦ <name
+type="character" reg="п▒п╬п╩п╡п╟п╫">п▒п╬п╩п╡п╟п╫п╟</name> п╡ п╡п╬п╢я┐,
 
-<L> Сказав: <q>Не отвращал от нас ты зла:
+<L> п║п╨п╟п╥п╟п╡: <q>п²п╣ п╬я┌п╡я─п╟я┴п╟п╩ п╬я┌ п╫п╟я│ я┌я▀ п╥п╩п╟:
 
-<L> Не мог ко счастию ты нам пути отверзти!
+<L> п²п╣ п╪п╬пЁ п╨п╬ я│я┤п╟я│я┌п╦я▌ я┌я▀ п╫п╟п╪ п©я┐я┌п╦ п╬я┌п╡п╣я─п╥я┌п╦!
 
-<L> Не будет от тебя, как будто от козла,
+<L> п²п╣ п╠я┐п╢п╣я┌ п╬я┌ я┌п╣п╠я▐, п╨п╟п╨ п╠я┐п╢я┌п╬ п╬я┌ п╨п╬п╥п╩п╟,
 
-<L> <space dim="horizontal" extent="6 letters">Ни молока, ни шерсти</q>.
+<L> <space dim="horizontal" extent="6 letters">п²п╦ п╪п╬п╩п╬п╨п╟, п╫п╦ я┬п╣я─я│я┌п╦</q>.
 
 </BODY>
 

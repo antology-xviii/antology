@@ -28,43 +28,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Привилегия</title>
+<title>п÷я─п╦п╡п╦п╩п╣пЁп╦я▐</title>
         <author>
           <persName>
-            <forename>Иван</forename>
-            <forename type='patronym'>Иванович</forename>
-            <surname>Хемницер</surname>
+            <forename>п≤п╡п╟п╫</forename>
+            <forename type='patronym'>п≤п╡п╟п╫п╬п╡п╦я┤</forename>
+            <surname>п╔п╣п╪п╫п╦я├п╣я─</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Хемницер И. И. Полное собрание стихотворений</title>
-            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+            <title>п╔п╣п╪п╫п╦я├п╣я─ п≤. п≤. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</title>
+            <editor>п▒п╬п╠я─п╬п╡п╟ п⌡. п∙., п▓п╟я├я┐я─п╬ п▓. п╜.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Советский писатель</publisher>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</publisher>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1963</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Привилегия</title>
+                <title>п÷я─п╦п╡п╦п╩п╣пЁп╦я▐</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Басни и сказки И. И. Хемницера, в трех частях.
-Ч. 3.</publisher>
+                <publisher>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─п╟, п╡ я┌я─п╣я┘ я┤п╟я│я┌я▐я┘.
+п╖. 3.</publisher>
                 <date>1799</date>
               </publicationStmt>
             </biblFull>
@@ -75,7 +75,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>неизвестно</date>
+        <date>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -83,71 +83,71 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='злоупотребление верховной властью'>
-<span from='whole' type='theme' value='взяточничество'>
-<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
-<l>Какой-то вздумал<name type="character">лев</name>указ публиковать,
-<l>Что звери могут все вперед, без опасенья,
-<l>Кто только смог с кого, душить и обдирать.
-<l>Что лучше быть могло такого позволенья
-<l>Для тех, которые дерут и без того?
-<l><space dim="horizontal" extent="8 letters">Об этом чтоб указе знали,
-<l><space dim="horizontal" extent="8 letters">Его два раза не читали.
-<l><space dim="horizontal" extent="8 letters">Уж то-то было пиршество!
-<l><space dim="horizontal" extent="8 letters">И кожу, кто лишь мог с кого,
-<l>Похваливают знай указ да обдирают.
-<l><space dim="horizontal" extent="10 letters">Душ, душ погибло тут,
-<l><space dim="horizontal" extent="8 letters">Что их считают, не сочтут!
-<l><name type="character" reg="лисица">Лисице</name>мудрено, однако,
-показалось,
-<l>Что позволение такое состоялось:
-<l><space dim="horizontal" extent="8 letters">Зверям указом волю дать
-<l>Повольно меж собой друг с друга кожи драть!
-<l>Весьма сомнительным<name type="character">лисица</name>находила
-<l>И в рассуждении самой, и всех скотов.
-<l><q>Повыведать бы<name type="character" reg="лев">льва</name>!</q> -
-<name type="character">лисица</name>говорила
-<l>И львиное его величество спросила,
-<l>Не так чтоб прямо, нет, - как спрашивают<name type="character"
-reg="лев">львов</name>,
-<l>По-лисьи, на весы кладя значенье слов,
-<l><space dim="horizontal" extent="8 letters">Все хитростью, обиняками,
-<l><space dim="horizontal" extent="5 letters">Все гладкими придворными
-словами:
-<l><q>Не будет ли его величеству во вред,
-<l><space dim="horizontal" extent="5 letters">Что звери власть такую
-получили?</q>
-<l>Но сколько хитрости ее ни тонки были,
-<l><name type="character">Лев</name>ей, однако же, на то ни да, ни нет.
-<l><space dim="horizontal" extent="8 letters">Когда ж, по львову
-расчисленью,
-<l>Указ уж действие свое довольно взял,
-<l>По высочайшему тогда соизволенью
-<l><name type="character">Лев</name>всем зверям к себе явиться указал.
+<span from='whole' type='theme' value='п╥п╩п╬я┐п©п╬я┌я─п╣п╠п╩п╣п╫п╦п╣ п╡п╣я─я┘п╬п╡п╫п╬п╧ п╡п╩п╟я│я┌я▄я▌'>
+<span from='whole' type='theme' value='п╡п╥я▐я┌п╬я┤п╫п╦я┤п╣я│я┌п╡п╬'>
+<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
+<l>п п╟п╨п╬п╧-я┌п╬ п╡п╥п╢я┐п╪п╟п╩<name type="character">п╩п╣п╡</name>я┐п╨п╟п╥ п©я┐п╠п╩п╦п╨п╬п╡п╟я┌я▄,
+<l>п╖я┌п╬ п╥п╡п╣я─п╦ п╪п╬пЁя┐я┌ п╡я│п╣ п╡п©п╣я─п╣п╢, п╠п╣п╥ п╬п©п╟я│п╣п╫я▄я▐,
+<l>п я┌п╬ я┌п╬п╩я▄п╨п╬ я│п╪п╬пЁ я│ п╨п╬пЁп╬, п╢я┐я┬п╦я┌я▄ п╦ п╬п╠п╢п╦я─п╟я┌я▄.
+<l>п╖я┌п╬ п╩я┐я┤я┬п╣ п╠я▀я┌я▄ п╪п╬пЁп╩п╬ я┌п╟п╨п╬пЁп╬ п©п╬п╥п╡п╬п╩п╣п╫я▄я▐
+<l>п■п╩я▐ я┌п╣я┘, п╨п╬я┌п╬я─я▀п╣ п╢п╣я─я┐я┌ п╦ п╠п╣п╥ я┌п╬пЁп╬?
+<l><space dim="horizontal" extent="8 letters">п·п╠ я█я┌п╬п╪ я┤я┌п╬п╠ я┐п╨п╟п╥п╣ п╥п╫п╟п╩п╦,
+<l><space dim="horizontal" extent="8 letters">п∙пЁп╬ п╢п╡п╟ я─п╟п╥п╟ п╫п╣ я┤п╦я┌п╟п╩п╦.
+<l><space dim="horizontal" extent="8 letters">пёп╤ я┌п╬-я┌п╬ п╠я▀п╩п╬ п©п╦я─я┬п╣я│я┌п╡п╬!
+<l><space dim="horizontal" extent="8 letters">п≤ п╨п╬п╤я┐, п╨я┌п╬ п╩п╦я┬я▄ п╪п╬пЁ я│ п╨п╬пЁп╬,
+<l>п÷п╬я┘п╡п╟п╩п╦п╡п╟я▌я┌ п╥п╫п╟п╧ я┐п╨п╟п╥ п╢п╟ п╬п╠п╢п╦я─п╟я▌я┌.
+<l><space dim="horizontal" extent="10 letters">п■я┐я┬, п╢я┐я┬ п©п╬пЁп╦п╠п╩п╬ я┌я┐я┌,
+<l><space dim="horizontal" extent="8 letters">п╖я┌п╬ п╦я┘ я│я┤п╦я┌п╟я▌я┌, п╫п╣ я│п╬я┤я┌я┐я┌!
+<l><name type="character" reg="п╩п╦я│п╦я├п╟">п⌡п╦я│п╦я├п╣</name>п╪я┐п╢я─п╣п╫п╬, п╬п╢п╫п╟п╨п╬,
+п©п╬п╨п╟п╥п╟п╩п╬я│я▄,
+<l>п╖я┌п╬ п©п╬п╥п╡п╬п╩п╣п╫п╦п╣ я┌п╟п╨п╬п╣ я│п╬я│я┌п╬я▐п╩п╬я│я▄:
+<l><space dim="horizontal" extent="8 letters">п≈п╡п╣я─я▐п╪ я┐п╨п╟п╥п╬п╪ п╡п╬п╩я▌ п╢п╟я┌я▄
+<l>п÷п╬п╡п╬п╩я▄п╫п╬ п╪п╣п╤ я│п╬п╠п╬п╧ п╢я─я┐пЁ я│ п╢я─я┐пЁп╟ п╨п╬п╤п╦ п╢я─п╟я┌я▄!
+<l>п▓п╣я│я▄п╪п╟ я│п╬п╪п╫п╦я┌п╣п╩я▄п╫я▀п╪<name type="character">п╩п╦я│п╦я├п╟</name>п╫п╟я┘п╬п╢п╦п╩п╟
+<l>п≤ п╡ я─п╟я│я│я┐п╤п╢п╣п╫п╦п╦ я│п╟п╪п╬п╧, п╦ п╡я│п╣я┘ я│п╨п╬я┌п╬п╡.
+<l><q>п÷п╬п╡я▀п╡п╣п╢п╟я┌я▄ п╠я▀<name type="character" reg="п╩п╣п╡">п╩я▄п╡п╟</name>!</q> -
+<name type="character">п╩п╦я│п╦я├п╟</name>пЁп╬п╡п╬я─п╦п╩п╟
+<l>п≤ п╩я▄п╡п╦п╫п╬п╣ п╣пЁп╬ п╡п╣п╩п╦я┤п╣я│я┌п╡п╬ я│п©я─п╬я│п╦п╩п╟,
+<l>п²п╣ я┌п╟п╨ я┤я┌п╬п╠ п©я─я▐п╪п╬, п╫п╣я┌, - п╨п╟п╨ я│п©я─п╟я┬п╦п╡п╟я▌я┌<name type="character"
+reg="п╩п╣п╡">п╩я▄п╡п╬п╡</name>,
+<l>п÷п╬-п╩п╦я│я▄п╦, п╫п╟ п╡п╣я│я▀ п╨п╩п╟п╢я▐ п╥п╫п╟я┤п╣п╫я▄п╣ я│п╩п╬п╡,
+<l><space dim="horizontal" extent="8 letters">п▓я│п╣ я┘п╦я┌я─п╬я│я┌я▄я▌, п╬п╠п╦п╫я▐п╨п╟п╪п╦,
+<l><space dim="horizontal" extent="5 letters">п▓я│п╣ пЁп╩п╟п╢п╨п╦п╪п╦ п©я─п╦п╢п╡п╬я─п╫я▀п╪п╦
+я│п╩п╬п╡п╟п╪п╦:
+<l><q>п²п╣ п╠я┐п╢п╣я┌ п╩п╦ п╣пЁп╬ п╡п╣п╩п╦я┤п╣я│я┌п╡я┐ п╡п╬ п╡я─п╣п╢,
+<l><space dim="horizontal" extent="5 letters">п╖я┌п╬ п╥п╡п╣я─п╦ п╡п╩п╟я│я┌я▄ я┌п╟п╨я┐я▌
+п©п╬п╩я┐я┤п╦п╩п╦?</q>
+<l>п²п╬ я│п╨п╬п╩я▄п╨п╬ я┘п╦я┌я─п╬я│я┌п╦ п╣п╣ п╫п╦ я┌п╬п╫п╨п╦ п╠я▀п╩п╦,
+<l><name type="character">п⌡п╣п╡</name>п╣п╧, п╬п╢п╫п╟п╨п╬ п╤п╣, п╫п╟ я┌п╬ п╫п╦ п╢п╟, п╫п╦ п╫п╣я┌.
+<l><space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟ п╤, п©п╬ п╩я▄п╡п╬п╡я┐
+я─п╟я│я┤п╦я│п╩п╣п╫я▄я▌,
+<l>пёп╨п╟п╥ я┐п╤ п╢п╣п╧я│я┌п╡п╦п╣ я│п╡п╬п╣ п╢п╬п╡п╬п╩я▄п╫п╬ п╡п╥я▐п╩,
+<l>п÷п╬ п╡я▀я│п╬я┤п╟п╧я┬п╣п╪я┐ я┌п╬пЁп╢п╟ я│п╬п╦п╥п╡п╬п╩п╣п╫я▄я▌
+<l><name type="character">п⌡п╣п╡</name>п╡я│п╣п╪ п╥п╡п╣я─я▐п╪ п╨ я│п╣п╠п╣ я▐п╡п╦я┌я▄я│я▐ я┐п╨п╟п╥п╟п╩.
 <lg1 type="group">
-<l>Тут те, которые жирняе всех казались,
-<l><space dim="horizontal" extent="8 letters">Назад уже не возвращались.
-<l><q>Вот я чего хотел, -<name type="character"
-reg="лисица">лисице</name><name type="character">лев</name>сказал,-
-<l>Когда о вольности указ такой я дал.
-<l>Чем жир мне по клочкам сбирать с зверей трудиться,
-<l><space dim="horizontal" extent="8 letters">Я лучше дам ему скопиться.
-<l><space dim="horizontal" extent="8 letters">Султан ведь также позволяет
-<l><space dim="horizontal" extent="8 letters">Пашам с народа частно драть,
-<l>А сам уж кучами потом с пашей сдирает;
-<l>Так я и рассудил пример с султана взять</q> .
-<l>Хотела было тут <name type="character">лисица</name>в возраженье
-<l><space dim="horizontal" extent="8 letters">Сказать свое об этом мненье
-<l>И изъясниться<name type="character" reg="лев">льву</name>о следствии
-худом,
-<l>Да вобразила то, что говорит со<name type="character"
-reg="лев">львом</name>...
+<l>п╒я┐я┌ я┌п╣, п╨п╬я┌п╬я─я▀п╣ п╤п╦я─п╫я▐п╣ п╡я│п╣я┘ п╨п╟п╥п╟п╩п╦я│я▄,
+<l><space dim="horizontal" extent="8 letters">п²п╟п╥п╟п╢ я┐п╤п╣ п╫п╣ п╡п╬п╥п╡я─п╟я┴п╟п╩п╦я│я▄.
+<l><q>п▓п╬я┌ я▐ я┤п╣пЁп╬ я┘п╬я┌п╣п╩, -<name type="character"
+reg="п╩п╦я│п╦я├п╟">п╩п╦я│п╦я├п╣</name><name type="character">п╩п╣п╡</name>я│п╨п╟п╥п╟п╩,-
+<l>п п╬пЁп╢п╟ п╬ п╡п╬п╩я▄п╫п╬я│я┌п╦ я┐п╨п╟п╥ я┌п╟п╨п╬п╧ я▐ п╢п╟п╩.
+<l>п╖п╣п╪ п╤п╦я─ п╪п╫п╣ п©п╬ п╨п╩п╬я┤п╨п╟п╪ я│п╠п╦я─п╟я┌я▄ я│ п╥п╡п╣я─п╣п╧ я┌я─я┐п╢п╦я┌я▄я│я▐,
+<l><space dim="horizontal" extent="8 letters">п╞ п╩я┐я┤я┬п╣ п╢п╟п╪ п╣п╪я┐ я│п╨п╬п©п╦я┌я▄я│я▐.
+<l><space dim="horizontal" extent="8 letters">п║я┐п╩я┌п╟п╫ п╡п╣п╢я▄ я┌п╟п╨п╤п╣ п©п╬п╥п╡п╬п╩я▐п╣я┌
+<l><space dim="horizontal" extent="8 letters">п÷п╟я┬п╟п╪ я│ п╫п╟я─п╬п╢п╟ я┤п╟я│я┌п╫п╬ п╢я─п╟я┌я▄,
+<l>п░ я│п╟п╪ я┐п╤ п╨я┐я┤п╟п╪п╦ п©п╬я┌п╬п╪ я│ п©п╟я┬п╣п╧ я│п╢п╦я─п╟п╣я┌;
+<l>п╒п╟п╨ я▐ п╦ я─п╟я│я│я┐п╢п╦п╩ п©я─п╦п╪п╣я─ я│ я│я┐п╩я┌п╟п╫п╟ п╡п╥я▐я┌я▄</q> .
+<l>п╔п╬я┌п╣п╩п╟ п╠я▀п╩п╬ я┌я┐я┌ <name type="character">п╩п╦я│п╦я├п╟</name>п╡ п╡п╬п╥я─п╟п╤п╣п╫я▄п╣
+<l><space dim="horizontal" extent="8 letters">п║п╨п╟п╥п╟я┌я▄ я│п╡п╬п╣ п╬п╠ я█я┌п╬п╪ п╪п╫п╣п╫я▄п╣
+<l>п≤ п╦п╥я┼я▐я│п╫п╦я┌я▄я│я▐<name type="character" reg="п╩п╣п╡">п╩я▄п╡я┐</name>п╬ я│п╩п╣п╢я│я┌п╡п╦п╦
+я┘я┐п╢п╬п╪,
+<l>п■п╟ п╡п╬п╠я─п╟п╥п╦п╩п╟ я┌п╬, я┤я┌п╬ пЁп╬п╡п╬я─п╦я┌ я│п╬<name type="character"
+reg="п╩п╣п╡">п╩я▄п╡п╬п╪</name>...
 <lg1 type="group">
-<l><space dim="horizontal" extent="8 letters">А мне хотелось бы,
-признаться,
-<l>Здесь об откупщиках словцо одно сказать,
-<l>Что также и они в число пашей годятся;
-<l>Да также думаю по-лисьи промолчать.
+<l><space dim="horizontal" extent="8 letters">п░ п╪п╫п╣ я┘п╬я┌п╣п╩п╬я│я▄ п╠я▀,
+п©я─п╦п╥п╫п╟я┌я▄я│я▐,
+<l>п≈п╢п╣я│я▄ п╬п╠ п╬я┌п╨я┐п©я┴п╦п╨п╟я┘ я│п╩п╬п╡я├п╬ п╬п╢п╫п╬ я│п╨п╟п╥п╟я┌я▄,
+<l>п╖я┌п╬ я┌п╟п╨п╤п╣ п╦ п╬п╫п╦ п╡ я┤п╦я│п╩п╬ п©п╟я┬п╣п╧ пЁп╬п╢я▐я┌я│я▐;
+<l>п■п╟ я┌п╟п╨п╤п╣ п╢я┐п╪п╟я▌ п©п╬-п╩п╦я│я▄п╦ п©я─п╬п╪п╬п╩я┤п╟я┌я▄.
 </body>
   </text>
 </tei.2>

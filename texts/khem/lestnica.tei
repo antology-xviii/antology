@@ -24,43 +24,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Лестница </TITLE>
+        <TITLE>п⌡п╣я│я┌п╫п╦я├п╟ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И.Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤.п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Лестница</TITLE>
+                <TITLE>п⌡п╣я│я┌п╫п╦я├п╟</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -71,7 +71,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -79,29 +79,29 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="бесполезный труд" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="государственная иерархия" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п╠п╣я│п©п╬п╩п╣п╥п╫я▀п╧ я┌я─я┐п╢" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="пЁп╬я│я┐п╢п╟я─я│я┌п╡п╣п╫п╫п╟я▐ п╦п╣я─п╟я─я┘п╦я▐" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="12 letters">Всё надобно стараться
-<L>С погребной стороны за дело приниматься;
-<L>А если иначе, все будет без пути
+<L> <space dim="horizontal" extent="12 letters">п▓я│я▒ п╫п╟п╢п╬п╠п╫п╬ я│я┌п╟я─п╟я┌я▄я│я▐
+<L>п║ п©п╬пЁя─п╣п╠п╫п╬п╧ я│я┌п╬я─п╬п╫я▀ п╥п╟ п╢п╣п╩п╬ п©я─п╦п╫п╦п╪п╟я┌я▄я│я▐;
+<L>п░ п╣я│п╩п╦ п╦п╫п╟я┤п╣, п╡я│п╣ п╠я┐п╢п╣я┌ п╠п╣п╥ п©я┐я┌п╦
 <LG1 TYPE="stanza">
-<L><name type="character"> Хозяин</name>
-некакий стал лестницу мести;
-<L> <space dim="horizontal" extent="8 letters">Да начал, не умея взяться,
-<L>С ступеней нижних месть. Хоть с нижней сор сметет,
+<L><name type="character"> п╔п╬п╥я▐п╦п╫</name>
+п╫п╣п╨п╟п╨п╦п╧ я│я┌п╟п╩ п╩п╣я│я┌п╫п╦я├я┐ п╪п╣я│я┌п╦;
+<L> <space dim="horizontal" extent="8 letters">п■п╟ п╫п╟я┤п╟п╩, п╫п╣ я┐п╪п╣я▐ п╡п╥я▐я┌я▄я│я▐,
+<L>п║ я│я┌я┐п©п╣п╫п╣п╧ п╫п╦п╤п╫п╦я┘ п╪п╣я│я┌я▄. п╔п╬я┌я▄ я│ п╫п╦п╤п╫п╣п╧ я│п╬я─ я│п╪п╣я┌п╣я┌,
  <LG1 TYPE="stanza">
-<L>А с верхней сор опять на нижнюю спадет.
-<L><q>Не бестолков ли ты? - ему тут говорили,
-<L> <space dim="horizontal" extent="8 letters">Которые при этом были. -
-<L> <space dim="horizontal" extent="8 letters">Кто снизу лестницу
-метет?</q>
+<L>п░ я│ п╡п╣я─я┘п╫п╣п╧ я│п╬я─ п╬п©я▐я┌я▄ п╫п╟ п╫п╦п╤п╫я▌я▌ я│п©п╟п╢п╣я┌.
+<L><q>п²п╣ п╠п╣я│я┌п╬п╩п╨п╬п╡ п╩п╦ я┌я▀? - п╣п╪я┐ я┌я┐я┌ пЁп╬п╡п╬я─п╦п╩п╦,
+<L> <space dim="horizontal" extent="8 letters">п п╬я┌п╬я─я▀п╣ п©я─п╦ я█я┌п╬п╪ п╠я▀п╩п╦. -
+<L> <space dim="horizontal" extent="8 letters">п я┌п╬ я│п╫п╦п╥я┐ п╩п╣я│я┌п╫п╦я├я┐
+п╪п╣я┌п╣я┌?</q>
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="12 letters">На что бы походило,
-<L>Когда б в правлении, в каком бы то ни было,
-<L>Не с вышних степеней, а с нижних начинать
-<L> <space dim="horizontal" extent="12 letters">Порядок наблюдать?
+<L> <space dim="horizontal" extent="12 letters">п²п╟ я┤я┌п╬ п╠я▀ п©п╬я┘п╬п╢п╦п╩п╬,
+<L>п п╬пЁп╢п╟ п╠ п╡ п©я─п╟п╡п╩п╣п╫п╦п╦, п╡ п╨п╟п╨п╬п╪ п╠я▀ я┌п╬ п╫п╦ п╠я▀п╩п╬,
+<L>п²п╣ я│ п╡я▀я┬п╫п╦я┘ я│я┌п╣п©п╣п╫п╣п╧, п╟ я│ п╫п╦п╤п╫п╦я┘ п╫п╟я┤п╦п╫п╟я┌я▄
+<L> <space dim="horizontal" extent="12 letters">п÷п╬я─я▐п╢п╬п╨ п╫п╟п╠п╩я▌п╢п╟я┌я▄?
 </BODY>
 </TEXT>
 </TEI.2>

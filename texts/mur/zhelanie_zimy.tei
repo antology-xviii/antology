@@ -27,39 +27,39 @@
 
       <TITLESTMT>
 
-        <TITLE>Желание зимы </TITLE>
+        <TITLE>п√п╣п╩п╟п╫п╦п╣ п╥п╦п╪я▀ </TITLE>
 
         <AUTHOR>
 
           <PERSNAME>
 
-            <FORENAME>Михаил</FORENAME>
+            <FORENAME>п°п╦я┘п╟п╦п╩</FORENAME>
 
-            <FORENAME TYPE="patronym">Никитич</FORENAME>
+            <FORENAME TYPE="patronym">п²п╦п╨п╦я┌п╦я┤</FORENAME>
 
-            <SURNAME>Муравьев</SURNAME>
+            <SURNAME>п°я┐я─п╟п╡я▄п╣п╡</SURNAME>
 
             </PERSNAME>
 
           </AUTHOR>
 
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
 
         </TITLESTMT>
 
       <PUBLICATIONSTMT>
 
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
 
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
 
         </PUBLICATIONSTMT>
 
       <SERIESSTMT>
 
-        <TITLE>Электронная антология &quot;Русская литература XVIII
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
 
-          века&quot;</TITLE>
+          п╡п╣п╨п╟&quot;</TITLE>
 
         </SERIESSTMT>
 
@@ -69,19 +69,19 @@
 
           <TITLESTMT>
 
-            <TITLE>М. Н.  Муравьев. Стихотворения</TITLE>
+            <TITLE>п°. п².  п°я┐я─п╟п╡я▄п╣п╡. п║я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦я▐</TITLE>
 
-            <EDITOR>Л. И. Кулакова </EDITOR>
+            <EDITOR>п⌡. п≤. п я┐п╩п╟п╨п╬п╡п╟ </EDITOR>
 
             </TITLESTMT>
 
           <PUBLICATIONSTMT>
 
-            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
 
-         <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-                библиотека</XREF></DISTRIBUTOR>
-<PUBPLACE>Л.</PUBPLACE>
+         <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+                п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+<PUBPLACE>п⌡.</PUBPLACE>
 
             <DATE>1967</DATE>
 
@@ -93,13 +93,13 @@
 
               <TITLESTMT>
 
-                <TITLE>Желание зимы</TITLE>
+                <TITLE>п√п╣п╩п╟п╫п╦п╣ п╥п╦п╪я▀</TITLE>
 
                 </TITLESTMT>
 
               <PUBLICATIONSTMT>
 
-                <PUBLISHER>Санкт-петербургский вестник. Ч. 2. </PUBLISHER>
+                <PUBLISHER>п║п╟п╫п╨я┌-п©п╣я┌п╣я─п╠я┐я─пЁя│п╨п╦п╧ п╡п╣я│я┌п╫п╦п╨. п╖. 2. </PUBLISHER>
 
                 <DATE>1778</DATE>
 
@@ -135,76 +135,76 @@
 
   <TEXT>
 
-    <SPAN FROM="WHOLE" VALUE="природа" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п©я─п╦я─п╬п╢п╟" TYPE="theme">
 
-    <SPAN FROM="WHOLE" VALUE="смерть" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я│п╪п╣я─я┌я▄" TYPE="theme">
 
-    <SPAN FROM="WHOLE" VALUE="зима" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="п╥п╦п╪п╟" TYPE="theme">
 
-<BODY ID="WHOLE"><DIV0 RHYME="AbAbCdCd " MET="ЯРз 63636363">
-
-<LG1 TYPE="stanza">
-
-<L>Проникнув из земли, былинка жить не чает
-<L><space dim="horizontal" extent="7 letters"> И клонится, томна,
-<L>И кажется, сама природа примечает,
-<L><space dim="horizontal" extent="7 letters"> Что рушится она.
-<L>Вотще ей иногда ласкает день прекрасный,
-<L><space dim="horizontal" extent="7 letters"> Чтоб после обмануть;
-<L>Она уж, отступясь, свой видит труд напрасный
-<L><space dim="horizontal" extent="7 letters"> И хочет отдохнуть.
-<LG1 TYPE="stanza">
-
-<L>На листвиях цветов их нежны нити стерты,
-<L><space dim="horizontal" extent="7 letters"> Объемля стебли, мрут.
-<L>Матерых трупы древ на землю ниц простерты,
-<L><space dim="horizontal" extent="7 letters"> Младой природы труд.
-<L>Страдание земли зрит солнце потаенно.
-<L><space dim="horizontal" extent="7 letters"> Се суть <name type="mythologic" reg="Борей">Борея</name> дни.
-<L>Во мрачны облака всё небо облеченно,
-<L><space dim="horizontal" extent="7 letters"> И ходят вкруг они.
+<BODY ID="WHOLE"><DIV0 RHYME="AbAbCdCd " MET="п╞п═п╥ 63636363">
 
 <LG1 TYPE="stanza">
 
+<L>п÷я─п╬п╫п╦п╨п╫я┐п╡ п╦п╥ п╥п╣п╪п╩п╦, п╠я▀п╩п╦п╫п╨п╟ п╤п╦я┌я▄ п╫п╣ я┤п╟п╣я┌
+<L><space dim="horizontal" extent="7 letters"> п≤ п╨п╩п╬п╫п╦я┌я│я▐, я┌п╬п╪п╫п╟,
+<L>п≤ п╨п╟п╤п╣я┌я│я▐, я│п╟п╪п╟ п©я─п╦я─п╬п╢п╟ п©я─п╦п╪п╣я┤п╟п╣я┌,
+<L><space dim="horizontal" extent="7 letters"> п╖я┌п╬ я─я┐я┬п╦я┌я│я▐ п╬п╫п╟.
+<L>п▓п╬я┌я┴п╣ п╣п╧ п╦п╫п╬пЁп╢п╟ п╩п╟я│п╨п╟п╣я┌ п╢п╣п╫я▄ п©я─п╣п╨я─п╟я│п╫я▀п╧,
+<L><space dim="horizontal" extent="7 letters"> п╖я┌п╬п╠ п©п╬я│п╩п╣ п╬п╠п╪п╟п╫я┐я┌я▄;
+<L>п·п╫п╟ я┐п╤, п╬я┌я│я┌я┐п©я▐я│я▄, я│п╡п╬п╧ п╡п╦п╢п╦я┌ я┌я─я┐п╢ п╫п╟п©я─п╟я│п╫я▀п╧
+<L><space dim="horizontal" extent="7 letters"> п≤ я┘п╬я┤п╣я┌ п╬я┌п╢п╬я┘п╫я┐я┌я▄.
+<LG1 TYPE="stanza">
 
-<L>Приди скорей, зима, и ветров заговоры,
-<L><space dim="horizontal" extent="7 letters"> Владычица, низринь;
-<L>Меж ними рождена решить их буйны споры,
-<L><space dim="horizontal" extent="7 letters"> Ослушных в бездны кинь.
-<L>Стели свой нежный пух воздушною тропою,
-<L><space dim="horizontal" extent="7 letters"> С зарею иней сей
-<L>И с играми спеши со пляшущей толпою
-<L><space dim="horizontal" extent="7 letters"> Со праздностью своей.
+<L>п²п╟ п╩п╦я│я┌п╡п╦я▐я┘ я├п╡п╣я┌п╬п╡ п╦я┘ п╫п╣п╤п╫я▀ п╫п╦я┌п╦ я│я┌п╣я─я┌я▀,
+<L><space dim="horizontal" extent="7 letters"> п·п╠я┼п╣п╪п╩я▐ я│я┌п╣п╠п╩п╦, п╪я─я┐я┌.
+<L>п°п╟я┌п╣я─я▀я┘ я┌я─я┐п©я▀ п╢я─п╣п╡ п╫п╟ п╥п╣п╪п╩я▌ п╫п╦я├ п©я─п╬я│я┌п╣я─я┌я▀,
+<L><space dim="horizontal" extent="7 letters"> п°п╩п╟п╢п╬п╧ п©я─п╦я─п╬п╢я▀ я┌я─я┐п╢.
+<L>п║я┌я─п╟п╢п╟п╫п╦п╣ п╥п╣п╪п╩п╦ п╥я─п╦я┌ я│п╬п╩п╫я├п╣ п©п╬я┌п╟п╣п╫п╫п╬.
+<L><space dim="horizontal" extent="7 letters"> п║п╣ я│я┐я┌я▄ <name type="mythologic" reg="п▒п╬я─п╣п╧">п▒п╬я─п╣я▐</name> п╢п╫п╦.
+<L>п▓п╬ п╪я─п╟я┤п╫я▀ п╬п╠п╩п╟п╨п╟ п╡я│я▒ п╫п╣п╠п╬ п╬п╠п╩п╣я┤п╣п╫п╫п╬,
+<L><space dim="horizontal" extent="7 letters"> п≤ я┘п╬п╢я▐я┌ п╡п╨я─я┐пЁ п╬п╫п╦.
+
 <LG1 TYPE="stanza">
 
 
-<L>Поля их белизной луч солнца заражают,
-<L><space dim="horizontal" extent="7 letters"> К себе его сводя;
-<L>Воздушны шарики друг друга отражают
-<L><space dim="horizontal" extent="7 letters"> И скачут, с ним сходя.
-<L>О, как я, восхищен, влеку свое дыханье!
-<L><space dim="horizontal" extent="7 letters"> Сверши, зима, сверши!
-<L>Лишь крылья ты сплеснешь, пойдет их осязанье
-<L><space dim="horizontal" extent="7 letters"> По жилам до души.
-<L>Но что? не гласы ль мне сдаются вопиющих?
-<L><space dim="horizontal" extent="7 letters"> Не се ли рога звук?
-<L>Дианиных подруг я зрю, <name type="mythologic" reg="богиня">богинь</name>
+<L>п÷я─п╦п╢п╦ я│п╨п╬я─п╣п╧, п╥п╦п╪п╟, п╦ п╡п╣я┌я─п╬п╡ п╥п╟пЁп╬п╡п╬я─я▀,
+<L><space dim="horizontal" extent="7 letters"> п▓п╩п╟п╢я▀я┤п╦я├п╟, п╫п╦п╥я─п╦п╫я▄;
+<L>п°п╣п╤ п╫п╦п╪п╦ я─п╬п╤п╢п╣п╫п╟ я─п╣я┬п╦я┌я▄ п╦я┘ п╠я┐п╧п╫я▀ я│п©п╬я─я▀,
+<L><space dim="horizontal" extent="7 letters"> п·я│п╩я┐я┬п╫я▀я┘ п╡ п╠п╣п╥п╢п╫я▀ п╨п╦п╫я▄.
+<L>п║я┌п╣п╩п╦ я│п╡п╬п╧ п╫п╣п╤п╫я▀п╧ п©я┐я┘ п╡п╬п╥п╢я┐я┬п╫п╬я▌ я┌я─п╬п©п╬я▌,
+<L><space dim="horizontal" extent="7 letters"> п║ п╥п╟я─п╣я▌ п╦п╫п╣п╧ я│п╣п╧
+<L>п≤ я│ п╦пЁя─п╟п╪п╦ я│п©п╣я┬п╦ я│п╬ п©п╩я▐я┬я┐я┴п╣п╧ я┌п╬п╩п©п╬я▌
+<L><space dim="horizontal" extent="7 letters"> п║п╬ п©я─п╟п╥п╢п╫п╬я│я┌я▄я▌ я│п╡п╬п╣п╧.
+<LG1 TYPE="stanza">
 
 
-бегущих,
-<L><space dim="horizontal" extent="7 letters"> Златой на раме лук.
-<L>Ты медлишь здесь, олень, а рок твой близко ходит;
-<L><space dim="horizontal" extent="7 letters"> Оставь свой сладкий мох.
-<L>Пугливый житель рощ напрасно след отводит:
-<L><space dim="horizontal" extent="7 letters"> Издаст последний вздох.
-<L>Любови не совсем отходят в заточенье
-<L><space dim="horizontal" extent="7 letters"> И дышат и зимой;
-<L>Не та же ль <name type="mythologic">Хлоя</name> днесь и <name type="mythologic" reg="грация"> граций</name> ополченье
-<L><space dim="horizontal" extent="7 letters"> Опасно ей самой?
-<L>Блюди, чтобы на дни мои не искосился
-<L><space dim="horizontal" extent="7 letters"> Завистливый <name type="mythologic">Сатурн</name>,
-<L>Зима, чтоб твой певец спокоен покусился
-<L><space dim="horizontal" extent="7 letters"> Кичливый вздеть котурн.
+<L>п÷п╬п╩я▐ п╦я┘ п╠п╣п╩п╦п╥п╫п╬п╧ п╩я┐я┤ я│п╬п╩п╫я├п╟ п╥п╟я─п╟п╤п╟я▌я┌,
+<L><space dim="horizontal" extent="7 letters"> п  я│п╣п╠п╣ п╣пЁп╬ я│п╡п╬п╢я▐;
+<L>п▓п╬п╥п╢я┐я┬п╫я▀ я┬п╟я─п╦п╨п╦ п╢я─я┐пЁ п╢я─я┐пЁп╟ п╬я┌я─п╟п╤п╟я▌я┌
+<L><space dim="horizontal" extent="7 letters"> п≤ я│п╨п╟я┤я┐я┌, я│ п╫п╦п╪ я│я┘п╬п╢я▐.
+<L>п·, п╨п╟п╨ я▐, п╡п╬я│я┘п╦я┴п╣п╫, п╡п╩п╣п╨я┐ я│п╡п╬п╣ п╢я▀я┘п╟п╫я▄п╣!
+<L><space dim="horizontal" extent="7 letters"> п║п╡п╣я─я┬п╦, п╥п╦п╪п╟, я│п╡п╣я─я┬п╦!
+<L>п⌡п╦я┬я▄ п╨я─я▀п╩я▄я▐ я┌я▀ я│п©п╩п╣я│п╫п╣я┬я▄, п©п╬п╧п╢п╣я┌ п╦я┘ п╬я│я▐п╥п╟п╫я▄п╣
+<L><space dim="horizontal" extent="7 letters"> п÷п╬ п╤п╦п╩п╟п╪ п╢п╬ п╢я┐я┬п╦.
+<L>п²п╬ я┤я┌п╬? п╫п╣ пЁп╩п╟я│я▀ п╩я▄ п╪п╫п╣ я│п╢п╟я▌я┌я│я▐ п╡п╬п©п╦я▌я┴п╦я┘?
+<L><space dim="horizontal" extent="7 letters"> п²п╣ я│п╣ п╩п╦ я─п╬пЁп╟ п╥п╡я┐п╨?
+<L>п■п╦п╟п╫п╦п╫я▀я┘ п©п╬п╢я─я┐пЁ я▐ п╥я─я▌, <name type="mythologic" reg="п╠п╬пЁп╦п╫я▐">п╠п╬пЁп╦п╫я▄</name>
+
+
+п╠п╣пЁя┐я┴п╦я┘,
+<L><space dim="horizontal" extent="7 letters"> п≈п╩п╟я┌п╬п╧ п╫п╟ я─п╟п╪п╣ п╩я┐п╨.
+<L>п╒я▀ п╪п╣п╢п╩п╦я┬я▄ п╥п╢п╣я│я▄, п╬п╩п╣п╫я▄, п╟ я─п╬п╨ я┌п╡п╬п╧ п╠п╩п╦п╥п╨п╬ я┘п╬п╢п╦я┌;
+<L><space dim="horizontal" extent="7 letters"> п·я│я┌п╟п╡я▄ я│п╡п╬п╧ я│п╩п╟п╢п╨п╦п╧ п╪п╬я┘.
+<L>п÷я┐пЁп╩п╦п╡я▀п╧ п╤п╦я┌п╣п╩я▄ я─п╬я┴ п╫п╟п©я─п╟я│п╫п╬ я│п╩п╣п╢ п╬я┌п╡п╬п╢п╦я┌:
+<L><space dim="horizontal" extent="7 letters"> п≤п╥п╢п╟я│я┌ п©п╬я│п╩п╣п╢п╫п╦п╧ п╡п╥п╢п╬я┘.
+<L>п⌡я▌п╠п╬п╡п╦ п╫п╣ я│п╬п╡я│п╣п╪ п╬я┌я┘п╬п╢я▐я┌ п╡ п╥п╟я┌п╬я┤п╣п╫я▄п╣
+<L><space dim="horizontal" extent="7 letters"> п≤ п╢я▀я┬п╟я┌ п╦ п╥п╦п╪п╬п╧;
+<L>п²п╣ я┌п╟ п╤п╣ п╩я▄ <name type="mythologic">п╔п╩п╬я▐</name> п╢п╫п╣я│я▄ п╦ <name type="mythologic" reg="пЁя─п╟я├п╦я▐"> пЁя─п╟я├п╦п╧</name> п╬п©п╬п╩я┤п╣п╫я▄п╣
+<L><space dim="horizontal" extent="7 letters"> п·п©п╟я│п╫п╬ п╣п╧ я│п╟п╪п╬п╧?
+<L>п▒п╩я▌п╢п╦, я┤я┌п╬п╠я▀ п╫п╟ п╢п╫п╦ п╪п╬п╦ п╫п╣ п╦я│п╨п╬я│п╦п╩я│я▐
+<L><space dim="horizontal" extent="7 letters"> п≈п╟п╡п╦я│я┌п╩п╦п╡я▀п╧ <name type="mythologic">п║п╟я┌я┐я─п╫</name>,
+<L>п≈п╦п╪п╟, я┤я┌п╬п╠ я┌п╡п╬п╧ п©п╣п╡п╣я├ я│п©п╬п╨п╬п╣п╫ п©п╬п╨я┐я│п╦п╩я│я▐
+<L><space dim="horizontal" extent="7 letters"> п п╦я┤п╩п╦п╡я▀п╧ п╡п╥п╢п╣я┌я▄ п╨п╬я┌я┐я─п╫.
 
 </BODY>
 

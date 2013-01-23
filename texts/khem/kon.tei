@@ -23,43 +23,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Конь верховый</TITLE>
+        <TITLE>п п╬п╫я▄ п╡п╣я─я┘п╬п╡я▀п╧</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤. п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Конь верховый</TITLE>
+                <TITLE>п п╬п╫я▄ п╡п╣я─я┘п╬п╡я▀п╧</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1779</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -70,7 +70,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE>неизвестно </DATE>
+        <DATE>п╫п╣п╦п╥п╡п╣я│я┌п╫п╬ </DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -78,41 +78,41 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="тунеядство и хвастовство богатых"
+    <SPAN FROM="WHOLE" VALUE="я┌я┐п╫п╣я▐п╢я│я┌п╡п╬ п╦ я┘п╡п╟я│я┌п╬п╡я│я┌п╡п╬ п╠п╬пЁп╟я┌я▀я┘"
 TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="трудолюбие и смирение бедных" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="я┌я─я┐п╢п╬п╩я▌п╠п╦п╣ п╦ я│п╪п╦я─п╣п╫п╦п╣ п╠п╣п╢п╫я▀я┘" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <lg1>
-<L> Верховый гордый <name type="character"> конь </name>, увидя <name
-type="character" reg="кляча"> клячу</name>
-в поле
-<L> <space dim="horizontal" extent="12 letters">В работе под сохой
-<L> <space dim="horizontal" extent="12 letters">И в неге не такой,
-<L> <space dim="horizontal" extent="8 letters">И не в уборе, и не в холе,
-<L> Какую гордый <name type="character">конь</name> у барина имел,
-<L> С пренебрежением на <name type="character" reg="кляча"> клячу</name>
-посмотрел,
-<L> <space dim="horizontal" extent="4 letters">Пред <name type="character"
-reg="кляча"> клячею</name> крестьянскою бодрился
-<L> И хвастал, чванился, и тем и сем хвалился.
-<L> <space dim="horizontal" extent="8 letters"><q>Что? - говорит он <name
-type="character" reg="кляча"> кляче</name>той. -</q>
-<q><L> Бывал ли на тебе убор когда такой,
-<L> <space dim="horizontal" extent="8 letters">Каков убор ты видишь мой?
-<L> И знаешь ли, меня как всякий почитает?
-<L> Всяк, кто мне встретится, дорогу уступает,
-<L> Всяк обо мне твердит и всякий похваляет.
-<L> <space dim="horizontal" extent="8 letters">Тебя же кто на свете
-знает?</q>
-<L> <space dim="horizontal" extent="8 letters">Несносна <name
-type="character" reg="кляча"> кляче</name> спесь<name type="character"
-reg="конь"> коня</name>.
-<q><L> Пошел, хвастун! - ему на это отвечает. -
-<L> <space dim="horizontal" extent="8 letters">Оставь с покоем ты меня.
-<L> <space dim="horizontal" extent="12 letters">Тебе ль со мной считаться
-<L> <space dim="horizontal" extent="12 letters">И мною насмехаться?
-<L> <space dim="horizontal" extent="8 letters">Не так бы хвастать ты умел,
-<L> Когда бы ты овса моих трудов не ел</q>.
+<L> п▓п╣я─я┘п╬п╡я▀п╧ пЁп╬я─п╢я▀п╧ <name type="character"> п╨п╬п╫я▄ </name>, я┐п╡п╦п╢я▐ <name
+type="character" reg="п╨п╩я▐я┤п╟"> п╨п╩я▐я┤я┐</name>
+п╡ п©п╬п╩п╣
+<L> <space dim="horizontal" extent="12 letters">п▓ я─п╟п╠п╬я┌п╣ п©п╬п╢ я│п╬я┘п╬п╧
+<L> <space dim="horizontal" extent="12 letters">п≤ п╡ п╫п╣пЁп╣ п╫п╣ я┌п╟п╨п╬п╧,
+<L> <space dim="horizontal" extent="8 letters">п≤ п╫п╣ п╡ я┐п╠п╬я─п╣, п╦ п╫п╣ п╡ я┘п╬п╩п╣,
+<L> п п╟п╨я┐я▌ пЁп╬я─п╢я▀п╧ <name type="character">п╨п╬п╫я▄</name> я┐ п╠п╟я─п╦п╫п╟ п╦п╪п╣п╩,
+<L> п║ п©я─п╣п╫п╣п╠я─п╣п╤п╣п╫п╦п╣п╪ п╫п╟ <name type="character" reg="п╨п╩я▐я┤п╟"> п╨п╩я▐я┤я┐</name>
+п©п╬я│п╪п╬я┌я─п╣п╩,
+<L> <space dim="horizontal" extent="4 letters">п÷я─п╣п╢ <name type="character"
+reg="п╨п╩я▐я┤п╟"> п╨п╩я▐я┤п╣я▌</name> п╨я─п╣я│я┌я▄я▐п╫я│п╨п╬я▌ п╠п╬п╢я─п╦п╩я│я▐
+<L> п≤ я┘п╡п╟я│я┌п╟п╩, я┤п╡п╟п╫п╦п╩я│я▐, п╦ я┌п╣п╪ п╦ я│п╣п╪ я┘п╡п╟п╩п╦п╩я│я▐.
+<L> <space dim="horizontal" extent="8 letters"><q>п╖я┌п╬? - пЁп╬п╡п╬я─п╦я┌ п╬п╫ <name
+type="character" reg="п╨п╩я▐я┤п╟"> п╨п╩я▐я┤п╣</name>я┌п╬п╧. -</q>
+<q><L> п▒я▀п╡п╟п╩ п╩п╦ п╫п╟ я┌п╣п╠п╣ я┐п╠п╬я─ п╨п╬пЁп╢п╟ я┌п╟п╨п╬п╧,
+<L> <space dim="horizontal" extent="8 letters">п п╟п╨п╬п╡ я┐п╠п╬я─ я┌я▀ п╡п╦п╢п╦я┬я▄ п╪п╬п╧?
+<L> п≤ п╥п╫п╟п╣я┬я▄ п╩п╦, п╪п╣п╫я▐ п╨п╟п╨ п╡я│я▐п╨п╦п╧ п©п╬я┤п╦я┌п╟п╣я┌?
+<L> п▓я│я▐п╨, п╨я┌п╬ п╪п╫п╣ п╡я│я┌я─п╣я┌п╦я┌я│я▐, п╢п╬я─п╬пЁя┐ я┐я│я┌я┐п©п╟п╣я┌,
+<L> п▓я│я▐п╨ п╬п╠п╬ п╪п╫п╣ я┌п╡п╣я─п╢п╦я┌ п╦ п╡я│я▐п╨п╦п╧ п©п╬я┘п╡п╟п╩я▐п╣я┌.
+<L> <space dim="horizontal" extent="8 letters">п╒п╣п╠я▐ п╤п╣ п╨я┌п╬ п╫п╟ я│п╡п╣я┌п╣
+п╥п╫п╟п╣я┌?</q>
+<L> <space dim="horizontal" extent="8 letters">п²п╣я│п╫п╬я│п╫п╟ <name
+type="character" reg="п╨п╩я▐я┤п╟"> п╨п╩я▐я┤п╣</name> я│п©п╣я│я▄<name type="character"
+reg="п╨п╬п╫я▄"> п╨п╬п╫я▐</name>.
+<q><L> п÷п╬я┬п╣п╩, я┘п╡п╟я│я┌я┐п╫! - п╣п╪я┐ п╫п╟ я█я┌п╬ п╬я┌п╡п╣я┤п╟п╣я┌. -
+<L> <space dim="horizontal" extent="8 letters">п·я│я┌п╟п╡я▄ я│ п©п╬п╨п╬п╣п╪ я┌я▀ п╪п╣п╫я▐.
+<L> <space dim="horizontal" extent="12 letters">п╒п╣п╠п╣ п╩я▄ я│п╬ п╪п╫п╬п╧ я│я┤п╦я┌п╟я┌я▄я│я▐
+<L> <space dim="horizontal" extent="12 letters">п≤ п╪п╫п╬я▌ п╫п╟я│п╪п╣я┘п╟я┌я▄я│я▐?
+<L> <space dim="horizontal" extent="8 letters">п²п╣ я┌п╟п╨ п╠я▀ я┘п╡п╟я│я┌п╟я┌я▄ я┌я▀ я┐п╪п╣п╩,
+<L> п п╬пЁп╢п╟ п╠я▀ я┌я▀ п╬п╡я│п╟ п╪п╬п╦я┘ я┌я─я┐п╢п╬п╡ п╫п╣ п╣п╩</q>.
 </lg1>
 
 </BODY>

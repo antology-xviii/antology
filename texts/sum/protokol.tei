@@ -23,45 +23,45 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Протокол</TITLE>
+        <TITLE>п÷я─п╬я┌п╬п╨п╬п╩</TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Александр</FORENAME>
-            <FORENAME TYPE="patronym">Петрович</FORENAME>
-            <SURNAME>Сумароков</SURNAME>
+            <FORENAME>п░п╩п╣п╨я│п╟п╫п╢я─</FORENAME>
+            <FORENAME TYPE="patronym">п÷п╣я┌я─п╬п╡п╦я┤</FORENAME>
+            <SURNAME>п║я┐п╪п╟я─п╬п╨п╬п╡</SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2011 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE>А. П. Сумароков. Избранные произведения</TITLE>
-            <EDITOR>П.Н. Берков</EDITOR>
+            <TITLE>п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п≤п╥п╠я─п╟п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐</TITLE>
+            <EDITOR>п÷.п². п▒п╣я─п╨п╬п╡</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
-библиотека</XREF></DISTRIBUTOR>
-            <PUBPLACE>Л. </PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
+п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <PUBPLACE>п⌡. </PUBPLACE>
             <DATE>1957</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Протокол</TITLE>
+                <TITLE>п÷я─п╬я┌п╬п╨п╬п╩</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER> А. П. Сумароков. Притчи. Книга 2.
-                  СПб.</PUBLISHER>
+                <PUBLISHER> п░. п÷. п║я┐п╪п╟я─п╬п╨п╬п╡. п÷я─п╦я┌я┤п╦. п п╫п╦пЁп╟ 2.
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1762</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -80,90 +80,90 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="воровство" TYPE="theme">
-<SPAN FROM="WHOLE" VALUE="невежество" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="Астрофич. в. р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п╡п╬я─п╬п╡я│я┌п╡п╬" TYPE="theme">
+<SPAN FROM="WHOLE" VALUE="п╫п╣п╡п╣п╤п╣я│я┌п╡п╬" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п░я│я┌я─п╬я└п╦я┤. п╡. я─." MET="п╞п▓">
 
-<L> <space dim="horizontal" extent="9 letters">Украл подьячий протокол,
+<L> <space dim="horizontal" extent="9 letters">пёп╨я─п╟п╩ п©п╬п╢я▄я▐я┤п╦п╧ п©я─п╬я┌п╬п╨п╬п╩,
 
-<L> <space dim="horizontal" extent="12 letters">А я не лицемерю,
+<L> <space dim="horizontal" extent="12 letters">п░ я▐ п╫п╣ п╩п╦я├п╣п╪п╣я─я▌,
 
-<L> <space dim="horizontal" extent="12 letters">Что этому не верю:
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬ я█я┌п╬п╪я┐ п╫п╣ п╡п╣я─я▌:
 
-<L> <space dim="horizontal" extent="6 letters">Впадет ли в таковой раскол
+<L> <space dim="horizontal" extent="6 letters">п▓п©п╟п╢п╣я┌ п╩п╦ п╡ я┌п╟п╨п╬п╡п╬п╧ я─п╟я│п╨п╬п╩
 
-<L> <space dim="horizontal" extent="6 letters">Душа такого человека!
+<L> <space dim="horizontal" extent="6 letters">п■я┐я┬п╟ я┌п╟п╨п╬пЁп╬ я┤п╣п╩п╬п╡п╣п╨п╟!
 
-<L>Подьячие того не делали в век века,
+<L>п÷п╬п╢я▄я▐я┤п╦п╣ я┌п╬пЁп╬ п╫п╣ п╢п╣п╩п╟п╩п╦ п╡ п╡п╣п╨ п╡п╣п╨п╟,
 
-<L>И может ли когда иметь подьячий страсть,
+<L>п≤ п╪п╬п╤п╣я┌ п╩п╦ п╨п╬пЁп╢п╟ п╦п╪п╣я┌я▄ п©п╬п╢я▄я▐я┤п╦п╧ я│я┌я─п╟я│я┌я▄,
 
-<L> <space dim="horizontal" extent="12 letters">Чтоб стал он красть!
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬п╠ я│я┌п╟п╩ п╬п╫ п╨я─п╟я│я┌я▄!
 
-<L> <space dim="horizontal" extent="12 letters">Нет, я не лицемерю,
+<L> <space dim="horizontal" extent="12 letters">п²п╣я┌, я▐ п╫п╣ п╩п╦я├п╣п╪п╣я─я▌,
 
-<L> <space dim="horizontal" extent="12 letters">Что этому не верю;
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬ я█я┌п╬п╪я┐ п╫п╣ п╡п╣я─я▌;
 
-<L> <space dim="horizontal" extent="12 letters">Подьяческа душа
+<L> <space dim="horizontal" extent="12 letters">п÷п╬п╢я▄я▐я┤п╣я│п╨п╟ п╢я┐я┬п╟
 
-<L> <space dim="horizontal" extent="12 letters">Гораздо хороша.
+<L> <space dim="horizontal" extent="12 letters">п⌠п╬я─п╟п╥п╢п╬ я┘п╬я─п╬я┬п╟.
 
-<L>Да <name type="character">Правда</name> говорит гораздо красноречно:
+<L>п■п╟ <name type="character">п÷я─п╟п╡п╢п╟</name> пЁп╬п╡п╬я─п╦я┌ пЁп╬я─п╟п╥п╢п╬ п╨я─п╟я│п╫п╬я─п╣я┤п╫п╬:
 
-<L>Уверила меня, что было то, конечно.
+<L>пёп╡п╣я─п╦п╩п╟ п╪п╣п╫я▐, я┤я┌п╬ п╠я▀п╩п╬ я┌п╬, п╨п╬п╫п╣я┤п╫п╬.
 
-<L> <space dim="horizontal" extent="12 letters">У <name type="character"
-reg="Правда">Правды</name> мало врак;
+<L> <space dim="horizontal" extent="12 letters">пё <name type="character"
+reg="п÷я─п╟п╡п╢п╟">п÷я─п╟п╡п╢я▀</name> п╪п╟п╩п╬ п╡я─п╟п╨;
 
-<L> <space dim="horizontal" extent="12 letters">Не спорю, было так.
+<L> <space dim="horizontal" extent="12 letters">п²п╣ я│п©п╬я─я▌, п╠я▀п╩п╬ я┌п╟п╨.
 
-<L> <space dim="horizontal" extent="12 letters">Судья того приказа
+<L> <space dim="horizontal" extent="12 letters">п║я┐п╢я▄я▐ я┌п╬пЁп╬ п©я─п╦п╨п╟п╥п╟
 
-<L> <space dim="horizontal" extent="12 letters">Был добрый человек;
+<L> <space dim="horizontal" extent="12 letters">п▒я▀п╩ п╢п╬п╠я─я▀п╧ я┤п╣п╩п╬п╡п╣п╨;
 
-<L> <space dim="horizontal" extent="12 letters">Да лишь во весь он век
+<L> <space dim="horizontal" extent="12 letters">п■п╟ п╩п╦я┬я▄ п╡п╬ п╡п╣я│я▄ п╬п╫ п╡п╣п╨
 
-<L> <space dim="horizontal" extent="9 letters">Не выучил ни одного указа,
+<L> <space dim="horizontal" extent="9 letters">п²п╣ п╡я▀я┐я┤п╦п╩ п╫п╦ п╬п╢п╫п╬пЁп╬ я┐п╨п╟п╥п╟,
 
-<L> <space dim="horizontal" extent="9 letters">Однако осудил за протокол
+<L> <space dim="horizontal" extent="9 letters">п·п╢п╫п╟п╨п╬ п╬я│я┐п╢п╦п╩ п╥п╟ п©я─п╬я┌п╬п╨п╬п╩
 
-<L> <space dim="horizontal" extent="12 letters">Подьячего на кол.
+<L> <space dim="horizontal" extent="12 letters">п÷п╬п╢я▄я▐я┤п╣пЁп╬ п╫п╟ п╨п╬п╩.
 
-<L> <space dim="horizontal" extent="15 letters">Хоть это строго,
+<L> <space dim="horizontal" extent="15 letters">п╔п╬я┌я▄ я█я┌п╬ я│я┌я─п╬пЁп╬,
 
-<L> <space dim="horizontal" extent="12 letters">Да не гораздо много.
+<L> <space dim="horizontal" extent="12 letters">п■п╟ п╫п╣ пЁп╬я─п╟п╥п╢п╬ п╪п╫п╬пЁп╬.
 
-<L> Мне жалко только то: подьячий мой
+<L> п°п╫п╣ п╤п╟п╩п╨п╬ я┌п╬п╩я▄п╨п╬ я┌п╬: п©п╬п╢я▄я▐я┤п╦п╧ п╪п╬п╧
 
-<L> <space dim="horizontal" extent="2 letters">Оттоль не принесет полушечки
-домой.
+<L> <space dim="horizontal" extent="2 letters">п·я┌я┌п╬п╩я▄ п╫п╣ п©я─п╦п╫п╣я│п╣я┌ п©п╬п╩я┐я┬п╣я┤п╨п╦
+п╢п╬п╪п╬п╧.
 
-<L> <space dim="horizontal" extent="2 letters">Подьячий несколько в лице
-переменялся
+<L> <space dim="horizontal" extent="2 letters">п÷п╬п╢я▄я▐я┤п╦п╧ п╫п╣я│п╨п╬п╩я▄п╨п╬ п╡ п╩п╦я├п╣
+п©п╣я─п╣п╪п╣п╫я▐п╩я│я▐
 
-<L> <space dim="horizontal" extent="12 letters">И извинялся,
+<L> <space dim="horizontal" extent="12 letters">п≤ п╦п╥п╡п╦п╫я▐п╩я│я▐,
 
-<L> <space dim="horizontal" extent="6 letters">На милосердие судью маня,
+<L> <space dim="horizontal" extent="6 letters">п²п╟ п╪п╦п╩п╬я│п╣я─п╢п╦п╣ я│я┐п╢я▄я▌ п╪п╟п╫я▐,
 
-<L> <space dim="horizontal" extent="6 letters">И говорил: <q>Попутал черт
-меня</q>.
+<L> <space dim="horizontal" extent="6 letters">п≤ пЁп╬п╡п╬я─п╦п╩: <q>п÷п╬п©я┐я┌п╟п╩ я┤п╣я─я┌
+п╪п╣п╫я▐</q>.
 
-<L> Судья на то:<q>Так он теперь и оправдался.
+<L> п║я┐п╢я▄я▐ п╫п╟ я┌п╬:<q>п╒п╟п╨ п╬п╫ я┌п╣п©п╣я─я▄ п╦ п╬п©я─п╟п╡п╢п╟п╩я│я▐.
 
-<L> Я, право, этого, мой друг, не дожидался.
+<L> п╞, п©я─п╟п╡п╬, я█я┌п╬пЁп╬, п╪п╬п╧ п╢я─я┐пЁ, п╫п╣ п╢п╬п╤п╦п╢п╟п╩я│я▐.
 
-<L> <space dim="horizontal" extent="12 letters"> За протокол
+<L> <space dim="horizontal" extent="12 letters"> п≈п╟ п©я─п╬я┌п╬п╨п╬п╩
 
-<L>Его поймать и посадить на кол</q>.
+<L>п∙пЁп╬ п©п╬п╧п╪п╟я┌я▄ п╦ п©п╬я│п╟п╢п╦я┌я▄ п╫п╟ п╨п╬п╩</q>.
 
-<L>Однако ты, судья, хоть город весь изрыщешь,
+<L>п·п╢п╫п╟п╨п╬ я┌я▀, я│я┐п╢я▄я▐, я┘п╬я┌я▄ пЁп╬я─п╬п╢ п╡п╣я│я▄ п╦п╥я─я▀я┴п╣я┬я▄,
 
-<L> <space dim="horizontal" extent="9 letters">Не скоро черта сыщешь;
+<L> <space dim="horizontal" extent="9 letters">п²п╣ я│п╨п╬я─п╬ я┤п╣я─я┌п╟ я│я▀я┴п╣я┬я▄;
 
-<L> <space dim="horizontal" extent="6 letters">Пожалуй, справок ты не
-умножай,
+<L> <space dim="horizontal" extent="6 letters">п÷п╬п╤п╟п╩я┐п╧, я│п©я─п╟п╡п╬п╨ я┌я▀ п╫п╣
+я┐п╪п╫п╬п╤п╟п╧,
 
-<L> <space dim="horizontal" extent="9 letters">Да этого на кол сажай.
+<L> <space dim="horizontal" extent="9 letters">п■п╟ я█я┌п╬пЁп╬ п╫п╟ п╨п╬п╩ я│п╟п╤п╟п╧.
 
 </BODY>
 

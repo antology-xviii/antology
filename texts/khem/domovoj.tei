@@ -25,43 +25,43 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-        <TITLE>Домовой </TITLE>
+        <TITLE>п■п╬п╪п╬п╡п╬п╧ </TITLE>
         <AUTHOR>
           <PERSNAME>
-            <FORENAME>Иван </FORENAME>
-            <FORENAME TYPE="patronym">Иванович </FORENAME>
-            <SURNAME>Хемницер </SURNAME>
+            <FORENAME>п≤п╡п╟п╫ </FORENAME>
+            <FORENAME TYPE="patronym">п≤п╡п╟п╫п╬п╡п╦я┤ </FORENAME>
+            <SURNAME>п╔п╣п╪п╫п╦я├п╣я─ </SURNAME>
             </PERSNAME>
           </AUTHOR>
-        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        <PRINCIPAL>п∙п╩п╣п╫п╟ п⌠я─п╣я┤п╨п╦п╫п╟</PRINCIPAL>
         </TITLESTMT>
       <PUBLICATIONSTMT>
-        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
-        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        <PUBLISHER>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 п≤п╓п≤</AVAILABILITY>
         </PUBLICATIONSTMT>
       <SERIESSTMT>
-        <TITLE>Электронная антология &quot;Русская литература XVIII
-          века&quot;</TITLE>
+        <TITLE>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+          п╡п╣п╨п╟&quot;</TITLE>
         </SERIESSTMT>
       <SOURCEDESC>
         <BIBLFULL>
           <TITLESTMT>
-            <TITLE> И. И.Хемницер. Полное собрание стихотворений</TITLE>
-            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            <TITLE> п≤. п≤.п╔п╣п╪п╫п╦я├п╣я─. п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│я┌п╦я┘п╬я┌п╡п╬я─п╣п╫п╦п╧</TITLE>
+            <EDITOR>п⌡. п∙. п▒п╬п╠я─п╬п╡п╟, п▓. п╜. п▓п╟я├я┐я─п╬</EDITOR>
             </TITLESTMT>
           <PUBLICATIONSTMT>
-            <PUBLISHER>Советский писатель</PUBLISHER>
-            <PUBPLACE>М.-Л.</PUBPLACE>
+            <PUBLISHER>п║п╬п╡п╣я┌я│п╨п╦п╧ п©п╦я│п╟я┌п╣п╩я▄</PUBLISHER>
+            <PUBPLACE>п°.-п⌡.</PUBPLACE>
             <DATE>1963</DATE>
             </PUBLICATIONSTMT>
           <SOURCEDESC>
             <BIBLFULL>
               <TITLESTMT>
-                <TITLE>Домовой</TITLE>
+                <TITLE>п■п╬п╪п╬п╡п╬п╧</TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                <PUBLISHER>Басни и сказки N...N...
-                  СПб.</PUBLISHER>
+                <PUBLISHER>п▒п╟я│п╫п╦ п╦ я│п╨п╟п╥п╨п╦ N...N...
+                  п║п÷п╠.</PUBLISHER>
                 <DATE>1782</DATE>
                 </PUBLICATIONSTMT>
               </BIBLFULL>
@@ -72,7 +72,7 @@
 	  &Encoding;
     <PROFILEDESC>
       <CREATION>
-        <DATE> неизвестно</DATE>
+        <DATE> п╫п╣п╦п╥п╡п╣я│я┌п╫п╬</DATE>
         </CREATION>
       <TEXTCLASS>
         <CATREF SCHEME="KIND" TARGET="VERSE ">
@@ -80,106 +80,106 @@
       </PROFILEDESC>
     </TEIHEADER>
   <TEXT>
-    <SPAN FROM="WHOLE" VALUE="посредственные произведения" TYPE="theme">
-    <SPAN FROM="WHOLE" VALUE="сила бездарности" TYPE="theme">
-    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+    <SPAN FROM="WHOLE" VALUE="п©п╬я│я─п╣п╢я│я┌п╡п╣п╫п╫я▀п╣ п©я─п╬п╦п╥п╡п╣п╢п╣п╫п╦я▐" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="я│п╦п╩п╟ п╠п╣п╥п╢п╟я─п╫п╬я│я┌п╦" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="п╟я│я┌я─п╬я└п╦я┤. п╡.я─." MET="п╞п▓">
 <LG1 TYPE="stanza">
-<L> Пусть люди бы житья друг другу не давали,
-<L> Да уж и черти тож людей тревожить стали.
+<L> п÷я┐я│я┌я▄ п╩я▌п╢п╦ п╠я▀ п╤п╦я┌я▄я▐ п╢я─я┐пЁ п╢я─я┐пЁя┐ п╫п╣ п╢п╟п╡п╟п╩п╦,
+<L> п■п╟ я┐п╤ п╦ я┤п╣я─я┌п╦ я┌п╬п╤ п╩я▌п╢п╣п╧ я┌я─п╣п╡п╬п╤п╦я┌я▄ я│я┌п╟п╩п╦.
 
 <LG1 TYPE="stanza">
-<L> <name type="character">Хозяин</name>, говорят, один какой-то был,
-<L> <space dim="horizontal" extent="8 letters">Которому от <name
-type="character" reg="домовой">домового</name>
-<L> Покою не было в том доме, где он жил:
-<L> Что ночь, то <name type="character">домовой</name>
-пугать его ходил.
+<L> <name type="character">п╔п╬п╥я▐п╦п╫</name>, пЁп╬п╡п╬я─я▐я┌, п╬п╢п╦п╫ п╨п╟п╨п╬п╧-я┌п╬ п╠я▀п╩,
+<L> <space dim="horizontal" extent="8 letters">п п╬я┌п╬я─п╬п╪я┐ п╬я┌ <name
+type="character" reg="п╢п╬п╪п╬п╡п╬п╧">п╢п╬п╪п╬п╡п╬пЁп╬</name>
+<L> п÷п╬п╨п╬я▌ п╫п╣ п╠я▀п╩п╬ п╡ я┌п╬п╪ п╢п╬п╪п╣, пЁп╢п╣ п╬п╫ п╤п╦п╩:
+<L> п╖я┌п╬ п╫п╬я┤я▄, я┌п╬ <name type="character">п╢п╬п╪п╬п╡п╬п╧</name>
+п©я┐пЁп╟я┌я▄ п╣пЁп╬ я┘п╬п╢п╦п╩.
 
 <LG1 TYPE="stanza">
-<L> <name type="character">Хозяин</name>, чтоб спастись несчастия такого,
-<L> Всё делал, что он мог: и ладаном курил,
-<L> <space dim="horizontal" extent="8 letters">Молитву от дух&ocystress;в
-творил,
-<L> Себя и весь свой дом крестами оградил;
-<L> Ни двери, ни окна хозяин не оставил,
-<L> Чтоб мелом крестика от черта не поставил;
-<L> <space dim="horizontal" extent="8 letters">Но ни молитвой, ни крестом
-<L> Он от нечистого не мог освободиться.
+<L> <name type="character">п╔п╬п╥я▐п╦п╫</name>, я┤я┌п╬п╠ я│п©п╟я│я┌п╦я│я▄ п╫п╣я│я┤п╟я│я┌п╦я▐ я┌п╟п╨п╬пЁп╬,
+<L> п▓я│я▒ п╢п╣п╩п╟п╩, я┤я┌п╬ п╬п╫ п╪п╬пЁ: п╦ п╩п╟п╢п╟п╫п╬п╪ п╨я┐я─п╦п╩,
+<L> <space dim="horizontal" extent="8 letters">п°п╬п╩п╦я┌п╡я┐ п╬я┌ п╢я┐я┘&ocystress;п╡
+я┌п╡п╬я─п╦п╩,
+<L> п║п╣п╠я▐ п╦ п╡п╣я│я▄ я│п╡п╬п╧ п╢п╬п╪ п╨я─п╣я│я┌п╟п╪п╦ п╬пЁя─п╟п╢п╦п╩;
+<L> п²п╦ п╢п╡п╣я─п╦, п╫п╦ п╬п╨п╫п╟ я┘п╬п╥я▐п╦п╫ п╫п╣ п╬я│я┌п╟п╡п╦п╩,
+<L> п╖я┌п╬п╠ п╪п╣п╩п╬п╪ п╨я─п╣я│я┌п╦п╨п╟ п╬я┌ я┤п╣я─я┌п╟ п╫п╣ п©п╬я│я┌п╟п╡п╦п╩;
+<L> <space dim="horizontal" extent="8 letters">п²п╬ п╫п╦ п╪п╬п╩п╦я┌п╡п╬п╧, п╫п╦ п╨я─п╣я│я┌п╬п╪
+<L> п·п╫ п╬я┌ п╫п╣я┤п╦я│я┌п╬пЁп╬ п╫п╣ п╪п╬пЁ п╬я│п╡п╬п╠п╬п╢п╦я┌я▄я│я▐.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Случилось <name
-type="character" reg="стихотворец">стихотворцу</name>
-в дом
-<L> <space dim="horizontal" extent="8 letters">К <name type="character"
-reg="хозяин">хозяину</name>переселиться.
-<L> <name type="character"> Хозяин</name>рад, что есть с кем скуку
-разделить:
-<L> <space dim="horizontal" extent="8 letters">И чтоб ему смеляе быть,
-<L> <space dim="horizontal" extent="8 letters">Когда нечистый появится,
-<L> Зовет его к себе с ним вечер проводить.
-<L> Потом просил его, чтоб сделать одолженье
-<L> Из собственных стихов прочесть бы сочиненье.
-<L> <space dim="horizontal" extent="8 letters">И <name
-type="character">стихотворец</name>, в угожденье,
-<L> Одну из слезных драм <name type="character" reg="хозяин">
-хозяину</name> читал
-<L> (Однако имя ей комедии давал),
-<L> Которою хотя <name type="character"> хозяин</name>
-не прельщался,
-<L> Да сочинитель сам, однако, восхищался.
+<L> <space dim="horizontal" extent="8 letters">п║п╩я┐я┤п╦п╩п╬я│я▄ <name
+type="character" reg="я│я┌п╦я┘п╬я┌п╡п╬я─п╣я├">я│я┌п╦я┘п╬я┌п╡п╬я─я├я┐</name>
+п╡ п╢п╬п╪
+<L> <space dim="horizontal" extent="8 letters">п  <name type="character"
+reg="я┘п╬п╥я▐п╦п╫">я┘п╬п╥я▐п╦п╫я┐</name>п©п╣я─п╣я│п╣п╩п╦я┌я▄я│я▐.
+<L> <name type="character"> п╔п╬п╥я▐п╦п╫</name>я─п╟п╢, я┤я┌п╬ п╣я│я┌я▄ я│ п╨п╣п╪ я│п╨я┐п╨я┐
+я─п╟п╥п╢п╣п╩п╦я┌я▄:
+<L> <space dim="horizontal" extent="8 letters">п≤ я┤я┌п╬п╠ п╣п╪я┐ я│п╪п╣п╩я▐п╣ п╠я▀я┌я▄,
+<L> <space dim="horizontal" extent="8 letters">п п╬пЁп╢п╟ п╫п╣я┤п╦я│я┌я▀п╧ п©п╬я▐п╡п╦я┌я│я▐,
+<L> п≈п╬п╡п╣я┌ п╣пЁп╬ п╨ я│п╣п╠п╣ я│ п╫п╦п╪ п╡п╣я┤п╣я─ п©я─п╬п╡п╬п╢п╦я┌я▄.
+<L> п÷п╬я┌п╬п╪ п©я─п╬я│п╦п╩ п╣пЁп╬, я┤я┌п╬п╠ я│п╢п╣п╩п╟я┌я▄ п╬п╢п╬п╩п╤п╣п╫я▄п╣
+<L> п≤п╥ я│п╬п╠я│я┌п╡п╣п╫п╫я▀я┘ я│я┌п╦я┘п╬п╡ п©я─п╬я┤п╣я│я┌я▄ п╠я▀ я│п╬я┤п╦п╫п╣п╫я▄п╣.
+<L> <space dim="horizontal" extent="8 letters">п≤ <name
+type="character">я│я┌п╦я┘п╬я┌п╡п╬я─п╣я├</name>, п╡ я┐пЁп╬п╤п╢п╣п╫я▄п╣,
+<L> п·п╢п╫я┐ п╦п╥ я│п╩п╣п╥п╫я▀я┘ п╢я─п╟п╪ <name type="character" reg="я┘п╬п╥я▐п╦п╫">
+я┘п╬п╥я▐п╦п╫я┐</name> я┤п╦я┌п╟п╩
+<L> (п·п╢п╫п╟п╨п╬ п╦п╪я▐ п╣п╧ п╨п╬п╪п╣п╢п╦п╦ п╢п╟п╡п╟п╩),
+<L> п п╬я┌п╬я─п╬я▌ я┘п╬я┌я▐ <name type="character"> я┘п╬п╥я▐п╦п╫</name>
+п╫п╣ п©я─п╣п╩я▄я┴п╟п╩я│я▐,
+<L> п■п╟ я│п╬я┤п╦п╫п╦я┌п╣п╩я▄ я│п╟п╪, п╬п╢п╫п╟п╨п╬, п╡п╬я│я┘п╦я┴п╟п╩я│я▐.
 
 <LG1 TYPE="stanza">
-<L> <space dim="horizontal" extent="8 letters">Нечистый дух, как час
-настал,
+<L> <space dim="horizontal" extent="8 letters">п²п╣я┤п╦я│я┌я▀п╧ п╢я┐я┘, п╨п╟п╨ я┤п╟я│
+п╫п╟я│я┌п╟п╩,
 <L> <space dim="horizontal" extent="8 letters"><name type="character"
-reg="хозяин">Хозяину</name> хоть показался,
-<L> Но и явления не выждав одного,
-<L> <space dim="horizontal" extent="8 letters">По коже подрало его
-<L> И стало не видать. <name type="character" reg="хозяин"> Хозяин</name>
-догадался,
-<L> <space dim="horizontal" extent="4 letters">Что <name
-type="character">домовой</name> чего-то невзлюбил;
-<L> Другого вечера дождавшись, посылает,
-<L> Чтоб посидеть опять к нему писатель был,
-<L> Которого опять читать он заставляет;
-<L> <space dim="horizontal" extent="16 letters">И он читает.
-<L><space dim="horizontal" extent="8 letters">Нечистый только лишь придет -
-<L> <space dim="horizontal" extent="8 letters">И тем же часом пропадет.
+reg="я┘п╬п╥я▐п╦п╫">п╔п╬п╥я▐п╦п╫я┐</name> я┘п╬я┌я▄ п©п╬п╨п╟п╥п╟п╩я│я▐,
+<L> п²п╬ п╦ я▐п╡п╩п╣п╫п╦я▐ п╫п╣ п╡я▀п╤п╢п╟п╡ п╬п╢п╫п╬пЁп╬,
+<L> <space dim="horizontal" extent="8 letters">п÷п╬ п╨п╬п╤п╣ п©п╬п╢я─п╟п╩п╬ п╣пЁп╬
+<L> п≤ я│я┌п╟п╩п╬ п╫п╣ п╡п╦п╢п╟я┌я▄. <name type="character" reg="я┘п╬п╥я▐п╦п╫"> п╔п╬п╥я▐п╦п╫</name>
+п╢п╬пЁп╟п╢п╟п╩я│я▐,
+<L> <space dim="horizontal" extent="4 letters">п╖я┌п╬ <name
+type="character">п╢п╬п╪п╬п╡п╬п╧</name> я┤п╣пЁп╬-я┌п╬ п╫п╣п╡п╥п╩я▌п╠п╦п╩;
+<L> п■я─я┐пЁп╬пЁп╬ п╡п╣я┤п╣я─п╟ п╢п╬п╤п╢п╟п╡я┬п╦я│я▄, п©п╬я│я▀п╩п╟п╣я┌,
+<L> п╖я┌п╬п╠ п©п╬я│п╦п╢п╣я┌я▄ п╬п©я▐я┌я▄ п╨ п╫п╣п╪я┐ п©п╦я│п╟я┌п╣п╩я▄ п╠я▀п╩,
+<L> п п╬я┌п╬я─п╬пЁп╬ п╬п©я▐я┌я▄ я┤п╦я┌п╟я┌я▄ п╬п╫ п╥п╟я│я┌п╟п╡п╩я▐п╣я┌;
+<L> <space dim="horizontal" extent="16 letters">п≤ п╬п╫ я┤п╦я┌п╟п╣я┌.
+<L><space dim="horizontal" extent="8 letters">п²п╣я┤п╦я│я┌я▀п╧ я┌п╬п╩я▄п╨п╬ п╩п╦я┬я▄ п©я─п╦п╢п╣я┌ -
+<L> <space dim="horizontal" extent="8 letters">п≤ я┌п╣п╪ п╤п╣ я┤п╟я│п╬п╪ п©я─п╬п©п╟п╢п╣я┌.
 
 <LG1 TYPE="stanza">
-<L> <q>Постой же, - рассуждал <name type="character"> хозяин</name>
-сам с собою,-
-<L> <space dim="horizontal" extent="8 letters">Теперь я слажу с сатаною,
-<L> Не станешь более ты в дом ко мне ходить</q>.
+<L> <q>п÷п╬я│я┌п╬п╧ п╤п╣, - я─п╟я│я│я┐п╤п╢п╟п╩ <name type="character"> я┘п╬п╥я▐п╦п╫</name>
+я│п╟п╪ я│ я│п╬п╠п╬я▌,-
+<L> <space dim="horizontal" extent="8 letters">п╒п╣п©п╣я─я▄ я▐ я│п╩п╟п╤я┐ я│ я│п╟я┌п╟п╫п╬я▌,
+<L> п²п╣ я│я┌п╟п╫п╣я┬я▄ п╠п╬п╩п╣п╣ я┌я▀ п╡ п╢п╬п╪ п╨п╬ п╪п╫п╣ я┘п╬п╢п╦я┌я▄</q>.
 
 <LG1 TYPE="stanza">
-<L> На третью ночь один <name type="character" >хозяин</name>
-наш остался.
-<L> <space dim="horizontal" extent="8 letters">Как скоро полночь стало
-бить,
-<L> Нечистый тут. Но чуть лишь только показался,
-<L> <q>Эй, малый, поскоряй! - <name type="character">хозяин</name>
-закричал. -
-<L> Чтоб <name type="character" >стихотворец</name>
-ту комедию прислал,
-<L> <space dim="horizontal" extent="8 letters">Которую он мне читал</q>.
-<L> Услыша это, дух нечистый испугался,
-<L> <space dim="horizontal" extent="12 letters">Рукою замахал,
-<L> <space dim="horizontal" extent="12 letters">Чтобы слуга остался;
-<L> <space dim="horizontal" extent="12 letters">И, словом, <name
-type="character"> домовой</name>
-<L> Пропал, и в этот дом уж больше ни ногой.
+<L> п²п╟ я┌я─п╣я┌я▄я▌ п╫п╬я┤я▄ п╬п╢п╦п╫ <name type="character" >я┘п╬п╥я▐п╦п╫</name>
+п╫п╟я┬ п╬я│я┌п╟п╩я│я▐.
+<L> <space dim="horizontal" extent="8 letters">п п╟п╨ я│п╨п╬я─п╬ п©п╬п╩п╫п╬я┤я▄ я│я┌п╟п╩п╬
+п╠п╦я┌я▄,
+<L> п²п╣я┤п╦я│я┌я▀п╧ я┌я┐я┌. п²п╬ я┤я┐я┌я▄ п╩п╦я┬я▄ я┌п╬п╩я▄п╨п╬ п©п╬п╨п╟п╥п╟п╩я│я▐,
+<L> <q>п╜п╧, п╪п╟п╩я▀п╧, п©п╬я│п╨п╬я─я▐п╧! - <name type="character">я┘п╬п╥я▐п╦п╫</name>
+п╥п╟п╨я─п╦я┤п╟п╩. -
+<L> п╖я┌п╬п╠ <name type="character" >я│я┌п╦я┘п╬я┌п╡п╬я─п╣я├</name>
+я┌я┐ п╨п╬п╪п╣п╢п╦я▌ п©я─п╦я│п╩п╟п╩,
+<L> <space dim="horizontal" extent="8 letters">п п╬я┌п╬я─я┐я▌ п╬п╫ п╪п╫п╣ я┤п╦я┌п╟п╩</q>.
+<L> пёя│п╩я▀я┬п╟ я█я┌п╬, п╢я┐я┘ п╫п╣я┤п╦я│я┌я▀п╧ п╦я│п©я┐пЁп╟п╩я│я▐,
+<L> <space dim="horizontal" extent="12 letters">п═я┐п╨п╬я▌ п╥п╟п╪п╟я┘п╟п╩,
+<L> <space dim="horizontal" extent="12 letters">п╖я┌п╬п╠я▀ я│п╩я┐пЁп╟ п╬я│я┌п╟п╩я│я▐;
+<L> <space dim="horizontal" extent="12 letters">п≤, я│п╩п╬п╡п╬п╪, <name
+type="character"> п╢п╬п╪п╬п╡п╬п╧</name>
+<L> п÷я─п╬п©п╟п╩, п╦ п╡ я█я┌п╬я┌ п╢п╬п╪ я┐п╤ п╠п╬п╩я▄я┬п╣ п╫п╦ п╫п╬пЁп╬п╧.
 
 <LG1 TYPE="stanza">
-<L> Вот если бы стихов негодных не писали,
-<L> <space dim="horizontal" extent="8 letters">Которые мы так браним,
-<L> <space dim="horizontal" extent="8 letters">Каким бы способом другим
-<L> <space dim="horizontal" extent="8 letters">Чертей мы избавляться стали?
-<L> Теперь хоть тысячи бес&ocystress;в и домовых
-<L> <space dim="horizontal" extent="8 letters">К нам в домы станут
-появляться,
-<L> <space dim="horizontal" extent="16 letters">Есть чем от них
-<L> <space dim="horizontal" extent="16 letters">Обороняться.
+<L> п▓п╬я┌ п╣я│п╩п╦ п╠я▀ я│я┌п╦я┘п╬п╡ п╫п╣пЁп╬п╢п╫я▀я┘ п╫п╣ п©п╦я│п╟п╩п╦,
+<L> <space dim="horizontal" extent="8 letters">п п╬я┌п╬я─я▀п╣ п╪я▀ я┌п╟п╨ п╠я─п╟п╫п╦п╪,
+<L> <space dim="horizontal" extent="8 letters">п п╟п╨п╦п╪ п╠я▀ я│п©п╬я│п╬п╠п╬п╪ п╢я─я┐пЁп╦п╪
+<L> <space dim="horizontal" extent="8 letters">п╖п╣я─я┌п╣п╧ п╪я▀ п╦п╥п╠п╟п╡п╩я▐я┌я▄я│я▐ я│я┌п╟п╩п╦?
+<L> п╒п╣п©п╣я─я▄ я┘п╬я┌я▄ я┌я▀я│я▐я┤п╦ п╠п╣я│&ocystress;п╡ п╦ п╢п╬п╪п╬п╡я▀я┘
+<L> <space dim="horizontal" extent="8 letters">п  п╫п╟п╪ п╡ п╢п╬п╪я▀ я│я┌п╟п╫я┐я┌
+п©п╬я▐п╡п╩я▐я┌я▄я│я▐,
+<L> <space dim="horizontal" extent="16 letters">п∙я│я┌я▄ я┤п╣п╪ п╬я┌ п╫п╦я┘
+<L> <space dim="horizontal" extent="16 letters">п·п╠п╬я─п╬п╫я▐я┌я▄я│я▐.
 
 </BODY>
 </TEXT>
