@@ -26,7 +26,7 @@ div.logo h2 {
 
 p {text-align: justify;}
 
-table.passport {
+table.colophon {
     width: 240;
     border: 2px solid #888888;
     padding:14;
@@ -52,15 +52,15 @@ a:hover {
     font-weight: bold;
 }
 
-table.passport {
+table.colophon {
     font-size: 100%;
 }
 
-table.passport td {
+table.colophon td {
     vertical-align: top;
 }
 
-td.passport-key {
+td.colophon-key {
     font-weight: bold;
 }
 

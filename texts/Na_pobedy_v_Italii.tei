@@ -13,7 +13,7 @@ Format//EN' >
    <!ENTITY % TEI.analysis "INCLUDE">
    <!ENTITY % TEI.figures "INCLUDE">
    <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
-   <!ENTITY fig1 SYSTEM "picts/derzh1.jpg" NDATA JPEG>
+   <!ENTITY fig1 SYSTEM "images/figures/derjavin/1/derzh1.jpg" NDATA JPEG>
 ]>
 
 

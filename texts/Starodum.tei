@@ -1084,8 +1084,8 @@ type=" person " reg="Екатерина II "> Екатерины Вторыя </
 <dateline><name type="place">Москва </name>, <date> февраля...
 1788</date></dateline>
 <div2>
-<head><title type="subordinate">(Разговор у княгини <name type="character"
-id="Haldina " reg = "Халдина">Халдиной </name>)</title></head>
+<head type="subordinate">(Разговор у княгини <name type="character"
+id="Haldina " reg = "Халдина">Халдиной </name>)</head>
 <p>Сегодня был у меня один из моих приятелей, который сказывал мне, что
 вчера он зван был обедать к княгине Халдиной, но приехал к ней так рано,
 что она еще одевалась и его принять не могла, почему введен был в комнату

@@ -1222,11 +1222,11 @@ type="delivery">(заплакав).</stage>
 <p>
 Я не усердна вам, матушка! Уж как больше служить, не знаешь... рада бы не
 токмо что... живота не жалеешь... а все не угодно.
-<sp who="Kuteikin" corresp="a"><speaker>Кутейкин.</speaker><p> Нам восвояси повелите?
+<sp who="Kuteikin" id="a"><speaker>Кутейкин.</speaker><p> Нам восвояси повелите?
 <sp who="Cyfirkin" corresp="a"><speaker>Цыфиркин.</speaker><p> Нам куда поход, ваше
 благородие?
 </sp>
-<stage id="a">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 <sp who="Prostakova"><speaker>Г-жа Простакова.</speaker>
 <p>
 Ты ж еще, старая ведьма, и разревелась. Поди, накорми их с собою, а после
@@ -1735,7 +1735,7 @@ type="delivery">(заплакав).</stage>
 нетерпением).</stage>
            <p>
             А это кто еще?
-       <sp who="Prostakov" corresp="c"><speaker>Простаков</speaker>
+       <sp who="Prostakov" id="c"><speaker>Простаков</speaker>
               <stage type="delivery">(обнимая).</stage>
            <p>
             Я женин муж.
@@ -1744,7 +1744,7 @@ type="delivery">(заплакав).</stage>
            <p>
             А я матушкин сынок.
 	   </sp>
-	<stage id="c">(Вместе.)</stage>
+	<stage>(Вместе.)</stage>
        <sp who="Milon"><speaker>Милон</speaker>
               <stage type="delivery">(Правдину).</stage>
            <p>
@@ -1818,7 +1818,7 @@ type="delivery">(заплакав).</stage>
             О! Когда же вы так ее любите, то должен я вас обрадовать. Я
 везу ее в Москву для того, чтоб сделать ее счастье. Мне представлен в
 женихи ее некто молодой человек больших достоинств. За него ее и выдам.
-       <sp who="Prostakova" corresp="e"><speaker>Г-жа Простакова.</speaker>
+       <sp who="Prostakova" id="e"><speaker>Г-жа Простакова.</speaker>
            <p>
             Ах, уморил!
        <sp who="Milon" corresp="e"><speaker>Милон.</speaker>
@@ -1826,19 +1826,19 @@ type="delivery">(заплакав).</stage>
             Что я слышу!
                         <stage type="setting">Софья кажется
 пораженною.</stage>
-       <sp who="Skotinin" corresp="e"><speaker>Скотинин.</speaker>
+       <sp who="Skotinin" id="f"><speaker>Скотинин.</speaker>
            <p>
             Вот те раз!
                         <stage type="setting">Простаков всплеснул
 руками.</stage>
-       <sp who="Mitrofan" corresp="e"><speaker>Митрофан.</speaker>
+       <sp who="Mitrofan" corresp="f"><speaker>Митрофан.</speaker>
            <p>
             Вот тебе на!
                         <stage type="setting">Еремеевна печально кивнула
 головою.</stage>
                         <stage type="setting">Правдин показывает вид
 огорченного удивления.</stage>
-		<stage id="e">(Вместе.)</stage>
+		<stage>(Вместе.)</stage>
 
        <sp who="Starodum"><speaker>Стародум</speaker>
               <stage type="delivery">(приметя всех смятение).</stage>
@@ -1876,14 +1876,14 @@ type="delivery">(заплакав).</stage>
            <p>
             Да свиной завод не плох...
 
-       <sp who="Prostakova" corresp="g"><speaker>Г-жа Простакова.</speaker>
+       <sp who="Prostakova" id="g"><speaker>Г-жа Простакова.</speaker>
            <p>
             Так и в добрый час в архангельский.
        <sp who="Skotinin" corresp="g"><speaker>Скотинин.</speaker>
            <p>
             Так веселым пирком, ды за свадебку.
 	   </sp>
-<stage id="g">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 
        <sp who="Starodum"><speaker>Стародум.</speaker>
            <p>
@@ -2411,14 +2411,14 @@ type="exit">(Отходит.)</stage>
             Я хоспоже на фас пошалаюсь.
                         <stage type="setting">Цыфиркин, замахиваясь доскою,
 а Кутейкин часословом.</stage>
-       <sp who="Cyfirkin" corresp="k"><speaker>Цыфиркин.</speaker>
+       <sp who="Cyfirkin" id="k"><speaker>Цыфиркин.</speaker>
            <p>
             Раскрою тебе рожу напятеро.
        <sp who="Kuteikin" corresp="k"><speaker>Кутейкин.</speaker>
            <p>
             Зубы грешника сокрушу.
 	   </sp>
-<stage id="k">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
                         <stage type="setting">Вральман бежит.</stage>
        <sp who="Cyfirkin"><speaker>Цыфиркин.</speaker>
            <p>
@@ -2441,7 +2441,7 @@ type="exit">(Отходит.)</stage>
             Засел пребеззаконный! Много ль там вас, басурманов-то? Всех
 высылай!
 
-       <sp who="Vralman" corresp="j"><speaker>Вральман.</speaker>
+       <sp who="Vralman" id="j"><speaker>Вральман.</speaker>
            <p>
             С атним не слатили! Эх, прат, фсяли!
        <sp who="Cyfirkin" corresp="j"><speaker>Цыфиркин.</speaker>
@@ -2451,7 +2451,7 @@ type="exit">(Отходит.)</stage>
            <p>
             Во утрие избию вся грешныя земли!
 	   </sp>
-<stage id="j">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
    </div2>
                                  <trailer> Конец третьего действия.
 </trailer>
@@ -2921,7 +2921,7 @@ type="delivery">(Софье).</stage>
 <p>
 Вы оба друг друга достойны. <stage type="delivery">(В восхищении соединяя
 их руки.)</stage> От всей души моей даю вам мое согласие.
-<sp who="Milon" corresp="m"><speaker>Милон.</speaker><stage type="delivery">(обнимая
+<sp who="Milon" id="m"><speaker>Милон.</speaker><stage type="delivery">(обнимая
 Стародума).</stage>
 <p>
 Мое счастье несравненно! 
@@ -2930,7 +2930,7 @@ type="delivery">(Софье).</stage>
 <p>
 Кто может быть счастливее меня!
 </sp>
-<stage id="m">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 <sp who="Pravdin"><speaker>Правдин.</speaker>
 <p>
 Как искренно я рад!
@@ -3129,7 +3129,7 @@ type="delivery">(Мужу и сыну.)</stage> Кланяйтесь.
 надобно, учася у Кутейкина, и какому математику, учася у Цыфиркина. <stage
 type="delivery">(К Правдину.)</stage> Любопытен бы я был послушать, чему
 немец-то его выучил.
-<sp who="Prostakova" corresp="o"><speaker>Г-жа Простакова.</speaker>
+<sp who="Prostakova" id="o"><speaker>Г-жа Простакова.</speaker>
 <p>
 Всем наукам, батюшка.
 <sp who="Prostakov" corresp="o"><speaker>Простаков.</speaker>
@@ -3139,7 +3139,7 @@ type="delivery">(К Правдину.)</stage> Любопытен бы я был
 <p>
 Всему, чему изволишь.
 </sp>
-<stage id="o">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 <sp who="Pravdin"><speaker>Правдин</speaker><stage
 type="delivery">(Митрофану).</stage>
 <p>
@@ -3388,14 +3388,14 @@ type="delivery">(Стародуму).</stage>
 <p>
 Не жених.
 
-<sp who="Prostakova" corresp="q"><speaker>Г-жа Простакова.</speaker>
+<sp who="Prostakova" id="q"><speaker>Г-жа Простакова.</speaker>
 <p>
 А что б помешало?
 <sp who="Skotinin" corresp="q"><speaker>Скотинин.</speaker>
 <p>
 За чем дело стало?
 </sp>
-<stage id="q">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 <sp who="Starodum"><speaker>Стародум</speaker><stage type="delivery">(сведя
 обоих).</stage>
 <p>
@@ -3587,7 +3587,7 @@ Prostakov " type="exit"> (Все отходят.) </stage>
               <stage type="delivery">(бросаясь к Стародуму).</stage>
            <p>
             Ах, дядюшка! Защити меня!
-       <sp who="Starodum" corresp="s"><speaker>Стародум.</speaker>
+       <sp who="Starodum" id="s"><speaker>Стародум.</speaker>
            <p>
             Друг мой! Что такое?
        <sp who="Pravdin" corresp="s"><speaker>Правдин.</speaker>
@@ -3600,7 +3600,7 @@ Prostakov " type="exit"> (Все отходят.) </stage>
            <p>
             Пропала моя головушка!
 </sp>
-<stage id="s">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
        <sp who="Milon"><speaker>Милон.</speaker>
            <p>
             Злодеи! Идучи сюда, вижу множество людей, которые, подхватя ее
@@ -3633,7 +3633,7 @@ Prostakov " type="exit"> (Все отходят.) </stage>
             Какая я госпожа в доме!
               <stage type="delivery">(Указывая на Милона.)</stage>
             Чужой погрозит, приказ мой ни во что.
-       <sp who="Prostakov" corresp="u"><speaker>Простаков.</speaker>
+       <sp who="Prostakov" id="u"><speaker>Простаков.</speaker>
            <p>
             Я ли виноват?
        <sp who="Mitrofan" corresp="u"><speaker>Митрофан.</speaker>
@@ -3643,14 +3643,14 @@ Prostakov " type="exit"> (Все отходят.) </stage>
            <p>
             Жива быть не хочу.
 </sp>
-<stage id="u">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 
        <sp who="Pravdin"><speaker>Правдин.</speaker>
            <p>
             Злодеяние, которому я сам свидетель, дает право вам, как дяде,
 а вам, как жениху...
 
-       <sp who="Prostakova" corresp="w"><speaker>Г-жа Простакова.</speaker>
+       <sp who="Prostakova" id="w"><speaker>Г-жа Простакова.</speaker>
            <p>
             Жениху!
        <sp who="Prostakov" corresp="w"><speaker>Простаков.</speaker>
@@ -3660,7 +3660,7 @@ Prostakov " type="exit"> (Все отходят.) </stage>
            <p>
             Всё к черту!
 </sp>
-<stage id="w">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
        <sp who="Pravdin"><speaker>Правдин.</speaker>
            <p>
             Требовать от правительства, чтоб сделанная ей обида наказана
@@ -3673,14 +3673,14 @@ Prostakov " type="exit"> (Все отходят.) </stage>
        <sp who="Pravdin"><speaker>Правдин.</speaker>
            <p>
             Муж и сын не могли не иметь участия в злодеянии...
-       <sp who="Prostakov" corresp="y"><speaker>Простаков.</speaker>
+       <sp who="Prostakov" id="y"><speaker>Простаков.</speaker>
            <p>
             Без вины виноват!
        <sp who="Mitrofan" corresp="y"><speaker>Митрофан.</speaker>
            <p>
             Виноват, дядюшка!
 </sp>
-<stage id="y">(Вместе.)</stage>
+<stage>(Вместе.)</stage>
 
        <sp who="Prostakova"><speaker>Г-жа Простакова.</speaker>
            <p>
