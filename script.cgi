@@ -1,15 +1,17 @@
 #! /bin/bash
 
-SCRIPTDIR=/home/antology/data/
-TAGCOLL=${SCRIPTDIR}/sample.coll
-PEOPLECOLL=${SCRIPTDIR}/people.coll
-export LC_CTYPE=ru_RU.koi8-r
-export LC_COLLATE=ru_RU.koi8-r
+XSLTPROC=xsltproc
+export SCRIPTDIR=$(dir $(readlink -f $0))
+export LC_CTYPE=ru_RU.utf-8
+export LC_COLLATE=ru_RU.utf-8
 export LANG=en_US
 export REQUEST_METHOD
 #export PGUSER=www_data
 
 cd $SCRIPTDIR
+
+CHROME=chrome.xslt
+RDFSTORE=rdf
 
 runscript="${SCRIPT_NAME##*/}"
 runscript="${runscript%.cgi}.sh"
@@ -35,7 +37,7 @@ ERRFILE="`mktemp -t`"
 
 trap "rm -f $OUTFILE $ERRFILE" EXIT
 
-echo "$QUERY_STRING" | "./$runscript" "$TAGCOLL" "$PATH_INFO" "$PEOPLECOLL" >$OUTFILE 2>$ERRFILE 
+echo "$QUERY_STRING" | "./$runscript" "$RDFSTORE" "$PATH_INFO"  >$OUTFILE 2>$ERRFILE 
 
 case "$?" in
     0)
@@ -73,19 +75,6 @@ case "$?" in
         ;;
 esac
 
-sed -e \
-"1,/<!-- -head -->/c\\
-`fragment www/head.html`
-
-/<!-- +middle -->/,/<!-- -middle -->/c\\
-`fragment www/middle.html`
-
-/<!-- +foot -->/,\$c\\
-`fragment www/foot.html`
-
-/<!-- split -->/c\\
-`fragment www/split.html`
-
-" $OUTFILE
+$XSLTPROC $CHROME $OUTFILE >>$ERRFILE
 cat $ERRFILE >&2
 exit 0

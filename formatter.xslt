@@ -2,12 +2,17 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" encoding="utf-8" />
+  <xsl:variable name="uriencoding" select="document('uriencoding.xml')"/>
+  <xsl:key name="map_char" match="mapping" use="@char"/>
+
   <xsl:template match="TEI.2">
     <html>
       <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <link rel="stylesheet" href="/css/navigation.css" type="text/css" />
         <link rel="stylesheet" href="/css/tei.css" type="text/css" />
+        <link rel="alternate" href="" type="application/tei+xml" />
+        <link rel="alternate" href="" type="application/rdf+xml" />
         <meta name="title" content="{normalize-space(teiHeader/fileDesc/titleStmt/title[@type = 'main' or not(@type)])}" />
         <meta name="DC.author">
           <xsl:attribute name="content">
@@ -35,20 +40,25 @@
   </xsl:template>
   <xsl:template match="text">
     <body>
-      <xsl:apply-templates select="/teiHeader" mode="metadata"/>
+      <xsl:apply-templates select="/TEI.2/teiHeader" mode="metadata"/>
       <xsl:apply-templates select="*"/>
       <hr/>
       <xsl:apply-templates select=".//note[@place != 'inline']" mode="footnotes" />
       <hr/>
       <div class="footer">
         <a href="">Логическая разметка текста:</a>
-        <a href="search?principal={normalize-space(/teiHeader/fileDesc/titleStmt/principal)}">
-          <xsl:value-of select="normalize-space(/teiHeader/fileDesc/titleStmt/principal)"/>
+        <a>
+          <xsl:attribute name="href">search?principal=<xsl:call-template name="encode">
+          <xsl:with-param name="uri" 
+                          select="normalize-space(/TEI.2/teiHeader/fileDesc/titleStmt/principal)"/>
+        </xsl:call-template>
+          </xsl:attribute>
+          <xsl:value-of select="normalize-space(/TEI.2/teiHeader/fileDesc/titleStmt/principal)"/>
         </a><br/>
-        <xsl:for-each select="/teiHeader/fileDesc/titleStmt/sponsor" >
+        <xsl:for-each select="/TEI.2/teiHeader/fileDesc/titleStmt/sponsor" >
           <xsl:value-of select="normalize-space()" /><br/>
         </xsl:for-each>
-        <xsl:for-each select="/teiHeader/fileDesc/titleStmt/funder" >
+        <xsl:for-each select="/TEI.2/teiHeader/fileDesc/titleStmt/funder" >
           <xsl:value-of select="normalize-space()" /><br/>
         </xsl:for-each>
       </div>
@@ -57,67 +67,67 @@
   <xsl:template match="front|back|body|div|performance|set|trailer|opener|closer">
     <div class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </div>
   </xsl:template>
   <xsl:template match="q">
     <q class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </q>
   </xsl:template>
   <xsl:template match="quote">
     <blockquote class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </blockquote>
   </xsl:template>
   <xsl:template match="cit">
-    <xsl:apply-templates select="node()"/>
+    <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="bibl">
     <cit class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </cit>
   </xsl:template>
   <xsl:template match="ab|bibl/title|bibl/author|bibl/biblScope|bibl/pubPlace|role|roleDesc|speaker|rs|term|soCalled">
     <span class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 
   <xsl:template match="foreign">
     <span class="tei-{local-name()}">
       <xsl:apply-templates select="@id|@lang"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 
   <xsl:template match="p|argument|salute|dateline|signed|byline">
     <p class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </p>
   </xsl:template>
   <xsl:template match="epigraph">
     <blockquote class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </blockquote>
   </xsl:template>
 
   <xsl:template match="lg">
     <div class="tei-{local-name()}-{@type}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </div>
   </xsl:template>
   <xsl:template match="l">
     <span class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </span>
     <br/>
   </xsl:template>
@@ -150,7 +160,7 @@
   <xsl:template match="name">
     <abbr class="tei-{local-name()}-{@type}" title="{@reg}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </abbr>
   </xsl:template>
   <xsl:template match="date">
@@ -163,19 +173,19 @@
           <xsl:value-of select="@calendar"></xsl:value-of>
         </xsl:attribute>
       </xsl:if>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </abbr>
   </xsl:template>
   <xsl:template match="dateRange">
     <abbr class="tei-{local-name()}" title="{@from}-{@to}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </abbr>
   </xsl:template>
   <xsl:template match="orig">
     <abbr class="tei-{local-name()}" title="{@reg}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </abbr>
   </xsl:template>
   <xsl:template match="emph|hi">
@@ -184,11 +194,11 @@
         tei-<xsl:value-of select="local-name()"/>
         <xsl:if test="@rend">-<xsl:value-of select="@rend"/></xsl:if>
       </xsl:attribute>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </em>
   </xsl:template>
   <xsl:template match="mentioned">
-    <samp class="tei-{local-name()}"><xsl:apply-templates select="node()"/></samp>
+    <samp class="tei-{local-name()}"><xsl:apply-templates/></samp>
   </xsl:template>
   <xsl:template match="@id|@lang">
     <xsl:copy/>
@@ -197,26 +207,26 @@
     <h3>
       <xsl:apply-templates select="@id"/>
       <xsl:value-of select="ancestor-or-self::div[1]/@n"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </h3>
   </xsl:template>
   <xsl:template match="head">
     <h2>
       <xsl:apply-templates select="@id"/>
       <xsl:value-of select="ancestor-or-self::div[1]/@n"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </h2>
   </xsl:template>
   <xsl:template match="list/head|quote/title" priority="2">
     <h2>
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </h2>
   </xsl:template>
 
   <xsl:template match="table/head" priority="2">
     <caption>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </caption>
   </xsl:template>
 
@@ -224,7 +234,7 @@
     <tr>
       <xsl:apply-templates select="@id"/>
       <th colspan="2">
-        <xsl:apply-templates select="node()"/>
+        <xsl:apply-templates/>
       </th>
     </tr>
   </xsl:template>
@@ -234,7 +244,7 @@
       <xsl:for-each select=".|following::list/head[@corresp = current()/@id]">
         <th>
           <xsl:apply-templates select="@id"/>
-          <xsl:apply-templates select="node()"/>
+          <xsl:apply-templates/>
         </th>
       </xsl:for-each>
     </tr>
@@ -245,7 +255,7 @@
       <xsl:for-each select=".|following::list/item[@corresp = current()/@id]">
         <td>
           <xsl:apply-templates select="@id"/>
-          <xsl:apply-templates select="node()"/>
+          <xsl:apply-templates/>
         </td>
       </xsl:for-each>
     </tr>
@@ -255,7 +265,7 @@
   <xsl:template match="list/item">
     <li>
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </li>
   </xsl:template>
   <xsl:template match="list[@type = 'dialogue']/item" priority="2">
@@ -281,7 +291,7 @@
   </xsl:template>
 
   <xsl:template match="item/label">
-    <xsl:apply-templates select="node()"/>
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="castList">
@@ -296,21 +306,21 @@
 
   <xsl:template match="stage">
     <span class="tei-{local-name()}-{@type}">
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 
   <xsl:template match="sp">
     <p class="tei-{local-name}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </p>
   </xsl:template>
 
   <xsl:template match="sp" mode="parallel">
     <p class="tei-{local-name}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </p>
   </xsl:template>
 
@@ -325,7 +335,7 @@
   <xsl:template match="castItem">
     <li>
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </li>
   </xsl:template>
   <xsl:template match="list[@type = 'ordered']">
@@ -374,7 +384,7 @@
   <xsl:template match="note[@place = 'inline']">
     <div class="tei-note-inline">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </div>
   </xsl:template>
   <xsl:template match="note">
@@ -388,7 +398,7 @@
       <a class="tei-note-ref" href="#{@id}_place" id="{@id}">
         <xsl:call-template name="number-footnote"/>
       </a>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
       <xsl:if test="@resp = 'editor'">
         <span class="tei-note-resp">(Прим. ред.)</span>
       </xsl:if>
@@ -411,33 +421,33 @@
   <xsl:template match="table">
     <table class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </table>
   </xsl:template>
 
   <xsl:template match="row">   
     <tr class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </tr>
   </xsl:template>
 
   <xsl:template match="cell">   
     <td class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </td>
   </xsl:template>
 
   <xsl:template match="row[type = 'label']/cell|cell[type = 'label']" priority="2">
     <th class="tei-{local-name()}">
       <xsl:apply-templates select="@id"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates/>
     </th>
   </xsl:template>
 
   <xsl:template match="add">
-    <ins><xsl:apply-templates select="node()"/></ins>
+    <ins class="tei-{local-name()}"><xsl:apply-templates/></ins>
   </xsl:template>
 
   <xsl:template match="span"/>
@@ -461,8 +471,28 @@
 
   <xsl:template match="teiHeader" mode="metadata">
     <table class="colophon">
-      
+      <tr>
+        <td>Цит. по.:</td>
+        <td></td>
+      </tr>
+      <tr>
+      </tr>
     </table>
+  </xsl:template>
+
+  <xsl:template name="comma-list">
+    <xsl:param name="nodes"/>
+    <xsl:param name="keyword"/>
+    <xsl:for-each select="$nodes">
+      <xsl:if test="position() > 1"><xsl:text>, </xsl:text></xsl:if>
+      <a>
+        <xsl:attribute name="href">search?<xsl:value-of select="$keyword"/>=<xsl:call-template name="encode">
+        <xsl:with-param name="uri" select="normalize-space()"/>
+      </xsl:call-template>
+        </xsl:attribute>
+        <xsl:value-of select="normalize-space()"/>
+      </a>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template name="number-footnote">
@@ -477,5 +507,31 @@
       </xsl:choose>
     </xsl:if>
     <xsl:value-of select="@n"/>
+  </xsl:template>
+
+  <xsl:template name="encode">
+    <xsl:param name="uri"/>
+    <xsl:if test="$uri">
+      <xsl:variable name="head" select="substring($uri, 1, 1)"/>
+      <xsl:for-each select="$uriencoding">
+        <xsl:variable name="mapping" select="key('map_char', $head)"/>
+        <xsl:if test="not($mapping)">
+          <xsl:message terminate="yes">
+            Unmappable character '<xsl:value-of select="$head"/>'
+          </xsl:message>
+        </xsl:if>
+        <xsl:choose>
+          <xsl:when test="$mapping/@value">
+            <xsl:value-of select="$mapping/@value"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$mapping/@char"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      <xsl:call-template name="encode">
+        <xsl:with-param name="uri" select="substring($uri, 2)"/>
+      </xsl:call-template>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
