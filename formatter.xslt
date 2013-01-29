@@ -450,6 +450,10 @@
     <ins class="tei-{local-name()}"><xsl:apply-templates/></ins>
   </xsl:template>
 
+  <xsl:template match="w">
+    <xsl:apply-templates/>
+  </xsl:template>
+
   <xsl:template match="span"/>
   <xsl:template match="move"/>
   <xsl:template match="*[@corresp]" priority="5">
