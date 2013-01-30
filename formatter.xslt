@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:param name="hilite"/>
+  <xsl:param name="colophon" select="true" />
+  <xsl:param name="only-speaker" />
   <xsl:output method="xml" encoding="utf-8" />
   <xsl:variable name="uriencoding" select="document('uriencoding.xml')"/>
   <xsl:key name="map_char" match="mapping" use="@char"/>
@@ -40,7 +43,9 @@
   </xsl:template>
   <xsl:template match="text">
     <body>
-      <xsl:apply-templates select="/TEI.2/teiHeader" mode="metadata"/>
+      <xsl:if test="$colophon">
+        <xsl:apply-templates select="/TEI.2/teiHeader" mode="metadata"/>
+      </xsl:if>
       <xsl:apply-templates select="*"/>
       <hr/>
       <xsl:apply-templates select=".//note[@place != 'inline']" mode="footnotes" />
@@ -158,7 +163,11 @@
   </xsl:template>
 
   <xsl:template match="name">
-    <abbr class="tei-{local-name()}-{@type}" title="{@reg}">
+    <abbr title="{@reg}">
+      <xsl:attribute name="class">
+        tei-<xsl:value-of select="local-name()"/>-<xsl:value-of select="@type"/>
+        <xsl:if test="$hilite = @reg"><xsl:text> </xsl:text>hilite</xsl:if>
+      </xsl:attribute>
       <xsl:apply-templates select="@id"/>
       <xsl:apply-templates/>
     </abbr>
