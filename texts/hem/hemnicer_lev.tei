@@ -1,0 +1,128 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+       <!ENTITY acystress SDATA "[acystress ]">
+       <!ENTITY ocystress SDATA "[ocystress ]">
+       <!ENTITY iecystress SDATA "[iecystress]">
+       <!ENTITY icystress SDATA "[icystress ]">
+       <!ENTITY ucystress SDATA "[ucystress ]">
+       <!ENTITY ycystress SDATA "[ycystress ]">
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Лев, учредивший совет </TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Лев, учредивший совет </TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N...
+                  СПб.</PUBLISHER>
+                <DATE>1779</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE> неизвестно</DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="власть глупости" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="бюрократизм" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+<LG1 TYPE="stanza">
+<L> <name type="character"> Лев</name>
+учредил совет какой-то, неизвестно,
+<L> И, посадя в совет сочленами <name type="character" reg="слоны">
+слонов</name>,
+<L> <space dim="horizontal" extent="4 letters">Большую часть прибавил к ним
+<name type="character" reg="ослы">ослов</name>.
+<L> Хотя <name type="character" reg="слоны">слонам</name>
+сидеть с <name type="character" reg="ослы"> ослами</name>
+и невместно,
+<L> Но <name type="character"> лев</name>
+не мог того числа <name type="character" reg="слоны"> слонов</name>
+набрать,
+<L> <space dim="horizontal" extent="8 letters">Какому прямо надлежало
+<L> <space dim="horizontal" extent="8 letters">В совете этом заседать.
+<L> Ну, что ж? пускай числа всего бы недостало,
+<L> <space dim="horizontal" extent="12 letters">Ведь это б не мешало
+<L> <space dim="horizontal" extent="12 letters">Дела производить.
+<L> Нет, как же? а устав ужли переступить?
+<L> Хоть будь глупцы судьи, лишь счетом бы их стало.
+ <LG1 TYPE="stanza">
+
+<L> А сверх того, как <name type="character"> лев </name>
+совет сей учреждал,
+<L> <space dim="horizontal" extent="12 letters">Он вот как полагал
+<L> <space dim="horizontal" extent="20 letters">И льстился:
+<L> <space dim="horizontal" extent="8 letters">Ужли и впрям, что ум <name
+type="character" reg="слоны"> слонов</name>
+<L> <space dim="horizontal" extent="8 letters">На ум не наведет <name
+type="character" reg="ослы">ослов</name>?
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="8 letters">Однако, как совет открылся,
+<L> Дела совсем другим порядком потекли:
+<L> <space dim="horizontal" extent="8 letters"><name
+type="character">Ослы</name> <name type="character" reg="слоны">
+слонов</name> с ума свели.
+</BODY>
+</TEXT>
+</TEI.2>

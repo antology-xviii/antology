@@ -1,0 +1,141 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+       <!ENTITY acystress SDATA "[acystress ]">
+       <!ENTITY ocystress SDATA "[ocystress ]">
+       <!ENTITY iecystress SDATA "[iecystress]">
+       <!ENTITY icystress SDATA "[icystress ]">
+       <!ENTITY ucystress SDATA "[ucystress ]">
+       <!ENTITY ycystress SDATA "[ycystress ]">
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Хозяин и мыши </TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Хозяин и мыши</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N...
+                  СПб.</PUBLISHER>
+                <DATE>1779</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>неизвестно </DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="власть случая" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="роптанье на судьбу" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+<LG1 TYPE="stanza">
+<L> Две <name type="character" reg="мышь"> мыши </name>
+на один какой-то двор попались,
+<L> И вместе на одном дворе они живут;
+<L> Но каждой жительства различные достались,
+<L> А потому они и разну жизнь ведут:
+<L> <space dim="horizontal" extent="8 letters">Одна <name
+type="character">мышь</name>
+в житницу попала,
+<L> <space dim="horizontal" extent="8 letters">Другая <name
+type="character"> мышь </name>в анбар пустой.
+
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="8 letters">Одна в довольстве обитала,
+<L> <space dim="horizontal" extent="8 letters">Не видя н&ucystress;жды
+никакой;
+<L> Другая ж в бедности живет и всё горюет
+<L> <space dim="horizontal" extent="8 letters">И на судьбину негодует,
+<L> С богатой видится и с нею говорит,
+<L> Но в житницу ее попасть никак не может,
+<L> И только тем одним сыта, что рухлядь гложет.
+<L> Клянет свою судьбу, <name type="character" reg="хозяин">хозяина</name>
+бранит,
+<L> И наконец к нему <name type="character">мышь</name>
+бедна приступила,
+<L> Сравнять ее с своей подругою просила.
+
+<LG1 TYPE="stanza">
+<L> <space dim="horizontal" extent="8 letters"><name type="character">
+Хозяин</name>
+дело так решил,
+<L> <space dim="horizontal" extent="12 letters">И <name type="character"
+reg="мышь"> мыши</name>
+говорил,
+<L> Котора с жалобой своею приходила:
+<L> <q>Вы обе случаем сюда на двор зашли
+<L> И тем же случаем и разну жизнь нашли.
+<L> <name type="character" reg="хозяин">Хозяину</name>
+<name type="character" reg="мышь"> мышам</name>
+не сделать уравненье;
+<L> <space dim="horizontal" extent="12 letters">И я скажу тебе:
+<L> Анбар и житницу построил я себе
+<L> <space dim="horizontal" extent="8 letters">На разное употребленье;
+<L> <space dim="horizontal" extent="8 letters">А до <name type="character"
+reg="мышь"> мышей</name>
+мне н&ucystress;жды нет,
+<L> <space dim="horizontal" extent="8 letters">Котора где и как живет</q>.
+</BODY>
+</TEXT>
+</TEI.2>
+
+

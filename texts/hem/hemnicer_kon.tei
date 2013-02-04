@@ -1,0 +1,128 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+       <!ENTITY acystress SDATA "[acystress ]">
+       <!ENTITY ocystress SDATA "[ocystress ]">
+       <!ENTITY iecystress SDATA "[iecystress]">
+       <!ENTITY icystress SDATA "[icystress ]">
+       <!ENTITY ucystress SDATA "[ucystress ]">
+       <!ENTITY ycystress SDATA "[ycystress ]">
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Конь верховый</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Конь верховый</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N...
+                  СПб.</PUBLISHER>
+                <DATE>1779</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>неизвестно </DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="тунеядство и хвастовство богатых"
+TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="трудолюбие и смирение бедных" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+<lg>
+<L> Верховый гордый <name type="character"> конь </name>, увидя <name
+type="character" reg="кляча"> клячу</name>
+в поле
+<L> <space dim="horizontal" extent="12 letters">В работе под сохой
+<L> <space dim="horizontal" extent="12 letters">И в неге не такой,
+<L> <space dim="horizontal" extent="8 letters">И не в уборе, и не в холе,
+<L> Какую гордый <name type="character"> конь</name> у барина имел,
+<L> С пренебрежением на <name type="character" reg="кляча"> клячу</name>
+посмотрел,
+<L> <space dim="horizontal" extent="4 letters">Пред <name type="character"
+reg="кляча"> клячею</name> крестьянскою бодрился
+<L> И хвастал, чванился, и тем и сем хвалился.
+<L> <space dim="horizontal" extent="8 letters"><q>Что? - говорит он <name
+type="character" reg="кляча"> кляче</name>той. -
+<L> Бывал ли на тебе убор когда такой,
+<L> <space dim="horizontal" extent="8 letters">Каков убор ты видишь мой?
+<L> И знаешь ли, меня как всякий почитает?
+<L> Всяк, кто мне встретится, дорогу уступает,
+<L> Всяк обо мне твердит и всякий похваляет.
+<L> <space dim="horizontal" extent="8 letters">Тебя же кто на свете
+знает?</q>
+<L> <space dim="horizontal" extent="8 letters">Несносна <name
+type="character" reg="кляча"> кляче</name> спесь<name type="character"
+reg="конь"> коня</name>.
+<L> <q>Пошел, хвастун! - ему на это отвечает. -
+<L> <space dim="horizontal" extent="8 letters">Оставь с покоем ты меня.
+<L> <space dim="horizontal" extent="12 letters">Тебе ль со мной считаться
+<L> <space dim="horizontal" extent="12 letters">И мною насмехаться?
+<L> <space dim="horizontal" extent="8 letters">Не так бы хвастать ты умел,
+<L> Когда бы ты овса моих трудов не ел</q>.
+</lg>
+
+</BODY>
+</TEXT>
+</TEI.2>
+
+

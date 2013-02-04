@@ -1,0 +1,124 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+       <!ENTITY acystress SDATA "[acystress ]">
+       <!ENTITY ocystress SDATA "[ocystress ]">
+       <!ENTITY iecystress SDATA "[iecystress]">
+       <!ENTITY icystress SDATA "[icystress ]">
+       <!ENTITY ucystress SDATA "[ucystress ]">
+       <!ENTITY ycystress SDATA "[ycystress ]">
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Стрелка часовая</title>
+        <author>
+          <persName>
+            <forename>Иван</forename>
+            <forename type='patronym'>Иванович</forename>
+            <surname>Хемницер</surname>
+          </persName>
+        </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor>Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Стрелка часовая</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки И. И. Хемницера, в трех частях.
+Ч. 3.</publisher>
+                <date>1799</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>неизвестно</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='хвастовство'>
+<span from='whole' type='theme' value='безделье'>
+<span from='whole' type='theme' value='спесь'>
+<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
+<l><space dim="horizontal" extent="8 letters">Когда-то стрелка часовая
+<l><space dim="horizontal" extent="10 letters">На башне городской,
+<l><space dim="horizontal" extent="8 letters">Свои достоинства счисляя,
+<l><space dim="horizontal" extent="10 letters">Расхвасталась собой,
+<l>И, прочим часовым частям в пренебреженье,
+<l><q>Не должно ль, - говорит, - ко мне иметь почтенье?
+<l>Всему я городу служу как бы в закон;
+<l>Всё, что ни делают, по мне располагают:
+<l>По мне работают, по мне и отдыхают;
+<l>По мне съезжаются в суды и выезжают;
+<l><space dim="horizontal" extent="8 letters">По мне чрез колокольный звон
+<l><space dim="horizontal" extent="8 letters">К молитве даже созывают;
+<l>И словом, только час я нужный покажу,
+<l><space dim="horizontal" extent="8 letters">Так точно будто прикажу.
+<l><space dim="horizontal" extent="8 letters">Да я ж стою домов всех выше,
+<l><space dim="horizontal" extent="8 letters">Так что весь город подо мной;
+<l>Всем видима и всё я вижу под собой.
+<l>А вы что значите? Кто видит вас?</q> - <q>Постой;
+<l><space dim="horizontal" extent="8 letters">Нельзя ли как-нибудь потише,
+<l><space dim="horizontal" extent="13 letters">И слово дать
+<l><space dim="horizontal" extent="13 letters">И нам сказать? -
+<l><space dim="horizontal" extent="8 letters">Другие части отвечали. -
+<l>Знай, если бы не мы тобою управляли,
+<l>Тебя бы, собственно, ни во что не считали.
+<l><space dim="horizontal" extent="10 letters">Ты хвастаешь собой,
+<l>Как часто хвастает и человек иной,
+<l>Который за себя работать заставляет,
+<l>А там себя других трудами величает</q>.
+</body>
+  </text>
+</tei.2>
+
+
+

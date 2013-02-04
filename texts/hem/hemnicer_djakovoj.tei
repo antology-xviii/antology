@@ -1,0 +1,265 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+       <!ENTITY acystress SDATA "[acystress ]">
+       <!ENTITY ocystress SDATA "[ocystress ]">
+       <!ENTITY iecystress SDATA "[iecystress]">
+       <!ENTITY icystress SDATA "[icystress ]">
+       <!ENTITY ucystress SDATA "[ucystress ]">
+       <!ENTITY ycystress SDATA "[ycystress ]">
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+	<!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	<!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<TEI.2>
+  <TEIHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <TITLE>Милостливой государыне <name type="person" reg="Дьякова М.
+А.">Марье Алексеевне Дьяковой</name>
+<note resp="editor"> <name type="person" reg="Дьякова М. А.">М. А.
+Дьякова</name>
+ (<date>1753</date>-<date>1807</date>) - дочь сенатского обер-прокурора
+<name type="person" reg="Дьяков А. А."> А. А. Дьякова</name>; впоследствии
+жена <name type="person" reg="Львов Н. А.">Н. А. Львова</name>.</note>
+</TITLE>
+        <AUTHOR>
+          <PERSNAME>
+            <FORENAME>Иван </FORENAME>
+            <FORENAME TYPE="patronym">Иванович </FORENAME>
+            <SURNAME>Хемницер </SURNAME>
+            </PERSNAME>
+          </AUTHOR>
+        <PRINCIPAL>Елена Гречкина</PRINCIPAL>
+        </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <PUBLISHER>ИФИ, семинар &quot;Русский XVIII век&quot;</PUBLISHER>
+        <AVAILABILITY STATUS="FREE"><P>&copy; 2012 ИФИ</AVAILABILITY>
+        </PUBLICATIONSTMT>
+      <SERIESSTMT>
+        <TITLE>Электронная антология &quot;Русская литература XVIII
+          века&quot;</TITLE>
+        </SERIESSTMT>
+      <SOURCEDESC>
+        <BIBLFULL>
+          <TITLESTMT>
+            <TITLE> И. И. Хемницер. Полное собрание стихотворений</TITLE>
+            <EDITOR>Л. Е. Боброва, В. Э. Вацуро</EDITOR>
+            </TITLESTMT>
+          <PUBLICATIONSTMT>
+            <PUBLISHER>Советский писатель</PUBLISHER>
+            <PUBPLACE>М.-Л.</PUBPLACE>
+            <DATE>1963</DATE>
+            </PUBLICATIONSTMT>
+          <SOURCEDESC>
+            <BIBLFULL>
+              <TITLESTMT>
+                <TITLE>Милостливой государыне N...N...N...покорнейшее
+приношение</TITLE>
+                </TITLESTMT>
+              <PUBLICATIONSTMT>
+                <PUBLISHER>Басни и сказки N...N...
+                  СПб.</PUBLISHER>
+                <DATE>1779</DATE>
+                </PUBLICATIONSTMT>
+              </BIBLFULL>
+            </SOURCEDESC>
+          </BIBLFULL>
+        </SOURCEDESC>
+      </FILEDESC>
+	  &Encoding;
+    <PROFILEDESC>
+      <CREATION>
+        <DATE>неизвестно </DATE>
+        </CREATION>
+      <TEXTCLASS>
+        <CATREF SCHEME="KIND" TARGET="VERSE ">
+        </TEXTCLASS>
+      </PROFILEDESC>
+    </TEIHEADER>
+  <TEXT>
+    <SPAN FROM="WHOLE" VALUE="добродетели знатной особы" TYPE="theme">
+    <SPAN FROM="WHOLE" VALUE="поиск покровительства" TYPE="theme">
+    <BODY ID="WHOLE"><DIV0 RHYME="астрофич. в.р." MET="ЯВ">
+
+<L> <space dim="horizontal" extent="5 letters">Милостивая государыня!
+<L> <space dim="horizontal" extent="8 letters">Лишь только я успел сказать:
+<L> <q>Ну, басенки мои и сказочки, прощайте,
+<L> Вас требуют, и мне вас больше не держать,
+<L> <space dim="horizontal" extent="14 letters">Ступайте;
+<L> Приятелям моим привык я угождать<note resp="editor"> Имеются в виду
+<name type="person" reg="Львов Н. А.">Н. А. Львов</name>, <name
+type="person" reg="Капнист В. В.">В. В. Капнист</name> и<name type="person"
+reg="Державин Г. Р."> Г. Р. Державин</name>.</note>:
+<L> Они меня о том не раз уже просили,
+<L> <space dim="horizontal" extent="8 letters">Чтоб напечатать вас
+отдать</q>, -
+<L> Все басни с сказками ко мне тут приступили,
+<L> И, каждая приняв и голос свой, и вид,
+<L> <space dim="horizontal" extent="8 letters"><name type="character"
+reg="старик">Старик</name> <note resp="editor"> персонаж из басни <name
+type="person" reg="Хемницер И. И."> Хемницера</name>
+<bibl><title>Робята своевольные</title></bibl>.</note>
+мне первый говорит:
+<L> <space dim="horizontal" extent="8 letters"><q>Помилуй, чт&ocystress; ты
+затеваешь,
+<L> Что ты без всякой нас защиты отпускаешь!
+<L> Ужли ты для того на свет нас жить пустил.
+<L> И нас, детей своих, лелеял и учил,
+<L> Чтоб мы на произвол судьбы теперь остались
+<L> <space dim="horizontal" extent="8 letters">И без прибежища скитались?
+<L> <space dim="horizontal" extent="4 letters">Не сам ли ты через меня
+сказал,
+<L> Что в море бы одним робятам не пускаться?
+<L> А ты теперь и сам что делать с нами стал?</q>
+<L> <space dim="horizontal" extent="8 letters"><note resp="editor"> из
+басни <bibl><title>Богач и бедняк</title></bibl>
+</note><name type="character" reg="бедняк">Бедняк</name>
+тож к речи тут пристал:
+<L> <q>А я куды гожусь? Как в свет мне показаться?
+<L> Ты знаешь, батюшка, довольно, свет каков,
+<L> Какое множество развратных в нем умов;
+<L> Ты знаешь, сколько в нем на правду негодуют.
+<L> И как порочные умы об ней толкуют?
+<L> А ты ведь, батюшка, когда нас воспитал,
+<L> <space dim="horizontal" extent="8 letters"><q>Ну дети, правдою живите.
+<L> <space dim="horizontal" extent="12 letters">И правду говорите</q>, -
+<L> <space dim="horizontal" extent="12 letters">Всегда нам толковал.
+<L> Так ты нас под ее защитой отпускаешь?
+<L> <space dim="horizontal" extent="8 letters">Помилуй, разве ты не знаешь,
+<L> Какой по бедности моей мне был прием
+<L> <space dim="horizontal" extent="8 letters">В беседе перед <name
+type="character" reg="богач"> богачом</name>?
+<L> Чего же доброго теперь мне дожидаться,
+<L> Когда мне в свет еще и с правдой показаться?
+<L> Нет, ежели ты в свет задумал нас пустить,
+<L> Отдай <emph> <name type="person" reg="Дьякова М. А.">
+Дьяковой</name></emph> нас в покров <note resp="editor"> т. е. под
+покровительство </note>и защищенье.
+<L> Тогда хоть мы от злых услышим поношенье,
+<L> <space dim="horizontal" extent="8 letters">Что станем правду говорить,
+<L> Но в <emph>ней </emph> не гнев найдем, увидим снисхожденье;
+<L> <space dim="horizontal" extent="8 letters"><emph> Ее </emph> одно в том
+утешенье,
+<L> <space dim="horizontal" extent="8 letters">Один закон, одно ученье,
+<L> <space dim="horizontal" extent="8 letters">Чтоб правду слышать и
+любить.
+<L> <emph>Она </emph> нас иногда от клеветы избавит,
+<L> А именем своим тебя и нас прославит.
+<L> И наших недругов заставит, может быть,
+<L> <space dim="horizontal" extent="12 letters">Еще нас и любить.
+<L> Хоть в свете истина собой и не терпима,
+<L> Так из прекрасных уст всё может быть любима</q>.
+<L> - <q>Как? <emph>ей </emph> представить вас? что вы, с ума сошли?
+<L> <space dim="horizontal" extent="8 letters">Подите ж прочь! пошли!
+пошли!</q>
+<L> Сперва-таки как лад просили, всё просили;
+<L> Но вдруг как подняли и плач, и вой такой!
+<L> <space dim="horizontal" extent="8 letters"><q>Ой! батюшка, постой!
+постой!
+<L> Ой! что задумал ты над нашей головой!</q>
+<L> Тут все они свои заслуги протвердили
+<L> <space dim="horizontal" extent="8 letters">Без череды и чередой.
+<L> Иная басня тут медведем заплясала,
+<L> <space dim="horizontal" extent="8 letters">Другая тут свиньей визжала.
+<L> <space dim="horizontal" extent="16 letters"><name type="character"
+reg="медведь"> Медведь</name><note resp="editor"> из басни <bibl><title>
+Медведь-плясун </title></bibl></note>сказал
+<L> <q>Что, разве ты забыл, как в басне я плясал?</q>
+<L> <space dim="horizontal" extent="8 letters"><name type="character"
+reg="свинья"> Свинья</name><note resp="editor"> из басни <bibl><title>Два
+соседа </title></bibl></note> свое напоминала
+<L> <space dim="horizontal" extent="8 letters">И с прочими туда ж твердит:
+<L> <q>Припомни, как меня в девятой басне били,
+<L> <space dim="horizontal" extent="8 letters">Гоняли, мучили, тузили</q>.
+<L> <space dim="horizontal" extent="8 letters"><name type="character"
+reg="слоны"> Слоны </name><note resp="editor"> из басни <bibl><title>Лев,
+учредивший совет </title></bibl></note>
+с <name type="character" reg="корова">коровой</name><note resp="editor"> из
+басни <bibl><title> Мужик и корова </title></bibl></note>приступили.
+<L> <space dim="horizontal" extent="12 letters"><name type="character"
+reg="корова"> Корова</name>говорит:
+<L> <q>Что, разве даром я под седоком страдала,
+<L> <space dim="horizontal" extent="8 letters">За лошадь службу отправляла
+<L> <space dim="horizontal" extent="12 letters">И невпопад ступала?
+<L> <space dim="horizontal" extent="12 letters">А что я не скакала,
+<L> <space dim="horizontal" extent="8 letters">Так я не виновата в том,
+<L> <space dim="horizontal" extent="8 letters">Что не род&icystress;лася
+конем</q>.
+<L> <space dim="horizontal" extent="8 letters"><name type="character"
+reg="слоны">Слоны</name>свое тут толковали:
+<L> <space dim="horizontal" extent="8 letters"><q>Да мы чем виноваты стали,
+<L> Что, новый ты совет затеяв учредить,
+<L> <space dim="horizontal" extent="20 letters">С нами,
+<L> <space dim="horizontal" extent="20 letters">С <name type="character"
+reg="слоны"> слонами</name>,
+<L> <space dim="horizontal" extent="8 letters">Скотов с предлинными ушами.
+<L> За красное сукно изволил посадить?
+<L> <space dim="horizontal" extent="8 letters">Иль наши все труды пропали?
+<L> <space dim="horizontal" extent="8 letters">Так из чего ж бы нам
+служить?</q>
+<L> И уши криком мне и воем прожужжали.
+<L> Другие было все туда ж еще пристали;
+<L> Но я, чтоб как-нибудь скоряй их с шеи сжить,
+<L> Стал гнать их от себя, кричать на них, бранить:
+<L> <q>Поди, <note resp="editor"> стая уродливых существ </note>
+уродлива станица, отступися!</q>
+<L> Они, <emph>сударыня</emph>, и пуще привяжися.
+<L> <space dim="horizontal" extent="8 letters">Я им в рассудок говорить:
+<L> <q>Да как уродов вас <emph><name type="person" reg="Дьякова М.
+А.">Дьяковой </name></emph> мне представить?
+<L> Иль вкус и красоту ее мне оскорбить
+<L> И самому себя пред нею обесславить?
+<L> Ну, кстати ли?</q> - Они никак не отставать;
+<L> Стоят на том, чтоб Вам в защиту их отдать:
+<L> Хотя бы, говорят, мы ей не показались,
+<L> Так мы бы именем <emph>ее </emph> покрасовались.
+<L> <space dim="horizontal" extent="8 letters">Я всё не смел им обещать,
+<L> Как вздорная меня станица ни просила;
+<L> Но вдруг, где ни взялась,
+<name type="character">жена</name>
+<note resp="editor"> из басни <bibl><title> Тень мужня и
+Харон</title></bibl></note>тут приступила,
+<L> Котору в сказке я десятой описал;
+<L> Тут я, <emph>сударыня </emph>, что делать, уж не знал,
+<L> <space dim="horizontal" extent="8 letters">И, чтоб скоряй с ней
+разойтиться,
+<L> <space dim="horizontal" extent="8 letters">Я был уж принужден решиться.
+<L> <space dim="horizontal" extent="12 letters"><q>Да, да, - я ей сказал, -
+<L> <space dim="horizontal" extent="12 letters">Так точно, знаю, знаю...
+<L> Подите только прочь, я всё вам обещаю...</q>
+<L> <space dim="horizontal" extent="8 letters">Дав слово, должен я
+сдержать.
+<L> Не надобно бы так нескромно обещать;
+<L> Но, силу кротости и власть рассудка зная
+<L> И вздорную лишь тем исправить уповая,
+<L> Подумал я: <q>Пускай же будет и она
+<L> <space dim="horizontal" extent="8 letters">На путь прямой обращена;
+<L> <space dim="horizontal" extent="8 letters">Не первая то будет злая
+<L> <space dim="horizontal" extent="8 letters">Обезоружена <name
+type="character"> жена</name></q>
+<L> Пожалуйте ее, <emph>сударыня</emph>, исправьте;
+<L> <space dim="horizontal" extent="8 letters">А мне простите слог простой,
+<L> <space dim="horizontal" extent="8 letters">И счастье тем мое составьте:
+<L> Позвольте, чтоб <emph>Вам</emph> был покорнейшим слугой,
+
+<emph>милостивая государыня,N. N.</emph>
+
+</BODY>
+</TEXT>
+</TEI.2>
+
