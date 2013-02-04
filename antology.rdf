@@ -64,6 +64,11 @@
   <rdfs:Class rdf:ID="Note">
     <rdfs:subClassOf rdf:resource="#TextDivision"/>
   </rdfs:Class>
+
+  <rdfs:Class rdf:ID="Series">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/BibliographicResource"/>
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Collection"/>
+  </rdfs:Class>
   <!-- Text classifiers -->
   <rdfs:Class rdf:ID="LiteraryKind">
     <rdfs:subClassOf rdf:resource="&svcns;#Category"/>
@@ -93,10 +98,10 @@
     <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
   </ant:LiteraryKind>
   <!-- People -->
-  <rdfs:Class rdf:ID="Person">
+  <svc:AbstractClass rdf:ID="Person">
     <rdfs:subClassOf rdf:resource="&dctermsns;/Agent"/>
     <rdfs:subClassOf rdf:resource="&foafns;/Person"/>
-  </rdfs:Class>
+  </svc:AbstractClass>
   <rdfs:Class rdf:ID="RealPerson">
     <rdfs:subClassOf rdf:resource="#Person"/>
   </rdfs:Class>
@@ -112,26 +117,33 @@
   <rdfs:Class rdf:ID="MythologicCharacter">
     <rdfs:subClassOf rdf:resource="#FictionalPerson"/>
   </rdfs:Class>
-  <!-- Date -->
-  <rdfs:Class rdf:ID="DateInterval">
-    <rdfs:subClassOf rdf:resource="&dctermsns;/PeriodOfTime"/>
+
+  <rdfs:Class rdf:ID="Publisher">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/Agent"/>
+    <rdfs:subClassOf rdf:resource="&foafns;/Organization"/>
   </rdfs:Class>
-  <rdfs:Property rdf:ID="postQuem">
+  <!-- Date -->
+  <svc:OpenClass rdf:ID="DateInterval">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/PeriodOfTime"/>
+  </svc:OpenClass>
+  <svc:SearchableProperty rdf:ID="postQuem">
     <rdfs:domain rdf:resource="#DateInverval"/>
     <rdfs:range rdf:resource="&svcns;#Year"/>
-  </rdfs:Property>
+    <svc:searchConstraint rdf:resource="&svcns;#certainty"/>
+  </svc:SearchableProperty>
   <rdfs:Property rdf:ID="anteQuem">
     <rdfs:domain rdf:resource="#DateInverval"/>
     <rdfs:range rdf:resource="&svcns;#Year"/>
+    <svc:searchConstraint rdf:resource="&svcns;#certainty"/>
   </rdfs:Property>
   <rdfs:Property rdf:ID="calendar">
     <rdfs:domain rdf:resource="#DateInverval"/>
     <rdfs:range rdf:resource="&rdfsns;#Literal"/>
   </rdfs:Property>
   <!-- Places -->
-  <rdfs:Class rdf:ID="Place">
+  <svc:AbstractClass rdf:ID="Place">
     <rdfs:subClassOf rdf:resource="&dctermsns;/Location"/>
-  </rdfs:Class>
+  </svc:AbstractClass>
   <rdfs:Class rdf:ID="RealPlace">
     <rdfs:subClassOf rdf:resource="#Place"/>
   </rdfs:Class>
@@ -229,11 +241,11 @@
   <ant:MetricType rdf:ID="TwoSyllableTruncation">
     <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
   </ant:MetricType>
-  <rdfs:Property rdf:ID="metricKind">
+  <svc:SearchableProperty rdf:ID="metricKind">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
     <rdfs:domain rdf:resource="#MetricSystem"/>
     <rdfs:range rdf:resource="#MetricType"/>
-  </rdfs:Property>
+  </svc:SearchableProperty>
   <rdfs:Class rdf:ID="RhymingScheme">
     <rdfs:subClassOf rdf:resource="&dctermsns;/LinguisticSystem"/>
   </rdfs:Class>
@@ -243,16 +255,160 @@
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/creator"/>
     <rdfs:subPropertyOf rdf:resource="&foafns;/maker"/>
     <rdfs:domain rdf:resource="#PublishedWork"/>
-    <rdfs:domain rdf:resource="#RealPerson"/>
+    <rdfs:range rdf:resource="#RealPerson"/>
   </svc:SearchableProperty>
   <svc:SearchableProperty rdf:ID="editor">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/contributor"/>
     <rdfs:domain rdf:resource="#PublishedWork"/>
-    <rdfs:domain rdf:resource="#RealPerson"/>
+    <rdfs:range rdf:resource="#RealPerson"/>
   </svc:SearchableProperty>
-  <svc:SearchableProperty rdf:ID="principal">
-    <rdfs:subPropertyOf rdf:resource="&dctermsns;/contributor"/>
+
+  <svc:SearchableProperty rdf:ID="title">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/title"/>
+    <rdfs:domain rdf:resource="&dctermsns;/BibliographicResource"/>
+    <rdfs:range rdf:resource="&rdfns;#Literal"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="publisher">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/publisher"/>
     <rdfs:domain rdf:resource="#PublishedWork"/>
-    <rdfs:domain rdf:resource="#RealPerson"/>
+    <rdfs:range rdf:resource="#Publisher"/>
   </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="distributor">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/publisher"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#Publisher"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="inSeries">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/isPartOf"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#Series"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="pubDate">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/temporal"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#DateInterval"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="pubPlace">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/spatial"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#RealPlace"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="dateWritten">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/temporal"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#DateInterval"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="placeWritten">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/spatial"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#RealPlace"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="datePerformed">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/temporal"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#DateInterval"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="mentions">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/references"/>
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="#Place"/>
+    <rdfs:range rdf:resource="#DateInterval"/>
+    <rdf:type rdf:resource="&svcns;#NavigableProperty"/>
+    <svc:searchThrough rdf:resource="#postQuem"/>
+    <svc:searchThrough rdf:resource="#anteQuem"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="cites">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/references"/>
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="#ReferencedWork"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="theme">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/subject"/>
+    <rdfs:subPropertyOf rdf:resource="&foafns;/topic"/>
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="&rdfns;#Literal"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="addressee">
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="#RealPerson"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="literaryKind">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#LiteraryKind"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="metric">
+    <rdf:type rdf:resource="&svcns;#NavigableProperty"/>
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="#MetricSystem"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="rhyming">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
+    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:range rdf:resource="#RhymingScheme"/>
+  </svc:SearchableProperty>
+
+  <svc:NavigableProperty rdf:ID="source">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/source"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <svc:searchThrough rdf:resource="#editor"/>
+    <svc:searchThrough rdf:resource="#publisher"/>
+    <svc:searchThrough rdf:resource="#pubDate"/>
+  </svc:NavigableProperty>
+
+  <svc:NavigableProperty rdf:ID="original">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/source"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <svc:searchThrough rdf:resource="#title"/>
+    <svc:searchThrough rdf:resource="#publisher"/>
+    <svc:searchThrough rdf:resource="#pubPlace"/>
+    <svc:searchThrough rdf:resource="#pubDate"/>
+  </svc:NavigableProperty>
+
+  <svc:NavigableProperty rdf:ID="hasPart">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/hasPart"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
+    <rdfs:range rdf:resource="#Text"/>
+    <svc:searchThrough rdf:resource="#title"/>
+  </svc:NavigableProperty>
+
+  <svc:ReverseNavigableProperty rdf:ID="isPartOf">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/isPartOf"/>
+    <rdfs:domain rdf:resource="#Text"/>
+    <rdfs:range rdf:resource="#ReferencedText"/>
+    <svc:searchThrough rdf:resource="#word"/>
+  </svc:ReverseNavigableProperty>
+
+  <svc:SearchableProperty rdf:ID="firstLine">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/hasPart"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:range rdf:resource="#VerseLine"/>
+  </svc:SearchableProperty>
+
+  <svc:SearchableProperty rdf:ID="word">
+    <rdfs:subPropertyOf rdf:resource="&rdfns;#member"/>
+    <rdfs:domain rdf:resource="#Text"/>
+    <rdfs:range rdf:resource="&rdfsns;#Literal"/>
+    <svc:searchConstraint rdf:resource="&svcns;#ordering"/>
+  </svc:SearchableProperty>
+
 </rdf:RDF>

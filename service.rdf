@@ -15,12 +15,21 @@
   <rdfs:Class rdf:ID="SearchableProperty">
     <rdfs:subClassOf rdf:resource="&rdfns;#Property"/>
   </rdfs:Class>
+  <rdfs:Class rdf:ID="NavigableProperty">
+    <rdfs:subClassOf rdf:resource="&rdfns;#Property"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="ReverseNavigableProperty">
+    <rdfs:subClassOf rdf:resource="&rdfns;#Property"/>
+  </rdfs:Class>
   <rdfs:Class rdf:ID="AbstractProperty">
     <rdfs:subClassOf rdf:resource="&rdfns;#Property"/>
   </rdfs:Class>
   <rdfs:Class rdf:ID="AbstractClass">
     <rdfs:subClassOf rdf:resource="&rdfns;#Class"/>
   </rdfs:Class>
+  <svc:AbstractClass rdf:ID="OpenClass">
+    <rdfs:subClassOf rdf:resource="&rdfns;#Class"/>
+  </svc:AbstractClass>
   <rdfs:Class rdf:ID="Category">
     <rdfs:subClassOf rdf:resource="#AbstractClass"/>
   </rdfs:Class>
@@ -30,12 +39,15 @@
   </rdfs:Property>
   <rdfs:Datatype rdf:ID="Year">
     <svc:xsdType rdf:resource="&xsdns;#integer"/>
+    <rdf:type rdf:resource="#OpenClass"/>
   </rdfs:Datatype>
   <rdfs:Datatype rdf:ID="Cardinal">
     <svc:xsdType rdf:resource="&xsdns;#positiveInteger"/>
+    <rdf:type rdf:resource="#OpenClass"/>
   </rdfs:Datatype>
   <rdfs:Datatype rdf:ID="Probability">
     <svc:xsdType rdf:resource="&xsdns;#decimal"/>
+    <rdf:type rdf:resource="#OpenClass"/>
   </rdfs:Datatype>
 
   <rdfs:Property rdf:ID="responsibility">
@@ -44,8 +56,24 @@
     <rdfs:range rdf:resource="&dctermsns;/Agent"/>
   </rdfs:Property>
 
+  <rdfs:Property rdf:ID="searchThrough">
+    <rdfs:domain rdf:resource="#NavigableProperty"/>
+    <rdfs:domain rdf:resource="#ReverseNavigableProperty"/>
+    <rdfs:range rdf:resource="#SearchableProperty"/>
+  </rdfs:Property>
+
+  <rdfs:Property rdf:ID="searchConstraint">
+    <rdfs:domain rdf:resource="#SearchableProperty"/>
+    <rdfs:domain rdf:resource="&rdfns;#Property"/>
+  </rdfs:Property>
+
   <rdfs:Property rdf:ID="certainty">
     <rdfs:domain rdf:resource="&rdfns;#Statement"/>
     <rdfs:range rdf:resource="#Probability"/>
+  </rdfs:Property>
+
+ <rdfs:Property rdf:ID="ordering">
+    <rdfs:domain rdf:resource="&rdfns;#Statement"/>
+    <rdfs:range rdf:resource="#Cardinal"/>
   </rdfs:Property>
 </rdf:RDF>

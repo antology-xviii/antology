@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="xml" media-type="application/tei+xml" doctype-system="tei2.dtd" standalone="yes" />
+    <xsl:output method="xml" media-type="application/tei+xml"/>
     <xsl:variable name="entity_mapping" select="document('mapping.xml')"/>
     <xsl:key name="map_entity" match="mapping" use="@entity"/>
+    <xsl:template match="/">
+      <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE TEI.2 [&#10;</xsl:text>
+      <xsl:for-each select="//xptr/@doc|//xref/@doc">
+        <xsl:text disable-output-escaping="yes">&lt;!ENTITY </xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text disable-output-escaping="yes"> SYSTEM &quot;</xsl:text>
+        <xsl:value-of select="unparsed-entity-uri(.)"/>
+        <xsl:text disable-output-escaping="yes">&quot; NDATA html &gt;&#10;</xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="//figure/@entity">
+        <xsl:text disable-output-escaping="yes">&lt;!ENTITY </xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text disable-output-escaping="yes"> SYSTEM &quot;</xsl:text>
+        <xsl:value-of select="unparsed-entity-uri(.)"/>
+        <xsl:text disable-output-escaping="yes">&quot; NDATA jpeg &gt;&#10;</xsl:text>
+      </xsl:for-each>
+      <xsl:for-each select="//*[@id]">
+        <xsl:if test="not(preceding::*[local-name() = local-name(current())])">
+          <xsl:text disable-output-escaping="yes">&lt;!ATTLIST </xsl:text>
+          <xsl:value-of select="@teiform"/> 
+          <xsl:text disable-output-escaping="yes"> id ID #IMPLIED &gt;&#10;</xsl:text>
+        </xsl:if>
+      </xsl:for-each>
+      <xsl:text disable-output-escaping="yes">]&gt;&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="div0|div1|div2|div3|div4|div5|div6|div7" priority="1">
       <xsl:call-template name="recursive">
         <xsl:with-param name="tag" select="'div'"/>
