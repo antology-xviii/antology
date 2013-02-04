@@ -1,0 +1,101 @@
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+      <!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian
+Cyrillic//EN">
+      <!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+1//EN">
+      <!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin
+2//EN">
+      <!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special
+Graphic//EN">
+      <!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+      %ISOnum;
+      %ISOpub;
+      %ISOcyr1;
+      %ISOlat1;
+      %ISOlat2;
+      <!ENTITY % TEI.verse "INCLUDE" >
+      <!ENTITY % TEI.names.dates "INCLUDE" >
+      <!ENTITY % TEI.analysis "INCLUDE">
+      <!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+      <!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric
+encoding declarations//RU" "encoding.tei">
+      <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Молитва</title>
+        <author>
+          <persName>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
+          </persName>
+        </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Радищев А. Н. Полное собрание сочинений. Том 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии Наук  СССР</publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
+библиотека</XREF></DISTRIBUTOR>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1938</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Молитва</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собрание оставшихся сочинений покойного
+Александра Николаевича Радищева. Том 1</publisher>
+                <date>1807</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+            <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='вера/неверие'>
+<span from='whole' type='theme' value='ожидание смерти'>
+<span from='whole' type='theme' value='загробная жизнь'>
+<body id='whole'><div0 met='Я6' rhyme="AAbbCCdd.">
+<lg1 type="stanza">
+<l>Тебя, о боже мой, тебя не признавают, -
+<l>Тебя, что твари все повсюду возвещают.
+<l>Внемли последний глас: я если прегрешил,
+<l>Закон я твой искал, в душе тебя любил;
+<l>Не колебаяся на вечность я взираю;
+<l>Но ты меня родил, и я не понимаю,
+<l>Что бог, кем в дни мои блаженства луч сиял,
+<l>Когда прервется жизнь, на век меня терзал...
+</body>
+  </text>
+</tei.2>
