@@ -1,0 +1,128 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	  <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Журавли</title>
+        <author>
+          <persName>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
+          </persName>
+        </author>
+        <principal>Александр Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А/</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная библиотека</XREF></DISTRIBUTOR>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1938</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Журавли</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собрание оставшихся сочинений покойного Александра Николаевича Радищева. Т. 1.</publisher>
+                <date>1807</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1797-1800</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='страдание'>
+<span from='whole' type='theme' value='посмертное воздаяние'>
+<span from='whole' type='theme' value='надежда'>
+<body id='whole'><div0 met='ПК (Д4 + ЯВ)' rhyme="Астрофич. б. с. + Астрофич. в. р.">
+<LG1 TYPE="group">
+<l><space dim="horizontal" extent="11 letters">Осень листы ощипала с дерев, 
+<l><space dim="horizontal" extent="7 letters">Иней седой на траву упадал, 
+<l><space dim="horizontal" extent="7 letters">Стадо тогда журавлей собралося, 
+<l><space dim="horizontal" extent="7 letters">Чтоб прелететь в теплу, дальну страну, 
+<l><space dim="horizontal" extent="7 letters">За море жить. Один бедной журавль, 
+<l><space dim="horizontal" extent="7 letters">Нем и уныл, пригорюнясь сидел: 
+<l><space dim="horizontal" extent="7 letters">Ногу стрелой перешиб ему ловчей. 
+<l><space dim="horizontal" extent="7 letters">Радостной крик журавлей он не множит; 
+<l><space dim="horizontal" extent="7 letters">Бодрые братья смеялись над ним. 
+<l><space dim="horizontal" extent="7 letters">Я не виновен, что я охромел, 
+<l><space dim="horizontal" extent="7 letters">Нашему царству как вы помогал. 
+<l><space dim="horizontal" extent="7 letters">Вам надо мной хохотать бы не должно, 
+<l><space dim="horizontal" extent="7 letters">Ни презирать, видя бедство мое. 
+<l><space dim="horizontal" extent="7 letters">Как мне лететь? Отымает возможность, 
+<l><space dim="horizontal" extent="7 letters">Мужество, силу претяжка болезнь. 
+<l><space dim="horizontal" extent="7 letters">Волны несчастному будут мне гробом. 
+<l><space dim="horizontal" extent="7 letters">Ах, для чего не пресек моей жизни 
+<l><space dim="horizontal" extent="7 letters">Ярый ловец! - Между тем веет ветр, 
+<l><space dim="horizontal" extent="7 letters">Стадо взвилося и скорым полетом 
+<l><space dim="horizontal" extent="7 letters">За море вмиг прелететь поспешает. 
+<l><space dim="horizontal" extent="7 letters">Бедной больной назади остается; 
+<l><space dim="horizontal" extent="7 letters">Часто на листьях, пловущих в водах, 
+<l><space dim="horizontal" extent="7 letters">Он отдыхает, горюет и стонет; 
+<l><space dim="horizontal" extent="7 letters">Грусть и болезнь в нем все сердце снедают. 
+<l><space dim="horizontal" extent="7 letters">Мешкав он много, летя помаленьку, 
+<l><space dim="horizontal" extent="7 letters">Землю узрел, вожделенну душею, 
+<l><space dim="horizontal" extent="7 letters">Ясное небо и тихую пристань. 
+<l><space dim="horizontal" extent="7 letters">Тут всемогущий болезнь излечил, 
+<l><space dim="horizontal" extent="7 letters">Дал жить в блаженстве в награду трудов; 
+<l><space dim="horizontal" extent="7 letters">Многи ж насмешники в воду упали. 
+<LG1 TYPE="group">
+<l><space dim="horizontal" extent="4 letters">О вы, стенящие под тяжкою рукою
+<l><space dim="horizontal" extent="7 letters">Злосчастия и бед!
+<l><space dim="horizontal" extent="7 letters">Исполнены тоскою,
+<l><space dim="horizontal" extent="7 letters">Клянете жизнь, и свет;
+<l>Любители добра, ужель надежды нет?
+<l>Мужайтесь, бодрствуйте и смело протекайте
+<l>Сей краткой жизни путь. На он пол поспешайте:
+<l>Там лучшая страна, там мир во век живет,
+<l>Там юность вечная, блаженство там вас ждет.
+</body>
+  </text>
+</tei.2>

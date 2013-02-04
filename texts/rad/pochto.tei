@@ -1,0 +1,154 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" [
+	<!ENTITY % ISOcyr1 PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN">
+	<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN">
+	<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN">
+	<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN">
+    <!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN">
+	<!NOTATION html PUBLIC "-//W3C//NOTATION HTML 4.01//EN">
+	%ISOnum;
+	%ISOpub;
+	%ISOcyr1;
+	%ISOlat1;
+	%ISOlat2;
+	<!ENTITY % TEI.verse "INCLUDE" >
+	<!ENTITY % TEI.names.dates "INCLUDE" >
+	<!ENTITY % TEI.analysis "INCLUDE">
+	<!ENTITY % TEI.linking "INCLUDE">
+    <!ENTITY % TEI.transcr "INCLUDE">
+	<!ENTITY Encoding PUBLIC "-//IDN ru::spb::antology-xviii//TEXT Metric encoding declarations//RU" "encoding.tei">
+	  <!ENTITY rvb SYSTEM "<url>http://rvb.ru" NDATA HTML>
+]>
+
+<tei.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Почто, мой друг, почто слеза из глаз катится?</title>
+        <author>
+          <persName>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
+          </persName>
+        </author>
+        <principal>Александр Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
+      </seriesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А/</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная библиотека</XREF></DISTRIBUTOR>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1938</date>
+          </publicationStmt>
+          <sourceDesc>
+            <biblFull>
+              <titleStmt>
+                <title>Послание</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собрание оставшихся сочинений покойного Александра Николаевича Радищева. Т. 1.</publisher>
+                <date>1807</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+&Encoding;
+    <profileDesc>
+      <creation>
+        <date>1791</date>
+      </creation>
+      <textClass>
+        <catRef scheme="kind" target="verse">
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<span from='whole' type='theme' value='судьба'>
+<span from='whole' type='theme' value='обновление жизни'>
+<body id='whole'><div0 met='Я6' rhyme="Астрофич. п. р.">
+<lg1 type="group">
+<l>- Почто, мой друг, почто слеза из глаз катится,
+<l>Почто безвременно печалью дух крушится,
+<l>Ты бедствен не один! Иной среди утех
+<l>Всесчастлив кажется, но знает ли, что смех?
+<l>Улыбка на устах его воссесть не может,
+<l>Змия раскаянья преступно сердце гложет;
+<l>Властитель мира, царь, он носит в сердце ад.
+<lg1 type="group">
+<l>- Мне пользует ли то? лишен друзей и чад,
+<l>Скитаться по лесам, в пустынях осужденный,
+<l>Претящей властию отвсюду окруженный,
+<l>На что мне жить, когда мой век стал бесполезен?
+<lg1 type="group">
+<l>- Воспомни прежни дни, когда ты был любезен
+<l>Всем знающим тебя, соотчичам, друзьям,
+<l>Когда во льстящей мгле являлось все очам.
+<l>Когда во власти был, веселий на престоле;
+<l>Когда рок следовал твоей, казалось, воле,
+<l>Когда один твой взор счастливых сделать мог.
+<lg1 type="group">
+<l>- Блаженством все сие я почитать не мог.
+<l>Богатство, власть моя лишь зависть умножали;
+<l>В одежде дружества злодеи предстояли;
+<l>В след честолюбию забот собранье шло;
+<l>Злодейство правый суд и судию кляло;
+<l>Злоречие, нося бесстрастия личину,
+<l>И непорочнейшим делам моим причину
+<l>Коварну, смрадную старалось приписать
+<l>И добродетели порочный вид придать.
+<l>Благодеянию возмездьем огорченье.
+<lg1 type="group">
+<l>- Среди превратности что ж было в утешенье?
+<lg1 type="group">
+<l>- Душа незлобная и сердце непорочно.
+<lg1 type="group">
+ <l>- Скончай же жалобы, подъятые бессрочно.
+<l>Или в пороки впал и гнусность возлюбил,
+<l>Или чувствительность из сердца истребил?
+<lg1 type="group">
+<l>- Душа моя во мне, я тот же, что я был.
+<lg1 type="group">
+<l>- Дела твои с тобой, душа твоя с тобою.
+<l>Престань стенать. Кто мог всесильною рукою
+<l>И сердце любяще, и душу нежну дать,
+<l>К утехам может тот тебя опять воззвать.
+<l>А если твоего сна совесть не тревожит,
+<l>И память прежних дел печаль твою не множит,
+<l>То верь, что всем бедам уж близок стал конец.
+<l>Закон незыблемой поставил всеотец,
+<l>Чтоб обновление из недр премен рождалось,
+<l>Чтоб всё крушением в природе обновлялось,
+<l>Чтоб смерть давала жизнь и жизнь давала смерть;
+<l>То шествие судьбы возможно ли претерть?
+<l>На восходящую воззри теперь денницу,
+<l>На лучезарную ее зри колесницу;
+<l>Из недр густейшей мглы, смертообразна сна,
+<l>Возобновленну жизнь земле несет она. 
+<lg1 type="group">
+<l> - Се живоносное светило возблистало
+<l>И утренни мечты от глаз моих прогнало,
+<l>Приятный тихий сон телесность обновил,
+<l>И в сердце паки я надежду ощутил.
+<lg1 type="group">
+<l>- Подобно ей печаль в веселье претворится,
+<l>Оружьем радости вся горесть низложится,
+<l>На крыльях радости умчится скорбь твоя,
+<l>Мужайся и будь тверд, с тобой пребуду я.
+</body>
+  </text>
+</tei.2>
