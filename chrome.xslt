@@ -18,11 +18,11 @@
 
           <div class="menu">
             <a href="/index.html">главная</a>
-            <a href="/cgi-bin/searchform.cgi">поиск</a>
+            <a href="searchform.cgi">поиск</a>
             <a href="/lecture.html">справочные и учебные материалы</a>
             <!-- [<a href="/tests.html" class=menu>тесты и задания</a>]<br> -->
-            <a href="/cgi-bin/people.cgi">об участниках проекта</a>
-            <a href="/manual.pdf">руководство для пользователя</a>
+            <a href="people.cgi">об участниках проекта</a>
+            <a href="../manual.pdf">руководство для пользователя</a>
             <a href="/contact.html">контакты</a>
           </div>
         </div>

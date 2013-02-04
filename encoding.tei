@@ -49,33 +49,33 @@
 <category id="article"><catDesc>Статья</catDesc></category>
   </taxonomy>
 </classDecl>
-<metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))([3-8]|Рз[3-8]*)|Рк|Гк|Эд|Пт)(ц.[пн].[12])?'>
-  <symbol value='Х'>хорей</symbol>
-  <symbol value='Я'>ямб</symbol>
-  <symbol value='Д'>дактиль</symbol>
-  <symbol value='Ам'>амфибрахий</symbol>
-  <symbol value='Ан'>анапест</symbol>
-  <symbol value='Дк'>дольник</symbol>
-  <symbol value='T'>тактовик</symbol>
-  <symbol value='ПнI'>пеон I</symbol>
-  <symbol value='ПнII'>пеон II</symbol>
-  <symbol value='ПнIII'>пеон III</symbol>
-  <symbol value='ПнIV'>пеон IV</symbol>
-  <symbol value='Рк'>раешник</symbol>
-  <symbol value='Гк'>гекзаметр</symbol>
-  <symbol value='Эд'>элегический дистих</symbol>
-  <symbol value='Пт'>пентаметр</symbol>
-  <symbol value='3'>трехстопный</symbol>
-  <symbol value='4'>четырехстопный</symbol>
-  <symbol value='5'>пятистопный</symbol>
-  <symbol value='6'>шестистопный</symbol>
-  <symbol value='7'>семистопный</symbol>
-  <symbol value='8'>восьмистопный</symbol>
-  <symbol value='Рз'>разностопный</symbol>
-  <symbol value='ц.н.1'>с цезурным наращением на один слог</symbol>
-  <symbol value='ц.н.2'>с цезурным наращением на два слога</symbol>
-  <symbol value='ц.у.1'>с цезурным усечением на один слог</symbol>
-  <symbol value='ц.у.2'>с цезурным усечением на два слога</symbol>
+<metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))([3-8]|Рз[3-8]*)|Рк|Гк|Эд|Пт)(ц.[ну].[12])?'>
+  <symbol value='Х'><orig reg="choreus">хорей</orig></symbol>
+  <symbol value='Я'><orig reg="iamb">ямб</orig></symbol>
+  <symbol value='Д'><orig reg="dactyl">дактиль</orig></symbol>
+  <symbol value='Ам'><orig reg="amphibrach">амфибрахий</orig></symbol>
+  <symbol value='Ан'><orig reg="anapaest">анапест</orig></symbol>
+  <symbol value='Дк'><orig reg="dolnik">дольник</orig></symbol>
+  <symbol value='T'><orig reg="tactovik">тактовик</orig></symbol>
+  <symbol value='ПнI'><orig reg="paeon I">пеон I</orig></symbol>
+  <symbol value='ПнII'><orig reg="paeon II">пеон II</orig></symbol>
+  <symbol value='ПнIII'><orig reg="paeon III">пеон III</orig></symbol>
+  <symbol value='ПнIV'><orig reg="paeon IV">пеон IV</orig></symbol>
+  <symbol value='Рк'><orig reg="rayeshnik">раешник</orig></symbol>
+  <symbol value='Гк'><orig reg="hexameter">гекзаметр</orig></symbol>
+  <symbol value='Эд'><orig reg="elegiac couplet">элегический дистих</orig></symbol>
+  <symbol value='Пт'><orig reg="pentameter">пентаметр</orig></symbol>
+  <symbol value='3'><orig reg="three feet">трехстопный</orig></symbol>
+  <symbol value='4'><orig reg="four feet">четырехстопный</orig></symbol>
+  <symbol value='5'><orig reg="five feet">пятистопный</orig></symbol>
+  <symbol value='6'><orig reg="six feet">шестистопный</orig></symbol>
+  <symbol value='7'><orig reg="seven feet">семистопный</orig></symbol>
+  <symbol value='8'><orig reg="eight feet">восьмистопный</orig></symbol>
+  <symbol value='Рз'><orig reg="varying feet">разностопный</orig></symbol>
+  <symbol value='ц.н.1'><orig reg="one syllable augment">с цезурным наращением на один слог</orig></symbol>
+  <symbol value='ц.н.2'><orig reg="two syllable augment">с цезурным наращением на два слога</orig></symbol>
+  <symbol value='ц.у.1'><orig reg="one syllable truncation">с цезурным усечением на один слог</orig></symbol>
+  <symbol value='ц.у.2'><orig reg="two syllable truncation">с цезурным усечением на два слога</orig></symbol>
 </metDecl>
 <metDecl type='rhyme' pattern="([abcdxABCDX]'?'?)+\.?">
   <symbol value="a">рифмованный стих с мужским окончанием</symbol>

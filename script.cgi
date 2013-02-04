@@ -1,7 +1,7 @@
 #! /bin/bash
 
-XSLTPROC=xsltproc
-export SCRIPTDIR=$(dir $(readlink -f $0))
+export XSLTPROC=xsltproc
+export SCRIPTDIR=$(dirname $(readlink -f $0))
 export LC_CTYPE=ru_RU.utf-8
 export LC_COLLATE=ru_RU.utf-8
 export LANG=en_US
@@ -75,6 +75,6 @@ case "$?" in
         ;;
 esac
 
-$XSLTPROC $CHROME $OUTFILE >>$ERRFILE
+$XSLTPROC $CHROME $OUTFILE 2>>$ERRFILE
 cat $ERRFILE >&2
 exit 0

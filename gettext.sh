@@ -1,21 +1,20 @@
 #! /bin/bash
 
-TAGCOLL="$1"
+RDFSTORE="$1"
+CACHEDIR=cache
 
 IFS="&;" read -a parameters
   
-HILITE="'()"
-PASSPORT="#t"
-SHOW_SPEAKER="#f"
+HILITE=""
+COLOPHON="1"
+ONLY_SPEAKER=""
 
-if ! [ -f ".$2" ]; then
+if ! [ -f "cache/$2" ]; then
     echo "<html>"
-    echo "<!-- -head -->"
-    echo "<!-- +middle -->"
+    echo "<head></head>"
     echo "<body>"
-    echo "<!-- -middle -->"
-    echo "<h1>Запрошенный вами документ не существует</h1>"
-    echo "<!-- +foot -->"
+    echo "<h1>п≈п╟п©я─п╬я┬п╣п╫п╫я▀п╧ п╡п╟п╪п╦ п╢п╬п╨я┐п╪п╣п╫я┌ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌</h1>"
+    echo "</body>"
     echo "</html>"
     exit 4
 fi
@@ -27,32 +26,25 @@ for idx in ${!parameters[*]}; do
     value="$(eval echo "$'${value//\%/\x}'")"
     case "$name" in
         hilite) 
-            HILITE="'($value)"
+            HILITE="$value"
             ;;
-        passport)
+        colophon)
             if [ "$value" = "no" ]; then
-                PASSPORT="#f"
+                COLOPHON="0"
             fi
             ;;
-        show-speaker-only)
+        only-speaker)
             if [ -n "$value" ]; then
-                SHOW_SPEAKER="\"$value\""
+                ONLY_SPEAKER="$value"
             fi
     esac
 done
 
-pict_sql_common="select '(\"' || url || '\" . \"' || description || '\")' from text_pictures natural left join photos where text_id = '${2#/}' and" 
-pict_ordering="order by sortkey, url"
+$XSLTPROC --stringparam path_info "$PATH_INFO" \
+    --stringparam basepath $(dirname "$SCRIPT_NAME") \
+    --stringparam hilite "$HILITE" \
+    --param colophon "$COLOPHON" \
+    --stringparam only-speaker "$ONLY_SPEAKER" \
+    --stringparam base-uri "$PATH_INFO" \
+    formatter.xslt "cache/$2"
 
-LEADING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'leading' $pict_ordering")" 
-INLINE_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'inline' $pict_ordering")" 
-TRAILING_PICTURES="$(psql -A -t -q -c "$pict_sql_common kind = 'trailing' $pict_ordering")" 
-
-SP_ENCODING=KOI8-R openjade -t sgml -D.\
-    -V"(define use-passport $PASSPORT)" -V"(define hilite-names $HILITE)" \
-    -V"(define show-speaker-only $SHOW_SPEAKER)" \
-    -V"(define leading-pictures '($LEADING_PICTURES))" \
-    -V"(define inline-pictures '($INLINE_PICTURES))" \
-    -V"(define trailing-pictures '($TRAILING_PICTURES))" \
-    -Vcurrent-file="${2#/}" \
-    -d mainconv.dssl ".$2" | tee /tmp/spy.openjade.$PID

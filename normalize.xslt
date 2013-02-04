@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="xml" media-type="application/tei+xml" />
+    <xsl:output method="xml" media-type="application/tei+xml" doctype-system="tei2.dtd" standalone="yes" />
     <xsl:variable name="entity_mapping" select="document('mapping.xml')"/>
     <xsl:key name="map_entity" match="mapping" use="@entity"/>
     <xsl:template match="div0|div1|div2|div3|div4|div5|div6|div7" priority="1">
@@ -82,8 +82,8 @@
       </xsl:call-template>
     </xsl:template>
 
-    <xsl:template match="teiHeader//text()|name//text()|rs//text()|orig//text()|
-                         date//text()|dateRange//text()|role//text()|speaker//text()|note[@resp = 'editor']//text()"
+    <xsl:template match="teiheader//text()|name//text()|rs//text()|orig//text()|
+                         date//text()|daterange//text()|role//text()|speaker//text()|note[@resp = 'editor']//text()"
                   priority="2">
       <xsl:copy/>
     </xsl:template>
@@ -94,7 +94,7 @@
         <xsl:variable name="word" select="substring-before($text, ' ')"/>
         <xsl:choose>
           <xsl:when test="$word">
-            <w><xsl:value-of select="$text"/></w><xsl:text> </xsl:text>
+            <w><xsl:value-of select="$word"/></w><xsl:text> </xsl:text>
             <xsl:call-template name="wordsplit">
               <xsl:with-param name="text" select="substring-after($text, ' ')"/>
             </xsl:call-template>

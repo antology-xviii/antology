@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:import href="./library.xslt"/>
+  <xsl:param name="path_info"/>
+  <xsl:param name="basepath"/>
   <xsl:param name="hilite"/>
-  <xsl:param name="colophon" select="true" />
+  <xsl:param name="colophon" select="1" />
   <xsl:param name="only-speaker" />
   <xsl:output method="xml" encoding="utf-8" />
   <xsl:variable name="uriencoding" select="document('uriencoding.xml')"/>
@@ -12,10 +15,10 @@
     <html>
       <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <link rel="stylesheet" href="/css/navigation.css" type="text/css" />
-        <link rel="stylesheet" href="/css/tei.css" type="text/css" />
-        <link rel="alternate" href="" type="application/tei+xml" />
-        <link rel="alternate" href="" type="application/rdf+xml" />
+        <link rel="stylesheet" href="{$basepath}/../css/navigation.css" type="text/css" />
+        <link rel="stylesheet" href="{$basepath}/../css/tei.css" type="text/css" />
+        <link rel="alternate" href="{$basepath}/../cache{$path_info}" type="application/tei+xml" />
+        <link rel="alternate" href="{$basepath}/../cache{substring-before($path_info, '.tei')}.rdf" type="application/rdf+xml" />
         <meta name="title" content="{normalize-space(teiHeader/fileDesc/titleStmt/title[@type = 'main' or not(@type)])}" />
         <meta name="DC.author">
           <xsl:attribute name="content">
@@ -53,7 +56,7 @@
       <div class="footer">
         <a href="">Логическая разметка текста:</a>
         <a>
-          <xsl:attribute name="href">search?principal=<xsl:call-template name="encode">
+          <xsl:attribute name="href"><xsl:value-of select="$basepath"/>/search.cgi?principal=<xsl:call-template name="encode">
           <xsl:with-param name="uri" 
                           select="normalize-space(/TEI.2/teiHeader/fileDesc/titleStmt/principal)"/>
         </xsl:call-template>
@@ -499,7 +502,7 @@
     <xsl:for-each select="$nodes">
       <xsl:if test="position() > 1"><xsl:text>, </xsl:text></xsl:if>
       <a>
-        <xsl:attribute name="href">search?<xsl:value-of select="$keyword"/>=<xsl:call-template name="encode">
+        <xsl:attribute name="href"><xsl:value-of select="$basepath"/>/search.cgi?<xsl:value-of select="$keyword"/>=<xsl:call-template name="encode">
         <xsl:with-param name="uri" select="normalize-space()"/>
       </xsl:call-template>
         </xsl:attribute>
@@ -520,31 +523,5 @@
       </xsl:choose>
     </xsl:if>
     <xsl:value-of select="@n"/>
-  </xsl:template>
-
-  <xsl:template name="encode">
-    <xsl:param name="uri"/>
-    <xsl:if test="$uri">
-      <xsl:variable name="head" select="substring($uri, 1, 1)"/>
-      <xsl:for-each select="$uriencoding">
-        <xsl:variable name="mapping" select="key('map_char', $head)"/>
-        <xsl:if test="not($mapping)">
-          <xsl:message terminate="yes">
-            Unmappable character '<xsl:value-of select="$head"/>'
-          </xsl:message>
-        </xsl:if>
-        <xsl:choose>
-          <xsl:when test="$mapping/@value">
-            <xsl:value-of select="$mapping/@value"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$mapping/@char"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
-      <xsl:call-template name="encode">
-        <xsl:with-param name="uri" select="substring($uri, 2)"/>
-      </xsl:call-template>
-    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>

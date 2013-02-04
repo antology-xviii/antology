@@ -1,26 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:dcmitype="http://purl.org/dc/dcmitype/"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+<!DOCTYPE rdf:RDF [
+<!ENTITY rdfns "http://www.w3.org/1999/02/22-rdf-syntax-ns">
+<!ENTITY rdfsns "http://www.w3.org/2000/01/rdf-schema">
+<!ENTITY dctermsns "http://purl.org/dc/terms">
+<!ENTITY dcmitypens "http://purl.org/dc/dcmitype">
+<!ENTITY xsdns "http://www.w3.org/2001/XMLSchema">
+<!ENTITY foafns "http://xmlns.com/foaf/0.1">
+<!ENTITY svcns "http://antology-xviii.spb.ru/schema/service.rdf">
+<!ENTITY antns "http://antology-xviii.spb.ru/schema/antology.rdf">
+]>
+<rdf:RDF xmlns:rdf="&rdfns;#"
+         xmlns:rdfs="&rdfsns;#"
+         xmlns:dcterms="&dctermsns;/"
+         xmlns:dcmitype="&dcmitypens;/"
+         xmlns:xsd="&xsdns;#"
          xmlns:html="http://www.w3.org/1999/xhtml"
-         xmlns:foaf="rdf:about="http://xmlns.com/foaf/0.1/"
-         xmlns:svc="http://antology-xviii.spb.ru/schema/service.rdf#"
-         xmlns:ant="http://antology-xviii.spb.ru/schema/antology.rdf#"
-         xml:base="http://antology-xviii.spb.ru/schema/antology.rdf">
-  <rdf:Class rdf:ID="Text">
-    <rdfs:subClassOf rdf:resource="http://purl.org/dc/dcmitype/Text"/>
-  </rdf:Class>
-  <rdf:Class rdf:ID="ReferencedText">
+         xmlns:foaf="&foafns;/"
+         xmlns:svc="&svcns;#"
+         xmlns:ant="&antns;#"
+         xml:base="&antns;">
+  <!-- Principal object classes -->
+  <svc:AbstractClass rdf:ID="Text">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </svc:AbstractClass>
+  <svc:AbstractClass rdf:ID="ReferencedText">
     <rdfs:subClassOf rdf:resource="#Text"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
-  </rdf:Class>
-  <rdf:Class rdf:ID="PublishedWork">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/BibliographicResource"/>
+  </svc:AbstractClass>
+  <rdfs:Class rdf:ID="PublishedWork">
     <rdfs:subClassOf rdf:resource="#ReferencedText"/>
-    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-  </rdf:Class>
-  <rdf:Class rdf:ID="TextSegment">
+    <rdfs:subClassOf rdf:resource="&foafns;/Document"/>
+  </rdfs:Class>
+  <svc:AbstractClass rdf:ID="TextSegment">
     <rdfs:subClassOf rdf:resource="#Text"/>
-  </rdf:Class>
+  </svc:AbstractClass>
+  <rdfs:Class rdf:ID="Paragraph">
+    <rdfs:subClassOf rdf:resource="#TextSegment"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="DirectSpeech">
+    <rdfs:subClassOf rdf:resource="#TextSegment"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Quotation">
+    <rdfs:subClassOf rdf:resource="#TextSegment"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="TextDivision">
+    <rdfs:subClassOf rdf:resource="#ReferencedText"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Chapter">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Act">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Scene">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="VerseGroup">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="VerseLine">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Note">
+    <rdfs:subClassOf rdf:resource="#TextDivision"/>
+  </rdfs:Class>
+  <!-- Text classifiers -->
+  <rdfs:Class rdf:ID="LiteraryKind">
+    <rdfs:subClassOf rdf:resource="&svcns;#Category"/>
+  </rdfs:Class>
+  <ant:LiteraryKind rdf:ID="Verse">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Drama">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Prose">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Letters">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Memoirs">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="PublicisticWriting">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Science">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <ant:LiteraryKind rdf:ID="Lecture">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
+  </ant:LiteraryKind>
+  <!-- People -->
+  <rdfs:Class rdf:ID="Person">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/Agent"/>
+    <rdfs:subClassOf rdf:resource="&foafns;/Person"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="RealPerson">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="FictionalPerson">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="LiteraryCharacter">
+    <rdfs:subClassOf rdf:resource="#FictionalPerson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="BiblicalCharacter">
+    <rdfs:subClassOf rdf:resource="#FictionalPerson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="MythologicCharacter">
+    <rdfs:subClassOf rdf:resource="#FictionalPerson"/>
+  </rdfs:Class>
+  <!-- Date -->
+  <rdfs:Class rdf:ID="DateInterval">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/PeriodOfTime"/>
+  </rdfs:Class>
+  <rdfs:Property rdf:ID="postQuem">
+    <rdfs:domain rdf:resource="#DateInverval"/>
+    <rdfs:range rdf:resource="&svcns;#Year"/>
+  </rdfs:Property>
+  <rdfs:Property rdf:ID="anteQuem">
+    <rdfs:domain rdf:resource="#DateInverval"/>
+    <rdfs:range rdf:resource="&svcns;#Year"/>
+  </rdfs:Property>
+  <rdfs:Property rdf:ID="calendar">
+    <rdfs:domain rdf:resource="#DateInverval"/>
+    <rdfs:range rdf:resource="&rdfsns;#Literal"/>
+  </rdfs:Property>
+  <!-- Places -->
+  <rdfs:Class rdf:ID="Place">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/Location"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="RealPlace">
+    <rdfs:subClassOf rdf:resource="#Place"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="FictionalPlace">
+    <rdfs:subClassOf rdf:resource="#Place"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="BiblicalPlace">
+    <rdfs:subClassOf rdf:resource="#FictionalPlace"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="MythologicPlace">
+    <rdfs:subClassOf rdf:resource="#FictionalPlace"/>
+  </rdfs:Class>
+  <!-- Metric -->
+  <rdfs:Class rdf:ID="MetricSystem">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/LinguisticSystem"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="MetricType">
+    <rdfs:subClassOf rdf:resource="&svcns;#Category"/>
+  </rdfs:Class>
+  <ant:MetricType rdf:ID="Iamb">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Choreus">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Dactyl">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Amphibrach">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Anapaest">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Dolnik">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Tactovik">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="PaeonI">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="PaeonII">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="PaeonIII">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="PaeonIV">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Rayeshnik">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Hexameter">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="ElegiacCouplet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="Pentameter">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="ThreeFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="FourFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="FiveFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="SixFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="SevenFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="EightFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="VaryingFeet">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="OneSyllableAugment">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="TwoSyllableAugment">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="OneSyllableTruncation">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <ant:MetricType rdf:ID="TwoSyllableTruncation">
+    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
+  </ant:MetricType>
+  <rdfs:Property rdf:ID="metricKind">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
+    <rdfs:domain rdf:resource="#MetricSystem"/>
+    <rdfs:range rdf:resource="#MetricType"/>
+  </rdfs:Property>
+  <rdfs:Class rdf:ID="RhymingScheme">
+    <rdfs:subClassOf rdf:resource="&dctermsns;/LinguisticSystem"/>
+  </rdfs:Class>
+
+  <!-- Relations -->
+  <svc:SearchableProperty rdf:ID="author">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/creator"/>
+    <rdfs:subPropertyOf rdf:resource="&foafns;/maker"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#RealPerson"/>
+  </svc:SearchableProperty>
+  <svc:SearchableProperty rdf:ID="editor">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/contributor"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#RealPerson"/>
+  </svc:SearchableProperty>
+  <svc:SearchableProperty rdf:ID="principal">
+    <rdfs:subPropertyOf rdf:resource="&dctermsns;/contributor"/>
+    <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#RealPerson"/>
+  </svc:SearchableProperty>
 </rdf:RDF>
