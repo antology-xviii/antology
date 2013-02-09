@@ -28,7 +28,7 @@
   <TEIHEADER>
     <FILEDESC>
       <TITLESTMT>
-             <TITLE><name       type="mythological"       reg="Психея"><name
+             <TITLE><name       type="mythologic"       reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name></TITLE>
         <AUTHOR>
           <PERSNAME>
@@ -64,7 +64,7 @@ type="character" reg="Душенька">Душенька</name></name></TITLE>
                 <TITLE></TITLE>
                 </TITLESTMT>
               <PUBLICATIONSTMT>
-                 <PUBLISHER><name   type="mythological"   reg="Психея"><name
+                 <PUBLISHER><name   type="mythologic"   reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name>,  древняя  повесть  в
 вольных стихах
                   СПб.</PUBLISHER>
@@ -95,7 +95,7 @@ type="character" reg="Душенька">Душенька</name></name>,  древняя  повесть  в
 
 <p>Собственная забава в праздные часы была  единственным  моим  побуждением,
 когда  я  начал  писать  <bibl><title><orig reg="Душенька">
-"<name     type="mythological"      reg="Психея"><name      type="character"
+"<name     type="mythologic"      reg="Психея"><name      type="character"
 reg="Душенька">Душеньку</name></name>"</orig></title></bibl>; а потом  общее
 единоземцев благосклонное о вкусе забав моих мнение  заставило  меня  отдать
 сочинение сие в  печать,  сколь  можно  исправленное.  Потом  имел  я  время
@@ -104,7 +104,7 @@ reg="Душенька">Душеньку</name></name>"</orig></title></bibl>; а потом  общее
 <bibl><title><orig reg='Прибавления    к  "Московским     ведомостям"'>
 "Прибавлениях      к      "Московским      ведомостям"</orig></title></bibl>
 (<date>1783</date>, No. 96,  2  декабря)  и  упоминания  о  <bibl><title><orig
-reg="Душенька"><name type="mythological" reg="Психея"><name                                          type="character"
+reg="Душенька"><name type="mythologic" reg="Психея"><name                                          type="character"
 reg="Душенька">Душеньке</name></name>"</orig></title></bibl>               в
 <bibl><title><orig       reg="Собеседник        любителей        российского
 слова">СЛРС</orig></title></bibl>,           в            <bibl><title><orig
@@ -117,9 +117,9 @@ type="person" reg="Богданович И.  Ф.">Богдановича</name>,  которое  не  есть
 Приемля их с должною благодарностию,  не  питаюсь  самолюбием  столь  много,
 чтоб не мог  восчувствовать  моего  недостаточества  при  выражениях  одного
 неизвестного,  которому  в  вежливых  стихах  его  угодно  было   сочинение,
-<bibl><title><orig   reg="Душенька">"<name type="mythological"           reg="Психея"><name            type="character"
+<bibl><title><orig   reg="Душенька">"<name type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньку</name></name>"</orig></title></bibl>,        назвать
-творением     самой     <name     type="mythological"     reg="Психея"><name
+творением     самой     <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душеньки</name></name>. Предки  мои,  служив
 верою и правдою государю и отечеству, с простым в дворянстве добрым  именем,
 не  оставили  мне  примера  вознести  себя   выше   обыкновенной   тленности
@@ -150,10 +150,10 @@ type="mythologic" reg="Хлоя">ХЛОИ</name></head>
 <l>Не <name type="mythologic" reg="Ахиллес">Ахиллесов</name> гнев и не
 осаду <name type="mythologicPlace" reg="Троя">Трои</name>,
 <l>Где в шуме вечных ссор кончали дни герои,
-<l><space dim="horizontal" extent="9 letters">Но  <name  type="mythological"
+<l><space dim="horizontal" extent="9 letters">Но  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньку</name></name>
 пою.
-<l>Тебя, о  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Тебя, о  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>! на помощь призываю
 <l><space dim="horizontal" extent="9 letters">Украсить песнь мою,
 <l>Котору в простоте и вольности слагаю.
@@ -182,7 +182,7 @@ type="mythologicPlace">Парнас</name>
 <l><space dim="horizontal" extent="9 letters"><name
 type="person">Гомер</name>, отец стихов,
 <l><space    dim="horizontal"    extent="9     letters">Двойчатых,     <note
-resp="editor">В    <bibl><title><orig    reg="Душенькины похождения"> "<name type="mythological" reg="Психея"><name  type="character"
+resp="editor">В    <bibl><title><orig    reg="Душенькины похождения"> "<name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенькиных</name></name>  похождениях"</orig></title>
 (<date>1778</date>)</bibl>  <name  type="person">Гомер</name>  был  охарактеризован
 иначе:
@@ -200,7 +200,7 @@ reg="Душенька">Душенькиных</name></name>  похождениях"</orig></title>
 <l>Когда я формой строк себя не беспокою
 <l>И мерных песней здесь порядочно не строю.
      <l>Черты,   без   равных   стоп<note   resp="editor"><bibl><title><name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name></title></bibl>  написана  разностопным
 <mentioned>вольным</mentioned> ямбом,  каким  обычно  в  <dateRange  from="1760"
 to="1769">1760-е</dateRange>-<dateRange     from="1770"      to="1779">1770-
@@ -227,7 +227,7 @@ type="mythologic">Хлоя</name>.
 <l>Издревле <name type="person">Апулей</name>, потом <name type="person"
 reg="Лафонтен Ж. де">де ла Фонтен</name>
 <l><space dim="horizontal" extent="7 letters">На вечну память их имен,
-<l>Воспели  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Воспели  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> и в прозе и стихами,
 <l><space dim="horizontal" extent="8 letters">Другим языком с нами.
 <l><space dim="horizontal" extent="8 letters">В сей повести они
@@ -415,13 +415,13 @@ type="person">Гомер</name>, проснулся!
 <l>В языках же других, при переводе слов,
 <l>Звалась она Душа, по толку мудрецов,
 <l>А после в повестях старинных знатоков
-<l>У русских <name type="mythological"  reg="Психея"><name  type="character"
+<l>У русских <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> она именовалась;
 <l><space dim="horizontal" extent="9 letters">И пишут, что тогда
 <l><space dim="horizontal" extent="7 letters">Изыскано не без труда
 <l>К ее названию приличнейшее слово,
 <l><space dim="horizontal" extent="9 letters">Какое было ново.
-<l>Во славу <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Во славу <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> у нас от тех времен
 <l>Поставлено оно народом в лексиконе
 <l><space dim="horizontal" extent="9 letters">Между приятнейших имен,
@@ -436,7 +436,7 @@ reg="Душенька">Душеньке</name></name> у нас от тех времен
 <l><space dim="horizontal" extent="7 letters">Болтливая богиня Слава.
 <l><space dim="horizontal" extent="7 letters">Чужая честь, чужие права
 <l><space dim="horizontal" extent="7 letters">Завистливых терзают дух.
-<l>Такая,  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Такая,  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name>, была твоя прослуга
 <l>Как весь цитерский мир и вся его округа
 <l><space dim="horizontal" extent="7 letters">Тебя особо обожали
@@ -481,7 +481,7 @@ type="mythologic" reg="Афродиты">Афродиты</name>; тaм находился  посвященный
 <l>Узнала наконец богиня красоты,
 <l><space dim="horizontal" extent="9 letters">Со гневом пребезмерным,
 <l>Причину вкруг себя и скук и пустоты.
-<l>Хоть  <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Хоть  <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name>    гневить    не     мыслила     <name
 type="mythologic" reg="Венера">Венеру</name>,
 <l>К достоинствам богинь имела должну веру,
@@ -493,11 +493,11 @@ type="mythologic" reg="Венера">Венеру</name>,
 <l>Кривой давали толк на все ее дела;
 <l>И кои милостей иль ждали, иль просили,
 <l>Во угождение богине доносили,
-<l>Что будто <name type="mythological"  reg="Психея"><name  type="character"
+<l>Что будто <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, в досаду ей и в зло,
 <l>Присвоила себе цитерских слуг число;
 <l><space dim="horizontal" extent="8 letters">И что кому угодно
-<l>В то время мог солгать на  <name  type="mythological"  reg="Психея"><name
+<l>В то время мог солгать на  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душеньку</name></name> свободно.
 <l><space dim="horizontal" extent="8 letters">Но чтобы делом месть
 <l><space dim="horizontal" extent="8 letters">Над нею произвесть,
@@ -508,14 +508,14 @@ type="character" reg="Душенька">Душеньку</name></name> свободно.
 навестить.
 <l>Читатель сам себе представит то удобно,
 <l>Просила ли его иль так, или подобно,
-<l>Пришед на <name type="mythological"  reg="Психея"><name  type="character"
+<l>Пришед на <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> просить и доносить:
 
 <lg1 type="group">
 <l><name type="mythologic">Амур</name>, <name
 type="mythologic">Амур</name>! вступись за честь мою и славу,
 <l><space dim="horizontal" extent="7 letters">Яви свой суд, яви управу.
-<l>Ты знаешь <name type="mythological"  reg="Психея"><name  type="character"
+<l>Ты знаешь <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name>, иль мог о ней слыхать:
 <l>Простая смертная, ругаяся богами,
 <l>Не ставит ни во что твою бессмертну мать;
@@ -523,11 +523,11 @@ reg="Душенька">Душеньку</name></name>, иль мог о ней слыхать:
 <l><space dim="horizontal" extent="7 letters">Осмелилась повелевать
 <l>А в областях моих над мной торжествовать;
 <l>Могу ли я сносить и видеть равнодушно,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньке</name></name> одной везде и все послушно!
 <l>За ней гоняяся, от нас отходят прочь
 <l>Поклонники, друзья, амуры и зефиры,
-<l>И скоро  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И скоро  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> послушны будут миры.
 <l><name type="mythologic">Юпитер</name>  сам по ней вздыхает день и ночь,
 <l>И слышно, что берет себе ее в супруги,
@@ -542,7 +542,7 @@ reg="Душенька">Душеньке</name></name> послушны будут миры.
 reg="Юпитер">Юпитеровы</name> смелы:
 <l><space dim="horizontal" extent="6 letters">По воле ходят в небеса
 <l>И всякие творят на свете чудеса.
-<l>И можно ли  терпеть,  что  <name  type="mythological"  reg="Психея"><name
+<l>И можно ли  терпеть,  что  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> собою,
 <l>Без помощи твоей, во всех вселяет страсть,
 <l>Какую возжигать один имел ты власть?
@@ -551,7 +551,7 @@ type="character" reg="Душенька">Душенька</name></name> собою,
 <l><space dim="horizontal" extent="6 letters">За честь свою, за честь <name
 type="mythologic" reg="Венера">Венеры</name>
 <l><space dim="horizontal" extent="6 letters">Яви ты строгости примеры;
-<l>Соделай  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Соделай  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> постылою навек,
 <l><space dim="horizontal" extent="10 letters">И столь худою,
 <l><space dim="horizontal" extent="10 letters">И столь дурною,
@@ -573,12 +573,12 @@ type="mythologic">Амур</name> желал тогда пресечь
 спокойство
 <l><space dim="horizontal" extent="6 letters">Свою прогневанную мать
 <l><space dim="horizontal" extent="6 letters">И ей впоследок обещать
-<l>За     дерзость     <name     type="mythological"      reg="Психея"><name
+<l>За     дерзость     <name     type="mythologic"      reg="Психея"><name
 type="character" reg="Душенька">Душеньку</name></name> порядком постращать.
 <l>Услышав те слова, амуры ужаснулись,
 <l>Весельи ахнули и смехи содрогнулись.
 <l>Одна <name type="mythologic">Венера</name> лишь довольна тем была,
-<l>Что    гнев    на    <name     type="mythological"     reg="Психея"><name
+<l>Что    гнев    на    <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душеньку</name></name> неправдой навлекла;
 <l>С улыбкою на всех кидая взор приятно,
 <l>Сама рядила путь во остров свой обратно,
@@ -706,14 +706,14 @@ type="mythologic" reg="Венера">Венеру</name>
 type="place" reg="Цитера">Цитеру</name>.
 <l>Не в долгом времени пришла к богине весть,
 <l>Которую <name type="mythologic">Зефир</name> спешил скорей принесть,
-<l>Что     бедство     <name     type="mythological"      reg="Психея"><name
+<l>Что     бедство     <name     type="mythologic"      reg="Психея"><name
 type="character" reg="Душенька">Душеньки</name></name> преходит всяку меру,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> уже оставлена от всех
 <l>И что вздыхатели, как будто ей в посмех,
 <l>От всякой встречи с ней повсюду удалялись,
 <l>Или к отцу ее во двор хотя являлись,
-<l>Однако в <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Однако в <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> уж больше не влюблялись
 <l><space dim="horizontal" extent="6 letters">И к ней не подходили вблизь,
 <l>А только издали ей близко поклонялись.
@@ -759,7 +759,7 @@ reg="Венера">Венере</name> вопиять притек:
 <lg1 type="group">
 <l><space dim="horizontal" extent="8 letters">Но царь и вся родня
 <l><space     dim="horizontal"     extent="6      letters">Любили      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньку</name></name> без меры,
 <l>Без ней приятного не проводили дня, -
 <l>Могли ль предать ее на мщение <name type="mythologic"
@@ -772,7 +772,7 @@ reg="Венера">Венеры</name>?
 <l><space dim="horizontal" extent="6 letters">Другие стали горько плакать;
 <l><space dim="horizontal" extent="6 letters">Другие ж, недослушав, такать,
 <l><space dim="horizontal" extent="6 letters">Когда лишь слово скажет царь.
-<l>Иные  <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Иные  <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньке</name></name> в утеху говорили,
 <l><space dim="horizontal" extent="6 letters">Что толь особая вина
 <l><space dim="horizontal" extent="6 letters">Для ней похвальна и славна,
@@ -815,7 +815,7 @@ type="mythologic">Амур</name>, <name type="mythologic">Амур</name>, веселий
 <l><space dim="horizontal" extent="6 letters">И кончить слезну жизнь в
 пустыне!</q>
 <l><space   dim="horizontal"   extent="6   letters">Меж   тем   как    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name>, тая свою печаль
 <l>От всех своих родных, уйти сбиралась вдаль,
 <l>Они ее бедой не менее крушились
@@ -824,18 +824,18 @@ reg="Душенька">Душенька</name></name>, тая свою печаль
 <l><space dim="horizontal" extent="6 letters">Гневить <name
 type="mythologic" reg="Венера">Венеру</name> и богов,
 <l>Которы, видимо, противу согласились.
-<l>Никто на <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Никто на <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> жениться не хотел,
 <l><space dim="horizontal" extent="8 letters">Или никто не смел.
 <l>Впоследок сродники советовать решились
-<l>Спросить <name type="mythological" reg="Оракул">Оракула</name> о  будущих
+<l>Спросить <name type="mythologic" reg="Оракул">Оракула</name> о  будущих
 судьбах.
-<l><name type="mythological">Оракул</name> дал ответ в порядочных стихах,
+<l><name type="mythologic">Оракул</name> дал ответ в порядочных стихах,
 <l><space dim="horizontal" extent="8 letters">И к ним жрецы-пророки
 <l>Прибавили свои для толку строки;
 <l>Но тем ответ сей был не мене бестолков,
 <l><space dim="horizontal" extent="6 letters">И слово в слово был таков:
-<l><q>Супруг    для     <name     type="mythological"     reg="Психея"><name
+<l><q>Супруг    для     <name     type="mythologic"     reg="Психея"><name
 type="character"     reg="Душенька">Душеньки</name></name>,      назначенный
 судьбами,
 <l>Есть то чудовище, которо всех язвит,
@@ -860,7 +860,7 @@ type="character"     reg="Душенька">Душеньки</name></name>,      назначенный
 <l><space dim="horizontal" extent="8 letters"><q> О праведные боги!
 <l>Возможно ль, чтобы вы толико были строги?
 <l><space dim="horizontal" extent="6 letters">И есть ли в том какая стать,
-<l>Чтоб  <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Чтоб  <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> навек чудовищу отдать,
 <l>К которому никто не ведает дороги? </q>-
 <l>Родные тако все гласили во слезах;
@@ -881,22 +881,22 @@ reg="Душенька">Душеньку</name></name> навек чудовищу отдать,
 <l>Царевну проводить до места обещались,
 <l>И с нею навсегда заранее прощались.
 <l>Не знали только,где была бы та гора,
-<l>К которой <name type="mythological"  reg="Психея"><name  type="character"
+<l>К которой <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> отправить надлежало;
-<l><name type="mythological">Оракул</name> не сказал, или сказал, но мало,
+<l><name type="mythologic">Оракул</name> не сказал, или сказал, но мало,
 <l>В которой стороне? далече ль от двора?
 <l><space dim="horizontal" extent="6 letters">В какую там явиться пору,
 <l><space dim="horizontal" extent="6 letters">И как зовут такую гору?
 <l><name type="place">Синай</name> или <name type="place">Ливан</name>, иль
 <name type="place">Тавр</name>, или <name type="place">Кавказ</name>?
-<l>И кои в  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И кои в  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> высокий разум чтили,
 <l><space dim="horizontal" extent="8 letters">Догадываясь, мнили,
 <l>Что должно ехать ей, конечно, на <name
 type="mythologicPlace">Парнас</name>.
 <l>Они наслышались, что некоторы музы
 <l><space dim="horizontal" extent="8 letters">Имели с ней союзы;
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> от них училась песни петь
 <l>И таинства красот парнасских разуметь;
 <l>Но те, которые историю читали,
@@ -910,42 +910,42 @@ type="mythologicPlace" reg="Кастальский ключ">Кастальских вод</name>,
 <l><space dim="horizontal" extent="8 letters">Хоть там дороги святы,
 <l><space dim="horizontal" extent="8 letters">Нередко замерзал народ.
 <l>Иные, изобрав жарчайшие клим&acystress;ты,
-<l>Хотели  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Хотели  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name>      во       <name       type="place"
 reg="Африка">Африку</name> везти,
 <l>Где ведали, что есть чудовищи в чести;
-<l>Притом, последуя <name type="mythological"  reg="Оракул">Оракулову</name>
+<l>Притом, последуя <name type="mythologic"  reg="Оракул">Оракулову</name>
 гласу,
 <l>Хотели именно вести ее к <name type="place" reg="Атлас">Атласу</name>,
 <l>Узнав, что та гора, касаяся небес,
 <l>Издревле множеством прославилась чудес;
 <l><space dim="horizontal" extent="6 letters">И мнили, что, по сей примете,
-<l><name type="mythological">Оракул</name> точно так сказал в своем ответе.
+<l><name type="mythologic">Оракул</name> точно так сказал в своем ответе.
 <l>Тогда смелейшие из плачущей родни
 <l>Представили, храня ее цветущи дни,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> легко там могут змеи скушать,
-Что в том <name type="mythological">Оракул</name>а никак не должно слушать;
+Что в том <name type="mythologic">Оракул</name>а никак не должно слушать;
 <l>И громогласно все, без дальнего суда,
 <l><space dim="horizontal" extent="8 letters">Воскликнули тогда,
-<l>Что участь <name type="mythological" reg="Психея"><name  type="character"
+<l>Что участь <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>                                  <name
-type="mythological">Оракул</name> сам не ведит
+type="mythologic">Оракул</name> сам не ведит
 <l><space    dim="horizontal"     extent="8     letters">И     что     <name
-type="mythological">Оракул</name> бредит.
+type="mythologic">Оракул</name> бредит.
 
 <lg1 type="group">
 <l><space dim="horizontal" extent="8 letters">В совете наконец
 <l>Родня царевина, и паче царь-отец,
 <l>За лучше ставили, богов противясь власти,
 <l>Терпеть гонения и всякие напасти,
-<l><space dim="horizontal" extent="8 letters">Чем <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Чем <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньку</name></name>
 везти
 <l><space dim="horizontal" extent="8 letters">На жертву без пути.
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> сама была великодушна,
-<l>Сама <name type="mythological"  reg="Оракул">Оракулу</name>  хотела  быть
+<l>Сама <name type="mythologic"  reg="Оракул">Оракулу</name>  хотела  быть
 послушна.
 <l>Иль, может быть и так, чтоб мне не обмануть,
 <l>Она, прискучив жить с родными без супруга,
@@ -957,7 +957,7 @@ reg="Душенька">Душенька</name></name> сама была великодушна,
 <l><q> Я вас должна спасать несчастием моим.
 <l>Пускай свершается со мною вышня воля;
 <l>И если я умру, моя такая доля</q>.
-<l>Меж    тем    как    <name     type="mythological"     reg="Психея"><name
+<l>Меж    тем    как    <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> вещала так отцу,
 <l>И царь и весь совет пустились плакать снова
 <l>И в скорби не могли тогда промолвить слова,
@@ -974,18 +974,18 @@ type="mythologic" reg="Венера">Венеру</name>;
 <l><space dim="horizontal" extent="6 letters">Кричала громко пред народом
 <l><space dim="horizontal" extent="6 letters">И всем своим клялася родом,
 <l><space dim="horizontal" extent="8 letters">Доколь она жива,
-<l>Не     ставить     ни     во      что      <name      type="mythological"
+<l>Не     ставить     ни     во      что      <name      type="mythologic"
 reg="Оракул">Оракула</name> слова,
 <l><space dim="horizontal" extent="6 letters">И что ни для какого чуда
 <l><space dim="horizontal" extent="6 letters">Не пустит дочери оттуда.
 <l>Хотя ж кричала то во всю гортанну мочь,
 <l>Однако вопреки Амур, судьбы и боги,
-<l><name type="mythological">Оракул</name> и жрецы, родня, отец и дочь
+<l><name type="mythologic">Оракул</name> и жрецы, родня, отец и дочь
 <l>Велели сухари готовить для дороги.
 <l>
 <lg1 type="group">
 <l><space dim="horizontal" extent="8 letters">Во время оных лет
-<l><name    type="mythological">Оракул</name>    в    <name     type="place"
+<l><name    type="mythologic">Оракул</name>    в    <name     type="place"
 reg="Греция">Греции</name> столь много почитался,
 <l>Что каждый исполнять слова его старался
 <l>И сам искал себе преднареченных бед,
@@ -1014,7 +1014,7 @@ reg="Греция">Греции</name> столь много почитался,
 <l><space dim="horizontal" extent="6 letters">Не долго были сборы там.
 <l><space dim="horizontal" extent="8 letters">Готова колесница,
 <l>Готова царска дочь, и вместе с ней царица,
-<l>Котора  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Котора  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name>, не могши удержать,
 <l><space dim="horizontal" extent="8 letters">Желает провожать.
 <l>Трон&ucystress;лись лошади, не ждав себе уряда:
@@ -1030,7 +1030,7 @@ reg="Душенька">Душеньку</name></name>, не могши удержать,
 <l>Унывный пели стих в протяжности великой;
 <l>Шестнадцать человек, немного тех позадь,
 <l><space dim="horizontal" extent="6 letters">Несли хрустальную кровать,
-<l>В которой <name type="mythological"  reg="Психея"><name  type="character"
+<l>В которой <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> любила почивать;
 <l>Шестнадцать человек, поклавши на подушки,
 <l>Несли царевины тамбуры и коклюшки<note resp="editor">тамбур (от франц.
@@ -1042,7 +1042,7 @@ tambour - барабан) - вид вышивания, при котором материя натягивалась на
 <l>Дорожный туалет, гребенки и булавки
 <l>И всякие к тому потребные прибавки.
 <l>Потом в параде шел жрецов усатых полк,
-<l>Стихи <name type="mythological"  reg="Оракул">Оракула</name>  неся  перед
+<l>Стихи <name type="mythologic"  reg="Оракул">Оракула</name>  неся  перед
 собою.
 <l>Тут всяк из них давал стихам различный толк,
 <l>И всяк желал притом скорей дойти к покою.
@@ -1063,7 +1063,7 @@ tambour - барабан) - вид вышивания, при котором материя натягивалась на
 <l>Иные хлипали, другие громко выли,
 <l>Не ведая, куда везут и дочь и мать;
 <l><space dim="horizontal" extent="6 letters">Другие же по виду мнили,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> везут живую погребать.
 <l><space dim="horizontal" extent="6 letters">Иные по пути сорили
 <l><space dim="horizontal" extent="6 letters">Пред нею ветви и цветы,
@@ -1104,9 +1104,9 @@ reg="Венера">Венеры</name> вред
 <l>Тут все судеб тогда призн&acystress;ки находили;
 <l>Призн&acystress;ки те жрецы согласно подтвердили,
 <l>И все сказали вдруг, что должно точно там,
-<l>На высоте горы, <name type="mythological"  reg="Оракул">Оракуловым</name>
+<l>На высоте горы, <name type="mythologic"  reg="Оракул">Оракуловым</name>
 словом,
-<l>Оставить <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Оставить <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> у неба под покровом.
 <l>Вручают все ее хранителям-богам,
 <l>Ведут на высоту по камням и пескам,
@@ -1133,7 +1133,7 @@ reg="Душенька">Душеньку</name></name> у неба под покровом.
 <l>Куда вся свита вслед за ней, кряхтя, толпилась.
 <l>Осталась позади одна царица-мать,
 <l>Не могши далее полугоры шагать,
-<l>И  с  <name   type="mythological"   reg="Психея"><name   type="character"
+<l>И  с  <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенькой</name></name> навек, поплакав там, простилась.
 <l>При трудности тогда царевина кровать
 <l><space dim="horizontal" extent="6 letters">В руках несущих сокрушилась,
@@ -1145,7 +1145,7 @@ reg="Душенька">Душенькой</name></name> навек, поплакав там, простилась.
 <l><space dim="horizontal" extent="6 letters">И, наготы имея вид,
 <l>Едва могли прикрыть от глаз сторонних стыд.
 <l>Осталось наконец лишь несколько булавок
-<l>И несколько стихов <name type="mythological"  reg="Оракул">Оракула</name>
+<l>И несколько стихов <name type="mythologic"  reg="Оракул">Оракула</name>
 для справок.
 <l><space dim="horizontal" extent="6 letters">Но можно ль описать пером
 <l><space dim="horizontal" extent="6 letters">Царя тогда с его двором,
@@ -1173,7 +1173,7 @@ reg="Душенька">Душенькой</name></name> навек, поплакав там, простилась.
 <lg1 type="group">
 <l><space dim="horizontal" extent="8 letters">Но где возьму черты
 <l>Представить страх, какой являла вся природа,
-<l>Увидев  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Увидев  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> в пространстве темноты,
 <l>Оставшу без отца, без матери, без рода,
 <l><space dim="horizontal" extent="6 letters">И, словом, вовсе без людей,
@@ -1184,7 +1184,7 @@ reg="Душенька">Душеньку</name></name> в пространстве темноты,
 <l>Страшилища духов, волшебные призр&acystress;ки
 <l>Различных там смертей являли ей призн&acystress;ки
 <l>И мрачной ночи сей усугубляли тьму.
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> едва уста свои открыла
 <l>Промолвить жалобу, не высказав кому,
 <l><space dim="horizontal" extent="8 letters">Как вдруг чудесна сила
@@ -1194,19 +1194,19 @@ type="mythologic">Зефир</name>,
 <l>Ее во оный час счастливый похититель,
 <l><space dim="horizontal" extent="8 letters">И спутник и хранитель,
 <l>Неслыханну дотоль увидев красоту,
-<l>Запомнил <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Запомнил <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> уведомить сначала,
 <l>Что к ней щедротно власть тогда повеливала
 <l>Ее с почтением восхитить в высоту;
 <l>И, мысли устремив к особенному диву,
 <l>Взвевал лишь только ей покровы на лету.
-<l>Увидя ж  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Увидя ж  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> от страха еле живу,
 <l>Оставил свой восторг и страх ее пресек,
 <l>Сказав ей с тихостью, преличною <name type="mythologic"
 reg="Зефир">Зефиру</name>,
 <l>Что он несет ее к блаженнейшему миру -
-<l>К супругу, коего <name type="mythological">Оракул</name> ей прорек;
+<l>К супругу, коего <name type="mythologic">Оракул</name> ей прорек;
 <l>Что сей супруг давно вздыхает без супруги;
 <l><space dim="horizontal" extent="8 letters">Что к ней полки духов
 <l><space dim="horizontal" extent="8 letters">Назначены в услуги,
@@ -1218,7 +1218,7 @@ reg="Зефир">Зефиру</name>,
 <l>Не в долгом времени <name type="mythologic">Зефир</name> ее вознес
 <l>К незнаемому ей селению небес,
 <l>Поставил средь двора, и вдруг оттоль исчез.
-<l>Какая  <name  type="mythological"   reg="Психея"><name   type="character"
+<l>Какая  <name  type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньке</name></name> явилась тьма чудес!
 <l>Сквозь рощу миртовых и пальмовых древес
 <l>Великолепные представились чертоги,
@@ -1232,7 +1232,7 @@ reg="Душенька">Душеньке</name></name> явилась тьма чудес!
 <l>Простому смертному должны казаться чудны:
 <l>Единым лишь богам сии дела не трудны.
 <l>Таков открылся путь - читатель, примечай -
-<l>Для   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Для   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньки</name></name>, когда из мрачнейшей пустыни
 <l>Она, во образе летящей вверх богини,
 <l>Нечаянно взнеслась в прекрасный некий рай.
@@ -1252,7 +1252,7 @@ reg="Душенька">Душеньки</name></name>, когда из мрачнейшей пустыни
 <l>Ответствовала всем то знаком, то словами.
 <l>Зефиры, в тесноте толкаясь головами,
 <l>Хотели в дом ее привесть или принесть;
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> им тут велела быть в покое
 <l>И к дому шла сама среди различных слуг,
 <l>И смехов и утех, летающих вокруг.
@@ -1274,7 +1274,7 @@ reg="Душенька">Душенька</name></name> им тут велела быть в покое
 <l>Но вся сия толпа, котора с нею шла
 <l><space dim="horizontal" extent="68letters">Или вокруг летала,
 <l>Уведомить ее подробней не могла,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> о том в незнании была.
 <l>Меж тем прошла она крыльцовые ступени
 <l>И введена была в пространнейшие сени,
@@ -1289,7 +1289,7 @@ reg="Душенька">Душенька</name></name> о том в незнании была.
 <l><space dim="horizontal" extent="8 letters">И чудные сады.
 <l>Оттуда сорок нимф вели ее в чертоги,
 <l>Какие созидать удобны только боги,
-<l>И  тамо  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И  тамо  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name>, в прохладе от дороги,
 <l>В готовую для ней купальню привели.
 <l>Амуры ей росы чистейшей принесли,
@@ -1313,12 +1313,12 @@ reg="Душенька">Душеньку</name></name>, в прохладе от дороги,
 <l>Зефиры хищные, затем что ростом мелки,
 <l>У окон и дверей нашли малейши щелки,
 <l>Прокрались между нимф и спрятались в воде,
-<l><space dim="horizontal" extent="8 letters">Где <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Где <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 купалась.
 <l>Она пред ними там во всей красе являлась,
 <l><space dim="horizontal" extent="8 letters">Иль паче - им касалась;
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> о том никак не догадалась.
 
 <lg1 type="group">
@@ -1345,9 +1345,9 @@ reg="Душенька">Душенька</name></name> о том никак не догадалась.
 <l>Нетрудно разуметь, что для ее услуг
 <l>Горстями сыпались каменья и жемчуг,
 <l>И всяки редкости невидимая сила,
-<l>По слову <name  type="mythological"  reg="Психея"><name  type="character"
+<l>По слову <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, мгновенно приносила;
-<l>Иль   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Иль   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name>     тогда     лишь     только      что
 помн&icystress;ла,
 <l>Желаемая вещь пред ней являлась вдруг;
@@ -1391,14 +1391,14 @@ reg="Душенька">Душенька</name></name>     тогда     лишь     только      что
 <l>Воспели красоту сей новой их царицы.
 <l>Читатель знает сам, приятна ль ей была
 <l><space dim="horizontal" extent="10 letters">Такая похвала;
-<l>Но,     впрочем,     <name     type="mythological"     reg="Психея"><name
+<l>Но,     впрочем,     <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> решить не возмогла,
 <l>Приятство ль голосов, достоинство ль скрипицы,
 <l>Согласие ли арф, иль флейту предпочесть, -
 <l>В искусстве все они имели равну честь,
 <l>И все исполнены единым были духом,
 <l><space      dim="horizontal"      extent="8      letters">Чтоб      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> в раю
 <l><space dim="horizontal" extent="8 letters">Познала часть свою
 <l>Прикосновением, устами, оком, слухом;
@@ -1407,7 +1407,7 @@ reg="Душенька">Душенька</name></name> в раю
 <l>Что будто бы к сему торжественному хору
 <l>Нарочно сысканы <name type="mythologic">Орфей</name> и <name
 type="mythologic">Амфион</name>,
-<l>И будто, в <name type="mythological" reg="Психея"><name  type="character"
+<l>И будто, в <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> влюбяся по разбору,
 <l>Играл и правил там оркестром <name type="mythologic">Аполлон</name>.
 <l>Впоследок хор певиц, протяжистым манером,
@@ -1415,7 +1415,7 @@ reg="Душенька">Душеньку</name></name> влюбяся по разбору,
 <l><space dim="horizontal" extent="6 letters">Воспел стихи, возвысив тон,
 <l>Толико медлено, толико слуху внятно,
 <l>И их сложение пленяло толь приятно,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> легко слова переняла,
 <l><space dim="horizontal" extent="6 letters">Легко упомнить их могла,
 <l><space dim="horizontal" extent="8 letters">И скоро затвердила,
@@ -1427,12 +1427,12 @@ reg="Душенька">Душенька</name></name> легко слова переняла,
 причастны,
 <l><space dim="horizontal" extent="6 letters">И сами боги ей подвластны.
 <l><space   dim="horizontal"    extent="6    letters">Познай    ты,    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name>, любовь,
 <l><space dim="horizontal" extent="6 letters">И счастие познаешь вновь</q>.
 
 <lg1 type="group">
-<l>Трикратно песня  та  пред  <name  type="mythological"  reg="Психея"><name
+<l>Трикратно песня  та  пред  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенькой</name></name> пропета,
 <l>И пели, наконец, царевне многа лета.
 <l>Потом одна из нимф явилась доложить,
@@ -1440,7 +1440,7 @@ type="character" reg="Душенька">Душенькой</name></name> пропета,
 <l>При слове <mentioned>опочить</mentioned> царевна покраснела
 <l><space dim="horizontal" extent="6 letters">И, как невеста, обробела,
 <l><space dim="horizontal" extent="6 letters">Однако спорить не хотела.
-<l>Раздета  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Раздета  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>; ведут ее в чертог,
 <l>И там, как надобно к покою от дорог,
 <l>Кладут ее в постель на некоем престоле
@@ -1465,46 +1465,46 @@ reg="Душенька">Душенька</name></name>; ведут ее в чертог,
 <lg1 type="group">
 <l>Супружество могло царевне быть приятно,
 <l>Лишь только таинство казалось непонятно:
-<l>Супруг у <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Супруг у <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, сказать, и был и нет;
 <l>Приехал ночью к ней, уехал до рассвета,
 <l><space dim="horizontal" extent="8 letters">Без имени, без лет,
 <l><space dim="horizontal" extent="8 letters">Без росту, без примет,
 <l><space dim="horizontal" extent="6 letters">И вместо должного ответа,
-<l>Скрывая, кто он  был,  на  <name  type="mythological"  reg="Психея"><name
+<l>Скрывая, кто он  был,  на  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душеньки</name></name>н вопрос
 <l>Просил, увещевал, для некаких ей гроз,
 <l>Чтоб видеть до поры супруга не желала;
-<l><space dim="horizontal" extent="8  letters">И  <name  type="mythological"
+<l><space dim="horizontal" extent="8  letters">И  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 не знала,
 <l>С каким чудовищем иль богом ночевала,
 <l><space dim="horizontal" extent="6 letters">Неслыхан был подобный брак.
 <l>Царевна, думая и так о том и сяк,
-<l>Развязку тайны сей в <name type="mythological">Оракул</name>е искала;
-<l><name type="mythological">Оракул</name> ей давно супруга описал
+<l>Развязку тайны сей в <name type="mythologic">Оракул</name>е искала;
+<l><name type="mythologic">Оракул</name> ей давно супруга описал
 <l><space dim="horizontal" extent="8 letters">Страшилищем ужасным:
-<l>Супруг   с   <name   type="mythological">Оракул</name>ом   начался   быть
+<l>Супруг   с   <name   type="mythologic">Оракул</name>ом   начался   быть
 согласным,
 <l>Как будто он себя затем и не казал.
-<l>Хотя же  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Хотя же  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> противно б разумела,
 <l><space dim="horizontal" extent="6 letters">Касавшись до супружня тела,
 <l><space dim="horizontal" extent="8 letters">Хотя б казалось ей
 <l><space dim="horizontal" extent="8 letters">Из всех его речей,
 <l>Что будто не был он страшилищем очей, -
-<l>Но так <name type="mythological">Оракул</name> рек и так вещали боги,
+<l>Но так <name type="mythologic">Оракул</name> рек и так вещали боги,
 <l>Что сей супруг ее наносит всюду страх.
 <l>И ежели то так, что он имеет роги,
 <l><space dim="horizontal" extent="8 letters">Или зверины ноги,
 <l><space dim="horizontal" extent="8 letters">Иль когти на руках,
 <l><space dim="horizontal" extent="8 letters">Иль гнусную фигуру,
-<l>Так лучше <name type="mythological"  reg="Психея"><name  type="character"
+<l>Так лучше <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> урода такова,
 <l><space dim="horizontal" extent="6 letters">Который всю страшит натуру,
 <l>Не видеть и не знать, пока она жива.
 <l><space   dim="horizontal"   extent="6   letters">Меж   тем   как    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> в постеле
 <l><space dim="horizontal" extent="6 letters">Не знала, как решить о деле,
 <l><space dim="horizontal" extent="6 letters">Заря гнала ночную тень,
@@ -1538,7 +1538,7 @@ reg="Купидон">Купидона</name>,
 <l>Она зовет, бежит и беглеца хватает.
 <l>Сие движение впоследок прерывает
 <l><space dim="horizontal" extent="8 letters">Ее неверный сон:
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> в руках, проснувшись, ощущает,
 <l>Наместо беглеца, свой спальный балахон.
 
@@ -1557,7 +1557,7 @@ reg="Душенька">Душенька</name></name> в руках, проснувшись, ощущает,
 <l>Спокоил мысль ее приятною мечтою
 <l><space dim="horizontal" extent="8 letters">В другой, как в первый, раз.
 <l>Не знаю, долго ли мечта сия продлилась,
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> от сна не прежде пробудилась,
 <l>Как полдень уж прошел и после полдня час.
 
@@ -1568,7 +1568,7 @@ reg="Душенька">Душенька</name></name> от сна не прежде пробудилась,
 <l><space dim="horizontal" extent="10 letters">Со всем к тому прибором.
 <l>В сей день она себе назначила наряд,
 <l><space dim="horizontal" extent="10 letters">Который был простее,
-<l>Затем, что <name type="mythological" reg="Психея"><name  type="character"
+<l>Затем, что <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> спешила поскорее
 <l>Увидеть редкости чудесных сих палат.
 
@@ -1577,7 +1577,7 @@ reg="Душенька">Душенька</name></name> спешила поскорее
 <l><space dim="horizontal" extent="6 letters">Сей дом представить поспешу
 <l><space dim="horizontal" extent="6 letters">И все подробно опишу,
 <l>Что только лишь могло ей там принесть забаву.
-<l>Вначале  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Вначале  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> по комнатам пошла,
 <l>И, тамо бегая, нигде не пробежала
 <l><space dim="horizontal" extent="8 letters">Покоя, ни угла,
@@ -1588,7 +1588,7 @@ reg="Душенька">Душенька</name></name> по комнатам пошла,
 сторон.
 <l>Толпа девиц за ней бежать не успевала,
 <l>Земфиры лишь одни ей следовать могли,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> везде, как должно, берегли,
 <l>Чтоб как ни есть она, бежавши, не упала.
 <l><space dim="horizontal" extent="6 letters">Она смотрела раза три
@@ -1596,12 +1596,12 @@ reg="Душенька">Душеньку</name></name> везде, как должно, берегли,
 <l><space dim="horizontal" extent="6 letters">Меж тем зефиры и амуры
 <l><space dim="horizontal" extent="6 letters">Казали ей архитектуры
 <l><space dim="horizontal" extent="6 letters">И всяки редкости натуры,
-<l>Которы  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Которы  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name>, оглядывая вкруг,
 <l><space dim="horizontal" extent="8 letters">Желала видеть вдруг,
 <l><space dim="horizontal" extent="8 letters">И что смотреть, не знала;
 <l>Одна перед другой со спором взор пленяла,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> б еще пошла по всем местам,
 <l><space dim="horizontal" extent="8 letters">Когда б от бегу там
 <l><space dim="horizontal" extent="8 letters">Впоследок не устала.
@@ -1648,7 +1648,7 @@ reg="Перикл">Перикла</name>, славившаяся своей красотой. </note>.
 <l>Какой вовеки свет не видел никогда.
 
 <lg1 type="group">
-<l>Конечно, <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Конечно, <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> и доле б так осталась
 <l><space dim="horizontal" extent="8 letters">Смотреть на образ сей,
 <l><space dim="horizontal" extent="8 letters">Которым обольщалась;
@@ -1669,7 +1669,7 @@ resp="editor">или <name type="person">Апеллес</name> (IV в. до н. э.) -
 <name type="mythologic" reg="Афродита">Афродиту</name>. </note>, иль
 живописи бог,
 <l>Который кисть его водил своей рукою,
-<l>Представил <name type="mythological" reg="Психея"><name  type="character"
+<l>Представил <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> со всею красотою,
 <l>Какой дотоле ум вообразить не мог.
 <l>Желает ли она узреть себя в картинах?
@@ -1690,11 +1690,11 @@ reg="Минерва">Минервы</name>".</note>,
 <l>Старается забыть, что он давнишний дед,
 <l>Прямит свой дряхлый стан, желает быть моложе,
 <l>Кудрит оставшие волос своих клочки,
-<l>И видеть <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И видеть <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> вздевает он очки;
 <l>А там она видна, подобяся царице,
 <l>С амурами вокруг, в воздушной колеснице.
-<l>Прекрасной <name type="mythological" reg="Психея"><name  type="character"
+<l>Прекрасной <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name> за честь и красоту
 <l>Амуры там сердца стреляют на лету:
 <l><space dim="horizontal" extent="6 letters">Летят великою толпою,
@@ -1703,7 +1703,7 @@ reg="Душенька">Душеньки</name></name> за честь и красоту
 <l>Летят, поднявши лук, на целый свет войною.
 <l>А там свирепый <name type="mythologic">Марс</name>, рушитель мирных
 прав,
-<l>Увидев  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Увидев  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name>, являет тихий нрав:
 <l><space dim="horizontal" extent="6 letters">Полей не обагряет кровью,
 <l>И наконец, забыв военый свой устав,
@@ -1729,7 +1729,7 @@ reg="Душенька">Душеньку</name></name>, являет тихий нрав:
 <l><space dim="horizontal" extent="8 letters">Являлись по стенам,
 <l>В простых уборах и нарядах
 <l>И в разных платьях маскарадных.
-<l>Во    всех    ты,    <name     type="mythological"     reg="Психея"><name
+<l>Во    всех    ты,    <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name>, нарядах хороша:
 <l>По образу ль какой царицы ты одета,
 <l>Пастушкою ли где сидишь у шалаша,
@@ -1761,7 +1761,7 @@ type="mythologic">Зефир</name> пришел тебе донесть,
 <l><space dim="horizontal" extent="8 letters">Где все пленяло взгляд
 <l><space dim="horizontal" extent="8 letters">И было бесподобно;
 <l><space dim="horizontal" extent="8 letters">Но всюду там умом
-<l><space dim="horizontal" extent="8  letters">Я  <name  type="mythological"
+<l><space dim="horizontal" extent="8  letters">Я  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньку</name></name>
 встречаю,
 <l><space dim="horizontal" extent="8 letters">Прельщаюсь и потом
@@ -1771,7 +1771,7 @@ reg="Психея"><name  type="character"   reg="Душенька">Душеньку</name></name>
 <l>Не ею ль рай имел и бытность и начало?
 <l>И если я сказал о сих палатах мало,
 <l>Конечно в том меня читатели простят;
-<l>Я  должен  следовать  за  <name  type="mythological"   reg="Психея"><name
+<l>Я  должен  следовать  за  <name  type="mythologic"   reg="Психея"><name
 type="character" reg="Душенька">Душеньку</name></name>ю в сад,
 <l>Куда она влечет и мысли всех и взгляд.
 
@@ -1784,7 +1784,7 @@ type="character" reg="Душенька">Душеньку</name></name>ю в сад,
 <l>Толпа к царевне слуг навстречу прилетела,
 <l>И каждый тщился там не быть при ней без дела:
 <l>Водить, рассказывать иль просто забавлять.
-<l>Весь двор внимал тому, что <name  type="mythological"  reg="Психея"><name
+<l>Весь двор внимал тому, что <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> хотела
 <l><space dim="horizontal" extent="8 letters">Побегать, погулять;
 <l>И в рощах иль в садах, где только лишь являлась,
@@ -1805,7 +1805,7 @@ type="character" reg="Душенька">Душенька</name></name> хотела
 <l>Приникли хоры птиц, подслушав шум древесный,
 <l>И за амурами стремились в путь известный,
 <l><space      dim="horizontal"      extent="6      letters">Чтоб      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньку</name></name> увидеть вблизь;
 <l><space dim="horizontal" extent="6 letters">Одни над нею вкруг вились,
 <l><space dim="horizontal" extent="6 letters">Другие перед ней летали
@@ -1817,7 +1817,7 @@ reg="Душенька">Душеньку</name></name> увидеть вблизь;
 <l>Фонтаны силились подняться в высоту,
 <l>Чтоб лучше видеть им царевны красоту,
 <l>Которую толпа окружна заслоняла;
-<l>И  если  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И  если  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> вблизи от них гуляла,
 <l>Они стремились пасть к ее ногам.
 <l><space dim="horizontal" extent="6 letters">В водах плескаючись, наяды
@@ -1825,7 +1825,7 @@ reg="Душенька">Душенька</name></name> вблизи от них гуляла,
 <l>Ее пришествия к счастливым их брегам.
 <l><space dim="horizontal" extent="6 letters">Иные взлезли на каскады
 <l>Смотреть на путь ее, главы свои подняв,
-<l>И,   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>И,   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> узрев, бросались к ней стремглав;
 <l><space dim="horizontal" extent="6 letters">В сем общем торжестве натуры
 <l>И сами каменны над токами фигуры,
@@ -1836,7 +1836,7 @@ reg="Душенька">Душеньку</name></name> узрев, бросались к ней стремглав;
 <l>Ползущих, скачущих, пернатых, четверногих;
 <l>И все творения и чуды естества
 <l>Явилися тогда в счастливой сей державе
-<l>К услугам <name type="mythological"  reg="Психея"><name  type="character"
+<l>К услугам <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, или к ее забаве,
 <l><space dim="horizontal" extent="8 letters">Иль к славе торжества.
 <l>Оттуда шла она в покрытые аллеи,
@@ -1852,14 +1852,14 @@ reg="Душенька">Душеньки</name></name>, или к ее забаве,
 <l>И, словом, то была история веков.
 <l><space dim="horizontal" extent="6 letters">Притом услужные амуры
 <l>Различны повести старались рассказать;
-<l>И  тамо  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И  тамо  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, среди чудес натуры,
 <l>Нашла в явлениях свой род, отца и мать;
 <l>И с самой точностью, в безлюдной сей пустыне,
 <l>Весь мир являлся ей, как будто на картине.
 <l><space dim="horizontal" extent="6 letters">Хотя ж гулянье по лесам
 <l><space     dim="horizontal"      extent="6      letters">Особо      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> любила
 <l><space dim="horizontal" extent="6 letters">И после каждый день ходила,
 <l>Со свитой и одна, к тенистым сим местам,
@@ -1868,7 +1868,7 @@ reg="Душенька">Душенька</name></name> любила
 <l><space dim="horizontal" extent="6 letters">Или, не зря дороги в лес,
 <l><space dim="horizontal" extent="6 letters">Боялась всяких там чудес,
 <l>Иль нежные в ходьбе ее устали ноги;
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> оттоль пошла назад в чертоги.
 <l><space dim="horizontal" extent="8 letters">Не стану представлять
 <l><space dim="horizontal" extent="8 letters">Читателю пред очи
@@ -1877,12 +1877,12 @@ reg="Душенька">Душенька</name></name> оттоль пошла назад в чертоги.
 <l>Но дни бывали там причиною разлуки,
 <l>И дни, среди утех, свои имели скуки.
 <l><space dim="horizontal" extent="8 letters">По слуху, говорят,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> тогда пускалася в наряд;
 <l>Особо же во дни, когда сбиралась в сад,
 <l>Со вкусом щеголих обновы надевала.
 <l>На свете часто слух имеет правды склад:
-<l>Прилично было б  то,  что  <name  type="mythological"  reg="Психея"><name
+<l>Прилично было б  то,  что  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> гуляла
 <l>И скуку иногда гульбою прогоняла.
 
@@ -1916,7 +1916,7 @@ type="character" reg="Душенька">Душенька</name></name> гуляла
 <l><space dim="horizontal" extent="8 letters">Иль таинство в природе.
 <l><space dim="horizontal" extent="8 letters">История гласит,
 <l><space dim="horizontal" extent="8 letters">И знают то в народе,
-<l><space dim="horizontal" extent="8 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Что <name  type="mythologic"
 reg="Психея"><name  type="character"  reg="Душенька">Душенька</name></name>,
 вошед
 <l><space dim="horizontal" extent="8 letters">В неведомый ей след,
@@ -1970,7 +1970,7 @@ reg="Психея"><name  type="character"  reg="Душенька">Душенька</name></name>,
 <l><space dim="horizontal" extent="8 letters">Со всякими игр&acystress;ми,
 <l>Какие и до днесь остались между нами.
 <l>Амуры, наконец, старались изобресть
-<l>По вкусу <name  type="mythological"  reg="Психея"><name  type="character"
+<l>По вкусу <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, комедии, балеты,
 <l>Концерты, оперы, забавны оперетты
 <l>И всё, что острый ум удобен произвесть
@@ -1999,7 +1999,7 @@ reg="Вольтер">Вольтер</name>,
 пороков,
 <l>Писатель наших дней, почтенный <name type="person" reg="Сумароков А.
 П.">Сумароков</name>
-<l>Театру  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Театру  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньки</name></name> старались подражать,
 <l>И в поздних лишь веках могли изображать
 <l><space dim="horizontal" extent="6 letters">Различны действия натуры,
@@ -2020,7 +2020,7 @@ reg="Мельпомена">Мельпомены</name>.
 <l><space dim="horizontal" extent="6 letters">Великая громада книг,
 <l><space dim="horizontal" extent="8 letters">И малых и больших,
 <l>Ее от чтения сначала отвращала,
-<l>Но скоро <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Но скоро <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> узнала,
 <l>Что разум ко всему возможно приучать, -
 <l>Узнала дельный смысл от шуток отличать,
@@ -2069,7 +2069,7 @@ reg="Пантея">Пантею</orig></title></bibl> <quote> не весьма удачной
 type="mythologic" reg="Аполлон">Аполлона</name>
 <l><space dim="horizontal" extent="6 letters">Навеки согнан с <name
 type="mythologicPlace" reg="Геликон">Геликона</name>
-<l>И будто  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И будто  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, боясь подобных скук
 <l><space dim="horizontal" extent="6 letters">Иль ради сохраненья рук,
 <l><space dim="horizontal" extent="6 letters">Стихов с неделю не читала,
@@ -2128,19 +2128,19 @@ type="mythologicPlace" reg="Стикс">Стиксом</name> насмехалась
 <l>Как ветер, уходил неведомо куда.
 <l>В другие времена такие нежны споры
 <l>Рождали б радости наместо дальной ссоры;
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душеньки</name></name>н супруг тогда нередко был
 <l><space dim="horizontal" extent="8 letters">Задумчив и уныл,
 <l>И часто повторял угрюмы разговоры,
 <l>Являя ей тщету и света и похвал.
-<l>Впоследок <name type="mythological"  reg="Психея"><name  type="character"
+<l>Впоследок <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> в слезах увещавал,
 <l>Чтобы, храня завет среди утех любовных,
 <l>Боялась в том измен от самых даже кровных;
 <l>Что зависть ей беды возможет нанести,
 <l>И если судит так предел богов верховных,
 <l>Ее от лютых зол не может он спасти.
-<l>Вздохнув     по     <name     type="mythological"      reg="Психея"><name
+<l>Вздохнув     по     <name     type="mythologic"      reg="Психея"><name
 type="character"  reg="Душенька">Душеньке</name></name>   в   боязнях   толь
 суровых,
 <l>Супруг едва тогда из дому отлетел,
@@ -2161,7 +2161,7 @@ type="mythologic">Зефир</name>! <name type="mythologic">зефир</name>! Когда
 <l><space dim="horizontal" extent="6 letters">Сих злобных сестр коварны
 лести,
 <l><space dim="horizontal" extent="6 letters">Конечно бы тогда скрывал
-<l><space dim="horizontal" extent="6 letters">Для <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Для <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньки</name></name>
 такие вести!
 <l>Почто не встретился какой ли б скорый дух,
@@ -2178,7 +2178,7 @@ reg="Зефир">зефир</name>, без всякой встречи,
 <l>Чтоб сестр она потом взяла к себе в чертоги.
 
 <lg1 type="group">
-<l>Обыкши  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Обыкши  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> любить родную кровь
 <l>И должную хранить к сестрам своим любовь,
 <l>Супружние тогда забыла все советы:
@@ -2197,7 +2197,7 @@ reg="Душенька">Душенька</name></name> любить родную кровь
 
 <lg1 type="group">
 <l>Не в долгом времени царевны к ней предстали,
-<l>И  обе  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>И  обе  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> со счастьем поздравляли,
 <l>И за руку трясли, и крепко обнимали,
 <l><space dim="horizontal" extent="8 letters">И радость изъявляли
@@ -2230,12 +2230,12 @@ type="mythologic" reg="Купидон">Купидона</name>;
 <l>Царевна, покраснев, сказала: <q>Дома нет</q>
 <l>Но как она притом старалась их забавить,
 <l>Легко тогда могли они себе представить,
-<l><space dim="horizontal" extent="8 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Что <name  type="mythologic"
 reg="Психея"><name  type="character"  reg="Душенька">Душеньки</name></name>н
 супруг
 <l>Имеет в небе рай, и трон, и много слуг,
 <l>И младость, и красу, и радость без печали,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> на жизнь вознес в небесный круг;
 <l>И то, чего они не знали, не видали,
 <l>Завидуя сестре, легко воображали
@@ -2246,10 +2246,10 @@ reg="Душенька">Душеньку</name></name> на жизнь вознес в небесный круг;
 <l><space dim="horizontal" extent="8 letters">И те, как деды, стары,
 <l><space dim="horizontal" extent="8 letters">И нам негодны в пары</q>;
 <l><space dim="horizontal" extent="8 letters">И, завистью дыша,
-<l>Царевны  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Царевны  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> нещадно тут хулили
 <l>И с повторением впоследок говорили,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> была отнюдь не хороша.
 
 <lg1 type="group">
@@ -2262,11 +2262,11 @@ reg="Душенька">Душенька</name></name> была отнюдь не хороша.
 <l>Сестры темнили вид, под чем он был не явен.
 <l>Чего не вымыслит коварная хула?
 <l>Он был, по их речам, и страшен и злонравен,
-<l>И, верно, <name type="mythological"  reg="Психея"><name  type="character"
+<l>И, верно, <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> с чудовищем жила.
 <l>Советы скромности в сей час она забыла;
 <l>Сестры ли в том виной, судьба ли то, иль рок,
-<l><space dim="horizontal" extent="6 letters">Иль <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Иль <name  type="mythologic"
 reg="Психея"><name  type="character"  reg="Душенька">Душеньки</name></name>н
 то был порок,
 <l><space dim="horizontal" extent="6 letters">Она, вздохнув, сестрам
@@ -2310,7 +2310,7 @@ reg="Психея"><name  type="character"  reg="Душенька">Душеньки</name></name>н
 <l><space dim="horizontal" extent="6 letters">И кои будут мир страшить.
 
 <lg1 type="group">
-<l>Во многом <name type="mythological"  reg="Психея"><name  type="character"
+<l>Во многом <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> уверить было трудно;
 <l>Но правда, что она сама свой тайный брак
 <l><space dim="horizontal" extent="8 letters">Почесть не знала как:
@@ -2318,7 +2318,7 @@ reg="Душенька">Душеньку</name></name> уверить было трудно;
 <l>Зачем бы сей супруг скрывался от людей,
 <l><space dim="horizontal" extent="8 letters">Когда бы не был змей
 <l><space dim="horizontal" extent="8 letters">Иль лютый чародей?
-<l>Впоследок <name type="mythological"  reg="Психея"><name  type="character"
+<l>Впоследок <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> в задумчивости мнила,
 <l>Что некая в дому неистовая сила
 <l><space dim="horizontal" extent="8 letters">Ее обворожила;
@@ -2344,7 +2344,7 @@ reg="Душенька">Душенька</name></name> в задумчивости мнила,
 <l><q> Могу ль я в свете жить?</q> - царевна говорила. -
 <l><space dim="horizontal" extent="6 letters"><q> Постыл мне муж и жизнь
 постыла.
-<l>Несчастна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Несчастна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>! ты мнила быть в раю,
 <l>И участь выше всех считала ты свою;
 <l>Но, с родом разлучась и вне земного круга,
@@ -2371,7 +2371,7 @@ reg="Душенька">Душенька</name></name>! ты мнила быть в раю,
 <l>И что, вооружась на жизнь свою, она
 <l>Должна пред смертью сей, как честная жена,
 <l>В удобный сонный час убить бы колдуна.
-<l>Но сей поступок  был  для  <name  type="mythological"  reg="Психея"><name
+<l>Но сей поступок  был  для  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душеньки</name></name> опасен,
 <l><space dim="horizontal" extent="8 letters">Противен и ужасен:
 <l>Чуждалася она злодейственных смертей,
@@ -2389,14 +2389,14 @@ type="character" reg="Душенька">Душеньки</name></name> опасен,
 <l><space dim="horizontal" extent="8 letters">В сии печальны дни
 <l>Зефиры с вечера гасили все огни.
 <l>Сестры решительно и смело отвечали
-<l><space dim="horizontal" extent="8 letters">На  <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">На  <name  type="mythologic"
 reg="Психея"><name type="character"  reg="Душенька">Душеньки</name></name>ну
 речь,
 <l>Что тотчас принесут надежный самый меч,
 <l>И вместе принести лампаду обещали.
 <l>Приятна ль ей была готовность сих услуг,
 <l>Приметить было льзя из слов ее печальных:
-<l>Смущенна <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Смущенна <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> тогда без мыслей дальных
 <l>Желала только знать, каков ее супруг,
 <l><space dim="horizontal" extent="6 letters">И, взоры обращая к саду,
@@ -2441,7 +2441,7 @@ extent="6 letters">У <name type="mythologic" reg="Гидра">Гидры</name>
 type="mythologic" reg="Амур">Амуровы</name> чертоги
 <l><space dim="horizontal" extent="6 letters">Тогда с лампадой унесли,
 <l><space   dim="horizontal"   extent="6   letters">И    скоро    с    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенькой</name></name> простились,
 <l><space dim="horizontal" extent="6 letters">И скоро в путь домой
 пустились.
@@ -2458,7 +2458,7 @@ reg="Душенька">Душенькой</name></name> простились,
 <l>Ввела царевнина супруга к ней в покой,
 <l>В котором крылося несчастно непокорство.
 <l><space dim="horizontal" extent="6 letters">И если повести не лгут,
-<l>Прекрасна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Прекрасна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> употребила тут
 <l><space dim="horizontal" extent="8 letters">И разум, и проворство,
 <l><space dim="horizontal" extent="8 letters">И хитрость, и притворство,
@@ -2507,7 +2507,7 @@ type="mythologic">Амур</name> был сам;
 <l><space dim="horizontal" extent="6 letters">Склонив лицо ко стороне,
 <l><space dim="horizontal" extent="6 letters">Простерши руки обоюду,
 <l><space dim="horizontal" extent="6 letters">Казалось, будто бы во сне
-<l><space dim="horizontal" extent="6 letters">Он  <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Он  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньку</name></name>
 искал повсюду.
 <l><space dim="horizontal" extent="6 letters">Румянец розы на щеках,
@@ -2539,7 +2539,7 @@ type="mythologic">Амур</name>,
 <l><space dim="horizontal" extent="6 letters">И царь над всеми красотами.
 
 <lg1 type="group">
-<l>Увидя  <name  type="mythological"   reg="Психея"><name   type="character"
+<l>Увидя  <name  type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> прекрасно божество
 <l>Наместо аспида, которого боялась,
 <l>Видение сие почла за колдовство,
@@ -2552,7 +2552,7 @@ reg="Душенька">Душенька</name></name> прекрасно божество
 <l>Как будто б никогда его не обнимала.
 <l>Но удовольствием жадающих очей
 <l>Остановлялась тут стремительность любовна;
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> тогда, недвижна и бессловна,
 <l>Считала ночь сию приятней всех ночей.
 <l>Она не раз себя в сем диве обвиняла,
@@ -2575,7 +2575,7 @@ reg="Душенька">Душенька</name></name> тогда, недвижна и бессловна,
 <l><space dim="horizontal" extent="6 letters">Почувствуя жестоку боль,
 <l>Он вдруг вздрогнул, вскричал, проснулся
 <l>И, боль свою забыв, от света ужаснулся;
-<l>Увидел  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Увидел  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name>, увидел также меч,
 <l><space dim="horizontal" extent="8 letters">Который из-под плеч
 <l><space dim="horizontal" extent="8 letters">К ногам тогда скользнулся;
@@ -2587,21 +2587,21 @@ reg="Душенька">Душеньку</name></name>, увидел также меч,
 <l>Какие в выправку сказать ему могла.
 <l>Слова в устах остановлялись;
 <l>И свет и меч в винах уликою являлись,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> тогда, упадши, обмерла.
 
 <div1>
 <head type="subordinate">КНИГА ТРЕТИЯ</head>
 <l>
 <lg1 type="group">
-<l>Бывала  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Бывала  <name  type="mythologic  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> веселостей душою,
-<l>Бывала  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Бывала  <name  type="mythologic  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> большою госпожою;
 <l>Бывало в прошлы дни, под кровом у небес,
 <l><space dim="horizontal" extent="8 letters">Когда б лишь капля слез
 <l><space dim="horizontal" extent="8 letters">Из глаз ее сверкнула,
-<l>Или  бы  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Или  бы  <name  type="mythologic  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> о чем-нибудь вздохнула,
 <l>Или б поморщилась, иль только бы взглянула,
 <l><space dim="horizontal" extent="6 letters">В минуту для ее услуг
@@ -2612,12 +2612,12 @@ reg="Душенька">Душенька</name></name> о чем-нибудь вздохнула,
 <l>Пощупать, посмотреть иль просто для совета,
 <l>И всю б свою для ней науку истощил.
 <l>Когда же во дворе рассеялися слухи,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> в раю преслушала закон
 <l>И что ее за грех оставил <name type="mythologic">Купидон</name>,
 <l>Оставили ее и все прислужны духи.
 <l>Зефиры не были в числе неверных слуг:
-<l>Сии  за  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Сии  за  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенькой</name></name> старинны волокиты
 <l>Одни осталися из всей придворной свиты,
 <l>Которые вдали над ней летали вкруг.
@@ -2637,7 +2637,7 @@ reg="Душенька">Душенькой</name></name> старинны волокиты
 <l>Стараяся, ища, ласкаясь, уповая:
 <l>Авось либо творец прекраснейшего рая,
 <l>Авось либо сей бог веселий и утех,
-<l>Оставив  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Оставив  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> за дурость и за грех
 <l>И вспомнив древнюю их верность и услугу,
 <l><space dim="horizontal" extent="8 letters">Впоследок кинет взор
@@ -2659,7 +2659,7 @@ reg="Душенька">Душеньку</name></name> за дурость и за грех
 <l>И ей из жалости тогда не помогали.
 <l>Они увидели, увы! в тот самый час
 <l>Зефирам на ветру написанный приказ...
-<l>Амуры с  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Амуры с  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенькой</name></name> расстались, возрыдали
 <l>И только взорами ее препровождали.
 <l>Зефиры царску дочь обратно унесли
@@ -2686,12 +2686,12 @@ reg="Душенька">Душенькой</name></name> расстались, возрыдали
 <l>И боле - кто, любя, с любимым разлучится
 <l>И радости себе уже не чает впредь,
 <l>Легко восчувствует, без дальнейшего слова,
-<l>Что лучше <name type="mythological"  reg="Психея"><name  type="character"
+<l>Что лучше <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> в сей доле умереть.
 <l>Но гневная судьба была к ней столь сурова,
 <l>Что, сколь бы грозных парк на помощь ни звала
 <l><space dim="horizontal" extent="6 letters">И как бы смерти не искала,
-<l>Судьба  назначила,  чтоб  <name  type="mythological"   reg="Психея"><name
+<l>Судьба  назначила,  чтоб  <name  type="mythologic"   reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> жила
 <l><space dim="horizontal" extent="8 letters">И в жизни бы страдала.
 
@@ -2705,7 +2705,7 @@ type="mythologic" reg="Аврора">Авроры</name>
 <l><space dim="horizontal" extent="6 letters">Иль так сказать в простых
 словах:
 <l><space dim="horizontal" extent="6 letters">Как день явился после ночи
-<l>Очнулась <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Очнулась <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, открыла ясны очи,
 <l>Открыла... и едва опять не обмерла,
 <l>Увидев где и как тогда она была.
@@ -2730,14 +2730,14 @@ reg="Душенька">Душенька</name></name>, открыла ясны очи,
 <l>И где, казалося, лишь страхи обитали, -
 <l>Увидела себя из райских покрывал,
 <l>Лежащу в платьице простом и ненарядном,
-<l>В какое  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>В какое  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> в несчастье бесприкладном,
 <l>Оставив выкладки<note resp="editor">фигурные украшения на верхней одежде.
 </note> и всякие махры,
 <l><space dim="horizontal" extent="8 letters">Родные нарядили,
 <l><space dim="horizontal" extent="8 letters">Когда на верх горы
 <l><space dim="horizontal" extent="8 letters">Ее препроводили.
-<l>Хотя же  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Хотя же  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, привыкнувши к бедам,
 <l><space dim="horizontal" extent="8 letters">Ко страху и несчастью,
 <l>Могла бы ожидать себе отрады там
@@ -2745,13 +2745,13 @@ reg="Душенька">Душенька</name></name>, привыкнувши к бедам,
 <l><space dim="horizontal" extent="8 letters">И, веря всяким чудесам,
 <l>Могла б в их помощи легко себя уверить
 <l>И несколько бы тем печаль свою умерить, -
-<l><space dim="horizontal" extent="6 letters">Но  <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Но  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 дотоль в раю
 <l><space dim="horizontal" extent="6 letters">Была супругою <name
 type="mythologic" reg="Амур">Амура</name>,
 <l><space    dim="horizontal"    extent="6    letters">И    участь     <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> свою
 <l><space dim="horizontal" extent="6 letters">Утратила потом, как дура,
 <l>Утратила любовь превыше всех утех,
@@ -2769,7 +2769,7 @@ reg="Душенька">Душенька</name></name> свою
 взвивался,
 <l>Тая свою печаль во мраке черных туч;
 <l>И если проницал к нему надежды луч,
-<l>Надеждой <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Надеждой <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> утешить он боялся.
 <l><space dim="horizontal" extent="6 letters">Он ею тайно любовался,
 <l>Поступки он ее украдкой примечал,
@@ -2817,17 +2817,17 @@ type="mythologic">Амур</name>!</q> - она вскричала...
 <l><space dim="horizontal" extent="6 letters">Хотя б то был дремучий лес.
 <l>Но, вспомнив, нежный бог, в жару своих желаний,
 <l>Несчастливый предел толь лестных упований
-<l>И гибель <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И гибель <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, строжайшим ей судом
 <l><space dim="horizontal" extent="8 letters">Грядущую потом,
 <l>Умерил страсть свою, вздохнул, остановился,
-<l>И  к  <name   type="mythological"   reg="Психея"><name   type="character"
+<l>И  к  <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньке</name></name> с высот во славе он спустился:
 <l><space dim="horizontal" extent="8 letters">Предстал ее глазам,
 <l>Предстал... и так, как бог, явился;
 <l>Но, в угождение <name type="mythologic" reg="Венера">Венере</name> и
 судьбам,
-<l>Воззрел на <name type="mythological" reg="Психея"><name  type="character"
+<l>Воззрел на <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> суровыми очами,
 <l>И так, как бы ее оставил он навек,
 <l>Гневливым голосом, с презором произрек
@@ -2877,7 +2877,7 @@ reg="Венера">Венеры</name>,
 <l>Пошла, заплакала, с платочком на глазах,
 <l>Вздохнула! ахнула!.. и бросилась в размах.
 <l><name type="mythologic">Амур</name> оставил ли зефиров без наказа,
-<l>Велел ли <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Велел ли <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> стеречь на всех горах,
 <l>Читатель может сам увидеть то в делах.
 <l>В тот час и в тот момент усердный <name type="character">Скоромах</name>
@@ -2888,7 +2888,7 @@ reg="Душенька">Душеньку</name></name> стеречь на всех горах,
 <l>Оставил все дела в высоких небесах,
 <l><space dim="horizontal" extent="6 letters">Тряхнул крылом, порхнул три
 раза,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> тогда, летящую на низ,
 <l>Прикрыв воскрылием своим воздушных риз
 <l>От всякой наглости толпы разносторонной,
@@ -2904,7 +2904,7 @@ reg="Душенька">Душеньку</name></name> тогда, летящую на низ,
 type="mythologic" reg="Флора">Флору</name>;
 <l><space dim="horizontal" extent="6 letters">Скорбел, что скоро путь
 свершил,
-<l>Что долго <name type="mythological"  reg="Психея"><name  type="character"
+<l>Что долго <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньке</name></name> не мог служить в подпору.
 
 <lg1 type="group">
@@ -2941,7 +2941,7 @@ reg="Амур">Амура</name>.
 <l><name type="mythologic">Амур</name>, который зрел ее и скорбь и труд,
 <l><space dim="horizontal" extent="8 letters"><name
 type="mythologic">Амур</name>, содетель чуд,
-<l>Легко соделать мог,  чтоб  <name  type="mythological"  reg="Психея"><name
+<l>Легко соделать мог,  чтоб  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> уснула
 <l><space dim="horizontal" extent="8 letters">И сном бы отдохнула.
 <l>И, может быть, она, возненавидев свет,
@@ -2953,7 +2953,7 @@ type="character" reg="Душенька">Душенька</name></name> уснула
 <l>И охраняючи несчастную супругу,
 <l>Решился прекратить <name type="mythologic" reg="Морфей">Морфееву</name>
 услугу.
-<l>Проснулась <name type="mythological" reg="Психея"><name  type="character"
+<l>Проснулась <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, открыла томный взор...
 <l><space dim="horizontal" extent="8 letters">Но, вспомнив свой позор,
 <l><space dim="horizontal" extent="6 letters">Глаза от света отвращала,
@@ -2968,10 +2968,10 @@ reg="Душенька">Душенька</name></name>, открыла томный взор...
 <l>От вида коего трепещет всяка плоть,
 <l>Явилась к ней тогда с предлинною косою,
 <l>Но только лишь траву косить или полоть,
-<l>Где   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Где   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> могла ступеньки поколоть.
 <l>Увидев наконец, что смерть от ней бежала,
-<l>Насильно <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Насильно <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> скончать свой век искала:
 <l><space dim="horizontal" extent="8 letters"><q> Зарежуся!</q> -
 вскричала,
@@ -2980,7 +2980,7 @@ reg="Душенька">Душенька</name></name> скончать свой век искала:
 острия,
 <l>Удобного пресечь несчастну жизнь ея.
 <l>Читатель ведает, без всякой дальней справки,
-<l><space dim="horizontal" extent="8 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Что <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 пред сим,
 <l>Летя с горы на низ, повытрясла булавки,
@@ -2991,7 +2991,7 @@ reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 <l><space dim="horizontal" extent="6 letters">Вонзить себе хотела в грудь.
 <l>Казался край тогда ее несчастной доле;
 <l><space dim="horizontal" extent="6 letters">Нашлися остры камни там,
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> велась не к смерти, к чудесам:
 <l><space dim="horizontal" extent="6 letters">Лишь только возьмет камень в
 руки,
@@ -3018,7 +3018,7 @@ reg="Душенька">Душенька</name></name> велась не к смерти, к чудесам:
 <l><space dim="horizontal" extent="8 letters">Не ставят в честь удавку
 <l>И смертью таковой казнят одних плутов,
 <l>Но ищущий конца на всяку смерть готов;
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньки</name></name>на смерть не шла в позор и в явку.
 <l><space dim="horizontal" extent="8 letters">Желала бы она
 <l><space dim="horizontal" extent="8 letters">Скончаться лучше ядом;
@@ -3031,17 +3031,17 @@ reg="Душенька">Душеньки</name></name>на смерть не шла в позор и в явку.
 <l>Равно же изгнан был оттоле всякий гад,
 <l><space dim="horizontal" extent="8 letters">В каком бывает яд;
 <l><space dim="horizontal" extent="8 letters">Итак, нельзя дивиться,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> тогда хотела удавиться.
 <l><space dim="horizontal" extent="8 letters">А где, и чем, и как?
 <l>По многим повестям остался верный знак:
 <l><space dim="horizontal" extent="6 letters">Вблизи оттоле рос дубняк,
 <l><space dim="horizontal" extent="8 letters">И были тамо дубы
 <l><space dim="horizontal" extent="8 letters">Высоки, толсты, грубы.
-<l>На   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>На   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душеньке</name></name> тогда широкий был платок,
 <l>Который с белых плеч спускался возле бок.
-<l>Несчастна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Несчастна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, не в многие минуты,
 <l><space dim="horizontal" extent="8 letters">Неся на смерть красу,
 <l><space dim="horizontal" extent="8 letters">Явилася в лесу;
@@ -3051,14 +3051,14 @@ reg="Душенька">Душенька</name></name>, не в многие минуты,
 <l><space dim="horizontal" extent="8 letters">Явилась на дубу;
 <l>Избрав крепчайший сук, последний шаг ступила
 <l>И к суку свой платок как должно прицепила,
-<l>И в петлю <name type="mythological"  reg="Психея"><name  type="character"
+<l>И в петлю <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> головушку вложила;
 <l><space dim="horizontal" extent="8 letters">О, чудо из чудес!
 <l><space dim="horizontal" extent="8 letters">Потрясся дол и лес!
 <l>Дубовый грубый сук, на чем она повисла,
 <l>С почтением к ее прекрасной голове
 <l>Погнулся так, как прут, изросший в вешни числа,
-<l>И здраву <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И здраву <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> поставил на траве;
 <l>И все тогда суки, на низ влекомы ею,
 <l><space dim="horizontal" extent="6 letters">Иль сами волею своею
@@ -3066,18 +3066,18 @@ reg="Душенька">Душеньку</name></name> поставил на траве;
 <l><space dim="horizontal" extent="6 letters">И, съединяючи концы,
 <l><space dim="horizontal" extent="6 letters">Свивали разны ей венцы.
 <l>Один лишь наглый сук за платье зацепился,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньки</name></name>н покров вверху остановился.
 <l><space dim="horizontal" extent="6 letters">Тогда увидел дол и лес
 <l><space dim="horizontal" extent="6 letters">Другое чудо из чудес!
 
 <lg1 type="group">
 <l>И горы вскликнули громчае сколь возможно,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> была прекрасней всех неложно;
 <l>И сам <name type="mythologic">Амур</name> тогда, смотря из облаков
 <l>Прилежным взором, то оправдывал без слов;
-<l>Меж    тем    как    <name     type="mythological"     reg="Психея"><name
+<l>Меж    тем    как    <name     type="mythologic"     reg="Психея"><name
 type="character"     reg="Душенька">Душенька</name></name>     в     живущих
 оставалась,
 <l>Как бытностью ее натура красовалась,
@@ -3093,7 +3093,7 @@ type="character"     reg="Душенька">Душенька</name></name>     в     живущих
 <l><space dim="horizontal" extent="6 letters">Но вдруг, противною судьбой,
 <l>Поехала она на щуке шегардой;
 <l>И, ехав поверху опаснейшей дороги,
-<l>Мочила  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Мочила  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> лишь хвост и ноги.
 <l>К хранению ее прибавлен был конвой:
 <l><space dim="horizontal" extent="8 letters">Другие тут же щуки,
@@ -3106,7 +3106,7 @@ reg="Душенька">Душенька</name></name> лишь хвост и ноги.
 <l>Что будто в щуках там приметили наяд,
 <l><space dim="horizontal" extent="6 letters">И что наяды эскадроном
 <l><space    dim="horizontal"    extent="6    letters">Явились    к    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньке</name></name> с поклоном.
 <l>Не знаю, правда ль то, лишь нет сомненья в оном,
 <l>Что некие тогда из сих наяд, иль рыб,
@@ -3119,7 +3119,7 @@ reg="Душенька">Душеньке</name></name> с поклоном.
 <l>С тех пор как райску жизнь в ничто преобратил,
 <l><space dim="horizontal" extent="6 letters">Служивших там, как бы карая,
 <l><space dim="horizontal" extent="6 letters">Оттоль на волю распустил.
-<l>Несчастна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Несчастна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, сколь много не старалась
 <l><space dim="horizontal" extent="6 letters">В речном потоке утонуть,
 <l>Со щукою неслась благополучно в путь,
@@ -3128,7 +3128,7 @@ reg="Душенька">Душенька</name></name>, сколь много не старалась
 кляла
 <l><space dim="horizontal" extent="6 letters">И тщетно снова смерть звала;
 <l>На зов плывучий сонм вопил единогласно,
-<l><space dim="horizontal" extent="8 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Что <name  type="mythologic"
 reg="Психея"><name type="character" reg="Душенька">Душенька</name></name>  в
 бедах
 <l><space dim="horizontal" extent="8 letters">Без пользы и напрасно
@@ -3137,13 +3137,13 @@ reg="Психея"><name type="character" reg="Душенька">Душенька</name></name>  в
 <l>Что боги пусть продлят ее прекрасны годы,
 <l>И что ее на смерть отнюдь не примут воды.
 <l>Остался наконец единый смерти род,
-<l>Который  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Который  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> не испытала;
 <l>Что, может быть, огнем скончает свой живот.
 <l><space dim="horizontal" extent="6 letters">Вдали в то время дым курился:
 <l><space dim="horizontal" extent="6 letters">Ко смерти новый путь
 открылся,
-<l><space dim="horizontal" extent="6  letters">И  <name  type="mythological"
+<l><space dim="horizontal" extent="6  letters">И  <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 пошла на дым;
 <l><space dim="horizontal" extent="4 letters">И случаем тогда, видущим иль
@@ -3187,7 +3187,7 @@ reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 <l><space dim="horizontal" extent="8 letters">Взвернулась трижды вкруг
 <l><space dim="horizontal" extent="8 letters">Ладья у рыболова,
 <l><space dim="horizontal" extent="8 letters">И все то сталось вдруг
-<l><space dim="horizontal" extent="8 letters">От  <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">От  <name  type="mythologic"
 reg="Психея"><name type="character"  reg="Душенька">Душеньки</name></name>на
 слова.
 <l>Не знаю, волею ль не сей внезапный крик
@@ -3233,7 +3233,7 @@ reg="Психея"><name type="character"  reg="Душенька">Душеньки</name></name>на
 <l><space dim="horizontal" extent="6 letters"><q> Но кто ты?</q> - старец
 вопросил.
 <l><space    dim="horizontal"     extent="6     letters"><q>     Я     <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name>...   люблю   <name   type="mythologic"
 reg="Амур">Амура</name>...</q>
 <l><space dim="horizontal" extent="6 letters">Потом заплакала, как дура;
@@ -3266,17 +3266,17 @@ reg="Амур">Амура</name>...</q>
 меру;
 <l><space dim="horizontal" extent="6 letters">А что она в листе нашла,
 <l><space dim="horizontal" extent="6 letters">Скажу по точному манеру.
-<l><q>Понеже <name type="mythological"  reg="Психея"><name  type="character"
+<l><q>Понеже <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>  прогневала  <name   type="mythologic"
 reg="Венера">Венеру</name>,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name>  <name   type="mythologic">Амур</name>
 <name type="mythologic" reg="Венера">Венере</name> в стыд хвалил;
-<l>Она же,  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Она же,  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, румяны унижает,
 <l>Мрачит перед собой достоинства белил
 <l>И всяку красоту повсюду обижает;
-<l>Она же,  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Она же,  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, имея стойный стан,
 <l>Прелестные глаза, приятную усмешку,
 <l>Богиню красоты не чтит и ставит в пешку;
@@ -3292,7 +3292,7 @@ type="mythologic">Венера</name> каждому и всем
 <l><space dim="horizontal" extent="6 letters">По должной форме извещает
 <l><space dim="horizontal" extent="6 letters">И всяку милость обещает
 <l><space    dim="horizontal"    extent="6    letters">Тому,    кто    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньку</name></name> на срок
 <l><space dim="horizontal" extent="6 letters">К <name type="mythologic"
 reg="Венера">Венерину</name> лицу представит.
@@ -3305,14 +3305,14 @@ reg="Венера">Венерину</name> лицу представит.
 
 <lg1 type="group">
 <l><space    dim="horizontal"    extent="6     letters">Всплеснула     <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> руками,
 <l><space dim="horizontal" extent="6 letters">Прочтя толь грозные слова:
 <l><space dim="horizontal" extent="6 letters"><q> О боги! видите вы
 сами,</q> -
 <l><space dim="horizontal" extent="6 letters">Вопили камни и древа, -
 <l><space  dim="horizontal"  extent="6   letters"><q>   На   то   ли   <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> жива,
 <l><space dim="horizontal" extent="6 letters">На то ль одарена красами,
 <l><space dim="horizontal" extent="6 letters">И чем виновна перед вами,
@@ -3322,10 +3322,10 @@ reg="Душенька">Душенька</name></name> жива,
 <l><space dim="horizontal" extent="6 letters">Иной бранил богиню злую,
 <l><space dim="horizontal" extent="6 letters">Другой сыскную драть хотел.
 <l>Одни, из должности, цитерские пролазы
-<l>Твердили  по  утрам  о   <name   type="mythological"   reg="Психея"><name
+<l>Твердили  по  утрам  о   <name   type="mythologic"   reg="Психея"><name
 type="character" reg="Душенька">Душеньке</name></name> приказы,
 <l>Который всяк потом охотно забывал,
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name>, кто мог, охотно укрывал,
 <l>Но как то ни было, бояся ли пролазов,
 <l><space dim="horizontal" extent="8 letters">Бояся ли приказов,
@@ -3343,7 +3343,7 @@ reg="Душенька">Душеньку</name></name>, кто мог, охотно укрывал,
 <l>В верховнейших богах немалу часть разинь.
 
 <lg1 type="group">
-<l>Вначале  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Вначале  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> пошла просить <name  type="mythologic"
 reg="Юнона">Юнону</name>,
 <l>Которая тогда, оставив небеса,
@@ -3366,7 +3366,7 @@ type="mythologic">Юпитер</name> по закону,
 <l>Забыв отца богов достоинство и чин.
 <l><space dim="horizontal" extent="6 letters">Для множества таких причин,
 <l>И, может быть, за то, как видела <name type="mythologic">Юнона</name>,
-<l><space dim="horizontal" extent="8 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Что <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 сама
 <l>Могла <name type="mythologic" reg="Юпитер">Юпитера</name> соделать без
@@ -3392,7 +3392,7 @@ reg="Церера">Церерину</name> лицу
 <l>Дозволен только был жрецам или жрецу,
 <l>И кто к богине шел для просьбы иль вопроса,
 <l>Не мог услышан быть без жертвы и приноса;
-<l>А   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>А   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> была в то время всех бедней,
 <l><space dim="horizontal" extent="6 letters">И не было тогда у ней
 <l><space dim="horizontal" extent="6 letters">Отцовских денег, ни перстней;
@@ -3411,7 +3411,7 @@ reg="Душенька">Душенька</name></name> была в то время всех бедней,
 <l>Отправили оттоль без всякого ответа.
 
 <lg1 type="group">
-<l>В    сей    скорби    <name    type="mythological"     reg="Психея"><name
+<l>В    сей    скорби    <name    type="mythologic"     reg="Психея"><name
 type="character"   reg="Душенька">Душенька</name></name>,   привыкши    всех
 просить,
 <l><name type="mythologic" reg="Минерва">Минерву</name> чаяла на жалость
@@ -3429,14 +3429,14 @@ reg="Аполлон">Аполлонов</name> путь
 <l><space dim="horizontal" extent="8 letters">Грозили в мир запнуть.
 <l>На всё же, что тогда царевна представляла,
 <l>Без всякой жалости богиня отвечала,
-<l>Что    мир    без    <name     type="mythological"     reg="Психея"><name
+<l>Что    мир    без    <name     type="mythologic"     reg="Психея"><name
 type="character" reg="Душенька">Душеньки</name></name> стоял из века в век;
 <l>Что в обществе она не важный человек;
 <l>И паче, как хвостом комета всех пугает,
-<l>На   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>На   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> тогда взирать не подобает.
 <l>К     <name     type="mythologic"     reg="Диана">Диане</name>      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> явить не смела глаз;
 <l>Богиня та любви не ведала зараз:
 <l>Со свитой чистых дев, к свободе устремленных,
@@ -3447,13 +3447,13 @@ reg="Душенька">Душенька</name></name> явить не смела глаз;
 <l>Еще не видела она <name type="mythologic"
 reg="Эндимион">Эндимиона</name>,
 <l>И строгостью себе предписанна закона
-<l>Лишила б <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Лишила б <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> и милостей и прав.
 
 <lg1 type="group">
 <l>Куда идти? еще к <name type="mythologic" reg="Миневра">Миневре</name>
 иль к <name type="mythologic" reg="Церера">Церере</name>?
-<l>Поплакав, <name type="mythological"  reg="Психея"><name  type="character"
+<l>Поплакав, <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> пошла к самой <name  type="mythologic"
 reg="Венера">Венере</name>.
 <l>Проведала она, бродя по сторонам,
@@ -3469,7 +3469,7 @@ reg="Венера">Венере</name>.
 <l>Другие к милостям признание являть,
 <l>Другие ж их просить иль просто погулять.
 <l><space dim="horizontal" extent="6 letters">В таком стечении народа
-<l>Несчастна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Несчастна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, избрав тишайший час
 <l>И кроясь всячески от всех сторонних глаз,
 <l>Со трепетом рабы туда искала входа.
@@ -3484,7 +3484,7 @@ reg="Купидон">Купидона</name>
 <l><space dim="horizontal" extent="8 letters">Строжайшего закона,
 <l>Вдавалась в сладости различных лестных дум,
 <l>Какими упоён бывает страстный ум.
-<l>В    сих    мыслях    <name    type="mythological"     reg="Психея"><name
+<l>В    сих    мыслях    <name    type="mythologic"     reg="Психея"><name
 type="character"   reg="Душенька">Душенька</name></name>   приблизилась   ко
 храму
 <l>И там, задумавшись, едва не впала в яму,
@@ -3598,13 +3598,13 @@ reg="Венера">Венеру</name>.
 <l><space dim="horizontal" extent="8 letters">В летучем их строю
 <l><space dim="horizontal" extent="8 letters">И те при храме были,
 <l><space dim="horizontal" extent="8 letters">Которые в раю
-<l><space dim="horizontal" extent="8 letters">При <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">При <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душеньке</name></name>
 служили.
 <l>В сей час они опять над прежней госпожой
 <l><space dim="horizontal" extent="8 letters">В неведеньи летали,
 <l><space dim="horizontal" extent="8 letters">Резвились и журчали;
-<l>Но   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>Но   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> тогда под длинною фатой,
 <l><space dim="horizontal" extent="8 letters">Под длинным сарафаном,
 <l><space dim="horizontal" extent="8 letters">Для всех была обманом:
@@ -3631,7 +3631,7 @@ type="mythologic" reg="Венера">Венеру</name>
 <l><space dim="horizontal" extent="8 letters">В сей день по слуху ждал
 <l><space dim="horizontal" extent="8 letters">Из <name type="place"
 reg="Пафос">Пафоса</name> в <name type="place" reg="Цитера">Цитеру</name>.
-<l>Увидя ж  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Увидя ж  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name>, согласно весь народ
 <l><space dim="horizontal" extent="8 letters">Один другому в рот
 <l><space dim="horizontal" extent="8 letters">Шептал за новы вести:
@@ -3651,7 +3651,7 @@ type="mythologic">Венера</name> в сарафане!..
 <l>Пред Душенькою вдруг колена преклонил.
 <l>Жрецы, со множеством курящихся кадил,
 <l><space dim="horizontal" extent="8 letters">Воздев умильно длани,
-<l>Просили  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Просили  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> принять народны дани
 <l><space dim="horizontal" extent="8 letters">И с милостью воззреть
 <l><space dim="horizontal" extent="8 letters">На всяки нужды впредь.
@@ -3672,7 +3672,7 @@ reg="Душенька">Душеньку</name></name> принять народны дани
 <l><space dim="horizontal" extent="8 letters">В словах или чертах,
 <l><space dim="horizontal" extent="6 letters">Богинин гнев, народный страх
 <l><space dim="horizontal" extent="6 letters">И общее во храме диво,
-<l>И  боле  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И  боле  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name>, в невинном торжестве,
 <l><space dim="horizontal" extent="6 letters">При самом храма божестве.
 <l>Вотще в то время всех царевна уверяла,
@@ -3684,7 +3684,7 @@ reg="Душенька">Душеньку</name></name>, в невинном торжестве,
 <l><space dim="horizontal" extent="8 letters">Колико скрыть могла,
 <l>Оставила в сей день другие все дела
 <l><space dim="horizontal" extent="6 letters">И тот же час приказ дала
-<l>Представить      <name       type="mythological"       reg="Психея"><name
+<l>Представить      <name       type="mythologic"       reg="Психея"><name
 type="character"    reg="Душенька">Душеньку</name></name>    во    внутренню
 преграду.
 <l><q> Богиня всех красот! не сетуй на меня,</q> -
@@ -3704,7 +3704,7 @@ type="character"    reg="Душенька">Душеньку</name></name>    во    внутренню
 предприяла,
 <l><space dim="horizontal" extent="6 letters">Притом с насмешкой приказала
 <l><space dim="horizontal" extent="8 letters">В пути ее беречь.
-<l>Сажают  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Сажают  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> в особу колесницу,
 <l><space dim="horizontal" extent="8 letters">Запрягши в путь сорок
 станицу;
@@ -3728,13 +3728,13 @@ reg="Душенька">Душеньку</name></name> в особу колесницу,
 <l><space dim="horizontal" extent="8 letters">В счастливейших веках,
 <l><space dim="horizontal" extent="8 letters">Конечно, нет примера
 <l>Такому мщению, какое, всем во страх,
-<l>Противу  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Противу  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>             умыслила             <name
 type="mythologic">Венера</name>!
 <l>Умыслила свою умножить красоту,
-<l>А   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>А   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньку</name></name> привесть, сколь можно, в дурноту,
-<l>Чтоб    все    от    <name     type="mythological"     reg="Психея"><name
+<l>Чтоб    все    от    <name     type="mythologic"     reg="Психея"><name
 type="character"       reg="Душенька">Душеньки</name></name>       впоследок
 отвращались
 <l>И только бы тогда <name type="mythologic" reg="Венера">Венерою</name>
@@ -3774,7 +3774,7 @@ type="character"       reg="Душенька">Душеньки</name></name>       впоследок
 <l>И змею речь сказав, в гортань ему воткнуть.
 <l>Когда же пасть свою при пойле змей разинет
 <l>И голову с хвостом в то время разодвинет,
-<l>То   <name   type="mythological"   reg="Психея"><name    type="character"
+<l>То   <name   type="mythologic"   reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> найдет себе свободный путь
 <l>Живую ль мертвую ль водицу почерпнуть.
 <l><name type="mythologic">Зефир</name> лишь то сказал царевна путь
@@ -3805,33 +3805,33 @@ reg="Змей Горыныч">Горынич</name> пасть разинул
 <l>Открылись разных вод и реки и пруды
 <l><space dim="horizontal" extent="8 letters">И разны к ним следы.
 <l>Прислужливый <name type="mythologic">Зефир</name> пока сей час не минул,
-<l>Конечно  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Конечно  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> в дорогах не покинул;
 <l>Она, в свободе там попив живой воды,
 <l>Забыла все свои дорожные труды
 <l><space dim="horizontal" extent="8 letters">И вдруг здоровей стала.
 <l><space dim="horizontal" extent="8 letters">Писатели гласят,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> тогда с водой явясь назад,
 <l>В отменной красоте, как роза, процветала
 <l>И пред <name type="mythologic" reg="Венера">Венерою</name>, как солнце,
 возблистала,
 <l>И будто бы тогда богиня умышляла
-<l>Заставить <name type="mythological"  reg="Психея"><name  type="character"
+<l>Заставить <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> лихую воду пить;
 <l>Но, просто случаем, иль чудом, может быть,
 <l><space dim="horizontal" extent="6 letters">Кувшин с лихой водой
 разбился,
 <l><space dim="horizontal" extent="6 letters">И умысл в дело не годился.
 <l>Богиня видела из таковых чудес,
-<l>Что помощь <name type="mythological" reg="Психея"><name  type="character"
+<l>Что помощь <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> имеет от небес,
 <l>Или, точней сказать, от самого <name type="mythologic"
 reg="Амур">Амура</name>;
 <l><space dim="horizontal" extent="6 letters">Но, как известно было ей,
 <l><space dim="horizontal" extent="8 letters">Что пагубой людей
 <l><space dim="horizontal" extent="8 letters">Обилует натура,
-<l>Послала  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Послала  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> еще в другой поход,
 <l>В надежде, что скончает тем живот,
 <l>Или хоть будет жить, но будет без красот.
@@ -3868,7 +3868,7 @@ type="mythologic" reg="основная форма имени">Царь-Девица</name>.
 <l>Венера, ведая сих строгих мест законы,
 <l>По коим властвуют <name type="mythologic" reg="Кащей
 Бессмертный">Кащей</name> или драконы,
-<l>Послала  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Послала  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> не жить, а умирать,
 <l><space dim="horizontal" extent="8 letters">Чтоб яблок тех достать.
 <l>Но кто ей скажет путь и будет помогать?
@@ -3888,7 +3888,7 @@ reg="Душенька">Душеньку</name></name> не жить, а умирать,
 
 <lg1 type="group">
 <l>Не в долгом времени, не в день - в единый час,
-<l>Явилась  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Явилась  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> к <name  type="mythologic"  reg="Кащей
 Бессмертный">Кащею</name> взять приказ;
 <l><space dim="horizontal" extent="6 letters">Поклон, как должно,
@@ -3900,14 +3900,14 @@ reg="Душенька">Душенька</name></name> к <name  type="mythologic"  reg="Кащей
 type="mythologic" reg="Кащей Бессмертный">Кащей</name>,
 <l><space dim="horizontal" extent="8 letters">Она не сообщила.
 <l>Известны только нам последственны дела,
-<l>Что службу <name type="mythological" reg="Психея"><name  type="character"
+<l>Что службу <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> вторую сослужила;
 <l>Что в новой красоте пред прежним процвела
 <l>И горшие себе напасти навела.
 
 <lg1 type="group">
 <l>К успеху мщения пришло на ум богине
-<l>Отправить <name type="mythological"  reg="Психея"><name  type="character"
+<l>Отправить <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> с письмом ко  <name  type="mythologic"
 reg="Прозерпина">Прозерпине</name>,
 <l>Велев искать самой во ад себе пути,
@@ -3924,7 +3924,7 @@ reg="Прозерпина">Прозерпине</name>,
 <l>Покажет впоследи в избушке уголок,
 <l><space dim="horizontal" extent="6 letters">Оттоль покажет вниз ступени,
 <l><space dim="horizontal" extent="6 letters">По коим в ад нисходят тени;
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> тогда лишь ступит девять раз,
 <l>К <name type="mythologic" reg="основная форма имени">Плутону</name> в
 области окончит всю дорогу;
@@ -3954,7 +3954,7 @@ type="mythologic" reg="Венера">Венеры</name>;
 type="mythologicPlace" reg="Тартар">Тартаре</name> <name type="mythologic"
 reg="цербер">церберы</name>
 <l><space dim="horizontal" extent="6 letters">Распространили страшный лай.
-<l><space dim="horizontal" extent="6 letters">Но  <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Но  <name  type="mythologic"
 reg="Психея"><name  type="character"  reg="Душенька">Душенька</name></name>,
 в сею тревогу,
 <l><space dim="horizontal" extent="6 letters">Едва открыла только ногу,
@@ -4009,7 +4009,7 @@ type="mythologic">Зефир</name> сначала,
 <l><space dim="horizontal" extent="6 letters">Сей дым, за сильной густотою,
 <l><space dim="horizontal" extent="6 letters">Зефиры не могли отдуть;
 <l>И белое лицо и вскрыта бела грудь
-<l>У   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>У   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душеньки</name></name> тогда покрылось чернотою.
 <l>Она старалась пыль платком с себя стирать;
 <l>Но чем при трении трудилася сильнее,
@@ -4041,11 +4041,11 @@ reg="Душенька">Душеньки</name></name> тогда покрылось чернотою.
 <l><space dim="horizontal" extent="6 letters">Что боги, будто б ей за грех,
 <l>Арапску голову пришили к белу телу.
 <l><space dim="horizontal" extent="8 letters">Простой же весь народ,
-<l>Любуясь  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>Любуясь  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name> и видом и осанкой,
 <l>Дивился в ней еще собранию красот
 <l>И звал ее тогда прекрасной африканкой.
-<l><space dim="horizontal" extent="8 letters">Но  <name  type="mythological"
+<l><space dim="horizontal" extent="8 letters">Но  <name  type="mythologic"
 reg="Психея"><name  type="character"  reg="Душенька">Душенька</name></name>,
 сей вид
 <l><space dim="horizontal" extent="8 letters">Себе имея в стыд,
@@ -4056,7 +4056,7 @@ reg="Психея"><name  type="character"  reg="Душенька">Душенька</name></name>,
 type="mythologic" reg="Венера">Венере</name>
 <l><space dim="horizontal" extent="8 letters">Или к родным во двор?
 <l><space dim="horizontal" extent="8 letters">Но может ли их взор
-<l>За точну <name  type="mythological"  reg="Психея"><name  type="character"
+<l>За точну <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньку</name></name> признать ее по вере?
 <l>Осталось только ей сокрыть себя тогда
 <l><space dim="horizontal" extent="8 letters">В какой-нибудь пещере,
@@ -4075,10 +4075,10 @@ reg="Душенька">Душеньку</name></name> признать ее по вере?
 <l><space dim="horizontal" extent="6 letters">Угодно было так <name
 type="mythologic" reg="Венера">Венере</name>,
 <l><space      dim="horizontal"      extent="6      letters">Чтоб      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> была черна,
 <l><space      dim="horizontal"      extent="6      letters">Чтоб      <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> была дурна
 <l><space dim="horizontal" extent="6 letters">И крылась от людей в пещере.
 <l><space dim="horizontal" extent="6 letters"><name
@@ -4087,17 +4087,17 @@ reg="Цитера">Цитере</name>
 <l><space dim="horizontal" extent="6 letters">И, в небе был тогда без сил,
 <l><space dim="horizontal" extent="6 letters">Беде нарочно попустил,
 <l><space dim="horizontal" extent="6 letters">Чтоб тем обезоружить злобу,
-<l>Котора  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Котора  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> могла привесть ко гробу.
 <l><space dim="horizontal" extent="8 letters">Для редкости сих дел
 <l><space dim="horizontal" extent="8 letters">Повсюду мир шумел
-<l>О  роде  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>О  роде  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душеньки</name></name>, об участи, о летах,
 <l><space dim="horizontal" extent="8 letters">О всех ее приметах.
 <l><space dim="horizontal" extent="8 letters">Дошла впоследок весть,
 <l><space dim="horizontal" extent="8 letters">Чрез слух иль как ни есть,
 <l><space dim="horizontal" extent="8 letters">К сестрам ее коварным,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name> в раю с супругом лучезарным
 <l><space dim="horizontal" extent="8 letters">Недолго пожила;
 <l>Что изгнана оттоль за некаки дела
@@ -4106,7 +4106,7 @@ reg="Душенька">Душенька</name></name> в раю с супругом лучезарным
 <l><space dim="horizontal" extent="8 letters">И страшно почернела.
 <l>Они устроили на случай торжество
 <l><space dim="horizontal" extent="8 letters">И громко всем трубили,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> везде грехи ее губили
 <l>И что за то ее карает божество.
 
@@ -4117,7 +4117,7 @@ reg="Душенька">Душеньку</name></name> везде грехи ее губили
 <l><space dim="horizontal" extent="8 letters">Навлекши скорби ей
 <l>И все ее дела ругая беспрестранно,
 <l>Отнюдь не мыслили во мраке клеветы,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душенька</name></name>, лишась наружной красоты,
 <l>Могла <name type="mythologic" reg="Амур">Амуром</name> быть любима
 постоянно.
@@ -4151,7 +4151,7 @@ reg="Душенька">Душенька</name></name>, лишась наружной красоты,
 <l>Не прочили белил, ни мушек, ни румян,
 <l><space dim="horizontal" extent="8 letters">Опрыскались водами,
 <l><space dim="horizontal" extent="8 letters">Намазались духами,
-<l>Хулили  <name  type="mythological"  reg="Психея"><name   type="character"
+<l>Хулили  <name  type="mythologic"  reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name> за дерзость и обман,
 <l>Отправились к горе, а там, с крутой вершины,
 <l><space dim="horizontal" extent="6 letters">Спешили броситься в
@@ -4163,13 +4163,13 @@ reg="Душенька">Душеньку</name></name> за дерзость и обман,
 <l>Лишь только головы себе, летя, сломали.
 <l>Карая тако злость, меж тем прекрасный бог
 <l>Подробну ведомость имел со всех дорог,
-<l>От всех лесов и гор,  где  <name  type="mythological"  reg="Психея"><name
+<l>От всех лесов и гор,  где  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душенька</name></name> являлась,
 <l><space dim="horizontal" extent="8 letters">И, сведав, что она,
 <l><space dim="horizontal" extent="8 letters">От всех удалена,
 <l>В средине гор скрывалась,
 <l><space dim="horizontal" extent="6 letters">Донес богам о том сполна;
-<l>Донес, что <name type="mythological" reg="Психея"><name  type="character"
+<l>Донес, что <name type="mythologic" reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> была уже черна,
 <l><space dim="horizontal" extent="8 letters">Суха, худа, дурна;
 <l>И упросил тогда смягченную <name type="mythologic"
@@ -4177,16 +4177,16 @@ reg="Венера">Венеру</name>,
 <l>Чтоб было наконец дозволено ему
 <l><space dim="horizontal" extent="8 letters">Открыто самому
 <l><space    dim="horizontal"    extent="6    letters">Явиться    к    <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душеньке</name></name> в пещеру.
 <l>Но как представился тогда его очам
 <l><space dim="horizontal" extent="6 letters">Предмет любови постоянный?
-<l>Несчастна <name type="mythological"  reg="Психея"><name  type="character"
+<l>Несчастна <name type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name>, в печали несказанной,
 <l>Не ела, не пила, не зрела света там.
 <l><space dim="horizontal" extent="6 letters">Читатель должен знать
 сначала,
-<l><space dim="horizontal" extent="6 letters">Что <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">Что <name  type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 тогда лежала;
 <l><space dim="horizontal" extent="8 letters">Но боком иль ничком,
@@ -4202,13 +4202,13 @@ reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 <l><space dim="horizontal" extent="8 letters">Когда б любовный бог
 <l>О точности вещей иметь сомненье мог.
 <l>Зефиры видели и свету возвестили,
-<l>Что   <name   type="mythological"   reg="Психея"><name   type="character"
+<l>Что   <name   type="mythologic"   reg="Психея"><name   type="character"
 reg="Душенька">Душеньку</name></name>  <name   type="mythologic">Амур</name>
 издалека узнал
 <l>И руку у нее, подшедши, целовал;
 <l>Но скоро их из глаз обоих упустили.
 <l><space    dim="horizontal"    extent="6    letters">Проснувшись     <name
-type="mythological"           reg="Психея"><name            type="character"
+type="mythologic"           reg="Психея"><name            type="character"
 reg="Душенька">Душенька</name></name> тогда,
 <l>Взглянула, ахнула, закрылась от стыда,
 <l><space dim="horizontal" extent="6 letters">Уйти в пещеру торопилась,
@@ -4234,7 +4234,7 @@ type="mythologic">Амур</name> потом, при всей свободе,
 <l>Слова сии <name type="mythologic">Амур</name> твердя повсюду сам,
 <l>Представил грамоту <name type="mythologic" reg="Венера">Венере</name> и
 богам,
-<l>А  вместе  с  грамотой  и  <name  type="mythological"  reg="Психея"><name
+<l>А  вместе  с  грамотой  и  <name  type="mythologic"  reg="Психея"><name
 type="character" reg="Душенька">Душеньку</name></name> представил,
 <l>Котору в черноте дурною он не ставил.
 <l><space dim="horizontal" extent="8 letters"><name
@@ -4244,7 +4244,7 @@ type="mythologic">Юпитер</name>, покачав,
 reg="Амур">Амуру</name> дал устав,
 <l><space dim="horizontal" extent="8 letters">По силе старых прав,
 <l>Чтоб век пленялся он душевной красотою
-<l>И   <name   type="mythological"    reg="Психея"><name    type="character"
+<l>И   <name   type="mythologic"    reg="Психея"><name    type="character"
 reg="Душенька">Душенька</name></name> была б всегда его четою.
 <l><space dim="horizontal" extent="6 letters">Сама богиня красоты,
 <l>Из жалости тогда иль некакой тщеты,
@@ -4254,10 +4254,10 @@ reg="Душенька">Душенька</name></name> была б всегда его четою.
 <l>Терпением своим очистясь от греха,
 <l>Наружну красоту обратно получила, -
 <l>Небесною она росой ее умыла,
-<l>И стала  <name  type="mythological"  reg="Психея"><name  type="character"
+<l>И стала  <name  type="mythologic"  reg="Психея"><name  type="character"
 reg="Душенька">Душенька</name></name> полна, цветна, бела,
 <l><space dim="horizontal" extent="8 letters">Как преж сего была.
-<l><name   type="mythologic">Амур</name>   и    <name    type="mythological"
+<l><name   type="mythologic">Амур</name>   и    <name    type="mythologic"
 reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 друг другу равны стали,
 <l>И боги все тогда их вечно сочетали.
@@ -4272,7 +4272,7 @@ reg="Психея"><name  type="character"   reg="Душенька">Душенька</name></name>
 <l>Не пременяется названием натура:
 <l>Читатель знает то, и знает весь народ,
 <l><space dim="horizontal" extent="6 letters">Каков родиться должен плод
-<l><space dim="horizontal" extent="6 letters">От  <name  type="mythological"
+<l><space dim="horizontal" extent="6 letters">От  <name  type="mythologic"
 reg="Психея"><name type="character" reg="Душенька">Душеньки</name></name>  и
 от <name type="mythologic" reg="Амур">Амура</name>.
 </BODY>

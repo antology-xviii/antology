@@ -79,8 +79,7 @@ encoding declarations//RU" "encoding.tei">
         <date>1782</date>
       </creation>
       <textClass>
-        <catRef scheme="kind" target="prose">
-        <catRef scheme="genre" target="letters">
+        <catRef scheme="kind" target="letters">
       </textClass>
     </profileDesc>
   </teiHeader>

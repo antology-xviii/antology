@@ -86,8 +86,14 @@ makelistfield rhyme "`makesql 'distinct characteristic' text_metric 'sys_id = $$
 makecomplexlistfield place "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) like $$%place$$' 'nc.description, nc.name_class, tn.proper_name, nc.abbreviated'`" "Географические названия"
 makecomplexlistfield name "`makesql 'distinct nc.name_class, tn.proper_name, tn.proper_name, nc.abbreviated, nc.description' 'text_names as tn, name_classes as nc' 'nc.name_class = tn.name_class and lower(nc.name_class) not like $$%place$$' 'nc.description, nc.name_class, tn.proper_name, nc.abbreviated'`" "Имена собственные" 
 makelistfield addressee "`makesql 'distinct annotation' text_annotations 'kind = $$addressee$$'`" Адресат
+makelistfield cited "`makesql 'distinct "-"' text_names 'true'`" "Упоминаемые произведения"
+maketextfield textdate "Дата в тексте"
+maketextfield words "Слова в тексте"
 
-echo "<tr><td><input type=\"submit\" value=\"Поиск\"><td><input type=\"reset\" value=\"Очистить\">"
+echo "<tr><td colspan=2><input type=\"submit\" name=\"dosearch\" value=\"Поиск\">"
+echo "<tr><td colspan=2><input type=\"submit\" name=\"dograph\" value=\"Граф связей\">"
+echo "<tr><td colspan=2><input type=\"submit\" name=\"dostat\" value=\"Статистика\">"
+echo "<tr><td colspan=2><input type=\"reset\" value=\"Очистить\">"
 echo "</table>"
 echo "</form>"
 echo "<!-- +foot -->"
