@@ -23,43 +23,43 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Журавли</title>
+<title>п√я┐я─п╟п╡п╩п╦</title>
         <author>
           <persName>
-            <forename>Александр</forename>
-            <forename type='patronym'>Николаевич</forename>
-            <surname>Радищев</surname>
+            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
+            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
+            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
           </persName>
         </author>
-        <principal>Александр Новиков</principal>
+        <principal>п░п╩п╣п╨я│п╟п╫п╢я─ п²п╬п╡п╦п╨п╬п╡</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
-            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А/</editor>
+            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
+            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░/</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Издательство Академии наук СССР</publisher>
-<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная библиотека</XREF></DISTRIBUTOR>
-            <pubPlace>М.-Л.</pubPlace>
+            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п╫п╟я┐п╨ п║п║п║п═</publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐ п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
+            <pubPlace>п°.-п⌡.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Журавли</title>
+                <title>п√я┐я─п╟п╡п╩п╦</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Собрание оставшихся сочинений покойного Александра Николаевича Радищева. Т. 1.</publisher>
+                <publisher>п║п╬п╠я─п╟п╫п╦п╣ п╬я│я┌п╟п╡я┬п╦я┘я│я▐ я│п╬я┤п╦п╫п╣п╫п╦п╧ п©п╬п╨п╬п╧п╫п╬пЁп╬ п░п╩п╣п╨я│п╟п╫п╢я─п╟ п²п╦п╨п╬п╩п╟п╣п╡п╦я┤п╟ п═п╟п╢п╦я┴п╣п╡п╟. п╒. 1.</publisher>
                 <date>1807</date>
               </publicationStmt>
             </biblFull>
@@ -78,51 +78,51 @@
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='страдание'>
-<span from='whole' type='theme' value='посмертное воздаяние'>
-<span from='whole' type='theme' value='надежда'>
-<body id='whole'><div0 met='ПК (Д4 + ЯВ)' rhyme="Астрофич. б. с. + Астрофич. в. р.">
+<span from='whole' type='theme' value='я│я┌я─п╟п╢п╟п╫п╦п╣'>
+<span from='whole' type='theme' value='п©п╬я│п╪п╣я─я┌п╫п╬п╣ п╡п╬п╥п╢п╟я▐п╫п╦п╣'>
+<span from='whole' type='theme' value='п╫п╟п╢п╣п╤п╢п╟'>
+<body id='whole'><div0 met='п÷п  (п■4 + п╞п▓)' rhyme="п░я│я┌я─п╬я└п╦я┤. п╠. я│. + п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
 <LG1 TYPE="group">
-<l><space dim="horizontal" extent="11 letters">Осень листы ощипала с дерев, 
-<l><space dim="horizontal" extent="7 letters">Иней седой на траву упадал, 
-<l><space dim="horizontal" extent="7 letters">Стадо тогда журавлей собралося, 
-<l><space dim="horizontal" extent="7 letters">Чтоб прелететь в теплу, дальну страну, 
-<l><space dim="horizontal" extent="7 letters">За море жить. Один бедной журавль, 
-<l><space dim="horizontal" extent="7 letters">Нем и уныл, пригорюнясь сидел: 
-<l><space dim="horizontal" extent="7 letters">Ногу стрелой перешиб ему ловчей. 
-<l><space dim="horizontal" extent="7 letters">Радостной крик журавлей он не множит; 
-<l><space dim="horizontal" extent="7 letters">Бодрые братья смеялись над ним. 
-<l><space dim="horizontal" extent="7 letters">Я не виновен, что я охромел, 
-<l><space dim="horizontal" extent="7 letters">Нашему царству как вы помогал. 
-<l><space dim="horizontal" extent="7 letters">Вам надо мной хохотать бы не должно, 
-<l><space dim="horizontal" extent="7 letters">Ни презирать, видя бедство мое. 
-<l><space dim="horizontal" extent="7 letters">Как мне лететь? Отымает возможность, 
-<l><space dim="horizontal" extent="7 letters">Мужество, силу претяжка болезнь. 
-<l><space dim="horizontal" extent="7 letters">Волны несчастному будут мне гробом. 
-<l><space dim="horizontal" extent="7 letters">Ах, для чего не пресек моей жизни 
-<l><space dim="horizontal" extent="7 letters">Ярый ловец! - Между тем веет ветр, 
-<l><space dim="horizontal" extent="7 letters">Стадо взвилося и скорым полетом 
-<l><space dim="horizontal" extent="7 letters">За море вмиг прелететь поспешает. 
-<l><space dim="horizontal" extent="7 letters">Бедной больной назади остается; 
-<l><space dim="horizontal" extent="7 letters">Часто на листьях, пловущих в водах, 
-<l><space dim="horizontal" extent="7 letters">Он отдыхает, горюет и стонет; 
-<l><space dim="horizontal" extent="7 letters">Грусть и болезнь в нем все сердце снедают. 
-<l><space dim="horizontal" extent="7 letters">Мешкав он много, летя помаленьку, 
-<l><space dim="horizontal" extent="7 letters">Землю узрел, вожделенну душею, 
-<l><space dim="horizontal" extent="7 letters">Ясное небо и тихую пристань. 
-<l><space dim="horizontal" extent="7 letters">Тут всемогущий болезнь излечил, 
-<l><space dim="horizontal" extent="7 letters">Дал жить в блаженстве в награду трудов; 
-<l><space dim="horizontal" extent="7 letters">Многи ж насмешники в воду упали. 
+<l><space dim="horizontal" extent="11 letters">п·я│п╣п╫я▄ п╩п╦я│я┌я▀ п╬я┴п╦п©п╟п╩п╟ я│ п╢п╣я─п╣п╡, 
+<l><space dim="horizontal" extent="7 letters">п≤п╫п╣п╧ я│п╣п╢п╬п╧ п╫п╟ я┌я─п╟п╡я┐ я┐п©п╟п╢п╟п╩, 
+<l><space dim="horizontal" extent="7 letters">п║я┌п╟п╢п╬ я┌п╬пЁп╢п╟ п╤я┐я─п╟п╡п╩п╣п╧ я│п╬п╠я─п╟п╩п╬я│я▐, 
+<l><space dim="horizontal" extent="7 letters">п╖я┌п╬п╠ п©я─п╣п╩п╣я┌п╣я┌я▄ п╡ я┌п╣п©п╩я┐, п╢п╟п╩я▄п╫я┐ я│я┌я─п╟п╫я┐, 
+<l><space dim="horizontal" extent="7 letters">п≈п╟ п╪п╬я─п╣ п╤п╦я┌я▄. п·п╢п╦п╫ п╠п╣п╢п╫п╬п╧ п╤я┐я─п╟п╡п╩я▄, 
+<l><space dim="horizontal" extent="7 letters">п²п╣п╪ п╦ я┐п╫я▀п╩, п©я─п╦пЁп╬я─я▌п╫я▐я│я▄ я│п╦п╢п╣п╩: 
+<l><space dim="horizontal" extent="7 letters">п²п╬пЁя┐ я│я┌я─п╣п╩п╬п╧ п©п╣я─п╣я┬п╦п╠ п╣п╪я┐ п╩п╬п╡я┤п╣п╧. 
+<l><space dim="horizontal" extent="7 letters">п═п╟п╢п╬я│я┌п╫п╬п╧ п╨я─п╦п╨ п╤я┐я─п╟п╡п╩п╣п╧ п╬п╫ п╫п╣ п╪п╫п╬п╤п╦я┌; 
+<l><space dim="horizontal" extent="7 letters">п▒п╬п╢я─я▀п╣ п╠я─п╟я┌я▄я▐ я│п╪п╣я▐п╩п╦я│я▄ п╫п╟п╢ п╫п╦п╪. 
+<l><space dim="horizontal" extent="7 letters">п╞ п╫п╣ п╡п╦п╫п╬п╡п╣п╫, я┤я┌п╬ я▐ п╬я┘я─п╬п╪п╣п╩, 
+<l><space dim="horizontal" extent="7 letters">п²п╟я┬п╣п╪я┐ я├п╟я─я│я┌п╡я┐ п╨п╟п╨ п╡я▀ п©п╬п╪п╬пЁп╟п╩. 
+<l><space dim="horizontal" extent="7 letters">п▓п╟п╪ п╫п╟п╢п╬ п╪п╫п╬п╧ я┘п╬я┘п╬я┌п╟я┌я▄ п╠я▀ п╫п╣ п╢п╬п╩п╤п╫п╬, 
+<l><space dim="horizontal" extent="7 letters">п²п╦ п©я─п╣п╥п╦я─п╟я┌я▄, п╡п╦п╢я▐ п╠п╣п╢я│я┌п╡п╬ п╪п╬п╣. 
+<l><space dim="horizontal" extent="7 letters">п п╟п╨ п╪п╫п╣ п╩п╣я┌п╣я┌я▄? п·я┌я▀п╪п╟п╣я┌ п╡п╬п╥п╪п╬п╤п╫п╬я│я┌я▄, 
+<l><space dim="horizontal" extent="7 letters">п°я┐п╤п╣я│я┌п╡п╬, я│п╦п╩я┐ п©я─п╣я┌я▐п╤п╨п╟ п╠п╬п╩п╣п╥п╫я▄. 
+<l><space dim="horizontal" extent="7 letters">п▓п╬п╩п╫я▀ п╫п╣я│я┤п╟я│я┌п╫п╬п╪я┐ п╠я┐п╢я┐я┌ п╪п╫п╣ пЁя─п╬п╠п╬п╪. 
+<l><space dim="horizontal" extent="7 letters">п░я┘, п╢п╩я▐ я┤п╣пЁп╬ п╫п╣ п©я─п╣я│п╣п╨ п╪п╬п╣п╧ п╤п╦п╥п╫п╦ 
+<l><space dim="horizontal" extent="7 letters">п╞я─я▀п╧ п╩п╬п╡п╣я├! - п°п╣п╤п╢я┐ я┌п╣п╪ п╡п╣п╣я┌ п╡п╣я┌я─, 
+<l><space dim="horizontal" extent="7 letters">п║я┌п╟п╢п╬ п╡п╥п╡п╦п╩п╬я│я▐ п╦ я│п╨п╬я─я▀п╪ п©п╬п╩п╣я┌п╬п╪ 
+<l><space dim="horizontal" extent="7 letters">п≈п╟ п╪п╬я─п╣ п╡п╪п╦пЁ п©я─п╣п╩п╣я┌п╣я┌я▄ п©п╬я│п©п╣я┬п╟п╣я┌. 
+<l><space dim="horizontal" extent="7 letters">п▒п╣п╢п╫п╬п╧ п╠п╬п╩я▄п╫п╬п╧ п╫п╟п╥п╟п╢п╦ п╬я│я┌п╟п╣я┌я│я▐; 
+<l><space dim="horizontal" extent="7 letters">п╖п╟я│я┌п╬ п╫п╟ п╩п╦я│я┌я▄я▐я┘, п©п╩п╬п╡я┐я┴п╦я┘ п╡ п╡п╬п╢п╟я┘, 
+<l><space dim="horizontal" extent="7 letters">п·п╫ п╬я┌п╢я▀я┘п╟п╣я┌, пЁп╬я─я▌п╣я┌ п╦ я│я┌п╬п╫п╣я┌; 
+<l><space dim="horizontal" extent="7 letters">п⌠я─я┐я│я┌я▄ п╦ п╠п╬п╩п╣п╥п╫я▄ п╡ п╫п╣п╪ п╡я│п╣ я│п╣я─п╢я├п╣ я│п╫п╣п╢п╟я▌я┌. 
+<l><space dim="horizontal" extent="7 letters">п°п╣я┬п╨п╟п╡ п╬п╫ п╪п╫п╬пЁп╬, п╩п╣я┌я▐ п©п╬п╪п╟п╩п╣п╫я▄п╨я┐, 
+<l><space dim="horizontal" extent="7 letters">п≈п╣п╪п╩я▌ я┐п╥я─п╣п╩, п╡п╬п╤п╢п╣п╩п╣п╫п╫я┐ п╢я┐я┬п╣я▌, 
+<l><space dim="horizontal" extent="7 letters">п╞я│п╫п╬п╣ п╫п╣п╠п╬ п╦ я┌п╦я┘я┐я▌ п©я─п╦я│я┌п╟п╫я▄. 
+<l><space dim="horizontal" extent="7 letters">п╒я┐я┌ п╡я│п╣п╪п╬пЁя┐я┴п╦п╧ п╠п╬п╩п╣п╥п╫я▄ п╦п╥п╩п╣я┤п╦п╩, 
+<l><space dim="horizontal" extent="7 letters">п■п╟п╩ п╤п╦я┌я▄ п╡ п╠п╩п╟п╤п╣п╫я│я┌п╡п╣ п╡ п╫п╟пЁя─п╟п╢я┐ я┌я─я┐п╢п╬п╡; 
+<l><space dim="horizontal" extent="7 letters">п°п╫п╬пЁп╦ п╤ п╫п╟я│п╪п╣я┬п╫п╦п╨п╦ п╡ п╡п╬п╢я┐ я┐п©п╟п╩п╦. 
 <LG1 TYPE="group">
-<l><space dim="horizontal" extent="4 letters">О вы, стенящие под тяжкою рукою
-<l><space dim="horizontal" extent="7 letters">Злосчастия и бед!
-<l><space dim="horizontal" extent="7 letters">Исполнены тоскою,
-<l><space dim="horizontal" extent="7 letters">Клянете жизнь, и свет;
-<l>Любители добра, ужель надежды нет?
-<l>Мужайтесь, бодрствуйте и смело протекайте
-<l>Сей краткой жизни путь. На он пол поспешайте:
-<l>Там лучшая страна, там мир во век живет,
-<l>Там юность вечная, блаженство там вас ждет.
+<l><space dim="horizontal" extent="4 letters">п· п╡я▀, я│я┌п╣п╫я▐я┴п╦п╣ п©п╬п╢ я┌я▐п╤п╨п╬я▌ я─я┐п╨п╬я▌
+<l><space dim="horizontal" extent="7 letters">п≈п╩п╬я│я┤п╟я│я┌п╦я▐ п╦ п╠п╣п╢!
+<l><space dim="horizontal" extent="7 letters">п≤я│п©п╬п╩п╫п╣п╫я▀ я┌п╬я│п╨п╬я▌,
+<l><space dim="horizontal" extent="7 letters">п п╩я▐п╫п╣я┌п╣ п╤п╦п╥п╫я▄, п╦ я│п╡п╣я┌;
+<l>п⌡я▌п╠п╦я┌п╣п╩п╦ п╢п╬п╠я─п╟, я┐п╤п╣п╩я▄ п╫п╟п╢п╣п╤п╢я▀ п╫п╣я┌?
+<l>п°я┐п╤п╟п╧я┌п╣я│я▄, п╠п╬п╢я─я│я┌п╡я┐п╧я┌п╣ п╦ я│п╪п╣п╩п╬ п©я─п╬я┌п╣п╨п╟п╧я┌п╣
+<l>п║п╣п╧ п╨я─п╟я┌п╨п╬п╧ п╤п╦п╥п╫п╦ п©я┐я┌я▄. п²п╟ п╬п╫ п©п╬п╩ п©п╬я│п©п╣я┬п╟п╧я┌п╣:
+<l>п╒п╟п╪ п╩я┐я┤я┬п╟я▐ я│я┌я─п╟п╫п╟, я┌п╟п╪ п╪п╦я─ п╡п╬ п╡п╣п╨ п╤п╦п╡п╣я┌,
+<l>п╒п╟п╪ я▌п╫п╬я│я┌я▄ п╡п╣я┤п╫п╟я▐, п╠п╩п╟п╤п╣п╫я│я┌п╡п╬ я┌п╟п╪ п╡п╟я│ п╤п╢п╣я┌.
 </body>
   </text>
 </tei.2>

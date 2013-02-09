@@ -28,43 +28,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>Песня</title>
+<title>п÷п╣я│п╫я▐</title>
         <author>
           <persName>
-            <forename>Александр</forename>
-            <forename type='patronym'>Николаевич</forename>
-            <surname>Радищев</surname>
+            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
+            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
+            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
           </persName>
         </author>
-        <principal>Елена Исаченко</principal>
+        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 ИФИ</availability>
+        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>Электронная антология &quot;Русская литература XVIII
-века&quot;</title>
+        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
+п╡п╣п╨п╟&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
-            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
+            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
+            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>Издательство Академии Наук СССР</publisher>
-            <pubPlace>М.; Л.</pubPlace>
+            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨ п║п║п║п═</publisher>
+            <pubPlace>п°.; п⌡.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>Песня</title>
+                <title>п÷п╣я│п╫я▐</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>Собрание оставшихся сочинений покойного
-Александра Николаевича Радищева. Т. 1.</publisher>
+                <publisher>п║п╬п╠я─п╟п╫п╦п╣ п╬я│я┌п╟п╡я┬п╦я┘я│я▐ я│п╬я┤п╦п╫п╣п╫п╦п╧ п©п╬п╨п╬п╧п╫п╬пЁп╬
+п░п╩п╣п╨я│п╟п╫п╢я─п╟ п²п╦п╨п╬п╩п╟п╣п╡п╦я┤п╟ п═п╟п╢п╦я┴п╣п╡п╟. п╒. 1.</publisher>
                 <date>1807</date>
               </publicationStmt>
             </biblFull>
@@ -75,7 +75,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>Первая половина 1770-х годов (?)</date>
+        <date>п÷п╣я─п╡п╟я▐ п©п╬п╩п╬п╡п╦п╫п╟ 1770-я┘ пЁп╬п╢п╬п╡ (?)</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -83,87 +83,87 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='любовь'>
-<body id='whole'><div0 met='ЯРз 33133312' rhyme="аBааBBаа">
+<span from='whole' type='theme' value='п╩я▌п╠п╬п╡я▄'>
+<body id='whole'><div0 met='п╞п═п╥ 33133312' rhyme="п╟Bп╟п╟BBп╟п╟">
 <lg1 type="stanza" n="***">
-<l>Ужасный в сердце ад,
-<l>Любовь меня терзает;
-<l><space dim="horizontal" extent="4 letters">Твой взгляд
-<l>Для сердца лютой яд,
-<l>Веселье исчезает,
-<l>Надежда погасает,
-<l><space dim="horizontal" extent="4 letters">Твой взгляд,
-<l>Ах, лютой яд.
+<l>пёп╤п╟я│п╫я▀п╧ п╡ я│п╣я─п╢я├п╣ п╟п╢,
+<l>п⌡я▌п╠п╬п╡я▄ п╪п╣п╫я▐ я┌п╣я─п╥п╟п╣я┌;
+<l><space dim="horizontal" extent="4 letters">п╒п╡п╬п╧ п╡п╥пЁп╩я▐п╢
+<l>п■п╩я▐ я│п╣я─п╢я├п╟ п╩я▌я┌п╬п╧ я▐п╢,
+<l>п▓п╣я│п╣п╩я▄п╣ п╦я│я┤п╣п╥п╟п╣я┌,
+<l>п²п╟п╢п╣п╤п╢п╟ п©п╬пЁп╟я│п╟п╣я┌,
+<l><space dim="horizontal" extent="4 letters">п╒п╡п╬п╧ п╡п╥пЁп╩я▐п╢,
+<l>п░я┘, п╩я▌я┌п╬п╧ я▐п╢.
 
 <lg1 type="stanza" n="***">
-<l>Несчастной, позабудь...
-<l>Ах, если только можно,
-<l><space dim="horizontal" extent="4 letters">Забудь.
-<l>Что ты когда-нибудь
-<l>Любил ее неложно;
-<l>И сердцу коль возможно
-<l><space dim="horizontal" extent="4 letters">Забудь,
-<l>Когда-нибудь.
+<l>п²п╣я│я┤п╟я│я┌п╫п╬п╧, п©п╬п╥п╟п╠я┐п╢я▄...
+<l>п░я┘, п╣я│п╩п╦ я┌п╬п╩я▄п╨п╬ п╪п╬п╤п╫п╬,
+<l><space dim="horizontal" extent="4 letters">п≈п╟п╠я┐п╢я▄.
+<l>п╖я┌п╬ я┌я▀ п╨п╬пЁп╢п╟-п╫п╦п╠я┐п╢я▄
+<l>п⌡я▌п╠п╦п╩ п╣п╣ п╫п╣п╩п╬п╤п╫п╬;
+<l>п≤ я│п╣я─п╢я├я┐ п╨п╬п╩я▄ п╡п╬п╥п╪п╬п╤п╫п╬
+<l><space dim="horizontal" extent="4 letters">п≈п╟п╠я┐п╢я▄,
+<l>п п╬пЁп╢п╟-п╫п╦п╠я┐п╢я▄.
 
 <lg1 type="stanza" n="***">
-<l>Нет, я ее люблю,
-<l>Любить вовеки буду:
-<l><space dim="horizontal" extent="4 letters">Люблю,
-<l>Терзанья все стерплю
-<l>[Ее не позабуду],
-<l>И верен ей пребуду;
-<l><space dim="horizontal" extent="4 letters">Терплю,
-<l>А все люблю.
+<l>п²п╣я┌, я▐ п╣п╣ п╩я▌п╠п╩я▌,
+<l>п⌡я▌п╠п╦я┌я▄ п╡п╬п╡п╣п╨п╦ п╠я┐п╢я┐:
+<l><space dim="horizontal" extent="4 letters">п⌡я▌п╠п╩я▌,
+<l>п╒п╣я─п╥п╟п╫я▄я▐ п╡я│п╣ я│я┌п╣я─п©п╩я▌
+<l>[п∙п╣ п╫п╣ п©п╬п╥п╟п╠я┐п╢я┐],
+<l>п≤ п╡п╣я─п╣п╫ п╣п╧ п©я─п╣п╠я┐п╢я┐;
+<l><space dim="horizontal" extent="4 letters">п╒п╣я─п©п╩я▌,
+<l>п░ п╡я│п╣ п╩я▌п╠п╩я▌.
 
 <lg1 type="stanza" n="***">
-<l>Ах, может быть, пройдет
-<l>Терзанье и мученье;
-<l><space dim="horizontal" extent="4 letters">Пройдет,
-<l>Когда любви предмет,
-<l>Узнав мое терпенье,
-<l>Скончав мое мученье,
-<l><space dim="horizontal" extent="4 letters">Придет,
-<l>Любви предмет.
+<l>п░я┘, п╪п╬п╤п╣я┌ п╠я▀я┌я▄, п©я─п╬п╧п╢п╣я┌
+<l>п╒п╣я─п╥п╟п╫я▄п╣ п╦ п╪я┐я┤п╣п╫я▄п╣;
+<l><space dim="horizontal" extent="4 letters">п÷я─п╬п╧п╢п╣я┌,
+<l>п п╬пЁп╢п╟ п╩я▌п╠п╡п╦ п©я─п╣п╢п╪п╣я┌,
+<l>пёп╥п╫п╟п╡ п╪п╬п╣ я┌п╣я─п©п╣п╫я▄п╣,
+<l>п║п╨п╬п╫я┤п╟п╡ п╪п╬п╣ п╪я┐я┤п╣п╫я▄п╣,
+<l><space dim="horizontal" extent="4 letters">п÷я─п╦п╢п╣я┌,
+<l>п⌡я▌п╠п╡п╦ п©я─п╣п╢п╪п╣я┌.
 
 <lg1 type="stanza" n="***">
-<l>Любви моей венец
-<l>Хоть будет лишь презренье,
-<l><space dim="horizontal" extent="4 letters">Венец
-<l>Сей жизни будь конец;
-<l>Скончаю я терпенье,
-<l>Прерву мое мученье;
-<l><space dim="horizontal" extent="4 letters">Конец
-<l>Мой будь венец.
+<l>п⌡я▌п╠п╡п╦ п╪п╬п╣п╧ п╡п╣п╫п╣я├
+<l>п╔п╬я┌я▄ п╠я┐п╢п╣я┌ п╩п╦я┬я▄ п©я─п╣п╥я─п╣п╫я▄п╣,
+<l><space dim="horizontal" extent="4 letters">п▓п╣п╫п╣я├
+<l>п║п╣п╧ п╤п╦п╥п╫п╦ п╠я┐п╢я▄ п╨п╬п╫п╣я├;
+<l>п║п╨п╬п╫я┤п╟я▌ я▐ я┌п╣я─п©п╣п╫я▄п╣,
+<l>п÷я─п╣я─п╡я┐ п╪п╬п╣ п╪я┐я┤п╣п╫я▄п╣;
+<l><space dim="horizontal" extent="4 letters">п п╬п╫п╣я├
+<l>п°п╬п╧ п╠я┐п╢я▄ п╡п╣п╫п╣я├.
 
 <lg1 type="stanza" n="***">
-<l>Ах, как я счастлив был,
-<l>Как счастлив я казался;
-<l><space dim="horizontal" extent="4 letters">Я мнил,
-<l>В твоей душе я жил,
-<l>Любовью наслаждался,
-<l>Я ею величался,
-<l><space dim="horizontal" extent="4 letters">И мнил,
-<l>Что счастлив был.
+<l>п░я┘, п╨п╟п╨ я▐ я│я┤п╟я│я┌п╩п╦п╡ п╠я▀п╩,
+<l>п п╟п╨ я│я┤п╟я│я┌п╩п╦п╡ я▐ п╨п╟п╥п╟п╩я│я▐;
+<l><space dim="horizontal" extent="4 letters">п╞ п╪п╫п╦п╩,
+<l>п▓ я┌п╡п╬п╣п╧ п╢я┐я┬п╣ я▐ п╤п╦п╩,
+<l>п⌡я▌п╠п╬п╡я▄я▌ п╫п╟я│п╩п╟п╤п╢п╟п╩я│я▐,
+<l>п╞ п╣я▌ п╡п╣п╩п╦я┤п╟п╩я│я▐,
+<l><space dim="horizontal" extent="4 letters">п≤ п╪п╫п╦п╩,
+<l>п╖я┌п╬ я│я┤п╟я│я┌п╩п╦п╡ п╠я▀п╩.
 
 <lg1 type="stanza" n="***">
-<l>Все было как во сне,
-<l>Мечта уж миновалась,
-<l><space dim="horizontal" extent="4 letters">Ты мне,
-<l>То вижу не во сне,
-<l>Жестокая, смеялась,
-<l>В любови притворялась
-<l><space dim="horizontal" extent="4 letters">Ко мне,
-<l>Как бы во сне.
+<l>п▓я│п╣ п╠я▀п╩п╬ п╨п╟п╨ п╡п╬ я│п╫п╣,
+<l>п°п╣я┤я┌п╟ я┐п╤ п╪п╦п╫п╬п╡п╟п╩п╟я│я▄,
+<l><space dim="horizontal" extent="4 letters">п╒я▀ п╪п╫п╣,
+<l>п╒п╬ п╡п╦п╤я┐ п╫п╣ п╡п╬ я│п╫п╣,
+<l>п√п╣я│я┌п╬п╨п╟я▐, я│п╪п╣я▐п╩п╟я│я▄,
+<l>п▓ п╩я▌п╠п╬п╡п╦ п©я─п╦я┌п╡п╬я─я▐п╩п╟я│я▄
+<l><space dim="horizontal" extent="4 letters">п п╬ п╪п╫п╣,
+<l>п п╟п╨ п╠я▀ п╡п╬ я│п╫п╣.
 
 <lg1 type="stanza" n="***">
-<l>Моей кончиной злой
-<l>Не будешь веселиться,
-<l><space dim="horizontal" extent="4 letters">Рукой
-<l>Моей, перед тобой,
-<l>Меч остр во грудь вонзится,
-<l>Моей кровь претворится
-<l><space dim="horizontal" extent="4 letters">Рукой
-<l>Тебе в яд злой.
+<l>п°п╬п╣п╧ п╨п╬п╫я┤п╦п╫п╬п╧ п╥п╩п╬п╧
+<l>п²п╣ п╠я┐п╢п╣я┬я▄ п╡п╣я│п╣п╩п╦я┌я▄я│я▐,
+<l><space dim="horizontal" extent="4 letters">п═я┐п╨п╬п╧
+<l>п°п╬п╣п╧, п©п╣я─п╣п╢ я┌п╬п╠п╬п╧,
+<l>п°п╣я┤ п╬я│я┌я─ п╡п╬ пЁя─я┐п╢я▄ п╡п╬п╫п╥п╦я┌я│я▐,
+<l>п°п╬п╣п╧ п╨я─п╬п╡я▄ п©я─п╣я┌п╡п╬я─п╦я┌я│я▐
+<l><space dim="horizontal" extent="4 letters">п═я┐п╨п╬п╧
+<l>п╒п╣п╠п╣ п╡ я▐п╢ п╥п╩п╬п╧.
 </body>
   </text>
 </tei.2>
