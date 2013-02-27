@@ -3,6 +3,13 @@
 declare -A temp_nodes
 declare -A variables
 
+nsRDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+nsRDFS="http://www.w3.org/2000/01/rdf-schema#"
+nsOWL="http://www.w3.org/2002/07/owl#"
+nsDCTERMS="http://purl.org/dc/terms/"
+nsDCTYPE="http://purl.org/dc/dcmitype/"
+nsDCAM="http://purl.org/dc/dcam/"
+
 generate_blank()
 {
     mkdir -p $RDFSTORE/blanks/$$
@@ -139,6 +146,11 @@ while test "${1#-}" != "$1"; do
         --entail\=rdfs)
             ENTAIL_RDF=1
             ENTAIL_RDFS=1
+            ;;
+        --entail\=owl)
+            ENTAIL_RDF=1
+            ENTAIL_RDFS=1
+            ENTAIL_OWL=1
             ;;
         --entail\=datatype)
             ENTAIL_DATATYPE=1
