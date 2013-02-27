@@ -8,8 +8,6 @@
   <xsl:param name="colophon" select="1" />
   <xsl:param name="only-speaker" />
   <xsl:output method="xml" encoding="utf-8" />
-  <xsl:variable name="uriencoding" select="document('uriencoding.xml')"/>
-  <xsl:key name="map_char" match="mapping" use="@char"/>
 
   <xsl:template match="TEI.2">
     <html>
@@ -22,11 +20,9 @@
         <meta name="title" content="{normalize-space(teiHeader/fileDesc/titleStmt/title[@type = 'main' or not(@type)])}" />
         <meta name="DC.author">
           <xsl:attribute name="content">
-            <xsl:for-each select="teiHeader/fileDesc/titleStmt/author/persName/forename">
-              <xsl:value-of select="substring(., 1, 1)"/>
-              <xsl:text>. </xsl:text>
-            </xsl:for-each>
-            <xsl:value-of select="teiHeader/fileDesc/titleStmt/author/persName/surname"/>
+            <xsl:call-template name="abbreviate">
+              <xsl:with-param name="name" select="teiHeader/fileDesc/titleStmt/author/persName"/>
+            </xsl:call-template>
           </xsl:attribute>
         </meta>
         <meta name="DC.creator" content="{normalize-space(teiHeader/fileDesc/titleStmt/principal)}"/>
@@ -478,11 +474,7 @@
   </xsl:template>
 
   <xsl:template match="*">
-    <xsl:message terminate="yes">
-      Unknown element <xsl:value-of select="local-name()"/> 
-      (<xsl:value-of select="normalize-space()"/>) 
-      in <xsl:value-of select="local-name(..)"/>
-    </xsl:message>
+    <xsl:call-template name="unknown-tag"/>
   </xsl:template>
 
   <xsl:template match="teiHeader" mode="metadata">

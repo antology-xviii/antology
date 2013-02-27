@@ -1,0 +1,200 @@
+#! /bin/bash
+
+declare -A temp_nodes
+declare -A variables
+
+generate_blank()
+{
+    mkdir -p $RDFSTORE/blanks/$$
+    echo "$$$(basename $(mktemp --tmpdir=$RDFSTORE/blanks/$$ XXXXXXXX))"
+}
+
+encode_name()
+{
+    case "$1" in
+        _)
+            echo "$(generate_blank)"
+            ;;
+        _:*)
+            if test -z "${temp_nodes[$1]}"; then
+                temp_nodes[$1]="$(generate_blank)"
+            fi
+            echo "${temp_nodes[$1]}";
+            ;;
+        *)
+            echo -n "$1" | sha1sum | cut -f1 -d' '
+            ;;
+    esac
+}
+
+indexed_name()
+{
+    echo ${1:0:1}/${1:1:1}/$1
+}
+
+make_object()
+{
+    local name="$(indexed_name "$(encode_name "$1")")"
+    local path="$RDFSTORE/$name"
+    if ! test -e $path; then
+        mkdir -p $path
+        case "$1" in
+            __:*)
+                echo "__:$(basename "$name")" >$path/id
+            *)
+                echo "$1" > $path/id
+                ;;
+        esac
+        mkdir $path/in
+        mkdir $path/out
+        mkdir $path/prop
+        mkdir $path/invprop
+    fi
+    echo $name
+}
+
+make_triplet()
+{
+    local subj=$(make_object "$1")
+    local pred=$(make_object "$2")
+    local obj=$(make_object "$3")
+
+    local pname=$(basename "$pred")
+    mkdir -p $RDFSTORE/$subj/out/$pname
+    ln -sf $RDFSTORE/$obj $RDFSTORE/$subj/out/$pname
+    mkdir -p $RDFSTORE/$obj/in/$pname/$(dirname "$subj")
+    ln -sf $RDFSTORE/$subj $RDFSTORE/$obj/in/$pname/$(dirname "$subj")
+    mkdir -p $RDFSTORE/$pred/prop/$subj
+    ln -sf $RDFSTORE/$obj $RDFSTORE/$pred/prop/$subj
+    mkdir -p $RDFSTORE/$pred/invprop/$obj
+    ln -sf $RDFSTORE/$subj $RDFSTORE/$pred/invprop/$obj
+}
+
+replace_var()
+{
+    case "$1" in
+        _:*)
+            if test -n "${variables[$1]}"; then
+                echo "${variables[$1]}"
+            else
+                echo "$1"
+            fi
+            ;;
+        *)
+            echo "$1"
+            ;;
+    esac
+}
+
+contains_triplet()
+{
+    local subj="$(indexed_name "$(encode_name "$1")")"
+    local pred="$(encode_name "$2")"
+    local obj="$(encode_name "$3")"
+    test -h $RDFSTORE/$subj/out/$pred/$obj &&
+    test -d $RDFSTORE/$subj/out/$pred/$obj
+}
+
+check_triplet()
+{
+    if test -n "$CHECK_DEFINED"; then
+    fi
+
+    if test -n "$CHECK_OWL"; then
+    fi
+}
+
+add_triplet()
+{
+    if ! contains_triplet "$@"; then
+        check_triplet "$@"
+        make_triplet "$@"
+        entail_triplets "$@"
+    fi
+}
+
+usage()
+{
+    cat >&2 <<EOF
+Syntax: $(basename $0) [--db=STORE] OPERATION ARGS
+where OPERATION is one of:
+      add SUBJECT PREDICATE OBJECT ...
+      parse PARSE-OPTIONS
+EOF
+}
+
+while test "${1#-}" != "$1"; do
+    arg="$1"
+    shift
+    case "$arg" in
+        -d*)
+            RDFSTORE="${arg#-d}"
+            ;;
+        --db\=*)
+            RDFSTORE="${arg#--db=}"
+            ;;
+        --entail\=rdf)
+            ENTAIL_RDF=1
+            ;;
+        --entail\=rdfs)
+            ENTAIL_RDF=1
+            ENTAIL_RDFS=1
+            ;;
+        --entail\=datatype)
+            ENTAIL_DATATYPE=1
+            ;;
+        --check\=defined)
+            CHECK_DEFINED=1
+            ;;
+        --check\=owl)
+            CHECK_OWL=1
+            ;;
+        --help|-h)
+            usage
+            exit 0
+            ;;
+        --)
+            break
+            ;;
+        *)
+            echo "Unknown option $arg" >&2
+            usage
+            exit 1
+    esac
+done
+
+if test -z "$RDFSTORE"; then
+    echo "No RDF store specified" >&2
+    exit 1
+fi
+
+if test -z "$1"; then
+    echo "Command is missing" >&2
+    usage
+    exit 1
+fi
+
+
+op="$1"
+shift
+
+case "$op" in
+    add)
+        while test "$#" -gt 3; do            
+            add_triplet "$1" "$2" "$3"
+            shift 3
+        done
+        test "$#" -eq 0 || { echo "Incomplete triplet: $*" >&2; exit 1 }
+        ;;
+    parse)
+        rapper -o ntriples "$@" | 
+        while read subject predicate object; do
+            add_triplet "$subject" "$predicate" "${object% .}"
+        done
+        ;;
+    *)
+        echo "Unknown command: $op" >&2
+        usage
+        exit 1
+        ;;
+esac

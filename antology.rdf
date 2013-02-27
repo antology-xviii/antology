@@ -27,10 +27,10 @@
     <rdfs:subClassOf rdf:resource="#Text"/>
     <rdfs:subClassOf rdf:resource="&dctermsns;/BibliographicResource"/>
   </svc:AbstractClass>
-  <rdfs:Class rdf:ID="PublishedWork">
+  <svc:EnumerableClass rdf:ID="PublishedWork">
     <rdfs:subClassOf rdf:resource="#ReferencedText"/>
     <rdfs:subClassOf rdf:resource="&foafns;/Document"/>
-  </rdfs:Class>
+  </svc:EnumerableClass>
   <svc:AbstractClass rdf:ID="TextSegment">
     <rdfs:subClassOf rdf:resource="#Text"/>
   </svc:AbstractClass>
@@ -65,46 +65,30 @@
     <rdfs:subClassOf rdf:resource="#TextDivision"/>
   </rdfs:Class>
 
-  <rdfs:Class rdf:ID="Series">
+  <svc:EnumerableClass rdf:ID="Series">
     <rdfs:subClassOf rdf:resource="&dctermsns;/BibliographicResource"/>
     <rdfs:subClassOf rdf:resource="&dcmitypens;/Collection"/>
-  </rdfs:Class>
+  </svc:EnumerableClass>
+
   <!-- Text classifiers -->
-  <rdfs:Class rdf:ID="LiteraryKind">
+  <svc:AbstractClass rdf:ID="MetricCategory">    
     <rdfs:subClassOf rdf:resource="&svcns;#Category"/>
-  </rdfs:Class>
-  <ant:LiteraryKind rdf:ID="Verse">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Drama">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Prose">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Letters">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Memoirs">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="PublicisticWriting">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Science">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
-  <ant:LiteraryKind rdf:ID="Lecture">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/Text"/>
-  </ant:LiteraryKind>
+  </svc:AbstractClass>
+  <svc:AbstractClass rdf:ID="MetricSystem">
+    <rdfs:subClassOf rdf:resource="&svcns;#Taxonomy"/>
+  </svc:AbstractClass>
+
   <!-- People -->
   <svc:AbstractClass rdf:ID="Person">
     <rdfs:subClassOf rdf:resource="&dctermsns;/Agent"/>
     <rdfs:subClassOf rdf:resource="&foafns;/Person"/>
+    <rdf:type rdf:resource="&svcns;#EnumerableClass"/>
   </svc:AbstractClass>
   <rdfs:Class rdf:ID="RealPerson">
     <rdfs:subClassOf rdf:resource="#Person"/>
   </rdfs:Class>
+  <ant:RealPerson rdf:ID="anonymous">
+  </ant:RealPerson>
   <rdfs:Class rdf:ID="FictionalPerson">
     <rdfs:subClassOf rdf:resource="#Person"/>
   </rdfs:Class>
@@ -118,31 +102,32 @@
     <rdfs:subClassOf rdf:resource="#FictionalPerson"/>
   </rdfs:Class>
 
-  <rdfs:Class rdf:ID="Publisher">
+  <svc:EnumerableClass rdf:ID="Publisher">
     <rdfs:subClassOf rdf:resource="&dctermsns;/Agent"/>
     <rdfs:subClassOf rdf:resource="&foafns;/Organization"/>
-  </rdfs:Class>
+  </svc:EnumerableClass>
   <!-- Date -->
-  <svc:OpenClass rdf:ID="DateInterval">
+  <rdfs:Class rdf:ID="DateInterval">
     <rdfs:subClassOf rdf:resource="&dctermsns;/PeriodOfTime"/>
-  </svc:OpenClass>
+  </rdfs:Class>
   <svc:SearchableProperty rdf:ID="postQuem">
-    <rdfs:domain rdf:resource="#DateInverval"/>
+    <rdfs:domain rdf:resource="#DateInterval"/>
     <rdfs:range rdf:resource="&svcns;#Year"/>
     <svc:searchConstraint rdf:resource="&svcns;#certainty"/>
   </svc:SearchableProperty>
-  <rdfs:Property rdf:ID="anteQuem">
-    <rdfs:domain rdf:resource="#DateInverval"/>
+  <svc:SearchableProperty rdf:ID="anteQuem">
+    <rdfs:domain rdf:resource="#DateInterval"/>
     <rdfs:range rdf:resource="&svcns;#Year"/>
     <svc:searchConstraint rdf:resource="&svcns;#certainty"/>
-  </rdfs:Property>
-  <rdfs:Property rdf:ID="calendar">
-    <rdfs:domain rdf:resource="#DateInverval"/>
+  </svc:SearchableProperty>
+  <rdf:Property rdf:ID="calendar">
+    <rdfs:domain rdf:resource="#DateInterval"/>
     <rdfs:range rdf:resource="&rdfsns;#Literal"/>
-  </rdfs:Property>
+  </rdf:Property>
   <!-- Places -->
   <svc:AbstractClass rdf:ID="Place">
     <rdfs:subClassOf rdf:resource="&dctermsns;/Location"/>
+    <rdf:type rdf:resource="&svcns;#EnumerableClass"/>
   </svc:AbstractClass>
   <rdfs:Class rdf:ID="RealPlace">
     <rdfs:subClassOf rdf:resource="#Place"/>
@@ -156,99 +141,6 @@
   <rdfs:Class rdf:ID="MythologicPlace">
     <rdfs:subClassOf rdf:resource="#FictionalPlace"/>
   </rdfs:Class>
-  <!-- Metric -->
-  <rdfs:Class rdf:ID="MetricSystem">
-    <rdfs:subClassOf rdf:resource="&dctermsns;/LinguisticSystem"/>
-  </rdfs:Class>
-  <rdfs:Class rdf:ID="MetricType">
-    <rdfs:subClassOf rdf:resource="&svcns;#Category"/>
-  </rdfs:Class>
-  <ant:MetricType rdf:ID="Iamb">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Choreus">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Dactyl">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Amphibrach">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Anapaest">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Dolnik">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Tactovik">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="PaeonI">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="PaeonII">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="PaeonIII">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="PaeonIV">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Rayeshnik">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Hexameter">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="ElegiacCouplet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="Pentameter">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="ThreeFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="FourFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="FiveFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="SixFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="SevenFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="EightFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="VaryingFeet">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="OneSyllableAugment">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="TwoSyllableAugment">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="OneSyllableTruncation">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <ant:MetricType rdf:ID="TwoSyllableTruncation">
-    <rdfs:subClassOf rdf:resource="&dcmitypens;/LinguisticSystem"/>
-  </ant:MetricType>
-  <svc:SearchableProperty rdf:ID="metricKind">
-    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
-    <rdfs:domain rdf:resource="#MetricSystem"/>
-    <rdfs:range rdf:resource="#MetricType"/>
-  </svc:SearchableProperty>
-  <rdfs:Class rdf:ID="RhymingScheme">
-    <rdfs:subClassOf rdf:resource="&dctermsns;/LinguisticSystem"/>
-  </rdfs:Class>
 
   <!-- Relations -->
   <svc:SearchableProperty rdf:ID="author">
@@ -260,13 +152,14 @@
   <svc:SearchableProperty rdf:ID="editor">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/contributor"/>
     <rdfs:domain rdf:resource="#PublishedWork"/>
+    <rdfs:domain rdf:resource="#Series"/>
     <rdfs:range rdf:resource="#RealPerson"/>
   </svc:SearchableProperty>
 
   <svc:SearchableProperty rdf:ID="title">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/title"/>
     <rdfs:domain rdf:resource="&dctermsns;/BibliographicResource"/>
-    <rdfs:range rdf:resource="&rdfns;#Literal"/>
+    <rdfs:range rdf:resource="&rdfsns;#Literal"/>
   </svc:SearchableProperty>
 
   <svc:SearchableProperty rdf:ID="publisher">
@@ -319,50 +212,41 @@
 
   <svc:SearchableProperty rdf:ID="mentions">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/references"/>
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
     <rdfs:range rdf:resource="#Person"/>
     <rdfs:range rdf:resource="#Place"/>
     <rdfs:range rdf:resource="#DateInterval"/>
     <rdf:type rdf:resource="&svcns;#NavigableProperty"/>
+  </svc:SearchableProperty>
+
+  <rdf:Description rdf:about="#mentions">
     <svc:searchThrough rdf:resource="#postQuem"/>
     <svc:searchThrough rdf:resource="#anteQuem"/>
-  </svc:SearchableProperty>
+  </rdf:Description>
 
   <svc:SearchableProperty rdf:ID="cites">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/references"/>
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
-    <rdfs:range rdf:resource="#ReferencedWork"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
+    <rdfs:range rdf:resource="#ReferencedText"/>
   </svc:SearchableProperty>
 
   <svc:SearchableProperty rdf:ID="theme">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/subject"/>
     <rdfs:subPropertyOf rdf:resource="&foafns;/topic"/>
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
-    <rdfs:range rdf:resource="&rdfns;#Literal"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
+    <rdfs:range rdf:resource="&rdfsns;#Literal"/>
   </svc:SearchableProperty>
 
   <svc:SearchableProperty rdf:ID="addressee">
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
     <rdfs:range rdf:resource="#RealPerson"/>
   </svc:SearchableProperty>
 
-  <svc:SearchableProperty rdf:ID="literaryKind">
-    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
-    <rdfs:domain rdf:resource="#PublishedWork"/>
-    <rdfs:range rdf:resource="#LiteraryKind"/>
-  </svc:SearchableProperty>
 
-  <svc:SearchableProperty rdf:ID="metric">
-    <rdf:type rdf:resource="&svcns;#NavigableProperty"/>
+  <svc:SearchableProperty rdf:ID="kind">
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
-    <rdfs:range rdf:resource="#MetricSystem"/>
-  </svc:SearchableProperty>
-
-  <svc:SearchableProperty rdf:ID="rhyming">
-    <rdfs:subPropertyOf rdf:resource="&dctermsns;/type"/>
-    <rdfs:domain rdf:resource="#ReferencedWork"/>
-    <rdfs:range rdf:resource="#RhymingScheme"/>
+    <rdfs:domain rdf:resource="#ReferencedText"/>
+    <rdfs:range rdf:resource="&svcns;#Category"/>
   </svc:SearchableProperty>
 
   <svc:NavigableProperty rdf:ID="source">
@@ -395,7 +279,6 @@
     <rdfs:subPropertyOf rdf:resource="&dctermsns;/isPartOf"/>
     <rdfs:domain rdf:resource="#Text"/>
     <rdfs:range rdf:resource="#ReferencedText"/>
-    <svc:searchThrough rdf:resource="#word"/>
   </svc:ReverseNavigableProperty>
 
   <svc:SearchableProperty rdf:ID="firstLine">
@@ -405,10 +288,14 @@
   </svc:SearchableProperty>
 
   <svc:SearchableProperty rdf:ID="word">
-    <rdfs:subPropertyOf rdf:resource="&rdfns;#member"/>
+    <rdfs:subPropertyOf rdf:resource="&rdfsns;#member"/>
     <rdfs:domain rdf:resource="#Text"/>
     <rdfs:range rdf:resource="&rdfsns;#Literal"/>
     <svc:searchConstraint rdf:resource="&svcns;#ordering"/>
   </svc:SearchableProperty>
 
+  <rdf:Description rdf:about="#isPartOf">
+    <svc:searchThrough rdf:resource="#word"/>
+    <svc:searchThrough rdf:resource="#mentions"/>
+  </rdf:Description>
 </rdf:RDF>
