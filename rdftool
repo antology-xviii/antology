@@ -1,4 +1,6 @@
 #! /bin/bash
+shopt -s nullglob
+set -u
 
 declare -A temp_nodes
 declare -A variables
@@ -9,6 +11,8 @@ nsOWL="http://www.w3.org/2002/07/owl#"
 nsDCTERMS="http://purl.org/dc/terms/"
 nsDCTYPE="http://purl.org/dc/dcmitype/"
 nsDCAM="http://purl.org/dc/dcam/"
+
+RDFSTORE="${RDFSTORE:-}"
 
 generate_blank()
 {
@@ -23,7 +27,7 @@ encode_name()
             echo "$(generate_blank)"
             ;;
         _:*)
-            if test -z "${temp_nodes[$1]}"; then
+            if test -z "${temp_nodes[$1]:-}"; then
                 temp_nodes[$1]="$(generate_blank)"
             fi
             echo "${temp_nodes[$1]}";
@@ -48,14 +52,15 @@ make_object()
         case "$1" in
             __:*)
                 echo "__:$(basename "$name")" >$path/id
+                ;;
             *)
                 echo "$1" > $path/id
                 ;;
         esac
         mkdir $path/in
         mkdir $path/out
-        mkdir $path/prop
-        mkdir $path/invprop
+        mkdir $path/subj
+        mkdir $path/obj
     fi
     echo $name
 }
@@ -67,14 +72,16 @@ make_triplet()
     local obj=$(make_object "$3")
 
     local pname=$(basename "$pred")
+    local sindex=$(dirname "$subj")
+    local oindex=$(dirname "$obj")
     mkdir -p $RDFSTORE/$subj/out/$pname
-    ln -sf $RDFSTORE/$obj $RDFSTORE/$subj/out/$pname
-    mkdir -p $RDFSTORE/$obj/in/$pname/$(dirname "$subj")
-    ln -sf $RDFSTORE/$subj $RDFSTORE/$obj/in/$pname/$(dirname "$subj")
-    mkdir -p $RDFSTORE/$pred/prop/$subj
-    ln -sf $RDFSTORE/$obj $RDFSTORE/$pred/prop/$subj
-    mkdir -p $RDFSTORE/$pred/invprop/$obj
-    ln -sf $RDFSTORE/$subj $RDFSTORE/$pred/invprop/$obj
+    touch $RDFSTORE/$subj/out/$pname/$(basename "$obj")
+    mkdir -p $RDFSTORE/$obj/in/$pname/$sindex
+    touch $RDFSTORE/$obj/in/$pname/$subj
+    mkdir -p $RDFSTORE/$pred/subj/$sindex
+    touch $RDFSTORE/$pred/subj/$subj
+    mkdir -p $RDFSTORE/$pred/obj/$oindex
+    touch $RDFSTORE/$pred/obj/$obj
 }
 
 replace_var()
@@ -93,22 +100,81 @@ replace_var()
     esac
 }
 
+contains_out_arc()
+{
+    local pred="$(encode_name "$2")"
+    local obj="$(encode_name "$3")"
+    local path="$1/out/$pred/$obj"
+    test -h $path -a -d $path
+}
+
+contains_in_arc()
+{
+    local pred="$(encode_name "$2")"
+    local subj="$(indexed_name "$(encode_name "$3")")"
+    local path="$1/in/$pred/$obj"
+    test -h $path -a -d $path
+}
+
 contains_triplet()
+{
+    contains_out_arc "$RDFSTORE/$(indexed_name "$(encode_name "$1")")" "$2" "$3"
+}
+
+
+list_objects()
 {
     local subj="$(indexed_name "$(encode_name "$1")")"
     local pred="$(encode_name "$2")"
-    local obj="$(encode_name "$3")"
-    test -h $RDFSTORE/$subj/out/$pred/$obj &&
-    test -d $RDFSTORE/$subj/out/$pred/$obj
+    echo $RDFSTORE/$subj/out/$pred/*
 }
+
+list_subjects()
+{
+    local obj="$(indexed_name "$(encode_name "$1")")"
+    local pred="$(encode_name "$2")"
+    local c1 c2
+    for c1 in $RDFSTORE/$obj/in/$pred/?; do
+        for c2 in $c1/?; do
+            echo $c2/*
+        done
+    done
+}
+
 
 check_triplet()
 {
     if test -n "$CHECK_DEFINED"; then
+        if ! contains_triplet "$2" "$nsRDF#type" "$nsRDF#Property"; then
+            echo "$2 is not a Property" >&2
+            exit 1
+        fi
+        case "$3" in
+            \<*\>)
+                if ! contains_triplet "$3" "$nsRDF#type" "$nsRDFS#Class"; then
+                    echo "$3 is not a Class" >&2
+                    exit 1
+                fi
+                ;;
+        esac
     fi
 
     if test -n "$CHECK_OWL"; then
+        if test "$2" = "$nsRDF#type"; then
+            for cls in $(list_objects "$1" "$nsRDF#type"); do
+                if contains_out_arc "$cls" "$nsOWL#disjointWith" "$3" ||
+                    contains_in_arc "$cls" "$nsOWL#disjointWith" "$3"; then
+                    echo "$3 must be disjoint with $(< $cls/id)" >&2
+                    exit 1
+                fi
+            done
+        fi
     fi
+}
+
+entail_triplets()
+{
+    return 0
 }
 
 add_triplet()
@@ -130,8 +196,22 @@ where OPERATION is one of:
 EOF
 }
 
-while test "${1#-}" != "$1"; do
+CHECK_DEFINED=
+CHECK_OWL=
+ENTAIL_RDF=
+ENTAIL_RDFS=
+ENTAIL_DATATYPE=
+ENTAIL_OWL=
+
+while test $# -gt 0; do
     arg="$1"
+    case "$arg" in
+        -*)
+            ;;
+        *)
+            break
+            ;;
+    esac
     shift
     case "$arg" in
         -d*)
@@ -180,7 +260,7 @@ if test -z "$RDFSTORE"; then
     exit 1
 fi
 
-if test -z "$1"; then
+if test $# -eq 0; then
     echo "Command is missing" >&2
     usage
     exit 1
@@ -190,18 +270,39 @@ fi
 op="$1"
 shift
 
+if test "$op" != "initialize" -a ! -d "$RDFSTORE"; then
+    echo "RDF store $RDFSTORE does not exist; use 'initialize'" >&2
+    exit 1
+fi
+
 case "$op" in
+    initialize)
+        mkdir -p $RDFSTORE
+        ;;
     add)
         while test "$#" -gt 3; do            
             add_triplet "$1" "$2" "$3"
             shift 3
         done
-        test "$#" -eq 0 || { echo "Incomplete triplet: $*" >&2; exit 1 }
+        test "$#" -eq 0 || { echo "Incomplete triplet: $*" >&2; exit 1; }
         ;;
     parse)
         rapper -o ntriples "$@" | 
         while read subject predicate object; do
             add_triplet "$subject" "$predicate" "${object% .}"
+        done
+        ;;
+    dump)
+        for s1 in $RDFSTORE/?; do
+            for s2 in $s1/?; do
+                for subj in $s2/*; do
+                    for pred in $subj/out/*; do
+                        for obj in $pred/*; do
+                            echo "$(< $subj/id) $(< $RDFSTORE/$(indexed_name $(basename $pred))/id) $(< $obj/id)"
+                        done
+                    done
+                done
+            done
         done
         ;;
     *)
