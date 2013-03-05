@@ -44,14 +44,14 @@ indexed_name()
 }
 
 make_object()
-{
-    local name="$(indexed_name "$(encode_name "$1")")"
-    local path="$RDFSTORE/$name"
-    if ! test -e $path; then
-        mkdir -p $path
+{    
+    local name="$(encode_name "$1")"
+    local path="$RDFSTORE/$(indexed_name $name)"
+    if ! test -d $path; then
+        mkdir -p $path  || { echo "Cannot create $path"; exit 1; }
         case "$1" in
             __:*)
-                echo "__:$(basename "$name")" >$path/id
+                echo "__:$name" >$path/id
                 ;;
             *)
                 echo "$1" > $path/id
@@ -62,7 +62,7 @@ make_object()
         mkdir $path/subj
         mkdir $path/obj
     fi
-    echo $name
+    echo "$name"
 }
 
 make_triplet()
