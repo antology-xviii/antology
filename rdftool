@@ -57,6 +57,11 @@ make_object()
                 echo "$1" > $path/id
                 ;;
         esac
+        case "$1" in
+            \"*\"*)
+                echo >$path/literal
+                ;;
+        esac
         mkdir $path/in
         mkdir $path/out
         mkdir $path/subj
@@ -65,23 +70,20 @@ make_object()
     echo "$name"
 }
 
+get_object()
+{
+    cat "$RDFSTORE/$(indexed_name $1)/id"
+}
+
 make_triplet()
 {
-    local subj=$(make_object "$1")
-    local pred=$(make_object "$2")
-    local obj=$(make_object "$3")
-
-    local pname=$(basename "$pred")
-    local sindex=$(dirname "$subj")
-    local oindex=$(dirname "$obj")
-    mkdir -p $RDFSTORE/$subj/out/$pname
-    touch $RDFSTORE/$subj/out/$pname/$(basename "$obj")
-    mkdir -p $RDFSTORE/$obj/in/$pname/$sindex
-    touch $RDFSTORE/$obj/in/$pname/$subj
-    mkdir -p $RDFSTORE/$pred/subj/$sindex
-    touch $RDFSTORE/$pred/subj/$subj
-    mkdir -p $RDFSTORE/$pred/obj/$oindex
-    touch $RDFSTORE/$pred/obj/$obj
+    local subjpath="$(indexed_name $1)"
+    local predpath="$(indexed_name $2)"
+    local objpath="$(indexed_name $3)"
+    mkdir -p $RDFSTORE/$subjpath/out/$2/$3
+    mkdir -p $RDFSTORE/$objpath/in/$2/$subjpath
+    mkdir -p $RDFSTORE/$predpath/subj/$subjpath
+    mkdir -p $RDFSTORE/$predpath/obj/$objpath
 }
 
 replace_var()
@@ -100,74 +102,101 @@ replace_var()
     esac
 }
 
-contains_out_arc()
-{
-    local pred="$(encode_name "$2")"
-    local obj="$(encode_name "$3")"
-    local path="$1/out/$pred/$obj"
-    test -h $path -a -d $path
-}
-
-contains_in_arc()
-{
-    local pred="$(encode_name "$2")"
-    local subj="$(indexed_name "$(encode_name "$3")")"
-    local path="$1/in/$pred/$obj"
-    test -h $path -a -d $path
-}
-
 contains_triplet()
 {
-    contains_out_arc "$RDFSTORE/$(indexed_name "$(encode_name "$1")")" "$2" "$3"
+    local path="$RDFSTORE/$(indexed_name $1)/out/$2/$3"
+    test -d $path
 }
 
+is_literal()
+{
+    local path="$RDFSTORE/$(indexed_name $1)/literal"
+    test -f $path
+}
+
+is_in_namespace()
+{
+    case "$(get_object $2)" in
+        "<$1*>")
+            return 0
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
 
 list_objects()
 {
-    local subj="$(indexed_name "$(encode_name "$1")")"
-    local pred="$(encode_name "$2")"
-    echo $RDFSTORE/$subj/out/$pred/*
+    local subj="$(indexed_name $1)"
+    ls $RDFSTORE/$subj/out/$2
 }
 
 list_subjects()
 {
-    local obj="$(indexed_name "$(encode_name "$1")")"
-    local pred="$(encode_name "$2")"
+    local obj="$(indexed_name $1)"
     local c1 c2
     for c1 in $RDFSTORE/$obj/in/$pred/?; do
         for c2 in $c1/?; do
-            echo $c2/*
+            ls $c1/$c2
         done
     done
 }
 
+list_properties()
+{
+    local subj="$(indexed_name $1)"
+    local p;
+    for p in $(ls $RDFSTORE/$subj/out); do
+        test -d $p/$2 && echo $(basename $p
+    done
+}
+
+objRDF_type=$(make_object "<$nsRDF#type>")
+objRDF_Property=$(make_object "<$nsRDF#Property>")
+objRDFS_Class=$(make_object "<$nsRDFS#Class>")
+objOWL_disjointWith=$(make_object "<$nsOWL#disjointWith>")
 
 check_triplet()
 {
     if test -n "$CHECK_DEFINED"; then
-        if ! contains_triplet "$2" "$nsRDF#type" "$nsRDF#Property"; then
-            echo "$2 is not a Property" >&2
+        if ! contains_triplet "$2" $objRDF_type $objRDF_Property; then
+            echo "$(get_object $2) is not a Property" >&2
             exit 1
         fi
-        case "$3" in
-            \<*\>)
-                if ! contains_triplet "$3" "$nsRDF#type" "$nsRDFS#Class"; then
-                    echo "$3 is not a Class" >&2
-                    exit 1
-                fi
-                ;;
-        esac
+        if ! is_literal "$3" && ! is_in_namespace "$nsXSD#" "$3"; then
+            if ! contains_triplet "$3" $objRDF_type $objRDF_Class &&
+                ! contains_triplet "$3" $objRDF_type $objRDFS_Datatype; then
+                echo "$(get_object $3) is not a Class" >&2
+                exit 1
+            fi
+        fi
     fi
 
     if test -n "$CHECK_OWL"; then
-        if test "$2" = "$nsRDF#type"; then
-            for cls in $(list_objects "$1" "$nsRDF#type"); do
-                if contains_out_arc "$cls" "$nsOWL#disjointWith" "$3" ||
-                    contains_in_arc "$cls" "$nsOWL#disjointWith" "$3"; then
-                    echo "$3 must be disjoint with $(< $cls/id)" >&2
+        if test "$2" = $objRDF_type; then
+            for cls in $(list_objects "$1" $objRDF_type); do
+                if contains_triplet "$cls" $objOWL_disjointWith "$3" ||
+                    contains_triplet "$3"  $objOWL_disjointWith "$cls"; then
+                    echo "$(get_object $3) must be disjoint with $(get_object $cls)" >&2
                     exit 1
                 fi
             done
+        elif test "$2" = $objOWL_disjointWith; then
+        fi
+        if contains_triplet "$2" $objRDF_type $objOWL_FunctionalProperty; then
+            local ex="$(list_objects "$1" "$2")"
+            if test -n "$ex" -a "$ex" != "$3"; then
+                echo "Functional constraint violated for $(get_object $1) $(get_object $2) $(get_object $3)" >&2
+                exit 1
+            fi
+        fi
+        if contains_triplet "$2" $objRDF_type $objOWL_InverseFunctionalProperty; then
+            local ex="$(list_subjects "$3" "$2")"
+            if test -n "$ex" -a "$ex" != "$1"; then
+                echo "Inverse functional constraint violated for $(get_object $1) $(get_object $2) $(get_object $3)" >&2
+                exit 1
+            fi
         fi
     fi
 }
