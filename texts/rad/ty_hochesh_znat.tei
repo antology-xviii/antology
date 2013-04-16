@@ -27,43 +27,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-   <title>п╒я▀ я┘п╬я┤п╣я┬я▄ п╥п╫п╟я┌я▄: п╨я┌п╬ я▐? я┤я┌п╬ я▐? п╨я┐п╢п╟ я▐ п╣п╢я┐?</title>
+   <title>Ты хочешь знать: кто я? что я? куда я еду?</title>
         <author>
           <persName>
-            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
-            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
-            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
           </persName>
         </author>
-        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
+        <principal>Елена Исаченко</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
-п╡п╣п╨п╟&quot;</title>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
-            <editor>п⌡я┐п©п©п╬п╩п╟ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓.
-п░.</editor>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппола И. К., Гуковский Г. А., Десницкий В.
+А.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨ п║п║п║п═ </publisher>
-            <pubPlace>п°.-п⌡.</pubPlace>
+            <publisher>Издательство Академии Наук СССР </publisher>
+            <pubPlace>М.-Л.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>п╒я▀ я┘п╬я┤п╣я┬я▄ п╥п╫п╟я┌я▄: п╨я┌п╬ я▐? я┤я┌п╬ я▐? п╨я┐п╢п╟ я▐ п╣п╢я┐?</title>
+                <title>Ты хочешь знать: кто я? что я? куда я еду?</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>п√п╦п╡п╬п©п╦я│п╣я├</publisher>
+                <publisher>Живописец</publisher>
                 <date>1864</date>
               </publicationStmt>
             </biblFull>
@@ -82,15 +82,15 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='п╦п╥пЁп╫п╟п╫п╦п╣'>
-<body id='whole'><div0 met='п╞6 (я│я┌. 7 - п╬я┌я│я┌я┐п©п╩п╣п╫п╦п╣)' rhyme="п░bbп░ccп░">
-<l>п╒я▀ я┘п╬я┤п╣я┬я▄ п╥п╫п╟я┌я▄: п╨я┌п╬ я▐? я┤я┌п╬ я▐? п╨я┐п╢п╟ я▐ п╣п╢я┐? -
-<l>п╞ я┌п╬я┌ п╤п╣, я┤я┌п╬ п╦ п╠я▀п╩ п╦ п╠я┐п╢я┐ п╡п╣я│я▄ п╪п╬п╧ п╡п╣п╨:
-<l>п²п╣ я│п╨п╬я┌, п╫п╣ п╢п╣я─п╣п╡п╬, п╫п╣ я─п╟п╠, п╫п╬ я┤п╣п╩п╬п╡п╣п╨!
-<l>п■п╬я─п╬пЁя┐ п©я─п╬п╩п╬п╤п╦я┌я▄, пЁп╢п╣ п╫п╣ п╠я▀п╡п╟п╩п╬ я│п╩п╣п╢я┐,
-<l>п■п╩я▐ п╠п╬я─п╥я▀я┘ я│п╪п╣п╩я▄я┤п╟п╨п╬п╡ п╦ п╡ п©я─п╬п╥п╣ п╦ п╡ я│я┌п╦я┘п╟я┘,
-<l>п╖я┐п╡я│я┌п╡п╦я┌п╣п╩я▄п╫я▀п╪ я│п╣я─п╢я├п╟п╪ п╦ п╦я│я┌п╦п╫п╣ я▐ п╡ я│я┌я─п╟я┘
-<l>п▓<name type="place" reg="п≤п╩п╦п╪я│п╨">п╬я│я┌я─п╬пЁ п≤п╩п╦п╪я│п╨п╦п╧</name>п╣п╢я┐.
+<span from='whole' type='theme' value='изгнание'>
+<body id='whole'><div0 met='Я6 (ст. 7 - отступление)' rhyme="АbbАccА">
+<l>Ты хочешь знать: кто я? что я? куда я еду? -
+<l>Я тот же, что и был и буду весь мой век:
+<l>Не скот, не дерево, не раб, но человек!
+<l>Дорогу проложить, где не бывало следу,
+<l>Для борзых смельчаков и в прозе и в стихах,
+<l>Чувствительным сердцам и истине я в страх
+<l>В<name type="place" reg="Илимск">острог Илимский</name>еду.
 </body>
   </text>
 </tei.2>

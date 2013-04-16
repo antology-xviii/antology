@@ -28,42 +28,42 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>п║п╟я└п╦я┤п╣я│п╨п╦п╣ я│я┌я─п╬я└я▀</title>
+<title>Сафические строфы</title>
         <author>
           <persName>
-            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
-            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
-            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
           </persName>
         </author>
-        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
+        <principal>Елена Исаченко</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
-п╡п╣п╨п╟&quot;</title>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
-            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░.</editor>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨ п║п║п║п═</publisher>
-            <pubPlace>п°.-п⌡.</pubPlace>
+            <publisher>Издательство Академии Наук СССР</publisher>
+            <pubPlace>М.-Л.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>п║п╟я└п╦я┤п╣я│п╨п╦п╣ я│я┌я─п╬я└я▀</title>
+                <title>Сафические строфы</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>п≤п©п╬п╨я─п╣п╫п╟</publisher>
+                <publisher>Ипокрена</publisher>
                 <date>1801</date>
               </publicationStmt>
             </biblFull>
@@ -82,31 +82,31 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='п╦п╥п╪п╣п╫п╟'>
-<body id='whole'><div0 met='п⌡п╬пЁ' rhyme="п░я│я┌я─п╬я└п╦я┤. п╠. я│.">
+<span from='whole' type='theme' value='измена'>
+<body id='whole'><div0 met='Лог' rhyme="Астрофич. б. с.">
 <lg1 type="stanza">
-<l>п²п╬я┤я▄ п╠я▀п╩п╟ п©я─п╬я┘п╩п╟п╢п╫п╟я▐, я│п╡п╣я┌п╩п╬ п╡ п╫п╣п╠п╣
-<l>п≈п╡п╣п╥п╢я▀ п╠п╩п╣я┴я┐я┌, я┌п╦я┘п╬ п╦я│я┌п╬я┤п╫п╦п╨ п╩я▄п╣я┌я│я▐,
-<l>п▓п╣я┌я─я▀ п╫п╣п╤п╫п╬ п╡п╣я▌я┌, я┬я┐п╪я▐я┌ п╩п╦я│я┌п╟п╪п╦
-<l><space dim="horizontal" extent="11 letters">п╒п╬п©п╬п╩я▀ п╠п╣п╩я▀.
+<l>Ночь была прохладная, светло в небе
+<l>Звезды блещут, тихо источник льется,
+<l>Ветры нежно веют, шумят листами
+<l><space dim="horizontal" extent="11 letters">Тополы белы.
 
 <lg1 type="stanza" n="***">
-<l>п╒я▀ п╨п╩я▐п╩п╟я│я▐ п╡п╣я─п╫п╬я▌ п╠я▀я┌я▄ п╡п╬ п╡п╣п╨п╦
-<l>п°п╫п╣ п╠п╬пЁп╦п╫я▌ п╫п╬я┴п╦ п╢п╟п╩п╟ п©п╬я─я┐п╨п╬п╧;
-<l>п║п╣п╡п╣я─ я┘п╩п╟п╢п╫п╬п╧ п╢я┐п╫я┐п╩ п╬п╢п╦п╫ я─п╟п╥ п╨я─п╣п©я┤п╣, -
-<l><space dim="horizontal" extent="11 letters">п п╩я▐я┌п╡п╟ п╦я│я┤п╣п╥п╩п╟.
+<l>Ты клялася верною быть во веки
+<l>Мне богиню нощи дала порукой;
+<l>Север хладной дунул один раз крепче, -
+<l><space dim="horizontal" extent="11 letters">Клятва исчезла.
 
 <lg1 type="stanza" n="***">
-<l>п░я┘! п©п╬я┤я┌п╬ п╠я▀я┌я▄ п╨п╩я▐я┌п╡п╬п©я─п╣я│я┌я┐п©п╫п╬п╧!.. п⌡я┐я┤я┬п╣
-<l>п▒я┐п╢я▄ п╡я│п╣пЁп╢п╟ п╤п╣я│я┌п╬п╨п╟, я┌п╬ п╩п╣пЁя┤п╣ п╠я┐п╢п╣я┌
-<l>п║п╣я─п╢я├я┐. п╒я▀, п╪п╟п╫я▐ п╩п╦я┬я▄ п╡п╥п╟п╦п╪п╫п╬п╧ я│я┌я─п╟я│я┌я▄я▌,
-<l><space dim="horizontal" extent="11 letters">п▓п╡п╣я─пЁп╩п╟ п╡ п©п╬пЁп╦п╠п╣п╩я▄.
+<l>Ах! почто быть клятвопреступной!.. Лучше
+<l>Будь всегда жестока, то легче будет
+<l>Сердцу. Ты, маня лишь взаимной страстью,
+<l><space dim="horizontal" extent="11 letters">Ввергла в погибель.
 
 <lg1 type="stanza" n="***">
-<l>п√п╦п╥п╫я▄ п©я─п╣я─п╡п╦, п╬ я─п╬п╨! я─п╬п╨ я│я┐я─п╬п╡п╬п╧, п╩я▌я┌п╬п╧,
-<l>п≤п╩я▄ п╡п╢п╬я┘п╫п╦ п╣п╧ п╡п╣я─п╫п╬п╧ п╠я▀я┌я▄ п╡ п╨п╩я▐я┌п╡п╣ п╢п╟п╫п╫п╬п╧.
-<l>п▒я┐п╢я▄ п╠п╩п╟п╤п╣п╫п╫п╟, п╣я│п╩п╦ я┌я▀ п╪п╬п╤п╣я┬я▄ я┌п╬п╩я▄п╨п╬
-<l><space dim="horizontal" extent="11 letters">п▒я▀я┌я▄ п╠п╣п╥ п╩я▌п╠п╬п╡п╦.
+<l>Жизнь прерви, о рок! рок суровой, лютой,
+<l>Иль вдохни ей верной быть в клятве данной.
+<l>Будь блаженна, если ты можешь только
+<l><space dim="horizontal" extent="11 letters">Быть без любови.
 </body>
   </text>
 </tei.2>

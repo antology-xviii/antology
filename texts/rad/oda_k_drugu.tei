@@ -29,43 +29,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>п·п╢п╟ п╨ п╢я─я┐пЁя┐ п╪п╬п╣п╪я┐</title>
+<title>Ода к другу моему</title>
         <author>
           <persName>
-            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
-            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
-            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
           </persName>
         </author>
-        <principal>п∙п╩п╣п╫п╟ п≤я│п╟я┤п╣п╫п╨п╬</principal>
+        <principal>Елена Исаченко</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
-п╡п╣п╨п╟&quot;</title>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
-            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░.</editor>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨ п║п║п║п═</publisher>
-            <pubPlace>п°.; п⌡.</pubPlace>
+            <publisher>Издательство Академии Наук СССР</publisher>
+            <pubPlace>М.; Л.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>п·п╢п╟ п╨ п╢я─я┐пЁя┐ п╪п╬п╣п╪я┐</title>
+                <title>Ода к другу моему</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>п║п╬п╠я─п╟п╫п╦п╣ п╬я│я┌п╟п╡я┬п╦я┘я│я▐ я│п╬я┤п╦п╫п╣п╫п╦п╧ п©п╬п╨п╬п╧п╫п╬пЁп╬
-п░п╩п╣п╨я│п╟п╫п╢я─п╟ п²п╦п╨п╬п╩п╟п╣п╡п╦я┤п╟ п═п╟п╢п╦я┴п╣п╡п╟. п╒. 1.</publisher>
+                <publisher>Собрание оставшихся сочинений покойного
+Александра Николаевича Радищева. Т. 1.</publisher>
                 <date>1807</date>
               </publicationStmt>
             </biblFull>
@@ -76,7 +76,7 @@ encoding declarations//RU" "encoding.tei">
 &Encoding;
     <profileDesc>
       <creation>
-        <date>п°п╣п╤п╢я┐ 1797 п╦ 1800</date>
+        <date>Между 1797 и 1800</date>
       </creation>
       <textClass>
         <catRef scheme="kind" target="verse">
@@ -84,114 +84,114 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='п╠я▀я│я┌я─п╬я┌п╣я┤п╫п╬я│я┌я▄ п╤п╦п╥п╫п╦'>
-<span from='whole' type='theme' value='я│п╪п╣я─я┌я▄'>
-<body id='whole'><div0 met='2-я│п╩. п©. п╟. 44442' rhyme="aBп╟BcDeeDc">
+<span from='whole' type='theme' value='быстротечность жизни'>
+<span from='whole' type='theme' value='смерть'>
+<body id='whole'><div0 met='2-сл. п. а. 44442' rhyme="aBаBcDeeDc">
 <lg1 type="stanza" n="1">
-<l><space dim="horizontal" extent="3 letters">п⌡п╣я┌п╦я┌, п╪п╬п╧ п╢я─я┐пЁ, п╨я─я▀п╩п╟я┌я▀п╧ п╡п╣п╨
-<l>п▓ п╠п╣п╥п╢п╬п╫п╫я┐ п╡п╣я┤п╫п╬я│я┌я▄ п╡я│я▒ п╡п╟п╩п╦я┌я│я▐,
-<l>пёп╤ п╢п╣п╫я▄ я│п╣п╧, я┤п╟я│ п╦ п╪п╦пЁ п©я─п╬я┌п╣п╨,
-<l>п≤ п╡я│п©я▐я┌я▄ п╫п╦я┤я┌п╬ п╫п╣ п╡п╬п╥п╡я─п╟я┌п╦я┌я│я▐
-<l><space dim="horizontal" extent="18 letters">п²п╦п╨п╬пЁп╢п╟.
-<l><space dim="horizontal" extent="3 letters">п я─п╟я│п╟ п╦ п╪п╬п╩п╬п╢п╬я│я┌я▄ я┐п╡я▐п╩п╦,
-<l>п÷п╬п╨я─я▀п╩п╦я│я▄ п╠п╣п╩п╦п╥п╫п╬п╧ п╡п╩п╟я│я▀:
-<l>п⌠п╢п╣ п╫я▀п╫п╣ я│п╩п╟п╢п╬я│я┌п╫я▀ я┤п╟я│я▀,
-<l>п╖я┌п╬ п╢я┐я┘ п╦ я┌п╣п╩п╬ я┤п╟я─п╬п╡п╟п╩п╦
-<l><space dim="horizontal" extent="18 letters">п≈п╟п╡я│п╣пЁп╢п╟?
+<l><space dim="horizontal" extent="3 letters">Летит, мой друг, крылатый век
+<l>В бездонну вечность всё валится,
+<l>Уж день сей, час и миг протек,
+<l>И вспять ничто не возвратится
+<l><space dim="horizontal" extent="18 letters">Никогда.
+<l><space dim="horizontal" extent="3 letters">Краса и молодость увяли,
+<l>Покрылись белизной власы:
+<l>Где ныне сладостны часы,
+<l>Что дух и тело чаровали
+<l><space dim="horizontal" extent="18 letters">Завсегда?
 
 
 <lg1 type="stanza" n="2">
-<l><space dim="horizontal" extent="3 letters">п╒п╡п╬п╧ п©п╬я│я┌я┐п©я▄ п╠я▀п╩
-п╫п╣п©я─п╣я┌п╨п╫п╬п╡п╣п╫,
-<l>п⌠п╬я─п╢я▐я┴п╟я│я▐ пЁп╩п╟п╡п╟ п╡п╥п╢я▀п╪п╟п╩п╟я│я▄;
-<l>п▓ п╤п╣п╩п╟п╫я▄я▐я┘ я┌я▀ п╫п╣ п©я─п╣я┤п╣я─я┤п╣п╫,
-<l>п╒п╡п╬п╦п╪ я│п╨п╬я─п╠я▄ п╡п╥п╬я─п╬п╪ я─п╟п╥п╡п╣п╡п╟п╩п╟я│я▄,
-<l><space dim="horizontal" extent="23 letters">п╞п╨п╬ п©я─п╟я┘. 
-<l><space dim="horizontal" extent="3 letters">п║п╬пЁп╠п╣п╫п╫я▀п╧ п╩п╣я┌ п╢п╫п╣я│я▄ я┌я▐пЁп╬я┌п╬я▌,
-<l>п÷п╬я┌я┐п©п╦п╩ п╡ п╥п╣п╪п╩я▌ я┌я┐я│п╨п╩я▀п╧ п╡п╥п╬я─;
-<l>п║п╨п╬п©п╩п╣п╫п╫я▀п╧ п╢я─я▐я┘п╩п╬я│я┌п╣п╧ я│п╬п╠п╬я─
-<l>п∙п╢п╡п╟ п©я─п╣п╫п╣я│ я│ я│п╡п╬п╣п╧ п╨п╩я▌п╨п╬я▌
-<l><space dim="horizontal" extent="23 letters">п·п╢п╦п╫ я┬п╟пЁ.
+<l><space dim="horizontal" extent="3 letters">Твой поступь был
+непреткновен,
+<l>Гордящася глава вздымалась;
+<l>В желаньях ты не пречерчен,
+<l>Твоим скорбь взором развевалась,
+<l><space dim="horizontal" extent="23 letters">Яко прах. 
+<l><space dim="horizontal" extent="3 letters">Согбенный лет днесь тяготою,
+<l>Потупил в землю тусклый взор;
+<l>Скопленный дряхлостей собор
+<l>Едва пренес с своей клюкою
+<l><space dim="horizontal" extent="23 letters">Один шаг.
 
 
 <lg1 type="stanza" n="3">
-<l><space dim="horizontal" extent="3 letters">п╒п╟п╨п╬п╡ п╡я│п╣п╪я┐ п╫п╟ я│п╡п╣я┌п╣ я─п╬п╨:
-<l>п²п╣ п╡п╣я┤п╫п╬ п╫п╟ п╨я┐я│я┌я┐ п©я─п╣п╩я▄я┴п╟п╣я┌
-<l>п°п╟я│я┌п╦я│я┌я▀п╧ я─п╬п╥п╬п╡п╬п╧ я├п╡п╣я┌п╬п╨,
-<l>п≤ я│п╬п╩п╫я├п╣ п╢п╫п╣п╪ п╩п╦я┬я▄ п©я─п╬я│п╦я▐п╣я┌
-<l><space dim="horizontal" extent="23 letters">п²п╬ п╫п╣ п╡ п╫п╬я┤я▄.
-<l><space dim="horizontal" extent="3 letters">п°п╬п╩я▄п╠я┐ п╫п╟п©я─п╟я│п╫п╬ п╪я▀ п╡п╬п╥п╡п╬п╢п╦п╪,
-<l>п■п╟ п©я─п╣п╩п╣я│я┌я▄ я▌п╫я▀я┘ п╢п╬п╠я─я▀я┘ п╩п╣я┌
-<l>п п╟п╩п╣я┤п╫п╟ я│я┌п╟я─п╬я│я┌я▄ п╫п╣ п╤п╣п╫п╣я┌;
-<l>п²п╦пЁп╢п╣ п╬я┌ п╣п╢п╨п╬п╧ п╫п╣ я┐я┘п╬п╢п╦п╪
-<l><space dim="horizontal" extent="23 letters">п║п╪п╣я─я┌п╦ п©я─п╬я┤я▄.
+<l><space dim="horizontal" extent="3 letters">Таков всему на свете рок:
+<l>Не вечно на кусту прельщает
+<l>Мастистый розовой цветок,
+<l>И солнце днем лишь просияет
+<l><space dim="horizontal" extent="23 letters">Но не в ночь.
+<l><space dim="horizontal" extent="3 letters">Мольбу напрасно мы возводим,
+<l>Да прелесть юных добрых лет
+<l>Калечна старость не женет;
+<l>Нигде от едкой не уходим
+<l><space dim="horizontal" extent="23 letters">Смерти прочь.
 
 
 <lg1 type="stanza" n="4">
-<l><space dim="horizontal" extent="3 letters">п═п╟п╥п╡п╣я─я│я┌п╬п╧ п╪п╣п╢п╫п╬п╧ я┘п╩я▐п╠п╦ п╥п╣п╡,
-<l>п╖я┌п╬ я│п╪п╣я─я┌я▄ п╡п╬п╨я─я┐пЁ я┌п╣п╠я▐ я─я▀пЁп╟п╣я┌,
-<l>п╒я┐ я│ п╡п╦п╥пЁп╬п╪ я│я┐п╫я┐п╡ п╪п╟я┘п╬п╪ п╡ п╠п╣пЁ,
-<l>п╘п╟п╢я▐, п╡ я┌п╣п╠я▐ п╫п╣ п©п╬п©п╟п╢п╟п╣я┌
-<l><space dim="horizontal" extent="23 letters">п²п╟ я│п╣п╧ я─п╟п╥.
-<l><space dim="horizontal" extent="3 letters">п п╬пЁп╢п╟ п╫п╟ п╡п╩п╟п╤п╦я│я┌п╬п╧ п╢п╬п╩п╦п╫п╣
-<l>п▓п╣я─я┘п╦ я│п╣п╢я▀п╣ п╡п╣я┌я─ п╡п╥п╪я┐я┌п╦я┌,
-<l>п п╟п╨ п╡п╟п╩ я▐я─я▐я│я▄ п╡ п╨п╬я─п╟п╠п╩я▄ я│я┌я┐я┤п╦я┌ -
-<l>п÷я─п╣п©п╩я▀п╩ п╫п╣ п©п╬пЁп╩п╬я┴п╣п╫- п╡ п©я┐я┤п╦п╫п╣
-<l><space dim="horizontal" extent="23 letters">п╒я▀ п╡ я│п╣п╧ я┤п╟я│.
+<l><space dim="horizontal" extent="3 letters">Разверстой медной хляби зев,
+<l>Что смерть вокруг тебя рыгает,
+<l>Ту с визгом сунув махом в бег,
+<l>Щадя, в тебя не попадает
+<l><space dim="horizontal" extent="23 letters">На сей раз.
+<l><space dim="horizontal" extent="3 letters">Когда на влажистой долине
+<l>Верхи седые ветр взмутит,
+<l>Как вал ярясь в корабль стучит -
+<l>Преплыл не поглощен- в пучине
+<l><space dim="horizontal" extent="23 letters">Ты в сей час.
 
 
 <lg1 type="stanza" n="5">
-<l><space dim="horizontal" extent="3 letters">п²п╣ п╪п╫п╦, я┤я┌п╬п╠ я│п╪п╣я─я┌я▄ я│п╡п╬п╣п╧
-п╨п╬я│п╬п╧
-<l>п╒п╣п╠я▐ п╡ п©п╬п╩п╣я┌п╣ п╪п╦п╫п╬п╡п╟п╩п╟;
-<l>п²п╣я┌ п╡ п╪п╦я─п╣ я┌п╡п╣я─п╢п╦ п╫п╦п╨п╟п╨п╬п╧,
-<l>п÷я─п╬я┌п╦п╡ п╣п╣ я┤я┌п╬п╠ я┐я│я┌п╬я▐п╩п╟,
-<l><space dim="horizontal" extent="23 letters">п п╟п╨ п©я─п╦п╢п╣я┌.
-<l><space dim="horizontal" extent="3 letters">п·я│я┌п╟п╡п╦я┬я▄ п╢п╬п╪, п╢я─я┐п╥п╣п╧,
-я│я┐п©я─я┐пЁя┐,
-<l>п▒п╬пЁп╟я┌я│я┌п╡п╟, я┤п╣я│я┌п╦, я┤я┌п╬ я│я┌я▐п╤п╟п╩:
-<l>пёп╡я▀! п©п╬я│п╩п╣п╢п╫п╦п╧ я┤п╟я│ п╫п╟я│я┌п╟п╩,
-<l>п╒п╣п╠я▐ п╨п╬я┌п╬я─я▀п╧ п╡ п╫п╬я┤я▄ я┐п©я─я┐пЁя┐
-<l><space dim="horizontal" extent="23 letters">п÷п╬п╡п╩п╣я┤п╣я┌.
+<l><space dim="horizontal" extent="3 letters">Не мни, чтоб смерть своей
+косой
+<l>Тебя в полете миновала;
+<l>Нет в мире тверди никакой,
+<l>Против ее чтоб устояла,
+<l><space dim="horizontal" extent="23 letters">Как придет.
+<l><space dim="horizontal" extent="3 letters">Оставишь дом, друзей,
+супругу,
+<l>Богатства, чести, что стяжал:
+<l>Увы! последний час настал,
+<l>Тебя который в ночь упругу
+<l><space dim="horizontal" extent="23 letters">Повлечет.
 
 
 <lg1 type="stanza" n="6">
-<l><space dim="horizontal" extent="3 letters">п п╬п╫я┤п╦п╫я▀ я┐п╥я─п╦п╪ п╡я│п╣ я┤п╣я─я┌п╬пЁ,
-<l>п·п╠я┼я▐я┌ п╨я─п╬п╡п╟п╡я▀п╪п╦ я│я┌я─я┐я▐п╪п╦;
-<l>п÷я─п╣п╢ п╡п╣п╨п╬п╪ я│п╪п╣я─я┌я▄ я│я┐п╢п╦п╩ п╫п╟п╪ п╠п╬пЁ;
-<l>п∙п╣ п╡п╣я─я┬п╦я┌я│я▐ п╡я│п╣ я┐я│я┌п╟п╪п╦
-<l><space dim="horizontal" extent="23 letters">п▓ п╪п╦я─п╣ я│п╣п╪.
-<l><space dim="horizontal" extent="3 letters">п╒я▀ п╪п╣я─я┌п╡; п╫п╬ п╢п╬п╪ п╫п╣ п╬п©я┐я│я┌п╣п╣я┌,
-<l>п▓п╥п╬п╡п╣я┌ п©я─п╣п╣п╪п╫п╦п╨ я│п╪п╣я┘п╦ я┌п╡п╬п╧;
-<l>п▓п╣я│п╣п╩п╬п╧ п©п╬п©п╦я─п╟я┌я▄ п╫п╬пЁп╬п╧,
-<l>п²п╣ п╢я┐п╪п╟я▐, я┌п╡п╬п╧ п©я─п╟я┘ я┐п╪п╣п╣я┌,
-<l><space dim="horizontal" extent="23 letters">п²п╦ п╬ я┤п╣п╪.
+<l><space dim="horizontal" extent="3 letters">Кончины узрим все чертог,
+<l>Объят кровавыми струями;
+<l>Пред веком смерть судил нам бог;
+<l>Ее вершится все устами
+<l><space dim="horizontal" extent="23 letters">В мире сем.
+<l><space dim="horizontal" extent="3 letters">Ты мертв; но дом не опустеет,
+<l>Взовет преемник смехи твой;
+<l>Веселой попирать ногой,
+<l>Не думая, твой прах умеет,
+<l><space dim="horizontal" extent="23 letters">Ни о чем.
 
 
 <lg1 type="stanza" n="7">
-<l><space dim="horizontal" extent="3 letters">п÷п╬я┤я┌п╬ я│я┌п╣п╫п╟я┌п╦ п©п╬п╢ п©я▐я┌п╬п╧
-<l>п║я┐п╣я┌, п╤п╣п╩п╟п╫п╦п╧ п╦ п╥п╟п╠п╬я┌я▀?
-<l>п÷п╬п╡п╣я─я▄, п╡п©п╣я─я▐я┌я▄ п╫п╟п╪ я┐п╪ п╡п╣я│я▄ я│п╡п╬п╧
-<l>п▓ п╠п╣п╥п╪п╣я─п╫я▀ п╤п╦п╥п╫п╦ п╬п╠п╬я─п╬я┌я▀
-<l><space dim="horizontal" extent="23 letters">п²я┐п╤п╢я▀ п╫п╣я┌.
-<l><space dim="horizontal" extent="3 letters">п║п©п╬п╨п╬п╧п╫я▀п╪ п╬п╨п╬п╪ я▐ п╡п╥п╦я─п╟я▌
-<l>п²п╟ п╠я┐я─п╫я▀ п╥п╟п╪я▀я│п╩я▀ я├п╟я─п╣п╧;
-<l>п■п╩я▐ п©п╬п╩я▄п╥я▀ п╨я─п╟я┌п╨п╦я┘, я┌п╦я┘п╦я┘ п╢п╫п╣п╧,
-<l>п я─я┐я┬п╟я│я▄ п╡я│п╣я┤п╟я│п╫п╬, п╫п╣ я│п╠п╦я─п╟я▌
-<l><space dim="horizontal" extent="23 letters">п≈п╩п╟я┌я▀я┘ п╠п╣п╢.
+<l><space dim="horizontal" extent="3 letters">Почто стенати под пятой
+<l>Сует, желаний и заботы?
+<l>Поверь, вперять нам ум весь свой
+<l>В безмерны жизни обороты
+<l><space dim="horizontal" extent="23 letters">Нужды нет.
+<l><space dim="horizontal" extent="3 letters">Спокойным оком я взираю
+<l>На бурны замыслы царей;
+<l>Для пользы кратких, тихих дней,
+<l>Крушась всечасно, не сбираю
+<l><space dim="horizontal" extent="23 letters">Златых бед.
 
 
 <lg1 type="stanza" n="8">
-<l><space dim="horizontal" extent="3 letters">п п╬я│я┌п╦я│я┌я┐ п╩п╟п©я┐ я│п╬п╨я─я┐я┬п╦п╪,
-<l>п÷п╣я┤п╟п╩я▄ п╨п╬я┌п╬я─я┐ п╡ п╫п╟я│ п╡п╬п╫п╥п╦п╩п╟;
-<l>п°я▀ п╤п╟п╩п╬ я│п╨я┐п╨п╦ п©я─п╣п╩п╬п╪п╦п╪,
-<l>п÷я─п╬я┬п╣п╢ я┤я┌п╬ п╡ п╫п╟я│ я│ я┤п╣п╩п╟ п╢п╬ я┌я▀п╩п╟,
-<l><space dim="horizontal" extent="23 letters">п■я┐я┬я┐ п╣я│я┌.
-<l><space dim="horizontal" extent="3 letters">п▒п╣п╢я─я┐ п╡п╣я│п╣п╩я▄п╣п╪ п©я─п╣п©п╬я▐я┬п╣п╪,
-<l>п≤я│п©п╬п╩п╫п╦п╪ я─п╟п╢п╬я│я┌п╦ я│п╬я│я┐п╢,
-<l>п■п╟ п╡я│п╩п╣п╢ п╦п╢п╣я┌ п╩я▌п╠п╬п╡я▄ п╫п╟п╪ я┌я┐я┌;
-<l>п▒п╬пЁп╦п╫п╣ п╠п╬п╢я─я│я┌п╡п╣п╫п╫п╬ п╡п╬я│п©п╩я▐я┬п╣п╪
-<l><space dim="horizontal" extent="23 letters">п²п╣п╤п╫я▀я┘ п╪п╣я│я┌.
+<l><space dim="horizontal" extent="3 letters">Костисту лапу сокрушим,
+<l>Печаль котору в нас вонзила;
+<l>Мы жало скуки преломим,
+<l>Прошед что в нас с чела до тыла,
+<l><space dim="horizontal" extent="23 letters">Душу ест.
+<l><space dim="horizontal" extent="3 letters">Бедру весельем препояшем,
+<l>Исполним радости сосуд,
+<l>Да вслед идет любовь нам тут;
+<l>Богине бодрственно воспляшем
+<l><space dim="horizontal" extent="23 letters">Нежных мест.
 </body>
   </text>
 </tei.2>

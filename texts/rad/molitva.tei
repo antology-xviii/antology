@@ -29,45 +29,45 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>п°п╬п╩п╦я┌п╡п╟</title>
+<title>Молитва</title>
         <author>
           <persName>
-            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
-            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
-            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
           </persName>
         </author>
-        <principal>п·п╩я▄пЁп╟ п═п╬я┴п╦п╫п╟</principal>
+        <principal>Ольга Рощина</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
-п╡п╣п╨п╟&quot;</title>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒п╬п╪ 1.</title>
-            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░.</editor>
+            <title>Радищев А. Н. Полное собрание сочинений. Том 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨  п║п║п║п═</publisher>
-<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">п═я┐я│я│п╨п╟я▐ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐
-п╠п╦п╠п╩п╦п╬я┌п╣п╨п╟</XREF></DISTRIBUTOR>
-            <pubPlace>п°.-п⌡.</pubPlace>
+            <publisher>Издательство Академии Наук  СССР</publisher>
+<DISTRIBUTOR><XREF DOC="rvb" TO="ROOT">Русская виртуальная
+библиотека</XREF></DISTRIBUTOR>
+            <pubPlace>М.-Л.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>п°п╬п╩п╦я┌п╡п╟</title>
+                <title>Молитва</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>п║п╬п╠я─п╟п╫п╦п╣ п╬я│я┌п╟п╡я┬п╦я┘я│я▐ я│п╬я┤п╦п╫п╣п╫п╦п╧ п©п╬п╨п╬п╧п╫п╬пЁп╬
-п░п╩п╣п╨я│п╟п╫п╢я─п╟ п²п╦п╨п╬п╩п╟п╣п╡п╦я┤п╟ п═п╟п╢п╦я┴п╣п╡п╟. п╒п╬п╪ 1</publisher>
+                <publisher>Собрание оставшихся сочинений покойного
+Александра Николаевича Радищева. Том 1</publisher>
                 <date>1807</date>
               </publicationStmt>
             </biblFull>
@@ -83,19 +83,19 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='п╡п╣я─п╟/п╫п╣п╡п╣я─п╦п╣'>
-<span from='whole' type='theme' value='п╬п╤п╦п╢п╟п╫п╦п╣ я│п╪п╣я─я┌п╦'>
-<span from='whole' type='theme' value='п╥п╟пЁя─п╬п╠п╫п╟я▐ п╤п╦п╥п╫я▄'>
-<body id='whole'><div0 met='п╞6' rhyme="AAbbCCdd.">
+<span from='whole' type='theme' value='вера/неверие'>
+<span from='whole' type='theme' value='ожидание смерти'>
+<span from='whole' type='theme' value='загробная жизнь'>
+<body id='whole'><div0 met='Я6' rhyme="AAbbCCdd.">
 <lg1 type="stanza">
-<l>п╒п╣п╠я▐, п╬ п╠п╬п╤п╣ п╪п╬п╧, я┌п╣п╠я▐ п╫п╣ п©я─п╦п╥п╫п╟п╡п╟я▌я┌, -
-<l>п╒п╣п╠я▐, я┤я┌п╬ я┌п╡п╟я─п╦ п╡я│п╣ п©п╬п╡я│я▌п╢я┐ п╡п╬п╥п╡п╣я┴п╟я▌я┌.
-<l>п▓п╫п╣п╪п╩п╦ п©п╬я│п╩п╣п╢п╫п╦п╧ пЁп╩п╟я│: я▐ п╣я│п╩п╦ п©я─п╣пЁя─п╣я┬п╦п╩,
-<l>п≈п╟п╨п╬п╫ я▐ я┌п╡п╬п╧ п╦я│п╨п╟п╩, п╡ п╢я┐я┬п╣ я┌п╣п╠я▐ п╩я▌п╠п╦п╩;
-<l>п²п╣ п╨п╬п╩п╣п╠п╟я▐я│я▐ п╫п╟ п╡п╣я┤п╫п╬я│я┌я▄ я▐ п╡п╥п╦я─п╟я▌;
-<l>п²п╬ я┌я▀ п╪п╣п╫я▐ я─п╬п╢п╦п╩, п╦ я▐ п╫п╣ п©п╬п╫п╦п╪п╟я▌,
-<l>п╖я┌п╬ п╠п╬пЁ, п╨п╣п╪ п╡ п╢п╫п╦ п╪п╬п╦ п╠п╩п╟п╤п╣п╫я│я┌п╡п╟ п╩я┐я┤ я│п╦я▐п╩,
-<l>п п╬пЁп╢п╟ п©я─п╣я─п╡п╣я┌я│я▐ п╤п╦п╥п╫я▄, п╫п╟ п╡п╣п╨ п╪п╣п╫я▐ я┌п╣я─п╥п╟п╩...
+<l>Тебя, о боже мой, тебя не признавают, -
+<l>Тебя, что твари все повсюду возвещают.
+<l>Внемли последний глас: я если прегрешил,
+<l>Закон я твой искал, в душе тебя любил;
+<l>Не колебаяся на вечность я взираю;
+<l>Но ты меня родил, и я не понимаю,
+<l>Что бог, кем в дни мои блаженства луч сиял,
+<l>Когда прервется жизнь, на век меня терзал...
 </body>
   </text>
 </tei.2>

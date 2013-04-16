@@ -28,43 +28,43 @@ encoding declarations//RU" "encoding.tei">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<title>п╜п©п╦я┌п╟я└п╦я▐</title>
+<title>Эпитафия</title>
         <author>
           <persName>
-            <forename>п░п╩п╣п╨я│п╟п╫п╢я─</forename>
-            <forename type='patronym'>п²п╦п╨п╬п╩п╟п╣п╡п╦я┤</forename>
-            <surname>п═п╟п╢п╦я┴п╣п╡</surname>
+            <forename>Александр</forename>
+            <forename type='patronym'>Николаевич</forename>
+            <surname>Радищев</surname>
           </persName>
         </author>
-        <principal>п░п╫п╟я│я┌п╟я│п╦я▐ п╕я▀п╩п╦п╫п╟</principal>
+        <principal>Анастасия Цылина</principal>
       </titleStmt>
       <publicationStmt>
-        <publisher>п≤п╓п≤, я│п╣п╪п╦п╫п╟я─ &quot;п═я┐я│я│п╨п╦п╧ XVIII п╡п╣п╨&quot;</publisher>
-        <availability status='free'><p>&copy; 2012 п≤п╓п≤</availability>
+        <publisher>ИФИ, семинар &quot;Русский XVIII век&quot;</publisher>
+        <availability status='free'><p>&copy; 2012 ИФИ</availability>
       </publicationStmt>
       <seriesStmt>
-        <title>п╜п╩п╣п╨я┌я─п╬п╫п╫п╟я▐ п╟п╫я┌п╬п╩п╬пЁп╦я▐ &quot;п═я┐я│я│п╨п╟я▐ п╩п╦я┌п╣я─п╟я┌я┐я─п╟ XVIII
-п╡п╣п╨п╟&quot;</title>
+        <title>Электронная антология &quot;Русская литература XVIII
+века&quot;</title>
       </seriesStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>п═п╟п╢п╦я┴п╣п╡ п░. п². п÷п╬п╩п╫п╬п╣ я│п╬п╠я─п╟п╫п╦п╣ я│п╬я┤п╦п╫п╣п╫п╦п╧. п╒. 1.</title>
-            <editor>п⌡я┐п©п©п╬п╩ п≤. п ., п⌠я┐п╨п╬п╡я│п╨п╦п╧ п⌠. п░., п■п╣я│п╫п╦я├п╨п╦п╧ п▓. п░.</editor>
+            <title>Радищев А. Н. Полное собрание сочинений. Т. 1.</title>
+            <editor>Луппол И. К., Гуковский Г. А., Десницкий В. А.</editor>
           </titleStmt>
           <publicationStmt>
-            <publisher>п≤п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╬ п░п╨п╟п╢п╣п╪п╦п╦ п²п╟я┐п╨ п║п║п║п═</publisher>
-            <pubPlace>п°.-п⌡.</pubPlace>
+            <publisher>Издательство Академии Наук СССР</publisher>
+            <pubPlace>М.-Л.</pubPlace>
             <date>1938</date>
           </publicationStmt>
           <sourceDesc>
             <biblFull>
               <titleStmt>
-                <title>п╜п©п╦я┌п╟я└п╦я▐</title>
+                <title>Эпитафия</title>
               </titleStmt>
               <publicationStmt>
-                <publisher>п║п╬п╠я─п╟п╫п╦п╣ п╬я│я┌п╟п╡я┬п╦я┘я│я▐ я│п╬я┤п╦п╫п╣п╫п╦п╧ п©п╬п╨п╬п╧п╫п╬пЁп╬
-п░п╩п╣п╨я│п╟п╫п╢я─п╟ п²п╦п╨п╬п╩п╟п╣п╡п╦я┤п╟ п═п╟п╢п╦я┴п╣п╡п╟. п╒. 1.</publisher>
+                <publisher>Собрание оставшихся сочинений покойного
+Александра Николаевича Радищева. Т. 1.</publisher>
                 <date>1806</date>
               </publicationStmt>
             </biblFull>
@@ -83,28 +83,28 @@ encoding declarations//RU" "encoding.tei">
     </profileDesc>
   </teiHeader>
 <text>
-<span from='whole' type='theme' value='п╥п╟пЁя─п╬п╠п╫п╬п╣ я│я┐я┴п╣я│я┌п╡п╬п╡п╟п╫п╦п╣'>
-<span from='whole' type='theme' value='п╩я▌п╠п╬п╡я▄'>
-<body id='whole'><div0 met='п╞п▓' rhyme="п░я│я┌я─п╬я└п╦я┤. п╡. я─.">
-<lg1 type="group"><l><space dim="horizontal" extent="6 letters">п·! п╣я│п╩п╦ я┌п╬
-п╫п╣ п╩п╬п╤п╫п╬,
-<l><space dim="horizontal" extent="12 letters">п╖я┌п╬ п╪я▀ п©п╬ я│п╪п╣я─я┌п╦ п╠я┐п╢п╣п╪ п╤п╦я┌я▄;
-<l><space dim="horizontal" extent="6 letters">п п╬п╩я▄ п╠я┐п╢п╣п╪ п╤п╦я┌я▄, я┌п╬
-я┤я┐п╡я│я┌п╡п╬п╡п╟я┌я▄ п╫п╟п╪ п╢п╬п╩п╤п╫п╬;
-<l>п п╬п╩я▄ п╠я┐п╢п╣п╪ я┤я┐п╡я│я┌п╡п╬п╡п╟я┌я▄, п╫п╣п╩я▄п╥я▐ п╦ п╫п╣ п╩я▌п╠п╦я┌я▄.
-<l><space dim="horizontal" extent="6 letters">п²п╟п╢п╣п╤п╢п╬п╧ я│п╣п╧ я│п╣п╠я▐ п©п╦я┌п╟я▐
-<l><space dim="horizontal" extent="6 letters">п≤ п╢п╫п╦ п╡ я┌п╬я│п╨п╣ п©я─п╣п©я─п╬п╡п╬п╤п╢п╟я▐,
-<l><space dim="horizontal" extent="6 letters">п╞ я│п╪п╣я─я┌п╦ п╤п╢я┐, п╨п╟п╨ п╠я─п╟я┤п╫п╟ п╢п╫я▐;
-<l><space dim="horizontal" extent="6 letters">пёп╪я─я┐ п╦ пЁп╬я─п╣я│я┌п╦ п╥п╟п╠я┐п╢я┐,
-<l>п▓ п╬п╠я┼я▐я┌п╦я▐я┘ я┌п╡п╬п╦я┘ я▐ п©п╟п╨п╦ я│я┤п╟я│я┌п╩п╦п╡ п╠я┐п╢я┐.
-<l>п²п╬ п╣я│п╩п╦ п╤ я┌п╬ п╪п╣я┤я┌п╟, я┤я┌п╬ я│п╣я─п╢я├я┐ п╩я▄я│я┌п╦я┌ п╪п╟п╫я▐,
-<l>п≤ п╫п╣п╫п╟п╡п╦я│я┌п╫я▀п╧ я─п╬п╨ п╬я┌я┼я▐п╩ я┌п╣п╠я▐ п╫п╟ п╡п╣п╨п╦,
-<l>п╒п╬пЁп╢п╟ п╬я┌я─п╟п╢я▀ п╫п╣я┌, п╢п╟ п╩я▄я▌я┌я│я▐ я│п╩п╣п╥п╫я▀ я─п╣п╨п╦. - -
-<lg1 type="group"><l><space dim="horizontal" extent="6 letters">п╒я─п╬п╫п╦я│я▄,
-п╩я▌п╠п╣п╥п╫п╟я▐! я│я┌п╣п╫п╟п╫п╦я▐п╪п╦ п╢я─я┐пЁп╟,
-<l>п║п╣ п©я─п╣п╢я│я┌п╬п╦я┌ я┌п╣п╠п╣ п╡ п╬п╠я┼я▐я┌я▄я▐я┘ я┌п╡п╬п╦я┘ я┤п╟п╢;
-<l>п²п╣ п╪п╬п╤п╣я┬я▄ п╨п╬п╩я▄ п©я─п╣п╧я┌п╦ я│п╡п╦я─п╣п©я▀я┘ я│п╪п╣я─я┌п╦ п╡я─п╟я┌,
-<l>п╞п╡п╦я│я▄ я┘п╬я┌я▐ п╡ п╪п╣я┤я┌п╣, я┐я┌п╣я┬п╦ я┌п╣п╪ я│я┐п©я─я┐пЁп╟...
+<span from='whole' type='theme' value='загробное существование'>
+<span from='whole' type='theme' value='любовь'>
+<body id='whole'><div0 met='ЯВ' rhyme="Астрофич. в. р.">
+<lg1 type="group"><l><space dim="horizontal" extent="6 letters">О! если то
+не ложно,
+<l><space dim="horizontal" extent="12 letters">Что мы по смерти будем жить;
+<l><space dim="horizontal" extent="6 letters">Коль будем жить, то
+чувствовать нам должно;
+<l>Коль будем чувствовать, нельзя и не любить.
+<l><space dim="horizontal" extent="6 letters">Надеждой сей себя питая
+<l><space dim="horizontal" extent="6 letters">И дни в тоске препровождая,
+<l><space dim="horizontal" extent="6 letters">Я смерти жду, как брачна дня;
+<l><space dim="horizontal" extent="6 letters">Умру и горести забуду,
+<l>В объятиях твоих я паки счастлив буду.
+<l>Но если ж то мечта, что сердцу льстит маня,
+<l>И ненавистный рок отъял тебя на веки,
+<l>Тогда отрады нет, да льются слезны реки. - -
+<lg1 type="group"><l><space dim="horizontal" extent="6 letters">Тронись,
+любезная! стенаниями друга,
+<l>Се предстоит тебе в объятьях твоих чад;
+<l>Не можешь коль прейти свирепых смерти врат,
+<l>Явись хотя в мечте, утеши тем супруга...
 </body>
   </text>
 </tei.2>
