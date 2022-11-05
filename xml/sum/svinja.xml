@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Чинолюбивая семья</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ольга Овчарская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Чинолюбивая свинья</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 3.</title>
+            <respStmt>
+              <resp>        Собраны и изданы в         удовольствие любителей российской учености</resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.</tei:orig>
+                  <tei:reg>Новиков Н.И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>1787</creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Известно то, что многим</l>
+          <l part="N">Чины давно вошли в оброк четвероногим.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Калигулы</tei:orig><tei:reg>Калигула</tei:reg></tei:choice></tei:name> коню великое давно</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>Достоинство дано.</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Однако не одни лошадки</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Имели таковы припадки,</l>
+          <l part="N"><space dim="horizontal" extent="15 letters"/>Но многие скоты</l>
+          <l part="N">Носили без плодов почетные цветы.</l>
+          <l part="N">Взмурзилась и свинья, чтоб ей повеличаться</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>И чином отличаться;</l>
+          <l part="N">За чин де более всего на свете чтут,</l>
+          <l part="N">Так точно главное достоинство все тут;</l>
+          <l part="N">А без того была какая бы причина</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Искать и добиваться чина.</l>
+          <l part="N"><space dim="horizontal" extent="6 letters"/>Отказано свинье; в ней кровь кипит</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>Свинья свиньей храпит,</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>Свинья змеей шипит,</l>
+          <l part="N">И от досады той не ест, не пьет, не спит.</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>О чем свинья хлопочет?</l>
+          <l part="N">Какой-то философ то видит и хохочет,</l>
+          <l part="N">И говорит он ей: <q>Безумная свинья!</q> <q><l part="N"><space dim="horizontal" extent="11 letters"/>Скажи, голубушка моя,</l><l part="N">К чему названия свинья пустого хочет? </l></q></l>
+          <l part="N"><space dim="horizontal" extent="11 letters"/>Она ответствует ему: <q><l part="N"><space dim="horizontal" extent="28 letters"/>К тому,</l><l part="N">Чтоб было сказано когда о мне в банкете,</l><l part="N"><space dim="horizontal" extent="17 letters"/>Как я войду в чины:</l><l part="N"><q>Превосходительной покушай ветчины</q>.</l></q></l>
+          <l part="N">Он ей ответствовал: <q>Коль нет меня на свете,</q> <q><l part="N"><space dim="horizontal" extent="17 letters"/>Начто мне чин, душа?</l><l part="N">Свинина же притом не чином хороша</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

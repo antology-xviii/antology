@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ЭЛЕГИЯ </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Мария Карманова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2008 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века</title>
+            <editor role="editor">Кочеткова Н.Д.,  Макогоненко Г.П.. Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Элегия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Свободные часы. No4</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1763</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">ненависть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <body xml:id="whole">
+      <div met="Ан4" rhyme="aaBB" org="uniform" sample="complete" part="N">
+        <l part="N">Иль я столь ненавидим, драгая, тобой,</l>
+        <l part="N">Что тебе в отягченье и быти со мной?</l>
+        <l part="N">Лишь с тобою увижусь, ты станешь смущаться,</l>
+        <l part="N">И стремишься оттуда, где я, удаляться,</l>
+        <l part="N">И не хочешь на речи мои отвечать.</l>
+        <l part="N">Что ж из этого должен, скажи, заключать?</l>
+        <l part="N"> <q>Убегай повсеместно</q>, - твердишь ты всечасно, -</l>
+        <l part="N"><q>Мне видаться с тобою, ты ведай, ужасно</q>.</l>
+        <l part="N">Но когда не увидишь ты долго меня,</l>
+        <l part="N">Так досаду являешь тогда мне, стеня.</l>
+        <l part="N">Что я делал, где был я, тогда вопрошаешь;</l>
+        <l part="N">А увижусь с тобою, меня убегаешь.</l>
+        <l part="N">Иль намерена этим ты дух мой терзать,</l>
+        <l part="N">Чрез премену желаний покой отнимать?</l>
+        <l part="N">Но когда меня любишь, почто то скрываешь</l>
+        <l part="N">И, сама тем терзаясь, меня разрываешь?</l>
+        <l part="N">Перестань дух крушити и тайну открой,</l>
+        <l part="N">И мучение злое ты тем успокой.</l>
+        <l part="N">Прекрати ты, драгая, мученье сердечно,</l>
+        <l part="N">Я, любя тебя верно, любить буду вечно.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

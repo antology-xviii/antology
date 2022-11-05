@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Русские девушки </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Русские девушки </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Анакреонтические песни Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1799</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">русские крестьянки</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb..." org="uniform" sample="complete" part="N">
+        <l part="N">Зрел ли ты, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>певец Тииский</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name>!</l>
+        <l part="N">Как в лугу весной бычка</l>
+        <l part="N">Пляшут девушки российски</l>
+        <l part="N">Под свирелью пастушка?</l>
+        <l part="N">Как, склонясь главами, ходят,</l>
+        <l part="N">Башмаками в лад стучат,</l>
+        <l part="N">Тихо руки, взор поводят</l>
+        <l part="N">И плечами говорят?</l>
+        <l part="N">Как их лентами златыми</l>
+        <l part="N">Челы белые блестят,</l>
+        <l part="N">Под жемчугами драгими</l>
+        <l part="N">Груди нежные дышат?</l>
+        <l part="N">Как сквозь жилки голубые</l>
+        <l part="N">Льется розовая кровь,</l>
+        <l part="N">На ланитах огневые</l>
+        <l part="N">Ямки врезала любовь?</l>
+        <l part="N">Как их брови соболины,</l>
+        <l part="N">Полный искр соколий взгляд,</l>
+        <l part="N">Их усмешка - души львины</l>
+        <l part="N">И орлов сердца разят?</l>
+        <l part="N">Коль бы видел дев сих красных,</l>
+        <l part="N">Ты б гречанок позабыл</l>
+        <l part="N">И на крыльях сладострастных</l>
+        <l part="N">Твой <name type="mythologic">Эрот</name> прикован был.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

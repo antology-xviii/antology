@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Эпистола от Российския поэзии к Aпoллину</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Эпистола от Российския поэзии к Aпoллину</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Новый и краткий способ к сложению  российских стихов с определениями до сего  надлежащих званий. СПб.</publisher>
+                <date>1735</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1735</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">новый способ стихосложения</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">история стиха</tei:span>
+    <body xml:id="whole">
+      <div met="Х7" rhyme="Астрофич. п.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Девяти парнасских сестр</tei:orig><tei:reg>Музы</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Девяти парнасских сестр</quote> - девяти муз.</note>, купно <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Геликона</tei:orig><tei:reg>Геликон</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Геликон</quote> - гора в Греции, посвященная Аполлону и музам.</note>,</l>
+          <l part="N">О начальник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аполлин</tei:orig><tei:reg>Аполлон</tei:reg></tei:choice></tei:name>, и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>пермесска</tei:orig><tei:reg>Пермесс, р.</tei:reg></tei:choice></tei:name> звона! <note resp="editor" place="unspecified" anchored="true"><quote>Пермесска звона</quote> - т. е. поэзии. Река Пермесс, текущая с горы Геликон, посвящена была Аполлону и музам.</note></l>
+          <l part="N">О родитель сладких слов, сердце веселящих,</l>
+          <l part="N">Прост слог и не украшен всячески красящих!</l>
+          <l part="N">Посылаю ти сию, Росска поэзия,</l>
+          <l part="N">Кланяяся до земли, должно что, самыя.</l>
+          <l part="N">Нову вещь тебе хочу сею объявити,</l>
+          <l part="N">И с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнаса</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> тя сюда самого просити,</l>
+          <l part="N">Чтобы в помощь ты мою был всегда скорейший,</l>
+          <l part="N">Чтобы слог мой при тебе начал быть острейший.</l>
+          <l part="N">Уж довольно чрез тебя пела наученна,</l>
+          <l part="N">Греческа сестра моя, в веки не забвенна;</l>
+          <l part="N">Славил много хитр Гомер ею <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Ахиллеса</tei:orig><tei:reg>Ахиллес</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Чрез <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Улиссов</tei:orig><tei:reg>Улисс</tei:reg></tei:choice></tei:name> же поход<note resp="editor" place="unspecified" anchored="true"><quote>Улиссов ... поход</quote> - странствия Одиссея.</note> уж знатна <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Цирцеса</tei:orig><tei:reg>Цирцея</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Цирцеса</quote> - волшебница Цирцея, пленившая Одиссея и препятствовавшая его возвращению на родину.</note>.</l>
+          <l part="N">Много ж и сестра тобой римска свету пела,</l>
+          <l part="N">Жаром, что вложил ты ей, дивно та кипела:</l>
+          <l part="N">Уж <name type="mythologic">Эней</name><note resp="editor" place="unspecified" anchored="true"><quote>Эней</quote> - герой поэмы Вергилия ?Энеида?.</note> описан там, сердца добронравна,</l>
+          <l part="N">Чрез <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вергилия</tei:orig><tei:reg>Вергилий</tei:reg></tei:choice></tei:name> в стихах князя толь преславна;</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Горациева</tei:orig><tei:reg>Гораций</tei:reg></tei:choice></tei:name> всем есть люба уж лира,</l>
+          <l part="N">С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ювеналовой</tei:orig><tei:reg>Ювенал</tei:reg></tei:choice></tei:name> притом колюща сатира.</l>
+          <l part="N">Где <name type="person">Овидий</name> уж не чтен радостно пресладкий?</l>
+          <l part="N"><name type="person">Галл</name>, <name type="person">Проперций</name> и <name type="person">Тибулл</name><note resp="editor" place="unspecified" anchored="true"><quote>Галл, Проперций, Тибулл</quote> - римские поэты I века до н. э., так называемого ?золотого века? римской литературы.</note> в слоге своем гладкий?</l>
+          <l part="N">И <name type="person">Теренций</name>, комик <name type="person">Плавт</name><note resp="editor" place="unspecified" anchored="true"><quote>Теренций, Плавт</quote> - (III-II в. до н. э.) древнеримские комедиографы.</note> в сокке<note resp="editor" place="unspecified" anchored="true"><quote>В сокке</quote> - т. е. в комедии; у древних римлян сокк (soccus) - обувь комических актеров.</note> поиграли,</l>
+          <l part="N">Плеск и похвалу себе в римлянах сыскали;</l>
+          <l part="N">Трагик <name type="person">Сенека</name><note resp="editor" place="unspecified" anchored="true"><quote>Сенека</quote> - древнеримский драматург (между 6 и 3 до н. э. - 65 н. э.) - автор трагедий ?Федра?, ?Медея? и др.</note> не столь ткал хоть стих изрядно,</l>
+          <l part="N">Выходил в котурне<note resp="editor" place="unspecified" anchored="true"><quote>В котурне</quote> - т. е. в трагедии; котурны - обувь трагических актеров.</note> он иногда ж нарядно;</l>
+          <l part="N"><name type="person">Марциал</name><note resp="editor" place="unspecified" anchored="true"><quote>Марциал</quote> - древнеримский поэт (ок. 40 - ок. 102) - выдающийся мастер эпиграммы.</note> кратк, узловат, многажды сатирик,</l>
+          <l part="N">В эпиграмме умещал инде панегирик.</l>
+          <l part="N">Всем моя сим к славе их там сестра служила,</l>
+          <l part="N">И тебя довольно в сих <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аполлина</tei:orig><tei:reg>Аполлон</tei:reg></tei:choice></tei:name> чтила.</l>
+          <l part="N">Не презренна и сестра от тебя та нежна,</l>
+          <l part="N">С тевтом, ибером<note resp="editor" place="unspecified" anchored="true"><quote>С тевтом, ибером</quote> - с германцем и испанцем. Имеется в виду Франция, расположенная между Германией и Испанией.</note> живет что в средине смежна,</l>
+          <l part="N">С мягким так же в юг близка что италиянцем,</l>
+          <l part="N">С острым в север чрез моря? купно и британцем;</l>
+          <l part="N">Галлы ею в свет уже славны пронеслися,</l>
+          <l part="N">Цесарем что, но давно, варвары звалися<note resp="editor" place="unspecified" anchored="true"><quote>Варвары звалися</quote> - Юлий Цезарь в ?Записках о Галльской войне? называет варварами галлов, живших на территории теперешней Франции и враждовавших с Римом.</note>.</l>
+          <l part="N">Два Корнелия<note resp="editor" place="unspecified" anchored="true"><quote>Два Корнелия</quote> - Пьер Корнель (1606-1684), один из создателей французского классицизма, ?отец французской трагедии?, как его тогда называли, и его брат Тома Корнель (1625-1709), автор многих трагедий и комедий; оба члены французской Академии.</note>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Рацин</tei:orig><tei:reg>Расин Ж.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Рацин</quote> - Расин.</note>, трагики искусны,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Реньние</tei:orig><tei:reg>Ренье М.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Реньние</quote> - Матюрен Ренье (1573-1613), французский поэт-сатирик.</note> в них, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Боало</tei:orig><tei:reg>Буало-Депрео Н.</tei:reg></tei:choice></tei:name>, сатирами вкусны;</l>
+          <l part="N">С разумом и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Молиер</tei:orig><tei:reg>Мольер Ж. Б.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Молиер</quote> - Мольер.</note> в роде их глумливый,</l>
+          <l part="N">Был <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вергилия</tei:orig><tei:reg>Вергилий</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Скарон</tei:orig><tei:reg>Скарон П.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Был Вергилия Скарон</quote> - Поль Скарон (1610-1660) - французский писатель; написал бурлескную поэму ?Вергилий наизнанку?.</note> осмеять шутливый;</l>
+          <l part="N">Молодой хоть в них <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Волтер</tei:orig><tei:reg>Вольтер</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Молодой ... Волтер</quote> - Вольтер; в его раннем творчестве (трагедия ?Эдип?, поэма ?Генриада? и др.) были еще сильны традиции классицизма.</note>, но весьма чист в слоге;</l>
+          <l part="N">Счастлив о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>де ла Фонтен</tei:orig><tei:reg>Лафонтен Ж. де</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Де ла Фонтен</quote> - Лафонтен.</note> басен был в прилоге!</l>
+          <l part="N">Одами летал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Малгерб</tei:orig><tei:reg>Малерб Ф. де</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Малгерб</quote> - Франсуа де Малерб (1555-1628), французский поэт, прославился как автор панегирических произведений.</note> в них всегда достойно,</l>
+          <l part="N">Эклогу поправил там <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Фонтенел</tei:orig><tei:reg>Фонтенель Б. Б. ле</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Фонтенел</quote> - Бернар ле Бовье (1657-1757) - французский поэт и ученый, с 1699 г. непременный секретарь Академии наук.</note> пристойно;</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Воатюр</tei:orig><tei:reg>Вуарюр В.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Воатюр</quote> - Венсан Вуатюр (1598-1648), французский поэт, представитель салонной, прециозной литературы.</note> в ронде<note resp="editor" place="unspecified" anchored="true"><quote>В ронде</quote> - в жанре рондо.</note> играл, весел и приятен,</l>
+          <l part="N">Больше чрез псалмы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Русо</tei:orig><tei:reg>Руссо Ж. Б.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Русо</quote> - Жан Батист Руссо (1670-1741), французский поэт-классицист.</note>, хоть чрез всё он знатен.</l>
+          <l part="N">Про других упоминать, право, нет им счету,</l>
+          <l part="N">Особливу всяк в стихе показал доброту.</l>
+          <l part="N">Эпиграммы тот писал, ин же филиппики<note resp="editor" place="unspecified" anchored="true"><quote>Филиппики</quote> - обличительные речи. Название происходит от выступлений древнегреческого оратора Демосфена против Филиппа II.</note>,</l>
+          <l part="N">Славны оперы другой сладкой для музыки;</l>
+          <l part="N">В элегиях плакал ин жалостно, умильно,</l>
+          <l part="N">Тот сонет, тот мадригал, тот балад клал сильно.</l>
+          <l part="N">Песен их что может быть лучше и складняе?</l>
+          <l part="N">Ей! ни <name type="place">Греция</name>, ни в том мог быть <name type="place">Рим</name> умняе.</l>
+          <l part="N">Славны и еще они, но по правде славны,</l>
+          <l part="N">Что жены, тот красный пол, были в том исправны<note resp="editor" place="unspecified" anchored="true"><quote>Были в том исправны</quote> - т. е. были усердны, смелы в поэзии.</note>:</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сапфо</tei:orig><tei:reg>Сафо</tei:reg></tei:choice></tei:name> б греческа была в зависти великой,</l>
+          <l part="N">Смысл девицы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Скудери</tei:orig><tei:reg>Скюдери М. де</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Скудери</quote> - мадемуазель Мадлен де Скюдери (1607-1701), французская писательница, хозяйка известного литературного салона, где ее называли ?новой Сафо?.</note> есть в стихе коликой;</l>
+          <l part="N">Горько плачущей стихом нежной <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>де ла Сюзы</tei:orig><tei:reg>Сюз А. де Ла</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Де ла Сюзы</quote> - де ла Сюз (1618-1673), французская поэтесса.</note></l>
+          <l part="N">Сладостнее никогда быть не может музы.</l>
+          <l part="N">Токмо полно мне и сих имянно счисляти,</l>
+          <l part="N">Лучше сам ты, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аполлин</tei:orig><tei:reg>Аполлон</tei:reg></tei:choice></tei:name>, можешь про них знати.</l>
+          <l part="N"><name type="place">Галлия</name> имеет в том, ей, толику славу,</l>
+          <l part="N">Что за средню дочь твою можно чтить по праву.</l>
+          <l part="N">В сытость напился воды так же касталийски<note resp="editor" place="unspecified" anchored="true"><quote>Воды ... касталийски</quote>(греч. миф.) - т. е. воды из Кастальского источника на Парнасе, источника вдохновения.</note>,</l>
+          <l part="N">Что писал разумно <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тасс</tei:orig><tei:reg>Тассо Т.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Тасс</quote> - Торквато Tacco (1544-1595), итальянский поэт, автор поэмы ?Освобожденный Иерусалим?.</note> и по-италийски.</l>
+          <l part="N">Ты вознес в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Милтоне</tei:orig><tei:reg>Мильтон Дж.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Милтон</quote> - Джон Мильтон (1608-1674), английский поэт, автор поэм ?Потерянный рай?, ?Возвращенный рай?.</note> толь и сестру британску,</l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Лопе</tei:orig><tei:reg>Вега Л. де</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Лопе</quote> - Лопе де Вега.</note>, также и в других, разгласил гишпанску.</l>
+          <l part="N">Правильно германска уж толь слух услаждает,</l>
+          <l part="N">Что остр <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Юнкер</tei:orig><tei:reg>Юнкер Г. Ф. В.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Юнкер</quote> - Готлоб-Фридрих-Вильгельм (1702-1746) - академик, профессор по кафедре поэзии, сочинитель стихов (на немецком языке) по случаю придворных праздников и т. п. Ода Тредиаковского на взятие Гданьска (1734), поднесенная Бирону, была напечатана на русском и немецком языках. Немецкий перевод был сделан Юнкером. В ?Рассуждении об оде вообще?, приложенном к оде о взятии Гданьска, Тредиаковский писал: ?Оду, которую я сочинил... преискуснейший из лирических пиит немецкого народа, то есть господин Юнкер, в Санктпетербургской императорской Академии наук публичный профессор, благоволил перевесть на немецкий язык... Я не сомневаюся, чтоб перевод немецкий по всему краснее и осанковатее, ведая искусство, через пять-шесть од, господина Юнкера, не был моего подлинного сочинения...?. Перепечатывая оду в изд. 1752 г., Тредиаковский изъял эти отзывы.</note> славну мзду ею получает:</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Юнкер</tei:orig><tei:reg>Юнкер Г. Ф. В.</tei:reg></tei:choice></tei:name>, которого в честь я здесь называю,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Юнкер</tei:orig><tei:reg>Юнкер Г. Ф. В.</tei:reg></tei:choice></tei:name>, которому, ей. всяких добр желаю.</l>
+          <l part="N">Что же сладкий тот <name type="mythologic">Орфей</name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Пиндар</tei:orig><tei:reg>Пиндар</tei:reg></tei:choice></tei:name> тот избранный,</l>
+          <l part="N">В благородном роде сем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Кенигом</tei:orig><tei:reg>Кениг И. У.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Кениг</quote>Иоганн Ульрих (1688-1744) - придворный поэт в Дрездене.</note> что званный?</l>
+          <l part="N">В нем сестра моя всегда пела героично,</l>
+          <l part="N">Амфионской<note resp="editor" place="unspecified" anchored="true"><quote>Амфионской</quote> - т. е. поэзии Амфиона </note> петь бы так было с ним прилично.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Каница</tei:orig><tei:reg>Каниц Ф.-Л.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Каниц</quote>Фридрих-Людвиг (1654-1699) - немецкий лирический поэт.</note> сердечный жар, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Бессера</tei:orig><tei:reg>Бессер И.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Бессер</quote>Иоганн (1654-1729) - немецкий дипломат и придворный поэт.</note> любовна,</l>
+          <l part="N">А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Неймейстера</tei:orig><tei:reg>Нейместер Э.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Неймейстер</quote>Эрман (1671-1756) - немецкий пастор и религиозный поэт.</note>, при нем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шмолка</tei:orig><tei:reg>Шмольк В.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Шмолк</quote>Веньямин Шмольк (1672-1737), немецкий писатель, автор духовных песен и проповедей.</note>, толь духовна,</l>
+          <l part="N">Кто бы ныне лучше мог на стихах играти?</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Брокса</tei:orig><tei:reg>Брокес Б.-Г.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Брокс</quote>Бартольд-Генрих Брокес (1680-1747), немецкий поэт.</note>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Триллера</tei:orig><tei:reg>Триллер Д.-Г.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Триллер</quote>Даниэль-Гильом (1695-1782) - немецкий писатель.</note> - кому б выше можно знати,</l>
+          <l part="N">Что в вещах природных есть для стиха изрядно?</l>
+          <l part="N">О стихом весь идет коль <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Гинтер</tei:orig><tei:reg>Гюнтер И.-Х.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Гинтер</quote>Иоганн-Христиан Гюнтер (1695-1723), немецкий поэт.</note>, легк нарядно!</l>
+          <l part="N">Счастливее в ком сестра там моя трубила,</l>
+          <l part="N">Как в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Нейкирхе</tei:orig><tei:reg>Нейкирх В.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Нейкирх</quote>Вениамин (1665-1729) - немецкий поэт.</note>, стих кому важный подарила?</l>
+          <l part="N">У чужих брал мысли сей; но чрез переводы,</l>
+          <l part="N">Дивно полагал те в стих своея природы.</l>
+          <l part="N">Нову в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Опице</tei:orig><tei:reg>Опиц М.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Опиц</quote>Мартин (1597-1639) - немецкий придворный поэт и теоретик классицизма. Опиц обосновал переход немецкой поэзии от силлабического стиха к тоническому, за что Тредиаковский и называет его обновителем и отцом стиха. Роль Опица особенно импонировала Тредиаковскому, автору ?Нового и краткого способа...?.</note> мою все сестру признали,</l>
+          <l part="N">Обновителем тоя называть все стали;</l>
+          <l part="N">Опицу, придав стихов имя отца, перву,</l>
+          <l part="N">Что в них строен тот и хитр вольну чрез <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Минерву</tei:orig><tei:reg>Минерва</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N">Научивши ты сестру толь мою немецку,</l>
+          <l part="N">Научить не позабыл также и турецку,</l>
+          <l part="N">И персидску, и какой хвалится <name type="place">Индия</name>,</l>
+          <l part="N">И в арапской что земле мудра поэзия.</l>
+          <l part="N">Чрез тебя гласит стихом польская спесиво,</l>
+          <l part="N">Иногда ж весьма умно и весьма учтиво.</l>
+          <l part="N">Словом, нет уже нигде такова народа,</l>
+          <l part="N">Чтоб честна там сестр моих не была порода.</l>
+          <l part="N">Только ли одну меня так ты оставляешь?</l>
+          <l part="N">За родную мя себе иль не признаваешь?</l>
+          <l part="N">Но приди и нашу здесь посетить <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Так же и распространи в ней мя, поэзи?ю:</l>
+          <l part="N">Встретить должно я тебя всячески потщуся,</l>
+          <l part="N">И в приличный мне убор светло наряжуся;</l>
+          <l part="N">С приветственным пред тебя и стихом предстану,</l>
+          <l part="N">Новых мер в стопах, не числ<note resp="editor" place="unspecified" anchored="true"><quote>Не числ</quote> - В основе силлабического стихосложения лежит количество слогов в стихе.</note>, поздравлять тем стану.</l>
+          <l part="N">Новых! поистине так<note resp="editor" place="unspecified" anchored="true"><quote>Новых! поистине так</quote> - Здесь и далее Тредиаковский утверждает силлабо-тоническую систему стихосложения.</note>, хоть бы ты дивился,</l>
+          <l part="N">И подобен такову, кто не верит, зрился</l>
+          <l part="N">Старый показался стих мне весьма не годен,</l>
+          <l part="N">Для того что слуху тот весь был не угоден;</l>
+          <l part="N">В сей падение, в сей звон<note resp="editor" place="unspecified" anchored="true"><quote>Падение ... звон</quote> - безударные и ударные слоги.</note> стопу чрез приятну,</l>
+          <l part="N">И цезуру в сей внесла, долготою знатну.</l>
+          <l part="N">Старым токмо я числом стих определила,</l>
+          <l part="N">Стопы двосложны затем в новый сей вложила;</l>
+          <l part="N">Стопы, обегая в них трудность всю афинску<note resp="editor" place="unspecified" anchored="true"><quote>Обегая в них трудность всю афинску</quote> и т. д. Древнегреческая поэзия опиралась в своей метрике на различие долгих и кратких слогов, что русскому языку несвойственно.</note>,</l>
+          <l part="N">И в количестве стихов такожде латинску;</l>
+          <l part="N">Тоническу долготу токмо давши слогу,</l>
+          <l part="N">Так до рифмы стих веду гладку чрез дорогу;</l>
+          <l part="N">Выгнав мерзкий перенос<note resp="editor" place="unspecified" anchored="true"><quote>Выгнав мерзкий перенос</quote> - Перенос, или enjambement, характерная черта силлабического стиха, в силлабо-тоническом стихе употребляется сравнительно редко.</note> и всё, что порочно,</l>
+          <l part="N">То оставила стиху, что ему есть точно<note resp="editor" place="unspecified" anchored="true"><quote>Точно</quote> - здесь: свойственно по природе.</note>.</l>
+          <l part="N">Таковым тебя стихом стану поздравляти,</l>
+          <l part="N">Таковым тебя стихом буду умоляти,</l>
+          <l part="N">Чтоб, оставивши <name type="mythologicPlace">Парнас</name>, всё ты жил со мною,</l>
+          <l part="N">Одарил бы всю меня слова красотою.</l>
+          <l part="N">Поспешай к нам, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аполлин</tei:orig><tei:reg>Аполлон</tei:reg></tei:choice></tei:name>, поспешай как можно:</l>
+          <l part="N">Будет любо самому жить у нас, не ложно.</l>
+          <l part="N">Хотя нужден ты давно здесь в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> славной,</l>
+          <l part="N">Всё в великих что делах счастится быть главной;</l>
+          <l part="N">Больше но теперь в тебе нужды я имею,</l>
+          <l part="N">Тем и нудить больше тя, чтоб спешить к нам, смею.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> даровал нам бог ныне коль велику.</l>
+          <l part="N">Нельзя без твоей воспеть гарфы то мне зыку;</l>
+          <l part="N">Мудрых всех во свете глав есть ее мудрейша,</l>
+          <l part="N">Разумом разумных всех та весьма острейша;</l>
+          <l part="N">Самодержицы сея око прозорливо,</l>
+          <l part="N">Полно сердце всяких благ, тем щедролюбиво;</l>
+          <l part="N">Что величества на всей блещет луч небесный,</l>
+          <l part="N">Всяк народ, весь мир о том славою известный<note resp="editor" place="unspecified" anchored="true"><quote>Известный</quote> - здесь: извещенный, осведомленный.</note>;</l>
+          <l part="N">Храбрая рука ее полна благодати;</l>
+          <l part="N">Счастие о при тебе всем, российска мати!</l>
+          <l part="N">Милость, правда и любовь к подданным безмерна,</l>
+          <l part="N">Дело к благочестию, и в ней мысль вся правоверна;</l>
+          <l part="N">Бодростью не жен - мужей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> превышает,</l>
+          <l part="N">Тело бог ей и лице тою украшает;</l>
+          <l part="N">Страшно то в ней всем врагам, россам что есть мило,</l>
+          <l part="N">Великодушие же зависть всю дивило.</l>
+          <l part="N">Слава для нее трубы хоть бы не имела,</l>
+          <l part="N">Совершенства все ее хоть бы не гремела;</l>
+          <l part="N">Та сама собой хвала, та сама вся слава.</l>
+          <l part="N">О да будет <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> ввек здесь и ввеки здрава!</l>
+          <l part="N">Добрым та любовь сердцам, верным всем и радость:</l>
+          <l part="N">Всей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> красота, щит, надежда, сладость,</l>
+          <l part="N">И прибежище, покой, здравие, богатство,</l>
+          <l part="N">И желание, и честь; словом, всё изрядство.</l>
+          <l part="N">Самый образ на земле вышния щедроты,</l>
+          <l part="N">Силы, благости ко всем, сродныя доброты.</l>
+          <l part="N">Всяк престол бы чрез нее мог быть высочайший,</l>
+          <l part="N">Будет на главе драгий всяк венец дражайший,</l>
+          <l part="N">В сильнейший рукой скиптр сильн <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анны</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> пременится<note resp="editor" place="unspecified" anchored="true"><quote>В сильнейший ... пременится</quote> - станет еще сильнее.</note>.</l>
+          <l part="N">Ей! величеством на ней большим украсится,</l>
+          <l part="N">Коль бы ни сияла где оным вся порфира,</l>
+          <l part="N">Ибо <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> ныне есть токмо чудо мира.</l>
+          <l part="N">Менится при славной всё, что ни есть, в преславно<note resp="editor" place="unspecified" anchored="true"><quote>Менится ... в преславно</quote> - становится еще более славным.</note>,</l>
+          <l part="N">При великой всё растет в величайше явно;</l>
+          <l part="N">Лучший всё приемлет вид. Худо что и злобно,</l>
+          <l part="N">Пременяется в добро и в любовь удобно.</l>
+          <l part="N">Добродетель <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анны</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> то крайня заслужила,</l>
+          <l part="N">Божия ту благость тем так благословила.</l>
+          <l part="N">Но как слабой мне во всем ону описати?</l>
+          <l part="N">Об <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Августе</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Об Августе</quote> - об императрице. Здесь Тредиаковский, упоминая о поэме Вергилия, сравнивает Анну с римским императором Августом, воспетым Вергилием.</note> таковой лучше бы молчати</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вергилиевой</tei:orig><tei:reg>Вергилий</tei:reg></tei:choice></tei:name> здесь быть всегда имело;</l>
+          <l part="N">Сам и ты бы, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аполлин</tei:orig><tei:reg>Аполлон</tei:reg></tei:choice></tei:name>, был не скор на дело.</l>
+          <l part="N">Толь то монархиня всем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> наша стройна,</l>
+          <l part="N">Света что всего корон по всему достойна.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода вздорная III</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода вздорная III</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>А. П. Сумароков. Полное собрание всех сочинений.                   М.</publisher>
+                <date>1781</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1759</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">одическая поэзия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пародия на оды Ломоносова</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd " org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Среди зимы, в часы мороза,</l>
+          <l part="N"> Когда во мне вся стынет кровь,</l>
+          <l part="N"> Хочу твою воспети, <name type="character">Роза </name>,</l>
+          <l part="N"> С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зефиром</tei:orig><tei:reg>Зефир</tei:reg></tei:choice></tei:name>  сладкую любовь.</l>
+          <l part="N"> В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig> верхах Парнасских</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name>, быстры реки,</l>
+          <l part="N"> Цветов царицу вы навеки</l>
+          <l part="N"> Взнесите шумно в небеса!</l>
+          <l part="N"> Стремитесь, мысленные взоры,</l>
+          <l part="N"> На многие<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнасски горы</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name>!</l>
+          <l part="N"> Моря, внимайте, и леса! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Стесненна грудь моя трепещет,</l>
+          <l part="N"> Вселенная дрожит теперь;</l>
+          <l part="N"> Гигант на небо горы мещет, -</l>
+          <l part="N"> К<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Юпитеру </tei:orig><tei:reg>Юпитер</tei:reg></tei:choice></tei:name> отверзти дверь;</l>
+          <l part="N"> <name type="place">Кавказ</name> на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Этну</tei:orig><tei:reg>Этна</tei:reg></tei:choice></tei:name> становится,</l>
+          <l part="N"> В сей час со громом гром сразится,</l>
+          <l part="N"> От <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>ада</tei:orig><tei:reg>ад</tei:reg></tei:choice></tei:name> помрачится свет:</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Крылатый конь</tei:orig><tei:reg>Пегас</tei:reg></tei:choice></tei:name> перед богами</l>
+          <l part="N"> Своими бурными ногами</l>
+          <l part="N"> В сей час ударит в вечный лед. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="place">Пекин</name> горит, и <name type="place">Рим</name>  пылает,</l>
+          <l part="N"> О светской славы суета!</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Троянски стены</tei:orig><tei:reg>Троя</tei:reg></tei:choice></tei:name> огнь терзает,</l>
+          <l part="N"> О вы, ужасные места!</l>
+          <l part="N"> Нынь вся вселенна загорелась,</l>
+          <l part="N"> Вспылала, только лишь затлелась,</l>
+          <l part="N"> Всю землю покрывает дым;</l>
+          <l part="N"> <name type="mythologic">Нарцисс</name> любуется собою</l>
+          <l part="N"> Так, <name type="character">Роза </name>, как <name type="mythologic">Зефир</name> тобою.</l>
+          <l part="N"> Пылай, великолепный <name type="place">Рим</name>! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Мятутся ныне все планеты,</l>
+          <l part="N"> И льва пресильною рукой</l>
+          <l part="N"> Свергаются с небес кометы, -</l>
+          <l part="N"> Премены ждал ли кто такой?</l>
+          <l part="N"> Великий <name type="mythologic">Аполлон</name> мятется.</l>
+          <l part="N"> Что лира в руки отдается</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Орфею</tei:orig><tei:reg>Орфей</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Амфиону</tei:orig><tei:reg>Амфион</tei:reg></tei:choice></tei:name>, нынь.</l>
+          <l part="N"> Леса, сей песнью наслаждайтесь,</l>
+          <l part="N"> Высоки стены, созидайтесь,</l>
+          <l part="N"> В эфире лед вечный синь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В безоблачной стране несуся,</l>
+          <l part="N"> Напившись <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>иппокренских</tei:orig><tei:reg>Ипокрена</tei:reg></tei:choice></tei:name> вод,</l>
+          <l part="N"> И, их напившися, трясуся,</l>
+          <l part="N"> Производитель громких од!</l>
+          <l part="N"> Ослабли гордые нынь ямбы,</l>
+          <l part="N"> Ослабли пышны дитирамбы,</l>
+          <l part="N"> О <name type="mythologic">Бахус</name>, та ль награда мне?</l>
+          <l part="N"> <name type="mythologic">Орфей</name>, ты больше не трясися;</l>
+          <l part="N"> Возникни, <name type="mythologic">муза</name>, вознесися,</l>
+          <l part="N"> Греми в безоблачной стране! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Род смертных, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Пиндара</tei:orig><tei:reg>Пиндар</tei:reg></tei:choice></tei:name> высока</l>
+          <l part="N"> Стремится подражать мой дух.</l>
+          <l part="N"> От запада и от востока</l>
+          <l part="N"> Лечу на север и на юг</l>
+          <l part="N"> И громогласно восклицаю,</l>
+          <l part="N"> Луну и солнце проницаю,</l>
+          <l part="N"> Взлетаю до предальных звезд;</l>
+          <l part="N"> В одну минуту восхищаюсь,</l>
+          <l part="N"> В одну минуту возвращаюсь</l>
+          <l part="N"> До самых преисподних мест. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Там вижу грозного <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Плутона</tei:orig><tei:reg>Плутон</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Во мраке мрачный вижу взор.</l>
+          <l part="N">Узрев меня, бежит он с трона,</l>
+          <l part="N">А я тогда вспеваю вздор.</l>
+          <l part="N">Из ада вижу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Итали́ю</tei:orig><tei:reg>Италия</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Кастильски </tei:orig><tei:reg>Кастилия</tei:reg></tei:choice></tei:name>воды, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Остинди́ю</tei:orig><tei:reg>Остиндия</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Амур-реку</tei:orig><tei:reg>Амур</tei:reg></tei:choice></tei:name> и вечный лед.</l>
+          <l part="N">Прощай, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Плутонова держава</tei:orig><tei:reg>Аид</tei:reg></tei:choice></tei:name>:</l>
+          <l part="N">О вечный лед, моя ты слава!</l>
+          <l part="N">Ты мне всего миляй, мой свет! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Трава зеленою рукою</l>
+          <l part="N">Покрыла многие места,</l>
+          <l part="N">Заря багряною ногою</l>
+          <l part="N">Выводит новые лета.</l>
+          <l part="N">Вы, тучи, с тучами спирайтесь,</l>
+          <l part="N">Во громы, громы, ударяйтесь,</l>
+          <l part="N">Борей, на воздухе шуми.</l>
+          <l part="N">Пройду нутр горный и вершину,</l>
+          <l part="N">В морскую свергнуся пучину:</l>
+          <l part="N">Возникни, <name type="mythologic">муза</name>, и греми! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О <name type="character">Роза</name>, я пою мятежно,</l>
+          <l part="N">Согласия в сей оде нет.</l>
+          <l part="N">Целуйся ты с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зефиром</tei:orig><tei:reg>Зефир</tei:reg></tei:choice></tei:name> нежно,</l>
+          <l part="N">Но помни то, что я поэт;</l>
+          <l part="N">Как если ты сие забудешь,</l>
+          <l part="N">Ты ввек моей злодейкой будешь;</l>
+          <l part="N">Не стану я хвалить тебя;</l>
+          <l part="N">А кто поэта раздражает,</l>
+          <l part="N">Велико войско воружает</l>
+          <l part="N">Против несчастного себя!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

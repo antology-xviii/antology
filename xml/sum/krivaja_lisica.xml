@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Кривая лисица</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Полина Офимкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Кривая лисица</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 7. Притчи. Кн. 1.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Новиков Н. И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1762</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+        <catRef target="#fable" scheme="genre"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N">Хотя и должны мы всегда себя беречь,</l>
+        <l part="N">Но можно ли во всем себя предостеречь?</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Кто скажет - можно,</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Так это ложно:</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Нельзя никак,</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Я смело говорю, что это так.</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Была лисица,</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>И от собак</l>
+        <l part="N"><space dim="horizontal" extent="19 letters"/>Летала будто птица:</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Не драться с ними ей - она не львица</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Да им же по родству сестрица.</l>
+        <l part="N">Была замужняя она или девица,</l>
+        <l part="N"><space dim="horizontal" extent="37 letters"/>Про то</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Не сказывал никто:</l>
+        <l part="N">Могла вдруг девка быть, и баба, и вдовица,</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>И попросту вдова;</l>
+        <l part="N">Лишь только сказано: была она крива;</l>
+        <l part="N">И, подлинно, была лисица такова.</l>
+        <l part="N">Извольте басенки моей послушать.</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Пришла к реке она</l>
+        <l part="N"><space dim="horizontal" extent="30 letters"/>Воды покушать.</l>
+        <l part="N">Лисица не пила ни водки, ни вина;</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>В струи воткнула нос глубоко,</l>
+        <l part="N">К воде оборотив свое кривое око,</l>
+        <l part="N"><space dim="horizontal" extent="30 letters"/>Другое - в лес,</l>
+        <l part="N">И говорит: &lt;Нельзя ко мне подкрасться, пес,</l>
+        <l part="N"><space dim="horizontal" extent="30 letters"/>Хотя бы влез</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>В тебя, собака, бес;</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>А от воды лисица не потрусит,</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Мне щука носа не откусит&gt;.</l>
+        <l part="N">Напрасно ты, лиса, боялася собак,</l>
+        <l part="N"><space dim="horizontal" extent="30 letters"/>Не той закрылась ты полою:</l>
+        <l part="N"><space dim="horizontal" extent="30 letters"/>С воды стрелою</l>
+        <l part="N"><space dim="horizontal" extent="21 letters"/>Убил тебя рыбак.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

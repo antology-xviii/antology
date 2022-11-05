@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Приглашение к обеду </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Приглашение к обеду </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина, ч.1. М.</publisher>
+                <date>1798</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1795</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пир</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">наслаждение жизнью</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Безбородко А. А.</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Шекснинска стерлядь золотая,</l>
+          <l part="N"> Каймак и борщ уже стоят;</l>
+          <l part="N"> В крафинах вина, пунш, блистая</l>
+          <l part="N"> Те льдом, те искрами, манят;</l>
+          <l part="N"> С курильниц благовоньи льются,</l>
+          <l part="N"> Плоды среди корзин смеются,</l>
+          <l part="N"> Не смеют слуги и дохнуть,</l>
+          <l part="N"> Тебя стола вкруг ожидая;</l>
+          <l part="N"> Хозяйка статная, младая</l>
+          <l part="N"> Готова руку протянуть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Приди, мой благодетель давный,</l>
+          <l part="N"> Творец чрез двадцать лет добра!</l>
+          <l part="N"> Приди - и дом, хоть не нарядный,</l>
+          <l part="N"> Без резьбы, злата и сребра,</l>
+          <l part="N"> Мой посети; его богатство -</l>
+          <l part="N"> Приятный только вкус, опрятство</l>
+          <l part="N"> И твердый мой, нельстивый нрав;</l>
+          <l part="N"> Приди от дел попрохладиться,</l>
+          <l part="N"> Поесть, попить, повеселиться,</l>
+          <l part="N"> Без вредных здравию приправ.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не чин, не случай и не знатность</l>
+          <l part="N"> На русский мой простой обед</l>
+          <l part="N"> Я звал - одну благоприятность;</l>
+          <l part="N"> А тот, кто делает мне вред,</l>
+          <l part="N"> Пирушки сей не будет зритель.</l>
+          <l part="N"> Ты, ангел мой, благотворитель!</l>
+          <l part="N"> Приди - и насладися благ;</l>
+          <l part="N"> А вражий дух да отженется,</l>
+          <l part="N"> Моих порогов не коснется</l>
+          <l part="N"> Ничей недоброхотный шаг!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Друзьям моим я посвящаю,</l>
+          <l part="N"> Друзьям и красоте сей день;</l>
+          <l part="N"> Достоинствам я цену знаю</l>
+          <l part="N"> И знаю то, что век наш тень;</l>
+          <l part="N"> Что лишь младенчество проводим -</l>
+          <l part="N"> Уже ко старости приходим,</l>
+          <l part="N"> И смерть к нам смотрит чрез забор.</l>
+          <l part="N"> Увы! - то как не умудриться</l>
+          <l part="N"> Хоть раз цветами не увиться</l>
+          <l part="N"> И не оставить мрачный взор?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Слыхал, слыхал я тайну эту,</l>
+          <l part="N"> Что иногда грустит и царь;</l>
+          <l part="N"> Ни ночь, ни день покоя нету,</l>
+          <l part="N"> Хотя им вся покойна тварь.</l>
+          <l part="N"> Хотя он громкой славой знатен,</l>
+          <l part="N"> Но, ах! - и трон всегда ль приятен</l>
+          <l part="N"> Тому, кто век свой в хлопотах?</l>
+          <l part="N"> Тут зрит обман, там зрит упадок:</l>
+          <l part="N"> Как бедный часовой тот жалок,</l>
+          <l part="N"> Который вечно на часах!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Итак, доколь еще ненастье</l>
+          <l part="N"> Не помрачает красных дней,</l>
+          <l part="N"> И приголубливает счастье,</l>
+          <l part="N"> И гладит нас рукой своей;</l>
+          <l part="N"> Доколе не пришли морозы,</l>
+          <l part="N"> В саду благоухают розы,</l>
+          <l part="N"> Мы поспешим их обонять.</l>
+          <l part="N"> Так! будем жизнью наслаждаться</l>
+          <l part="N"> И тем, чем можем, утешаться,</l>
+          <l part="N"> По платью ноги протягать.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> А если ты иль кто другие</l>
+          <l part="N"> Из званых милых мне гостей,</l>
+          <l part="N"> Чертоги предпочтя златые</l>
+          <l part="N"> И яствы сахарны царей,</l>
+          <l part="N"> Ко мне не срядитесь откушать, -</l>
+          <l part="N"> Извольте мой вы толк прослушать:</l>
+          <l part="N"> Блаженство не в лучах порфир,</l>
+          <l part="N"> Не в вкусе яств, не в неге слуха,</l>
+          <l part="N"> Но в здравьи и спокойстве духа, -</l>
+          <l part="N"> Умеренность есть лучший пир.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Царь-девица </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Царь-девица</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. СПб. Ч. 5.</publisher>
+                <date>1816</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1812</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">идеальный правитель</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">государство</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Царь жила-была девица, -</l>
+          <l part="N">Шепчет русска старина, -</l>
+          <l part="N">Будто солнце светлолица,</l>
+          <l part="N">Будто тихая весна. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Очи светлы-голубые,</l>
+          <l part="N">Брови черные дугой,</l>
+          <l part="N">Огнь - уста, власы - златые.</l>
+          <l part="N">Грудь - как лебедь белизной. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В жилках рук ее пуховых,</l>
+          <l part="N">Как эфир, струилась кровь;</l>
+          <l part="N">Между роз, зубов перловых,</l>
+          <l part="N">Усмехалася любовь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Родилась она в сорочке</l>
+          <l part="N">Самой счастливой порой,</l>
+          <l part="N">Ни в полудни, ни в полночке -</l>
+          <l part="N">Алой, утренней зарей. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кочет хлопал на нашесте</l>
+          <l part="N">Крыльями, крича сто раз:</l>
+          <l part="N">Северной звезды на свете</l>
+          <l part="N">Нет прекрасней, как у нас. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Маковка злата церковна</l>
+          <l part="N">Как горит средь красных дней,</l>
+          <l part="N">Так священная корона</l>
+          <l part="N">Мило теплилась на ней </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И вливала чувство тайно</l>
+          <l part="N">С страхом чтить ее, дивясь;</l>
+          <l part="N">К ней прийти необычайно</l>
+          <l part="N">Было, не перекрестясь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На нее смотреть не смели</l>
+          <l part="N">И великие цари;</l>
+          <l part="N">За решеткою сидели</l>
+          <l part="N">На часах богатыри. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Полканы</tei:orig><tei:reg>Полкан</tei:reg></tei:choice></tei:name> всюду чудны</l>
+          <l part="N">Дом стрегли ее и трон;</l>
+          <l part="N">С колоколен самогудный</l>
+          <l part="N">Слышался и ночью звон. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Терем был ее украшен</l>
+          <l part="N">В солнцах, в месяцах, в звездах;</l>
+          <l part="N">Отливались блески с башен</l>
+          <l part="N">Во осьми ее морях. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В рощах злачных, в лукоморье</l>
+          <l part="N">Въявь гуляла и в саду,</l>
+          <l part="N">Летом в лодочке на взморье,</l>
+          <l part="N">На санках зимой по льду. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Конь под ней, как вихрь, крутился,</l>
+          <l part="N">Чув девицу ездока;</l>
+          <l part="N">Полк за нею <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>нимф</tei:orig><tei:reg>нимфы</tei:reg></tei:choice></tei:name> тащился</l>
+          <l part="N">По следам издалека. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Коз и зайцев быстроногих</l>
+          <l part="N">Страсть была ее гонять,</l>
+          <l part="N">Гладить ланей златорогих</l>
+          <l part="N">И дерев под сенью спать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ей ни мошки не мешали,</l>
+          <l part="N">Ни кузнечики дремать;</l>
+          <l part="N">Тихо ветерки порхали,</l>
+          <l part="N">Чтоб ее лишь обвевать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И по веткам птички райски,</l>
+          <l part="N">Скакивал заморский кот,</l>
+          <l part="N">Пели соловьи китайски</l>
+          <l part="N">И жужукал водомет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Статно стоя, няньки, мамки</l>
+          <l part="N">Одаль смели чуть дышать,</l>
+          <l part="N">И бояр к ней спозаранки</l>
+          <l part="N">В спальню с делом допущать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">С ними так она вещала,</l>
+          <l part="N">Как из облак божество;</l>
+          <l part="N">Лежа царством управляла,</l>
+          <l part="N">Их журя за шаловство. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иногда же и тазала</l>
+          <l part="N">Не одним уж язычком,</l>
+          <l part="N">Если больно рассерчала,</l>
+          <l part="N">То по кудрям башмачком. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Все они царя-девицы</l>
+          <l part="N">Так боялись, как огня,</l>
+          <l part="N">Крыли, прятали их лицы</l>
+          <l part="N">От малейшего пятна. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И без памяти любили,</l>
+          <l part="N">Что бесхитростна была;</l>
+          <l part="N">Ей неправд не говорили,</l>
+          <l part="N">Что сама им не лгала. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Шила ризы золотые,</l>
+          <l part="N">Сплошь низала жемчугом,</l>
+          <l part="N">Маслила брады седые</l>
+          <l part="N">И не ссорилась с умом. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жить давала всем в раздолье,</l>
+          <l part="N">Плавали как в масле сыр;</l>
+          <l part="N">Ездила на богомолье -</l>
+          <l part="N">Божеством ее всяк чтил. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Все поля ее златились</l>
+          <l part="N">И шумели под серпом,</l>
+          <l part="N">Тучные стада водились,</l>
+          <l part="N">Горы капали сребром. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Слава доброго правленья</l>
+          <l part="N">Разливалась всюду в свет;</l>
+          <l part="N">Все кричали с восхищенья,</l>
+          <l part="N">Что ее мудрее нет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Стиходеи ту ж бряцали</l>
+          <l part="N">И на гуслях милу ложь;</l>
+          <l part="N">В царствах инших повторяли</l>
+          <l part="N">О царе-девице то ж. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И от этого-то грому</l>
+          <l part="N">Поднялися женихи</l>
+          <l part="N">Вереницей к ее дому,</l>
+          <l part="N">Как фазаньи петухи. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Царств за тридевять мудруя,</l>
+          <l part="N">Вымышляли, как хвалить;</l>
+          <l part="N">Вздохами любовь толкуя,</l>
+          <l part="N">К ней боялись подступить. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На слонах и на верблюдах</l>
+          <l part="N">Хан иной дары ей шлет,</l>
+          <l part="N">Под ковром, на хинских блюдах,</l>
+          <l part="N">Камень с гору самосвет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тот эдемского индея:</l>
+          <l part="N">Гребень - звезд на нем нарост,</l>
+          <l part="N">Пурпур - крылья, яхонт - шея,</l>
+          <l part="N">Изумрудный - зоб и хвост. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Колпиц алы черевички</l>
+          <l part="N">Нес - с бандорой тот плясать,</l>
+          <l part="N">Горлиц нежные яички -</l>
+          <l part="N">Нежно петь и воздыхать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но она им не склонялась,</l>
+          <l part="N">Набожна была чресчур.</l>
+          <l part="N">Только в шутках забавлялась,</l>
+          <l part="N">Напущая на них дур. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль велела им трудиться:</l>
+          <l part="N">Яблок райских ей искать,</l>
+          <l part="N">Хохлик солнцев, чтоб светиться</l>
+          <l part="N">В тьме век радостью блистать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но они понадорвали</l>
+          <l part="N">Свой живот - и стали в пень;</l>
+          <l part="N">Что искали - не сыскали</l>
+          <l part="N">И исчезли, будто тень. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тут откуда ни явился</l>
+          <l part="N">Царь-царевич, или круль,</l>
+          <l part="N">Ни людям не поклонился,</l>
+          <l part="N">Ни на Спаса не взглянул. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">По бедру коня хлесть задню -</l>
+          <l part="N">И в тот миг невидим стал,-</l>
+          <l part="N">Шасть к царю-девице в спальню</l>
+          <l part="N">И ее поцеловал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хоронилася платочком</l>
+          <l part="N">И ворчала хоть в сердцах,</l>
+          <l part="N">Но как вслед его окошком</l>
+          <l part="N">Хлопнула - вскричала: ах! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Конь к тому ж в пути обратном</l>
+          <l part="N">Тронул сеть садовых струн;</l>
+          <l part="N">Град познал в сем звуке страшном,</l>
+          <l part="N">Что был дерзок <name type="character">Маркобрун</name>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вот и встал дым коромыслом</l>
+          <l part="N">От маяков по горам;</l>
+          <l part="N">В мрачном воздухе навислом</l>
+          <l part="N">Рев завыл и по церквам. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Клич прокликали в столице,</l>
+          <l part="N">И гонцы всем дали весть,</l>
+          <l part="N">Чтоб скакать к царю-девице</l>
+          <l part="N">И, служа ей,- мстить за честь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Заскрипели двери ржавы</l>
+          <l part="N">Оружейниц древних лет,</l>
+          <l part="N">Воспрянули мужи славы</l>
+          <l part="N">И среди пустынных мест. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Правят снасти боевые</l>
+          <l part="N">И булат и сталь острят;</l>
+          <l part="N">Старые орлы седые</l>
+          <l part="N">С соколами в бой летят. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И свирепы кони в стойлах</l>
+          <l part="N">Топают, храпят и ржут,</l>
+          <l part="N">На холмах и на раздольях</l>
+          <l part="N">Пыль вздымают, пену льют. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В слух пищали стенобойни,</l>
+          <l part="N">Растворя чугунны рты,</l>
+          <l part="N">Воют в час полночный, сонный,</l>
+          <l part="N">Чтоб скорей в поход идти. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Идет в шкурах рать звериных,</l>
+          <l part="N">С дубом, с пращей, с кистенем,</l>
+          <l part="N">В перьях птичьих, в кожах рыбных.</l>
+          <l part="N">И как холм течет чрез холм. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Занимает степи, луги</l>
+          <l part="N">И насадами моря,</l>
+          <l part="N">И кричит: помремте, други,</l>
+          <l part="N">За девицу и царя! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не пленила златом, сбойством</l>
+          <l part="N">Нас она, ни серебром,</l>
+          <l part="N">Но лишь девичьим геройством,</l>
+          <l part="N">Здравым и простым умом. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И так сими вождь речами</l>
+          <l part="N">Взбудоражил воинов дух,</l>
+          <l part="N">Что, подняв бугры плечами,</l>
+          <l part="N">Растрепали круля в пух. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И еще в его бы царстве</l>
+          <l part="N">Только раз один шагнуть,</l>
+          <l part="N">Света б не было в пространстве,</l>
+          <l part="N">Чем его и вспомянуть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кровь народа <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Маркобруна</tei:orig><tei:reg>Маркобрун</tei:reg></tei:choice></tei:name></l>
+          <l part="N">Уподобилась реке;</l>
+          <l part="N">Он дрожал ее перуна</l>
+          <l part="N">И в своем уж чердаке. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но как он царя-девицы</l>
+          <l part="N">Нежный нрав довольно знал,</l>
+          <l part="N">Стал пастух - и глас цевницы</l>
+          <l part="N">Часто ей своей внушал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><q>Виноват,</q>- пел, - <q>пред тобою,</q></l>
+          <l part="N"><q>Что прекрасна ты, мила</q>.</l>
+          <l part="N">
+            <q>Сердце тронь мое рукою.</q>
+          </l>
+          <l part="N"><q>Сядь со мной!</q> - она рекла... </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так и все красотки славны</l>
+          <l part="N">Дерзостей не могут несть;</l>
+          <l part="N">Все бывают своенравны,</l>
+          <l part="N">Любят жены, девы честь.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

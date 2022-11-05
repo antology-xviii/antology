@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода блаженныя памяти Государыне Императрице <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне Иоанновне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> на победу над Турками и Татарами и на взятие <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Хотина</tei:orig><tei:reg>Хотин</tei:reg></tei:choice></tei:name> <date>1739</date> года</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода блаженныя памяти государыне императрице Анне Иоанновне на победу над турками и татарами и на взятие Хотина 1739 года</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения, стр. 157-171.</publisher>
+                <pubPlace>М.</pubPlace>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1739</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> войны</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aBaBccDeeD" org="uniform" sample="complete" part="N">
+        <lg n="1" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Восторг внезапный ум пленил,</l>
+          <l part="N">Ведет на верьх горы высокой,</l>
+          <l part="N">Где ветр в лесах шуметь забыл;</l>
+          <l part="N">В долине тишина глубокой.</l>
+          <l part="N">Внимая нечто, ключь молчит,</l>
+          <l part="N">Которой завсегда журчит</l>
+          <l part="N">И с шумом в низ с холмов стремится.</l>
+          <l part="N">Лавровы вьются там венцы,</l>
+          <l part="N">Там слух спешит во все концы;</l>
+          <l part="N">Далече дым в полях курится. <note resp="editor" place="unspecified" anchored="true">В этой строфе, которую <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Державин</tei:orig><tei:reg>Державин Г. Р.</tei:reg></tei:choice></tei:name> считал превосходным образцом <quote>беспорядка лирического</quote>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, как и в ряде последующих строф, искусно вплетает в ткань обязательной в его время мифологической символики чисто реалистические детали, почерпнутые из реляции о Ставучанском сражении и из <quote>журнала кампании <date>1739</date> году</quote>, которые были напечатаны в виде отдельного приложения к <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Санктпетербургским ведомостям </tei:orig><tei:reg>Санктпетербургские ведомости</tei:reg></tei:choice></title></bibl> (при дальнейших ссылках на это издание, сохранившееся в Библиотеке Академии наук СССР в одном экземпляре под шифром Ак/161а, оно обозначается сокращенно <bibl default="false"><title>Реляция</title></bibl>). Упоминания о <quote>горе высокой</quote>, о <quote>долине</quote> и о <quote>ключе</quote> могут быть поняты как намеки на гору <name type="mythologicPlace">Парнас</name> и на долину у ее подножия, где был <name type="mythologicPlace">Кастальский ключ</name>, но они характеризуют вместе с тем и реальные условия боя: турецкий укрепленный лагерь при деревне<name type="place">Ставучаны</name> <quote>стоял на такой вышине, что мы оного никакою пушкою, ниже из мортиры бомбою достать не могли</quote>, русская же армия находилась в долине и была отделена от неприятеля <q>маленькой речкой</q> (<bibl default="false"><title>Реляция</title></bibl>, стр. 2).</note></l>
+        </lg>
+        <lg n="2" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не <name type="place">Пинд</name> ли под ногами зрю?</l>
+          <l part="N">Я слышу чистых сестр Музыку!</l>
+          <l part="N">Пермесским жаром я горю,</l>
+          <l part="N">Теку поспешно к оных лику.</l>
+          <l part="N">Врачебной дали мне воды:</l>
+          <l part="N">Испей и все забудь труды;</l>
+          <l part="N">Умой росой Кастильской очи,</l>
+          <l part="N">Чрез степь и горы взор простри</l>
+          <l part="N">И дух свой к тем странам впери,</l>
+          <l part="N">Где всходит день по темной ночи.</l>
+        </lg>
+        <lg n="3" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Корабль как ярых волн среди,</l>
+          <l part="N">Которые хотят покрыти,</l>
+          <l part="N">Бежит, срывая с них верьхи,</l>
+          <l part="N">Претит с пути себя склонити,</l>
+          <l part="N">Седая пена вкруг шумит,</l>
+          <l part="N">В пучине след его горит,</l>
+          <l part="N">К российской силе так стремятся,</l>
+          <l part="N">Кругом объехав, тьмы Татар; <note resp="editor" place="unspecified" anchored="true"><quote>На тыле мы от всех татарских орд окружены были</quote> (<bibl default="false"><title>Реляция</title></bibl>, стр. 12).</note> </l>
+          <l part="N">Скрывает небо конской пар!</l>
+          <l part="N">Чтож в том? Стремглав без душ валятся.</l>
+        </lg>
+        <lg n="4" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Крепит отечества любовь</l>
+          <l part="N">Сынов Российских дух и руку;</l>
+          <l part="N">Желает всяк пролить всю кровь,</l>
+          <l part="N">От грознаго бодрится звуку.</l>
+          <l part="N">Как сильный лев стада волков,</l>
+          <l part="N">Что кажут острых яд зубов,</l>
+          <l part="N">Очей горящих гонит страхом,</l>
+          <l part="N">От реву лес и брег дрожит,</l>
+          <l part="N">И хвост песок и пыль мутит,</l>
+          <l part="N">Разит извившись сильным махом.</l>
+        </lg>
+        <lg n="5" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не медь ли в чреве <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Этны</tei:orig><tei:reg>Этна</tei:reg></tei:choice></tei:name> ржет</l>
+          <l part="N">И, с серою кипя, клокочет?</l>
+          <l part="N">Не ад ли тяжки узы рвет</l>
+          <l part="N">И челюсти разинуть хочет?</l>
+          <l part="N">То род отверженной рабы, <note resp="editor" place="unspecified" anchored="true">Отверженная раба - <name type="mythologic">Агарь</name> (см. указатель мифологических имен).</note></l>
+          <l part="N">В горах огнем наполнив рвы,</l>
+          <l part="N">Металл и пламень в дол бросает,</l>
+          <l part="N">Где в труд избранный наш народ</l>
+          <l part="N">Среди врагов, среди болот</l>
+          <l part="N">Чрез быстрой ток на огнь дерзает.<note resp="editor" place="unspecified" anchored="true">Рвы - турецкие ретраншементы. Штурм неприятельской позиции происходил под артиллерийским обстрелом расположенной <quote>на высоком месте</quote> турецкой батареи. <quote>Неприятель отвсюды нас окружал</quote>. <quote>Мы имели разные долины, болота и дефилеи, через которые мосты строить принуждены были</quote>. <quote>Мы, дабы неприятельское левое крыло атаковать могли, принуждены были через реку <name type="place">Сулинцы</name> перейти</quote> (<bibl default="false"><title>Реляция </title></bibl>, стр. 84, 88).</note></l>
+        </lg>
+        <lg n="6" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">За холмы, где паляща хлябь</l>
+          <l part="N">Дым, пепел, пламень, смерть рыгает,</l>
+          <l part="N">За <name type="place">Тигр</name>, <name type="place">Стамбул</name>, своих заграбь, <note resp="editor" place="unspecified" anchored="true">Заграбь - загреби, убери, уведи. Река <name type="place">Тигр</name> известна быстротой течения.</note></l>
+          <l part="N">Что камни с берегов здирает;</l>
+          <l part="N">Но чтоб орлов здержать полет,</l>
+          <l part="N">Таких препон на свете нет.</l>
+          <l part="N">Им воды, лес, бугры, стремнины,</l>
+          <l part="N">Глухие степи - равен путь.</l>
+          <l part="N">Где только ветры могут дуть,</l>
+          <l part="N">Доступят там полки орлины.</l>
+        </lg>
+        <lg n="7" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пускай земля, как Понт, трясет,</l>
+          <l part="N">Пускай везде громады стонут,</l>
+          <l part="N">Премрачный дым покроет свет,</l>
+          <l part="N">В крови Молдавски горы тонут;</l>
+          <l part="N">Но вам не может то вредить,</l>
+          <l part="N">О Россы, вас сам рок покрыть</l>
+          <l part="N">Желает для щастливой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анны</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N">Уже ваш к Ней усердный жар</l>
+          <l part="N">Быстро́ проходит сквозь Татар,</l>
+          <l part="N">И путь отворен вам пространный.</l>
+        </lg>
+        <lg n="8" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Скрывает лучь свой в волны день,</l>
+          <l part="N">Оставив бой ночным пожарам; <note resp="editor" place="unspecified" anchored="true">Русские войска заняли неприятельскую позицию в седьмом часу вечера. Перед отступлением турки сожгли свой лагерь (<bibl default="false"><title>Реляция </title></bibl>, стр. 14).</note></l>
+          <l part="N">Мурза упал на долгу тень;</l>
+          <l part="N">Взят купно свет и дух Татарам.</l>
+          <l part="N">Из лыв<note resp="editor" place="unspecified" anchored="true">Лыва - заболоченный лес.</note> густых выходит волк</l>
+          <l part="N">На бледный труп в Турецкий полк.</l>
+          <l part="N">Иной, в последни видя зо́рю,</l>
+          <l part="N"><q>Закрой, - кричит, - багряной вид <l part="N">И купно с ним Магметов стыд, <note resp="editor" place="unspecified" anchored="true">Неприятель <quote>с великою торопностию отступил и свой вельми сильно шанцами укрепленный лагерь со стыдом и срамотою оставить принужден</quote> (<bibl default="false"><title>Реляция </title></bibl>, стр. 15).</note></l><l part="N">Спустись поспешно с солнцем к морю</l></q>.</l>
+        </lg>
+        <lg n="9" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что так теснит боязнь мой дух?</l>
+          <l part="N">Хладнеют жилы, сердце ноет!</l>
+          <l part="N">Что бьет за странной шум в мой слух?</l>
+          <l part="N">Пустыня, лес и воздух воет!</l>
+          <l part="N">В пещеру скрыл свирепство зверь;</l>
+          <l part="N">Небесная отверзлась дверь;</l>
+          <l part="N">Над войском облак вдруг развился;</l>
+          <l part="N">Блеснул горящим вдруг лицем,</l>
+          <l part="N">Умытым кровию мечем</l>
+          <l part="N">Гоня врагов, Герой открылся. <note resp="editor" place="unspecified" anchored="true">Герой - <name type="person">Петр I</name>.</note></l>
+        </lg>
+        <lg n="10" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не сей ли при Донских струях</l>
+          <l part="N">Рассыпал вредны Россам стены?<note resp="editor" place="unspecified" anchored="true">Имеется в виду Азовский поход <date>1696</date> г. </note></l>
+          <l part="N">И Персы в жаждущих степях</l>
+          <l part="N">Не сим ли пали пораженны?<note resp="editor" place="unspecified" anchored="true">Имеется в виду Персидский поход <date>1722</date> г.</note></l>
+          <l part="N">Он так к своим взирал врагам,</l>
+          <l part="N">Как к Готским приплывал брегам, <note resp="editor" place="unspecified" anchored="true">Готские брега - <name type="place">Швеция</name>.</note></l>
+          <l part="N">Так сильну возносил десницу;</l>
+          <l part="N">Так быстрой конь Его скакал,</l>
+          <l part="N">Когда Он те поля топтал,</l>
+          <l part="N">Где зрим всходящу к нам денницу. <note resp="editor" place="unspecified" anchored="true">Т. VII наст. изд., стр. 150.</note></l>
+        </lg>
+        <lg n="11" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кругом Его из облаков</l>
+          <l part="N">Гремящие перуны блещут,</l>
+          <l part="N">И, чувствуя приход Петров,</l>
+          <l part="N">Дубравы и поля трепещут.</l>
+          <l part="N">Кто с ним толь грозно зрит на юг,</l>
+          <l part="N">Одеян страшным громом вкруг?</l>
+          <l part="N">Никак Смиритель стран Казанских?</l>
+          <l part="N">Каспийски воды, Сей при вас</l>
+          <l part="N">Селима гордаго потряс, <note resp="editor" place="unspecified" anchored="true">Смиритель стран Казанских - <name type="person">Иван IV</name>, покоривший Казанское и Астраханское царства. Под Селимом <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> разумеет, вероятно, царствовавшего в то время в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турции</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name> султана <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Сулеймана II</tei:orig><tei:reg>Сулейман II эль-Канани</tei:reg></tei:choice></tei:name>.</note></l>
+          <l part="N">Наполнил степь голов поганских.</l>
+        </lg>
+        <lg n="12" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Герою молвил тут Герой:</l>
+          <l part="N"><q>Нетщетно я с тобой трудился, <l part="N">Нетщетен подвиг мой и твой,</l><l part="N">Чтоб Россов целой свет страшился.</l><l part="N">Чрез нас предел наш стал широк</l><l part="N">На север, запад и восток.</l><l part="N">На юге <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> торжествует,</l><l part="N">Покрыв своих победой сей</l></q>.</l>
+          <l part="N">Свилася мгла, Герои в ней;</l>
+          <l part="N">Не зрит их око, слух нечует.</l>
+        </lg>
+        <lg n="13" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Крутит река Татарску кровь,</l>
+          <l part="N">Что протекала между ними;</l>
+          <l part="N">Не смея в бой пуститься вновь,</l>
+          <l part="N">Местами враг бежит пустыми,</l>
+          <l part="N">Забыв и мечь, <note resp="editor" place="unspecified" anchored="true">Турки, отступая, оставили 4 мортиры, 19 пушек и <quote>неисчисленное множество бомб, картеч и ядер</quote> (<bibl default="false"><title>Реляция </title></bibl>, стр. 15).</note>   и стан, и стыд,</l>
+          <l part="N">И представляет страшный вид</l>
+          <l part="N">В крови другов своих лежащих.</l>
+          <l part="N">Уже, тряхнувшись, легкий лист</l>
+          <l part="N">Страшит его, как ярый свист</l>
+          <l part="N">Быстро сквозь воздух ядр летящих.</l>
+        </lg>
+        <lg n="14" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Шумит с ручьями бор и дол:</l>
+          <l part="N">
+            <q>Победа, Росская победа!</q>
+          </l>
+          <l part="N">Но враг, что от меча ушол,</l>
+          <l part="N">Боится собственного следа.</l>
+          <l part="N">Тогда, увидев бег своих,</l>
+          <l part="N">Луна <note resp="editor" place="unspecified" anchored="true">Под луной <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> разумеет <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турцию</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name>, в гербе которой основным элементом был полумесяц.</note> стыдилась сраму их</l>
+          <l part="N">И в мрак лице зардевшись скрыла</l>
+          <l part="N">Летает слава в тьме ночной,</l>
+          <l part="N">Звучит во всех землях трубой,</l>
+          <l part="N">Коль Росская ужасна сила.</l>
+        </lg>
+        <lg n="15" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вливаясь в Понт, <name type="place">Дунай</name> ревет</l>
+          <l part="N">И Россов плеску отвещает;</l>
+          <l part="N">Ярясь волнами Турка льет,</l>
+          <l part="N">Что стыд свой за него скрывает.</l>
+          <l part="N">Он рыщет, как пронзенный зверь,</l>
+          <l part="N">И чает, что уже теперь</l>
+          <l part="N">В последней раз заносит ногу. </l>
+          <l part="N">И что земля его носить</l>
+          <l part="N">Не хочет, что не мог покрыть.</l>
+          <l part="N">Смущает мрак и страх дорогу.</l>
+        </lg>
+        <lg n="16" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Где ныне похвальба твоя?</l>
+          <l part="N">Где дерзость? Где в бою упорство?</l>
+          <l part="N">Где злость на северны края?</l>
+          <l part="N"><name type="place">Стамбул</name>, где наших войск презорство?<note resp="editor" place="unspecified" anchored="true">Наших войск презорство - презрение к нашим войскам.</note> </l>
+          <l part="N">Ты лишь своим велел ступить,</l>
+          <l part="N">Нас тот час чаял победить;</l>
+          <l part="N">Яны́чар твой свирепо злился,</l>
+          <l part="N">Как Тигр на Росский полк скакал.</l>
+          <l part="N">Но что? Внезапно мертв упал,</l>
+          <l part="N">В крови своей пронзен залился. <note resp="editor" place="unspecified" anchored="true"><quote>В пятом часу пополудни атаковали янычары с саблями в руках, ... но из янычаров, от двух до трех тысяч к атакованию пришедших, передовые на месте побиты и по сказке пленных более тысячи ранено, и тако с следующими им янычарами в бегство обратиться принуждены были</quote> (<bibl default="false"><title>Реляция </title></bibl>, стр. 14).</note></l>
+        </lg>
+        <lg n="17" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Целуйте ногу ту в слезах,</l>
+          <l part="N">Что вас, Агаряне, <note resp="editor" place="unspecified" anchored="true">Агаряне - турки.</note> попрала,</l>
+          <l part="N">Целуйте руку, что вам страх</l>
+          <l part="N">Мечем кровавым показала.</l>
+          <l part="N">Великой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анны</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> грозной взор</l>
+          <l part="N">Отраду дать просящим скор;</l>
+          <l part="N">По страшной туче воссияет,</l>
+          <l part="N">К себе повинность вашу зря,</l>
+          <l part="N">К своим любовию горя,</l>
+          <l part="N">Вам казнь и милость обещает.</l>
+        </lg>
+        <lg n="18" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Златой уже денницы перст</l>
+          <l part="N">Завесу света вскрыл с звездами;</l>
+          <l part="N">От встока скачет посту верст,</l>
+          <l part="N">Пуская искры конь ноздрями.</l>
+          <l part="N">Лицем сияет <name type="mythologic">Феб</name> на том.</l>
+          <l part="N">Он пламенным потряс верхом,</l>
+          <l part="N">Преславно дело зря, дивится:</l>
+          <l part="N"> <q>Я мало таковых видал <l part="N">Побед, коль долго я блистал,</l><l part="N">Коль долго круг веков катится</l></q>.</l>
+        </lg>
+        <lg n="19" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как в клуб змия себя крутит,</l>
+          <l part="N">Шипит, под камень жало кроет,</l>
+          <l part="N">Орел когда шумя летит</l>
+          <l part="N">И там парит, где ветр не воет;</l>
+          <l part="N">Превыше молний, бурь, снегов</l>
+          <l part="N">Зверей он видит, рыб, гадо́в, -</l>
+          <l part="N">Пред Росской так дрожит Орлицей,</l>
+          <l part="N">Стесняет внутрь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Хотин</tei:orig><tei:reg>Хотин</tei:reg></tei:choice></tei:name> своих. <note resp="editor" place="unspecified" anchored="true">После поражения под <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Ставучанами</tei:orig><tei:reg>Ставучаны</tei:reg></tei:choice></tei:name> хотинский комендант укрылся в крепости <name type="place">Хотин</name> <quote>лишь с нескольким малым числом янычаров</quote>. Остальная часть крепостного гарнизона присоединилась к главным силам разбитой турецкой армии, отступившим в <name type="place">Бендеры</name> (<bibl default="false"><title>Реляция </title></bibl>, стр. 17).</note>  </l>
+          <l part="N">Но что? В стенах ли может сих</l>
+          <l part="N">Пред сильной устоять Царицей?</l>
+        </lg>
+        <lg n="20" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кто скоро толь тебя, Калчак, <note resp="editor" place="unspecified" anchored="true"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Калчак-паша</tei:orig><tei:reg>Колчак-паша И.</tei:reg></tei:choice></tei:name> - комендант крепости <name type="place">Хотин</name>.</note></l>
+          <l part="N">Учит Российской вдаться власти,</l>
+          <l part="N">Ключи вручить в подданства знак<note resp="editor" place="unspecified" anchored="true"><quote>Около 4 часов ключи крепости через янычарского агу, коменданта и муфтию командующему генералу-фельдмаршалу поднесены, ворота е. и. в. гвардиею заняты, а вскоре потом <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Калчак-паша</tei:orig><tei:reg>Колчак-паша И.</tei:reg></tei:choice></tei:name> сам с великою знатною свитою пришел, командующему генералу-фельдмаршалу покорился, оному свою саблю отдал</quote> (<bibl default="false"><title>Реляция</title></bibl>, стр. 17).</note></l>
+          <l part="N">И большей избежать напасти?</l>
+          <l part="N">Правдивой Аннин гнев велит,</l>
+          <l part="N">Что падших перед ней щадит.</l>
+          <l part="N">Ее взошли и там оливы,</l>
+          <l part="N">Где <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Вислы</tei:orig><tei:reg>Висла</tei:reg></tei:choice></tei:name> ток, где славный <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Рен</tei:orig><tei:reg>Рейн</tei:reg></tei:choice></tei:name>, <note resp="editor" place="unspecified" anchored="true">На <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Висле</tei:orig><tei:reg>Висла</tei:reg></tei:choice></tei:name> русскими войсками был взят в <date>1734</date> г. <name type="place">Данциг</name>. Поход русских войск к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Рейну</tei:orig><tei:reg>Рейн</tei:reg></tei:choice></tei:name> в <date>1734</date> г. способствовал ускорению мирных переговоров между <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Францией</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name> и союзницей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Австрией</tei:orig><tei:reg>Австрия</tei:reg></tei:choice></tei:name>.</note></l>
+          <l part="N">Мечем противник где смирен,</l>
+          <l part="N">Извергли дух сердца кичливы.</l>
+        </lg>
+        <lg n="21" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О как красуются места,</l>
+          <l part="N">Что иго лютое зброси́ли</l>
+          <l part="N">И что на Турках тягота,</l>
+          <l part="N">Которую от них носили;</l>
+          <l part="N">И варварския руки те,</l>
+          <l part="N">Что их держали в тесноте,</l>
+          <l part="N">В полон уже́ несут оковы;</l>
+          <l part="N">Что ноги узами звучат,</l>
+          <l part="N">Которы для отгнанья стад</l>
+          <l part="N">Чужи поля топтать готовы.</l>
+        </lg>
+        <lg n="22" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не вся твоя тут, Порта, казнь,</l>
+          <l part="N">Не так тебя смирять достойно,</l>
+          <l part="N">Но большу нанести боязнь,</l>
+          <l part="N">Что жить нам недала спокойно.</l>
+          <l part="N">Еще высоких мыслей страсть</l>
+          <l part="N">Претит тебе пред <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анной</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> пасть?</l>
+          <l part="N">Где можешь ты от ней укрыться?</l>
+          <l part="N"><name type="place">Дамаск</name>, <name type="place">Каир</name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Алепп</tei:orig><tei:reg>Алеппо</tei:reg></tei:choice></tei:name> згорит;</l>
+          <l part="N">Обставят Росским флотом <name type="place">Крит</name>; <note resp="editor" place="unspecified" anchored="true">Города <name type="place">Дамаск</name>, <name type="place">Каир</name> и <name type="place">Алеппо</name> и остров <name type="place">Крит</name> принадлежали в то время <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турции</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name>.</note></l>
+          <l part="N"><name type="place">Евфрат</name> в твоей крови смутится.</l>
+        </lg>
+        <lg n="23" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Чинит премену что во всем?</l>
+          <l part="N">Что очи блеском проницает?</l>
+          <l part="N">Чистейшим с неба что лучем</l>
+          <l part="N">И дневну ясность превышает?</l>
+          <l part="N">Героев слышу весел клик! </l>
+          <l part="N">Одеян в славу Аннин лик</l>
+          <l part="N">Над звездны вечность взносит круги,</l>
+          <l part="N">И правда, взяв перо злато,</l>
+          <l part="N">В нетленной книге пишет то,</l>
+          <l part="N">Велики коль Ея заслуги.</l>
+        </lg>
+        <lg n="24" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Витийство, <name type="person">Пиндар</name>, уст твоих</l>
+          <l part="N">Тяжчаеб <name type="place">Фивы</name> обвинили, <note resp="editor" place="unspecified" anchored="true"><name type="person">Пиндар</name> вызвал недовольство своих сограждан-фиванцев тем, что восхвалял военные заслуги враждовавших с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Фивами</tei:orig><tei:reg>Фивы</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Афин</tei:orig><tei:reg>Афины</tei:reg></tei:choice></tei:name>.</note></l>
+          <l part="N">Затем что о победах сих</l>
+          <l part="N">Ониб громчае возгласили,</l>
+          <l part="N">Как прежде о красе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Афин</tei:orig><tei:reg>Афины</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N"><name type="place">Россия</name>, как прекрасный крин, <note resp="editor" place="unspecified" anchored="true">Крин - лилия.</note></l>
+          <l part="N">Цветет под Анниной державой.</l>
+          <l part="N">В Китайских чтут Ее стенах, <note resp="editor" place="unspecified" anchored="true">Поводом для такого утверждения могло явиться прибытие в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москву</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> китайского посольства, принятого императрицей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анной</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> 28 апреля <date>1732</date> г. Послы уверяли <quote>в содержании постоянного согласия и нерушимой с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россией</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> дружбы</quote> (<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Н. Бантыш- Каменский</tei:orig><tei:reg>Бантыш-Каменский Н. Н.</tei:reg></tei:choice></tei:name>. <bibl default="false"><title>Дипломатическое собрание дел между Российским и Китайским государствами с <date>1619</date> по <date>1792</date> год</title>. <pubPlace>Казань</pubPlace>, <date>1882</date>, <biblScope unit="pages">стр. 200-201</biblScope></bibl>). Интересно, что в данном случае <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> упоминает из всех иностранных держав один только <name type="place">Китай</name>. Весьма вероятно, что, живя в <date>1732</date> г. в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> видел там участников китайского посольства. Внимание к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Китаю</tei:orig><tei:reg>Китай</tei:reg></tei:choice></tei:name> и русско-китайским отношениям могло быть пробуждено в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносове</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> также и статьями но этому предмету, печатавшимися в <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Исторических, генеалогических и географических примечаниях</tei:orig><tei:reg>Исторические, генеалогические и географические примечания</tei:reg></tei:choice></title></bibl> (1730, ч. 49, стр. 195-196 и 1731, ч. 13-18, стр. 49- 72).</note></l>
+          <l part="N">И свет во всех своих концах</l>
+          <l part="N">Исполнен храбрых Россов славой.</l>
+        </lg>
+        <lg n="25" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="place">Россия</name>, коль щастлива ты</l>
+          <l part="N">Под сильным Анниным Покровом!</l>
+          <l part="N">Какия видишь красоты</l>
+          <l part="N">При сем торжествованьи новом!</l>
+          <l part="N">Военных нестрашися бед:</l>
+          <l part="N">Бежит оттуду бранный вред,</l>
+          <l part="N">Народ где <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> прославляет.</l>
+          <l part="N">Пусть злобна зависть яд свой льет,</l>
+          <l part="N">Пусть свой язык ярясь грызет;</l>
+          <l part="N">То наша радость презирает.</l>
+        </lg>
+        <lg n="26" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Козацких поль заднестрской тать,</l>
+          <l part="N">Разбит, прогнан, как прах, развеян,</l>
+          <l part="N">Не смеет больше уж топтать,</l>
+          <l part="N">С пшеницой, где покой насеян.</l>
+          <l part="N">Безбедно едет в путь купец,</l>
+          <l part="N">И видит край волнам пловец,</l>
+          <l part="N">Ни где не знал плывя препятства.</l>
+          <l part="N">Красуется велик и мал;</l>
+          <l part="N">Жить хочет век, кто в гроб желал:</l>
+          <l part="N">Влекут к тому торжеств изрядства.</l>
+        </lg>
+        <lg n="27" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пастух стада гоняет в луг</l>
+          <l part="N">И лесом без боязни ходит;</l>
+          <l part="N">Пришед, овец пасет где друг,</l>
+          <l part="N">С ним песню новую заводит, </l>
+          <l part="N">Салдатску храбрость хвалит в ней,</l>
+          <l part="N">И жизни часть блажит своей,</l>
+          <l part="N">И вечно тишины желает</l>
+          <l part="N">Местам, где толь спокойно спит,</l>
+          <l part="N">И Ту, что от врагов хранит,</l>
+          <l part="N">Простым усердьем прославляет.</l>
+        </lg>
+        <lg n="28" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Любовь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>, страх врагов,</l>
+          <l part="N">Страны полночной Героиня,</l>
+          <l part="N">Седми пространных морь брегов <note resp="editor" place="unspecified" anchored="true">Под семью морями <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> разумел, вероятно, Северный Ледовитый океан, моря Белое, Охотское (называвшееся тогда Камчатским), Каспийское, Азовское, Черное и Балтийское.</note></l>
+          <l part="N">Надежда, радость и Богиня,</l>
+          <l part="N">Велика <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>, Ты доброт</l>
+          <l part="N">Сияешь светом и щедрот:</l>
+          <l part="N">Прости, что раб твой к громкой славе,</l>
+          <l part="N">Звучит что крепость сил Твоих,</l>
+          <l part="N">Придать дерзнул не красной стих</l>
+          <l part="N">В подданства знак Твоей державе.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

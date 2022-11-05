@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Желание зимы </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н.  Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Желание зимы</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Санкт-петербургский вестник. Ч. 2. </publisher>
+                <date>1778</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1776</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">зима</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз 63636363" rhyme="AbAbCdCd " org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Проникнув из земли, былинка жить не чает</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> И клонится, томна,</l>
+          <l part="N">И кажется, сама природа примечает,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Что рушится она.</l>
+          <l part="N">Вотще ей иногда ласкает день прекрасный,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Чтоб после обмануть;</l>
+          <l part="N">Она уж, отступясь, свой видит труд напрасный</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> И хочет отдохнуть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На листвиях цветов их нежны нити стерты,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Объемля стебли, мрут.</l>
+          <l part="N">Матерых трупы древ на землю ниц простерты,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Младой природы труд.</l>
+          <l part="N">Страдание земли зрит солнце потаенно.</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Се суть <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Борея</tei:orig><tei:reg>Борей</tei:reg></tei:choice></tei:name> дни.</l>
+          <l part="N">Во мрачны облака всё небо облеченно,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> И ходят вкруг они. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Приди скорей, зима, и ветров заговоры,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Владычица, низринь;</l>
+          <l part="N">Меж ними рождена решить их буйны споры,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Ослушных в бездны кинь.</l>
+          <l part="N">Стели свой нежный пух воздушною тропою,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> С зарею иней сей</l>
+          <l part="N">И с играми спеши со пляшущей толпою</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Со праздностью своей.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Поля их белизной луч солнца заражают,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> К себе его сводя;</l>
+          <l part="N">Воздушны шарики друг друга отражают</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> И скачут, с ним сходя.</l>
+          <l part="N">О, как я, восхищен, влеку свое дыханье!</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Сверши, зима, сверши!</l>
+          <l part="N">Лишь крылья ты сплеснешь, пойдет их осязанье</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> По жилам до души.</l>
+          <l part="N">Но что? не гласы ль мне сдаются вопиющих?</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Не се ли рога звук?</l>
+          <l part="N">Дианиных подруг я зрю, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>богинь</tei:orig><tei:reg>богиня</tei:reg></tei:choice></tei:name>   бегущих,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Златой на раме лук.</l>
+          <l part="N">Ты медлишь здесь, олень, а рок твой близко ходит;</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Оставь свой сладкий мох.</l>
+          <l part="N">Пугливый житель рощ напрасно след отводит:</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Издаст последний вздох.</l>
+          <l part="N">Любови не совсем отходят в заточенье</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> И дышат и зимой;</l>
+          <l part="N">Не та же ль <name type="mythologic">Хлоя</name> днесь и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> граций</tei:orig><tei:reg>грация</tei:reg></tei:choice></tei:name> ополченье</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Опасно ей самой?</l>
+          <l part="N">Блюди, чтобы на дни мои не искосился</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Завистливый <name type="mythologic">Сатурн</name>,</l>
+          <l part="N">Зима, чтоб твой певец спокоен покусился</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/> Кичливый вздеть котурн. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

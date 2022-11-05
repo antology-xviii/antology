@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода третия </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода третия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Оды лейб-гвардии Измайловского полку сержанта Михайла Муравьева </publisher>
+                <date>1775</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1775</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">суета</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme=" AAbCCb " org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Смертный суетен родился</l>
+          <l part="N"> И навеки осудился</l>
+          <l part="N"> Суетой себя прельщать;</l>
+          <l part="N"> Он чувствителен, он страстен,</l>
+          <l part="N"> Он влияниям подвластен,</l>
+          <l part="N"> Быв рожден, чтоб ощущать.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Суета есть идол мира,</l>
+          <l part="N"> Выше нет сего кумира,</l>
+          <l part="N"> Им живут, им дышат все;</l>
+          <l part="N"> В суете нам нет упреки:</l>
+          <l part="N"> Чем бы стали человеки</l>
+          <l part="N"> У тешаться в тесноте?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Скорбный век препровождая,</l>
+          <l part="N"> В самом счастии страдая,</l>
+          <l part="N"> Горьку желчь всегда пием;</l>
+          <l part="N"> Дух мятется, тело страждет,</l>
+          <l part="N"> Страсть воюет, сердце жаждет</l>
+          <l part="N"> В колебании своем. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Земнородных обладатель,</l>
+          <l part="N"> Не судья - лишь оправдатель</l>
+          <l part="N"> Беззаконий наших ум;</l>
+          <l part="N"> Велере́чивей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Орфея</tei:orig><tei:reg>Орфей</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> Во скудели <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Промифея</tei:orig><tei:reg>Прометей</tei:reg></tei:choice></tei:name>  </l>
+          <l part="N"> Он вития наших дум.    </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Суета его учитель,</l>
+          <l part="N"> Смертный, сам, себе мучитель,</l>
+          <l part="N"> С суетою брань творит;</l>
+          <l part="N"> Льзя ль с рассудком воевати?</l>
+          <l part="N"> И возможно ль отмщевати,</l>
+          <l part="N"> Если ум наш говорит?</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

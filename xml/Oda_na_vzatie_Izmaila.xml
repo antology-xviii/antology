@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> На взятие Измаила </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> На взятие <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Измаила</tei:orig><tei:reg>Измаил</tei:reg></tei:choice></tei:name> </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Новые ежемесячные сочинения, ч.58</publisher>
+                <date>1791</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1790- 1791</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Потемкин Г. А, Суворов А. В.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">слава</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">военные победы</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <epigraph>
+          <cit>
+            <quote> <l part="N">О, коль монарх благополучен,                                       </l><l part="N"> Кто знает россами владеть!                                        </l><l part="N">Он будет в свете славой звучен                                         </l><l part="N">   И   всех   сердца   в    руке       иметь.</l></quote>
+            <bibl default="false">Ломоносов М. В.</bibl>
+          </cit>
+        </epigraph>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="place"> Везувий </name> пламя изрыгает,       </l>
+          <l part="N"> Столп огненный во тьме стоит,       </l>
+          <l part="N"> Багрово зарево зияет,       </l>
+          <l part="N"> Дым черный клубом вверх летит;       </l>
+          <l part="N"> Краснеет понт, ревет гром ярый,       </l>
+          <l part="N"> Ударам вслед звучат удары;       </l>
+          <l part="N"> Дрожит земля, дождь искр течет;       </l>
+          <l part="N"> Клокочут реки рдяной лавы, -       </l>
+          <l part="N"> О росс! таков твой образ славы,</l>
+          <l part="N"> Что зрел под <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Измаилом </tei:orig><tei:reg>Измаил</tei:reg></tei:choice></tei:name> свет!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О росс! о род великодушный!       </l>
+          <l part="N"> О твердокаменная грудь!       </l>
+          <l part="N"> О исполин, царю послушный!       </l>
+          <l part="N"> Когда и где ты досягнуть       </l>
+          <l part="N"> Не мог тебя достойной славы?       </l>
+          <l part="N"> Твои труды - тебе забавы;       </l>
+          <l part="N"> Твои венцы - вкруг блеск громов:       </l>
+          <l part="N"> В полях ли брань - ты тмишь свод звездный;       </l>
+          <l part="N"> В морях ли бой - ты пенишь бездны, -       </l>
+          <l part="N"> Везде ты страх твоих врагов!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> На подвиг твой вождя веленьем       </l>
+          <l part="N"> Ты идешь, как жених на брак.       </l>
+          <l part="N"> <name type="mythologic">Марс</name> видит чаcто с изумленьем,       </l>
+          <l part="N"> Что и в бедах твой весел зрак:       </l>
+          <l part="N"> Где вкруг драконы медны ржали,       </l>
+          <l part="N"> Из трехсот жерл огнем дышали,       </l>
+          <l part="N"> Ты там прославился днесь вновь.</l>
+          <l part="N"> Вождь рек: <q>Се стены <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Измаила</tei:orig><tei:reg>Измаил</tei:reg></tei:choice></tei:name>!</q>       </l>
+          <l part="N"><q> Да сокрушит твоя их сила!..       <l part="N"> И воскипела бранна кровь.</l></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Как воды, с гор весной в долину       </l>
+          <l part="N"> Низвержась, пенятся, ревут,       </l>
+          <l part="N"> Волнами, льдом трясут плотину, -       </l>
+          <l part="N"> К твердыням россы так текут.       </l>
+          <l part="N"> Ничто им путь не воспящает;       </l>
+          <l part="N"> Смертей ли бледных полк встречает       </l>
+          <l part="N"> Иль ад скрежещет зевом к ним, -       </l>
+          <l part="N"> Идут, как в тучах скрыты громы,       </l>
+          <l part="N"> Как двигнуты, безмолвны холмы;       </l>
+          <l part="N"> Под ними стон, - за ними дым.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Идут в молчании глубоком,       </l>
+          <l part="N"> Во мрачной, страшной тишине,       </l>
+          <l part="N"> Собой пренебрегают, роком;       </l>
+          <l part="N"> Зарница только в вышине       </l>
+          <l part="N"> По их оружию играет;       </l>
+          <l part="N"> И только их душа сияет,       </l>
+          <l part="N"> Когда на бой, на смерть идет.       </l>
+          <l part="N"> Уж блещут молнии крылами,       </l>
+          <l part="N"> Уж осыпаются громами;       </l>
+          <l part="N"> Они молчат - идут вперед.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не бард ли древний, исступленный       </l>
+          <l part="N"> Волшебным их ведет жезлом?       </l>
+          <l part="N"> Нет! свыше пастырь вдохновенный       </l>
+          <l part="N"> Пред ними идет со крестом;       </l>
+          <l part="N"> Венцы нетленны обещает       </l>
+          <l part="N"> И кровь пролить благословляет       </l>
+          <l part="N"> За честь, за веру, за царя;       </l>
+          <l part="N"> За ним вождей ряд пред полками,       </l>
+          <l part="N"> Как бурных дней пред облаками       </l>
+          <l part="N"> Идет огнистая заря.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Идут. - Искусство зрит заслугу       </l>
+          <l part="N"> И, сколь их дух был тут велик,       </l>
+          <l part="N"> Вещает слух земному кругу;       </l>
+          <l part="N"> Но мне их раздается крик;       </l>
+          <l part="N"> По лествицам на град, на стогны,       </l>
+          <l part="N"> Как шумны волны через волны,       </l>
+          <l part="N"> Они возносятся челом;       </l>
+          <l part="N"> Как угль их взоры раскаленны, -       </l>
+          <l part="N"> Как львы на тигров устремленны, -       </l>
+          <l part="N"> Бегут, стеснясь, на огнь, на гром.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О! что за зрелище предстало?       </l>
+          <l part="N"> О пагубный, о страшный час!       </l>
+          <l part="N"> Злодейство что ни вымышляло,       </l>
+          <l part="N"> Поверглось, россы, все на вас!       </l>
+          <l part="N"> Зрю камни, ядра, вар и бревны, -       </l>
+          <l part="N"> Но чем герои устрашенны?       </l>
+          <l part="N"> Чем может отражен быть росс? -       </l>
+          <l part="N"> Тот лезет по бревну на стену;       </l>
+          <l part="N"> А тот летит с стены в геенну;             </l>
+          <l part="N"> Всяк <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Курций</tei:orig><tei:reg>Маркус Курций</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Деций</tei:orig><tei:reg>Публий Деций Мус</tei:reg></tei:choice></tei:name>, <name type="person"> Буароз</name>!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Всяк помнит должность, честь и веру,       </l>
+          <l part="N"> Всяк душу и живот кладет.       </l>
+          <l part="N"> О россы! нет вам, нет примеру,       </l>
+          <l part="N"> И смерть сама вам лавр дает.       </l>
+          <l part="N"> Там в грудь, в сердца лежат пронзенны.       </l>
+          <l part="N"> Без сил, без чувств, полмертвы, бледны;       </l>
+          <l part="N"> Но мнят еще стерть вражий рог:       </l>
+          <l part="N"> Иной движеньем ободряет,       </l>
+          <l part="N"> А тот с победой восклицает:             </l>
+          <l part="N"> <q><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерина</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name>! - с нами бог! </q></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Какая в войсках храбрость рьяна!       </l>
+          <l part="N"> Какой великий дух в вождях!       </l>
+          <l part="N"> В одних душа рассудком льдяна,       </l>
+          <l part="N"> У тех пылает огнь в сердцах.       </l>
+          <l part="N"> В зиме рожденны под снегами,       </l>
+          <l part="N"> Под молниями, под громами,       </l>
+          <l part="N"> Которых с самых юных дней       </l>
+          <l part="N"> Питала слава, верность, вера, -       </l>
+          <l part="N"> Где можно вам сыскать примера?       </l>
+          <l part="N"> Не посреди ль стихийных прей?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Представь: по светлости лазуря,       </l>
+          <l part="N"> По наклонению небес       </l>
+          <l part="N"> Взошла черно-багрова буря       </l>
+          <l part="N"> И грозно возлегла на лес;       </l>
+          <l part="N"> Как страшна нощь, надулась чревом,       </l>
+          <l part="N"> Дохнула с свистом, воем, ревом,       </l>
+          <l part="N"> Помчала воздух, прах и лист;       </l>
+          <l part="N"> Под тяжкими ее крылами       </l>
+          <l part="N"> Упали кедры вверх корнями</l>
+          <l part="N"> И затрещал <name type="place">Ливан</name> кремнист.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Представь последний день природы,       </l>
+          <l part="N"> Что пролилася звезд река;       </l>
+          <l part="N"> На огнь пошли стеною воды,       </l>
+          <l part="N"> Бугры взвились за облака;       </l>
+          <l part="N"> Что вихри тучи к тучам гнали,       </l>
+          <l part="N"> Что мрак лишь молньи освещали,       </l>
+          <l part="N"> Что гром потряс всемирну ось,       </l>
+          <l part="N"> Что солнце, мглою покровенно,       </l>
+          <l part="N"> Ядро казалось раскаленно:</l>
+          <l part="N"> Се вид, как вшел в <name type="place">Измаил</name> росс!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Вошел! <q>Не бойся</q>, - рек и всюды       </l>
+          <l part="N"> Простер свой троегранный штык:       </l>
+          <l part="N"> Поверглись тел кровавы груды,       </l>
+          <l part="N"> Напрасно слышен жалоб крик;       </l>
+          <l part="N"> Напрасно, бранны человеки!       </l>
+          <l part="N"> Вы льете крови вашей реки,       </l>
+          <l part="N"> Котору должно бы беречь, -       </l>
+          <l part="N"> Но с самого веков начала       </l>
+          <l part="N"> Война народы пожирала,       </l>
+          <l part="N"> Священ стал долг: рубить и жечь!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Тот мыслит овладеть всем миром,       </l>
+          <l part="N"> Тот не принять его оков;       </l>
+          <l part="N"> Вселенной царь стал врану пиром,       </l>
+          <l part="N"> Герои - снедию волков.       </l>
+          <l part="N"> Увы! пал крин, и пали терны.       </l>
+          <l part="N"> Почто ж? - Судьбы небесны темны:       </l>
+          <l part="N"> Я здесь пою лишь браней честь.       </l>
+          <l part="N"> Нас горсть - но полк лежит пред нами;       </l>
+          <l part="N"> Нас полк - но с тысячьми и тьмами       </l>
+          <l part="N"> Мы низложили город в персть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> И се уже, шумя, стремится</l>
+          <l part="N"> Кровавой пены полн <name type="place">Дунай</name>,       </l>
+          <l part="N"> Пучина черная багрится,       </l>
+          <l part="N"> Спершись от трупов, с краю в край;       </l>
+          <l part="N">Уже   бледнеюща   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Мармора</tei:orig><tei:reg>Мраморное море</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N"> Дрожит плывуща к ней позора,       </l>
+          <l part="N"> Костры тел видя за костром!       </l>
+          <l part="N"> Луна полна на башнях крови,</l>
+          <l part="N"> Поникли гордой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Мекки</tei:orig><tei:reg>Мекка</tei:reg></tei:choice></tei:name> брови;</l>
+          <l part="N"> <name type="place">Стамбул</name> склонился вниз челом.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О! ежели издревле миру       </l>
+          <l part="N"> Побед славнейших звук гремит</l>
+          <l part="N"> И если приступ славен к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Тиру</tei:orig><tei:reg>Тир</tei:reg></tei:choice></tei:name>, -</l>
+          <l part="N"> К <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Измаилу</tei:orig><tei:reg>Измаил</tei:reg></tei:choice></tei:name>       больше знаменит.       </l>
+          <l part="N"> Там был вселенной покоритель,       </l>
+          <l part="N"> Машин и башен сам строитель,       </l>
+          <l part="N"> Горой он море запрудил, -       </l>
+          <l part="N"> А здесь вождя одно веленье       </l>
+          <l part="N"> Свершило храбрых россов рвенье;       </l>
+          <l part="N"> Великий дух был вместо крыл.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Услышь, услышь, о ты, вселенна!       </l>
+          <l part="N"> Победу смертных выше сил;</l>
+          <l part="N"> Внимай, <name type="place">Европа</name> удивленна,       </l>
+          <l part="N"> Каков сей россов подвиг был.       </l>
+          <l part="N"> Языки, знайте, вразумляйтесь,       </l>
+          <l part="N"> В надменных мыслях содрогайтесь;       </l>
+          <l part="N"> Уверьтесь сим, что с нами бог;       </l>
+          <l part="N"> Уверьтесь, что его рукою       </l>
+          <l part="N"> Один попрет вас росс войною,       </l>
+          <l part="N"> Коль встать из бездны зол возмог!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Я вижу страшную годину:       </l>
+          <l part="N"> Его три века держит сон,       </l>
+          <l part="N"> Простертую под ним долину       </l>
+          <l part="N"> Покрыл везде колючий терн;       </l>
+          <l part="N"> Лице туман подернул бледный,       </l>
+          <l part="N"> Ослабли мышцы удрученны,       </l>
+          <l part="N"> Скатилась в мрак глава его;       </l>
+          <l part="N"> Разбойники вокруг суровы       </l>
+          <l part="N"> Взложили тяжкие оковы,       </l>
+          <l part="N"> Змея на сердце у него.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Он спит! - и насекомы гады       </l>
+          <l part="N"> Румяный потемняют зрак,       </l>
+          <l part="N"> Войны опустошают грады,       </l>
+          <l part="N"> Раздоры пожирают злак;       </l>
+          <l part="N"> Чуть зрится блеск его короны,       </l>
+          <l part="N"> Страдает вера и законы,       </l>
+          <l part="N"> И ты, к отечеству любовь!             </l>
+          <l part="N"> Как зверь, его <name type="person"> Батый </name>       рвет гладный,       </l>
+          <l part="N"> Как змей, сосет лжецарь коварный:       </l>
+          <l part="N"> Повсюду пролилася кровь!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Лежал он во своей печали,       </l>
+          <l part="N"> Как темная в пустыне ночь;       </l>
+          <l part="N"> Враги его рукоплескали,       </l>
+          <l part="N"> Друзья не мыслили помочь,       </l>
+          <l part="N"> Соседи грабежом алкали;       </l>
+          <l part="N"> Князья, бояра в неге спали       </l>
+          <l part="N"> И ползали в пыли, как червь, -       </l>
+          <l part="N"> Но бог, но дух его великий       </l>
+          <l part="N"> Сотряс с него беды толики,       </l>
+          <l part="N"> Расторгнул лев железну вервь!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Восстал! как утром холм высокой       </l>
+          <l part="N"> Встает, подъемляся челом       </l>
+          <l part="N"> Из мглы широкой и глубокой,       </l>
+          <l part="N"> Разлитой вкруг его, и, гром       </l>
+          <l part="N"> Поверх главы в ничто вменяя,       </l>
+          <l part="N"> Ногами волны попирая,       </l>
+          <l part="N"> Пошел, - и кто возмог против?       </l>
+          <l part="N"> От шлема молнии скользили,       </l>
+          <l part="N"> И океаны уступили,       </l>
+          <l part="N"> Стопам его пути открыв.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Он сильны орды пхнул ногою,       </l>
+          <l part="N"> Края азийски потряслись;       </l>
+          <l part="N"> Упали царствы под рукою,       </l>
+          <l part="N"> Цари, царицы в плен влеклись;       </l>
+          <l part="N"> И победителей разитель,       </l>
+          <l part="N"> Монархий света разрушитель       </l>
+          <l part="N"> Простерся под его пятой:</l>
+          <l part="N"> В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Европе</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name>       грады брал, тряс троны,       </l>
+          <l part="N"> Свергал царей, давал короны       </l>
+          <l part="N"> Могущею своей рукой.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Где есть народ в краях вселенны,       </l>
+          <l part="N"> Кто б столько сил в себе имел:       </l>
+          <l part="N"> Без помощи, от всех стесненный,       </l>
+          <l part="N"> Ярем с себя низвергнуть смел       </l>
+          <l part="N"> И, вырвав бы венцы лавровы,       </l>
+          <l part="N"> Возверг на тех самих оковы,       </l>
+          <l part="N"> Кто столько свету страшен был?       </l>
+          <l part="N"> О росс! твоя лишь добродетель       </l>
+          <l part="N"> Таких великих дел содетель;       </l>
+          <l part="N"> Лишь твой орел луну затмил.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Лишь ты, простря твои победы,       </l>
+          <l part="N"> Умел щедроты расточать:       </l>
+          <l part="N"> Поляк, турк, перс, прусс, хин и шведы       </l>
+          <l part="N"> Тому примеры могут дать.       </l>
+          <l part="N"> На тех ты зришь спокойно стены,       </l>
+          <l part="N"> Тем паки отдал грады пленны;       </l>
+          <l part="N"> Там унял прю, тут бунт смирил;       </l>
+          <l part="N"> И сколь ты был их победитель,       </l>
+          <l part="N"> Не меньше друг, благотворитель,       </l>
+          <l part="N"> Свое лишь только возвратил.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О кровь славян! Сын предков славных!       </l>
+          <l part="N"> Несокрушаемый колосс!       </l>
+          <l part="N"> Кому в величестве нет равных,       </l>
+          <l part="N"> Возросший на полсвете росс!       </l>
+          <l part="N"> Твои коль славны древни следы!       </l>
+          <l part="N"> Громчай суть нынешни победы:       </l>
+          <l part="N"> Зрю вкруг тебя лавровый лес;</l>
+          <l part="N"> <name type="place">Кавказ</name> и <name type="place">Тавр</name>       ты преклоняешь,       </l>
+          <l part="N"> Вселенной на среду ступаешь       </l>
+          <l part="N"> И досязаешь до небес.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Уже в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Эвксине</tei:orig><tei:reg>Черное море</tei:reg></tei:choice></tei:name>       с полунощи       </l>
+          <l part="N"> Меж вод и звезд лежит туман,       </l>
+          <l part="N"> Под ним плывут дремучи рощи;       </l>
+          <l part="N"> Средь них как гор отломок льдян       </l>
+          <l part="N"> Иль мужа нека тень седая       </l>
+          <l part="N"> Сидит, очами озирая:       </l>
+          <l part="N"> Как полный месяц щит его,       </l>
+          <l part="N"> Как сосна, рында обожженна,       </l>
+          <l part="N"> Глава до облак вознесенна, -       </l>
+          <l part="N"> Орел над шлемом у него.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> За ним златая колесница       </l>
+          <l part="N"> По розовым летит зарям;       </l>
+          <l part="N"> Сидящая на ней царица,       </l>
+          <l part="N"> Великим равная мужам,       </l>
+          <l part="N"> Рукою держит крест одною,       </l>
+          <l part="N"> Возжженный пламенник другою</l>
+          <l part="N"> И сыплет блески на <name type="place">Босфор</name>;       </l>
+          <l part="N"> Уже от северного света       </l>
+          <l part="N"> Лице бледнеет <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Магомета</tei:orig><tei:reg>Магомет</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> И мрачный отвратил он взор.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не вновь ли то <name type="person">Олег </name> к Востоку       </l>
+          <l part="N"> Под парусами флот ведет             </l>
+          <l part="N"> И <name type="person">Ольга </name> к древнему потоку       </l>
+          <l part="N"> Занятый ею свет лиет?       </l>
+          <l part="N"> Иль россов идет дух военный,       </l>
+          <l part="N"> Христовой верой провожденный,       </l>
+          <l part="N"> Ахеян спасть, агарян стерть? -       </l>
+          <l part="N"> Я слышу, громы ударяют,       </l>
+          <l part="N"> Пророки, камни возглашают:       </l>
+          <l part="N"> <q>То будет ныне или впредь!</q></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О вы, что в мыслях суетитесь       </l>
+          <l part="N"> Столь славный россу путь претить,       </l>
+          <l part="N"> Помочь врагу Христову тщитесь       </l>
+          <l part="N"> И вере вашей изменить!       </l>
+          <l part="N"> Чем столько поступать неправо,       </l>
+          <l part="N"> Сперва исследуйте вы здраво       </l>
+          <l part="N"> Свой путь, цель росса, суд небес;       </l>
+          <l part="N"> Исследуйте и заключите:       </l>
+          <l part="N"> Вы с кем и на кого хотите?       </l>
+          <l part="N"> И что ваш року перевес?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Ничто, коль росс рожден судьбою       </l>
+          <l part="N"> От варварских хранить вас уз,       </l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Темиров</tei:orig><tei:reg>Тамерлан</tei:reg></tei:choice></tei:name> попирать ногою,       </l>
+          <l part="N"> Блюсть ваших от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>  Омаров</tei:orig><tei:reg>Омар</tei:reg></tei:choice></tei:name> муз,       </l>
+          <l part="N"> Отметить крестовые походы,       </l>
+          <l part="N"> Очистить иордански воды,       </l>
+          <l part="N"> Священный гроб освободить,</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Афинам</tei:orig><tei:reg>Афины</tei:reg></tei:choice></tei:name> возвратить <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Афину</tei:orig><tei:reg>Афина</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Град Константинов</tei:orig><tei:reg>Константинополь</tei:reg></tei:choice></tei:name>       <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Константину</tei:orig><tei:reg>великий князь Константин Павлович Романов</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N"> И мир <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Афету</tei:orig><tei:reg>Иафет</tei:reg></tei:choice></tei:name> водворить.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>  Афету  </tei:orig><tei:reg>Иафет</tei:reg></tei:choice></tei:name>  мир?  -  О труд избранный!       </l>
+          <l part="N"> Достойнейший его детей,       </l>
+          <l part="N"> Великими людьми желанный,       </l>
+          <l part="N"> Свершишься ль ты средь наших дней?..</l>
+          <l part="N"> Доколь, <name type="place">Европа</name>       просвещенна,       </l>
+          <l part="N"> С перуном будешь устремленна       </l>
+          <l part="N"> На кровных братиев своих?       </l>
+          <l part="N"> Не лучше ль внутрь раздор оставить       </l>
+          <l part="N"> И с россом грудь одну составить       </l>
+          <l part="N"> На общих супостат твоих?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Дай руку! - и пожди спокойно;       </l>
+          <l part="N"> Сие и росс один свершит,       </l>
+          <l part="N"> За беспрепятствие достойно       </l>
+          <l part="N"> Тебя трофеем наградит.       </l>
+          <l part="N"> Дай руку! дай залог любови!       </l>
+          <l part="N"> Не лей твоей и нашей крови,       </l>
+          <l part="N"> Да месть всем в грудь нам не взойдет;       </l>
+          <l part="N"> Пусть только ум <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Екатерины</tei:orig><tei:reg>Екатерина II </tei:reg></tei:choice></tei:name>,             </l>
+          <l part="N"> Как <name type="person"> Архимед</name>, создаст машины;       </l>
+          <l part="N"> А росс вселенной потрясет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Чего не может род сей славный,       </l>
+          <l part="N"> Любя царей своих, свершить?       </l>
+          <l part="N"> Умейте лишь, главы венчанны!       </l>
+          <l part="N"> Его бесценну кровь щадить.       </l>
+          <l part="N"> Умейте дать ему вы льготу,       </l>
+          <l part="N"> К делам великим дух, охоту       </l>
+          <l part="N"> И правотой сердца пленить.       </l>
+          <l part="N"> Вы можете его рукою       </l>
+          <l part="N"> Всегда, войной и не войною,       </l>
+          <l part="N"> Весь мир себя заставить чтить.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Война - как северно сиянье,       </l>
+          <l part="N"> Лишь удивляет чернь одну:       </l>
+          <l part="N"> Как светлой радуги блистанье,       </l>
+          <l part="N"> Всяк мудрый любит тишину.       </l>
+          <l part="N"> Что благовонней аромата?       </l>
+          <l part="N"> Что слаще меда, краше злата       </l>
+          <l part="N"> И драгоценнее порфир?       </l>
+          <l part="N"> Не ты ль - которого всем взгляды       </l>
+          <l part="N"> Лиют обилие, прохлады -       </l>
+          <l part="N"> Прекрасный и полезный мир?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Приди, о кроткий житель неба,       </l>
+          <l part="N"> Эдемский гражданин страны!       </l>
+          <l part="N"> Приди! - и, как сопутник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Феба</tei:orig><tei:reg>Феб</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> Дух теплотворный, бог весны,       </l>
+          <l part="N"> Дохни везде твоей душою!       </l>
+          <l part="N"> Дохни, - да расцветет тобою       </l>
+          <l part="N"> Рой сладости в домах, в сердцах!</l>
+          <l part="N"> Под сению <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерины</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name>         </l>
+          <l part="N"> Венчанны лавром исполины       </l>
+          <l part="N"> Возлягут на своих громах.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Премудрость царствы управляет;       </l>
+          <l part="N"> Крепит их вера, правый суд;       </l>
+          <l part="N"> Их труд и мир обогащает,       </l>
+          <l part="N"> Любовию они цветут.       </l>
+          <l part="N"> О пол прекрасный и почтенный,       </l>
+          <l part="N"> Кем россы рождены, кем пленны!       </l>
+          <l part="N"> И вам днесь предлежат венцы.       </l>
+          <l part="N"> Плоды побед суть звуки славы,       </l>
+          <l part="N"> Побед основа - тверды нравы,       </l>
+          <l part="N"> А добрых нравов вы творцы!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Когда на брани вы предметов       </l>
+          <l part="N"> Лишилися любви своей,       </l>
+          <l part="N"> Когда и без войны, наветов       </l>
+          <l part="N"> Полна жизнь наша слез, скорбей, -       </l>
+          <l part="N"> Утешьтесь! - Ветры в ветры дуют,       </l>
+          <l part="N"> Стихии меж собой воюют;       </l>
+          <l part="N"> Сей свет - училище терпеть.       </l>
+          <l part="N"> И брань коль восстает судьбою,       </l>
+          <l part="N"> Сын россиянки среди бою       </l>
+          <l part="N"> Со славой должен умереть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> А слава тех не умирает,       </l>
+          <l part="N"> Кто за отечество умрет;       </l>
+          <l part="N"> Она так в вечности сияет,       </l>
+          <l part="N"> Как в море ночью лунный свет.       </l>
+          <l part="N"> Времен в глубоком отдаленьи       </l>
+          <l part="N"> Потомство тех увидит тени,       </l>
+          <l part="N"> Которых мужествен был дух.       </l>
+          <l part="N"> С гробов их в души огнь польется,       </l>
+          <l part="N"> Когда по рощам разнесется       </l>
+          <l part="N"> Бессмертной лирой дел их звук.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

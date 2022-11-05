@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Весна </title>
+        <author> <persName> <forename full="yes">Гавриил</forename>  <forename type="patronym" full="yes">Романович</forename>  <surname full="yes">Державин</surname>  </persName>  </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Весна</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина, ч.1-4. СПб.</publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation> <date>1804</date>  </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">весна</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пиршество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Львов Ф. П.</tei:span>
+    <body xml:id="whole">
+      <div met="ДкРз 4443" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тает зима дыханьем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Фавона</tei:orig><tei:reg>Фавон</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Взгляда бежит прекрасной весны;</l>
+          <l part="N">Мчится <name type="place">Нева</name> к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бельту</tei:orig><tei:reg>Балтийское море</tei:reg></tei:choice></tei:name> на лоно,</l>
+          <l part="N">С брега суда спущены. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Снегом леса не блещут, ни горы,</l>
+          <l part="N">Стогнов согреть не пышет огонь;</l>
+          <l part="N">Ломят стада, играя, затворы,</l>
+          <l part="N">Рыща, ржет на поле конь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Нимфы </tei:orig><tei:reg>нимфы</tei:reg></tei:choice></tei:name>в лугу, под лунным сияньем,</l>
+          <l part="N">Став в хоровод, вечерней зарей,</l>
+          <l part="N">В песнях поют весну с восклицаньем,</l>
+          <l part="N">Пляшут, топочут стопой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Солнце лучом лиловым на взморье</l>
+          <l part="N">Бросит как огнь. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрополь</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name> вкушать</l>
+          <l part="N">Свежий зефир валит в лукоморье;</l>
+          <l part="N">Едешь и ты там гулять. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Едешь - и зришь злак, небо, лес, воды,</l>
+          <l part="N">Милу жену, вкруг рощу сынов;</l>
+          <l part="N">Прелесть всю зришь с собой ты природы,</l>
+          <l part="N">Счастлив сим, счастлив ты, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Львов</tei:orig><tei:reg>Львов Ф. П.</tei:reg></tei:choice></tei:name>! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что ж ты стоишь так мало утешен?</l>
+          <l part="N">Плюнь на твоих лихих супостат!</l>
+          <l part="N">Если прибыток оный безгрешен,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Ревель</tei:orig><tei:reg>Ревель</tei:reg></tei:choice></tei:name> что дал и <name type="place">Кронштадт</name>? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Выкати, дай, ты дай непременно</l>
+          <l part="N">Бочку скорей нам устриц на стол;</l>
+          <l part="N">Портер, вино, что искрами пенно,</l>
+          <l part="N">Каплет что златом, как смоль; </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В толстом стекле что выжимки силы,</l>
+          <l part="N">В свертках травы что слаще сота;</l>
+          <l part="N">Сок нам подай, что молнией в жилы,</l>
+          <l part="N">Быстро летит что в уста! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Выставь нам всё. Так, время приятно</l>
+          <l part="N">Должно твоих друзей угощать.</l>
+          <l part="N">Дышат пока сады ароматно,</l>
+          <l part="N">Розы спеши собирать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Видишь, мой друг, и сам ты вседневно,</l>
+          <l part="N">Миг что один не сходен с другим;</l>
+          <l part="N">В мире земном всё, видишь, пременно;</l>
+          <l part="N">Гладкий понт часто холмим. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Самый твой торг - империй цвет, слава -</l>
+          <l part="N">Первый к вреду, растлению шаг;</l>
+          <l part="N">Блага лишь суть: здоровье, забава,</l>
+          <l part="N">Честность, - всё прочее прах.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

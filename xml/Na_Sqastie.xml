@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> На Счастие</title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> На Счастие </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. М.  Ч. 1. </publisher>
+                <date>1798</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1798</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">патриотизм</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мудрость</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AAbCbCdEEd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Всегда прехвально, препочтенно,</l>
+          <l part="N">Во всей вселенной обоженно</l>
+          <l part="N">И вожделенное от всех,</l>
+          <l part="N">О ты, великомощно счастье!</l>
+          <l part="N">Источник наших бед, утех,</l>
+          <l part="N">Кому и в ведро и в ненастье</l>
+          <l part="N">Мавр, лопарь, пастыри, цари,</l>
+          <l part="N">Моляся в кущах и на троне,</l>
+          <l part="N">В воскликновениях и стоне,</l>
+          <l part="N">В сердцах их зиждут алтари! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сын время, случая, судьбины</l>
+          <l part="N">Иль недоведомой причины,</l>
+          <l part="N">Бог сильный, резвый, добрый, злой!</l>
+          <l part="N">На шаровидной колеснице,</l>
+          <l part="N">Хрустальной, скользкой, роковой,</l>
+          <l part="N">Вослед блистающей деннице,</l>
+          <l part="N">Чрез горы, степь, моря, леса,</l>
+          <l part="N">Вседневно ты по свету скачешь,</l>
+          <l part="N">Волшебною ширинкой машешь</l>
+          <l part="N">И производишь чудеса. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Куда хребет свой обращаешь,</l>
+          <l part="N">Там в пепел грады претворяешь,</l>
+          <l part="N">Приводишь в страх богатырей;</l>
+          <l part="N">Султанов заключаешь в клетку,</l>
+          <l part="N">На казнь выводишь королей;</l>
+          <l part="N">Но если ты ж, хотя в издевку,</l>
+          <l part="N">Осклабишь взор свой на кого -</l>
+          <l part="N">Раба творишь владыкой миру,</l>
+          <l part="N">Наместо рубища порфиру</l>
+          <l part="N">Ты возлагаешь на него. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни людского просвещенья,</l>
+          <l part="N">Как нет кикиморов явленья,</l>
+          <l part="N">Как ты лишь всем чудотворишь:</l>
+          <l part="N">Девиц и дам магнизируешь,</l>
+          <l part="N">Из камней золото варишь,</l>
+          <l part="N">В глаза патриотизма плюешь,</l>
+          <l part="N">Катаешь кубарем весь мир;</l>
+          <l part="N">Как резвости твоей примеров</l>
+          <l part="N">Полна земля вся кавалеров</l>
+          <l part="N">И целый свет стал бригадир. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как всюду скороходом</l>
+          <l part="N">Пред русским ты бежишь народом</l>
+          <l part="N">И лавры рвешь ему зимой,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Стамбулу</tei:orig><tei:reg>Стамбул</tei:reg></tei:choice></tei:name> бороду ерошишь,</l>
+          <l part="N">На <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Тавре </tei:orig><tei:reg>Тавр</tei:reg></tei:choice></tei:name> едешь чехардой;</l>
+          <l part="N">Задать <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Стокгольму </tei:orig><tei:reg>Стокгольм</tei:reg></tei:choice></tei:name> перцу хочешь,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Берлину </tei:orig><tei:reg>Берлин</tei:reg></tei:choice></tei:name> фабришь ты усы;</l>
+          <l part="N">А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Темзу</tei:orig><tei:reg>Темза</tei:reg></tei:choice></tei:name> в фижмы наряжаешь,</l>
+          <l part="N">Хохол <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Варшаве </tei:orig><tei:reg>Варшава</tei:reg></tei:choice></tei:name> раздуваешь,</l>
+          <l part="N">Коптишь голландцам колбасы. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Вену </tei:orig><tei:reg>Вена</tei:reg></tei:choice></tei:name> ободряешь,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Парижу </tei:orig><tei:reg>Париж</tei:reg></tei:choice></tei:name> пукли разбиваешь,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Мадриту </tei:orig><tei:reg>Мадрит</tei:reg></tei:choice></tei:name> поднимаешь нос,</l>
+          <l part="N">На <name type="place"> Копенгаген</name> иней сеешь,</l>
+          <l part="N">Пучок подносишь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Гданску </tei:orig><tei:reg>Гданск</tei:reg></tei:choice></tei:name> роз;</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Венецьи </tei:orig><tei:reg>Венеция</tei:reg></tei:choice></tei:name>,  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Мальте </tei:orig><tei:reg>Мальта</tei:reg></tei:choice></tei:name> не радеешь,</l>
+          <l part="N">А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Греции </tei:orig><tei:reg>Греция</tei:reg></tei:choice></tei:name> велишь зевать;</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Риму </tei:orig><tei:reg>Рим</tei:reg></tei:choice></tei:name>, ноги чтоб не пухли,</l>
+          <l part="N">Святые оставляя туфли,</l>
+          <l part="N">Царям претишь их целовать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как всё везде в разгулье:</l>
+          <l part="N">Политика и правосудье,</l>
+          <l part="N">Ум, совесть, и закон святой,</l>
+          <l part="N">И логика пиры пируют,</l>
+          <l part="N">На карты ставят век златой,</l>
+          <l part="N">Судьбами смертных пунтируют,</l>
+          <l part="N">Вселенну в трантелево гнут;</l>
+          <l part="N">Как полюсы, меридианы,</l>
+          <l part="N">Науки, музы, боги - пьяны,</l>
+          <l part="N">Все скачут, пляшут и поют. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как всюду ерихонцы</l>
+          <l part="N">Не сеют, но лишь жнут червонцы,</l>
+          <l part="N">Их денег куры не клюют;</l>
+          <l part="N">Как вкус и нравы распестрились,</l>
+          <l part="N">Весь мир стал полосатый шут;</l>
+          <l part="N">Мартышки в воздухе явились,</l>
+          <l part="N">По свету светят фонари,</l>
+          <l part="N">Витийствуют уранги в школах;</l>
+          <l part="N">На пышных карточных престолах</l>
+          <l part="N">Сидят мишурные цари. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как мудрость среди тронов</l>
+          <l part="N">Одна не месит макаронов,</l>
+          <l part="N">Не ходит в кузницу ковать;</l>
+          <l part="N">А разве временем лишь скучным</l>
+          <l part="N">Изволит муз к себе пускать</l>
+          <l part="N">И перышком своим искусным,</l>
+          <l part="N">Ни ссоряся никак, ни с кем,</l>
+          <l part="N">Для общей и своей забавы,</l>
+          <l part="N">Комедьи пишет, чистит нравы,</l>
+          <l part="N">И припевает <emph> хем, хем, хем </emph>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, ни с кем как несравненна,</l>
+          <l part="N">Она с тобою сопряженна,</l>
+          <l part="N">Нельзя ни в сказках рассказать,</l>
+          <l part="N">Ни написать пером красиво,</l>
+          <l part="N">Как милость любит проливать,</l>
+          <l part="N">Как царствует она правдиво,</l>
+          <l part="N">Не жжет, не рубит без суда;</l>
+          <l part="N">А разве кое-как вельможи</l>
+          <l part="N">И так и сяк, нахмуря рожи,</l>
+          <l part="N">Тузят иного иногда. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как мещет всюду взоры</l>
+          <l part="N">Она вселенной на рессоры</l>
+          <l part="N">И весит скипетры царей,</l>
+          <l part="N">Следы орлов парящих видит</l>
+          <l part="N">И пресмыкающихся змей;</l>
+          <l part="N">Разя врагов, не ненавидит,</l>
+          <l part="N">А только пресекает зло;</l>
+          <l part="N">Без лат богатырям и в латах</l>
+          <l part="N">Претит давить лимоны в лапах,</l>
+          <l part="N">А хочет, чтобы все цвело. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни, как скипетром любезным</l>
+          <l part="N">Она перун к странам железным</l>
+          <l part="N">И гром за тридевять земель</l>
+          <l part="N">Несет на лунно государство,</l>
+          <l part="N">И бомбы сыплет, будто хмель;</l>
+          <l part="N">Свое же ублажая царство,</l>
+          <l part="N">Покоит, греет и живит;</l>
+          <l part="N">В мороз камины возжигает,</l>
+          <l part="N">Дрова и сено запасает,</l>
+          <l part="N">Бояр и чернь благотворит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В те дни и времена чудесны</l>
+          <l part="N">Твой взор и на меня всеместный</l>
+          <l part="N">Простри, о над царями царь!</l>
+          <l part="N">Простри и удостой усмешкой</l>
+          <l part="N">Презренную тобою тварь;</l>
+          <l part="N">И если я не создан пешкой,</l>
+          <l part="N">Валяться не рожден в пыли,</l>
+          <l part="N">Прошу тебя моим быть другом;</l>
+          <l part="N">Песчинка может быть жемчугом,</l>
+          <l part="N">Погладь меня и потрепли. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Бывало, ты меня к боярам</l>
+          <l part="N">В любовь введешь: беру всё даром,</l>
+          <l part="N">На вексель, в долг без платежа;</l>
+          <l part="N">Судьи, дьяки и прокуроры,</l>
+          <l part="N">В передней про себя брюзжа,</l>
+          <l part="N">Умильные мне мещут взоры</l>
+          <l part="N">И жаждут слова моего,</l>
+          <l part="N">А я всех мимо по паркету</l>
+          <l part="N">Бегу, нос вздернув, к кабинету</l>
+          <l part="N">И в грош не ставлю никого. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Бывало, под чужим нарядом</l>
+          <l part="N">С красоткой чернобровой рядом</l>
+          <l part="N">Иль с беленькой, сидя со мной,</l>
+          <l part="N">Ты в шашки, то в картеж играешь;</l>
+          <l part="N">Прекрасною твоей рукой</l>
+          <l part="N">Туза червонного вскрываешь,</l>
+          <l part="N">Сердечный твой тем кажешь взгляд;</l>
+          <l part="N">Я к крале короля бросаю,</l>
+          <l part="N">И ферзь к ладье я придвигаю,</l>
+          <l part="N">Даю марьяж иль шах и мат. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Бывало, милые науки</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>музы</tei:orig><tei:reg>муза</tei:reg></tei:choice></tei:name>, простирая руки,</l>
+          <l part="N">Позавтракать ко мне придут</l>
+          <l part="N">И всё мое усядут ложе;</l>
+          <l part="N">А я, свирель настроя тут,</l>
+          <l part="N">С их каждой лирой то же, то же</l>
+          <l part="N">Играю, что вчерась играл.</l>
+          <l part="N">Согласна трель! взаимны тоны!</l>
+          <l part="N">Восторг всех чувств! За вас короны</l>
+          <l part="N">Тогда бы взять не пожелал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А ныне пятьдесят мне било;</l>
+          <l part="N">Полет свой счастье пременило,</l>
+          <l part="N">Без лат я горе-богатырь;</l>
+          <l part="N">Прекрасный пол меня лишь бесит,</l>
+          <l part="N">Амур без перьев - нетопырь,</l>
+          <l part="N">Едва вспорхнет, и нос повесит.</l>
+          <l part="N">Сокрылся и в игре мой клад;</l>
+          <l part="N">Не страстны мной, как прежде, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>музы</tei:orig><tei:reg>муза</tei:reg></tei:choice></tei:name>;</l>
+          <l part="N">Бояра понадули пузы,</l>
+          <l part="N">И я у всех стал виноват. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Услышь, услышь меня, о <name type="character"> Счастье</name>!</l>
+          <l part="N">И, солнце как сквозь бурь, ненастье,</l>
+          <l part="N">Так на меня и ты взгляни;</l>
+          <l part="N">Прошу, молю тебя умильно,</l>
+          <l part="N">Мою ты участь премени;</l>
+          <l part="N">Ведь всемогуще ты и сильно</l>
+          <l part="N">Творить добро из самых зол;</l>
+          <l part="N">От божеской твоей десницы</l>
+          <l part="N">Гудок гудит на тон скрыпицы</l>
+          <l part="N">И вьется локоном хохол. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но, ах! как некая ты сфера</l>
+          <l part="N">Иль легкий шар <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Монгольфиера</tei:orig><tei:reg>Монгольфьер</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Блистая в воздухе, летишь;</l>
+          <l part="N">Вселенна длани простирает,</l>
+          <l part="N">Зовет тебя,- ты не глядишь,</l>
+          <l part="N">Но шар твой часто упадает</l>
+          <l part="N">По прихоти одной твоей</l>
+          <l part="N">На пни, на кочки, на колоды,</l>
+          <l part="N">На грязь и на гнилые воды;</l>
+          <l part="N">А редко, редко - на людей. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Слети ко мне, мое драгое,</l>
+          <l part="N">Серебряное, золотое</l>
+          <l part="N">Сокровище и божество!</l>
+          <l part="N">Слети, причти к твоим любимцам!</l>
+          <l part="N">Я храм тебе и торжество</l>
+          <l part="N">Устрою, и везде по крыльцам</l>
+          <l part="N">Твоим рассыплю я цветы;</l>
+          <l part="N">Возжгу куреньи благовонны,</l>
+          <l part="N">И буду ездить на поклоны,</l>
+          <l part="N">Где только обитаешь ты. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жить буду в тереме богатом,</l>
+          <l part="N">Возвышусь в чин, и знатным браком</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Горацию </tei:orig><tei:reg>Гораций</tei:reg></tei:choice></tei:name> в родню причтусь;</l>
+          <l part="N">Пером моим славно-школярным</l>
+          <l part="N">Рассудка выше вознесусь</l>
+          <l part="N">И, став тебе неблагодарным,</l>
+          <l part="N">- <emph> Беатус</emph>! брат мой, на волах</l>
+          <l part="N">Собою сам поля орющий</l>
+          <l part="N">Или стада свои пасущий!-</l>
+          <l part="N">Я буду восклицать в пирах. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Увы! еще ты не внимаешь,</l>
+          <l part="N">О <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Счастие</tei:orig><tei:reg>Счастье</tei:reg></tei:choice></tei:name>! моей мольбе,</l>
+          <l part="N">Мои обеты презираешь -</l>
+          <l part="N">Знать, неугоден я тебе.</l>
+          <l part="N">Но на софах ли ты пуховых,</l>
+          <l part="N">В тенях ли миртовых, лавровых,</l>
+          <l part="N">Иль в золотой живешь стране -</l>
+          <l part="N">Внемли, шепни твоим любимцам,</l>
+          <l part="N">Вельможам, королям и принцам:</l>
+          <l part="N">Спокойствие мое во мне!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

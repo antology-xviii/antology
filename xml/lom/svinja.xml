@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Возражение на притчу <q>Осел во львиной коже</q> притча <q>Свинья в лисей коже</q>]</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Свинья в лисьей коже</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Российская универсальная грамматика или всеобщее письмословие</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1769</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1760-1761</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">завышенное самомнение</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Надела на себя</l>
+          <l part="N"><space dim="horizontal" extent="36 letters"/>Свинья</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Лисицы кожу,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Кривляя рожу,</l>
+          <l part="N"><space dim="horizontal" extent="38 letters"/>Моргала,</l>
+          <l part="N">Таскала длинной хвост и, как лиса, ступала.</l>
+          <l part="N">Итак, во всем она с лисицей сходна стала.</l>
+          <l part="N">Догадки лишь одной свинье недостает:</l>
+          <l part="N">Натура смысла всем свиньям не подает.</l>
+          <l part="N">Но гдеж могла свинья лисицы кожу взять?</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Нетрудно то сказать.</l>
+          <l part="N">Лисица всем зверям подобно умирает,</l>
+          <l part="N">Когда она себе найти, где есть, незнает.</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>И люди с голоду на свете много мрут,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>А паче те, которы врут.</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Таким от рока суд бывает:</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Он хлеб их отъимает</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>И путь им ко вранью тем вечно пресекает. <note resp="editor" place="unspecified" anchored="true"> Довольно прозрачный намек на увольнение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> от управления театром, что произошло между 24 апреля и 12 июля <date>1761</date> г. (<q>Записки АН</q>, т. I, СПб., 1862, прилож. N 1, стр. 13). Нельзя, однако же, утверждать с полной уверенностью, что публикуемое стихотворение написано после того, как увольнение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> уже состоялось: последний возбудил вопрос о своей отставке еще в начале декабря <date>1760</date>  г. и не делал из этого тайны (там же, стр. 43). Слова <quote>он хлеб их отъимает</quote> находят себе подтверждение в показаниях самого <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, который заявлял, что не имеет никакого другого дохода, кроме жалованья (там же, стр. 39).</note></l>
+          <l part="N">В наряде сем везде пошла свинья бродить</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>И стала всех бранить.</l>
+          <l part="N">Лисицам всем прямым, ругаясь, говорила:</l>
+          <l part="N"> <q>Натура-де меня одну лисой родила, <l part="N">А вы-де все ноги нестоите моей,</l><l part="N">Затем что родились от подлых вы свиней. </l><l part="N">Теперя в гости я сидеть ко льву збираюсь.</l><l part="N"><space dim="horizontal" extent="22 letters"/>Лиш с ним я повидаюсь,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Ему я буду друг,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Неделая услуг.</l><l part="N">Он будет сам стоять, а я у него лягу.</l><l part="N">Неуж то он меня так примет, как бродягу?</l></q></l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Дорогою свинья вела с собою речь:</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/><q>Недумаю, чтоб лев позволил мне там лечь, <l part="N">Где все пред ним стоят знатнейши света звери;</l><l part="N"><space dim="horizontal" extent="22 letters"/>Однако в те же двери</l><l part="N"><space dim="horizontal" extent="22 letters"/>И я к нему войду.</l><l part="N">Я стану перед ним, как знатной зверь, в виду</l></q>.</l>
+          <l part="N">Пришла пред льва свинья и милости просила,</l>
+          <l part="N">Хоть подлая и тварь, но много говорила,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Однако все врала, <note resp="editor" place="unspecified" anchored="true"> Речь идет, видимо, о каком-то посещении <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароковым</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>. О том же говорится и в заключительных стихах сумароковской притчи (рассказ о лисе, которая ко льву <quote>пришла и милости просила</quote>). Напрашивается сравнение со следующим отрывком из письма <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шувалову</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> от 19 января <date>1761</date> г.: <quote><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Господин Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, привязавшись ко мне на час, столько всякого вздору наговорил, что на весь мой век станет, и рад, что его бог от меня унес</quote> (т. X наст. изд., письмо 71). Весьма вероятно, что до предпринятой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шуваловым</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> попытки помирить двух поэтов <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> наведывался (может быть, с той же целью) к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, но эта встреча, как видно, не только не улучшила, а, напротив, обострила еще более их отношения. Не исключена возможность, что именно она и дала повод <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> написать публикуемое стихотворение.</note></l>
+          <l part="N">И с глупости она ослом льва назвала.</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Невшел тем лев</l>
+          <l part="N"><space dim="horizontal" extent="36 letters"/>Во гнев.</l>
+          <l part="N">С презреньем на нее он глядя разсмеялся</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Итак ей говорил:</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/><q>Я малобы тужил, <l part="N">Когдаб с тобой, свинья, вовеки невидался.</l><l part="N"><space dim="horizontal" extent="22 letters"/>Тот час знал я,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Что ты - свинья,</l><l part="N">Так тщетно тщилась ты лисою подбегать,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Чтоб врать.</l><l part="N">Родился я во свет не для свиных поклонов,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Я нестрашуся громов, <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> намекает, по-видимому, в этом случае на свои работы по исследованию атмосферного электричества.</note></l><l part="N">Нет в свете сем того, чтоб мой смутило дух.</l><l part="N"><space dim="horizontal" extent="22 letters"/>Былаб ты не свинья,</l><l part="N"><space dim="horizontal" extent="22 letters"/>Так зналабы, кто я,</l><l part="N">И зналаб, обо мне какой свет носит слух</l></q>.</l>
+          <l part="N">И так наша свинья пред львом неполежала,</l>
+          <l part="N">Пошла домой с стыдом, но идучи роптала,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Ворчала,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Мычала,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Кричала,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Визжала</l>
+          <l part="N">И в ярости себя стократно проклинала,</l>
+          <l part="N"><space dim="horizontal" extent="22 letters"/>Потом сказала:</l>
+          <l part="N"> <q>Зачем меня несло со львами спознаваться, <l part="N">Когда мне рок велел всегда в грязи валятся</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

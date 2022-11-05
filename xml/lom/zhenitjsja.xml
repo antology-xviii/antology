@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Жениться хорошо, да много и досады...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor"> В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Жениться хорошо, да много и досады...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Риторика</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>       <date cert="medium">1747</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">женитьба </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">сварливая жена</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">семья</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme=" Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жениться хорошо, да много и досады.</l>
+          <l part="N">Я слова не скажу про женские наряды:</l>
+          <l part="N">Кто мил, на том всегда приятен и убор;</l>
+          <l part="N">Хоть правда, что при том и кошелек неспор.</l>
+          <l part="N">Всего несноснее противные советы,</l>
+          <l part="N">Упрямыя слова и спорные ответы. </l>
+          <l part="N">Пример нам показал недавно мужичок,</l>
+          <l part="N">Которого жену в воде постигнул рок.</l>
+          <l part="N">Он, к берегу пришед, увидел там соседа:</l>
+          <l part="N">Не усмотрел ли он, - спросил, - утопшей следа.</l>
+          <l part="N">Сосед советовал в низ берегом итти:</l>
+          <l part="N">Что быстрина туда должна ее снести.</l>
+          <l part="N">Но он ответствовал: <q>Я, братец, признаваюсь, <l part="N">Что век она жила со мною вопреки:</l><l part="N">То истинно теперь о том не сумневаюсь,</l><l part="N">Что, потонув, она плыла против реки</l></q>. <note resp="editor" place="end" anchored="true">.Т. VII наст. изд., стр. 364-365, ╖ 307. Вольный перевод басни <bibl default="false"><author><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Лафонтена</tei:orig><tei:reg>Лафонтен Ж. де</tei:reg></tei:choice></author><title>Утонувшая жена</title>, <biblScope unit="volume">кн. III</biblScope>, <biblScope unit="part">№ 16</biblScope></bibl>. </note> </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

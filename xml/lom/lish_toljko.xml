@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Лиш только дневной шум замолк...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Лиш только дневной шум замолк...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Риторика</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>      <date cert="medium">1747</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">волк и овцы</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Лиш только дневной шум замолк,</l>
+          <l part="N">Надел пастушье платье волк</l>
+          <l part="N">И взял пастушей посох в лапу,</l>
+          <l part="N">Привесил к поясу рожок,</l>
+          <l part="N">На уши вздел широку шляпу</l>
+          <l part="N">И крался тихо сквозь лесок</l>
+          <l part="N">На ужин для добычи к стаду.</l>
+          <l part="N">Увидев там, что <name type="character">Жучко</name> спит,</l>
+          <l part="N">Обняв пастушку, <name type="character">Фирс</name> храпит,</l>
+          <l part="N">И овцы все лежали сряду.</l>
+          <l part="N">Он мог из них любую взять,</l>
+          <l part="N">Но, не довольствуясь убором,</l>
+          <l part="N">Хотел прикрасить разговором</l>
+          <l part="N">И именем овец назвать.</l>
+          <l part="N">Однако чуть лишь пасть разинул,</l>
+          <l part="N">Раздался в роще волчей вой.</l>
+          <l part="N">Пастух свой сладкой сон покинул,</l>
+          <l part="N">И <name type="character">Жучко</name> с ним бросился в бой;</l>
+          <l part="N">Один дубиной гостя встретил,</l>
+          <l part="N">Другой за горло ухватил;</l>
+          <l part="N">Тут поздно бедный волк приметил,</l>
+          <l part="N">Что через чур перемудрил,</l>
+          <l part="N">В полах и в рукавах связался</l>
+          <l part="N">И волчьим голосом сказался.</l>
+          <l part="N">Но <name type="character">Фирс</name> недолго размышлял,</l>
+          <l part="N">Убор с него и кожу снял.</l>
+          <l part="N">Я притчу всю коротким толком</l>
+          <l part="N">Могу вам, господа, сказать:</l>
+          <l part="N">Кто в свете сем родился волком,</l>
+          <l part="N">Тому лисицой не бывать.<note resp="editor" place="unspecified" anchored="true"> Т. VII наст. изд., стр. 363- 364, ╖ 306. Лафонтен. Басни, кн. III, N 3.</note> </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

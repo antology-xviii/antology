@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода в честь красоте</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Две оды. На красоту</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Невинное упражнение</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">красота</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">наслаждение</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AbbAcc DeeDcc DbbDee." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Краса нас счастия на самый верх возносит,</l>
+          <l part="N">И сами боги чтят в созданье красоту.</l>
+          <l part="N">О жизнь! когда ты сон, продли сию мечту,</l>
+          <l part="N">Продлись, о сладкий сон, пока нас смерть</l>
+          <l part="N"><space dim="horizontal" extent="20 letters"/>не скосит,</l>
+          <l part="N">И насладиться дай приятностьми ее,</l>
+          <l part="N">Пока не обратит их смерть в небытие.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль только понимать свои несчастья ясно</l>
+          <l part="N">Всесильны небеса нас в свет произвели,</l>
+          <l part="N">И утешенья нет для смертных на земли?</l>
+          <l part="N">Престанем размышлять о том, что нам ужасно,</l>
+          <l part="N">Изыщем способы ко облегченью бед,</l>
+          <l part="N">Оставим по себе мы сладкой жизни след.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда мы целый век не можем наслаждаться,</l>
+          <l part="N">Потщимся хоть продлить приятность сих минут,</l>
+          <l part="N">Без возвращения которы протекут,</l>
+          <l part="N">И чтоб раскаяньем впоследок не терзаться,</l>
+          <l part="N">Пусть наших радостей кратчайшие часы</l>
+          <l part="N">Составят сладку жизнь, пока цветут красы.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

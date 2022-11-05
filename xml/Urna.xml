@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Урна </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Урна </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. СПб. Ч. 1-4.</publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1797</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Шувалов И. И.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">просвещение</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">искусство</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCdCd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сраженного косой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Сатурна</tei:orig><tei:reg>Сатурн</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Кого средь воющих здесь рощ</l>
+          <l part="N">Печальная сокрыла урна</l>
+          <l part="N">Во мрачну, непробудну нощь?</l>
+          <l part="N">Кому на ней чудес картина</l>
+          <l part="N">Во мраморе изражена?</l>
+          <l part="N">Крылатый жезл, котурн, личина,</l>
+          <l part="N">Резец и с лирой кисть видна! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Над кем сей мавзолей священный</l>
+          <l part="N">Вкруг отеняет кипарис</l>
+          <l part="N">И лира гласы шлет плачевны?</l>
+          <l part="N">Кто,   <name type="person">Меценат</name>   иль   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Медицис</tei:orig><tei:reg>Лоренцо Медичи</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Тут орошается слезами?</l>
+          <l part="N">Чьи бледные лица черты</l>
+          <l part="N">Луной блистают меж ветвями?</l>
+          <l part="N">Кто зрится мне? - <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шувалов</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>, ты! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ах, ты! могу ль тебя оставить</l>
+          <l part="N">Без благодарной песни я?</l>
+          <l part="N">Тебя ли мне, тебя ль не славить?</l>
+          <l part="N">Я твой питомец и - судья.</l>
+          <l part="N">О нет! уж <name type="mythologic">муза</name> возлетает</l>
+          <l part="N">Моя ко облакам златым,</l>
+          <l part="N">Вслед выспренних певцов дерзает</l>
+          <l part="N">Воспеть тебе надгробный гимн. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Смерть мужа праведна - прекрасна!</l>
+          <l part="N">Как умолкающий орган,</l>
+          <l part="N">Как луч последний солнца ясна</l>
+          <l part="N">Блистает, тонет в океан,-</l>
+          <l part="N">Подобно в неизмерны бездны,</l>
+          <l part="N">От мира тленного спеша,</l>
+          <l part="N">Летит сквозь мириады звездны</l>
+          <l part="N">Блаженная твоя душа. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или как странник, путь опасный</l>
+          <l part="N">Прошедший меж стремнин и гор,</l>
+          <l part="N">Змей слыша свист, львов рев ужасный</l>
+          <l part="N">Позадь себя во тьме и взор</l>
+          <l part="N">От зуб их отвратя, взбегает</l>
+          <l part="N">С весельем на высокий холм,-</l>
+          <l part="N">От мира дух твой возлетает</l>
+          <l part="N">Так вечности в прекрасный дом. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Коль тень и прообразованье</l>
+          <l part="N">Небесного - сей дольний мир,</l>
+          <l part="N">С высот лазурных восклицанье</l>
+          <l part="N">И сладкое согласье лир</l>
+          <l part="N">Я слышу,- вижу, душ блаженных</l>
+          <l part="N">Полки встречать тебя идут!</l>
+          <l part="N">В эфирных ризах, позлащенных,</l>
+          <l part="N">Торжественную песнь поют:  <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Гряди к нам, новый неба житель!</l><l part="N">И отрясая прах земной,</l><l part="N">Войди в нетленную обитель</l><l part="N">И с высоты ее святой</l><l part="N">Воззри на дол твой смертный, слезный.</l><l part="N">На жизнь твою и наконец</l><l part="N">За подвиги твои полезны</l><l part="N">Прими возмездия венец!</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Ты бедных был благотворитель -</l><l part="N">И вечных насладися благ.</l><l part="N">Ты просвещенья был любитель -</l><l part="N">И божества сияй в лучах.</l><l part="N">Ты поощрял петь славу россов,</l><l part="N">Ты   чтил   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петра</tei:orig><tei:reg>Петр   I</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавет</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> -</l><l part="N">Внимай,     как     звучно     <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name></l><l part="N">Здесь славу вечную поет!</l></lg></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Поэзии бессмертно пенье</l>
+          <l part="N">На небесах и на земли;</l>
+          <l part="N">Тот будет гроб у всех в почтенье,</l>
+          <l part="N">Над коим лавры расцвели.</l>
+          <l part="N">Науки сеял благотворной</l>
+          <l part="N">Рукой и возращал любя,-</l>
+          <l part="N">Свет от лампады благовонной</l>
+          <l part="N">Возблещет вечно чрез тебя. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Планета ты,- что с солнца мира</l>
+          <l part="N">Лучи бросала на других:</l>
+          <l part="N">Ты в славе не являл кумира,</l>
+          <l part="N">Ты видел смертных, слышал их.</l>
+          <l part="N">Картина ты,- которой тени</l>
+          <l part="N">Не рама в золоте - хвала;</l>
+          <l part="N">Великолепие - для черни;</l>
+          <l part="N">Для благородных душ - дела. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но мрачен, темен сердца свиток,</l>
+          <l part="N">В нем скрыты наших чувств черты:</l>
+          <l part="N">Оселок честности - прибыток;</l>
+          <l part="N">На нем блистал, как злато, ты.</l>
+          <l part="N">Как полное мастик кадило,</l>
+          <l part="N">Горя, другим ты запах дал;</l>
+          <l part="N">Как полное лучей светило,</l>
+          <l part="N">Ты дарованья озарял. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О! сколько юношей тобою</l>
+          <l part="N">Познания прияли свет!</l>
+          <l part="N">Какою пламенной струею</l>
+          <l part="N">Сей свет в потомство протечет!</l>
+          <l part="N">Над царедворцевой могилой,</l>
+          <l part="N">Над вождем молненосных гроз,</l>
+          <l part="N">Когда раздастся вздох унылой,</l>
+          <l part="N">Сверкнет здесь искра нежных слез. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Стой, урна, вечно невредима,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шувалова</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> являя вид!</l>
+          <l part="N">Будь лирами пиитов чтима,</l>
+          <l part="N">В тебе предстатель их сокрыт.</l>
+          <l part="N">Внуши, тверди его доброты</l>
+          <l part="N">Сей надписью вельможам в слух: <q><l part="N">Он жил для всенародной льготы</l><l part="N">И покровительства наук</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

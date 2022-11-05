@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ЭЛЕГИЯ</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor"> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Элегия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Трудолюбивая пчела, № 2</publisher>
+                <date>1759</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1759</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">безответная любовь</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Свершилося теперь сердечно предсказанье,</l>
+          <l part="N">Сбылось уже мое презлое предвещанье.</l>
+          <l part="N">Но не во cне ль то зрю? не сон ли мя страшит?</l>
+          <l part="N">И не мечта ли мне напастию грозит?</l>
+          <l part="N">Ах, нет! то в яве всё сбылось, о рок, со мною,</l>
+          <l part="N">Что я забвен моей навеки дорогою!</l>
+          <l part="N">Я презрен от нее, любим соперник мой!</l>
+          <l part="N">О гневная судьба! о рок! о час презлой,</l>
+          <l part="N">В который с ним она к мученью мне спозналась</l>
+          <l part="N">И ласкою его, забыв меня, пленялась!</l>
+          <l part="N">В пребедственный мне час страсть она родилась:</l>
+          <l part="N">Моя любезная другому отдалась.</l>
+          <l part="N">Уже она теперь меня не вспоминает</l>
+          <l part="N">И с ним в веселостях минуты провождает,</l>
+          <l part="N">А я, лишась ее, страдаю и грущу</l>
+          <l part="N">И, тщетно мучася, отрады не сыщу.</l>
+          <l part="N">Но если б я теперь опять мог быти с нею</l>
+          <l part="N">И мог бы уверять горячностью своею,</l>
+          <l part="N">Хотя бы к верности ее не обратил,</l>
+          <l part="N">Хотя бы новыя любви не истребил, -</l>
+          <l part="N">Но жар ее ко мне, конечно б, показался,</l>
+          <l part="N">А я хотя бы тем единым утешался.</l>
+          <l part="N">Но ах! когда она могла меня забыть,</l>
+          <l part="N">Так жара в ней ко мне нельзя ни искры быть.</l>
+          <l part="N">Виною ты всему, о злое разлученье!</l>
+          <l part="N">Тобою я терплю несносное мученье.</l>
+          <l part="N">Когда бы я поднесь с ней купно пребывал,</l>
+          <l part="N">Я знаю то, что б я ее не потерял:</l>
+          <l part="N">По всякую б она меня минуту зрела,</l>
+          <l part="N">Взаимственна любовь равно бы в ней горела.</l>
+          <l part="N">Как от прекрасных я ее сокрылся глаз,</l>
+          <l part="N">Помалу исчезал в ней жар любви и гас,</l>
+          <l part="N">И наконец совсем она меня забыла</l>
+          <l part="N">И, позабыв меня, другого полюбила.</l>
+          <l part="N">Другого! словом сим мутится кровь во мне;</l>
+          <l part="N">Он радуется там, я стражду в сей стране.</l>
+          <l part="N">Хотя я мнил, что с ней на время я прощался,</l>
+          <l part="N">Но вижу, в тот я час с ней вечно расставался.</l>
+          <l part="N">Не тщетно я тогда прегорестно стенал;</l>
+          <l part="N">Я всё, что льстило мне, навек тогда терял.</l>
+          <l part="N">Неверная, начто меня ты полюбила!</l>
+          <l part="N">А полюбив, начто любовь свою открыла!</l>
+          <l part="N">Начто и ты тогда мне сделалась мила!</l>
+          <l part="N">На то ли, чтоб ты мне тиранкою была?</l>
+          <l part="N">Не чаю я, чтоб ты, неверная, забыла,</l>
+          <l part="N">Как ты по всякую минуту мне твердила,</l>
+          <l part="N">Что будешь ты меня по смерть свою любить.</l>
+          <l part="N">И с клятвой всякий час ты тщилась говорить:</l>
+          <l part="N"><q>Я прежде с жизнию своею разлучуся, <l part="N">Ах! нежели в любви к тебе переменюся</l></q>.</l>
+          <l part="N">Где делись клятвы те? уж я тебе не мил,</l>
+          <l part="N">Другой тобой любим, а я тебе постыл.</l>
+          <l part="N">Другой любим! я весь покой изменой рушу;</l>
+          <l part="N">Но и неверную люблю тебя как душу.  </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

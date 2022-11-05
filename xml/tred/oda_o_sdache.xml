@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода торжественная о сдаче города Гданска</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода торжественная о сдаче города Гданска</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ода торжественная о сдаче города Гданска, сочиненная в вящую славу имени всепресветлейшия, державнейшия, великия государыни Анны Иоанновны, императрицы и самодержицы всероссийския, чрез Василья Тредиаковского, Санктпетербургския императорския Академии наук секретаря</publisher>
+                <date>1734</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1734</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">могущество России</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">военные победы</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">воспевание монарха</tei:span>
+    <body xml:id="whole">
+      <div met="Силлабич. 9-сл." rhyme="ABABCCDEED" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кое трезвое мне пианство<note resp="editor" place="unspecified" anchored="true"><quote>Трезвое пианство</quote> - здесь: поэтическое вдохновение. В послесловии Тредиаковский отмечает, что такие фигуры являлись характерным признаком оды у древних греков: ?Я всячески старался пиндаризовать, то есть Пиндару во всем подражать, так что я в ней меч сердитым, а трезвым пианство назвал...?. К числу таких особенностей оды Тредиаковский относит гиперболу, которая хотя и ?с правдою мало сходна?, но дозволена; а также изображение императрицы, давшей указ об осаде города, как присутствующей якобы лично при осаде.</note></l>
+          <l part="N">Слово дает к славной причине?</l>
+          <l part="N">Чистое <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнаса</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> убранство<note resp="editor" place="unspecified" anchored="true"><quote>Парнаса убранство</quote> - украшение Парнаса, т. е. музы.</note>,</l>
+          <l part="N"><name type="mythologic">Музы</name>! не вас ли вижу ныне?</l>
+          <l part="N">И звон ваших струн сладкогласных,</l>
+          <l part="N">И силу ликов слышу красных;</l>
+          <l part="N">Все чинит во мне речь избранну<note resp="editor" place="unspecified" anchored="true"><quote>Чинит? речь избранну</quote> - т. е; рождает торжественную речь, оду.</note>.</l>
+          <l part="N">Народы! радостно внемлите;</l>
+          <l part="N">Бурливые ветры! молчите:</l>
+          <l part="N">Храбру прославлять хощу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В своих песнях, в вечность преславных,</l>
+          <l part="N"><name type="person">Пиндар</name>, <name type="person">Гораций</name> несравненны</l>
+          <l part="N">Взнеслися до звезд в небе явных,</l>
+          <l part="N">Как орлы быстры, дерзновенны</l>
+          <l part="N">Но буде б ревности<note resp="editor" place="unspecified" anchored="true"><quote>Буде б ревности</quote> - если бы рвению.</note> сердечной,</l>
+          <l part="N">Что имеет к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> жар вечный,</l>
+          <l part="N">Моея глас лиры сравнился,</l>
+          <l part="N">То бы сам и <name type="mythologic">Орфей</name> фракийский<note resp="editor" place="unspecified" anchored="true"><quote>Орфей фракийский</quote> - легендарный поэт, чье пение и игра на лире укрощали и приручали даже диких зверей. </note>,</l>
+          <l part="N"><name type="mythologic">Амфион</name> купно б и фивийский<note resp="editor" place="unspecified" anchored="true"><quote>Амфион... фивийский</quote> - строитель Фив. Камни сами укладывались в городскую стену под действием волшебной игры и пения Амфиона.</note></l>
+          <l part="N">Сладости ее удивился.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Воспевай же, лира, песнь сладку,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>, то есть благополучну,</l>
+          <l part="N">К вящему всех врагов упадку,</l>
+          <l part="N">К несчастию в веки тем, скучну.<note resp="editor" place="unspecified" anchored="true"><quote>К несчастию в веки тем, скучну</quote> - на горе врагам вовеки.</note></l>
+          <l part="N">О ее и храбрость, и сила!</l>
+          <l part="N">О всех подданных радость мила!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Страшит храбрость, всё побеждая,</l>
+          <l part="N">В дивный восторг радость приводит,</l>
+          <l part="N">Печальну и мысль нам отводит,</l>
+          <l part="N">Все наши сердца расширяя.</l>
+          <l part="N">Не сам ли <name type="mythologic">Нептун</name> строил стены,</l>
+          <l part="N">Что при близком толь горды море?<note resp="editor" place="unspecified" anchored="true"><quote>Стены, Что при близком толь горды море</quote> - гордые стены крепости на Балтийском море.</note></l>
+          <l part="N">Нет ли троянским к ним примены,<note resp="editor" place="unspecified" anchored="true"><quote>Троянским? примены</quote> - т. е. сравнения со стенами Трои, осада которой описана в ?Илиаде? Гомера.</note></l>
+          <l part="N">Что хотели быть долго в споре</l>
+          <l part="N">С оружием в действе пресильным,</l>
+          <l part="N">И с воином в бой неумильным?<note resp="editor" place="unspecified" anchored="true"><quote>В споре с воином в бой неумильным</quote> - Здесь сопротивление Гданьска русскому оружию сравнивается с сопротивлением Трои оружию ахейцев и силе Ахиллеса, ожесточенного в бою.</note></l>
+          <l part="N">Все <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Вислою</tei:orig><tei:reg>Висла, р.</tei:reg></tei:choice></tei:name> ныне рекою</l>
+          <l part="N">Не <name type="mythologicPlace">Скамандр</name><note resp="editor" place="unspecified" anchored="true"><quote>Скамандр</quote> - река под Троей.</note> ли называют?</l>
+          <l part="N">Не <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologocPlace"><tei:choice><tei:orig>Иде</tei:orig><tei:reg>Ида</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Ида</quote> - гора к юго-востоку от Трои.</note> ль имя налагают</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Столценбергом</tei:orig><tei:reg>Столценберг</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Столценберг</quote> - возвышенность у Гданьска.</note> тамо горою?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">То не <name type="place">Троя</name> басней причина:</l>
+          <l part="N">Не один <name type="mythologic">Ахиллес</name> воюет;</l>
+          <l part="N">Всяк <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Фетидина</tei:orig><tei:reg>Фетида</tei:reg></tei:choice></tei:name> воин сына</l>
+          <l part="N">Мужественнее тут штурмует.<note resp="editor" place="unspecified" anchored="true"><quote>Всяк Фетидина воин сына Мужественнее тут штурмует</quote> - всякий воин штурмует тут мужественнее, чем Фетидин сын (Ахиллес).</note></l>
+          <l part="N">Что ж чудным за власть<note resp="editor" place="unspecified" anchored="true"><quote>Власть</quote> - здесь: повелитель, предводитель.</note> шлемом блещет?</l>
+          <l part="N">Не <name type="mythologic">Минерва</name><note resp="editor" place="unspecified" anchored="true"><quote>Минерва</quote> - У Гомера Афина (Минерва) вдохновляла осаждающих Трою и сама участвовала в сражениях.</note> ль копие мещет?</l>
+          <l part="N">Явно, что от небес посланна,</l>
+          <l part="N">И богиня со всего вида,</l>
+          <l part="N">Страшна и без щита <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>эгида</tei:orig><tei:reg>Эгид</tei:reg></tei:choice></tei:name>?<note resp="editor" place="unspecified" anchored="true"><quote>Эгид</quote> - щит, наводящий ужас на врагов; аттрибут Зевса, Афины; на эгиде Минервы (Афины) была голова чудовища Горгоны.</note></l>
+          <l part="N">Императрица есть то <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И воин то росский на мало</l>
+          <l part="N">Окружил <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Гданск</tei:orig><tei:reg>Гданьск</tei:reg></tei:choice></tei:name>, город противный,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Марсом</tei:orig><tei:reg>Марс</tei:reg></tei:choice></tei:name> кажда назвать пристало,</l>
+          <l part="N">В силе ж всяк паче <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Марса</tei:orig><tei:reg>Марс</tei:reg></tei:choice></tei:name> дивный;</l>
+          <l part="N">Готов и кровь пролити смело,</l>
+          <l part="N">Иль о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> победить цело:<note resp="editor" place="unspecified" anchored="true"><quote> О Анне победить цело</quote> - во имя Анны одержать полную победу.</note></l>
+          <l part="N">Счастием <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анны</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> все крепятся.<note resp="editor" place="unspecified" anchored="true"><quote>Все крепятся</quote> - все укрепляются.</note></l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> токмо надежда тверда;</l>
+          <l part="N">И что<note resp="editor" place="unspecified" anchored="true"><quote>И что</quote> - из-за того, что.</note> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> к ним милосерда,</l>
+          <l part="N">На ее врагов больше злятся.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Европска неба и азийска</l>
+          <l part="N">Солнце красно, благоприятно!</l>
+          <l part="N">О самодержица российска!</l>
+          <l part="N">Благополучна многократно!</l>
+          <l part="N">Что тако поданным любезна,</l>
+          <l part="N">Что владеешь толь им полезна!</l>
+          <l part="N">Имя уж страшно твое свету,</l>
+          <l part="N">А славы не вместит вселенна,</l>
+          <l part="N">Желая ти быть покоренна,</l>
+          <l part="N">Красоты вся дивится цвету.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но что вижу? не льстит ли око?</l>
+          <l part="N">Отрок <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Геркулеса</tei:orig><tei:reg>Геркулес</tei:reg></tei:choice></tei:name> противу,<note resp="editor" place="unspecified" anchored="true"><quote>Отрок Геркулеса противу</quote> - мальчик перед Геркулесом.</note></l>
+          <l part="N">Подъемля бровь горду высоко,</l>
+          <l part="N">Хочет стать всего света к диву!</l>
+          <l part="N"><name type="place">Гданск</name>, то есть, с помыслом неумным,</l>
+          <l part="N">Будто б упившись питьем шумным,</l>
+          <l part="N">Противится, и уже явно,</l>
+          <l part="N">Императрице многомочной;</l>
+          <l part="N">Не видит бездны, как в тьме ночной,</l>
+          <l part="N">Рассуждаючи неисправно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В нутр<note resp="editor" place="unspecified" anchored="true"><quote>В нутр</quote> - в центр, сердце.</note> самый своего округа,</l>
+          <l part="N">Ищущего дважды корону</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Станислава</tei:orig><tei:reg>Станислав I Лещинский</tei:reg></tei:choice></tei:name> берет за друга;<note resp="editor" place="unspecified" anchored="true"><quote>Ищущего дважды корону Станислава берет за друга.</quote> - Гданьск дал прибежище Станиславу Лещинскому, вторично претендовавшему на польский престол и поддерживаемому Францией.</note></l>
+          <l part="N">Уповает на оборону</l>
+          <l part="N">Чрез поля льющася <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Нептуна</tei:orig><tei:reg>Нептун</tei:reg></tei:choice></tei:name>;<note resp="editor" place="unspecified" anchored="true"><quote>Чрез поля льющася Нептуна</quote> - т. е. реки Вислы, охраняющей Гданьск.</note></l>
+          <l part="N">Но бояся ж росска <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Перуна</tei:orig><tei:reg>Перун</tei:reg></tei:choice></tei:name>,<note resp="editor" place="unspecified" anchored="true"><quote>Росска Перуна</quote> - здесь: русского оружия, войска.</note></l>
+          <l part="N">Ищет и помощи в народе,</l>
+          <l part="N">Что живет при брегах <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Секваны</tei:orig><tei:reg>Сена, р.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Секвана</quote> - Сена.</note>;</l>
+          <l part="N">Тот в свой проигрыш барабаны</l>
+          <l part="N">Се <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Вексельминды</tei:orig><tei:reg>Вексельминда</tei:reg></tei:choice></tei:name> бьет в пригоде. <note resp="editor" place="unspecified" anchored="true"><quote>Тот в свой проигрыш барабаны Се Вексельминды бьет в пригоде</quote> - т. е. французский народ себе в ущерб и в угоду Гданьску выступил в поход (бьет барабаны). Вексельминда - Вейхзельмюнде, немецкое название маленькой крепости близ Гданьска (означающее: Устье Вислы), где французы высадили десант.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гордый огнем <name type="place">Гданс</name>к и железом,</l>
+          <l part="N">Купно воинами повсюду,</l>
+          <l part="N">Уж махины ставит разрезом</l>
+          <l part="N">В россов<note resp="editor" place="unspecified" anchored="true"><quote>Ставит разрезом в россов</quote> - т. е. направляет жерла на русских.</note> на раскатах вне уду; <note resp="editor" place="unspecified" anchored="true"><quote>На раскатах вне уду</quote> - Пушки были поставлены на насыпях вне укреплений, снаружи.</note></l>
+          <l part="N">И что богат многим припасом,</l>
+          <l part="N"> ?Виват <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Станислав</tei:orig><tei:reg>Станислав I Лещинский</tei:reg></tei:choice></tei:name>?, - кричит гласом.</l>
+          <l part="N">Ободряет в воинах злобу,</l>
+          <l part="N">Храброго сердца не имущих,</l>
+          <l part="N">Едино токмо стерегущих,</l>
+          <l part="N">Соблюсти б ногами жизнь собу.<note resp="editor" place="unspecified" anchored="true"><quote>Соблюсти б ногами жизнь собу.</quote> - только бы сберечь ногами собственную жизнь.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ах! <name type="place">Гданск</name>, ах! на что ты дерзаешь?</l>
+          <l part="N">Воззови ум, с ним соберися:</l>
+          <l part="N">К напасти себя приближаешь.</l>
+          <l part="N">Что стал? что медлишь? покорися.</l>
+          <l part="N">Откуда ты смелость имеешь,</l>
+          <l part="N">Что пред <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анною</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> не бледнеешь?</l>
+          <l part="N">Народы поддаются целы,</l>
+          <l part="N">Своевольно, без всякой брани;</l>
+          <l part="N">Чтоб не давать когда ей дани,</l>
+          <l part="N">Чтут дважды ту хински пределы.<note resp="editor" place="unspecified" anchored="true"><quote>Чтут дважды ту хински пределы.</quote> Китай дважды (в 1731 г. и в 1732 г.) присылал русской императрице послов с богатыми дарами.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В милости нет <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> подобной,</l>
+          <l part="N">Кто милости у нее просит;</l>
+          <l part="N">К миру нет толико удобной</l>
+          <l part="N">С тем, кто войны ей не наносит.</l>
+          <l part="N">Меч ее, оливой обвитый<note resp="editor" place="unspecified" anchored="true"><quote>Оливой обвитый</quote> - миролюбивый; оливковая ветвь - символ мира.</note>,</l>
+          <l part="N">Не в мире, но в брани сердитый.</l>
+          <l part="N">Покинь, <name type="place">Гданск</name>, покинь мысль ту злую;</l>
+          <l part="N">Видишь, что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Алциды</tei:orig><tei:reg>Алкиды</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Алциды</quote> - Геркулесы.</note> готовы;</l>
+          <l part="N">Жителей зришь беды суровы;</l>
+          <l part="N">Гневну слышишь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> самую.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тысячами храбрых атлетов</l>
+          <l part="N">Окружен ты отвсюду тесно,</l>
+          <l part="N">Молнии от частых полетов,</l>
+          <l part="N">Что разбивает всё известно<note resp="editor" place="unspecified" anchored="true"><quote>Всё известно</quote> - здесь: все, что ни на есть, решительно все.</note>,</l>
+          <l part="N">Устоять весьма ти не можно;<note resp="editor" place="unspecified" anchored="true"><quote>Устоять весьма ти не можно</quote> - тебе никак нельзя устоять.</note></l>
+          <l part="N">И что гром готов, то не ложно:</l>
+          <l part="N">На раскатах нет уж защиты,</l>
+          <l part="N">Земля пропасти растворяет;</l>
+          <l part="N">Здание в воздух улетает;</l>
+          <l part="N">И ограды многи отбиты.<note resp="editor" place="unspecified" anchored="true"><quote>Ограды? отбиты</quote> - захвачены укрепления.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хотя б все государи стали</l>
+          <l part="N">За тебя, <name type="place">Гданск</name>, ныне сердечно;</l>
+          <l part="N">Хоть бы стихии защищали;</l>
+          <l part="N">Всего хоть бы света конечно</l>
+          <l part="N">Солдаты храбры в тебе были</l>
+          <l part="N">И кровь бы свою щедро лили, -</l>
+          <l part="N">Но все оны тебя защитить,</l>
+          <l part="N">Ей! не могут уже никако,</l>
+          <l part="N">Старалися хотя бы всяко,</l>
+          <l part="N">И из рук Анниных похити?ть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Смотрите, противны народы,</l>
+          <l part="N">Коль храбры российские люди!</l>
+          <l part="N">Огнь не вредит им, ниже воды,</l>
+          <l part="N">На всё открыты у них груди;</l>
+          <l part="N">Зрите, как спешат до приступа!</l>
+          <l part="N">Как и ломятся без отступа!</l>
+          <l part="N">Не страшатся пушечна грома,</l>
+          <l part="N">Лезут, как танцевать на браки<note resp="editor" place="unspecified" anchored="true"><quote>На браки</quote> - на свадьбу.</note>,</l>
+          <l part="N">И сквозь дымные видно мраки,</l>
+          <l part="N">Кому вся храбрость есть знакома.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Еще умножаются страхи</l>
+          <l part="N">При стенах бедна <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Гданска</tei:orig><tei:reg>Гданск</tei:reg></tei:choice></tei:name> града:</l>
+          <l part="N">Здания ломаются в прахи;</l>
+          <l part="N">Премогает везде осада.</l>
+          <l part="N">Магистрат<note resp="editor" place="unspecified" anchored="true"><quote>Магистрат.</quote> Со времен Ганзейского союза Гданьск сохранил широкие вольности, он управлялся магистратом (выборным городским управлением). </note>, зря с стены последней,</l>
+          <l part="N">Что им в помощи несоседней<note resp="editor" place="unspecified" anchored="true"><quote>В помощи несоседней</quote> - т. е. в французах, которым не удалось прорваться к Гданьску.</note></l>
+          <l part="N">И что в приятстве <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Станислава</tei:orig><tei:reg>Станислав I Лещинский</tei:reg></tei:choice></tei:name></l>
+          <l part="N">Суетная была надежда,<note resp="editor" place="unspecified" anchored="true"><quote>В приятстве Станислава суетная была надежда</quote> - т. е. магистрат ошибся, приняв под защиту Станислава и понадеявшись на помощь его зятя, французского короля.</note></l>
+          <l part="N">Стоя без смысла, как невежда,</l>
+          <l part="N"> ?Ах! - кричит, - пала наша слава?.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хочет сбыться, что я пророчил:</l>
+          <l part="N">Начинает <name type="place">Гданск</name> уж трястися;</l>
+          <l part="N">Всяк сдаться так, биться как прочил<note resp="editor" place="unspecified" anchored="true"><quote>Биться как прочил</quote> - т. е. как намеревался сражаться.</note>,</l>
+          <l part="N">Мыслит, купно чрез то спастися</l>
+          <l part="N">От бомб летящих по воздуху</l>
+          <l part="N">И от смертоносного духу.</l>
+          <l part="N">Всяк кричит: пора начинати,-</l>
+          <l part="N">Всем несносно было то бремя;</l>
+          <l part="N">Ах! все врата у града время</l>
+          <l part="N">Аннину войску отворяти.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сталося так. Видно знак к сдаче:</l>
+          <l part="N">Повергся <name type="place">Гданск</name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> под ноги;</l>
+          <l part="N">Воин рад стал быть о удаче;</l>
+          <l part="N">Огнь погас; всем вольны дороги.</l>
+          <l part="N">Повсюду и Слава паряща</l>
+          <l part="N">Се летит трубою гласяща:</l>
+          <l part="N"> ?<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> счастием превосходна!</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>, о наша! всех храбрейша!</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Августа</tei:orig><tei:reg>Август</tei:reg></tei:choice></tei:name> августейша!</l>
+          <l part="N">Красота и честь всенародна!?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Престань, лира! время скончити:</l>
+          <l part="N">Великую <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анну</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> достойно</l>
+          <l part="N">Кто может хваля возносити</l>
+          <l part="N">И храбрость свыше<note resp="editor" place="unspecified" anchored="true"><quote>Храбрость свыше</quote> - неземную храбрость.</note> при той стройно?</l>
+          <l part="N">В сем хвала <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анне</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name> есть многа,</l>
+          <l part="N">Что любима от вышня бога.</l>
+          <l part="N">О сем побеждать<note resp="editor" place="unspecified" anchored="true"><quote>О сем побеждать</quote> - этим побеждать.</note> ей желаю,</l>
+          <l part="N">И побеждать всегда имеет,</l>
+          <l part="N">Кто противен быть ни посмеет.</l>
+          <l part="N">Тем ?виват <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анна</tei:orig><tei:reg>Анна Иоанновна</tei:reg></tei:choice></tei:name>!? восклицаю.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

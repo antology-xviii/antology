@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>К <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>П. И. Панину</tei:orig><tei:reg>Панин П. И.</tei:reg></tei:choice></tei:name>. 25 генв. (5 февр.) 1778</title>
+        <author>          <persName>            <forename full="yes">Денис</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Фонвизин</surname>           </persName>         </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">Д. И. Фонвизин. Собрание сочинений в двух томах</title>
+            <editor role="editor"> Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Государственное издательство художественной литературы</publisher>
+            <pubPlace>Москва-Ленинград</pubPlace>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                  библиотека</tei:ref>
+            </distributor>
+            <date>1959</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 2</ref>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1778</date>       </creation>
+      <textClass default="false">
+        <catRef target="#letters" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole"> Панин Петр Иванович </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">медицина</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">климат</tei:span>
+    <body xml:id="whole">
+      <dateline><name type="place">Монпелье</name>, <date>25 генв. (5 февр.) 1778</date></dateline>
+      <p>Ведая, сколь милостивое участие ваше сиятельство приемлете в моем состоянии, почитаю за долг уведомить вас, милостивый государь, что надежда, которую имел я о выздоровлении жены моей, исполняется к моему истинному счастию. Не тщетно предпринял я столь дальнее путешествие. Главная причина ее болезни истреблена, и le ver solitaire, от коего она столько времени страдала, на сих днях выгнан. Я возьму смелость описать здесь образ ее лечения. Может быть, послужит он и у нас, хотя удобности наши к исцелению больных и гораздо здешних меньше.</p>
+      <p>С самого приезда нашего сюда по утрам пила она бульон с травами, имеющими силу vermifuge (выгонять глисты), как-то: папоротник и проч., а после сего спустя час давали ей пить ослицино молоко, что приуготовляло ее силы к принятию наконец известного купленного королем лекарства. Пользующий ее доктор считает сие лекарство столь жестоким, что не хотел его употреблять иначе, как если все прочие не произведут никакого действия. Бульон и молоко давали ей три недели, а потом пила корсиканскую траву, называемую Mithocorton, и корень Valeriana; все сие, может быть, изнуряло червя, но не выгоняло. Напоследок доктор принужден был решиться на жестокое лекарство, и уже для сего назначен был день, пред которым дней за пять остановил доктор все прежние лекарства и заставил ее пить поутру и ввечеру по чайной ложке орехового масла. По счастью, накануне назначенного дня для приему последнего мучительного способа масло произвело все желаемое действие и выгнало червя; по рассмотрению его в микроскоп нашли не только его голову, но и приметили образ его репродукции. Здешний медицинский факультет считает сие новым откровением, и славный натуралист господин Гуан сочиняет диссертацию с пространным описанием сих примечаний. Я весьма рад, что выгнанный червь занимает такие умные головы, но гораздо больше рад тому, что он выгнан.</p>
+      <p>Отдавая справедливость искусству доктора г. Деламюра, который лечил жену мою с крайнею осторожностию и рачением, должен я признаться, что и климат способствовал много. Но все время ничего похожего на зиму мы не видали, кроме нескольких дождливых дней. Гульбище всегда было наполнено людьми. Прошлого 15/26 генваря после жары был пресильный гром, что для нас было весьма ново, ибо слышали гром тогда, когда у нас, может быть, многие отморозили уши. Прекраснее здешнего климата быть не может.</p>
+      <p>По предписанию нашего доктора считаем ехать в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Спа</tei:orig><tei:reg>Спа</tei:reg></tei:choice></tei:name>, к водам, помощию которых может поправиться причиненное в теле расстройство толь долговременною болезнию жены моей. Ласкаюсь, милостивый государь, что сей способ послужит к совершенному выздоровлению, а между тем, оставляем на сих днях <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Монпелье</tei:orig><tei:reg>Монпелье</tei:reg></tei:choice></tei:name>, чтоб видеть <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" place"><tei:choice><tei:orig>Марсель</tei:orig><tei:reg>Марсель</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Тулон</tei:orig><tei:reg>Тулон</tei:reg></tei:choice></tei:name>. Я не премину уведомить ваше сиятельство, что найду достойного сведения вашего.</p>
+      <p>С глубоким почтением и совершенною преданностию имею долг быть...</p>
+    </body>
+  </text>
+</TEI>

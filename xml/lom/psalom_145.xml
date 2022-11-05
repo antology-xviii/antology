@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Преложение псалма 145</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Преложение псалма 145</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Краткое руководство к красноречию. Книга первая, в которой содержится риторика, показующая общие правила обоего красноречия, то есть оратории и поэзии. СПб.</publisher>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1747</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хвалу всевышнему владыке</l>
+          <l part="N">Потщися, дух мой, возсылать;</l>
+          <l part="N">Я буду петь в гремящем лике</l>
+          <l part="N">О нем, пока могу дыхать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Никто не уповай вовеки</l>
+          <l part="N">На тщетну власть Князей земных:</l>
+          <l part="N">Их тежь родили человеки,</l>
+          <l part="N">И нет спасения от них. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда с душею разлучатся</l>
+          <l part="N">И тленна плоть их в прах падет,</l>
+          <l part="N">Высоки мысли разрушатся,</l>
+          <l part="N">И гордость их и власть минет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Блажен тот, кто себя вручает</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Всевышнему</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> во всех делах</l>
+          <l part="N">И токмо в помощь призывает</l>
+          <l part="N">Живущего на небесах, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Несчетно многими звездами</l>
+          <l part="N">Наполнившаго высоту</l>
+          <l part="N">И непостижными делами</l>
+          <l part="N">Земли и моря широту, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Творящаго на сильных нищу</l>
+          <l part="N">По истинне в обидах суд,</l>
+          <l part="N">Даящаго голодным пищу,</l>
+          <l part="N">Когда к нему возопиют. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Господь</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> оковы разрешает</l>
+          <l part="N">И умудряет он слепцов,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Господь</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> упадших возвышает</l>
+          <l part="N">И любит праведных рабов. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Господь</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> пришельцев сохраняет</l>
+          <l part="N">И вдов приемлет и сирот.</l>
+          <l part="N">Он грешных дерский путь скончает.</l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblicalPlace"><tei:choice><tei:orig>Сионе</tei:orig><tei:reg>Сион</tei:reg></tei:choice></tei:name> будет в род и род.<note resp="editor" place="unspecified" anchored="true"> Т. VII наст. изд., стр. 328-330, № 273. - <q>Первая посылка разделительного силлогизма</q>, - говорит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в № 273 <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Риторике</tei:orig><tei:reg>Риторика</tei:reg></tei:choice></title></bibl>, - <q>может быть отставлена, и вместо оной положен быть краткий приступ, как то видно в псалме 145-м, который основан на следующем разделительном силлогизме: <quote>Или уповать на бога или на князей, сынов человеческих; но уповать на них ненадежно; следовательно, лучше уповать на бога</quote></q>. Текст, выделенный курсивом, обрабатывался <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, как видно из рукописи, особенно тщательно (т. VII наст. изд., стр. 327). Не удовольствовавшись, однако, одним этим текстом, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> приложил к ╖ 273 <quote>для яснейшего понятия</quote> еще и полное стихотворное переложение всего псалма. Нет сомнения, что тезис, составивший содержание ╖ 273, мог быть с успехом проиллюстрирован и каким-нибудь другим литературным произведением и что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> не случайно остановил свой выбор именно на данном псалме, который привлек его, очевидно, не столько своей структурой, сколько своим содержанием. Напрашивается мысль, что оно дало <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> возможность излить - как обычно он это делал - свои собственные чувства: поводом для этого послужило, вероятно, производившееся в первой половине 40-х годов следствие по делу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шумахера</tei:orig><tei:reg>Шумахер И. Д.</tei:reg></tei:choice></tei:name>, кончившееся полной его реабилитацией и осуждением его обвинителей. Поведение вельмож, производивших следствие, давало <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> полное основание воскликнуть с негодованием: Никто не уповай вовеки На тщетну власть Князей земных. Псалом 145 в переложении <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> приобрел широкую известность. Еще в первой половине XIX в. его распевали бродячие слепцы, а за ними и крестьяне, как об этом рассказывает в своих воспоминаниях академик <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>А. В. Никитенко</tei:orig><tei:reg>Никитенко А. В.</tei:reg></tei:choice></tei:name> (<bibl default="false"><title>Русская старина</title>, <date>1888</date>, ноябрь, <biblScope>стр. 283</biblScope>;  <date>1891</date>, июнь, <biblScope>стр. 624-625</biblScope>).</bibl></note>     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

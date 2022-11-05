@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Стихи к деньгам</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Стихи к деньгам</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собеседник любителей российского слова</publisher>
+                <date>1783</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">деньги</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">творчество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">богатство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">происхождение денег</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AAbbCCССddAAaaAAeeCCAAddCCccHHddCCggAAhhDDeeAAaaAAaaEEaaAAaaEE." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Божественный металл, красящий истуканов,</l>
+          <l part="N">Животворящая душа пустых карманов,</l>
+          <l part="N">Подпора стариков, утеха молодых,</l>
+          <l part="N">Награда добрых дел, нередко и худых,</l>
+          <l part="N">Предмет воюющих, порой живущих мирно,</l>
+          <l part="N">И досажденье тех, у коих брюхо жирно,</l>
+          <l part="N">Здоровья, бодрости и силы подкрепитель,</l>
+          <l part="N">Сподручник счастия, свободы искупитель,</l>
+          <l part="N">Магнит торгующих и бог ростовщиков,</l>
+          <l part="N">Разумных добрый вождь и гибель дураков,</l>
+          <l part="N">О деньги, к вам стихи писать предпринимаю,</l>
+          <l part="N">Но, муза, не тебя я в помощь призываю,</l>
+          <l part="N">Ты так же, как и я, карманами бедна,</l>
+          <l part="N">И нагота твоя в картинах нам видна;</l>
+          <l part="N">Велика ты душой и разумом богата,</l>
+          <l part="N">Правдива и честна, и в песнях торовата;</l>
+          <l part="N">Твоею лирою пленяюсь часто я,</l>
+          <l part="N">Но участь скудная известна мне твоя.</l>
+          <l part="N">Отец стихов <name type="person">Гомер</name>, твою приявши лиру,</l>
+          <l part="N">В наследство славу лишь свою оставил миру.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анакреона</tei:orig><tei:reg>Анакреон</tei:reg></tei:choice></tei:name> ты подобно возбуждала,</l>
+          <l part="N">И щедро ты его стихами награждала,</l>
+          <l part="N">В весельях ел и пил, и жил <name type="person">Анакреон</name>,</l>
+          <l part="N">Но что оставил нам? Одних лишь песен звон.</l>
+          <l part="N"><name type="person">Овидий</name>, коего ты нежностью снабдила,</l>
+          <l part="N"><name type="person">Овидий</name>, коего пером любовь водила,</l>
+          <l part="N">Кто сладким, наконец, творением своим</l>
+          <l part="N">Пленил толико всех, колико древний <name type="place">Рим</name>,</l>
+          <l part="N"><name type="person">Овидий</name>, коего стихи <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Кларисе</tei:orig><tei:reg>Клариса</tei:reg></tei:choice></tei:name> любы,</l>
+          <l part="N">В холодном севере скончал свой век без шубы.</l>
+          <l part="N">Другой чрез много лет, писав приятный вздор,</l>
+          <l part="N">По смерти, как <name type="person">Гомер</name>, в народах сделал спор:</l>
+          <l part="N">Потомки разные доказывать трудились,</l>
+          <l part="N">Что с сим писателем в одной земле родились;</l>
+          <l part="N">Высоко ставили себе такую честь,</l>
+          <l part="N">Коль город, где возмог пиита произвесть,</l>
+          <l part="N">Но о стяжательном никто не спорил праве</l>
+          <l part="N">Того, которого завидовали славе.</l>
+          <l part="N">Хоть слава шумная имеет много уст,</l>
+          <l part="N">Но слава, как и я, карман имеет пуст,</l>
+          <l part="N">Летая налегке в подсолнечной с трубою,</l>
+          <l part="N">Металлов не берет богиня та с собою.</l>
+          <l part="N">Везде о всех и всем все вести говоря,</l>
+          <l part="N">Нагая носится чрез горы и моря.</l>
+          <l part="N">О деньги, нет у вас ушей, ни глаз, ни гласа,</l>
+          <l part="N">Но чувства вам не раз давал певец <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнаса</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Я прежни приведу на память чудеса:</l>
+          <l part="N">Когда <name type="mythologic">Орфей</name> играл, плясали древеса,</l>
+          <l part="N">И камни, что поля неплодным удручали,</l>
+          <l part="N">От песней двигались и чувство получали.</l>
+          <l part="N">Преобращалася тогда земля в металл,</l>
+          <l part="N">Курс денег с той поры известен в мире стал;</l>
+          <l part="N">Тогда произвелась ходячая монета</l>
+          <l part="N">И стала колесом вертящегося света.</l>
+          <l part="N">Движенье новое земной воспринял шар,</l>
+          <l part="N">За деньги всякий всем даваться стал товар;</l>
+          <l part="N">Тогда осыпалась земля сребром и златом,</l>
+          <l part="N">Богатый без родства богатому стал братом;</l>
+          <l part="N">Не то ли век златой, известный нам в стихах,</l>
+          <l part="N">Который и поднесь хранится в кошельках?</l>
+          <l part="N">И некто написал, что стали человеки</l>
+          <l part="N">В железных сундуках хранить златые веки.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

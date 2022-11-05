@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Ключ </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ключ </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Санкт-Петербургский вестник </publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1779</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вдохновение</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэтическая слава</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">М. М. Хераскову</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbX" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Седящ, увенчан осокою,       </l>
+          <l part="N">В тени развесистых древес,       </l>
+          <l part="N">На урну облегшись рукою,       </l>
+          <l part="N">Являющий лице небес       </l>
+          <l part="N">Прекрасный вижу я источник.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Источник шумный и прозрачный,       </l>
+          <l part="N">Текущий с горной высоты,       </l>
+          <l part="N">Луга поящий, долы злачны,       </l>
+          <l part="N">Кропящий перлами цветы,       </l>
+          <l part="N">О, коль ты мне приятен зришься!         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты чист - и восхищаешь взоры,       </l>
+          <l part="N">Ты быстр - и утешаешь слух;       </l>
+          <l part="N">Как серна скачуща на горы,       </l>
+          <l part="N">Так мой к тебе стремится дух,       </l>
+          <l part="N">Желаньем петь тебя горящий.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда в дуги твои сребристы       </l>
+          <l part="N">Глядится красная заря,       </l>
+          <l part="N">Какие пурпуры огнисты       </l>
+          <l part="N">И розы пламенны, горя,       </l>
+          <l part="N">С паденьем вод твоих катятся!         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гора в день стадом покровенну       </l>
+          <l part="N">Себя в тебе, любуясь, зрит;       </l>
+          <l part="N">В твоих водах изображенну       </l>
+          <l part="N">Дуброву ветерок струит,       </l>
+          <l part="N">Волнует жатву золотую.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Багряным брег твой становится,       </l>
+          <l part="N">Как солнце катится с небес;       </l>
+          <l part="N">Лучом кристалл твой загорится,       </l>
+          <l part="N">В дали начнет синеться лес,       </l>
+          <l part="N">Туманов море разольется.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О! коль ночною темнотою       </l>
+          <l part="N">Приятен вид твой при луне,       </l>
+          <l part="N">Как бледны холмы над тобою       </l>
+          <l part="N">И рощи дремлют в тишине,       </l>
+          <l part="N">А ты один, шумя, сверкаешь!         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сгорая стихотворства страстью,       </l>
+          <l part="N">К тебе я прихожу, ручей:       </l>
+          <l part="N">Завидую пиита счастью,       </l>
+          <l part="N">Вкусившего воды твоей,       </l>
+          <l part="N">Парнасским лавром увенчанна.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Напой меня, напой тобою,       </l>
+          <l part="N">Да воспою подобно я,       </l>
+          <l part="N">И с чистою твоей струею       </l>
+          <l part="N">Сравнится в песнях мысль моя,       </l>
+          <l part="N">А лирный глас с твоим стремленьем         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Да честь твоя пройдет все грады,       </l>
+          <l part="N">Как эхо с гор сквозь лес дремуч:       </l>
+          <l part="N">Творца бессмертной &lt;Россиады&gt;,       </l>
+          <l part="N">Священный Гребеневский ключ,       </l>
+          <l part="N">Поил водой ты стихотворства.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

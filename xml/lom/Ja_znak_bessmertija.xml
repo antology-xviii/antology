@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Я знак бессмертия себе воздвигнул...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Я знак бессмертия себе воздвигнул...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Краткое руководство к красноречию. Книга первая, в которой содержится риторика, показующая общие правила обоего красноречия, то есть оратории и поэзии. СПб.</publisher>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1747</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я5" rhyme="Астрофич. б. с." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Я знак бессмертия себе воздвигнул</l>
+          <l part="N">Превыше пирамид и крепче меди,</l>
+          <l part="N">Что бурный <name type="mythologic">Аквилон</name> сотреть не может,</l>
+          <l part="N">Ни множество веков, ни едка древность.</l>
+          <l part="N">Не вовсе я умру, но смерть оставит</l>
+          <l part="N">Велику часть мою, как жизнь скончаю.</l>
+          <l part="N">Я буду возрастать повсюду славой,</l>
+          <l part="N">Пока великий <name type="place">Рим</name> владеет светом.</l>
+          <l part="N">Где быстрыми шумит струями <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Авфид</tei:orig><tei:reg>Офанто</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Где <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Давнус</tei:orig><tei:reg>Давн</tei:reg></tei:choice></tei:name> царствовал в простом народе,</l>
+          <l part="N">Отечество мое молчать не будет,</l>
+          <l part="N">Что мне беззнатной род препятством небыл.</l>
+          <l part="N">Чтоб внесть в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Италию</tei:orig><tei:reg>Италия</tei:reg></tei:choice></tei:name> стихи Еольски</l>
+          <l part="N">И перьвому звенеть Алцейской Лирой.</l>
+          <l part="N">Взгордися праведной заслугой, <name type="mythologic">муза</name>,</l>
+          <l part="N">И увенчай главу Дельфийским лавром.<note resp="editor" place="unspecified" anchored="true">Т. VII наст. изд., стр. 314-315, ╖ 268. <name type="person">Гораций</name>. Оды, III, 30. Умышленное отступление допущено в стихе 8, где устранен малопонятный без комментария образ жреца, восходящего на <name type="place">Капитолий</name> в сопровождении молчаливой девы. Слова qua violens и т. д. (стихи 10-12) ошибочно отнесены к dicar (правильное отнесение их к deduxisse указано уже древними комментаторами <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Горация</tei:orig><tei:reg>Гораций</tei:reg></tei:choice></tei:name>). В отнесении слов ex humili к самому <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Горацию</tei:orig><tei:reg>Гораций</tei:reg></tei:choice></tei:name>, а не к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Давну</tei:orig><tei:reg>Давн</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> следует наиболее распространенной интерпретации.</note>     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

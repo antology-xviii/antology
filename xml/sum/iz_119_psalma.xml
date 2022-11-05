@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Из 119 псалма. Глашу ко Господу, стеня </title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из 119 псалма. Глашу ко Господу, стеня</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 18.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1787</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">благочестие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">грехи</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">страдание</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <opener>           <emph>Ко Господу, внегда скорбети ми.</emph>     </opener>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>Глашу ко Господу, стеня:</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Господь избавит!</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>От ложных уст меня</l>
+        <l part="N">И льстиву языку на жертву не оставит:</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Сия стрела,</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Язык лукавый,</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>И суд неправый</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>Мне много приключает зла.</l>
+        <l part="N">Стремление на мя злодеев беспредельно,</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>И яко пламя можжевельно.</l>
+        <l part="N">В Месехе я пришлец: увы, увы, то мне!</l>
+        <l part="N">Живу во шалаше в Кидарской я стране,</l>
+        <l part="N">И преселение мое мне долго ныне,</l>
+        <l part="N">Едва не со зверьми живущему в пустыне:</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>И вся их жизни дань,</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>Бесперестанна брань:</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>А разговоры,</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Крик, шум и ссоры.</l>
+        <l part="N">Противен им покой, согласие и мир.</l>
+        <l part="N">Колико, Боже мой, я беден здесь и сир!</l>
+        <l part="N">С немиролюбцами живу миролюбиво,</l>
+        <l part="N">И с ними, как они, подобно не кричу:</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Молчу;</l>
+        <l part="N">Но лишь раскрою рот, встают на мя бурливо.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

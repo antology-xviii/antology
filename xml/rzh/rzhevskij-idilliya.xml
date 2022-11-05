@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ИДИЛЛИЯ</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor">Н. Д. Кочеткова, Г. П. Макогоненко, И. З. Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Идиллия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение, N 4</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вольность</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N">О воля милая, миляе ты всего!</l>
+        <l part="N">Тебя приятней нет на свете ничего.</l>
+        <l part="N"><space dim="horizontal" extent="15 letters"/>Тот, кто любови убегает,</l>
+        <l part="N"><space dim="horizontal" extent="15 letters"/>В утехах век свой провождает,</l>
+        <l part="N">На что ни кинет взор, его всё веселит;</l>
+        <l part="N">Не рвется никогда, не плачет, не грустит.</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>Спокойно спит он нощи,</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>Без слез встречает день;</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>Ему приятны рощи</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>И в полдень жарки тень.</l>
+        <l part="N">Его бесстрастный взор луга увеселяют;</l>
+        <l part="N"><space dim="horizontal" extent="15 letters"/>Его цветочки утешают,</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>Приятен соловей.</l>
+        <l part="N">Находит радости в свиреле он своей,</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>Ему забавой речки,</l>
+        <l part="N">Ему забота вся - единые овечки.</l>
+        <l part="N">В утехах весь свой век безбедно он живет:</l>
+        <l part="N">Ему приятна жизнь, ему приятен свет.</l>
+        <l part="N">Но я с любезною днесь вольностью расстался,</l>
+        <l part="N">Когда с несклонною Ниреною спознался.</l>
+        <l part="N"><space dim="horizontal" extent="15 letters"/>Меня ничто не веселит:</l>
+        <l part="N">Мой рвется пленный дух, страдает и грустит;</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>И нет такой минуты,</l>
+        <l part="N">Когда б не мучили меня болезни люты.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

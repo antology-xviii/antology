@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Скоротечность жизни</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Никитич</forename>             <surname full="yes">Муравьев</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода первая</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Оды лейб-гвардии Измайловского полку сержанта Михайла Муравьева. СПб.</publisher>
+                <date>1775</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1775, 1780-е годы - переработка</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">скоротечность жизни</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">старость</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Седины не возвращают</l>
+          <l part="N">Нам потерянных годов;</l>
+          <l part="N">Спокоенье возвещают</l>
+          <l part="N">От заботы и трудов.</l>
+          <l part="N">Сила жизни изнурится -</l>
+          <l part="N">Пребыванье разорится</l>
+          <l part="N">Некончающей души.</l>
+          <l part="N">Всё оставим за пределом,</l>
+          <l part="N">С сим что сродно бренным телом.</l>
+          <l part="N">Смертный, ты сие внуши.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И, затем воспоминая</l>
+          <l part="N">Скоротечность дней своих,</l>
+          <l part="N">Не достигнувши до края,</l>
+          <l part="N">О цене помысли их.</l>
+          <l part="N">День, который улетает,</l>
+          <l part="N">Крылий вспять не обращает</l>
+          <l part="N">И скрывается навек.</l>
+          <l part="N">Наша жизнь кратка довольно;</l>
+          <l part="N">Что ж ее ты своевольно</l>
+          <l part="N">Расточаешь, человек?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пожалеешь, но напрасно,</l>
+          <l part="N">Невозвратный свой урон.</l>
+          <l part="N">Жизнь - мечтание прекрасно:</l>
+          <l part="N">То минутный утра сон.</l>
+          <l part="N">Протекло, что было прежде;</l>
+          <l part="N">Ты живешь всегда в надежде</l>
+          <l part="N">Быть счастливей, чем теперь.</l>
+          <l part="N">Ах! живи, не медля мало.</l>
+          <l part="N">Половина - дел начало,</l>
+          <l part="N">И ты времени не верь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Наше счастье к нам столь близко;</l>
+          <l part="N">И Природа, нежна мать,</l>
+          <l part="N">Положила дар сей низко,</l>
+          <l part="N">Чтоб могли его достать.</l>
+          <l part="N">Следуй ты ее внушенью,</l>
+          <l part="N">Воспретив воображенью</l>
+          <l part="N">Заблуждать сей верный путь.</l>
+          <l part="N">Старость, дней твоих отрада,</l>
+          <l part="N">Как вечерняя прохлада,</l>
+          <l part="N">Успокоит томну грудь.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

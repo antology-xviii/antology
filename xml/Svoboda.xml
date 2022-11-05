@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Свобода </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Свобода </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> "Анакреонтические песни" Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1803</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">свобода</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme=" AbAbCd // EfEfCd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Теплой осени дыханье,</l>
+          <l part="N">Помавание дубов,</l>
+          <l part="N">Тихое листов шептанье,</l>
+          <l part="N">Восклицанье голосов       </l>
+          <l part="N">Мне, лежащему в долине,       </l>
+          <l part="N">Наводили сладкий сон. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Видел я себя стоящим</l>
+          <l part="N">На высоком вдруг холму,</l>
+          <l part="N">На плоды вдали глядящим,</l>
+          <l part="N">На шумящу вблизь волну, -       </l>
+          <l part="N">И как будто в важном чине       </l>
+          <l part="N">Я носил на плечах холм. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Дальше: власти мне святые</l>
+          <l part="N">Иго то велели несть,</l>
+          <l part="N">Все венцы суля земные,</l>
+          <l part="N">Титла, золото и честь.       <q><l part="N">Нет! - восстав от сна глубока,       </l><l part="N">Я сказал им, - не хочу.</l></q>  <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Не хочу моей свободы,</l><l part="N">Совесть на мечты менять:</l><l part="N">Гладки воды, коль погоды</l><l part="N">Их не могут колебать.       </l><l part="N">Власть тогда моя высока,       </l><l part="N">Коль я власти не ищу</l></lg></q>.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

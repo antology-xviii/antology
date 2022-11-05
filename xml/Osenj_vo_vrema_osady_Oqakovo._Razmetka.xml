@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Осень во время осады Очакова </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Осень в селе Зубриловке </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Отдельное издание </publisher>
+                <date>1788</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1788</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">война</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мужество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">С.Ф. Голицыну</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="XxXxXxXx + AbAbCdCd + EfEfGhGh" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Спустил седой <name type="character"><name type="mythologic">Эол</name></name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Борея</tei:orig><tei:reg>Борей</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">С цепей чугунных из пещер;       </l>
+          <l part="N">Ужасные криле расширя,       </l>
+          <l part="N">Махнул по свету богатырь;       </l>
+          <l part="N">Погнал стадами воздух синий,       </l>
+          <l part="N">Сгустил туманы в облака,       </l>
+          <l part="N">Давнул - и облака расселись,       </l>
+          <l part="N">Пустился дождь и восшумел.        </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уже румяна <name type="character">Осень</name> носит       </l>
+          <l part="N">Снопы златые на гумно,       </l>
+          <l part="N">И роскошь винограду просит       </l>
+          <l part="N">Рукою жадной на вино.       </l>
+          <l part="N">Уже стада толпятся птичьи,       </l>
+          <l part="N">Ковыль сребрится по степям;       </l>
+          <l part="N">Шумящи красно-желты листьи       </l>
+          <l part="N">Расстлались всюду по тропам.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В опушке заяц быстроногий,       </l>
+          <l part="N">Как колпик поседев, лежит;       </l>
+          <l part="N">Ловецки раздаются роги,       </l>
+          <l part="N">И выжлиц лай и гул гремит.       </l>
+          <l part="N">Запасшися крестьянин хлебом,       </l>
+          <l part="N">Ест добры щи и пиво пьет;       </l>
+          <l part="N">Обогащенный щедрым небом,       </l>
+          <l part="N">Блаженство дней своих поет.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="character"><name type="mythologic">Борей</name> </name> на<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Осень</tei:orig><tei:reg>Осень</tei:reg></tei:choice></tei:name> хмурит брови</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Зиму</tei:orig><tei:reg>Зима</tei:reg></tei:choice></tei:name>с севера зовет:       </l>
+          <l part="N">Идет седая чародейка,       </l>
+          <l part="N">Косматым машет рукавом;       </l>
+          <l part="N">И снег, и мраз, и иней сыплет       </l>
+          <l part="N">И воды претворяет в льды;       </l>
+          <l part="N">От хладного ее дыханья       </l>
+          <l part="N">Природы взор оцепенел.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Наместо радуг испещренных       </l>
+          <l part="N">Висит по небу мгла вокруг,       </l>
+          <l part="N">А на коврах полей зеленых       </l>
+          <l part="N">Лежит рассыпан белый пух.       </l>
+          <l part="N">Пустыни сетуют и долы,       </l>
+          <l part="N">Голодны волки воют в них;       </l>
+          <l part="N">Древа стоят и холмы голы,       </l>
+          <l part="N">И не пасется стад при них.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ушел олень на тундры мшисты,       </l>
+          <l part="N">И в логовище лег медведь;</l>
+          <l part="N">По селам <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig/><tei:reg>нимфы</tei:reg></tei:choice></tei:name> голосисты       </l>
+          <l part="N">Престали в хороводах петь;       </l>
+          <l part="N">Дымятся серым дымом домы,       </l>
+          <l part="N">Поспешно едет путник в путь,       </l>
+          <l part="N">Небесный       <name type="        mythologic "><name type="character">Марс</name></name> оставил громы       </l>
+          <l part="N">И лег в туманы отдохнуть.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Российский только <name type=" mythologic ">Марс</name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Потемкин</tei:orig><tei:reg>Потемкин Г. А.</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N">Не ужасается зимы:       </l>
+          <l part="N">По развевающим знаменам       </l>
+          <l part="N">Полков, водимых им, орел</l>
+          <l part="N">Над древним царством <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Митридата</tei:orig><tei:reg>Митридат VI </tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Летает и темнит луну;       </l>
+          <l part="N">Под звучным крил его мельканьем</l>
+          <l part="N">То черн, то бледн, то рдян <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Эвксин</tei:orig><tei:reg>Черное море</tei:reg></tei:choice></tei:name>.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Огонь, в волнах неугасимый,       </l>
+          <l part="N">Очаковские стены жрет,       </l>
+          <l part="N">Пред ними росс непобедимый       </l>
+          <l part="N">И в мраз зелены лавры жнет;       </l>
+          <l part="N">Седые бури презирает,       </l>
+          <l part="N">На льды, на рвы, на гром летит,       </l>
+          <l part="N">В водах и в пламе помышляет:       </l>
+          <l part="N">Или умрет, иль победит.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мужайся, твердый росс и верный,       </l>
+          <l part="N">Еще победой возблистать!       </l>
+          <l part="N">Ты не наемник - сын усердный;       </l>
+          <l part="N">Твоя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерина</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name> мать,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Потемкин</tei:orig><tei:reg>Потемкин Г. А.</tei:reg></tei:choice></tei:name> - вождь, бог - покровитель;       </l>
+          <l part="N">Твоя геройска грудь - твой щит,       </l>
+          <l part="N">Честь - мзда твоя, вселена - зритель,       </l>
+          <l part="N">Потомство плесками гремит.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мужайтесь, росски <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Ахиллесы</tei:orig><tei:reg>Ахиллес</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N">Богини северной сыны!</l>
+          <l part="N">Хотя вы в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Стикс</tei:orig><tei:reg>Стикс</tei:reg></tei:choice></tei:name>не погружались,       </l>
+          <l part="N">Но вы бессмертны по делам.       </l>
+          <l part="N">На вас всех мысль, на вас всех взоры,       </l>
+          <l part="N">Дерзайте ваших вслед отцов!</l>
+          <l part="N">И ты спеши скорей, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Голицын</tei:orig><tei:reg>Голицын С. Ф.</tei:reg></tei:choice></tei:name>!       </l>
+          <l part="N">Принесть в твой дом с оливой лавр.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Твоя супруга златовласа,       </l>
+          <l part="N">Пленира сердцем и лицом,       </l>
+          <l part="N">Давно желанного ждет гласа,       </l>
+          <l part="N">Когда ты к ней приедешь в дом;       </l>
+          <l part="N">Когда с горячностью обнимешь       </l>
+          <l part="N">Ты семерых твоих сынов,       </l>
+          <l part="N">На матерь нежны взоры вскинешь       </l>
+          <l part="N">И в радости не сыщешь слов.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда обильными речами       </l>
+          <l part="N">Потом восторг свой изъявишь,       </l>
+          <l part="N">Бесценными побед венцами       </l>
+          <l part="N">Твою супругу удивишь;       </l>
+          <l part="N">Геройские дела расскажешь       </l>
+          <l part="N">Ее ты дяди и отца,       </l>
+          <l part="N">И дух и ум его докажешь       </l>
+          <l part="N">И как к себе он влек сердца.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Спеши, супруг, к супруге верной,       </l>
+          <l part="N">Обрадуй ты, утешь ее;       </l>
+          <l part="N">Она задумчива, печальна,       </l>
+          <l part="N">В простой одежде, и, власы       </l>
+          <l part="N">Рассыпав по челу нестройно,       </l>
+          <l part="N">Сидит за столиком в софе;       </l>
+          <l part="N">И светло-голубые взоры       </l>
+          <l part="N">Ее всечасно слезы льют.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Она к тебе вседневно пишет:       </l>
+          <l part="N">Твердит то славу, то любовь,       </l>
+          <l part="N">То жалостью, то негой дышит       </l>
+          <l part="N">То страх ее смущает кровь;       </l>
+          <l part="N">То дяде торжества желает,       </l>
+          <l part="N">То жаждет мужниной любви,       </l>
+          <l part="N">Мятется, борется, вещает:       </l>
+          <l part="N"> <q>Коль долг велит, ты лавры рви!</q>  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В чертоге вкруг ее безмолвном</l>
+          <l part="N">Не смеют <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>нимфы</tei:orig><tei:reg>нимфа</tei:reg></tei:choice></tei:name> пошептать;</l>
+          <l part="N">В восторге только <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>муза</tei:orig><tei:reg>муза</tei:reg></tei:choice></tei:name> томном</l>
+          <l part="N">Осмелились сей стих бряцать. -</l>
+          <l part="N">Румяна <name type="character">Осень</name>! радость мира!       </l>
+          <l part="N">Умножь, умножь еще твой плод!       </l>
+          <l part="N">Приди, желанна весть! - и лира       </l>
+          <l part="N">Любовь и славу воспоет.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

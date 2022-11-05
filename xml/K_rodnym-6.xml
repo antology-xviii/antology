@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>К родным. 20/31 марта 1778 </title>
+        <author>          <persName>            <forename full="yes">Денис</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Фонвизин</surname>           </persName>         </author>
+        <principal>Ксения Тверьянович, Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">Д. И. Фонвизин. Собрание сочинений в двух томах</title>
+            <editor role="editor"> Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Государственное издательство художественной литературы</publisher>
+            <pubPlace>Москва-Ленинград</pubPlace>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                  библиотека</tei:ref>
+            </distributor>
+            <date>1959</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 2</ref>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1778</date>       </creation>
+      <textClass default="false">
+        <catRef target="#letters" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Аргамакова Феодосия Ивановна</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">представление пьесы Вольтера</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">парижские нравы</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">парижский театр</tei:span>
+    <body xml:id="whole">
+      <dateline><name type="place">Париж</name>, <date>20/31 марта 1778.</date></dateline>
+      <p>Вчера <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Волтер</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name> был во Французской академии. Собрание было многочисленное. Члены Академии вышли ему навстречу. Он посажен был на директорское место и, минуя обыкновенное баллотирование, выбран единогласно в директоры на апрельскую четверть года. От Академии до театра, куда он поехал, народ провожал его с непрестанными восклицаниями. Представлена была новая трагедия: <bibl default="false"><title> Ирена, или Алексий Комнин</title></bibl>. При входе в ложу публика аплодировала ему многократно с неописанным восторгом, а спустя несколько минут <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Бризар</tei:orig><tei:reg>Бризар Ж.-Б.</tei:reg></tei:choice></tei:name>, как старший актер, вошел к нему в ложу с венком, который надел ему на голову. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Вольтер</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name> тотчас снял с себя венок и, заплакав от радости, сказал вслух <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Бризару</tei:orig><tei:reg>Бризар Ж.- Б.</tei:reg></tei:choice></tei:name>: <q>"Ah, Dieu, vous voulez done me faire mourir!"</q> <note resp="editor" place="unspecified" anchored="true"> Ах, боже, вы хотите уморить меня! (франц.). </note> Трагедия играна была гораздо с большим совершенством, нежели в первые представления. По окончании ее новое зрелище открылось. Занавес опять был поднят; все актеры и актрисы, окружа бюст <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Волтеров</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name>, увенчивали его лавровыми венками. Сие приношение публика сопровождала громким рукоплесканием, продолжавшимся близ четверти часа непрерывно. Наконец представлявшая <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Ирену</tei:orig><tei:reg>Ирена</tei:reg></tei:choice></tei:name> г-жа <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>.Вестрис</tei:orig><tei:reg>Вестрис М.-Р.</tei:reg></tei:choice></tei:name> оборотясь к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig>Волтеру</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name>, читала следующие стихи: <quote><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Aux yeux de <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" place"><tei:choice><tei:orig> Paris </tei:orig><tei:reg>Париж</tei:reg></tei:choice></tei:name> enchanté</l><l part="N">Reçois en се jour un hommage,</l><l part="N">Que confirmera d'âge en âge</l><l part="N">La sévère postérité.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Non, tu n'as pas besoin d'atteindre au noir rivage</l><l part="N">Pour jouir de l`honneur de l'immortalité!</l><l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person "><tei:choice><tei:orig> Voltaire </tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name>, reçois la couronne</l><l part="N">Que l`on vient de te présenter;</l><l part="N">Il est beau de la mériter</l><l part="N">Quand c'est <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> la France </tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name> qui la donne. </l></lg></quote> <note resp="editor" place="unspecified" anchored="true"> На глазах восхищенного <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Парижа </tei:orig><tei:reg>Париж</tei:reg></tei:choice></tei:name> прими сегодня дань уважения, которое из века в век будет подтверждать строгое потомство. Нет, тебе не нужно ждать предела жизни, чтобы наслаждаться славой бессмертия! Прими, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Вольтер</tei:orig><tei:reg>Вольтер Ф.-М.-А. </tei:reg></tei:choice></tei:name> , венок, который тебе дарят; прекрасно заслужить его, когда <name type="place"> Франция </name> тебе его преподносит (франц.). </note></p>
+      <p>Для показания своего удовольствия публика велела повторить чтение сих стихов и аплодировала им с великим криком. Как же скоро <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Вольтер</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name>, выходя из театра, стал садиться в свою карету, то народ закричал: <q>des flambeaux, des flambeaux!</q> <note resp="editor" place="unspecified" anchored="true"> Факелов, факелов! (франц.). </note> По принесении факелов, велели кучеру ехать шагом, и бесчисленное множество народа с факелами провожало его до самого дома, крича непрестанно: <q>Vive <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig> Voltaire</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name>! </q><note resp="editor" place="unspecified" anchored="true"> Да здравствует <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Вольтер</tei:orig><tei:reg>Вольтер Ф.-М.-А.</tei:reg></tei:choice></tei:name> ! (франц.). </note></p>
+    </body>
+  </text>
+</TEI>

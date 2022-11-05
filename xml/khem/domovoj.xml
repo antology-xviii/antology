@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Домовой </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И.Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Домовой</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> неизвестно</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">посредственные произведения</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">сила бездарности</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Пусть люди бы житья друг другу не давали,</l>
+          <l part="N"> Да уж и черти тож людей тревожить стали. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="character">Хозяин</name>, говорят, один какой-то был,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Которому от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>домового</tei:orig><tei:reg>домовой</tei:reg></tei:choice></tei:name></l>
+          <l part="N"> Покою не было в том доме, где он жил:</l>
+          <l part="N"> Что ночь, то <name type="character">домовой</name> пугать его ходил. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="character">Хозяин</name>, чтоб спастись несчастия такого,</l>
+          <l part="N"> Всё делал, что он мог: и ладаном курил,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Молитву от духо́в творил,</l>
+          <l part="N"> Себя и весь свой дом крестами оградил;</l>
+          <l part="N"> Ни двери, ни окна хозяин не оставил,</l>
+          <l part="N"> Чтоб мелом крестика от черта не поставил;</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Но ни молитвой, ни крестом</l>
+          <l part="N"> Он от нечистого не мог освободиться. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Случилось <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>стихотворцу</tei:orig><tei:reg>стихотворец</tei:reg></tei:choice></tei:name> в дом</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>К <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>хозяину</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name>переселиться.</l>
+          <l part="N"> <name type="character"> Хозяин</name>рад, что есть с кем скуку разделить:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И чтоб ему смеляе быть,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Когда нечистый появится,</l>
+          <l part="N"> Зовет его к себе с ним вечер проводить.</l>
+          <l part="N"> Потом просил его, чтоб сделать одолженье</l>
+          <l part="N"> Из собственных стихов прочесть бы сочиненье.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И <name type="character">стихотворец</name>, в угожденье,</l>
+          <l part="N"> Одну из слезных драм <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>хозяину</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name> читал</l>
+          <l part="N"> (Однако имя ей комедии давал),</l>
+          <l part="N"> Которою хотя <name type="character"> хозяин</name> не прельщался,</l>
+          <l part="N"> Да сочинитель сам, однако, восхищался. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Нечистый дух, как час настал,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Хозяину</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name> хоть показался,</l>
+          <l part="N"> Но и явления не выждав одного,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>По коже подрало его</l>
+          <l part="N"> И стало не видать. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Хозяин</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name> догадался,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>Что <name type="character">домовой</name> чего-то невзлюбил;</l>
+          <l part="N"> Другого вечера дождавшись, посылает,</l>
+          <l part="N"> Чтоб посидеть опять к нему писатель был,</l>
+          <l part="N"> Которого опять читать он заставляет;</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>И он читает.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Нечистый только лишь придет -</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И тем же часом пропадет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <q>Постой же, - рассуждал <name type="character"> хозяин</name> сам с собою,- <l part="N"> <space dim="horizontal" extent="8 letters"/>Теперь я слажу с сатаною,</l><l part="N"> Не станешь более ты в дом ко мне ходить</l></q>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> На третью ночь один <name type="character">хозяин</name> наш остался.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Как скоро полночь стало бить,</l>
+          <l part="N"> Нечистый тут. Но чуть лишь только показался,</l>
+          <l part="N"> <q>Эй, малый, поскоряй! - <name type="character">хозяин</name> закричал. - <l part="N"> Чтоб <name type="character">стихотворец</name> ту комедию прислал,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Которую он мне читал</l></q>.</l>
+          <l part="N"> Услыша это, дух нечистый испугался,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Рукою замахал,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Чтобы слуга остался;</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>И, словом, <name type="character"> домовой</name></l>
+          <l part="N"> Пропал, и в этот дом уж больше ни ногой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Вот если бы стихов негодных не писали,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Которые мы так браним,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Каким бы способом другим</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Чертей мы избавляться стали?</l>
+          <l part="N"> Теперь хоть тысячи бесо́в и домовых</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>К нам в домы станут появляться,</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>Есть чем от них</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>Обороняться. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

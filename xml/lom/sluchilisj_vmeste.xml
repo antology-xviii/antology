@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Случились вместе два Астронома в пиру...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Случились вместе два Астронома в пиру...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Явление Венеры на Солнце, наблюденное в Санктпетербургской Академии наук майя 26 дня 1761 года.</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">наука</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">научные открытия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">астрономия</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme=" Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Случились вместе два Астронома в пиру</l>
+          <l part="N">И спорили весьма между собой в жару.</l>
+          <l part="N">Один твердил: <q><name type="place">Земля</name>, вертясь, круг <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Солнца</tei:orig><tei:reg>Солнце</tei:reg></tei:choice></tei:name> ходит</q>;</l>
+          <l part="N">Другой, что <name type="place">Солнце</name> все с собой планеты водит. </l>
+          <l part="N">Один <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Коперник</tei:orig><tei:reg>Коперник Н.</tei:reg></tei:choice></tei:name> был, другой слыл <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Птоломей</tei:orig><tei:reg>Птолемей</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N">Тут повар спор решил усмешкою своей.</l>
+          <l part="N">Хозяин спрашивал: <q>Ты звезд теченье знаешь? <l part="N">Скажи, как ты о сем сомненье разсуждаешь?</l></q></l>
+          <l part="N">Он дал такой ответ: <q>Что в том <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Коперник</tei:orig><tei:reg>Коперник Н.</tei:reg></tei:choice></tei:name> прав, <l part="N">Я правду докажу, на <name type="place">Солнце</name> не бывав.</l><l part="N">Кто видел простака из поваров такова,</l><l part="N">Который бы вертел очаг кругом жаркова?</l></q><note resp="editor" place="unspecified" anchored="true">Публикуемое стихотворение является оригинальным произведением <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, но, как установлено <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Д. Д. Благим</tei:orig><tei:reg>Благой Д. Д.</tei:reg></tei:choice></tei:name>, аргумент, вложенный в уста повара, заимствован из весьма известного, много раз переиздававшегося во второй половине XVII в. прозаического произведения французского писателя <bibl default="false"><author><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig> Сирано де Бержерака</tei:orig><tei:reg>Бержерак С. де</tei:reg></tei:choice></author> <title>Иной свет, или Государства и империи Луны</title></bibl>, где автор говорит: <quote>Было бы одинаково смешно думать, что это великое светило [Солнце] станет вращаться вокруг точки, до которой ему нет никакого дела, как было бы смешно предположить при виде жареного жаворонка, что вокруг него вертелась печь</quote> (цитируется по русскому переводу, выпущенному отдельным изданием - М. - Л., 1931, стр. 137).</note> </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ОДА 2, СОБРАННАЯ ИЗ ОДНОСЛОЖНЫХ СЛОВ</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor"> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода 2, собранная из односложных слов</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Полезное увеселение, № 4</publisher>
+                <date>1759</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <body xml:id="whole">
+      <div met="Я3" rhyme="abab" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как я стал знать взор твой,</l>
+          <l part="N">С тех пор мой дух рвет страсть:</l>
+          <l part="N">С тех пор весь сгиб сон мой;</l>
+          <l part="N">Стал знать с тех пор я власть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хоть сплю, твой взор зрю в сне,</l>
+          <l part="N">И в сне он дух мой рвет:</l>
+          <l part="N">О коль, ах, мил он мне!</l>
+          <l part="N">Но что мне в том, мой свет? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он мил, но я лишь рвусь;</l>
+          <l part="N">Как рвусь я, ты то знай.</l>
+          <l part="N">Всяк час я мил быть тщусь;</l>
+          <l part="N">Ты ж мне хоть вздох в мзду дай.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

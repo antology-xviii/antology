@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Приятность простой жизни</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Приятность простой жизни</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собеседник любителей российского слова</publisher>
+                <date>1784</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">покой</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">бытность жизни</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз" rhyme=" aBBaBBccDDeEEeBBffFFbEEbDDeFFe." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Трудящийся судья!</l>
+          <l part="N">Устав от должностей заботливого чина,</l>
+          <l part="N">Приди покоиться в гостях у селянина,</l>
+          <l part="N">Где мирны дни ведет счастливая семья;  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>А чтоб такое диво</l>
+          <l part="N">Не возмогло тебе представиться за лживо,</l>
+          <l part="N">Спроси у всей семьи спокойных дней секрет,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>И вот тебе в ответ:</l>
+          <l part="N"> &lt;&lt;Во время нашего досуга</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Не затрудняем мы друг друга  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Делами свыше нас;  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Хоть дел других не охуждаем,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>А только рассуждаем,</l>
+          <l part="N">Как лучше сделать нам на круглый год запас,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>К простому вся дни пиру.</l>
+          <l part="N">Кто хочет ссориться, того склоняем к миру,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Дая рассудку полну мочь;  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>От споров мы отходим прочь,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Коварных нас оставить просим,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>И жалоб в люди не приносим,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Себя не ставим во святых:</l>
+          <l part="N">Имеем слабости, имеем недостатки,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Об них болтаем без украдки,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Не трогая чужих.</l>
+          <l part="N">Своих, меж шуток, мы без желчи критикуем,</l>
+          <l part="N">Не мысля зла другим, как лучше жить толкуем.  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Бежим ловящих нас похвал;</l>
+          <l part="N">И если иногда, подчас, из доброй воли,</l>
+          <l part="N">Придет <name type="mythologic">Фортуна</name> к нам откушать хлеба-соли,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Мы рады тем, чем Бог послал&gt;&gt;.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

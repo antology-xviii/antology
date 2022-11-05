@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> СОНЕТ, СОЧИНЁННЫЙ НА РИФМЫ, НАБРАННЫЕ НАПЕРЁД </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Мария Карманова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2008 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века</title>
+            <editor role="editor">Кочеткова Н.Д.,  Макогоненко Г.П.. Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Два сонета, сочинённые на рифмы, набранные наперёд</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение. No12</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь безответная</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AbbA AbbA ccD eDe." org="uniform" sample="complete" part="N">
+        <lg type="quatrain" org="uniform" sample="complete" part="N">
+          <l part="N">На то ль глаза твои везде меня встречали,</l>
+          <l part="N">Чтобы, смертельно мне любя тебя, страдать,</l>
+          <l part="N">Чтоб в горести моей отрады не видать</l>
+          <l part="N">И чтобы мне сносить жестокие печали?</l>
+        </lg>
+        <lg type="quatrain" org="uniform" sample="complete" part="N">
+          <l part="N">Прелестные глаза хотя не отвечали,</l>
+          <l part="N">Что буду жизнь, любя, в утехах провождать,</l>
+          <l part="N">Я тщился радости себе от время ждать,</l>
+          <l part="N">Чтобы несклонности часы с собой промчали;</l>
+        </lg>
+        <lg type="tercet" org="uniform" sample="complete" part="N">
+          <l part="N">Но временем узнал, что тщетно я люблю,</l>
+          <l part="N">Что тщетно для тебя утехи я гублю</l>
+          <l part="N">И страстью суетной терзаюся всечасно;</l>
+        </lg>
+        <lg type="tercet" org="uniform" sample="complete" part="N">
+          <l part="N">Однако я о том не буду век тужить:</l>
+          <l part="N">Любить прекрасную приятно и несчастно,</l>
+          <l part="N">Приятно зреть ее и для нее мне жить.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Зрящее мя безгласна</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Зрящее мя безгласна</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Праздное время, в пользу употребленное</publisher>
+                <date>1760</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1760</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <l part="N">Непреминуемой повержена судьбою,</l>
+        <l part="N">Безгласна зря меня лежаща пред собою,</l>
+        <l part="N">Восплачите о мне, знакомые, друзья,</l>
+        <l part="N">Все сродники мои, все, кем любим был я!</l>
+        <l part="N">Вчера беседовал я с вами,</l>
+        <l part="N">И вдруг я смерть узрел перед очами:</l>
+        <l part="N">Пришел ко мне престрашный смертный час,</l>
+        <l part="N">Навек лишаюсь вас.</l>
+        <l part="N">Но приидите все пред вечным расставаньем,</l>
+        <l part="N">Целуйте мя уже последним целованьем,</l>
+        <l part="N">Не буду с вами я сообщества иметь,</l>
+        <l part="N">Ниж<emph>е</emph> беседовати впредь.</l>
+        <l part="N">Душа престала в тленном теле:</l>
+        <l part="N">Уже отселе</l>
+        <l part="N">Иду</l>
+        <l part="N">К нелицемерному суду,</l>
+        <l part="N">Где вкупе предстоят владыко, раб, царь, воин,</l>
+        <l part="N">Богат или убог, где равно всяк достоин,</l>
+        <l part="N">От дел бо только всяк награду получит</l>
+        <l part="N">И славу там и стыд.</l>
+        <l part="N">Но всех прошу, молю, чтоб очи возносили</l>
+        <l part="N">К небесной стороне</l>
+        <l part="N">И чтобы обо мне</l>
+        <l part="N">Все господа просили,</l>
+        <l part="N">Чтоб я не свержен был</l>
+        <l part="N">По дни от вас моей разлуки</l>
+        <l part="N">За согрешения мои на место муки <note resp="editor" place="unspecified" anchored="true">Место муки -ад.</note>,</l>
+        <l part="N">Но чтобы я вступил</l>
+        <l part="N">В сие жилище вечно<note resp="editor" place="unspecified" anchored="true">Жилище вечно - рай.</note>,</l>
+        <l part="N">Где жизни свет, веселье бесконечно!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

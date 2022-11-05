@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Злая жена и черти</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Полина Офимкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Злая жена и черти</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 7. Притчи. Кн. 1.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Новиков Н. И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1762</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+        <catRef target="#fable" scheme="genre"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="29 letters"/>Был дом,</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>И разнеслися слухи,</l>
+        <l part="N"><space dim="horizontal" extent="29 letters"/>Что в доме том</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Живут нечисты духи.</l>
+        <l part="N"><space dim="horizontal" extent="29 letters"/>Дом пуст,</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Хозяин дом оставил,</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>И только дом чертями густ.</l>
+        <l part="N">О, если бы кто дом от этого избавил!</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Однако избавленья нет,</l>
+        <l part="N">А из чертей никто из дома вон нейдет.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Был муж, была жена, и были брани</l>
+        <l part="N">У них без пошлины и безо всякой дани.</l>
+        <l part="N">Жена была остра, и с мужем зуб о зуб;</l>
+        <l part="N">Жена была остра, по-русски - несговорна,</l>
+        <l part="N"><space dim="horizontal" extent="22 letters"/>А по-крестьянски - вздорна,</l>
+        <l part="N"><space dim="horizontal" extent="27 letters"/>А муж был туп,</l>
+        <l part="N">По-русски - был тазать сожительницу скуп,</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>А по-крестьянски - глуп.</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Но уж не до тазанья,</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Пришло до наказанья:</l>
+        <l part="N"><space dim="horizontal" extent="24 letters"/>Стал дюж</l>
+        <l part="N"><space dim="horizontal" extent="24 letters"/>И муж,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Приговорил жену ко смерти</l>
+        <l part="N">И запер в оный дом, в котором жили черти.</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Пришел к нему</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Пустого дома прежний житель</l>
+        <l part="N">И говорит: <q>Тебе я, другу моему, <l part="N"><space dim="horizontal" extent="18 letters"/>Покорнейший служитель,</l><l part="N"><space dim="horizontal" extent="8 letters"/>А паче и того твоей жене</l><l part="N"><space dim="horizontal" extent="12 letters"/>За ваши милости ко мне.</l><l part="N">Диаволы твоей супруги испужались</l><l part="N"><space dim="horizontal" extent="18 letters"/>И разбежались</l></q>. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

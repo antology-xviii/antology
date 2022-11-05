@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>К лире</title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> К лире </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Анакреонтические песни Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1797</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">творчество</tei:span>
+    <body xml:id="whole">
+      <div met="X4" rhyme=" AbAb..." org="uniform" sample="complete" part="N">
+        <l part="N">Петь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Румянцова </tei:orig><tei:reg>П. А. Румянцев</tei:reg></tei:choice></tei:name> сбирался,</l>
+        <l part="N">Петь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Суворова</tei:orig><tei:reg>А. В. Суворов</tei:reg></tei:choice></tei:name> хотел;</l>
+        <l part="N">Гром от лиры раздавался,</l>
+        <l part="N">И со струн огонь летел;</l>
+        <l part="N">Но завистливой судьбою</l>
+        <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Задунайский </tei:orig><tei:reg>П. А. Румянцев</tei:reg></tei:choice></tei:name> кончил век;</l>
+        <l part="N">А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig> Рымникский </tei:orig><tei:reg>А. В. Суворов</tei:reg></tei:choice></tei:name> скрылся тьмою,</l>
+        <l part="N">Как неславный человек.</l>
+        <l part="N">Что ж? Приятна ли им будет,</l>
+        <l part="N">Лира! днесь твоя хвала?</l>
+        <l part="N">Мир без нас не позабудет</l>
+        <l part="N">Их бессмертные дела.</l>
+        <l part="N">Так не надо звучных строев,</l>
+        <l part="N">Переладим струны вновь;</l>
+        <l part="N">Петь откажемся героев,</l>
+        <l part="N">А начнем мы петь любовь.     </l>
+      </div>
+    </body>
+  </text>
+</TEI>

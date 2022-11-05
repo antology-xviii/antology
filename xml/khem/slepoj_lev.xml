@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Слепой лев</title>
+        <author>          <persName>            <forename full="yes">Иван</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Хемницер</surname>           </persName>         </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor role="editor">Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Слепой лев</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки И. И. Хемницера. Ч. 3.</publisher>
+                <date>1799</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">обман</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">воровство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">хитрость</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N">Был<name type="character">лев</name>слепой; а быть и знатному слепым </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Дурное, право, состоянье.  </l>
+        <l part="N">Давай хоть не давай<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>лев</tei:orig><tei:reg>основная форма имени</tei:reg></tei:choice></tei:name>подданным своим  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>О чем какое приказанье,  </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>Иль правду в том  </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>Или в другом  </l>
+        <l part="N">Не думай<name type="character">лев</name>узнать: обманут был кругом.  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Я сам не раз бывал при том,  </l>
+        <l part="N">Когда, пришедши,<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льву</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name><name type="character">лисица</name>репортует,  </l>
+        <l part="N">Что львов запасный двор находится у ней  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Во всей сохранности своей,  </l>
+        <l part="N">А первая с двора запасного ворует,  </l>
+        <l part="N">Да и другим дает с собою воровать,  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Чтоб только ей не помешать.  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/><name type="character">волк</name>тож, бывало,<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льву</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>наскажет,  </l>
+        <l part="N">Когда он наловить зверей ему прикажет,  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Что лов сегодня был дурной  </l>
+        <l part="N">И только лишь ему попался зверь худой;  </l>
+        <l part="N">А жирных между тем зверей себе оставит  </l>
+        <l part="N">И, чтоб поверил<name type="character">лев</name>, свидетелей поставит.  </l>
+        <l part="N">И словом, всяк, кому по должности дойдет  </l>
+        <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Льву</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>донести о чем, - что хочет, то налжет,  </l>
+        <l part="N">И, кроме воровства и лжи, не жди другого  </l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>От малого и до большого. </l>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Слепого<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льва</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>легко обманывать зверям, </l>
+          <l part="N">Так, как по разуму слепых господ слугам. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

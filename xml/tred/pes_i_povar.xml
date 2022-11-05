@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Пес и повар</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В.К. Сочинения и переводы как стихами, так и прозою.</title>
+            <editor role="editor">Алексеева Н.Ю.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Наука</publisher>
+            <pubPlace>СПб.</pubPlace>
+            <date>2009</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Пес и повар</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">неизбежность наказания</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вбежав в поварню Пес (его не усмотрел </l>
+          <l part="N">В то время повар там, имея много дел), </l>
+          <l part="N">Лежаще на столе тут сердце от скотины </l>
+          <l part="N">Схватил и побежал зараней от дубины. </l>
+          <l part="N">Того, как говорят, тогда он проводил </l>
+          <l part="N">Такою речью вслед, которою грозил: </l>
+          <l part="N"><q>Изрядно, что теперь ты мог унесть добычу!  <l part="N">Но даром то тебе не пройдет, стару хрычу; </l><l part="N">Как можно, застигу тебя я где-нибудь </l><l part="N">И палкою потщусь бока тебе все вздуть,	</l><l part="N">Не сердце у меня унесено тобою, </l><l part="N">Но придано к тому, которое со мною</l></q>. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

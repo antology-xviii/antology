@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>СКАЗКА</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor">Н. Д. Кочеткова, Г. П. Макогоненко, И. З. Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Сказка</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Свободные часы. N 2</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1763</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">семейные отношения</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Я сказочку хочу теперь вам рассказать,</l>
+          <l part="N">Не помню, где-то мне случилося читать,</l>
+          <l part="N">Не помню, где, когда и как то приключилось,</l>
+          <l part="N">Лишь помню только то, что это впрямь случилось. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Приметя жены все, что худа им дожить,</l>
+          <l part="N">Когда из города догадки не избыть:</l>
+          <l part="N">Догадка находить успехи им мешает,</l>
+          <l part="N">Догадка дома быть одних их заставляет,</l>
+          <l part="N">Догадка долго им в гостях сидеть претит,</l>
+          <l part="N">Догадка ничего им делать не велит,</l>
+          <l part="N">Догадка в том виной, что к ним мужья ревнуют,</l>
+          <l part="N">Свекрови иногда не ласково целуют.</l>
+          <l part="N">Собравшися, пришли просить они в приказ:</l>
+          <l part="N">Велите выгнать вон догадку вы от нас.</l>
+          <l part="N">Судьи прошения от них не принимают:</l>
+          <l part="N">От челобитчиков посулов ожидают.</l>
+          <l part="N">Чтоб выбить от себя злодея своего,</l>
+          <l part="N">Догадку скучную, не жаль им ничего.</l>
+          <l part="N">В случа́е таковом наряды презирают,</l>
+          <l part="N">И серьги из ушей и перлы с шей сбирают.</l>
+          <l part="N">Идут к судьям они с дарами на поклон,</l>
+          <l part="N">Чтоб только выгнать им скоряй догадку вон.</l>
+          <l part="N">Чего не сделаешь на свете через злато?</l>
+          <l part="N">Лишь кстати не жалей, прося, дарить богато.</l>
+          <l part="N">Судьи́ прельстилися ценой подарков сих,</l>
+          <l part="N">Сулят им отогнать догадку прочь от них,</l>
+          <l part="N">И на прошении вот тако подписали:</l>
+          <l part="N">Понеже де мы все судящи предузнали,</l>
+          <l part="N">Что в городе грозит догадка всем бедой,</l>
+          <l part="N">Чтоб не было от ней и язвы моровой.</l>
+          <l part="N">В предосторожности того определили</l>
+          <l part="N">Догадку выгнать вон, и тако закрепили;</l>
+          <l part="N">Однако был старик в приказе прокурор,</l>
+          <l part="N">Любя догадку, он вступил с судьями в спор:</l>
+          <l part="N">Затем что сам имел жену он молодую,</l>
+          <l part="N">Красавицу собой иль паче таковую,</l>
+          <l part="N">Для коей надобно догадочку иметь,</l>
+          <l part="N">Коль под рогами он не хочет попотеть.</l>
+          <l part="N">Прочтя сей приговор, главою покачая,</l>
+          <l part="N">Он предлагает им, парик свой поправляя: <q><l part="N">Всем лучше,</l></q> - говорит, - <q>на свете помереть, <l part="N">А нежель при себе догадки не иметь.</l><l part="N">Иль вы не хочете вовеки быть мужьями?</l><l part="N">Иль хочете, женясь, сертети под рогами?</l><l part="N">Пусть будет два года здесь хлеба недород</l><l part="N">И челобитчиков не будет  у ворот;</l><l part="N">Лишь только бы жила всегда догадка с нами,</l><l part="N">А без нее нельзя и сладить нам с женами.</l><l part="N">Несносно, господа, женою не владеть,</l><l part="N">Жениться и жену не для себя иметь</l></q>.</l>
+          <l part="N">Судьи на то ему согласно говорили: <q><l part="N">Да как же, де, нам быть: нас жены подарили</l></q>.</l>
+          <l part="N">Ответствовал на то искусный прокурор,</l>
+          <l part="N">Что лучше всё отдать, и начался раздор.</l>
+          <l part="N">Тут взятками ему судьи так упрекали: <q><l part="N">Как ты, де, взятки брал, так мы дела скрепляли,</l><l part="N">А ты для нас теперь не хочешь подписать</l></q>.</l>
+          <l part="N">Услыша, секретарь спор и́дет разбирать,</l>
+          <l part="N">И так им говорит: <q>Вы прибыль получили, <l part="N">А дела спорного еще не совершили.</l><l part="N">О чем же вам теперь осталось хлопотать?</l><l part="N">Ведь это не беда, взяв деньги, отказать</l></q>.</l>
+          <l part="N">Судьи́ и прокурор совет сей похвалили</l>
+          <l part="N">И дело по его совету учинили.</l>
+          <l part="N">Отказано жена́м, клянут свой случай злой,</l>
+          <l part="N">Но способ от беды сыскался и другой:</l>
+          <l part="N">Догадка же и им в час оный послужила,</l>
+          <l part="N">Что в свете от нее увертка есть, открыла.</l>
+          <l part="N">Утешила она и жен тем и мужей,</l>
+          <l part="N">И жены и мужья благодарят все ей.</l>
+          <l part="N">Уж тщетно там мужья к догадке прибегают,</l>
+          <l part="N">Где жены при себе увертку собрегают.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

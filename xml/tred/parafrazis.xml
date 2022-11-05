@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Парафразис вторыя песни Моисеевы</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Парафразис вторыя песни Моисеевы</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">грехи</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера и неверие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">возмездие</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aBaaB" org="uniform" sample="complete" part="N">
+        <epigraph>
+          <cit>
+            <quote>Вонми небо, и возглаголю.</quote>
+            <bibl default="false">Второзакония глава 32</bibl>
+          </cit>
+        </epigraph>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вонми, о! небо, и реку,</l>
+          <l part="N">Земля да слышит уст глаголы:</l>
+          <l part="N">Как дождь я словом потеку;</l>
+          <l part="N">И снидут, как роса к цветку,</l>
+          <l part="N">Мои вещания на долы.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как туча падает на злак,</l>
+          <l part="N">Или как иней где на сено,-</l>
+          <l part="N">Господне имя есть мне в знак,</l>
+          <l part="N">То мыслей призвано не в мрак;</l>
+          <l part="N">Славь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>бога</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> всяко в нас колено<note resp="editor" place="unspecified" anchored="true"><quote>Колено</quote> - здесь: племя. Имеются в виду упоминаемые в Библии двенадцать колен Израиля, происшедших от двенадцати сыновей Иакова.</note>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> - истинны его дела</l>
+          <l part="N">И все пути его, суд правый, -</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> верен, а неправда зла,</l>
+          <l part="N">Не зрится ни тоя в нем мгла,</l>
+          <l part="N">Святый весь, он душам свет здравый.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Согрешшии вельми пред ним,</l>
+          <l part="N">Не чада стали уж пороком!<note resp="editor" place="unspecified" anchored="true"><quote>Не чада стали уж пороком</quote> - погрязнув в пороке, перестали быть детьми (бога).</note></l>
+          <l part="N">О! род строптив, развратен сим,</l>
+          <l part="N">Сие ль ты <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>господу</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name> твоим</l>
+          <l part="N">Воздать за благо мог оброком?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сих<note resp="editor" place="unspecified" anchored="true"><quote>Сих</quote> - т. е. грешных дел.</note> оный есть народ делец,</l>
+          <l part="N">Кой весь не мудр и пребезумен:</l>
+          <l part="N">Тебя ж не сам ли сей отец</l>
+          <l part="N">Приял и был тебе творец?</l>
+          <l part="N">Доколе в помыслах ты шумен!<note resp="editor" place="unspecified" anchored="true"><quote>Доколе в помыслах ты шумен</quote> - до каких пор ты будешь строптив, дерзок в помыслах!</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Воспомяни те дни веков,</l>
+          <l part="N">И купно разумей все лета</l>
+          <l part="N">От рода древнего родов;</l>
+          <l part="N">Спроси у рождшего следов,</l>
+          <l part="N">Познаешь старших всё от света.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> языки разделял,</l>
+          <l part="N">Сынов Адамлих рассевая,</l>
+          <l part="N">Пределов столько поставлял,</l>
+          <l part="N">Коль верных слуг себе счислял,</l>
+          <l part="N">От ангельска числа то зная.<note resp="editor" place="unspecified" anchored="true"><quote>От ангельска числа то зная</quote> - зная (о числе верных своих слуг) от ангелов.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И стала быть господня часть -</l>
+          <l part="N"><name type="biblical">Иаков</name><note resp="editor" place="unspecified" anchored="true"><quote>Иаков</quote> - библейский патриарх, родоначальник еврейского народа; в собирательном смысле означает народ израильский.</note> род его избранный;</l>
+          <l part="N">Наследием возмог подпасть</l>
+          <l part="N"><name type="place">Израиль</name> весь ему во власть;</l>
+          <l part="N">Всяк прочий люд уж был как странный<note resp="editor" place="unspecified" anchored="true"><quote>Был как странный</quote> - был как бы чужой.</note>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В пустыне всем его снабдил:<note resp="editor" place="unspecified" anchored="true"><quote>В пустыне всем его снабдил?</quote> - Речь идет об исходе евреев из Египта. Чтобы избавиться от египетского рабства, еврейский народ, руководимый Моисеем и Аароном, сорок лет странствовал по Синайской пустыне, где питался манной, посланной с небес, пил воду, высеченную Моисеем из камня, пока не достиг земли обетованной - Палестины.</note></l>
+          <l part="N">Он жажду, в превеликом зное,</l>
+          <l part="N">В земле безводной утолил,</l>
+          <l part="N">Обвел его и сохранил,</l>
+          <l part="N">Как зеницу очей, в покое.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гнездо как кроет всяк орел,</l>
+          <l part="N">И над птенцами сей летает, -</l>
+          <l part="N">Простер так крила он и сшел,</l>
+          <l part="N">На рамена его возвел,</l>
+          <l part="N">Подъемлет, взносит, соблюдает.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вождем им был <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>господь</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name> един,</l>
+          <l part="N">Никто бог чуждий не был с ними;</l>
+          <l part="N">Взвел их на верьх земных плотин<note resp="editor" place="unspecified" anchored="true"><quote>На верьх земных плотин</quote> - В Библии: вознес его на высоту земли.</note>,</l>
+          <l part="N">Поставил свыше всех судьбин,</l>
+          <l part="N">Насытил житами благими.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Из каменя потек им мед,</l>
+          <l part="N">Елей из тверда ж камня равно;</l>
+          <l part="N">Млеко, тук, масло скот дает,</l>
+          <l part="N">И цвет пшеничный всем растет,</l>
+          <l part="N">Их питие - вино преславно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="biblical">Иаков</name> в сытости процвел,</l>
+          <l part="N">Отвергся вскоре толь любимый;</l>
+          <l part="N">Утыл и толсто расширел,</l>
+          <l part="N">Отступством <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>бога</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> он презрел,</l>
+          <l part="N">Забыл, что спас ему<note resp="editor" place="unspecified" anchored="true"><quote>Спас ему</quote> - его спаситель.</note> он чтимый.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Во нравах все творца чужих</l>
+          <l part="N">И в мерзостях преогорчили:</l>
+          <l part="N">Бесам пожерли<note resp="editor" place="unspecified" anchored="true"><quote>Бесам пожерли</quote> - принесли жертву языческим идолам.</note> в сквернах<note resp="editor" place="unspecified" anchored="true"><quote>В сквернах</quote> - в пороках.</note> сих,</l>
+          <l part="N">Богам, отцам что странны их,<note resp="editor" place="unspecified" anchored="true"><quote>Богам, отцам что странны их</quote> - богам, которые были чужды для прежнего поколения.</note></l>
+          <l part="N">От напитавша<note resp="editor" place="unspecified" anchored="true"><quote>От напитавша</quote> - от напитавшего, вскормившего, от родного. </note> ж отступили</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Узрев <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>господь</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name>, возревновал,</l>
+          <l part="N">И раздражился он презельно;</l>
+          <l part="N">В сынах и дщерях злость познал <note resp="editor" place="unspecified" anchored="true"><quote>Злость познал</quote> - увидел пороки, прегрешения. </note>,</l>
+          <l part="N">Которых сам он снабдевал,</l>
+          <l part="N">Се взбесновавшихся бездельно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="biblical">Господь</name> рек: <q>Сам я отвращу</q> <q><l part="N">Лице мое от всех их ныне;</l><l part="N">Род развращенный, веру тщу,</l><l part="N">Не буду видеть в благостыне</l></q> <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">В гнев привели тем, что не <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Тем, что не бог</quote> - т. е. тем, что отрицали как своего бога.</note>,</l><l part="N">И раздражили суетою;</l><l part="N">Народом их сломлю я рог,<note resp="editor" place="unspecified" anchored="true"><quote>Народом их сломлю я рог?</quote> - сломлю гордыню народа, который, хотя и многочислен, но по вине глупых</note></l><l part="N">Кой не народ, хотя и мног,</l><l part="N">От глупых и людей бедою.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">От ярости уж моея</l><l part="N">Разжегся огнь палящ до ада;</l><l part="N">Съест землю и плоды ея;</l><l part="N">Все попалит страны всея<note resp="editor" place="unspecified" anchored="true"><quote>Все попалит страны всея</quote> - спалит все плодородные долины страны, чтобы вызвать голод.</note></l><l part="N">Гор основания для глада</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Употреблю премного зол;</l><l part="N">Пущу на них мои все стрелы;</l><l part="N">В снедь птицам ляжет плоть на дол<note resp="editor" place="unspecified" anchored="true"><quote>Плоть на дол</quote> - тела убитых на землю.</note>;</l><l part="N">Пожрет живых зверь в произвол<note resp="editor" place="unspecified" anchored="true"><quote>В произвол</quote> - вволю.</note>;</l><l part="N">Не будут и от змиев целы.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Внутрь истребит их страх;</l><l part="N">Извне меч острый обесчадит:</l><l part="N">Юн с девою погибнет в прах;</l><l part="N">С седым младенца при сосцах<note resp="editor" place="unspecified" anchored="true"><quote>С седым младенца?</quote> - смерть унесет из памяти людей и старых и малых (в Библии: ?и изглажу из среды людей память о них?).</note></l><l part="N">Смерть люта в век изгладит.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Изрек бы: их рассею всех,</l><l part="N">И память в людях уничтожу;</l><l part="N">Когда б не для противных тех,<note resp="editor" place="unspecified" anchored="true"><quote>Когда б не для противных тех</quote> - В Библии сказано: ?Но отложил это ради озлобления врагов, чтобы враги его (т. е. Израиля) не возомнили?. Смысл стихов: сделал бы все это, если бы это не было помощью врагам Израиля, которых я сам в гневе разоряю.</note></l><l part="N">Которым бы не сбить в поспех,</l><l part="N">Я в гневе коих сам убожу.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Еще чтоб не сказали так</l><l part="N">Рукою мы свершили сею,<note resp="editor" place="unspecified" anchored="true"><quote>Рукою мы свершили сею</quote> - Смысл: чтобы противники не похвалялись, будто не господь, а они своею рукою разорили Израиль.</note></l><l part="N">А не <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>господь</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name> то всё никак;</l><l part="N">Сей род, в чием совете мрак,<note resp="editor" place="unspecified" anchored="true"><quote>Сей род, в чием совете мрак</quote> - т. е. род, который наставляют непросвещенные.</note></l><l part="N">Весьма глуп мыслию своею</l></lg></q>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О! ежели б все разуметь</l>
+          <l part="N">И возмогли понять то ясно,</l>
+          <l part="N">Чтоб ныне налящи посметь</l>
+          <l part="N">И всё в руках уже иметь,</l>
+          <l part="N">Что впредь велит он самовластно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как тысящи един гонить,</l>
+          <l part="N">Как двинуть два б могли тьмы целы,</l>
+          <l part="N">Когда б не предал бог сам бить?</l>
+          <l part="N">И не дал бы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>господь</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name> сломить,</l>
+          <l part="N">Творя их воины толь смелы.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но боги их не таковы,</l>
+          <l part="N">Каков есть <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> наш, велий, сильный;</l>
+          <l part="N">Враги ж все наши хоть как львы,</l>
+          <l part="N">Хотящи нашея главы,</l>
+          <l part="N">Однак в них разум необильный.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Их из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblicalPlace"><tei:choice><tei:orig>Содома</tei:orig><tei:reg>Содом</tei:reg></tei:choice></tei:name> виноград,</l>
+          <l part="N">Их от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblicalPlace"><tei:choice><tei:orig>Гоморры</tei:orig><tei:reg>Гоморра</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Содом и Гоморра</quote> - города, которые, по библейской легенде, были сожжены до основания небесным огнем за крайнюю развращенность нравов.</note> все их розги<note resp="editor" place="unspecified" anchored="true"><quote>Розги</quote> - здесь: лозы.</note>;</l>
+          <l part="N">Их грозд есть токмо желчь и смрад;</l>
+          <l part="N">Их ягода горька стократ,</l>
+          <l part="N">Сок отравляет шумны мозги.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Змиина ярость их вино,</l>
+          <l part="N">И аспидов злость неисцельна.</l>
+          <l part="N">Не богом ли отведено,</l>
+          <l part="N">В сокровищах заключено,</l>
+          <l part="N">Печать на всем том зле презельна?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В день мести то воздаст он сам,</l>
+          <l part="N">Когда те преткнутся ногами</l>
+          <l part="N">О! гибели день близок вам;</l>
+          <l part="N">И быть чему, стоит уж там:</l>
+          <l part="N">Тем движете его вы сами.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Своим <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> правду сотворит,</l>
+          <l part="N">И умолен об них он будет;</l>
+          <l part="N">Расслабленных, бессильных зрит,</l>
+          <l part="N">Истаявших не уморит,</l>
+          <l part="N">В конец рабов сам не забудет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так рек <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>господь</tei:orig><tei:reg>Господь</tei:reg></tei:choice></tei:name>: <q>Их боги где,</q> <q><l part="N">На коих все вы уповали?</l><l part="N">Тук ели оных жертв везде,</l><l part="N">И пили треб вино в чреде,<note resp="editor" place="unspecified" anchored="true"><quote>Пили треб вино в чреде</quote> - пили вино, соблюдая порядок религиозных обрядов.</note></l><l part="N">А о сотворшем не внимали.</l></q> <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Да встанут, и да вас спасут;</l><l part="N">Да в помощь вашу те потщатся;</l><l part="N">На вас покров пусть нанесут<note resp="editor" place="unspecified" anchored="true"><quote>Покров пусть поднесут</quote> - пусть возьмут под покровительство.</note>;</l><l part="N">Врагов за вас да потрясут,</l><l part="N">И да исполнить то помчатся.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Но зрите, зрите, что есмь я;</l><l part="N">И нет нигде другого бога:</l><l part="N">Мертвит, живит рука моя,</l><l part="N">Цельба и язва от нея;</l><l part="N">Нет, кто б исторг<note resp="editor" place="unspecified" anchored="true"><quote>Нет, кто б исторг</quote> - В Библии сказано: ?никто не избавит от руки моей?.</note>, когда та срога.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">На небо ону<note resp="editor" place="unspecified" anchored="true"><quote>Ону</quote> - т. е. животворящую и карающую руку.</note> возведу,</l><l part="N">Клянясь десницею моею,</l><l part="N">Вещаю словом на среду,</l><l part="N">Да будет слышимо преду:</l><l part="N">Живу вовеки сам я с нею.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Когда я изощрю мой меч</l><l part="N">И на престол судебный сяду,</l><l part="N">То тем врагов хощу посечь,</l><l part="N">И в месть нелюбящих повлечь,</l><l part="N">И ненавидящих поряду.</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Я кровью стрелы напою,</l><l part="N">Наестся меч мой мяс от тела,</l><l part="N">От тела язвенных в бою,</l><l part="N">От глав князей, что убию,</l><l part="N">Их попленивши грады, села</l></lg></q>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Возвеселитесь, небеса,</l>
+          <l part="N">Вы с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>богом</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> нашим купно;</l>
+          <l part="N">Да прославляет чудеса,</l>
+          <l part="N">От древнего уже часа,</l>
+          <l part="N">Весь ангельский чин неотступно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Языки! вы с его людьми</l>
+          <l part="N">В веселии сердец ликуйте;</l>
+          <l part="N">Сынов род, крепость восприми</l>
+          <l part="N">И радостию возгреми,</l>
+          <l part="N">Все ныне славно торжествуйте.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Отмщает <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> за вас в день сей,</l>
+          <l part="N">И ненавидящим сурово</l>
+          <l part="N">Он в правде воздает своей;</l>
+          <l part="N">Земле ж его чад и людей</l>
+          <l part="N">Есть очищение готово.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

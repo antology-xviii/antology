@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Видение мурзы </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Видение мурзы </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Московский журнал. N 1. </publisher>
+                <date>1791</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1783-1784</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">честь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">бессмертие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетель</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">обязанности поэта</tei:span>
+    <body xml:id="whole">
+      <div met="(Я4)" rhyme="AbAb..." org="uniform" sample="complete" part="N">
+        <l part="N">На темно-голубом эфире</l>
+        <l part="N">Златая плавала луна;</l>
+        <l part="N">В серебряной своей порфире</l>
+        <l part="N">Блистаючи с высот, она</l>
+        <l part="N">Сквозь окна дом мой освещала</l>
+        <l part="N">И палевым своим лучом</l>
+        <l part="N">Златые стекла рисовала</l>
+        <l part="N">На лаковом полу моем.</l>
+        <l part="N">Сон томною своей рукою</l>
+        <l part="N">Мечты различны рассыпал,</l>
+        <l part="N">Кропя забвения росою,</l>
+        <l part="N">Моих домашних усыплял.</l>
+        <l part="N">Вокруг вся область почивала,</l>
+        <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрополь</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name>   с башнями дремал,</l>
+        <l part="N"><name type="place">Нева</name> из урны чуть мелькала,</l>
+        <l part="N">Чуть  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бельт</tei:orig><tei:reg>Балтийское  море</tei:reg></tei:choice></tei:name>  в брегах своих сверкал;</l>
+        <l part="N">Природа, в тишину глубоку</l>
+        <l part="N">И в крепком погруженна сне,</l>
+        <l part="N">Мертва казалась слуху, оку</l>
+        <l part="N">На высоте и в глубине;</l>
+        <l part="N">Лишь веяли одни зефиры,</l>
+        <l part="N">Прохладу чувствам принося.</l>
+        <l part="N">Я не спал - и, со звоном лиры</l>
+        <l part="N">Мой тихий голос соглася, <q><l part="N"> Блажен,- воспел я,- кто доволен</l><l part="N">В сем свете жребием своим,</l><l part="N">Обилен, здрав, покоен, волен</l><l part="N">И счастлив лишь собой самим;</l><l part="N">Кто сердце чисто, совесть праву</l><l part="N">И твердый нрав хранит в свой век</l><l part="N">И всю свою в том ставит славу,</l><l part="N">Что он лишь добрый человек;</l><l part="N">Что карлой он и великаном</l><l part="N">И дивом света не рожден</l><l part="N">И что не создан истуканом</l><l part="N">И оных чтить не принужден;</l><l part="N">Что все сего блаженствы мира</l><l part="N">Находит он в семье своей;</l><l part="N">Что нежная его Пленира</l><l part="N">И верных несколько друзей</l><l part="N">С ним могут в час уединенный</l><l part="N">Делить и скуку и труды! -</l><l part="N">Блажен и тот, кому царевны</l><l part="N">Какой бы ни было орды</l><l part="N">Из теремов своих янтарных</l><l part="N">И сребро-розовых светлиц,</l><l part="N">Как будто из улусов дальных,</l><l part="N">Украдкой от придворных лиц,</l><l part="N">За россказни, за растабары,</l><l part="N">За вирши иль за что-нибудь</l><l part="N">Исподтишка драгие дары</l><l part="N">И в досканцах червонцы шлют;</l><l part="N">Блажен!</l></q> - Но с речью сей незапно</l>
+        <l part="N">Мое всё зданье потряслось,</l>
+        <l part="N">Раздвиглись стены, и стократно</l>
+        <l part="N">Ярчее молний пролилось</l>
+        <l part="N">Сиянье вкруг меня небесно;</l>
+        <l part="N">Сокрылась, побледнев, луна.</l>
+        <l part="N">Виденье я узрел чудесно:</l>
+        <l part="N">Сошла со облаков жена,-</l>
+        <l part="N">Сошла - и жрицей очутилась</l>
+        <l part="N">Или богиней предо мной.</l>
+        <l part="N">Одежда белая струилась</l>
+        <l part="N">На ней серебряной волной;</l>
+        <l part="N">Градская на главе корона,</l>
+        <l part="N">Сиял при персях пояс злат;</l>
+        <l part="N">Из черно-огненна виссона,</l>
+        <l part="N">Подобный радуге, наряд</l>
+        <l part="N">С плеча десного полосою</l>
+        <l part="N">Висел на левую бедру;</l>
+        <l part="N">Простертой на алтарь рукою</l>
+        <l part="N">На жертвенном она жару</l>
+        <l part="N">Сжигая маки благовонны</l>
+        <l part="N">Служила вышню божеству.</l>
+        <l part="N">Орел полунощный, огромный,</l>
+        <l part="N">Сопутник молний торжеству,</l>
+        <l part="N">Геройской провозвестник славы,</l>
+        <l part="N">Сидя пред ней на груде книг,</l>
+        <l part="N">Священны блюл ее уставы;</l>
+        <l part="N">Потухший гром в когтях своих</l>
+        <l part="N">И лавр с оливными ветвями</l>
+        <l part="N">Держал, как будто бы уснув.</l>
+        <l part="N">Сафиро-светлыми очами,</l>
+        <l part="N">Как в гневе иль в жару, блеснув,</l>
+        <l part="N">Богиня на меня воззрела.</l>
+        <l part="N">Пребудет образ ввек во мне,</l>
+        <l part="N">Она который впечатлела! <q><l part="N"> <name type="character">Мурза!</name></l></q> - она вещала мне,- <q><l part="N">Ты быть себя счастливым чаешь,</l><l part="N">Когда по дням и но ночам</l><l part="N">На лире ты своей играешь</l><l part="N">И песни лишь поешь царям.</l><l part="N">Вострепещи, <name type="character">Мурза</name> несчастный!</l><l part="N">И страшны истины внемли,</l><l part="N">Которым стихотворцы страстны</l><l part="N">Едва ли верят на земли;</l><l part="N">Одно к тебе лишь доброхотство</l><l part="N">Мне их открыть велит.- Когда</l><l part="N">Поэзия не сумасбродство,</l><l part="N">Но вышний дар богов,- тогда</l><l part="N">Сей дар богов лишь к чести</l><l part="N">И к поученью их путей</l><l part="N">Быть должен обращен, не к лести</l><l part="N">И тленной похвале людей.</l><l part="N">Владыки света люди те же,</l><l part="N">В них страсти, хоть на них венцы;</l><l part="N">Яд лести их вредит не реже,-</l><l part="N">А где поэты не льстецы?</l><l part="N">И ты сирен поющих грому</l><l part="N">В вред добродетели не строй;</l><l part="N">Благотворителю прямому</l><l part="N">В хвале нет нужды никакой.</l><l part="N">Хранящий муж честные нравы,</l><l part="N">Творяй свой долг, свои дела,</l><l part="N">Царю приносит больше славы,</l><l part="N">Чем всех пиитов похвала.</l><l part="N">Оставь нектаром наполненну</l><l part="N">Опасну чашу, где скрыт яд</l></q>. <q><l part="N"> Кого я зрю столь дерзновенну</l><l part="N">И чьи уста меня разят?</l><l part="N">Кто ты? Богиня или жрица?</l></q> -</l>
+        <l part="N">Мечту стоящу я спросил.</l>
+        <l part="N">Она рекла мне: <q>Я <name type="character">Фелица</name>!</q></l>
+        <l part="N">Рекла - и светлый облак скрыл</l>
+        <l part="N">От глаз моих ненасыщенных</l>
+        <l part="N">Божественны ее черты;</l>
+        <l part="N">Курение мастик бесценных</l>
+        <l part="N">Мой дом, и место то цветы</l>
+        <l part="N">Покрыли, где она явилась.</l>
+        <l part="N">Мой бог! мой ангел во плоти!..</l>
+        <l part="N">Душа моя за ней стремилась,</l>
+        <l part="N">Но я за ней не мог идти.</l>
+        <l part="N">Подобно громом оглушенный,</l>
+        <l part="N">Бесчувствен я, безгласен был.</l>
+        <l part="N">Но, током слезным орошенный,</l>
+        <l part="N">Пришел в себя и возгласил: <q><l part="N"> Возможно ль, кроткая царевна!</l><l part="N">И ты к <name type="character">Мурзе </name> чтоб своему</l><l part="N">Была сурова столь и гневна,</l><l part="N">И стрелы к сердцу моему</l><l part="N">И ты, и ты чтобы орошала,</l><l part="N">И пламени души моей</l><l part="N">К себе и ты не одобряла?.</l><l part="N">Довольно без тебя людей,</l><l part="N">Довольно без тебя поэту</l><l part="N">За кажду мысль, за каждый стих</l><l part="N">Ответствовать лихому свету</l><l part="N">И от сатир щититься злых!</l><l part="N">Довольно золотых кумиров,</l><l part="N">Без чувств мои что песни чли;</l><l part="N">Довольно кадиев, факиров,</l><l part="N">Которы в зависти сочли</l><l part="N">Тебе их неприличной лестью;</l><l part="N">Довольно нажил я врагов!</l><l part="N">Иной отнес себе к бесчестью,</l><l part="N">Что не дерут его усов;</l><l part="N">Иному показалось больно,</l><l part="N">Что он наседкой не сидит;</l><l part="N">Иному - очень своевольно</l><l part="N">С тобой <name type="character">Мурза </name>твой говорит;</l><l part="N">Иной вменял мне в преступленье,</l><l part="N">Что я посланницей с небес</l><l part="N">Тебя быть мыслил в восхищенье</l><l part="N">И лил в восторге токи слез.</l><l part="N">И словом: тот хотел арбуза,</l><l part="N">А тот соленых огурцов,-</l><l part="N">Но пусть им здесь докажет муза,</l><l part="N">Что я не из числа льстецов;</l><l part="N">Что сердца моего товаров</l><l part="N">За деньги я не продаю</l><l part="N">И что не из чужих анбаров</l><l part="N">Тебе наряды я крою.</l><l part="N">Но, венценосна добродетель!</l><l part="N">Не лесть я пел и не мечты,</l><l part="N">А то, чему весь мир свидетель,-</l><l part="N">Твои дела суть красоты.</l><l part="N">Я пел, пою и петь их буду</l><l part="N">И в шутках правду возвещу;</l><l part="N">Татарски песни из-под спуду,</l><l part="N">Как луч, потомству сообщу;</l><l part="N">Как солнце, как луну, поставлю</l><l part="N">Твой образ будущим векам;</l><l part="N">Превознесу тебя, прославлю;</l><l part="N">Тобой бессмертен буду сам</l></q>.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

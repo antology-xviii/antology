@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Стихи на туясок<note resp="editor" place="unspecified" anchored="true">Туясок - цилиндрический сосуд из бересты с деревянными дном и крышкой; сельские жители наших северных областей пользуются и по настоящее время туясками для переноски жидкостей - молока, кваса, браги и т. п., иногда и меда. Заглавие <q>Стихи на туясок</q> довольно загадочно. Не назван ли в данном случае туяском тот самый <q>небольшой футляр</q> для калькулюса, о котором говорит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>В. Аскоченский</tei:orig><tei:reg>Аскоченский В.</tei:reg></tei:choice></tei:name>?</note> </title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Стихи на туясок </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Путешествия академика Ивана Лепехина. Ч. IV. В 1772 году</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1805</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> 1732-1734</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">calculus dictus</tei:span>
+    <body xml:id="whole">
+      <div met="Силлабич. 6-сл." rhyme=" Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Услышали мухи</l>
+          <l part="N">Медовыя духи,</l>
+          <l part="N">Прилетевши, сели,</l>
+          <l part="N">В радости запели.</l>
+          <l part="N">Егда стали ясти,</l>
+          <l part="N">Попали в напасти,</l>
+          <l part="N">Увязли бо ноги.</l>
+          <l part="N">Ах! - плачут убоги, -</l>
+          <l part="N">Меду полизали,</l>
+          <l part="N">А сами пропали.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

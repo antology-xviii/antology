@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 26 Псалма</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из 26 Псалма. Господи просвещение мое и спаситель мой</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.</title>
+            <title level="m" type="subordinate">Ч. 1. Преложения псалмов. Кн. 4.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.</tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1787</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <body xml:id="whole">
+      <div met=" ЯРз 4343" rhyme="aBaB" org="uniform" sample="complete" part="N">
+        <epigraph>
+          <cit>
+            <quote>Господи просвещение мое и спаситель мой.</quote>
+          </cit>
+        </epigraph>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Господь спаситель мой и свет;</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Кого бояться буду?</l>
+          <l part="N">Господь хранит меня; так нет</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Мне страха ниоткуду.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Злодеи плоть мою сожрать,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Всей силой устремлялись,</l>
+          <l part="N">И невозмогши мя попрать,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Упали, истомлялись.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хоть полк против меня восстань;</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Бесстрашен пребываю:</l>
+          <l part="N">Когда враги воздвигнут брань,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>На Бога уповаю.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Моя у Бога просьба та,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>В его чтоб жить селеньи,</l>
+          <l part="N">И тамо время живота</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Пребыть в увеселеньи.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Скрывает тамо он меня,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Коль злоба мещет пламень,</l>
+          <l part="N">Иль мя от лютости храня</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Возносит он на камень.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И ныне он мою главу</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Возвысит, на пресильных:</l>
+          <l part="N">А я на небо воззову</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Во пениях умильных.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Услыши, Господи, мой глас;</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Я помощи не знаю,</l>
+          <l part="N">И помоги и в сей мне час;</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Я в горести стонаю!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ищите моего лица,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Твой тако глас вещает;</l>
+          <l part="N">Ищу всещедрого творца,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Он милость обещает.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не отврати своих очей,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Помощник мой вседневен,</l>
+          <l part="N">Ни сильныя руки своей,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Не буди, Боже, гневен!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Меня оставил мой отец,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Я матерью оставлен;</l>
+          <l part="N">Тобою я прият, творец,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Тобою я прославлен.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Врагам ругаться воспрети,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>И дай мне верьх над ними;</l>
+          <l part="N">Яви ты мне свои пути;</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Да шествую я ими.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Не дай меня ты в руки их;</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Враги мои безбожны;</l>
+          <l part="N">Не наблюдают прав твоих,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Свидетельства их ложны.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Я чаю на земли еще</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Узрети добродетель;</l>
+          <l part="N">Их ложны речи все вотще,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Мой правый ты свидетель.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Мужайся Господом, терпи,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>Он даст тебе успехи:</l>
+          <l part="N">К нему в печалях возопи,</l>
+          <l part="N"><space dim="horizontal" extent="9 letters"/>И превратит в утехи.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

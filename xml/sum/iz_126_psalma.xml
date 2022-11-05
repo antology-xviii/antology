@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 126. Псалма. Строитель не взведет строения прекрасна</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из 126. Псалма. Строитель не взведет строения прекрасна</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 18.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1787</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетель</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. б. с." org="uniform" sample="complete" part="N">
+        <opener>
+          <emph>Аще Господь созиждет дом.</emph>
+        </opener>
+        <l part="N">Строитель не взведет строения прекрасна,</l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/>Коль воли Божьей нет,</l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/>Работа вся напрасна,</l>
+        <l part="N">И стража без него град суетно брежет.</l>
+        <l part="N">Воспоможения у Бога кто не просит,</l>
+        <l part="N">Тому дня целого труд пользы не приносит,</l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/>И нет ему спокойных мест:</l>
+        <l part="N">Со попечением в обеде пищу ест,</l>
+        <l part="N">С неудовольствием ко сну в ночи отходит,</l>
+        <l part="N">И сна приятностей в постеле не находит,</l>
+        <l part="N">Кто бога слушает, детей он зрит как дар,</l>
+        <l part="N">Которых произвел ему любовный жар,</l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/>Их дал ему содетель</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>За добродетель;</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Как стрелы сильного бойца,</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Так дети крепкого отца</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>Быть острыми родятся!</l>
+        <l part="N">И к пользе рождшего и общества плодятся,</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>И не стыдятся,</l>
+        <l part="N">Как их дела в суде касаются конца.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

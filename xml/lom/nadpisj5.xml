@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Надпись 5 [к статуе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петра Великаго</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name>]</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Надпись 5 [к статуе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петра Великаго</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name>]</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Собрание разных сочинений в стихах и прозе. СПб.</publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1750</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гремящие по всем концам земным победы</l>
+          <l part="N">И Россов чрез весь свет торжествовавших следы,</l>
+          <l part="N">Собрание наук, исправленны суды,</l>
+          <l part="N">Пременное в реках течение воды,</l>
+          <l part="N">Покрытый флотом понт, среди волн грады новы</l>
+          <l part="N">И протчия дела увидев смерть Петровы</l>
+          <l part="N">Рекла: <q>Сей человек предел мой нарушил <l part="N">И доле в мире сем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Мафусаила</tei:orig><tei:reg>Мафусаил</tei:reg></tei:choice></tei:name> жил</l></q>.</l>
+          <l part="N">Так, лета по делам щитая, возгласила</l>
+          <l part="N">И в гроб великого сего <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Героя</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name> скрыла.</l>
+          <l part="N">Но образом Его красуется сей град.</l>
+          <l part="N">Взирая на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Него</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name>, Перс, Турок, Гот, Сармат<note resp="editor" place="unspecified" anchored="true">Перечисляя побежденные <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петром</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> страны - <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Персию</tei:orig><tei:reg>Персия</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турцию</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Швецию</tei:orig><tei:reg>Швеция</tei:reg></tei:choice></tei:name> (<quote>Гот</quote>), <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> относит к их числу и вынужденную союзницу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Швеции</tei:orig><tei:reg>Швеция</tei:reg></tei:choice></tei:name> - <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Польшу</tei:orig><tei:reg>Польша</tei:reg></tei:choice></tei:name> (<quote>Сармат</quote>).</note></l>
+          <l part="N">Величеству лица Геройскаго чудится</l>
+          <l part="N">И мертваго в меди бесчувственной страшится.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>*** (&lt;&lt;У речки птичье стадо...&gt;&gt;)</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>*** &lt;&lt;У речки птичье стадо...&gt;&gt;)</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>И.Ф. Богданович. Сочинения, чч. 1-3. М., 1809-1810</publisher>
+                <date>Неизвестные годы</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">влюбленность</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">сон</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз" rhyme="AaAaaaa AaAaaaa BaBaaaa DcDcaaa AeAeaaa HcHcaaa CcCcaaa AhAhaaa EaEaaaa." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">У речки птичье стадо</l>
+          <l part="N">Я с утра стерегла;</l>
+          <l part="N">Ой Ладо, Ладо, Ладо!</l>
+          <l part="N">У стада я легла.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Под кустиком лежала</l>
+          <l part="N">Однешенька млада,</l>
+          <l part="N">Устала я, вздремала,</l>
+          <l part="N">Вздремала от труда.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Под кустиком уснула,</l>
+          <l part="N">Глядя по берегам;</l>
+          <l part="N">За кустик не взглянула,</l>
+          <l part="N">Не видела, кто там.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">За кустиком таяся,</l>
+          <l part="N">Иванушка сидел,</l>
+          <l part="N">И тамо, мне дивяся,</l>
+          <l part="N">Сквозь веточки глядел.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он веточки и травки</l>
+          <l part="N">Тихохонько склонил;</l>
+          <l part="N">Прокрался сквозь муравки,</l>
+          <l part="N">Как будто он тут был.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Почасту ветерочек</l>
+          <l part="N">Дул платьице на мне;</l>
+          <l part="N">Почасту там кусочек</l>
+          <l part="N">Колол меня во сне.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мне снилося в то время,</l>
+          <l part="N">Что ястреб налетел</l>
+          <l part="N">И птенчика от племя</l>
+          <l part="N">В глазах унесть хотел.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">От ястреба поймала</l>
+          <l part="N">Я птенчика сквозь сон;</l>
+          <l part="N">Я птенчика прижала,</l>
+          <l part="N">Прижался также он.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сон грозный не собылся,</l>
+          <l part="N">То был лишь сонный страх;</l>
+          <l part="N">А въяве очутился</l>
+          <l part="N">Иванушка в руках.</l>
+          <l part="N">А утки-то кра, кра, кра, кра;</l>
+          <l part="N">А гуси-то га, га, га, га.</l>
+          <l part="N">Га, га, га, га, га, га, га, га, га, га.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

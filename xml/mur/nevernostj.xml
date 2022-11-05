@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Неверность</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Никитич</forename>             <surname full="yes">Муравьев</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Неверность</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Советский писатель. Л. </publisher>
+                <date>1967</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1781</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">предательство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">месть</tei:span>
+    <body xml:id="whole">
+      <div met="Лог" rhyme=" Астрофич. б.с." org="uniform" sample="complete" part="N">
+        <l part="N">За кусточком девица</l>
+        <l part="N">Горько плачет и рвется:</l>
+        <l part="N">Темна ночь наступает,</l>
+        <l part="N">Милый друг не приходит.</l>
+        <l part="N">Милый друг обещал ей</l>
+        <l part="N">Поздно под вечер быть тут,</l>
+        <l part="N">Чтобы клясться <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Полелю</tei:orig><tei:reg>Полель</tei:reg></tei:choice></tei:name> </l>
+        <l part="N">И при месячном свете</l>
+        <l part="N">В путь отправиться вместе</l>
+        <l part="N">В чужу дальну сторонку,</l>
+        <l part="N">Прочь от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Твери</tei:orig><tei:reg>Тверь</tei:reg></tei:choice></tei:name> любезной.</l>
+        <l part="N">В ней оставила бедна</l>
+        <l part="N">Мать, отца, род и племя.</l>
+        <l part="N">Друг оставил несчастну,</l>
+        <l part="N">Чтобы ехать на службу</l>
+        <l part="N">Против злых бусурманов</l>
+        <l part="N">Ко великому князю.</l>
+        <l part="N">Плачет бедная, плачет</l>
+        <l part="N">Тихо... В полночь не стало</l>
+        <l part="N">Боле плакати силы,</l>
+        <l part="N">И терзания стали</l>
+        <l part="N">Сердце рвати девицы.</l>
+        <l part="N">Милосердый небесный</l>
+        <l part="N">Дух помог ей кончаться</l>
+        <l part="N">И убавил мученья,</l>
+        <l part="N">Бедной, ей половину.</l>
+        <l part="N">Тень возвеялась девы</l>
+        <l part="N">В рощи добрых усопших.</l>
+        <l part="N">Тело усопшей осталось</l>
+        <l part="N">Бездыханно, покойно</l>
+        <l part="N">И нестрашно, хоть бледно.</l>
+        <l part="N">Возвратилась улыбка</l>
+        <l part="N">Беспорочности знаком,</l>
+        <l part="N">И легли так одежды,</l>
+        <l part="N">Как быть должны девицы.</l>
+        <l part="N">Между тем не находит</l>
+        <l part="N">Друг дороги из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Твери</tei:orig><tei:reg>Тверь</tei:reg></tei:choice></tei:name>,</l>
+        <l part="N">И запутали тропки</l>
+        <l part="N">Всюду лешие ждущи.</l>
+        <l part="N">Совы, филины страшны,</l>
+        <l part="N">С человеческим гласом</l>
+        <l part="N">И со очи горящи,</l>
+        <l part="N">С сука на́ сук летают</l>
+        <l part="N">И крылами своими</l>
+        <l part="N">Бьют изменничьи плечи.</l>
+        <l part="N">И, бросаясь, объемлет</l>
+        <l part="N">Мать сыру землю странник,</l>
+        <l part="N">Зарыдав, залившися</l>
+        <l part="N">Горючи́ ми слезами.</l>
+        <l part="N">Ему мстилось: тряслася</l>
+        <l part="N">И земля, и послышал</l>
+        <l part="N">По спине он колесы</l>
+        <l part="N">Громовой колесницы.</l>
+        <l part="N">Пораженный, скитался</l>
+        <l part="N">Девять дней и ночей он.</l>
+        <l part="N">Со десятой зарею</l>
+        <l part="N">Набежал на любезну.</l>
+        <l part="N">Совершил он ей тризну,</l>
+        <l part="N">Совершил - и тут умер.   </l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Дар </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Дар </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Анакреонтические песни Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1797</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">искусство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="2aBaB + AbAb + 2aBaB." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">
+            <q>Вот,- сказал мне <name type="mythologic">Аполлон</name>,-</q>
+          </l>
+          <l part="N">
+            <q>Я даю тебе ту лиру,</q>
+          </l>
+          <l part="N">
+            <q>Коей нежный, звучный тон</q>
+          </l>
+          <l part="N"><q>Может быть приятен миру.</q>  <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Пой вельможей и царей,</l><l part="N">Коль захочешь быть им нравен;</l><l part="N">Лирою чрез них ты сей</l><l part="N">Можешь быть богат и славен.</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Если ж пышность, сан, богатство</l><l part="N">Не по склонностям твоим,</l><l part="N">Пой любовь, покой, приятство:</l><l part="N">Будешь красотой любим.</l></lg></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Взял я лиру и запел,-</l>
+          <l part="N">Струны правду зазвучали.</l>
+          <l part="N">Кто внимать мне захотел?</l>
+          <l part="N">Лишь красавицы внимали. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Я доволен, света бог!</l>
+          <l part="N">Даром сим твоим небесным.</l>
+          <l part="N">Я богатым быть не мог,</l>
+          <l part="N">Но я мил женам прелестным</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Лебедь </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor role="editor">В. П. Степанов, Г. П. Макогоненко</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Лебедь </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. т.2. СПб.</publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1804</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">бессмертие поэта</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> полёт </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> птица </tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Необычайным я пареньем       </l>
+          <l part="N"> От тленна мира отделюсь,       </l>
+          <l part="N"> С душой бессмертною и пеньем,       </l>
+          <l part="N"> Как лебедь, в воздух поднимусь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В двояком образе нетленный,       </l>
+          <l part="N"> Не задержусь в вратах мытарств;       </l>
+          <l part="N"> Над завистью превознесенный,       </l>
+          <l part="N"> Оставлю под собой блеск царств.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Да, так! Хоть родом я не славен,       </l>
+          <l part="N"> Но, будучи любимец муз,       </l>
+          <l part="N"> Другим вельможам я не равен       </l>
+          <l part="N"> И самой смертью предпочтусь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не заключит меня гробница,       </l>
+          <l part="N"> Средь звезд не превращусь я в прах       </l>
+          <l part="N"> Но, будто некая цевница,       </l>
+          <l part="N"> С небес раздамся в голосах.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> И се уж кожа, зрю, перната       </l>
+          <l part="N"> Вкруг стан обтягивает мой;       </l>
+          <l part="N"> Пух на груди, спина крылата,       </l>
+          <l part="N"> Лебяжьей лоснюсь белизной.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Лечу, парю - и под собою       </l>
+          <l part="N"> Моря, леса, мир вижу весь;       </l>
+          <l part="N"> Как холм, он высится главою,       </l>
+          <l part="N"> Чтобы услышать богу песнь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Курильских островов</tei:orig><tei:reg>Курильские острова</tei:reg></tei:choice></tei:name> до <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Буга</tei:orig><tei:reg>Западный Буг</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> От <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Белых</tei:orig><tei:reg>Белое море</tei:reg></tei:choice></tei:name>       до <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каспийских вод</tei:orig><tei:reg>Каспийское море</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N"> Народы, света с полукруга,       </l>
+          <l part="N"> Составившие россов род,</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Со временем о мне узнают:       </l>
+          <l part="N"> Славяне, гунны, скифы, чудь,       </l>
+          <l part="N"> И все, что бранью днесь пылают,       </l>
+          <l part="N"> Покажут перстом - и рекут:</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><q>Вот тот летит, что, строя лиру,       <l part="N">Языком сердца говорил       </l><l part="N">И, проповедуя мир миру,       </l><l part="N">Себя всех счастьем веселил</l></q>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Прочь с пышным, славным погребеньем,       </l>
+          <l part="N"> Друзья мои! Хор муз, не пой!       </l>
+          <l part="N"> Супруга! облекись терпеньем!       </l>
+          <l part="N"> Над мнимым мертвецом не вой.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

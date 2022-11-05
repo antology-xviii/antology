@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Милое дитя </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Милое дитя</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Известия отделения русского языка и словесности Императорской Академии наук. Кн. 1</publisher>
+                <date>1913</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>Между 1789 и 1784</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">кокетство</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты мне делаешь приветства,</l>
+          <l part="N">Пляшешь весело со мной,</l>
+          <l part="N">И во всех забавах детства</l>
+          <l part="N">Я всегда товарищ твой.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты со мной не умолкаешь,</l>
+          <l part="N">Песни мне свои поешь,</l>
+          <l part="N">Мне отсутство попрекаешь</l>
+          <l part="N">И со мною в пяльцы шьешь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но когда язык отважный</l>
+          <l part="N">Станет страсть изображать,</l>
+          <l part="N">Вдруг ты сделаешься важной -</l>
+          <l part="N">Я не смею продолжать.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А, <name type="character">Розана</name>, ты плутовка,</l>
+          <l part="N">Ты уж вышла из детей.</l>
+          <l part="N">Хладный вид - одна уловка,</l>
+          <l part="N">И <name type="mythologic">Амур</name>  смеется ей.   </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

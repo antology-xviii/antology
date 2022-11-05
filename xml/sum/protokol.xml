@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Протокол</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Протокол</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Притчи. Книга 2.                   СПб.</publisher>
+                <date>1762</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1762</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">воровство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">невежество</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>Украл подьячий протокол, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>А я не лицемерю, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Что этому не верю: </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Впадет ли в таковой раскол </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Душа такого человека! </l>
+        <l part="N">Подьячие того не делали в век века, </l>
+        <l part="N">И может ли когда иметь подьячий страсть, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Чтоб стал он красть! </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Нет, я не лицемерю, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Что этому не верю; </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Подьяческа душа </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Гораздо хороша. </l>
+        <l part="N">Да <name type="character">Правда</name> говорит гораздо красноречно: </l>
+        <l part="N">Уверила меня, что было то, конечно. </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Правды</tei:orig><tei:reg>Правда</tei:reg></tei:choice></tei:name> мало врак; </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Не спорю, было так. </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Судья того приказа </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Был добрый человек; </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Да лишь во весь он век </l>
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>Не выучил ни одного указа, </l>
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>Однако осудил за протокол </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Подьячего на кол. </l>
+        <l part="N"> <space dim="horizontal" extent="15 letters"/>Хоть это строго, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Да не гораздо много. </l>
+        <l part="N"> Мне жалко только то: подьячий мой </l>
+        <l part="N"> <space dim="horizontal" extent="2 letters"/>Оттоль не принесет полушечки домой. </l>
+        <l part="N"> <space dim="horizontal" extent="2 letters"/>Подьячий несколько в лице переменялся </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>И извинялся, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>На милосердие судью маня, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>И говорил: <q>Попутал черт меня</q>. </l>
+        <l part="N"> Судья на то:<q>Так он теперь и оправдался.  <l part="N"> Я, право, этого, мой друг, не дожидался. </l><l part="N"> <space dim="horizontal" extent="12 letters"/> За протокол </l><l part="N">Его поймать и посадить на кол</l></q>. </l>
+        <l part="N">Однако ты, судья, хоть город весь изрыщешь, </l>
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>Не скоро черта сыщешь; </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Пожалуй, справок ты не умножай, </l>
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>Да этого на кол сажай. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

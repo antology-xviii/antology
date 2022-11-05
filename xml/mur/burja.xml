@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Буря</title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Буря </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>М. Н. Муравьев. Стихотворения.  Л.</publisher>
+                <date>1967</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>?</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">страх</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">могущество Бога</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme=" AAbCCb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Какие громы ударяют,</l>
+          <l part="N">Мне ужас в перси водворяют,</l>
+          <l part="N">Висящему над стремнино́й?</l>
+          <l part="N">Густой покрыто небо мглою,</l>
+          <l part="N">Разимый яростной волною,</l>
+          <l part="N">Разносит брег унылый вой.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Один, стихий в грозящем споре,</l>
+          <l part="N">Не зрю ли я вселенной горе?</l>
+          <l part="N">Не се ль ее последний вздох?</l>
+          <l part="N">К кому прибегну я, несчастный?</l>
+          <l part="N">Никем не слышим вопль напрасный:</l>
+          <l part="N">Далеко все - со мною <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Со мною <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>, не страшны громы;</l>
+          <l part="N">Его десницею несомы,</l>
+          <l part="N">Они вещают власть его:</l>
+          <l part="N">Его на землю сыплют благи;</l>
+          <l part="N">И колебанья буйной влаги</l>
+          <l part="N">Не пре́йдут брега своего. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не бойтесь, смертны, грозной бури.</l>
+          <l part="N">Ничем не движим свод лазури</l>
+          <l part="N">Превыше грубых облаков.</l>
+          <l part="N">На все страны, на все творенья</l>
+          <l part="N">Отверсто око провиденья.</l>
+          <l part="N">Земля! не в небе ль твой покров?</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

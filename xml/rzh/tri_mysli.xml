@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> СОНЕТ, ЗАКЛЮЧАЮЩИЙ В СЕБЕ ТРИ МЫСЛИ:     читай весь по порядку, одни первые полустишия и другие полустишия </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor"> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Сонет, заключающий в себе три мысли </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Полезное увеселение, № 5</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="aBaB cDcD eeF ggF." org="uniform" sample="complete" part="N">
+        <lg type="quatrain" org="uniform" sample="complete" part="N">
+          <l part="N">Вовеки не пленюсь <anchor xml:id="half"/> красавицей иной;</l>
+          <l part="N">Ты ведай, я тобой <anchor corresp="half"/>  всегда прельщаться стану,</l>
+          <l part="N">По смерть не пременюсь;    <anchor corresp="half"/> вовек жар будет мой,</l>
+          <l part="N">Век буду с мыслью той, <anchor corresp="half"/> доколе не увяну.   </l>
+        </lg>
+        <lg type="quatrain" org="uniform" sample="complete" part="N">
+          <l part="N">Не лестна для меня  <anchor xml:id="half1"/> иная красота;</l>
+          <l part="N">Лишь в свете ты одна  <anchor corresp="half1"/> мой дух  воспламенила.</l>
+          <l part="N">Скажу я не маня:  <anchor corresp="half1"/> свобода отнята -</l>
+          <l part="N">Та часть тебе дана <anchor corresp="half1"/> о ты, что дух пленила!  </l>
+        </lg>
+        <lg type="tercet" org="uniform" sample="complete" part="N">
+          <l part="N">Быть ввек противной мне, <anchor xml:id="half2"/>  измены не брегись,</l>
+          <l part="N"> В сей ты одна стране  <anchor corresp="half2"/>  со мною век любись.</l>
+          <l part="N">Мне горесть и беда, <anchor corresp="half2"/> я мучуся тоскою,  </l>
+        </lg>
+        <lg type="tercet" org="uniform" sample="complete" part="N">
+          <l part="N">Противен мне тот час, <anchor xml:id="half3"/> коль нет тебя со мной;</l>
+          <l part="N">Как зрю твоих взор глаз, <anchor corresp="half3"/> минутой счастлив той,</l>
+          <l part="N">Смущаюся всегда <anchor corresp="half3"/> и весел, коль с тобою. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

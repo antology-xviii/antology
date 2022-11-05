@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Дележ львиный </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Дележ львиный</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно </date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть сильного</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">раболепие слабых</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="4 letters"/><name type="character">Осел</name> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>овцой</tei:orig><tei:reg>овца</tei:reg></tei:choice></tei:name>, с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> коровой</tei:orig><tei:reg>корова</tei:reg></tei:choice></tei:name>и с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> козой</tei:orig><tei:reg>коза</tei:reg></tei:choice></tei:name></l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Когда-то в пайщики вступили</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льва</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name> с собою пригласили</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>На договор такой,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Что если зверь какой</l>
+          <l part="N"> На чьей-нибудь земле, случится, попадется</l>
+          <l part="N"> И зверя этого удастся изловить,</l>
+          <l part="N"> То б в случае таком добычу разделить</l>
+          <l part="N"> По равной части всем, кому что доведется.</l>
+          <l part="N"> <space dim="horizontal" extent="20 letters"/>Случись,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/><name type="character">Олень</name> к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>козе</tei:orig><tei:reg>коза</tei:reg></tei:choice></tei:name> в тенета попадись.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Тотча́с друг другу повестили,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>И вместе все <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>оленя</tei:orig><tei:reg>олень</tei:reg></tei:choice></tei:name> задушили.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Дошло до дележа. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Лев</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name> то́тчас говорит:</l>
+          <l part="N"> <q>Одна тут часть моя и мне принадлежит <l part="N"> Затем, что договор такой мы положили</l></q>.</l>
+          <l part="N">- <q>Об этом слова нет!</q> - <q>Другая часть моя, <l part="N"> <space dim="horizontal" extent="15 letters"/>Затем что я</l><l part="N"> <space dim="horizontal" extent="15 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Львом</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>называюсь</l><l part="N"> <space dim="horizontal" extent="8 letters"/>И первым между вас считаюсь</l></q>.</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>- <q>Пускай и то!</q> - <q>И третья часть моя <l part="N"> <space dim="horizontal" extent="8 letters"/>По праву кто кого храбряе.</l><l part="N"> Еще четверту часть беру себе же я</l><l part="N"> <space dim="horizontal" extent="8 letters"/>По праву кто кого сильняе.</l><l part="N"> А за последнюю лишь только кто примись,</l><l part="N"> <space dim="horizontal" extent="12 letters"/>То тут же и простись</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

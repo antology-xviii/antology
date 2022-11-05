@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="character">Ворона</name> и <name type="character">Лиса</name></title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ворона и лиса</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Полное собрание всех сочинений.                   М.</publisher>
+                <date>1781</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>?</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">лесть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> И птицы держатся людского ремесла. </l>
+        <l part="N"> <name type="character"> Ворона </name>  сыру кус когда-то унесла </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>И на́  дуб села. </l>
+        <l part="N"> <space dim="horizontal" extent="18 letters"/>Села, </l>
+        <l part="N"> Да только лишь еще ни крошечки не ела. </l>
+        <l part="N"> Увидела <name type="character">Лиса </name>  во рту у ней кусок </l>
+        <l part="N"> И думает она: <q>Я дам <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Вороне</tei:orig><tei:reg>Ворона </tei:reg></tei:choice></tei:name> сок!  <l part="N"> <space dim="horizontal" extent="8 letters"/>Хотя туда не вспряну, </l><l part="N"> <space dim="horizontal" extent="8 letters"/>Кусочек этот я достану, </l><l part="N"> <space dim="horizontal" extent="8 letters"/>Дуб сколько ни высок</l></q>.     </l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Здорово, - говорит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Лисица </tei:orig><tei:reg>Лиса</tei:reg></tei:choice></tei:name>, -  <l part="N"> Дружок, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Воронушка </tei:orig><tei:reg>Ворона </tei:reg></tei:choice></tei:name>, названая сестрица! </l><l part="N"> <space dim="horizontal" extent="12 letters"/> Прекрасная ты птица! </l><l part="N"> <space dim="horizontal" extent="8 letters"/> Какие ноженьки, какой носок, </l><l part="N"> И можно то сказать тебе без лицемерья, </l><l part="N"> Что паче всех ты мер, мой светик, хороша! </l><l part="N"> И попугай ничто перед тобой, душа, </l><l part="N"> Прекраснее стократ твои павлиньих перья!&gt;</l></q> </l>
+        <l part="N"> (Нелестны похвалы приятно нам терпеть). </l>
+        <l part="N"><q>О, если бы еще умела ты и петь,  <l part="N"> Так не было б тебе подобной птицы в мире!</l></q> </l>
+        <l part="N"> <name type="character"> Ворона </name> горлышко разинула пошире, </l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/> Чтоб быти соловьем, </l>
+        <l part="N"><q>А сыру, - думает, - и после я поем.  <l part="N"> В сию минуту мне здесь дело не о пире!</l></q> </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/> Разинула уста </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/> И дождалась поста. </l>
+        <l part="N"> Чуть видит лишь конец Лисицына хвоста. </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/> Хотела петь, не пела, </l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/> Хотела есть, не ела. </l>
+        <l part="N"> Причина та тому, что сыру больше нет. </l>
+        <l part="N"> Сыр выпал из роту, - <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Лисице</tei:orig><tei:reg>Лиса</tei:reg></tei:choice></tei:name> на обед. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

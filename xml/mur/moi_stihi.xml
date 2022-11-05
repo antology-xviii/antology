@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Мои стихи, мой друг, - осенние листы... </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н.  Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная          библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Мои стихи, мой друг, - опавшие листы... </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>М. Н. Муравьев. Стихотворения.  Л. </publisher>
+                <date>1967</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>?</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">жалобы поэта</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme=" aBaBcDcDxX. " org="uniform" sample="complete" part="N">
+        <l part="N"> Мои стихи, мой друг, - осенние листы:</l>
+        <l part="N"> Родятся блеклые, без живости и цвету,</l>
+        <l part="N"> И, восхищаемы дыханий злых усты,</l>
+        <l part="N"> Пренебрегаемы разносятся по свету,</l>
+        <l part="N"> Не чтомые никем. Но дух во мне кипит</l>
+        <l part="N"> И слезы зависти катятся по ланитам,</l>
+        <l part="N"> Что, указуемый гражданами пиит,</l>
+        <l part="N"> Не достигаю я в сообщество к пиитам,</l>
+        <l part="N"> Биющим верные удары во сердца,</l>
+        <l part="N"> Со воздыханьями влекущим слезы сладки. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

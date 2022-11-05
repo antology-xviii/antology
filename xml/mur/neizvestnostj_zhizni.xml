@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Неизвестность жизни </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Стансы</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Оды лейб-гвардии Измайловского полку сержанта Михайла Муравьева </publisher>
+                <date>1775</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1775, 1802 - переработка</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">скоротечность жизни</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда небесный свод обымут мрачны ночи</l>
+          <l part="N">И томные глаза сокрою я на сон,</l>
+          <l part="N">Невольным манием предстанет перед очи</l>
+          <l part="N">Мгновенье, в кое я из света выду вон. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ужасный переход и смертным непонятный!</l>
+          <l part="N">Трепещет естество, вообразив сей час,</l>
+          <l part="N">Необходимый час, безвестный,   </l>
+          <l part="N"><space dim="horizontal" extent="27 letters"/>безвозвратный, -</l>
+          <l part="N">Кто знает, далеко ль от каждого из нас? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как вихрь, что, убежав из северной пещеры,</l>
+          <l part="N">Вскрутится и корабль в пучину погрузит,</l>
+          <l part="N">Так смерть нечаянно разрушит наши меры</l>
+          <l part="N">И в безопасности заснувших поразит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гоняясь пристально за радостью   </l>
+          <l part="N"><space dim="horizontal" extent="31 letters"/>мгновенной,</l>
+          <l part="N">Отверстой пропасти мы ходим на краю.</l>
+          <l part="N">Цвет розы не поблек, со стебля </l>
+          <l part="N"><space dim="horizontal" extent="30 letters"/>сриновенный, -</l>
+          <l part="N">Уж тот, кто рвал ее, зрит бедственну ладью. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На долгий жизни ток отнюдь не полагайся,</l>
+          <l part="N">О смертный! Вышнему надежды поручив</l>
+          <l part="N">И помня краткость дней, от гордости </l>
+          <l part="N"><space dim="horizontal" extent="33 letters"/> чуждайся.</l>
+          <l part="N">Ты по земле пройдешь - там будешь вечно   </l>
+          <l part="N"><space dim="horizontal" extent="33 letters"/> жив.  </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>�������</title>
+        <author>          <persName>            <forename full="yes">���������</forename>             <forename type="patronym" full="yes">����������</forename>             <surname full="yes">�������</surname>           </persName>         </author>
+        <principal>��������� �������</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>���, ������� "������� XVIII ���"</publisher>
+        <availability status="free">
+          <p>© 2012 ���</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>����������� ��������� "������� ���������� XVIII ����"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>������� �. �. ������ �������� ���������. �. 1.</title>
+            <editor role="editor">������ �. �., ��������� �. �., ��������� �. �/</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>������������ �������� ���� ����</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">������� ����������� ����������</tei:ref>
+            </distributor>
+            <pubPlace>�.-�.</pubPlace>
+            <date>1938</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>�������</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>�������� ���������� ��������� ��������� ���������� ����������� ��������. �. 1.</publisher>
+                <date>1807</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1797-1800</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">���������</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">���������� ���������</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">�������</tei:span>
+    <body xml:id="whole">
+      <div met="�� (�4 + ��)" rhyme="��������. �. �. + ��������. �. �." org="uniform" sample="complete" part="N">
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="11 letters"/>����� ����� ������� � �����, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>���� ����� �� ����� ������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� ����� �������� ���������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>���� ��������� � �����, ������ ������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>�� ���� ����. ���� ������ �������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��� � ����, ����������� �����: </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>���� ������� ������� ��� ������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��������� ���� �������� �� �� ������; </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������ ������ �������� ��� ���. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>� �� �������, ��� � �������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������ ������� ��� �� �������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��� ���� ���� �������� �� �� ������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>�� ���������, ���� ������� ���. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��� ��� ������? ������� �����������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��������, ���� �������� �������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� ����������� ����� ��� ������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��, ��� ���� �� ������ ���� ����� </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>���� �����! - ����� ��� ���� ����, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� �������� � ������ ������� </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>�� ���� ���� ��������� ���������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������ ������� ������ ��������; </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� �� �������, �������� � �����, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>�� ��������, ������ � ������; </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������ � ������� � ��� ��� ������ �������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������ �� �����, ���� ����������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� �����, ���������� �����, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� ���� � ����� ��������. </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��� ���������� ������� �������, </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��� ���� � ���������� � ������� ������; </l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>����� � ���������� � ���� �����. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>� ��, �������� ��� ������ �����</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>���������� � ���!</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>��������� ������,</l>
+          <l part="N"><space dim="horizontal" extent="7 letters"/>������� �����, � ����;</l>
+          <l part="N">�������� �����, ����� ������� ���?</l>
+          <l part="N">���������, ����������� � ����� ����������</l>
+          <l part="N">��� ������� ����� ����. �� �� ��� ����������:</l>
+          <l part="N">��� ������ ������, ��� ��� �� ��� �����,</l>
+          <l part="N">��� ������ ������, ���������� ��� ��� ����.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

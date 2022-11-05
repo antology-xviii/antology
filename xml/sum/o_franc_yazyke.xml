@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>О французском языке</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>О французском языке</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>А. Сумароков. Сатиры. СПб.</publisher>
+                <date>1774</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>Между 1771-1774</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">галломания</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <l part="N"> Взращен дитя твое и стал уже детина,</l>
+        <l part="N"> Учился, научен, учился, стал скотина;</l>
+        <l part="N"> К чему, что твой сынок чужой язык постиг,</l>
+        <l part="N"> Когда себе плода не собрал он со книг?</l>
+        <l part="N"> Болтать и попугай, сорока, дрозд умеют,</l>
+        <l part="N"> Но больше ничего они не разумеют.</l>
+        <l part="N"> Французским словом он в речь русскую плывет;</l>
+        <l part="N"> Солому пальею <note resp="editor" place="unspecified" anchored="true">Палья (фр. paille) - солома.</note>, обжектом<note resp="editor" place="unspecified" anchored="true">Обжект (фр. objet) - предмет, вещь, вид.</note> вид зовет,</l>
+        <l part="N"> И речи русские ему лишь те прелестны,</l>
+        <l part="N"> Которы на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Руси</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> вралям одним известны.</l>
+        <l part="N"> Коль должно молвити о чем или о ком,</l>
+        <l part="N"> <q>На основании совсем не на таком</q>, -</l>
+        <l part="N"> Он бредит безо сна и без стыда, и смело:</l>
+        <l part="N"> <q>Не на такой ноге<note resp="editor" place="unspecified" anchored="true"> Не на такой ноге - дословный перевод французского оборота речи, соответствующего русскому <mentioned>не на таком основании</mentioned>.</note> я вижу это дело</q>.</l>
+        <l part="N"> И есть родители, желающи того,</l>
+        <l part="N"> По-русски б дети их не знали ничего</l>
+        <l part="N"> Французски авторы почтенье заслужили,</l>
+        <l part="N"> Честь веку принеся, они в котором жили,</l>
+        <l part="N"> Язык их вычищен, но всяк ли <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Молиер</tei:orig><tei:reg>Мольер Ж.- Б.</tei:reg></tei:choice></tei:name></l>
+        <l part="N"> Между французами, и всяк ли в них <name type="person">Вольтер</name>?</l>
+        <l part="N"> Во всех землях умы великие родятся,</l>
+        <l part="N"> А глупости всегда ж и более плодятся,</l>
+        <l part="N"> И мода стран чужих России не закон:</l>
+        <l part="N"> Мне мнится, всё равно - присядка<note resp="editor" place="unspecified" anchored="true">Присядка - здесь: реверанс, книксен. </note> и поклон.</l>
+        <l part="N"> Об этом инако <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерина</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name> мыслит:</l>
+        <l part="N"> Обряд хороший нам она хорошим числит,</l>
+        <l part="N"> Стремится нас она наукой озарять,</l>
+        <l part="N"> А не в французов нас некстати претворить,</l>
+        <l part="N"> И неоспориму дает на то надежду,</l>
+        <l part="N"> Сама в российскую облекшися одежду.</l>
+        <l part="N"> Безмозглым кажется язык российский туп:</l>
+        <l part="N"> Похлебка ли вкусняй<note resp="editor" place="unspecified" anchored="true">Похлебка ли вкусняй и т. д. Слова <mentioned>суп</mentioned>, <mentioned>соус</mentioned>тогда еще не вошли в обиходный язык и ощущались как галлицизмы.</note>, или вкусняе суп?</l>
+        <l part="N"> Иль соус, просто сос, нам поливки вкусняе?</l>
+        <l part="N"> Или уж наш язык мордовского гнусняе?</l>
+        <l part="N"> Ни шапка, ни картуз<note resp="editor" place="unspecified" anchored="true">В С опечатка: <mentioned>карпус</mentioned>.</note>, ни шляпа, ни чалма</l>
+        <l part="N"> Не могут умножать нам данного ума.</l>
+        <l part="N"> Темноволосая, равно и белокура,</l>
+        <l part="N"> Когда умна - умна, когда глупа - так дура.</l>
+        <l part="N"> Не в форме истина на свете состоит;</l>
+        <l part="N"> Нас красит вещество, а не по моде вид; </l>
+        <l part="N"> По моде ткут тафты, парчи, обои, штофы,</l>
+        <l part="N"> Однако люди те ткачи, не философы.</l>
+        <l part="N"> А истина нигде еще не знала мод,</l>
+        <l part="N"> Им слепо следует безумный лишь народ.</l>
+        <l part="N"> Разумный моде мнит безделкой быть покорен,</l>
+        <l part="N"> В длине кафтана он со прочими бесспорен,</l>
+        <l part="N"> А в рассуждении он следует себе,</l>
+        <l part="N"> Оставив дурака предписанной судьбе;</l>
+        <l part="N"> Кто русско золото французской медью медит, -</l>
+        <l part="N"> Ругает свой язык и по-французски бредит.</l>
+        <l part="N"> Языки чужды нам потребны для того,</l>
+        <l part="N"> Чтоб мы читали в них, на русском нет чего;</l>
+        <l part="N"> Известно, что еще книг русских очень мало,</l>
+        <l part="N"> Колико их перо развратно ни вломало.</l>
+        <l part="N"> Прекрасен наш язык единой стариной,</l>
+        <l part="N"> Но, глупостью писцов, он ныне стал иной.</l>
+        <l part="N"> И ежели от их он уз не свободится,</l>
+        <l part="N"> Так скоро никуда он больше не годится.</l>
+        <l part="N"> Пиитов на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Руси</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> умножилось число,</l>
+        <l part="N"> И все примаются за это ремесло.</l>
+        <l part="N"> Не соловьи поют, кукушки то кукуют<note resp="editor" place="unspecified" anchored="true">Почти той же строкой начинается притча <bibl default="false"><title>Кукушки</title></bibl>. Так как в произведениях <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, написанных в одно и то же время, имеют место автоцитаты, то можно с большой степенью точности датировать эту сатиру периодом между <date>1771</date> и <date>1774</date> гг. </note>,</l>
+        <l part="N"> И врут, и враки те друг друга критикуют;</l>
+        <l part="N"> И только тот из них поменее наврал,</l>
+        <l part="N"> Кто менее еще бумаги замарал.</l>
+        <l part="N"> А твой любезный сын бумаги не марает,</l>
+        <l part="N"> В библиотеку книг себе не собирает.</l>
+        <l part="N"> Похвален он и тем, что бредит на речах,</l>
+        <l part="N"> Парнаса и во сне не видев он в очах.</l>
+        <l part="N"> На русском прежде был <note resp="editor" place="unspecified" anchored="true">На русском прежде был и т. д. - прежде о нем говорили по-русски, что он скандалист (шумный, пьяный, скандалящий человек).</note> языке сын твой шумен;</l>
+        <l part="N"> Французского хватив, он стал совсем безумен.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

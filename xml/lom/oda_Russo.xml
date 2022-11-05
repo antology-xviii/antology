@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Ода господина <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Русо</tei:orig><tei:reg>Руссо Ж.-Б.</tei:reg></tei:choice></tei:name> Fortune, de qui la main couronne, переведенная <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>г. Сумароковым</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>г. Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>. Любители и знающая словесныя науки могут сами, по разному сих обеих Пиитов свойству, каждаго перевод узнать]</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>&gt;[Ода господина Русо Fortune, de qui la main couronne, переведенная г. Сумароковым и г. Ломоносовым. Любители и знающая словесныя науки могут сами, по разному сих обеих Пиитов свойству, каждаго перевод узнать]</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение</publisher>
+                <pubPlace>М.</pubPlace>
+                <date>1760</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1759</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">кровопролитные войны</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">полководцы</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">герои</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <lg n="[1]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Доколе, щастье, ты венцами</l>
+          <l part="N">Злодеев будеш украшать?</l>
+          <l part="N">Доколе ложными лучами</l>
+          <l part="N">Наш разум хочешь ослеплять?</l>
+          <l part="N">Доколе, истукан прелестной, <note resp="editor" place="unspecified" anchored="true"> Т. е. прельщающий, обманывающий; в подлиннике <q>trompeuse Idole</q> (<q>обманчивый идол</q>); у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> образ истукана-идола исчез: в его переводе читаем:  							<lg org="uniform" sample="complete" part="N"><l part="N">И доколе покланяться                             </l><l part="N">Нам обману твоему?                              </l></lg> У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тредиаковского</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name> <q>истукан обманчивый прелестно</q>.</note></l>
+          <l part="N">Мы станем жертвой, нам безчестной,</l>
+          <l part="N">Твой тщетной почитать олтарь?</l>
+          <l part="N">Доколе будем строить храмы,</l>
+          <l part="N">Твои чтить замыслы упрямы, </l>
+          <l part="N">Прельщенная словесна тварь? </l>
+        </lg>
+        <lg n="[2]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Народ, порабощен обману,</l>
+          <l part="N">Малейшия твои дела</l>
+          <l part="N">За ум, за храбрость чтит избранну:</l>
+          <l part="N">Ты власть, ты честь, ты сил хвала;</l>
+          <l part="N">В угоду твоему<note resp="editor" place="unspecified" anchored="true"> Редакция <q>Полезного увеселения</q> сочла нужным дать к слову <q>твоему</q> такую пояснительную сноску: <q>То есть, от тебя происходящему пороку</q>, что не соответствует подлиннику, где сказано: <q>le vice, que tu chéris</q> (в буквальном переводе: <q>порок, который тебе мил</q>). Точнее всех перевел <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тредиаковский</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name>: <q>За то, что мил весьма един тебе порок</q>.</note> пороку</l>
+          <l part="N">И добродетель превысоку</l>
+          <l part="N">Лишает собственных красот.</l>
+          <l part="N">Его неправедны уставы</l>
+          <l part="N">На верьх возводят пышной славы </l>
+          <l part="N">Твоих любимцов злобной род.</l>
+        </lg>
+        <lg n="[3]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но пусть великостию сею</l>
+          <l part="N">О титлах хвалятся своих,</l>
+          <l part="N">Поставим разум в том судьею</l>
+          <l part="N">И добрых дел поищем в них.</l>
+          <l part="N">Я вижу лишь одну безмерность,</l>
+          <l part="N">Надменность, слабость и неверность,</l>
+          <l part="N">Свирепство, бешенство и лесть.</l>
+          <l part="N">Доброта странная! Откуду</l>
+          <l part="N">Из злости сложенному чуду </l>
+          <l part="N">Дается оной должна честь?</l>
+        </lg>
+        <lg n="[4]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты знай: герои совершенны</l>
+          <l part="N">Премудростию в свет даны;</l>
+          <l part="N">Она лишь видит, коль презренны,</l>
+          <l part="N">Что чрез тебя возведены;</l>
+          <l part="N">Она ту славу презирает,</l>
+          <l part="N">Что рок неправедной раждает</l>
+          <l part="N">В победах слепотой своей;</l>
+          <l part="N">Пред строгими ее очами</l>
+          <l part="N">Герой с суровыми делами</l>
+          <l part="N">Ни что, как щастливой злодей.</l>
+        </lg>
+        <lg n="[5]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Почтить ли токи те кровавы,</l>
+          <l part="N">Что в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Риме</tei:orig><tei:reg>Рим</tei:reg></tei:choice></tei:name> <name type="person">Сулла</name> проливал?</l>
+          <l part="N">Достойноль в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Александре</tei:orig><tei:reg>Александр Македонский</tei:reg></tei:choice></tei:name> славы,</l>
+          <l part="N">Что в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Атилле</tei:orig><tei:reg>Атилла</tei:reg></tei:choice></tei:name> всяк злом признал?</l>
+          <l part="N">За добродетель и геройство</l>
+          <l part="N">Хвалить ли зверско неспокойство</l>
+          <l part="N">И власть окровавленных рук?</l>
+          <l part="N">И принужденными устами</l>
+          <l part="N">Могу ли возносить хвалами</l>
+          <l part="N">Начальника толиких мук?</l>
+        </lg>
+        <lg n="[6]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Издревле что об вас известно,</l>
+          <l part="N">О хищники чюжих держав?<note resp="editor" place="unspecified" anchored="true"> Здесь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, ориентируясь на современную ему действительность, сознательно, надо полагать, отходит от подлинника, где вместо <q>хищников чужих держав</q> читаем более слабое <q>impitoyables conquérants</q> (<q>безжалостные завоеватели</q>).</note></l>
+          <l part="N">Желанье в мире всем не вместно,</l>
+          <l part="N">Попрание венчанных глав,</l>
+          <l part="N">Огня и трупов полны стены,</l>
+          <l part="N">И вы - в пару кровавой пены,</l>
+          <l part="N">Народ, пожранный от меча,</l>
+          <l part="N">И в шуме бледна мать великом</l>
+          <l part="N">Свою дочь тщится с плачем, с криком</l>
+          <l part="N">Отнять с насильного плеча.</l>
+        </lg>
+        <lg n="[7]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Слепые мы судьи, слепые,</l>
+          <l part="N">Чудимся таковым делам!</l>
+          <l part="N">Одне ли приключенья злые</l>
+          <l part="N">Дают достоинство Царям!</l>
+          <l part="N">Их славе, бедствами обильной,</l>
+          <l part="N">Без брани хищной и насильной</l>
+          <l part="N">Не можно разве устоять?</l>
+          <l part="N">Не можно божеству земному</l>
+          <l part="N">Без ударяющего грому </l>
+          <l part="N">Своим величеством блистать?</l>
+        </lg>
+        <lg n="[8]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но быть должна во время бою</l>
+          <l part="N">На первенстве прямая честь,</l>
+          <l part="N">И кто, поправ врага собою,</l>
+          <l part="N">Победу мог себе причесть?</l>
+          <l part="N">Издревле воины известны,</l>
+          <l part="N">Похвальны, знатны, славны, честны</l>
+          <l part="N">Оплошностью противных сил.</l>
+          <l part="N">Худым Варроновым призором,<note resp="editor" place="unspecified" anchored="true"> Одним из виновников поражения римлян при <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каннах</tei:orig><tei:reg>Канны</tei:reg></tei:choice></tei:name> в <date>216</date> г. до н. э. считался консул <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Гай Теренций Варрон</tei:orig><tei:reg>Варрон</tei:reg></tei:choice></tei:name>. Вторым консулом был в это время <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Люций Павел Эмилий</tei:orig><tei:reg>Эмилий</tei:reg></tei:choice></tei:name>. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> заменил именем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Варрона</tei:orig><tei:reg>Варрон</tei:reg></tei:choice></tei:name> парафразу подлинника <q>compagnon de Paul Emile</q> (<q>товарищ <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Павла Эмилия</tei:orig><tei:reg>Эмилий</tei:reg></tei:choice></tei:name></q>). <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тредиаковский</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name> счел необходимым назвать и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Варрона</tei:orig><tei:reg>Варрон</tei:reg></tei:choice></tei:name>, и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Эмилия</tei:orig><tei:reg>Эмилий</tei:reg></tei:choice></tei:name>. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> обошелся вовсе без имен, удовольствовавшись упоминанием про <q>во́ждя непроворна</q>.</note></l>
+          <l part="N">Упрямым и неправым спором</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ганни́бал</tei:orig><tei:reg>Ганнибал</tei:reg></tei:choice></tei:name> славу получил. </l>
+        </lg>
+        <lg n="[9]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кого же нам почтить Героем</l>
+          <l part="N">Великим собственной хвалой?</l>
+          <l part="N">Царя, что правдой и покоем</l>
+          <l part="N">Себя, народ содержит свой;</l>
+          <l part="N">Последуя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Веспазиану</tei:orig><tei:reg>Веспасиан</tei:reg></tei:choice></tei:name>, <note resp="editor" place="unspecified" anchored="true"> В подлиннике и в переводах <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тредиаковского</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name> не <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Веспазиан</tei:orig><tei:reg>Веспасиан</tei:reg></tei:choice></tei:name>, а <name type="person">Тит</name>. Полное имя императора <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тита</tei:orig><tei:reg>Тит</tei:reg></tei:choice></tei:name> было, правда, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тит Флавий Веспасиан</tei:orig><tei:reg>Тит</tei:reg></tei:choice></tei:name>, но это не давало все же <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> права называть его <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Веспазианом</tei:orig><tei:reg>Веспасиан</tei:reg></tei:choice></tei:name>, потому что под этим последним именем вошел в историю отец и предшественник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тита</tei:orig><tei:reg>Тит</tei:reg></tei:choice></tei:name>. Не исключена, впрочем, возможность, что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> сознательно отошел от подлинника, так как, вопреки легендам, заботы о <q>счастии людей</q> были более характерны для миролюбивого <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Веспазиана</tei:orig><tei:reg>Веспасиан</tei:reg></tei:choice></tei:name>, чем для <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тита</tei:orig><tei:reg>Тит</tei:reg></tei:choice></tei:name>.</note></l>
+          <l part="N">Едину радость несказанну</l>
+          <l part="N">Имеет в щастии людей,</l>
+          <l part="N">Отец отечества без лести,</l>
+          <l part="N">И ставит выше всякой чести</l>
+          <l part="N">Числом своих щедроты дней.<note resp="editor" place="unspecified" anchored="true">Заключительные три стиха строфы 9 грешат неясностью. В подлиннике они читаются так:                              <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Qui fuit la basse flaterie                             </l><l part="N">Et qui, père de sa Patrie,                             </l><l part="N">Compte ses jours par ses bienfaits, </l></lg>  т. е. в буквальном переводе:  <q>Кто  убегает  от  низменной  лести  и  кто, будучи  отцом  своего   отечества,   исчисляет   свои   дни   числом   своих благодеяний</q>. Из трех состязавшихся переводчиков лучше всех  справился  с этими    тремя    стихами    <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков     А. П.</tei:reg></tei:choice></tei:name>:                              <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Лести кто и внять не мыслит,                             </l><l part="N">И владения дни числит                             </l><l part="N">По числу щедрот своих. </l></lg></note></l>
+        </lg>
+        <lg n="[10]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О вы, что в добродетель чтите</l>
+          <l part="N">Един в войнах геройской шум,</l>
+          <l part="N">Себе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сократа</tei:orig><tei:reg>Сократ</tei:reg></tei:choice></tei:name> вобразите</l>
+          <l part="N">За Клитова убивца<note resp="editor" place="unspecified" anchored="true"><q>Клитовым убивцем</q> назван <name type="person">Александр Македонский</name>, убивший своего полководца <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Клита Черного</tei:orig><tei:reg>Клит Черный</tei:reg></tei:choice></tei:name>, который в битве при <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Гранике</tei:orig><tei:reg>Граник</tei:reg></tei:choice></tei:name> спас ему жизнь.</note> в ум;</l>
+          <l part="N">Вам будет Царь в нем несравненный,</l>
+          <l part="N">Правдивой, кротостью почтенный,</l>
+          <l part="N">Достойный олтаря вовек.</l>
+          <l part="N">Тогда страшилище <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Эвфрата</tei:orig><tei:reg>Евфрат</tei:reg></tei:choice></tei:name> <note resp="editor" place="unspecified" anchored="true"><q>Страшилище <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Эвфрата</tei:orig><tei:reg>Евфрат</tei:reg></tei:choice></tei:name></q> - <name type="person">Александр Македонский</name>.</note></l>
+          <l part="N">Против венчанного <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сократа</tei:orig><tei:reg>Сократ</tei:reg></tei:choice></tei:name> </l>
+          <l part="N">Последней будет человек.</l>
+        </lg>
+        <lg n="[11]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Герои люты и кровавы!</l>
+          <l part="N">Поставьте гордости конец,</l>
+          <l part="N">Рожденной от воинской славы</l>
+          <l part="N">Забудте лавровой венец.</l>
+          <l part="N">Напрасно <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Рима</tei:orig><tei:reg>Рим</tei:reg></tei:choice></tei:name> повелитель</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Октавий</tei:orig><tei:reg>Август</tei:reg></tei:choice></tei:name>,<note resp="editor" place="unspecified" anchored="true">Здесь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> заменяет опять собственным именем парафразу подлинника: у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Руссо</tei:orig><tei:reg>Руссо Ж.-Б.</tei:reg></tei:choice></tei:name> вместо <q><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Октавий</tei:orig><tei:reg>Август</tei:reg></tei:choice></tei:name></q> читаем:                             <lg type="group" org="uniform" sample="complete" part="N"><l part="N">...le destructeur rapide          </l><l part="N">de Marc-Antoine et de Lépide </l></lg>     [...быстрый сокрушитель <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Марка    Антония</tei:orig><tei:reg>Марк Антоний</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Лепида</tei:orig><tei:reg>Лепид</tei:reg></tei:choice></tei:name>].</note>                               света победитель, </l>
+          <l part="N">Навел в его пределы страх;</l>
+          <l part="N">Он <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Августом</tei:orig><tei:reg>Август</tei:reg></tei:choice></tei:name> бы не нарекся,</l>
+          <l part="N">Когда бы в кротость не облекся</l>
+          <l part="N">И страха не скончал в сердцах.</l>
+        </lg>
+        <lg n="[12]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О воины великосерды!</l>
+          <l part="N">Явите ваших лучь доброт;</l>
+          <l part="N">Посмотрим, коль тогда вы тверды,</l>
+          <l part="N">Как щастье возмет поворот.</l>
+          <l part="N">Когда то к вам великодушно,</l>
+          <l part="N">Земля и море вам послушно,</l>
+          <l part="N">И блеск ваш очи всех слепит,</l>
+          <l part="N">Но только лишь оно отстанет,</l>
+          <l part="N">Геройска похвала увянет, </l>
+          <l part="N">И смертный будет всем открыт. <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, как, впрочем, и другим двум переводчикам, не удалось передать с достаточной точностью, силой и ясностью весьма эффектную в подлиннике концовку 12 строфы:                              <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Mais au moindre revers funeste                             </l><l part="N">Le masque tombe, l'homme reste                             </l><l part="N">Et le Héros s'évanouit,                              </l></lg>  т. е. в буквальном переводе: <q>Но при малейшем злоключении личина  спадает, остается человек, а герой исчезает  без  следа</q>.  У  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Тредиаковского</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name>:                         <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Но Жребий вопреки хоть малоб возметался,                        </l><l part="N">Личина спала с глаз: мрак ползаний остался,                        </l><l part="N">А светлый весь уже́ тогда исчез Герой. 					   </l></lg>     У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>:                              <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Щастье только упадает:                             </l><l part="N">Все геройство увядает,                             </l><l part="N">Остается человек. </l></lg></note></l>
+        </lg>
+        <lg n="[13]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Способность средственна довлеет</l>
+          <l part="N">Завоевателями быть.<note resp="editor" place="unspecified" anchored="true"> Т. е. для того чтобы стать завоевателем, достаточно и посредственных способностей. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> совершенно точно передает в этом случае мысль <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Руссо </tei:orig><tei:reg>Руссо Ж.-Б.</tei:reg></tei:choice></tei:name>. Перевод <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> менее точен:                             <lg org="uniform" sample="complete" part="N"><l part="N">Для победы изобильно                             </l><l part="N">Дух посредственный иметь.                              </l></lg>  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>  Тредиаковский</tei:orig><tei:reg>Тредиаковский  В.  К.</tei:reg></tei:choice></tei:name>  же впадает в обычную для него невнятицу:                         <lg org="uniform" sample="complete" part="N"><l part="N">Усильность средних мер я ставлю за довольну,     </l><l part="N">На Марсовых полях чтоб ярко шурмовать. </l></lg></note>     </l>
+          <l part="N">Кто щастие преодолеет,</l>
+          <l part="N">Один великим может слыть.</l>
+          <l part="N">Хоть помощь от него теряет,</l>
+          <l part="N">Но с постоянством пребывает,</l>
+          <l part="N">Для коего от всех почтен;</l>
+          <l part="N">Всегда не низок и не пышен,</l>
+          <l part="N">С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Тиверием</tei:orig><tei:reg>Тиберий</tei:reg></tei:choice></tei:name> ли он возвышен </l>
+          <l part="N">Или, как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Варус</tei:orig><tei:reg>Варрон</tei:reg></tei:choice></tei:name>, поражен. <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, почти дословно передавая в стихах 128-130 текст подлинника, далеко оставляет за собой своих соперников.    У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>:                             <lg type="group" org="uniform" sample="complete" part="N"><l part="N">И в благой, и в лютой части                             </l><l part="N">Сердце держит он во власти,                             </l><l part="N">В твердом постоянстве зрим.                              </l></lg>     У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Тредиаковского</tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name>:                        <lg type="group" org="uniform" sample="complete" part="N"><l part="N">Нет колебаний в нем Величию и Духу,                        </l><l part="N">Ни что <name type="person">Тиберий</name> есть                        торжественник, по слуху,                        </l><l part="N">Ниже что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вар</tei:orig><tei:reg>Варрон</tei:reg></tei:choice></tei:name> стремглав зол крайних в                        бездну пал. </l></lg></note></l>
+        </lg>
+        <lg n="[14]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Излишню радость не внушает</l>
+          <l part="N">В недвижности своей предел</l>
+          <l part="N">И осторожно умеряет</l>
+          <l part="N">Неистовство успешных дел. <note resp="editor" place="unspecified" anchored="true"> Перевод <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в этом случае и неточен, и неясен. В подлиннике:                              <lg type="group" org="uniform" sample="complete" part="N"><l part="N">La joie imprudente et légère                             </l><l part="N">Chez lui ne trouve point d'accès,                             </l><l part="N">Et sa crainte active modère                             </l><l part="N">L'ivresse des heureux succès,                              </l></lg>  т. е. в буквальном переводе: <q>Неосмотрительная и легкомысленная радость не находит к нему доступа, и его деятельной опасливостью умеряется опьянение от счастливых успехов</q>. </note></l>
+          <l part="N">Пусть щастие преобратится,</l>
+          <l part="N">Недвижна добродетель тщится</l>
+          <l part="N">Презренной разрушать упор.</l>
+          <l part="N">Конец имеет благоденство,</l>
+          <l part="N">Стоит в премудрости блаженство,</l>
+          <l part="N">Не постоянен рока взор.</l>
+        </lg>
+        <lg n="[15]" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вотще готовит гнев <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Юноны</tei:orig><tei:reg>Юнона</tei:reg></tei:choice></tei:name></l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Энею</tei:orig><tei:reg>Эней</tei:reg></tei:choice></tei:name> смерть среди валов.</l>
+          <l part="N">Премудрость! Чрез твои законы</l>
+          <l part="N">Он выше рока и богов;</l>
+          <l part="N">Тобою <name type="place">Рим</name>, по злой напасти,</l>
+          <l part="N">В средине Карфагенской власти,</l>
+          <l part="N">Своих героев смерть отмстил;</l>
+          <l part="N">Ходя в твои небесны следы,</l>
+          <l part="N">Во время слезныя победы</l>
+          <l part="N">В трофеи гробы превратил.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

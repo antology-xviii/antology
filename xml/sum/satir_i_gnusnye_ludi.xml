@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="mythologic">Сатир</name> и гнусные люди</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Сатир и гнусные люди</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Притчи. Книга 3.                   СПб.</publisher>
+                <date>1769</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1769</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэт и толпа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">нравы дворянства</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пьянство</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> Сквозь темную пред оком тучу </l>
+        <l part="N"> Взгляни, читатель, ты </l>
+        <l part="N"> На светски суеты! </l>
+        <l part="N"> Увидишь общего дурачества ты кучу; </l>
+        <l part="N"> Однако для ради спокойства своего, </l>
+        <l part="N"> Пожалуй, никогда не шевели его; </l>
+        <l part="N"> Основана сия над страшным куча адом, </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>Наполнена различным гадом, </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>Покрыта ядом. </l>
+        <l part="N"> С великим пастухи в долине были стадом. </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>Когда? </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>Не думай, что тогда, </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>Когда для человека </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>Текли часы златаго века, </l>
+        <l part="N"> Когда еще наук премудрость не ввела </l>
+        <l part="N"> И в свете истина без школ еще цвела, </l>
+        <l part="N"> Как не был чин еще достоинства свидетель, </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>Но добродетель. </l>
+        <l part="N"> И, словом, я скажу вот это наконец:</l>
+        <l part="N"> Реченны пастухи вчера пасли овец, </l>
+        <l part="N"> По всякий день у них была тревога всяка: </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>Вздор, пьянство, шум и драка. </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>И, словом, так: </l>
+        <l part="N">Из паства сделали они себе кабак - </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>Во глотку, </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>И в брюхо, и в бока </l>
+        <l part="N"> <space dim="horizontal" extent="7 letters"/>На место молока </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>Цедили водку, </l>
+        <l part="N"> И не жалел никто ни зуб, ни кулака, </l>
+        <l part="N"> Кабашный нектар сей имеючи лекарством, </l>
+        <l part="N"> А бешеную жизнь имев небесным царством. </l>
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>От водки голова болит, </l>
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>Но водка сердце веселит, </l>
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>Молошное питье не диво, </l>
+        <l part="N"> <space dim="horizontal" extent="10 letters"/>Его хмельняй и пиво; </l>
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>Какое ж им питье и пить, </l>
+        <l part="N"> <space dim="horizontal" extent="10 letters"/>Коль водки не купить? </l>
+        <l part="N"> А деньги для чего иного им копить? </l>
+        <l part="N"> В лесу над долом сим <name type="mythologic">Сатир</name>  жил очень близко, </l>
+        <l part="N"> И тварию их он презренною считал, </l>
+        <l part="N"> Что низки так они, живут колико низко. </l>
+        <l part="N"> Всегда он видел их, всегда и хохотал, </l>
+        <l part="N"> Что нет ни чести тут, ни разума, ни мира. </l>
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>Поймали пастухи <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Сатира</tei:orig><tei:reg>Сатир</tei:reg></tei:choice></tei:name> </l>
+        <l part="N"> <space dim="horizontal" extent="14 letters"/>И бьют сего - </l>
+        <l part="N"> Без милосердия - невинна <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Демокрита</tei:orig><tei:reg>Демокрит</tei:reg></tei:choice></tei:name>. </l>
+        <l part="N"> Не видит помощи <name type="mythologic">Сатир</name> ни от кого. </l>
+        <l part="N"> Однако <name type="mythologic">Пан</name>пришел спасти <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Сатира</tei:orig><tei:reg>Сатир</tei:reg></tei:choice></tei:name>бита; </l>
+        <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Сатира</tei:orig><tei:reg>Сатир</tei:reg></tei:choice></tei:name>отнял он, и говорил им <name type="mythologic">Пан</name>: </l>
+        <l part="N"> <q>За что поделали ему вы столько ран?  <l part="N"> <space dim="horizontal" extent="5 letters"/>Напредки меньше пейте; </l><l part="N"> А что смеялся он, за то себя вы бейте, </l><l part="N"> <space dim="horizontal" extent="5 letters"/>А ты вперед, мой друг, </l><l part="N"> Ко наставлению не делай им услуг; </l><l part="N"> <space dim="horizontal" extent="5 letters"/>Опасно наставленье строго, </l><l part="N"> <space dim="horizontal" extent="5 letters"/>Где зверства и безумства много</l></q>. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

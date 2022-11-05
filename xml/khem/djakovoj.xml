@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Милостливой государыне <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Марье Алексеевне Дьяковой</tei:orig><tei:reg>Дьякова М. А.</tei:reg></tei:choice></tei:name> <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>М. А. Дьякова</tei:orig><tei:reg>Дьякова М. А.</tei:reg></tei:choice></tei:name>  (<date>1753</date>-<date>1807</date>) - дочь сенатского обер-прокурора <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> А. А. Дьякова</tei:orig><tei:reg>Дьяков А. А.</tei:reg></tei:choice></tei:name>; впоследствии жена <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Н. А. Львова</tei:orig><tei:reg>Львов Н. А.</tei:reg></tei:choice></tei:name>.</note></title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Милостливой государыне N...N...N...покорнейшее приношение</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно </date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетели знатной особы</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поиск покровительства</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <l part="N"> <space dim="horizontal" extent="5 letters"/>Милостивая государыня!</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Лишь только я успел сказать:</l>
+        <l part="N"> <q>Ну, басенки мои и сказочки, прощайте, <l part="N"> Вас требуют, и мне вас больше не держать,</l><l part="N"> <space dim="horizontal" extent="14 letters"/>Ступайте;</l><l part="N"> Приятелям моим привык я угождать<note resp="editor" place="unspecified" anchored="true"> Имеются в виду <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Н. А. Львов</tei:orig><tei:reg>Львов Н. А.</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>В. В. Капнист</tei:orig><tei:reg>Капнист В. В.</tei:reg></tei:choice></tei:name> и<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Г. Р. Державин</tei:orig><tei:reg>Державин Г. Р.</tei:reg></tei:choice></tei:name>.</note>:</l><l part="N"> Они меня о том не раз уже просили,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Чтоб напечатать вас отдать</l></q>, -</l>
+        <l part="N"> Все басни с сказками ко мне тут приступили,</l>
+        <l part="N"> И, каждая приняв и голос свой, и вид,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Старик</tei:orig><tei:reg>старик</tei:reg></tei:choice></tei:name> <note resp="editor" place="unspecified" anchored="true"> персонаж из басни <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Хемницера</tei:orig><tei:reg>Хемницер И. И.</tei:reg></tei:choice></tei:name> <bibl default="false"><title>Робята своевольные</title></bibl>.</note> мне первый говорит:</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Помилуй, что́ ты затеваешь, <l part="N"> Что ты без всякой нас защиты отпускаешь!</l><l part="N"> Ужли ты для того на свет нас жить пустил.</l><l part="N"> И нас, детей своих, лелеял и учил,</l><l part="N"> Чтоб мы на произвол судьбы теперь остались</l><l part="N"> <space dim="horizontal" extent="8 letters"/>И без прибежища скитались?</l><l part="N"> <space dim="horizontal" extent="4 letters"/>Не сам ли ты через меня сказал,</l><l part="N"> Что в море бы одним робятам не пускаться?</l><l part="N"> А ты теперь и сам что делать с нами стал?</l></q></l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title>Богач и бедняк</title></bibl></note><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Бедняк</tei:orig><tei:reg>бедняк</tei:reg></tei:choice></tei:name> тож к речи тут пристал:</l>
+        <l part="N"> <q>А я куды гожусь? Как в свет мне показаться? <l part="N"> Ты знаешь, батюшка, довольно, свет каков,</l><l part="N"> Какое множество развратных в нем умов;</l><l part="N"> Ты знаешь, сколько в нем на правду негодуют.</l><l part="N"> И как порочные умы об ней толкуют?</l><l part="N"> А ты ведь, батюшка, когда нас воспитал,</l><l part="N"> <space dim="horizontal" extent="8 letters"/><q>Ну дети, правдою живите. <l part="N"> <space dim="horizontal" extent="12 letters"/>И правду говорите</l></q>, -</l><l part="N"> <space dim="horizontal" extent="12 letters"/>Всегда нам толковал.</l><l part="N"> Так ты нас под ее защитой отпускаешь?</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Помилуй, разве ты не знаешь,</l><l part="N"> Какой по бедности моей мне был прием</l><l part="N"> <space dim="horizontal" extent="8 letters"/>В беседе перед <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> богачом</tei:orig><tei:reg>богач</tei:reg></tei:choice></tei:name>?</l><l part="N"> Чего же доброго теперь мне дожидаться,</l><l part="N"> Когда мне в свет еще и с правдой показаться?</l><l part="N"> Нет, ежели ты в свет задумал нас пустить,</l><l part="N"> Отдай <emph> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Дьяковой</tei:orig><tei:reg>Дьякова М. А.</tei:reg></tei:choice></tei:name></emph> нас в покров <note resp="editor" place="unspecified" anchored="true"> т. е. под покровительство </note>и защищенье.</l><l part="N"> Тогда хоть мы от злых услышим поношенье,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Что станем правду говорить,</l><l part="N"> Но в <emph>ней </emph> не гнев найдем, увидим снисхожденье;</l><l part="N"> <space dim="horizontal" extent="8 letters"/><emph> Ее </emph> одно в том утешенье,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Один закон, одно ученье,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Чтоб правду слышать и любить.</l><l part="N"> <emph>Она </emph> нас иногда от клеветы избавит,</l><l part="N"> А именем своим тебя и нас прославит.</l><l part="N"> И наших недругов заставит, может быть,</l><l part="N"> <space dim="horizontal" extent="12 letters"/>Еще нас и любить.</l><l part="N"> Хоть в свете истина собой и не терпима,</l><l part="N"> Так из прекрасных уст всё может быть любима</l></q>.</l>
+        <l part="N"> - <q>Как? <emph>ей </emph> представить вас? что вы, с ума сошли? <l part="N"> <space dim="horizontal" extent="8 letters"/>Подите ж прочь! пошли! пошли!</l></q></l>
+        <l part="N"> Сперва-таки как лад просили, всё просили;</l>
+        <l part="N"> Но вдруг как подняли и плач, и вой такой!</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Ой! батюшка, постой! постой! <l part="N"> Ой! что задумал ты над нашей головой!</l></q></l>
+        <l part="N"> Тут все они свои заслуги протвердили</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Без череды и чередой.</l>
+        <l part="N"> Иная басня тут медведем заплясала,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Другая тут свиньей визжала.</l>
+        <l part="N"> <space dim="horizontal" extent="16 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Медведь</tei:orig><tei:reg>медведь</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title>Медведь-плясун </title></bibl></note>сказал</l>
+        <l part="N"> <q>Что, разве ты забыл, как в басне я плясал?</q></l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Свинья</tei:orig><tei:reg>свинья</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title>Два соседа </title></bibl></note> свое напоминала</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>И с прочими туда ж твердит:</l>
+        <l part="N"> <q>Припомни, как меня в девятой басне били, <l part="N"> <space dim="horizontal" extent="8 letters"/>Гоняли, мучили, тузили</l></q>.</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Слоны </tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title>Лев, учредивший совет </title></bibl></note> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>коровой</tei:orig><tei:reg>корова</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title> Мужик и корова </title></bibl></note>приступили.</l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Корова</tei:orig><tei:reg>корова</tei:reg></tei:choice></tei:name>говорит:</l>
+        <l part="N"> <q>Что, разве даром я под седоком страдала, <l part="N"> <space dim="horizontal" extent="8 letters"/>За лошадь службу отправляла</l><l part="N"> <space dim="horizontal" extent="12 letters"/>И невпопад ступала?</l><l part="N"> <space dim="horizontal" extent="12 letters"/>А что я не скакала,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Так я не виновата в том,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Что не роди́лася конем</l></q>.</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Слоны</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name>свое тут толковали:</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Да мы чем виноваты стали, <l part="N"> Что, новый ты совет затеяв учредить,</l><l part="N"> <space dim="horizontal" extent="20 letters"/>С нами,</l><l part="N"> <space dim="horizontal" extent="20 letters"/>С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слонами</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name>,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Скотов с предлинными ушами.</l><l part="N"> За красное сукно изволил посадить?</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Иль наши все труды пропали?</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Так из чего ж бы нам служить?</l></q></l>
+        <l part="N"> И уши криком мне и воем прожужжали.</l>
+        <l part="N"> Другие было все туда ж еще пристали;</l>
+        <l part="N"> Но я, чтоб как-нибудь скоряй их с шеи сжить,</l>
+        <l part="N"> Стал гнать их от себя, кричать на них, бранить:</l>
+        <l part="N"> <q>Поди, <note resp="editor" place="unspecified" anchored="true"> стая уродливых существ </note> уродлива станица, отступися!</q></l>
+        <l part="N"> Они, <emph>сударыня</emph>, и пуще привяжися.</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Я им в рассудок говорить: <q><l part="N">Да как уродов вас <emph><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Дьяковой</tei:orig><tei:reg>Дьякова М. А.</tei:reg></tei:choice></tei:name></emph> мне представить?</l><l part="N"> Иль вкус и красоту ее мне оскорбить</l><l part="N"> И самому себя пред нею обесславить?</l></q></l>
+        <l part="N"> <q>Ну, кстати ли?</q> - Они никак не отставать;</l>
+        <l part="N"> Стоят на том, чтоб Вам в защиту их отдать:</l>
+        <l part="N"> Хотя бы, говорят, мы ей не показались,</l>
+        <l part="N"> Так мы бы именем <emph>ее </emph> покрасовались.</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Я всё не смел им обещать,</l>
+        <l part="N"> Как вздорная меня станица ни просила;</l>
+        <l part="N"> Но вдруг, где ни взялась, <name type="character">жена</name> <note resp="editor" place="unspecified" anchored="true"> из басни <bibl default="false"><title> Тень мужня и Харон</title></bibl></note>тут приступила,</l>
+        <l part="N"> Котору в сказке я десятой описал;</l>
+        <l part="N"> Тут я, <emph>сударыня </emph>, что делать, уж не знал,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>И, чтоб скоряй с ней разойтиться,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Я был уж принужден решиться.</l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/><q>Да, да, - я ей сказал, - <l part="N"> <space dim="horizontal" extent="12 letters"/>Так точно, знаю, знаю...</l><l part="N"> Подите только прочь, я всё вам обещаю...</l></q></l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Дав слово, должен я сдержать.</l>
+        <l part="N"> Не надобно бы так нескромно обещать;</l>
+        <l part="N"> Но, силу кротости и власть рассудка зная</l>
+        <l part="N"> И вздорную лишь тем исправить уповая,</l>
+        <l part="N"> Подумал я: <q>Пускай же будет и она <l part="N"> <space dim="horizontal" extent="8 letters"/>На путь прямой обращена;</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Не первая то будет злая</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Обезоружена <name type="character"> жена</name></l></q></l>
+        <l part="N"> Пожалуйте ее, <emph>сударыня</emph>, исправьте;</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>А мне простите слог простой,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>И счастье тем мое составьте:</l>
+        <l part="N"> Позвольте, чтоб <emph>Вам</emph> был покорнейшим слугой,  <emph>милостивая государыня,N. N.</emph> </l>
+      </div>
+    </body>
+  </text>
+</TEI>

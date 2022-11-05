@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Гимн о премудрости Божией в солнце</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Гимн солнцу</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Праздное время, в пользу употребленное</publisher>
+                <date>1760</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1760</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">солнце</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз 6664" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Светило гордое, всего питатель мира,</l>
+          <l part="N">Блистающее к нам с небесной высоты!</l>
+          <l part="N">О, если бы взыграть могла моя мне лира</l>
+          <l part="N">Твои достойно красоты! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но трудно на лицо твое воззрети оку;</l>
+          <l part="N">Трудняе нам еще постигнути тебя;</l>
+          <l part="N">Погружено творцом ты в бездну преглубоку,</l>
+          <l part="N">Во мраке зря густом себя. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вострепетала тьма, лишь только луч пустился,</l>
+          <l part="N">Лишь только в вышине подвигнулся с небес,</l>
+          <l part="N">Горящею стрелой дом смертных осветился,</l>
+          <l part="N">И мрак перед тобой исчез. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О солнце, ты - живот и красота природы,</l>
+          <l part="N">Источник вечности и образ божества!</l>
+          <l part="N">Тобой жива земля, жив воздух, живы воды,</l>
+          <l part="N">Душа времен и вещества! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Чистейший бурный огнь, лампада перед вечным,</l>
+          <l part="N">Пылающе пред ним из темноты густой,</l>
+          <l part="N">Волнующаяся стремленьем быстротечным,</l>
+          <l part="N">Висяща в широте пустой! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тобою всякое дыханье ликовствует,</l>
+          <l part="N">Встречает радостно лицо твое вся тварь,</l>
+          <l part="N">Пришествие твое вседневно торжествует;</l>
+          <l part="N">Небесных тел ты - вождь и царь! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Объемля взором всю пространную державу,</l>
+          <l part="N">Вовеки бодро бдя, не дремля николи,</l>
+          <l part="N">Великолепствуя, вещаешь божью славу,</l>
+          <l part="N">Хваля творца по всей земли.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

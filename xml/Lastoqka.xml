@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Ласточка </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ласточка</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Московский журнал №12</publisher>
+                <date>1792</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1792</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">птица</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">полёт</tei:span>
+    <body xml:id="whole">
+      <div met="3-сл. п. а. 3" rhyme="A'BA'B+10CdCd+EfEfEE." org="uniform" sample="complete" part="N">
+        <salute>К <name type="person">Бастидон- Державиной Е. Я.</name></salute>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О домовитая <name type="character">Ласточка</name>!       </l>
+          <l part="N"> О милосизая птичка!       </l>
+          <l part="N"> Грудь красно-бела, касаточка,       </l>
+          <l part="N"> Летняя гостья, певичка!       </l>
+          <l part="N"> Ты часто по кровлям щебечешь,       </l>
+          <l part="N"> Над гнездышком сидя, поешь,       </l>
+          <l part="N"> Крылышками движешь, трепещешь,       </l>
+          <l part="N"> Колокольчиком в горлышке бьешь.       </l>
+          <l part="N"> Ты часто по воздуху вьешься,       </l>
+          <l part="N"> В нем смелые круги даешь;       </l>
+          <l part="N"> Иль стелешься долу, несешься,       </l>
+          <l part="N"> Иль в небе, простряся, плывешь.       </l>
+          <l part="N"> Ты часто во зеркале водном       </l>
+          <l part="N"> Под рдяной играешь зарей,       </l>
+          <l part="N"> На зыбком лазуре бездонном       </l>
+          <l part="N"> Тенью мелькаешь твоей.       </l>
+          <l part="N"> Ты часто, как молния, реешь       </l>
+          <l part="N"> Мгновенно туды и сюды;       </l>
+          <l part="N"> Сама за собой не успеешь       </l>
+          <l part="N"> Невидимы видеть следы, -       </l>
+          <l part="N"> Но видишь там всю ты вселенну,       </l>
+          <l part="N"> Как будто с высот на ковре:       </l>
+          <l part="N"> Там башню, как жар, позлащенну,       </l>
+          <l part="N"> В чешуйчатом флот там сребре;       </l>
+          <l part="N"> Там рощи в одежде зеленой,       </l>
+          <l part="N"> Там нивы в венце золотом,       </l>
+          <l part="N"> Там холм, синий лес отдаленный,       </l>
+          <l part="N"> Там мошки толкутся столпом;       </l>
+          <l part="N"> Там гнутся с утеса в понт воды,       </l>
+          <l part="N"> Там ластятся струи к брегам.       </l>
+          <l part="N"> Всю прелесть ты видишь природы,       </l>
+          <l part="N"> Зришь лета роскошного храм;       </l>
+          <l part="N"> Но видишь и бури ты черны,       </l>
+          <l part="N"> И осени скучной приход;       </l>
+          <l part="N"> И прячешься в бездны подземны,       </l>
+          <l part="N"> Хладея зимою, как лед.       </l>
+          <l part="N"> Во мраке лежишь бездыханна, -       </l>
+          <l part="N"> Но только лишь придет весна       </l>
+          <l part="N"> И роза вздохнет лишь румяна,       </l>
+          <l part="N"> Встаешь ты от смертного сна;       </l>
+          <l part="N"> Встанешь, откроешь зеницы       </l>
+          <l part="N"> И новый луч жизни ты пьешь;       </l>
+          <l part="N"> Сизы расправя косицы,       </l>
+          <l part="N"> Ты новое солнце поешь.</l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"> Душа моя! гостья ты мира:       </l>
+          <l part="N"> Не ты ли перната сия? -       </l>
+          <l part="N"> Воспой же бессмертие, лира!       </l>
+          <l part="N"> Восстану, восстану и я,       </l>
+          <l part="N"> Восстану, - и в бездне эфира       </l>
+          <l part="N"> Увижу ль тебя я, <name type="character">Пленира</name>? </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

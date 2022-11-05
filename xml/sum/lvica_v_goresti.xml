@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Львица в горести</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Полина Офимкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Львица в горести</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 7. Притчи. Кн. 1.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Новиков Н. И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1762</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+        <catRef target="#fable" scheme="genre"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="19 letters"/>Стрелок убил у львицы сына,</l>
+        <l part="N"><space dim="horizontal" extent="26 letters"/>Не львенка, да левка.</l>
+        <l part="N">Довольно смелости у этого стрелка:</l>
+        <l part="N"><space dim="horizontal" extent="26 letters"/>Лев сильная скотина,</l>
+        <l part="N"><space dim="horizontal" extent="26 letters"/>А мой убил детина</l>
+        <l part="N"><space dim="horizontal" extent="26 letters"/>Не поросенка,</l>
+        <l part="N"><space dim="horizontal" extent="31 letters"/>Не львенка,</l>
+        <l part="N"><space dim="horizontal" extent="31 letters"/>Левка.</l>
+        <l part="N"><space dim="horizontal" extent="26 letters"/>Завыла львица,</l>
+        <l part="N"><space dim="horizontal" extent="19 letters"/>Угрызла сердце ей печаль;</l>
+        <l part="N">Хотя сурова тварь, и люта эта птица,</l>
+        <l part="N"><space dim="horizontal" extent="23 letters"/>Однако сына жаль;</l>
+        <l part="N"><space dim="horizontal" extent="23 letters"/>Так сердце ноет,</l>
+        <l part="N"><space dim="horizontal" extent="23 letters"/>А львица воет.</l>
+        <l part="N">Переглушила всех она, крича, зверей.</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Пришел к ней тигр, и говорил он ей:</l>
+        <l part="N"><q>Послушай, кумушка, мы то позабываем, <l part="N">Что мы чужих рeбят подобно убиваем.</l><l part="N">Мне мнится, матерям гораздо трудно несть,</l><l part="N">Когда мы сделаем и им такую честь</l></q>.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Не слышит тигра львица.</l>
+        <l part="N">А тигр увещевал: <q>Послушай ты, сестрица, <l part="N"><space dim="horizontal" extent="23 letters"/>Послушай, мать,</l><l part="N"><space dim="horizontal" extent="16 letters"/>Послушай, бабушка...</l></q> - А львица</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Не хочет ничего внимать.</l>
+        <l part="N">Не умаляется у львицы жалоб мера.</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Был тигр ученый человек</l>
+        <l part="N"><space dim="horizontal" extent="31 letters"/>И рек:</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/><q>Читала ль ты, кума, Гомера, <l part="N">О Илионской ты читала ли войне</l><l part="N"><space dim="horizontal" extent="16 letters"/>И о Приамовой жене?</l></q> -</l>
+        <l part="N">Подробно рассказал историю Гекубы,</l>
+        <l part="N">А львица в ярости по-прежнему кричит</l>
+        <l part="N"><space dim="horizontal" extent="23 letters"/>И раздувает губы.</l>
+        <l part="N">Простился с нею тигр и на пути ворчит,</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Махая хвост и рожу смуру:</l>
+        <l part="N"><q>Ничем нельзя ввести в рассудок эту дуру</q>.</l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>А я примолвлю то еще,</l>
+        <l part="N">Что в жалость о себе злодей влечет вотще,</l>
+        <l part="N">И то скажу грубей, чем кум куму тазает:</l>
+        <l part="N">На что о сыне выть разбойница дерзает,</l>
+        <l part="N">Которая сама чужих детей терзает? </l>
+      </div>
+    </body>
+  </text>
+</TEI>

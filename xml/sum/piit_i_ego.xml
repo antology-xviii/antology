@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Пиит и друг его</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Пиит и его друг</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>А. Сумароков. Сатиры. СПб.</publisher>
+                <date>1774</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1770-1774</date>       </creation>
+      <textClass default="false">
+        <catRef target="#drama" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">творчество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэт и толпа</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Во упражнении расхаживая здесь,</l>
+            <l part="N"> Вперил, конечно, ты в трагедию ум весь;</l>
+            <l part="N"> В очах, во всем лице теперь твоем премена.</l>
+            <l part="N"> И ясно, что в сей час с тобою <name type="mythologic">Мельпомена</name>.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Обманывался, любезный друг, внемли!</l>
+            <l part="N"> Я так далек от ней, как небо от земли.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Эклогу...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"><space dim="horizontal" extent="10 letters"/>Пастухи, луга, цветы, зефиры</l>
+            <l part="N"> Толико ж далеки; хочу писать сатиры;</l>
+            <l part="N"> Мой разум весь туда стремительно течет.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Но что от жалостных тебя днесь драм <note resp="editor" place="unspecified" anchored="true">Жалостные драмы - <mentioned>слёзные</mentioned> драмы, пришедшие сперва во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Франции</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name>, а вскоре затем и в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Российская Империя</tei:reg></tei:choice></tei:name> на смену классической трагедии. Возвратившийся в <date>1768</date> г. из поездки во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Францию</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name> актер <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>И. А. Дмитревский</tei:orig><tei:reg>Дмитриевский И. А.</tei:reg></tei:choice></tei:name>  привез с собой интерес к слезным драмам. Вскоре в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> в <date>1770</date> г. была поставлена в переводе чиновника <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Н. Ф. Пушникова</tei:orig><tei:reg>Пушников Н. Ф.</tei:reg></tei:choice></tei:name> драма <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Бомарше</tei:orig><tei:reg>Бомарше, П. О. К. де</tei:reg></tei:choice></tei:name> <bibl default="false"><title>Евгения</title></bibl>, вызвавшая сильное негодование <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>. Еще до постановки <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Евгении</tei:orig><tei:reg>Евгения</tei:reg></tei:choice></title></bibl> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> обратился с письмом к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вольтеру</tei:orig><tei:reg>Вольтер</tei:reg></tei:choice></tei:name>, прося выступить против слезных драм. <name type="person">Вольтер</name> в вежливом письме полусогласился с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароковым</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, чем тот очень гордился. Поскольку в сатире говорится о том, что <quote>жалостные драмы</quote> уже идут на сцене московского театра, то она не могла быть написана ранее <date>1770</date> г.</note> влечет?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  В  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрополе</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name>   <note resp="editor" place="unspecified" anchored="true">и т. д. В следующих  иронических  стихах  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков  А.  П.</tei:reg></tei:choice></tei:name>,  живший  в  то   время   в   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, противопоставляет  петербургских  и московских зрителей.</note> они всему народу вкусны,</l>
+            <l part="N"> А здесь и городу и мне подобно гнусны:</l>
+            <l part="N"> Там съедутся для них внимати и молчать,</l>
+            <l part="N"> А здесь орехи грызть, шумети и кричать,</l>
+            <l part="N"> Благопристойности не допуская в моду,</l>
+            <l part="N"> Во своевольствие преобратя свободу:</l>
+            <l part="N"> За что ж бы, думают, и деньги с нас сбирать,</l>
+            <l part="N"> Коль было бы нельзя срамиться и орать.</l>
+            <l part="N"> Возможно ль автору смотреть на то спокойно:</l>
+            <l part="N"> Для зрителей таких трудиться недостойно.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Не всех мы зрителей сим должны обвинить,</l>
+            <l part="N"> Безумцев надобно одних за то бранить;</l>
+            <l part="N"> Не должно критики употребляти строго.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Но зрителей в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>таких гораздо много, -</l>
+            <l part="N"> Крикун, как колокол, единый оглушит</l>
+            <l part="N"> И автора всего терпения лишит;</l>
+            <l part="N"> А если закричат пять дюжин велегласно<note resp="editor" place="unspecified" anchored="true">Велегласно - мудро. </note>,</l>
+            <l part="N"> Разумных зрителей внимание напрасно.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Сатиры пишучи, ты можешь досадить</l>
+            <l part="N"> И сею сам себя досадой повредить.</l>
+            <l part="N"> На что мне льстить тебе? Я в дружбе не таюся.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> А я невежества и плутней не боюся,</l>
+            <l part="N"> Против прямых людей почтение храня;</l>
+            <l part="N"> Невежи как хотят пускай бранят меня,</l>
+            <l part="N"> Их тестю никогда в сатиру не закиснет,</l>
+            <l part="N"> А брань ни у кого на вороте не виснет.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Не брань одна вредит; побольше брани есть,</l>
+            <l part="N"> Чем можно учинить своей сатире месть:</l>
+            <l part="N"> Лжец вымыслом тебя в народе обесславит,</l>
+            <l part="N"> Судья соперника неправедно оправит,</l>
+            <l part="N"> Озлобясь, межевщик полполя отрядит,</l>
+            <l part="N"> А лавочник не даст товару на кредит,</l>
+            <l part="N"> Со съезжей поберут людей за мостовую<note resp="editor" place="unspecified" anchored="true">Со съезжей поберут людей за мостовую - твоих дворовых людей возьмут в полицию за якобы не подметенную мостовую.</note>,</l>
+            <l part="N"> Кащей тебе с родней испортит мировую<note resp="editor" place="unspecified" anchored="true">Кащей тебе с родней испортит мировую. Кащеем<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> называл своего родственника <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Аркадия Ивановича Бутурлина</tei:orig><tei:reg>Бутурлин А. И.</tei:reg></tei:choice></tei:name> (ум. <date>1775</date>), который был женат на рано умершей сестре поэта <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Е. П. Сумароковой</tei:orig><tei:reg>Сумарокова Е. П.</tei:reg></tei:choice></tei:name>. С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>А. И. Бутурлиным</tei:orig><tei:reg>Бутурлин А. И.</tei:reg></tei:choice></tei:name> у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> были постоянно враждебные отношения, в особенности на почве дележа наследства отца <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, умершего в <date>1766</date> г.</note>.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  Когда я истину народу возвещу</l>
+            <l part="N"> И несколько людей сатирой просвещу,</l>
+            <l part="N"> Так люди честные, мою зря миру службу,</l>
+            <l part="N"> Против бездельников ко мне умножат дружбу.</l>
+            <l part="N"> Невежество меня ничем не возмутит,</l>
+            <l part="N"> И росская меня <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Паллада</tei:orig><tei:reg>Афина</tei:reg></tei:choice></tei:name> <note resp="editor" place="unspecified" anchored="true">Росская Паллада - здесь: <name type="person">Екатерина II</name>. </note> защитит;</l>
+            <l part="N"> Немалая статья ея бессмертной славы,</l>
+            <l part="N"> Чтоб были чищены ея народа нравы.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Но скажет ли судья, винил неправо он?</l>
+            <l part="N"> Он будет говорить: <q>Винил тебя закон</q>.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  Пускай винит меня, и что мне он ни скажет,</l>
+            <l part="N"> Из дела выписки он разве не покажет?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  Из дела выписки, во четверти земли,</l>
+            <l part="N"> Подьячий нагрузит врак целы корабли,</l>
+            <l part="N"> И разум в деле том он весь переломает;</l>
+            <l part="N"> Поймешь ли ты, чего он сам не понимает?</l>
+            <l part="N"> Удобней проплясать, коль песенка не в такт,</l>
+            <l part="N"> Как мыслям вообразить подьяческий экстракт.</l>
+            <l part="N"> Экстракт тебя одной замучит долготою,</l>
+            <l part="N"> И спросят: <q>Выпиской доволен ли ты тою?</q></l>
+            <l part="N"> Ты будешь отвечать: <q>Я дела не пойму</q>.</l>
+            <l part="N"> Так скажут: <q>Дай вину ты слабому уму, <l part="N"> Которым ты с толпой вралей стихи кропаешь</l><l part="N"> И деловых людей в бесчестии купаешь</l></q>.</l>
+            <l part="N"> А я даю совет: ты то предупреди</l>
+            <l part="N"> Или, сатирствуя, ты по миру ходи.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  Где я ни буду жить - в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, в лесу иль поле,</l>
+            <l part="N"> Богат или убог, терпеть не буду боле</l>
+            <l part="N"> Без обличения презрительных вещей.</l>
+            <l part="N"> Пускай злодействует бессмертный мне Кащей,</l>
+            <l part="N"> Пускай Кащеиха совсем меня ограбит<note resp="editor" place="unspecified" anchored="true">Пускай Кащеиха совсем меня ограбит. Кащеихою <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумароков</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name> называл свою сестру - возможно, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елену Петровну</tei:orig><tei:reg>Сумарокова Е. П.</tei:reg></tei:choice></tei:name>. При разделе имущества <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>П. П. Сумарокова</tei:orig><tei:reg>Сумароков П. П.</tei:reg></tei:choice></tei:name>против выделения поэту его части возражали <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Бутурлин</tei:orig><tei:reg>Бутурлин А. И.</tei:reg></tei:choice></tei:name> и сестра <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, считавшие, что он, как женившийся на крепостной девушке (<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вере Прохоровне</tei:orig><tei:reg>Сумарохова В. П.</tei:reg></tei:choice></tei:name>, ум. <date>1777</date> г.), утратил право на получение наследства.</note>,</l>
+            <l part="N"> Мое имение и здравие ослабит,</l>
+            <l part="N"> И крючкотворцы все и мыши из архив</l>
+            <l part="N"> Стремятся на меня, доколе буду жив,</l>
+            <l part="N"> Пускай плуты попрут и правду и законы, -</l>
+            <l part="N"> Мне сыщет истина на помощь обороны;</l>
+            <l part="N"> А если и умру от пагубных сетей,</l>
+            <l part="N"> Монархиня по мне покров моих детей.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker> Д.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">  Бездельство на тебя отраву усугубит:</l>
+            <l part="N"> Изморщенный Кащей вить зеркала не любит.</l>
+            <l part="N"> Старухе, мнящейся блистати, как луна,</l>
+            <l part="N"> Скажи когда-нибудь: изморщилась она</l>
+            <l part="N"> И что ея краса выходит уж из моды;</l>
+            <l part="N"> Скажи слагателю нестройной самой оды,</l>
+            <l part="N"> Чтоб бросил он ее, не напечатав, в печь, -</l>
+            <l part="N"> Скоряе самого тебя он станет жечь.</l>
+            <l part="N"> Неправедным судьям сказать имей отвагу,</l>
+            <l part="N"> Что рушат дерзостно и честность и присягу,</l>
+            <l part="N"> Скажи откупщику жаднейшему: он плут,</l>
+            <l part="N"> И дастся орденам ему ременный жгут<note resp="editor" place="unspecified" anchored="true">И дастся орденам ему ременный жгут - его накажут ременными плетьми.</note>.</l>
+            <l part="N"> Скажи картежнику: он обществу отрава, -</l>
+            <l part="N"> Не плутня-де игра, он скажет, но забава.</l>
+            <l part="N"> Спроси, за что душа приказная<note resp="editor" place="unspecified" anchored="true">Душа приказная - чиновник, подьячий, служащий в приказе.</note> дерет, -</l>
+            <l part="N"> Он скажет: то за труд из чести он берет.</l>
+            <l part="N"> За что ханжа на всех проклятие бросает, -</l>
+            <l part="N"> Он скажет: души их проклятием спасает.</l>
+            <l part="N"> Противу логики кто станет отвечать,</l>
+            <l part="N"> Такого никогда нельзя изобличать.</l>
+            <l part="N"> А логики у нас и имя редким вестно;</l>
+            <l part="N"> Так трудно доказать, бесчестно что иль честно.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>П.</speaker>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Еще трудняй того бездельство зря терпеть</l>
+            <l part="N"> И, видя ясно всё, молчати и кипеть.</l>
+            <l part="N"> Доколе дряхлостью иль смертью не увяну,</l>
+            <l part="N"> Против пороков я писать не перестану.</l>
+          </lg>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

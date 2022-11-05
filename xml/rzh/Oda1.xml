@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Ода 1 </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor"> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода 1</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Полезное увеселение, № (это нужно? если нужно, что надо добавить везде) 4</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">быстротечность времени</tei:span>
+    <body xml:id="whole">
+      <div met="Д2" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Долго ль прельщаться </l>
+          <l part="N">Нам суетой? </l>
+          <l part="N">Долго ль гоняться </l>
+          <l part="N">Тщетно за той?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мы примечаем, </l>
+          <l part="N">Время летит; </l>
+          <l part="N">Но, ах, не знаем, </l>
+          <l part="N">Смерть как скосит.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Миг умаляет </l>
+          <l part="N">Здесь бытие </l>
+          <l part="N">И приближает </l>
+          <l part="N">То житие,</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В коем забудем </l>
+          <l part="N">Прелести зреть, </l>
+          <l part="N">В коем не будем </l>
+          <l part="N">Страсти иметь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Всякий там станет </l>
+          <l part="N">Так, как рожден, </l>
+          <l part="N">И не вспомянет, </l>
+          <l part="N">Чем он почтен.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Полно нам льститься </l>
+          <l part="N">Пышностью сей; </l>
+          <l part="N">Всем нам лишиться </l>
+          <l part="N">Жизни своей.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Всё то минется, </l>
+          <l part="N">Всё то пройдет: </l>
+          <l part="N">Счастье прервется, </l>
+          <l part="N">Смерть как придет.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

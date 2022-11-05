@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>К родным. 1/12 декабря 1777 </title>
+        <author>          <persName>            <forename full="yes">Денис</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Фонвизин</surname>           </persName>         </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">Д. И. Фонвизин. Собрание сочинений в двух томах</title>
+            <editor role="editor"> Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Государственное издательство художественной литературы</publisher>
+            <pubPlace>Москва-Ленинград</pubPlace>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                  библиотека</tei:ref>
+            </distributor>
+            <date>1959</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 2</ref>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1777</date>       </creation>
+      <textClass default="false">
+        <catRef target="#letters" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Аргамакова Феодосия Ивановна</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">католицизм</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">церковь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">церковная служба</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">церковный праздник</tei:span>
+    <body xml:id="whole">
+      <dateline><name type="place">Монпелье</name>, </dateline>
+      <dateline>
+        <date>1/12 декабря 1777. </date>
+      </dateline>
+      <p>Мы изрядно поживаем, и жена моя, кажется, в гораздо лучшем состоянии, нежели была. Всякий день выходим со двора. Процессия, о которой я к тебе писал, происходила весьма великолепно. Все собрались сперва в церковь. Обедню служил здешний епископ; облачался публично, но не среди церкви, а в боку. Попы, в больших париках, стояли в два ряда, то есть одни спиною к алтарю, а другие к народу. Подумай же, кто облачал его преосвященство? Собственные его лакеи в ливрее! Они на него и шапку надевали, они и умываться подавали, и креслы ему ставили. Я покатился со смеху, увидя эту комедию, и, кусая губы, спрашивал своего соседа: зачем лакеи в ливрее смешались с попами? <q>Monsieur! - отвечал он мне, - c'est pour augmenter la pompe. Ce n'est que les jours de grande fête que l'Evêque officie accompagné de sa livrée</q>. <note resp="editor" place="unspecified" anchored="true"> Сударь, это для возвышения торжества. Нет такого большего праздника, когда бы епископ во время службы обходился без помощи лакеев (франц.).</note>Подумай, какая разница в образе мыслей! Всего больше насмешил меня контраст между попами в больших париках и между enfants du choeur, <note resp="editor" place="unspecified" anchored="true"> Певчими, церковными служками (франц.).</note>, то есть ребятами лет по двадцати, у коих головы выбриты так чисто, как рука. Сии плешаки держат в руках своих по кадилу на предлинных цепях и кадят, взбрасывая вверх кадила сажени на две. Я адресовался к женщине, неподалеку от меня сидевшей, и спросил ее: за что сии бедные ребята так немилосердно выбриты? Она очень серьезно мне отвечала, что выбриты они для того, что, служа у алтаря, обязаны содержаться во всякой чистоте. Забыл, матушка, сказать тебе, что архиерейская шапка сделана из золотой мягкой материи, которая таращится и очень походит фигурою на наши гаерские шапки. Лакей в ливрее, снимая с благоговением шапку с архиерея, складывал ее чиннехонько вшестеро и клал в карман свой; а когда шапку надлежало надевать, то, вынув ее из кармана и расправя, надевал ее опять на архиерея с благоговением. Бог знает, что это за обедня, которую служили; я толку не нашел. Проповедь сказывал другой архиерей. На половине вдруг остановился, и весь народ начал разговаривать друг с другом. Я опросил, что это значит? И мне оказали в ответ, что архиерей устал и отдыхает, а как отдохнет, то достальное доскажет. И действительно, чрез полчетверти часа опять замолчали и он проповедь стал сказывать. После обеда пошла процессия по всему городу. Сперва шли монахи разных орденов, по два в ряд. Перед каждым орденом несли крест, а потом певчие шли и пели. За ними архиерей, а потом под балдахином нес тело<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Христово</tei:orig><tei:reg>Иисус Христос</tei:reg></tei:choice></tei:name> епископ здешний, а перед телом <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Христовым</tei:orig><tei:reg>Иисус Христос</tei:reg></tei:choice></tei:name> шли барабанщики и били в барабаны. Затем шли попы, а за попами граф Перигор, бароны, все дворянство и народ. Я с женою смотрел сию церемонию из окошка у маркизы de Fraigeville. Церемония воротилась в церковь, и потом все разошлись. Правду сказать, что для чужестранцев весьма любопытно сие торжество и подает повод делать на нацию свои примечания. В будущих письмах моих скажу тебе, что еще примечу странного или любопытного. Прости!</p>
+    </body>
+  </text>
+</TEI>

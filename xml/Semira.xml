@@ -1,0 +1,2956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Семира</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal xml:id="transcriber">Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">А. П. Сумароков. Избранные произведения.</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Ленинград</pubPlace>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <date>1957</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 1</ref>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date cert="medium">1751</date>       </creation>
+      <textClass default="false">
+        <catRef target="#drama" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">история</tei:span>
+    <front>
+      <performance>
+        <p>
+          <date>1751</date>
+        </p>
+      </performance>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem type="role"><role xml:id="oleg"><name type="person">Олег</name></role>, <roleDesc>правитель Российского престола</roleDesc>         </castItem>
+        <castItem type="role"><role xml:id="oskolyd"><name type="person">Оскольд</name></role>, <roleDesc>князь Киевский</roleDesc>.         </castItem>
+        <castItem type="role"><role xml:id="semira">Семира</role>, <roleDesc>сестра его, любовница Ростиславова</roleDesc>.         </castItem>
+        <castItem type="role"><role xml:id="rostislav">Ростислав</role>, <roleDesc>сын Олегов</roleDesc>.                 </castItem>
+        <castItem type="role"><role xml:id="vozved">Возвед</role>, <roleDesc>сродник Оскольдов</roleDesc>.         </castItem>
+        <castItem type="role"><role xml:id="vitozar">Витозар</role>, <roleDesc>наперсник Олегов</roleDesc>.         </castItem>
+        <castItem type="role"><role xml:id="izbrana">Избрана</role>, <roleDesc>наперсница Семиры</roleDesc>.         </castItem>
+        <castItem type="role"><role xml:id="vestnik">Вестник</role>.</castItem>
+        <castGroup>
+          <head>Воины</head>
+          <castItem type="role">
+            <role xml:id="voiny">
+              <add resp="transcriber">Воины</add>
+            </role>
+          </castItem>
+          <castItem type="role">
+            <role xml:id="voin">
+              <add resp="transcriber">Воин</add>
+            </role>
+          </castItem>
+          <castItem type="role">
+            <role xml:id="pervij-voin">
+              <add resp="transcriber">Первый воин</add>
+            </role>
+          </castItem>
+          <castItem type="role">
+            <role xml:id="drugoj-voin">
+              <add resp="transcriber">Другой воин</add>
+            </role>
+          </castItem>
+        </castGroup>
+      </castList>
+      <set>
+        <p>Действие в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Киеве</tei:orig><tei:reg>Киев</tei:reg></tei:choice></tei:name>, в княжеском доме</p>
+      </set>
+    </front>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>Действие первое</head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление первое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Что к горести меня любовь воспламеняла,</l>
+              <l part="N">Я часто то тебе, Избрана, предвещала.</l>
+              <l part="N">Сбылось ли то теперь? Рок муки те принес.</l>
+              <l part="N">Где помощи искать?! Правители небес,</l>
+              <l part="N">В тоске и жалости мой дух изнемогает,</l>
+              <l part="N">И сердце томное крушится и страдает!</l>
+              <l part="N">С предальной высоты воззрите к сей стране</l>
+              <l part="N">И, унывающей, подайте крепость мне!</l>
+              <l part="N">Избрана, я хочу любовника оставить</l>
+              <l part="N">И, одолев себя, навек себя прославить.</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Но будешь ли иметь толико много сил?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Хотя возлюбленный мне больше жизни мил,</l>
+              <l part="N">Но помню то, что им отец мой свержен с трона</l>
+              <l part="N">И наша отдана им <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игорю</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> корона.</l>
+              <l part="N">Когда Оскольд, мой брат, надежды не имел</l>
+              <l part="N">Вселенной показать своих геройских дел,</l>
+              <l part="N">Я сердца своего тогда не побеждала,</l>
+              <l part="N">А ныне часть моя совсем пременна стала<note resp="editor" place="unspecified" anchored="true">а теперь моя участь совершенно переменилась</note>.</l>
+              <l part="N">Олег невольников от уз освободил</l>
+              <l part="N">И щедро из темниц невольных испустил,</l>
+              <l part="N">Чтоб нашим подданным, отдав им их свободу,</l>
+              <l part="N">Явить себя отцом плененному народу</l>
+              <l part="N">И, покорив сердца, искати новых стран.</l>
+              <l part="N">Но брату моему на то ль дух гордый дан,</l>
+              <l part="N">Чтоб он был раб и чтоб он пребыл во неволе</l>
+              <l part="N">И видел <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игоря</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Киевом</tei:orig><tei:reg>Кий</tei:reg></tei:choice></tei:name> престоле?</l>
+              <l part="N">На то ли <name type="person">Кий</name> сей град стенами окружил,</l>
+              <l part="N">Чтоб сродник в нем его рабом Олегу был?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Князь млад, отцу врученный Ростислава<note resp="editor" place="unspecified" anchored="true">Князь Игорь, в свое время переданный отцу Ростислава (т. е. Олегу), еще молод</note>.</l>
+              <l part="N">Олегом правится и войско и держава.</l>
+              <l part="N">Он - сродник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Руриков</tei:orig><tei:reg>Рюрик</tei:reg></tei:choice></tei:name>, им к чести сей взведен,</l>
+              <l part="N">И <name type="person">Игорь</name> от отца Олегу поручен,</l>
+              <l part="N">Отцом его зовет, его уставы внемлет.</l>
+              <l part="N">Оскольда сыном же правитель здесь приемлет,</l>
+              <l part="N">Оскольд не в бедности, - в почтении живет,</l>
+              <l part="N">Твоя подобно жизнь во славе здесь плывет...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Во славе?!.. В горестях!</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Олегов сын вздыхает...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Сие мне пущее мученье приключает.</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Коль вы оставите намеренье свое,</l>
+              <l part="N">Во счастие прейдет несчастие твое:</l>
+              <l part="N">Противу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игоря</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> ослабла ваша сила,</l>
+              <l part="N">И вас ему судьба навеки покорила.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда освобожден подвластный нам народ,</l>
+              <l part="N">Довольно сил у нас: уже мы третий год</l>
+              <l part="N">Бесплодными в сердцах досады оставляем</l>
+              <l part="N">И к рабству суетно так долго привыкаем.</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Не к рабству вспалена твоя, Семира, кровь...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Оскольда не взведет на трон сия любовь.</l>
+              <l part="N">Отец наш жизнь свою скончал не на престоле, <name type="person">Дир</name>, младший брат его, погиб на ратном поле,</l>
+              <l part="N">Он трона отчужден. Семира всякий час</l>
+              <l part="N">Возносит к небесам прежалобный свой глас.</l>
+              <l part="N">Вот обстоятельства, в которые мы впали,</l>
+              <l part="N">И льзя ль, чтоб с братом мы спокойны пребывали?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <l part="N">Но что он с воинством толь малым учинит?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <l part="N">О нашем воинстве Олег не тако мнит.</l>
+              <l part="N">Почто он <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игоря</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> отсель пред сими днями</l>
+              <l part="N">Отправил на <name type="place"> Ильмень</name> и не оставил с нами?</l>
+              <l part="N">Сея щедроты он при нем не совершил</l>
+              <l part="N">И узы без него плененным разрешил<note resp="editor" place="unspecified" anchored="true">освободил пленных от цепей</note>.</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Олег, как дочь свою, Семиру почитает.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Он прямо гордости моей еще не знает,</l>
+              <l part="N">Иль мнит, когда мне стал любезен Ростислав,</l>
+              <l part="N">Что страстью умягчен во мне геройский нрав?</l>
+              <l part="N">Обманывается: хоть пленна я и сира,</l>
+              <l part="N">Хоть я любовница, но та же всё Семира.</l>
+              <l part="N">Когда бы страсть могла мой нрав переменить,</l>
+              <l part="N">Бесчестно было бы герою мя любить.</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Какие ж от любви плоды имети чаешь?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">На что ты больше мне о том напоминаешь?</l>
+              <l part="N">Иль малодушием ты мнишь меня прельщать?</l>
+              <l part="N">О страсти ли уже любовной нам вещать?</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление второе</head>
+            <stage type="setting">Оскольд, Семира, Избрана, Возвед и воины.</stage>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Настал нам день искать иль смерти, иль свободы.</l>
+              <l part="N">Умрем иль победим, о храбрые народы!</l>
+              <l part="N">Надежда есть, когда остался в нас живот,</l>
+              <l part="N">Бессильным мужество дает победы плод.</l>
+              <l part="N">Не страшно всё тому, кто смерти не боится.</l>
+              <l part="N">Пускай хотя на нас природа ополчится,</l>
+              <l part="N">Что может больше нам несчастье приключить,</l>
+              <l part="N">Как только в храбрости нас с жизнью разлучить?</l>
+              <l part="N">О град родительский, отечество драгое,</l>
+              <l part="N">Где взрос я в пышности, в веселии, в покое!</l>
+              <l part="N">Могу ли я забыть, что я в тебе рожден</l>
+              <l part="N">И что от твоего престола отчужден!</l>
+              <l part="N">О верные раби, отвержем плена бремя!</l>
+              <l part="N">Настало то судьбой назначенное время,</l>
+              <l part="N">В которо должны мы вселенной показать,</l>
+              <l part="N">Что вам несродственно под игом пребывать.</l>
+              <l part="N">Коль наши храбростью оковы разорвутся,</l>
+              <l part="N">Какие радости по граду раздадутся!</l>
+              <l part="N">А ежели судьба нам смерть определит,</l>
+              <l part="N">Падение сие дел наших не затьмит.</l>
+              <l part="N">Пусть потеряние свободы невозвратно,</l>
+              <l part="N">Мне в долг отечества<note resp="editor" place="unspecified" anchored="true">мне, исполняя долг перед отечеством</note> и смерть вкусить приятно.</l>
+              <l part="N">Кончина такова с победою равна,</l>
+              <l part="N">И ею наша жизнь пребудет ввек славна.</l>
+              <l part="N">Намеряся свой долг исполнить непреступно,</l>
+              <l part="N">Спасем отечество или погибнем купно.</l>
+            </sp>
+            <sp who="pervij-voin">
+              <speaker>Воин</speaker>
+              <p/>
+              <l part="N">Не пощадим себя, куда велишь, пойдем</l>
+              <l part="N">И за отечество всю кровь свою прольем.</l>
+              <l part="N">Хотя бы звезды все на нас ожесточали</l>
+              <l part="N">И небеса б на нас гром, молнию бросали,</l>
+              <l part="N">Не устрашимся мы, воюя, ничего,</l>
+              <l part="N">Погибель всякая легка, любя того,</l>
+              <l part="N">Кто ныне к праведной нас брани посылает</l>
+              <l part="N">И с нами в должности умрети сам желает.</l>
+            </sp>
+            <sp who="drugoj-voin">
+              <speaker>Другой воин</speaker>
+              <p/>
+              <l part="N">Пойдем, о государь, пойдем против врагов!</l>
+              <l part="N">Подай то свету знать, что тягости оков,</l>
+              <l part="N">В темницах как они нас вредно ни тягчили,</l>
+              <l part="N">Отважности в сердцах нимало не смягчили.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">На то судьбина вам свободу отдала.</l>
+              <l part="N">Нам сей назначен день свои явить дела.</l>
+              <l part="N">Близ града множество в хранилищах подземных</l>
+              <l part="N">Лежит оружия поднесь в дубровах темных.</l>
+              <l part="N">Вы знаете места, где то сохранено.</l>
+              <l part="N">Из града исходить вам всем позволено.</l>
+              <l part="N">Неворуженных вас гражданя не боятся,</l>
+              <l part="N">И к подозрению их мысли не стремятся:</l>
+              <l part="N">Гуляньем выход ваш отсель они почтут,</l>
+              <l part="N">Сокрытых во лесах не скоро вас найдут.</l>
+              <l part="N">Где быть собранию, Возвед вам то покажет,</l>
+              <l part="N">А как вам действовать, то сам Оскольд вам скажет.</l>
+              <l part="N">Недолго будете меня вы тамо ждать.</l>
+              <l part="N">О други, время нам оружие поднять!</l>
+            </sp>
+            <sp who="pervij-voin">
+              <speaker>Первый воин</speaker>
+              <p/>
+              <l part="N">Всё войско, государь, к оружию готово,</l>
+              <l part="N">И полетим на смерть, лишь выговоришь слово.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Природа! Для чего я девой рождена?</l>
+              <l part="N">Я тщетно к бодрости теперь возбуждена.</l>
+              <l part="N">Хоть с вами в равные вдаюся я напасти,</l>
+              <l part="N">Не буду в храбрости имети с вами части.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Непобедиму страсть стесняешь ты в себе, -</l>
+              <l part="N">Довольно мужества, сестра моя, в тебе.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Довольно - для меня, но для народа - мало.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Для общества! Оно твой дух восколебало!.. <stage type="delivery"> (Возведу )</stage></l>
+              <l part="N">Поди уготовляй мне воинство в лесах</l>
+              <l part="N">И возвратись потом. </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление третье</head>
+            <stage type="setting">Оскольд, Семира и Избрана.</stage>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Княжна! На сих часах</l>
+              <l part="N">Во граде скоро всё совсем переменится:</l>
+              <l part="N">Иль паки наш народ в темницы возвратится,</l>
+              <l part="N">Иль <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игорев</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> престол с величеством падет,</l>
+              <l part="N">И град, подъяв главу, высоко вознесет.</l>
+              <l part="N">Мне много верности раби мои являют,</l>
+              <l part="N">С безмерным жаром мой престол восстановляют,</l>
+              <l part="N">Но ты усердия мне кажешь больше всех,</l>
+              <l part="N">Мне жертвуя, своих лишаешься утех,</l>
+              <l part="N">Ты, благо общее любви предпочитая<note resp="editor" place="unspecified" anchored="true">предпочитая любви общее благо, ты, одолевая себя, являешься владычицей страстей</note>, -</l>
+              <l part="N">Владычица страстей, себя одолевая.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">От знатной крови я на свет, изведена.</l>
+              <l part="N">Должна ль я тако быть страстьми побеждена,</l>
+              <l part="N">Чтоб делали они премены те в Семире,</l>
+              <l part="N">Какие свойственны другим девицам в мире?</l>
+              <l part="N">Где жизни хвальные примеры находить,</l>
+              <l part="N">Коль в княжеских сердцах пороки будут жить?</l>
+              <l part="N">Иль преимущество имеем пред другими</l>
+              <l part="N">Одними титлами лишь только мы своими?</l>
+              <l part="N">Хоть кровь моя горит, но бодрствует мой ум</l>
+              <l part="N">И противляется отраве нежных дум.</l>
+              <l part="N">Бессильствует любовь, ей сердце покоренно,</l>
+              <l part="N">Но сил лишилося своих не совершенно,</l>
+              <l part="N">И столько я еще во оном сил брегу,</l>
+              <l part="N">Что <emph>я</emph> противиться любви легко могу.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Сия твоя любовь Оскольду преполезна.</l>
+              <l part="N">Коль Ростиславу ты угодна и любезна,</l>
+              <l part="N">Любовник без меня Семиру сохранит,</l>
+              <l part="N">Под стражей сей тебя ничто не повредит.</l>
+              <l part="N">С собой тебя отсель мне взять неосторожно,</l>
+              <l part="N">Любезныя сестры мне там хранить не можно,</l>
+              <l part="N">Где шум оружия подвигнет воздух весь,</l>
+              <l part="N">Куда стремится рок в своем суровстве днесь,</l>
+              <l part="N">В свирепстве воин где не знает женска пола,</l>
+              <l part="N">Ни рода знатного, ни самого престола;</l>
+              <l part="N">Где алчущая смерть, когда она разит,</l>
+              <l part="N">Невинных иногда младенцев не щадит.</l>
+              <l part="N">Коль буду счастлив я, увидишься со мною;</l>
+              <l part="N">Когда в полях паду, ты братнею виною</l>
+              <l part="N">К себе любовничьих покорств не истребишь,</l>
+              <l part="N">Олега другом зреть ты будешь так, как зришь.</l>
+              <l part="N">Не служит ни к чему твоя погибель ныне,</l>
+              <l part="N">Отважности твои не надобны судьбине.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Благополучна б я на свете сем была,</l>
+              <l part="N">Когда б тебе собой я помочь дать могла.</l>
+              <l part="N">Но что?! Последую тебе, хоть я и дева,</l>
+              <l part="N">Увидишь ты меня среди воинска гнева,</l>
+              <l part="N">Не почитаему ни от кого женой,</l>
+              <l part="N">Текущую с мечом повсюду за тобой.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Присутствием твоим там дух бы мой терзался,</l>
+              <l part="N">Мне малый бы упор погибелью казался<note resp="editor" place="unspecified" anchored="true">мне маленькое препятствие казалось бы гибелью</note>,</l>
+              <l part="N">Остановляла б ты во всех путях меня.</l>
+              <l part="N">Я б тамо, твой живот и здравие храня,</l>
+              <l part="N">Позабывал себя и долг воинска дела,</l>
+              <l part="N">Тебя б едину мысль моя в себе имела.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Останусь и тебя не возмущу ничем,</l>
+              <l part="N">Не сделаю препятств в сражении твоем.</l>
+              <l part="N">Но сколько без тебя подам я страху дани!</l>
+              <l part="N">С немногим воинством отходишь ты ко брани,</l>
+              <l part="N">А ежели тебя судьбина и спасет</l>
+              <l part="N">И славно на престол родительский взнесет,</l>
+              <l part="N">Я буду, может быть, еще стенать всечасно.</l>
+              <l part="N">И о любовнике воспомнити ужасно!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Прешли уже часы веселья твоего</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">О том не думаю я больше ничего,</l>
+              <l part="N">Оставите его намерилась я твердо;</l>
+              <l part="N">Но смерти не хочу ему немилосердо.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Не будет поврежден ничьею он рукой.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">А если о тебе он в мысли не такой?</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Ко исполнению Оскольдова желанья,</l>
+              <l part="N">Коль смерть меня сразит, не испускай стенанья,</l>
+              <l part="N">Не много плачь о мне, не много сожалей,</l>
+              <l part="N">Великодушие ты то же возымей,</l>
+              <l part="N">С которым очи я, во брани пад, закрою,</l>
+              <l part="N">И тени моея не востревожь тоскою!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Воображение того мятет мой дух,</l>
+              <l part="N">Едина речь о том, как гром, пронзает слух.</l>
+              <l part="N">На что родители Семиру воспитали,</l>
+              <l part="N">Коль жизни моея дни адской мукой стали?!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Любовник твой идет, скрепися перед ним.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <l part="N">Претягостен уже он стал очам моим.</l>
+              <l part="N">Я скроюсь от него.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление четвертое</head>
+            <stage type="setting">Оскольд и Ростислав.</stage>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Поступок мне сей дивен.</l>
+              <l part="N">За что сестре твоей толико я противен?</l>
+              <l part="N">Повсюду от моих скрывается очей,</l>
+              <l part="N">Скажи, любезный друг, чем винен я пред ней?</l>
+              <l part="N">Как я, Олег тебя своим имеет другом</l>
+              <l part="N">И позволяет мне Семире быть супругом.</l>
+              <l part="N">В темницах пленникам он узы разрешил,</l>
+              <l part="N">Народу скованну свободу возвратил.</l>
+              <l part="N">Я всё употребил вам сделать облегченье,</l>
+              <l part="N">И за сие ли я ввергаюся в мученье?</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Что ею ты любим, свидетель я тому.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Любим ?! Возможно ли спокоитъся уму,</l>
+              <l part="N">Когда мой ныне взор иное мне являет?!</l>
+              <l part="N">Я вижу, что меня Семира оставляет.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Узря своих граждан, смущается она.</l>
+              <l part="N">Представился сей день, когда сия страна</l>
+              <l part="N">И пышный город сей впадали в ваши руки,</l>
+              <l part="N">Возобновилися ея тогдашни муки.</l>
+              <l part="N">Вообрази себе, коль горько было нам</l>
+              <l part="N">Покорствовать таким сердитым временам.</l>
+              <l part="N">Разбито воинство от, тучи стрел бежало,</l>
+              <l part="N">И множество людей в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Днепре</tei:orig><tei:reg>Днепр</tei:reg></tei:choice></tei:name> живот кончало;</l>
+              <l part="N">Родитель побежден, трон гордый покидал,</l>
+              <l part="N">Изранен, по лесам убежища искал.</l>
+              <l part="N">Горяще здание всю сферу<note resp="editor" place="unspecified" anchored="true">весь воздух</note> освещало</l>
+              <l part="N">И в пламени свою кончину возвещало.</l>
+              <l part="N">Состановлялися от дыма облака,</l>
+              <l part="N">По улицам текла кровавая река.</l>
+              <l part="N">Я брань творил еще, доколь держали ноги,</l>
+              <l part="N">И, изъязвлен, в крови<note resp="editor" place="unspecified" anchored="true">израненный, весь в крови</note>, взнесен в свои чертоги,</l>
+              <l part="N">Я тамо зрел тебя, возъемлющего грудь<note resp="editor" place="unspecified" anchored="true">с высоко поднимающейся грудью</note>,</l>
+              <l part="N">Творящего себе из тел сраженных путь.</l>
+              <l part="N">Семиру видел я перед тобой стенящу</l>
+              <l part="N">И, падшую к ногам твоим, тебя молящу,</l>
+              <l part="N">Чтоб пленным твой отец пощаду даровал</l>
+              <l part="N">И за граждан ея живот несчастный взял.</l>
+              <l part="N">О преужасный день! О рок ожесточенный!</l>
+              <l part="N">Семира, как то снес твой дух преогорченный?!</l>
+              <l part="N">О коль ты счастлив, <name type="person">Дир</name>, что ты, сходя во гроб.</l>
+              <l part="N">Не видел времени нам самых лютых злоб!</l>
+              <l part="N">В тот день, как ты погиб, был город сей в надежде,</l>
+              <l part="N">Паденья нашего не видно было прежде.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Конечно, горестны вам были те часы,</l>
+              <l part="N">Но рок того хотел!.. Теперь твои красы</l>
+              <l part="N">Велят, Семира, мне победы той гнушаться,</l>
+              <l part="N">Которой я хотел на свете возвышаться.</l>
+              <l part="N">Не я владею здесь, а если б я владел,</l>
+              <l part="N">Оскольд бы в этот час на трон отцов восшел.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Когда герои власть оружием теряют,</l>
+              <l part="N">Оружием себе ту власть и возвращают.</l>
+              <l part="N">Покорством получить я скиптра не хощу</l>
+              <l part="N">И милости себе в себе одном ищу.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">В сумнение меня слова твои приводят.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">От горести они из уст моих исходят.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Пустым сумнением не раздражайся ты,</l>
+              <l part="N">Оно прошло, как все проходят суеты.</l>
+              <l part="N">Когда нет способов исполнили желанье,</l>
+              <l part="N">Рассудка слабого есть действо - упованье,</l>
+              <l part="N">Твой разум не таков.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">В чем способов не знать</l>
+              <l part="N">И в чем надежды нет, то тщетно предприять.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Ах, тщетно, может быть, и я в любви сгораю,</l>
+              <l part="N">И на сестру твою без пользы я взираю!</l>
+              <l part="N">Скажи мою тоску, мой друг, сестре твоей,</l>
+              <l part="N">Скажи мою болезнь и всё смятенье ей.</l>
+              <l part="N">Как стражду я теперь, Семира не страдала</l>
+              <l part="N">И в те дни, в кои смерть народы поядала.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Не сетуй, будучи любим, как прежде был.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Прошли минуты те, я больше ей не мил.</l>
+              <l part="N">Потщися мне помочь, колико может братство,</l>
+              <l part="N">И возврати, мой друг, ея ко мне приятство.</l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>Действие второе</head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление первое</head>
+            <stage type="setting">Олег и Семира.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Усугубляющи девичью красоту,</l>
+              <l part="N">Я все достоинства твои, Семира, чту.</l>
+              <l part="N">Коль Ростиславова любовь с твоею сходна,</l>
+              <l part="N">Я радуюсь тому, что ты ему угодна.</l>
+              <l part="N">Когда ж сей нежный жар успехи возымел</l>
+              <l part="N">Ко увенчанию своих любовных дел,</l>
+              <l part="N">Предстаньте пред богов и брачными цепями</l>
+              <l part="N">Свяжите жизнь свою навек пред олтарями.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Предстану, ежели угодно то судьбе.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <l part="N">Но что веселости не вижу я в тебе?</l>
+              <l part="N">Премену чудную я ныне обретаю:</l>
+              <l part="N">Вздыхаешь, слышачи слова сии?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Вздыхаю.</l>
+              <l part="N">Я к сыну твоему любовию горю,</l>
+              <l part="N">Но множество препятств своим утехам зрю,</l>
+              <l part="N">Моя неволя сим супружеством минется,</l>
+              <l part="N">А брат мой навсегда в неволе остается.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">В неволе, какову имеет ныне он,</l>
+              <l part="N">Недостает ему единый только трон.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Для гордыя души, коль скипетра лишиться,</l>
+              <l part="N">Уж не останется, чем больше веселиться.</l>
+              <l part="N">Он чаял по отцу корону получить.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ея уже ему ничем не возвратить.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">А мне, о нем крушась в вздыханиях бессметных,</l>
+              <l part="N">Удобно ли предстать пред олтари бессмертных</l>
+              <l part="N">И, вместо жалобы, им сердце принести,</l>
+              <l part="N">Чтоб узами его священными сплести</l>
+              <l part="N">С тем сердцем, коим нам все бедствия настали,</l>
+              <l part="N">Которым в град вошли народные печали?</l>
+              <l part="N">Удобно ль тамо мне к веселию предстать,</l>
+              <l part="N">Где горький долг велит мне слезы проливать</l>
+              <l part="N">И, утоляя гнев творцов судеб несчастным,</l>
+              <l part="N">Просить конца бедам со стоном повсечасным?</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Тому, кто чтит тебя и держит так, как дщерь,</l>
+              <l part="N">Ты тако, дерзкая, ответствуешь теперь?</l>
+              <l part="N">Обманут ты, мой сын, к Семире жар имея!</l>
+              <l part="N">Я вижу твоего перед собой злодея!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ах, если б я ему злодейкой быть могла,</l>
+              <l part="N">Колико бы, Олег, я счастлива была!</l>
+              <l part="N">Он скоро бы узнал своей премину части:</l>
+              <l part="N">Я б сыну твоему, творцу нам злой напасти,</l>
+              <l part="N">Давно кинжалом грудь...</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление второе</head>
+            <stage type="setting">Олег, Семира и Ростислав.</stage>
+            <stage type="delivery">Ростислав всходит на театр, когда Семира последние полтора стиха говорити стала.</stage>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Забыв мою любовь,</l>
+              <l part="N">Воспоминай вражду и лей противну кровь,</l>
+              <l part="N">Коль неприятелей в числе меня считаешь</l>
+              <l part="N">И победителя в тирана претворяешь,</l>
+              <l part="N">Употребляй против меня неправу месть!</l>
+              <l part="N">Лети из мысли вон, надежды злая лесть!</l>
+              <l part="N">На что, надежда, ты мой разум услаждала,</l>
+              <l part="N">На что ты страсть мою вседневно умножала!</l>
+              <l part="N">Нашла отмщение, Семира, ты, нашла, -</l>
+              <l part="N">Ты в мысли вкралася и в грудь мою вошла.</l>
+              <l part="N">Рви сердце, утесняй страдающий дух в теле</l>
+              <l part="N">И, если думаешь, что смерть сего тяжеле,</l>
+              <l part="N">Губи и умерщвляй, коль я тебе немил!</l>
+              <l part="N">Каким ударом рок несчастного сразил?!</l>
+              <l part="N">Твои ль глаза меня, жестокая, искали?</l>
+              <l part="N">Твои ли в верности мя речи уверяли?</l>
+              <l part="N">Прошел сей сон, и всё то был один обман!</l>
+              <l part="N">Кто больше, небеса, она иль я тиран?</l>
+              <l part="N">К сражению их войск я был подвигнут честью,</l>
+              <l part="N">А от нея сражен презрительной я лестью.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Не таково ко мне почтение имей</l>
+              <l part="N">И добродетели не трогай ты моей!</l>
+              <l part="N">Не тщетно зрение твое тебя прельщало:</l>
+              <l part="N">Вещал язык мой то, что сердце ощущало.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Где ж делась та любовь?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Поднесь во мне она,</l>
+              <l part="N">Да ты не льстись, чтоб я была твоя жена,</l>
+              <l part="N">Я знаю, что о ней<note resp="editor" place="unspecified" anchored="true">о любви</note> я твердо уверяла,</l>
+              <l part="N">Но отменяю ль то, что прежде я вещала?</l>
+              <l part="N">Любовнице своей ты вечно будешь мил,</l>
+              <l part="N">Но жар наш суетно желанье согласил.</l>
+              <l part="N">Не буду, Ростислав, супругой я твоею,</l>
+              <l part="N">Однако никогда не буду и ничьею,</l>
+              <l part="N">Ничьей не буду я, и быти не могу.</l>
+              <l part="N">А что тебя люблю, ты знаешь, я не лгу.</l>
+              <l part="N">Тебе мой нрав знаком, притворства я гнушаюсь</l>
+              <l part="N">И в лести никогда ни с кем не упражняюсь.</l>
+              <l part="N">Любить и не любить не в воле состоит,</l>
+              <l part="N">Но в воле то моей, что делать надлежит.</l>
+              <l part="N">Меня колеблет страсть, меня любовь терзает,</l>
+              <l part="N">Но ум мой должности своей не преступает.</l>
+              <l part="N">От огненной любви вся кровь во мне горит,</l>
+              <l part="N">Однако в мыслях то премены не творит.</l>
+              <l part="N">Сей жар мои беды стократно умножает,</l>
+              <l part="N">Он ныне на меня природу воружает.</l>
+              <l part="N">Я более себя любовника люблю,</l>
+              <l part="N">Оставший мой покой совсем уже гублю;</l>
+              <l part="N">К великодушию я только прибегаю</l>
+              <l part="N">И гордостью души то всё превозмогаю.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Нет мер, княжна, нет мер мученья моего.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Мое мучение жесточе твоего.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Когда ты истину о страсти объявляешь,</l>
+              <l part="N">Произволением ты собственным страдаешь.</l>
+              <l part="N">Оставь суровое ты мнение свое,</l>
+              <l part="N">Скончай сугубое страдание сие.</l>
+              <l part="N">Восприими, княжна, ты мой совет полезный.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Коль хочешь, чтоб к твоим ногам пал твой любезный</l>
+              <l part="N">И для забвенья дел, чем он тебя смущал,</l>
+              <l part="N">Твои, дражайшая, он ноги целовал,</l>
+              <l part="N">Я пасти пред тобой в сию готов минуту...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ничем не умягчишь свою злодейку люту.</l>
+              <l part="N">Достойна ли я, князь, покорства такова?</l>
+              <l part="N">Напрасно тратишь ты толь нежные слова,</l>
+              <l part="N">Напрасно только дух они во мне тревожат</l>
+              <l part="N">И, множа пламень мой, мои болезни множат.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление третье</head>
+            <stage type="setting">Олег и Ростислав.</stage>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">В несчастный день я стал тобою вспламенен,</l>
+              <l part="N">От красоты твоей весь разум мой смятен!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Мой сын, ты сей красой поранен необычно,</l>
+              <l part="N">Но малодушным быть герою неприлично.</l>
+              <l part="N">Воспомни мужества великие дела,</l>
+              <l part="N">Для коих в свет тебя природа извела,</l>
+              <l part="N">И как рука твоя в народы смерть метала,</l>
+              <l part="N">Когда с твоим мечом здесь грозна смерть летала.</l>
+              <l part="N">Не для любви рожден, рожден ты для побед.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Не для, не для любви, для нестерпимых бед!</l>
+              <l part="N">Что подражаю я тебе, зрел свет недавно,</l>
+              <l part="N">Под властию твоей сражался я преславно.</l>
+              <l part="N">Не устыдишься ты, что я рожден тобой,</l>
+              <l part="N">В день брани зрели все, что ты родитель мой.</l>
+              <l part="N">Какой порок, когда герой в любови тает,</l>
+              <l part="N">Коль меч в его руке весь <name type="place">Север</name> устрашает?</l>
+              <l part="N">Когда б герой умел от красоты спастись,</l>
+              <l part="N">Куда б над смертными он мог превознестись!</l>
+              <l part="N">Ужасно мужество великих душ во брани,</l>
+              <l part="N">Но всякий человек дает природе дани.</l>
+              <l part="N">Бессилен я против Семириных очей.</l>
+              <l part="N">Я вижу, государь, что я угоден ей,</l>
+              <l part="N">И помню от нее приятствы полученны,</l>
+              <l part="N">Толь радостные дни не могут быть забвенны.</l>
+              <l part="N">Я бедство всякое легко бы мог стерпеть,</l>
+              <l part="N">А сей мне горести нельзя преодолеть.</l>
+              <l part="N">Немилосердая Семира, ты не чаешь,</l>
+              <l part="N">Что ты жесточе всех тиранов мя терзаешь!</l>
+              <l part="N">А если ведаешь то точно, как терплю,</l>
+              <l part="N">О боги, для чего я так ее люблю?!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление четвертое</head>
+            <stage type="setting">Олег, Ростислав и Витозар.</stage>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <stage type="delivery"> (Олегу)</stage>
+              <p/>
+              <l part="N">Перед глаза твои Возвед предстать желает.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Представь его!</l>
+            </sp>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <stage type="delivery"> (немного отошед)</stage>
+              <p/>
+              <l part="N">Войди! Олег повелевает.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление пятое</head>
+            <stage type="setting">Олег, Ростислав, Витозар и Возвед.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery"> (Возведу)</stage>
+              <p/>
+              <l part="N">Что хочешь мне сказать?</l>
+            </sp>
+            <sp who="vozved">
+              <speaker>Возвед</speaker>
+              <p/>
+              <l part="N">Народ на тя встает</l>
+              <l part="N">И на тебя в сей день с оружием пойдет,</l>
+              <l part="N">Которого в лесах премножество хранилось,</l>
+              <l part="N">Днесь войско на тебя совсем вооружилось.</l>
+              <l part="N">О учреждении там собранных полков</l>
+              <l part="N">Князь вести ждет со мной и в брань идти готов.</l>
+              <l part="N">Я первый к сей войне со князем устремлялся,</l>
+              <l part="N">Но после - твоего я гнева убоялся</l>
+              <l part="N">И предприял тебе усердие явить.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery"> (Витозару, указывая на Возведа)</stage>
+              <p/>
+              <l part="N">В сей час вели сего злодея ты казнить!</l>
+            </sp>
+            <sp who="vozved">
+              <speaker>Возвед</speaker>
+              <p/>
+              <l part="N">За так великую мою к тебе услугу?</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Не будешь верен мне, коль ты неверен другу.</l>
+              <l part="N">Когда б ты был мой раб, тогда б сию ты весть</l>
+              <l part="N">По должности своей мне должен был пренесть,</l>
+              <l part="N">Но князю сродник ты и жил при нем в свободе,</l>
+              <l part="N">Не ставил я тебя невольником в народе.</l>
+            </sp>
+            <sp who="vozved">
+              <speaker>Возвед</speaker>
+              <p/>
+              <l part="N">Став винен, государь, раскаянье творю</l>
+              <l part="N">И заблуждение свое я ясно зрю.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Не заблуждение, свое бездельство видишь.</l>
+              <l part="N">Ты гнусен предо мной, коль чести ненавидишь. <stage type="delivery"> (Витозару)</stage></l>
+              <l part="N">Отдай его на смерть.</l>
+            </sp>
+            <sp who="vozved">
+              <speaker>Возвед</speaker>
+              <p/>
+              <l part="N">О прегорчайший час!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление шестое</head>
+            <stage type="setting">Олег и Ростислав.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">А ты введи сюда восставшего на нас</l>
+              <l part="N">И пленником представь!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Твоей противясь власти,</l>
+              <l part="N">В неисходимые низвергся он напасти.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление седьмое</head>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery">(один)</stage>
+              <p/>
+              <l part="N">Вот воздаяние за милости к нему!</l>
+              <l part="N">Ты сам причина днесь несчастью своему.</l>
+              <l part="N">Доколе гордый враг совсем не истребится,</l>
+              <l part="N">В стране сей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Игорев</tei:orig><tei:reg>Игорь</tei:reg></tei:choice></tei:name> престол не утвердится.</l>
+              <l part="N">Неблагодарный князь и дерзновенный раб,</l>
+              <l part="N">Опасен граду ты, колико ты ни слаб!</l>
+              <l part="N">Искореним врага... искореним, вещаю,</l>
+              <l part="N">А в сердце я своем уже его прощаю!</l>
+              <l part="N">Когда бы у тебя я тако был в плену,</l>
+              <l part="N">Оставил ли бы ты такую мне вину?!</l>
+              <l part="N">Надежна жизнь твоя, ты если покоришься,</l>
+              <l part="N">И смерть твоя близка, хоть мало возгордишься.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление восьмое</head>
+            <stage type="setting">Олег, Ростислав, Оскольд и воины.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ты тщетно предприял быть князем сей стране,</l>
+              <l part="N">Лишь другом быв моим, стал ты злодеем мне.</l>
+              <l part="N">Я мыслил о тебе так склонно, как о сыне,</l>
+              <l part="N">И в воздаяние вражду я вижу ныне.</l>
+              <l part="N">Все милости забыв, которы ты имел,</l>
+              <l part="N">Ты встать против меня хотел, Оскольд?..</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Хотел.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Проси прощения, пади передо мною!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Коль меч мне в грудь вонзишь, паду перед тобою,</l>
+              <l part="N">Но прежде никогда!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Днесь смерть тебе грозит.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Величества души она не поразит.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ты тако, дерзостный, Олегу отвечаешь!</l>
+              <l part="N">Или мучения при смерти ты не чаешь?</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Простри к мучительству немилосердо власть,</l>
+              <l part="N">Всё легче, нежели перед тобой мне пасть.</l>
+              <l part="N">Что предан я тебе, ликуя в пышном чине,</l>
+              <l part="N">Благодари моей несчастливой судьбине!</l>
+              <l part="N">С мечом пред войсками я б дал тебе ответ,</l>
+              <l part="N">И раздался бы он во весь пространный свет.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ты в мысли, гордый враг, свирепство мне вселяешь</l>
+              <l part="N">И щедролюбие мне в сердце утоляешь.</l>
+              <l part="N">Еще я время, князь, теперь тебе даю</l>
+              <l part="N">На размышление спасати жизнь твою.</l>
+              <l part="N">Изменником своим, преступник, ты обманут,</l>
+              <l part="N">И пленники тебя здесь жива не застанут,</l>
+              <l part="N">Когда прощения не станешь ты просить,</l>
+              <l part="N">И казни лютыя отважишься вкусить.</l>
+              <l part="N">Полки мои на брань в сей час вооружатся,</l>
+              <l part="N">Невольники мои в оковы возвратятся. <stage type="delivery"> (Ростиславу)</stage></l>
+              <l part="N">Помедли ты с ним здесь, я войски учрежу</l>
+              <l part="N">И милость или суд Оскольду покажу.</l>
+              <l part="N">Потом пойдем с тобой за град отселе прямо.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">О том лишь я стеню, что я теперь не тамо!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление девятое</head>
+            <stage type="setting">Оскольд, Ростислав и воины.</stage>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Всей силой тщишься ты Олега раздражить</l>
+              <l part="N">И тщетно ты, мой друг, не хочешь больше жить.</l>
+              <l part="N">Отъяты способы тебе сопротивляться,</l>
+              <l part="N">И должен части ты своей повиноваться.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Я жизни своея уж больше не брегу,</l>
+              <l part="N">А пасть ни перед кем из смертных не могу.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Суровости такой не требует геройство,</l>
+              <l part="N">Не мужества она - отчаяния свойство.</l>
+              <l part="N">Чтоб сделал подлость ты, совета не даю;</l>
+              <l part="N">Умеренностию спасай ты жизнь свою.</l>
+              <l part="N">Олегу, знаешь ты, свирепство необычно, -</l>
+              <l part="N">Ответствуй своему ты счастию прилично.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Не робость днесь меня в отчаянье ввела,</l>
+              <l part="N">Но предприятые похвальные дела,</l>
+              <l part="N">Которы мерзкою изменою открылись.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Когда ж намеренья твои не совершились,</l>
+              <l part="N">Так больше для чего в упрямстве пребывать?</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Покорствуй, кто рожден рабеть<note resp="editor" place="unspecified" anchored="true">Сумароков считал, что слова &lt;робеть&gt; и &lt;ребенок&gt; происходят от корня &lt;раб&gt; и поэтому их нужно писать &lt;рабеть&gt; и &lt;рабенок&gt;. Так как при представлении трагедий все звуки произносились в соответствии с буквами, актеры говорили &lt;рабеть&gt;, а не &lt;робеть&gt;</note>  и унывать.</l>
+              <l part="N">Не поколеблется ничем мой дух вовеки,</l>
+              <l part="N">Не робкие богам подобны человеки.</l>
+              <l part="N">Хотя ужасною судьбиной я сражен,</l>
+              <l part="N">Не малодушие я чувствовать рожден.</l>
+              <l part="N">Природа мя на то произвела толь тверда,</l>
+              <l part="N">Чтоб показать на мне, что часть немилосерда</l>
+              <l part="N">Во всем стремлении свирепости пролить</l>
+              <l part="N">Великодушия не может утолить.</l>
+              <l part="N">Довольно ль, небеса, в гонении жестоком,</l>
+              <l part="N">Несчастный, искушен нежалостным я роком?!</l>
+              <l part="N">Всего лишен, что льстить могло на свете мне:</l>
+              <l part="N">Зрю пленником себя в родительской стране,</l>
+              <l part="N">Всё то сношу, на казнь без трепета взираю</l>
+              <l part="N">И двери вечности бесстрашно отпираю.</l>
+              <l part="N">О вечность! Ты рубеж всем светским суетам,</l>
+              <l part="N">В тебе одной я зрю конец своим бедам:</l>
+              <l part="N">От нападения судьбы ожесточенной</l>
+              <l part="N">Убежище лишь ты души моей стесненной!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Живи хотя уже ты для своих друзей,</l>
+              <l part="N">Для просьбы моея и для сестры своей!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Коль дружбы пленника ты, князь, не презираешь,</l>
+              <l part="N">Когда честных людей я в узах почитаешь,</l>
+              <l part="N">Не трать напрасно слов к покорству мя привлечь:</l>
+              <l part="N">Не действует твоя в моем рассудке речь,</l>
+              <l part="N">Советований я ничьих уже не внемлю,</l>
+              <l part="N">Без пользы свету жить - тягчить лишь только землю!</l>
+              <l part="N">Лишився скипетра, мне свету чем служить?</l>
+              <l part="N">Я добродетель здесь хотел восстановить,</l>
+              <l part="N">Возобновить златой век радостей во граде,</l>
+              <l part="N">Лукавство выгнать вон и заключить во аде.</l>
+              <l part="N">А ныне, если бы толико подл я был,</l>
+              <l part="N">Чтоб жизнь поносную я чести предпочтил,</l>
+              <l part="N">На утесненную взирая добродетель,</l>
+              <l part="N">Бея подданных своих я б только был свидетель.</l>
+              <l part="N">Претяжко бедного, гонима сильным, зреть,</l>
+              <l part="N">Коль варварства сего нет сил преодолеть!</l>
+              <l part="N">Несноснее еще отечество зреть в стоне</l>
+              <l part="N">И видеть своего врага в своей короне!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Что буду делать я?! Не внемлет ничего.</l>
+              <l part="N">Не презирай, о князь, прошенья моего!</l>
+              <l part="N">Мой друг, любезный друг, не отрицай совета,</l>
+              <l part="N">Премены счастия суть свойства здешня света.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление десятое</head>
+            <stage type="setting">Олег, имея в руках бумагу<note resp="editor" place="unspecified" anchored="true">Анахронизм: бумага появилась в Европе в XI-XII вв., в России - в XIV в.</note>, Оскольд и Ростислав.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ужели ты свое упрямство преломил?</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">И ныне я таков, каков доныне был.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Погибель я твою еще остановляю</l>
+              <l part="N">И щедролюбие еще тебе являю:</l>
+              <l part="N">Иль милость, или смерть не медля избери!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Смерть!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">В лютости своей умри, злодей, умри! <stage type="delivery"> (Воинам )</stage></l>
+              <l part="N">В темницу, воины, отсель его помчите</l>
+              <l part="N">И тамо в крепкие оковы заключите.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Когда я пленник твой, когда мой рок таков,</l>
+              <l part="N">Всё сносно мне уже, на всё идти готов.</l>
+              <l part="N">О град несчастливый! Сестра моя любезна!</l>
+              <l part="N">Простите! Жизнь моя вам стала бесполезна!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление одиннадцатое</head>
+            <stage type="setting">Олег и Ростислав.</stage>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Хоть для меня спаси несчастного сего...</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">И милости к нему не внемлю ничего.</l>
+              <l part="N">Иное думай ты, не в просьбах упражняйся</l>
+              <l part="N">И к утру в ночь сию на брань уготовляйся!</l>
+              <l part="N">В сей день воинских дел не можем мы зачать,</l>
+              <l part="N">А ежели зачнем, не можем окончать:</l>
+              <l part="N">Светило дневное уже спустилось низко,</l>
+              <l part="N">И восхождение луны на град сей близко.</l>
+              <l part="N">Но прежде, нежели мы брань начнем творить,</l>
+              <l part="N">Велю на площади Оскольда умертвить.</l>
+              <l part="N">Всем ясно объявит о мне бумага эта,</l>
+              <l part="N">Что я за смерть его не дам богам ответа.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Склонися, государь, к прошенью моему!..</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Не раздражай меня, или предай ему!</l>
+              <l part="N">Ты смел передо мной, моей противясь воле.</l>
+              <l part="N">Оставь меня, являй свое ты смельство<note resp="editor" place="unspecified" anchored="true">смелость, бесстрашие</note> в поле!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление двенадцатое</head>
+            <stage type="setting">Олег (один)</stage>
+            <p/>
+            <l part="N">Престанешь приводить Олега ты на гнев.</l>
+            <l part="N">Смерть косу вознесла, разверзся адский зев.</l>
+            <l part="N">Я милости казал тебе в своей досаде,</l>
+            <l part="N">Ступай, ищи венца и скипетра во аде! <stage type="delivery"> (Садится Оскольду смерть подписывать.)</stage></l>
+            <l part="N">Умри! Умреть тебе, конечно, надлежит!..</l>
+            <l part="N">Но отчего ж теперь рука моя дрожит?!</l>
+            <l part="N">Умри!.. К чему себя всей силой принуждаю?</l>
+            <l part="N">Позорно кончить жизнь Оскольда осуждаю,</l>
+            <l part="N">Трепещет сердце, кровь, волнуяся, течет,</l>
+            <l part="N">И мысль от ярости мя к жалости влечет.</l>
+            <l part="N">Воображения терзают мя различны,</l>
+            <l part="N">И чувствую в себе премены необычны.</l>
+            <l part="N">О правосудие! Ты душу подкрепи</l>
+            <l part="N">И разны мнения в одно совокупи!</l>
+            <l part="N">Исчезни, жалость, ты умолкни, милость, ныне,</l>
+            <l part="N">И не противьтеся Оскольдовой судьбине!</l>
+            <l part="N">Исполню то; нельзя Оскольду больше жить. <stage type="delivery"> (Подписывает.)</stage></l>
+            <l part="N">К чему отважился я руку приложить?!</l>
+            <l part="N">Оскольдова глава от тела отделится!..</l>
+            <l part="N">Нет! Гнев хоть праведен, жестокость утолится. <stage type="delivery"> (Раздирая указ. Восстает.)</stage></l>
+            <l part="N">Я снисходителен, ты гордостью надут...</l>
+            <l part="N">Спасенья нет тебе, хотя отсрочен суд!</l>
+            <l part="N">Нельзя того простить, кто так себя возносит</l>
+            <l part="N">И, винен будучи, прощения не просит.</l>
+            <l part="N">Когда бы пленником тиранским чьим ты стал,</l>
+            <l part="N">В упрямстве б он тебя по удам растерзал<note resp="editor" place="unspecified" anchored="true">растерзал по отдельным членам</note>,</l>
+            <l part="N">А я своим врагам дал прежнюю свободу</l>
+            <l part="N">И быть хотел отцем плененному народу.</l>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>Действие третье</head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление первое</head>
+            <stage type="setting">Оскольд <stage type="delivery"> (в цепях)</stage></stage>
+            <p/>
+            <l part="N">Вот для ради чего я мужеством кипел!</l>
+            <l part="N">Кто столько горестей и в долгий век терпел?!</l>
+            <l part="N">Оковы я ношу в том доме, где родился,</l>
+            <l part="N">Где рос в величестве и царствовать учился!</l>
+            <l part="N">А ты еще на мя, о солнце! мещешь свет!</l>
+            <l part="N">И дом, сей дом на мя еще не упадет!</l>
+            <l part="N">Вот мной желанная с младенческих лет слава!</l>
+            <l part="N">Вот счастие мое, вот скипетр и держава!</l>
+            <l part="N">Что медлишь, смерть, когда противен я судьбе?</l>
+            <l part="N">О небо, вынь мой дух! Я мерзок сам себе.</l>
+            <l part="N">Но что сестры своей я здесь не обретаю?</l>
+            <l part="N">Увы! На что, на что я зреть тебя желаю?!</l>
+            <l part="N">Увижу токи слез, текущи из очей,</l>
+            <l part="N">И поколеблется дух в крепости моей.</l>
+            <l part="N">Мучительная жизнь! На что тебя имею?</l>
+            <l part="N">На жертву моему свирепому злодею,</l>
+            <l part="N">Который у меня, что было, всё отняв,</l>
+            <l part="N">Стремится пременить впоследок мой и нрав.</l>
+            <l part="N">Всё может рок отнять во времена дней гневных,</l>
+            <l part="N">Всё отнял у меня, но кроме сил душевных.</l>
+            <l part="N">Ты, войско, ждешь меня, собравшися в лесах,</l>
+            <l part="N">Но повелитель твой в темнице и цепях...</l>
+            <l part="N">Умрет на площади... Не медлите, разите,</l>
+            <l part="N">Спасите мой живот иль смерть мою отметите!</l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление второе</head>
+            <stage type="setting">Оскольд и Избрана.</stage>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Куда несчастная пошла сестра моя?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Ждала, чтоб ты предстал перед глаза ея:</l>
+              <l part="N">У Ростислава то Семира испросила</l>
+              <l part="N">И в нетерпении к темнице поспешила,</l>
+              <l part="N">Чтоб Ростиславом там исполнен был приказ:</l>
+              <l part="N">Во ожидании ей днем казался час.</l>
+              <l part="N">Но се она.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление третье</head>
+            <stage type="setting">Оскольд, Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">На тя ль в сем виде я взираю,</l>
+              <l part="N">Возлюбленный мой брат!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">В оковах умираю.</l>
+              <l part="N">Ты слышала, что мой конец уже приспел?..</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">А ты на мя, <name type="mythologic">Перун</name>, еще не мещешь стрел?!</l>
+              <l part="N">Земля мне пропастей еще не разверзает,</l>
+              <l part="N">И в жилах кровь моя еще не замерзает.</l>
+              <l part="N">Затьмитесь, солнечны лучи, передо мной!</l>
+              <l part="N">Всего, о рок, всего лишаюсь я тобой!</l>
+              <l part="N">Возлюбленный Оскольд!..</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Уж нет того нимало,</l>
+              <l part="N">Что б нас хоть искрами надежды освещало.</l>
+              <l part="N">Без избавления наш город побежден,</l>
+              <l part="N">Ты - вечно пленница, я - к смерти осужден.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты к смерти осужден?! Мой брат умрет поносно?!</l>
+              <l part="N">Я много бед несла, еще то было сносно.</l>
+              <l part="N">Не ложная о том прошла по граду весть -</l>
+              <l part="N">Ты к смерти осужден! Возможно ли то снесть?!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Как счастие против меня стремится злобно,</l>
+              <l part="N">Сказал ли Ростислав о том тебе подробно?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Через Избрану он со мною говорил</l>
+              <l part="N">И бедство мне твое смешение объявил<note resp="editor" place="unspecified" anchored="true">и в смущении объявил мне о постигшем тебя несчастье</note>.</l>
+              <l part="N">От плачущих сих глаз он образ свой скрывает</l>
+              <l part="N">И больше пред меня предстати не дерзает.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Известна ль ты, когда быть подлым захочу,</l>
+              <l part="N">Что смерти косу я взнесенну отврачу?</l>
+              <l part="N">Олег сулит мне жизнь оставить непременно.</l>
+              <l part="N">Но потеряю ль то<note resp="editor" place="unspecified" anchored="true">но соглашусь ли я потерять?</note>, что мне неоцененно?!</l>
+              <l part="N">Желает, чтобы я прощения просил</l>
+              <l part="N">И пал к ногам его.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Чтоб брат мой приключил</l>
+              <l part="N">Себе и мне сей стыд?!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Что ж ты повелеваешь?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Умри, коль только в том спасенье обретаешь!</l>
+              <l part="N">Кончай, любезный брат, несчастну жизнь свою!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Достойну зрю себя - тебя, сестру мою.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">И в злополучии тебе лишь только равну.</l>
+              <l part="N">Имела низость я сама, но не бесславну:</l>
+              <l part="N">Как Ростиславом здесь повергся <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Киев</tei:orig><tei:reg>Кий</tei:reg></tei:choice></tei:name> трон,</l>
+              <l part="N">Я пала перед ним и испускала стон,</l>
+              <l part="N">Но не о жизни я тогда пред ним стенала:</l>
+              <l part="N">Пощады своему народу испрошала.</l>
+              <l part="N">Хоть горек был тот день, сей горше мне стократ.</l>
+              <l part="N">Навек лишаюся тебя, любезный брат!</l>
+              <l part="N">Навек лишаюся!.. О доля жизни вредной!</l>
+              <l part="N">Ты мне велела всё почувствовати, бедной!</l>
+              <l part="N">Беды, колико льзя на свете их сыскать,</l>
+              <l part="N">Велела в младости все сердцу испытать!</l>
+              <l part="N">Ужели ярости твоей ужасна сила</l>
+              <l part="N">Великодушие Семиры искусила?</l>
+              <l part="N">Хоть в подлости себе спасенья не ищу,</l>
+              <l part="N">Но страх меня объял, дрожу и трепещу.</l>
+              <l part="N">Как мысли гордые вверх славы ни стремятся,</l>
+              <l part="N">Из глаз потоки слез неволею катятся.</l>
+              <l part="N">Геройских разум душ хоть и крепит меня,</l>
+              <l part="N">Но сердце вопиет ко страждущей, стеня:</l>
+              <l part="N">"Разверзлась бездна бед, а ты еще не рвешься!</l>
+              <l part="N">Иль ты без жалости с Оскольдом расстаешься?</l>
+              <l part="N">Навеки от твоих отъемлется он глаз</l>
+              <l part="N">И видишь ты его уже в последний раз!"</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Пускай свирепствует, как хочет, доля злобна,</l>
+              <l part="N">В великодушии Оскольду будь подобна!</l>
+              <l part="N">Отъяти мой живот поносна смерть спешит,</l>
+              <l part="N">Меня смущает то, однако не страшит.</l>
+              <l part="N">Терпяще сердце мне и в крайности послушно.</l>
+              <l part="N">Терпи и подражай ты мне великодушно!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">А больше мне тебя не зреть уже вовек!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Не вечно в свете жить родится человек,</l>
+              <l part="N">Но вечно будет тот иль очень долго славен,</l>
+              <l part="N">Кто в злополучии и в счастии был равен.</l>
+              <l part="N">В сем случае яви, что ты сестра моя!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Довольно днесь еще великодушна я.</l>
+              <l part="N">Судьба свирепство всё из ада испустила,</l>
+              <l part="N">А я всей памяти еще не погубила.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Гони свою тоску! Уныния беги</l>
+              <l part="N">И ради ты меня печаль превозмоги!</l>
+              <l part="N">Сей жертвы от тебя одной Оскольд желает,</l>
+              <l part="N">В надежде сей он казнь и смерть уничтожает,</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда я сим тебя удобна облегчить,</l>
+              <l part="N">Потщуся скорбь свою я в сердце заключить.</l>
+              <l part="N">И если слабости безвинной ненавидишь,</l>
+              <l part="N">Так мужество еще в сестре своей увидишь.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Определению покорствуя небес,</l>
+              <l part="N">Смотри на смерть мою без стона и без слез,</l>
+              <l part="N">Пребудь в сей твердости, котору обещаешь!</l>
+              <l part="N">Ты казни моея жестокость уменьшаешь.</l>
+              <l part="N">Коль жалость от меня ты тщишься отвести,</l>
+              <l part="N">Спокоен от тебя иду на смерть... Прости!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Теперь мне, ах, теперь потребно укрепляться!</l>
+              <l part="N">Но льзя ли в бодрости навек с тобой расстаться?! <stage type="delivery"> (Падает в руки к Избране.)</stage></l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Сего к несчастию недоставало мне,</l>
+              <l part="N">Чтоб слабость при конце явил я сей стране.</l>
+              <l part="N">Случаи лютые того еще желали,</l>
+              <l part="N">Чтоб, умирающа, меня все робким звали!</l>
+              <l part="N">Хоть крови своея во мне не обесславь!</l>
+              <l part="N">Не возмущай меня и честь мою оставь!</l>
+              <l part="N">Внемли прошение! Ты мужество отъемлешь!</l>
+              <l part="N">Скрепись хотя на час!.. Ты слов моих не внемлешь!</l>
+              <l part="N">Воспомни ты теперь, воспомни, чья ты дочь!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Закрой мои глаза скорей, о вечна ночь!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Так нас прощание лишь больше огорчает,</l>
+              <l part="N">Прервем его! Твой брат богам тебя вручает.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Постой! Не стану я, не стану я стонать.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">В сем слова своего не можешь ты сдержать.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление четвертое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Что можно вобразить поносной смерти зляе?!</l>
+              <l part="N">По Ростислава ты беги, беги скоряе,</l>
+              <l part="N">Скажи ему, чтоб он тотчас ко мне пришел!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление пятое</head>
+            <stage type="setting">Семира<stage type="delivery"> (одна)</stage></stage>
+            <l part="N">Еще ли ты, мой дух, не много претерпел?!</l>
+            <l part="N">Во всех странах моя надежда скончалась.</l>
+            <l part="N">В тебе, любовь, тебе одной она осталась!</l>
+            <l part="N">О страсть, и ты тоски мне много подала.</l>
+            <l part="N">Ты, пленницу, меня вторично в плен ввела</l>
+            <l part="N">И, усугубивши всегдашнее стенанье,</l>
+            <l part="N">Ввела в отчаянье и множила желанье.</l>
+            <l part="N">За сделанное зло мне благом отплати,</l>
+            <l part="N">А страшный облак сей от града отврати!</l>
+            <l part="N">И если вы, судьбы, Оскольда поразите,</l>
+            <l part="N">Так от поносныя кончины свободите!</l>
+            <l part="N">Прежесточайшее терзанье терпит дух.</l>
+            <l part="N">Как буду я внимать пронзительный сей слух,</l>
+            <l part="N">Что брат мой принял казнь?! И, мысля то, страдаю.</l>
+            <l part="N">На тя, любовь, на тя надежду возлагаю!</l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление шестое</head>
+            <stage type="setting">Семира и Ростислав.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Где жар твоей любви? Где к другу днесь приязнь?</l>
+              <l part="N">Оскольд выводится прияти смертну казнь,</l>
+              <l part="N">А ты к мучительству Олега допускаешь!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Или ты гордости Оскольдовой не знаешь?</l>
+              <l part="N">Олега силою ко гневу он влечет,</l>
+              <l part="N">И просьбам за него уж больше места нет.</l>
+              <l part="N">Я просьбы приносил. Чего ж я тем достигнул?</l>
+              <l part="N">Лишь ярость на себя родительску подвигнул.</l>
+              <l part="N">Твой брат препятствует его щедроте сам,</l>
+              <l part="N">И способа уж нет его избавить нам.</l>
+              <l part="N">Умрет Оскольд, умрет, коль он не покорится.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">В кровь подлу кровь его ничем не претворится,</l>
+              <l part="N">А ты не приводи чрез просьбу в гнев себя:</l>
+              <l part="N">Не сей я помощи желаю от тебя.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Я способа спасти его не обретаю.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">В сей крайности к твоей любови прибегаю.</l>
+              <l part="N">Хотя препятствуют случаи ныне нам,</l>
+              <l part="N">Как я тебя люблю, ты ведаешь то сам.</l>
+              <l part="N">Хотя тебе во мне суровство и казалось,</l>
+              <l part="N">Но сердце никогда мое не отменялось.</l>
+              <l part="N">Ты видишь, для чего я брак пренебрегла.</l>
+              <l part="N">И что б иное я ответствовать могла?</l>
+              <l part="N">За всю мою любовь, коль любишь без обману,</l>
+              <l part="N">Исполни ты мне то, о чем просить я стану!</l>
+              <l part="N">Вообрази себе, как тяжко умереть</l>
+              <l part="N">Тому на площади, кто в свет рожден владеть,</l>
+              <l part="N">Где он хотя и жил в пленении, в неволе,</l>
+              <l part="N">Но где его отец на славном был престоле.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Благодарю богов, мне жалость не чужа.</l>
+              <l part="N">Но что мы сделаем, с тобой о нем тужа?</l>
+              <l part="N">Я знаю, смерть его нас вечно разделяет,</l>
+              <l part="N">От мысли сей мой дух совсем ослабевает,</l>
+              <l part="N">Лишаюсь в друге я и той, кого люблю,</l>
+              <l part="N">Но что я к помощи его употреблю?</l>
+              <l part="N">Не вижу способа к Оскольдову спасенью,</l>
+              <l part="N">Ни к вожделенному с тобой соединенью.</l>
+              <l part="N">Когда ж совокупить ничто не может нас,</l>
+              <l part="N">Любовь, настала ты в презлополучный час!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда исполнишь ты Семирино прошенье,</l>
+              <l part="N">Так, может быть, найдешь ты сердцу облегченье.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Чего желаешь ты, драгая, от меня?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Смутив мой весь покой и сердце полоня,</l>
+              <l part="N">Коль подлинно о мне подобно воздыхаешь,</l>
+              <l part="N">Яви мне ту любовь, котору ощущаешь</l>
+              <l part="N">И выпусти отсель Оскольда ты за град.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Ты хочешь в сердце мне сей смертный влити яд?!</l>
+              <l part="N">Чем винен я тебе? Что сыщешь в оправданье,</l>
+              <l part="N">Что ты мне делаешь такое наказанье?</l>
+              <l part="N">Мою ты славу всю стараешься затьмить.</l>
+              <l part="N">На то ль, княжна, тебя, на то ль я стал любить?</l>
+              <l part="N">Отечеству мной ввек не будет озлобленья, -</l>
+              <l part="N">Никак нельзя сего исполнить повеленья.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Так вся моя теперь надежда отошла!</l>
+              <l part="N">И в Ростиславе я врага себе нашла!</l>
+              <l part="N">Довольно страсть твоя к Семире изъясненна:</l>
+              <l part="N">Се мзда за сей мне жар, которым я разжжена!</l>
+              <l part="N">Ты тщишься вражество минувше возвратить</l>
+              <l part="N">И за любовь мою дни вечно прекратить.</l>
+              <l part="N">Твой жар ко мне исчез, ты стал совсем превратен,</l>
+              <l part="N">А ежели мой взор еще тебе приятен</l>
+              <l part="N">И клятвы памятны, что мнимой красотой</l>
+              <l part="N">Ты будешь полонен моею лишь одной,</l>
+              <l part="N">Избрав достойною себе меня едину,</l>
+              <l part="N">Смягчи, о Ростислав, смягчи мою судьбину</l>
+              <l part="N">И покажи мне то, колико я мила,</l>
+              <l part="N">Что правильно тебе я сердце отдала</l>
+              <l part="N">И что в несчастии я счастлива тобою!</l>
+              <l part="N">Я дважды чрез тебя лишилася покою:</l>
+              <l part="N">Тобой наш пал престол, тобой, жестокий, я</l>
+              <l part="N">Взята в пленение из славы своея.</l>
+              <l part="N">Ты взор и дух ольстил<note resp="editor" place="unspecified" anchored="true">обольстил, обманул</note> и из врага стал другом,</l>
+              <l part="N">Любовником мой дух нарек тебя, супругом.</l>
+              <l part="N">Склонившиеся к тебе, и пуще я рвалась,</l>
+              <l part="N">Что с счастьем страсть моим несходная сплелась.</l>
+              <l part="N">Все грусти от тебя, несчастная, имею.</l>
+              <l part="N">Склонися к жалости, коль я тобой владею!</l>
+              <l part="N">Зри слезы на лице любовницы своей,</l>
+              <l part="N">Зри бледность, зри, мой князь, смущение очей,</l>
+              <l part="N">Взгляни на трепет мой! Душа моя страдает,</l>
+              <l part="N">Кровь стынет, меркнет ум, и глас ослабевает.</l>
+              <l part="N">Захочешь ли в сей день меня ты мертву зреть?</l>
+              <l part="N">Не дай, дражайший князь, Семире умереть!</l>
+              <l part="N">Почувствуй своея возлюбленной мученье!</l>
+              <l part="N">В тебе осталося одном мое спасенье.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Ты рвешься, а меня еще жесточе рвешь.</l>
+              <l part="N">Не льстися, и во мне спасенья не найдешь.</l>
+              <l part="N">О горькие часы! Болезни выше силы!</l>
+              <l part="N">Прелестные глаза, на что вы мне толь милы!</l>
+              <l part="N">Умрет в сей день твой брат, и нет надежды нам.</l>
+              <l part="N">И если ты умрешь, умру с тобою сам.</l>
+              <l part="N">Лишенну мне тебя<note resp="editor" place="unspecified" anchored="true">если я лишусь тебя, то все будет мне противно</note>, противно всё на свете.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Предвозвестил ты смерть, жестокий, в сем ответе.</l>
+              <l part="N">Отец твой - мой тиран. Подобен будь ему!</l>
+              <l part="N">Ты - враг мне, а еще мил сердцу моему!</l>
+              <l part="N">Вы, ах, свидетели, отечески чертоги,</l>
+              <l part="N">Вины моей пред ним! Оставьте то мне, боги<note resp="editor" place="unspecified" anchored="true">боги, простите мне то</note>,</l>
+              <l part="N">Что прелютейшего мучителя люблю!</l>
+              <l part="N">Не хочет помогать, когда живот гублю!</l>
+              <l part="N">Когда ты вскинешь взор на мя, души лишенну,</l>
+              <l part="N">И мниму красоту увидишь помраченну,</l>
+              <l part="N">Заплачешь, может быть, над телом восстеня,</l>
+              <l part="N">Но плачем ты уже не возвратишь меня.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">За невозможное я стражду исполненье!</l>
+              <l part="N">Велишь тягчайшее творити преступленье,</l>
+              <l part="N">Против отечества мя тщишься воружать!</l>
+              <l part="N">Ах, можешь ли меня безвинно поражать?</l>
+              <l part="N">Не медли, вымышляй, какие хочешь, казни,</l>
+              <l part="N">Я все приять готов, не чувствуя боязни.</l>
+              <l part="N">Но коей заслужил я то себе виной,</l>
+              <l part="N">Чтоб мертвою тебя мне зрети пред собой?</l>
+              <l part="N">Когда свою красу и младость погубляешь,</l>
+              <l part="N">Так ты мою любовь совсем уничтожаешь.</l>
+              <l part="N">Невинен пред тобой, Семира, я ни в чем,</l>
+              <l part="N">Не лестью вшел во град, я град сей взял мечем.</l>
+              <l part="N">Не лестью получил и сердце я желанно, -</l>
+              <l part="N">За искренность мою оно тобой мне данно.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Коль сердца моего достоин хочешь быть,</l>
+              <l part="N">Так узы должен ты Оскольду разрешить.</l>
+              <l part="N">Не верю без того, что я тебе угодна.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Я вижу, что любовь моя с твоей несходна.</l>
+              <l part="N">Я всякий час готов за честь твою умреть,</l>
+              <l part="N">А ты в бесславии меня стремишься зреть.</l>
+              <l part="N">Не будет от меня отечеству измены,</l>
+              <l part="N">Я буду защищать до гроба здешни стены.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Коль, варвар, я тебя бессильна умягчить,</l>
+              <l part="N">Коль хочешь живота любовницу лишить,</l>
+              <l part="N">Что медлишь? Умерщвляй, повергни чувств лишенну!</l>
+              <l part="N">Пролей, мучитель, кровь, тобой воспламененну!</l>
+              <l part="N">Ни малой жалости ко мне не ощущай,</l>
+              <l part="N">Руби, вскрой грудь мою и сердце растерзай,</l>
+              <l part="N">В котором пребывал твой образ непрестанно</l>
+              <l part="N">И кое в животе ты мучил несказанно!</l>
+              <l part="N">Насыться, насладись моею днесь тоской!</l>
+              <l part="N">Вынь меч: пронзи!..</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Княжна!..</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <stage type="delivery"> (выхватив меч из ножен его)</stage>
+              <p/>
+              <l part="N">Зри мертву пред собой...</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <stage type="delivery"> (бросясь к ней и став на колени)</stage>
+              <p/>
+              <l part="N">В меня сей меч вонзи, конец соделай страсти!</l>
+              <l part="N">Мне он победу дал, лишил Оскольда власти,</l>
+              <l part="N">Он кровью обагрен народа твоего,</l>
+              <l part="N">И он вина тебе несчастия всего...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <l part="N">И он соделает всему конец несчастью. <stage type="delivery"> (Возносит руку, чтоб заколоться.)</stage></l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <stage type="delivery"> (в самой скорости восстав с коленей и удержав руку ея)</stage>
+              <p/>
+              <l part="N">Не спорю больше я с своею лютой частью:</l>
+              <l part="N">Твой брат освобожден.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <stage type="delivery"> (отдав ему меч)</stage>
+              <p/>
+              <l part="N">Мой князь, отныне я,</l>
+              <l part="N">Как брань ни кончится, по самый гроб твоя.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Коль буду побежден, пойду в мрак вечной ночи,</l>
+              <l part="N">И уж меня твои не будут видеть очи.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Спокойства моего не разрушай ты вновь!</l>
+              <l part="N">Иль мыслишь ты, снесет моя к тебе любовь</l>
+              <l part="N">Погибель верного любовника Семиры,</l>
+              <l part="N">И буду возводить на солнце очи сиры?</l>
+              <l part="N">Когда ты острый меч подымешь на себя,</l>
+              <l part="N">Представь себе тогда, как я люблю тебя,</l>
+              <l part="N">Что жизнь моя навек с твоею сопряженна</l>
+              <l part="N">И что не буду я жива, тебя лишенна.</l>
+              <l part="N">Поди, невольника из града испускай</l>
+              <l part="N">И жизнь мою в своей ты жизни сохраняй!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление седьмое</head>
+            <stage type="setting">Ростислав (один)</stage>
+            <p/>
+            <l part="N">Что сделать, Ростислав, ты ныне предприемлешь?</l>
+            <l part="N">Ни рассуждения, ни мужества не внемлешь.</l>
+            <l part="N">Ты, страсти следуя, противишься уму</l>
+            <l part="N">И хочешь изменить народу своему.</l>
+            <l part="N">Отечество мое! Отечество любезно!</l>
+            <l part="N">Противу страсть тебя бунтует бесполезно.</l>
+            <l part="N">Не дам тебе, любовь, себя преодолеть.</l>
+            <l part="N">Но как возможно мне Семиру мертву зреть?!</l>
+            <l part="N">И думать страшно то, о жители небесны,</l>
+            <l part="N">К лютейшей казни мне глаза ея прелестны!</l>
+            <l part="N">О жалостная мысль! Свирепства нет во мне.</l>
+            <l part="N">Свирепства нет, злодей?! Ты - враг своей стране!</l>
+            <l part="N">Предатель, отмени ты злое обещанье!</l>
+            <l part="N">В бесчестие твое вперилося желанье.</l>
+            <l part="N">Я слышу глас небес, гремящих надо мной:</l>
+            <l part="N">"Разверзлась, Ростислав, днесь бездна под тобой.</l>
+            <l part="N">Для получения обычныя забавы</l>
+            <l part="N">Ты с самой высоты величества и славы</l>
+            <l part="N">К дну пропасти падешь. Противься красоте,</l>
+            <l part="N">Противься! Разорви, преступник, узы те,</l>
+            <l part="N">В которых стонешь ты и гибнешь преужасно!"</l>
+            <l part="N">Но тщетно вопиет мне небо велегласно.</l>
+            <l part="N">Возжженный в сердце огнь горит во всей крови.</l>
+            <l part="N">О должность, уступай ты место днесь любви!</l>
+            <l part="N">Терзай меня, любовь, когда в твоей я власти!</l>
+            <l part="N">О боги, есть ли что сильней любовной страсти?!</l>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>Действие четвертое</head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление первое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Уведомись, уже ль мой брат освобожден</l>
+              <l part="N">И во врата за град уже ли провожден?</l>
+              <l part="N">Боюся, Ростислав не отменил ли слова,</l>
+              <l part="N">И, ах, в мучение не ввержена ль я снова.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление второе</head>
+            <stage type="setting">Оскольд, Семира и Избрана.</stage>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Я вольность получил. Благодарю богов.</l>
+              <l part="N">В сей час, Семира, я иду против врагов,</l>
+              <l part="N">Иду избавить град и киевски границы.</l>
+              <l part="N">Еще хранится дверь Оскольдовой темницы,</l>
+              <l part="N">И воины меня притворно там стрегут,</l>
+              <l part="N">Но в сей они мя час за стены проведут</l>
+              <l part="N">И скроются лица Олегова со мною.</l>
+              <l part="N">Есть тайный путь отсель, пойду дорогой тою,</l>
+              <l part="N">Сберу свои полки и приступлю к стенам.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Восставьте, небеса, вы падшу славу нам!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Для горьких слез твоих<note resp="editor" place="unspecified" anchored="true">в результате твоих горьких слез</note> имею я свободу,</l>
+              <l part="N">Ты мне спасение и целому народу.</l>
+              <l part="N">Великой должен я твоей любови мздой;</l>
+              <l part="N">Пусть будет Ростислав супруг, Семира, твой!</l>
+              <l part="N">Хотя намеренье победой окончаю,</l>
+              <l part="N">Хоть смертию своей, тебя ему вручаю.</l>
+              <l part="N">Коль будет часть моя и в сей мне день вредна,</l>
+              <l part="N">Во воздаянье ты останешься одна,</l>
+              <l part="N">Которое могу я сделать Ростиславу,</l>
+              <l part="N">Последуй своея ты склонности уставу!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Падением своим меня не возмущай</l>
+              <l part="N">И не такое мне спокойство предвещай!</l>
+              <l part="N">Я зрю перед собой тебя вооруженна,</l>
+              <l part="N">Отвсюду в сердце мне надежда вображенна.</l>
+              <l part="N">Я тщусь напасти все в веселье претворить,</l>
+              <l part="N">А ты старайся град Оскольду покорить.</l>
+              <l part="N">Не омрачай моих довольствий ныне боле.</l>
+              <l part="N">О небо, дай его мне видеть на престоле!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Зачем сюда я шел, я то тебе сказал.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Коль жар моей любви тебе свободу дал,</l>
+              <l part="N">Ступай отечества к преславной обороне!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Ты будешь зреть меня иль мертва, иль в короне.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление третье</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Еще печали знак я зрю в твоем лице.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Я брата своего не зрю еще в венце.</l>
+              <l part="N">Кто знает, как сей день судьбина окончает?</l>
+              <l part="N">С одной страны меня природа устрашает,</l>
+              <l part="N">С другой - тревожит дух мучительная страсть.</l>
+              <l part="N">Известно, какова моя, Избрана, часть.</l>
+              <l part="N">Лишь только счастие перед меня предстанет,</l>
+              <l part="N">Надеждой усладит и вдруг меня обманет,</l>
+              <l part="N">Пронзая темноту, как молния в ночи</l>
+              <l part="N">Скрывает от очей мгновенные лучи.</l>
+              <l part="N">В опасности Оскольд, и Ростислав подобно.</l>
+              <l part="N">Хотя они друзья, геройство в брани злобно,</l>
+              <l part="N">И могут ли спасти от всех друг друга стрел?!</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Им будет памятно и средь воинских дел,</l>
+              <l part="N">Что ты тому сестра, любовница другому;</l>
+              <l part="N">Приложат силы все к спасенью таковому.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда в ужасный час кровава брань горит,</l>
+              <l part="N">О страсти, о родстве она не говорит,</l>
+              <l part="N">Но ежели они друг другом и спасутся,</l>
+              <l part="N">Живыми в плен они друг другу не дадутся.</l>
+              <l part="N">Они сказали то, я знаю нравы их:</l>
+              <l part="N">Один, как камень, тверд в намереньях своих.</l>
+              <l part="N">Не поколеблется в том, что он предприемлет,</l>
+              <l part="N">И, кроме мужества, иного он не внемлет.</l>
+              <l part="N">Другой, хоть нежное имеет сердце он,</l>
+              <l part="N">Но в крайности умрет, пренебрежет мой стон.</l>
+              <l part="N">Там только честь одна предписывает правы.</l>
+              <l part="N">Не вспомнят обо мне среди гремящей славы!</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Отбей печальные ты мысли от себя</l>
+              <l part="N">И жди веселия, смущенье истребя.</l>
+              <l part="N">Подай спокойствие терпящим скорби членам!</l>
+              <l part="N">Всё в свете, что ни есть, подвержено пременам.</l>
+              <l part="N">Уже ты много дней несчастлива была.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">На то меня и в свет судьба произвела,</l>
+              <l part="N">Живот мой так, как цепь, из многих бед составлен</l>
+              <l part="N">И, может быть, от них не будет ввек избавлен:</l>
+              <l part="N">Благополучие, в котором я росла,</l>
+              <l part="N">Которое, как прах, судьбина разнесла,</l>
+              <l part="N">Когда в моем уме себе воображает,</l>
+              <l part="N">Бесчисленны мои напасти умножает.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление четвертое</head>
+            <stage type="setting">Олег, Семира и Избрана.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Твой брат и с стражею из града убежал,</l>
+              <l part="N">Он войско на меня не тщетно воружал,</l>
+              <l part="N">Но тщетно, может быть, со мною он сразится:</l>
+              <l part="N">Разгневанный Олег уж больше не смягчится.</l>
+              <l part="N">Твои то промыслы<note resp="editor" place="unspecified" anchored="true">это твои планы, идеи</note>, что он отсель ушел,</l>
+              <l part="N">Но я не вижу в них твоих злодейских дел:</l>
+              <l part="N">Из той и ты, как он, родилася утробы,</l>
+              <l part="N">И к брату своему иметь не тщишься злобы.</l>
+              <l part="N">Хвалю еще тебя за дело таково.</l>
+              <l part="N">Лишь только знать хочу, кто выпустил его.</l>
+              <l part="N">Кого дарами ты, Семира, ослепила?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Свое богатство я тобою погубила</l>
+              <l part="N">И не могу дарить. Что ж ты вещаешь мне</l>
+              <l part="N">О брате, я того не зрела и во сне.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Скажи мне истину и не ответствуй ложно.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">О чем не ведаю, того сказать не можно.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Упрямствуя, меня в жар гнева не введи</l>
+              <l part="N">И строгости мои, княжна, предупреди!</l>
+              <l part="N">По исполнении злодея крыть порочно</l>
+              <l part="N">И сожалеть о нем бесчестно и беспрочно<note resp="editor" place="unspecified" anchored="true">бесполезно</note>.</l>
+              <l part="N">Когда ж не смыслишь ты о чести рассуждать,</l>
+              <l part="N">Так я тебе могу и наставленье дать.</l>
+              <l part="N">Что честно или нет, я это разумею,</l>
+              <l part="N">А научить тебя я способы имею.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты начал мне грозить! Или забыл ты то,</l>
+              <l part="N">Кто я и что меня не устрашит ничто?</l>
+              <l part="N">Когда мой брат спасен и войско наше в поле,</l>
+              <l part="N">Не ужасаюся твоей я власти боле.</l>
+              <l part="N">Ты хочешь научить меня о чести знать?!</l>
+              <l part="N">Старайся у меня ты лучше перенять!</l>
+              <l part="N">Не думай, что она со счастием спряженна</l>
+              <l part="N">И что противностьми быть может пораженна.</l>
+              <l part="N">Во злополучии никто хоть нам не льстит,</l>
+              <l part="N">Но добродетели, и молча, всякий чтит.</l>
+              <l part="N">Не мнишь ли, что наш пол к геройству неспособен</l>
+              <l part="N">И духу мужеску дух женский не подобен,</l>
+              <l part="N">Что устремляешься мя к трепету привлечь?</l>
+              <l part="N">Нет робости во мне, твоя бессильна речь.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Ты нудишь на себя Олега озлобляться.</l>
+              <l part="N">Льзя ль, боги, больше мне от гнева утоляться?!</l>
+              <l part="N">Не сих от пленницы Олег ответов ждал,</l>
+              <l part="N">Я прежде бытия Семиры побеждал<note resp="editor" place="unspecified" anchored="true">я побеждал еще до рождения Семиры</note>,</l>
+              <l part="N">И у тебя мне жить учиться неприлично.</l>
+              <l part="N">Не тако пленникам ответствовать обычно.</l>
+              <l part="N">Не вспоминаючи о милости моей,</l>
+              <l part="N">На что надеешься ты в дерзости своей,</l>
+              <l part="N">И смельство таково далось тебе отколе,</l>
+              <l part="N">Подобно, как бы ты сидела на престоле?</l>
+              <l part="N">Не родом ты своим почтенна здесь, но мной.</l>
+              <l part="N">Лишь руку снять с тебя, ты будешь прах земной.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Хотя мне счастием судьбина тщетно льстила,</l>
+              <l part="N">Не прахом мя земным природа в свет пустила.</l>
+              <l part="N">Я - княжеская дочь, то ведает весь свет.</l>
+              <l part="N">Мне в милостях твоих нимало чести нет,</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">И милости мои уже позабываешь?</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Коль ими ты меня почтенну быти чаешь,</l>
+              <l part="N">Не помню больше их.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Не помню их и я,</l>
+              <l part="N">Но помню то, что ты - невольница моя.</l>
+              <l part="N">Неблагодарная! Во мне отца ты зрела,</l>
+              <l part="N">А ныне я - твой враг, коль ты того хотела.</l>
+              <l part="N">Распространяйся, гнев, по сердцу моему,</l>
+              <l part="N">Не покажусь тобой тираном никому:</l>
+              <l part="N">Ты праведен во мне! А ты уже здесь будешь</l>
+              <l part="N">В ином почтеньи жить и гордость позабудешь.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Пошли мне, небо, смерть, лишь брат бы победил</l>
+              <l part="N">И град отеческий от ига свободил.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление пятое</head>
+            <stage type="setting">Олег, Ростислав и Семира.</stage>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Теперь рассмотришь ты, теперь рассмотришь ясно,</l>
+              <l part="N">Что ты о ней вздыхал и мучился напрасно.</l>
+              <l part="N">Как ты ее мнил быть, она не такова,</l>
+              <l part="N">Открыта злоба в ней чрез дерзкие слова,</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Я вижу то, что мне твой гнев приготовляет:</l>
+              <l part="N">Немилосерду казнь мне образ твой являет,</l>
+              <l part="N">Но, сколько я робка, ты будешь это зреть.</l>
+              <l part="N">Я - смертна; всё равно, когда ни умереть.</l>
+              <l part="N">Тиранствуй, ежели душа твоя в то вникла!</l>
+              <l part="N">Не страшны муки мне, я к ним уже привыкла.</l>
+              <l part="N">Знай, волею моей избавился мой брат,</l>
+              <l part="N">Но знать не будешь ты, кем выпущен за град!</l>
+              <l part="N">Хоть сердце извлечи<note resp="editor" place="unspecified" anchored="true">хотя можно озлобленное сердце извлечь из тела</note> из тела можно злобно,</l>
+              <l part="N">Но вырвать тайны сей из сердца не удобно.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Коль ты отважилась свою вину сказать,</l>
+              <l part="N">На что уже тебе злодея укрывать?</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Не скроешь. Воины! <stage type="enter"><move who="voiny" type="enter"/>Воины входят.</stage></l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Что делать начинаешь?</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Сию противницу ты тщетно защищаешь!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Под образом ея свою я душу зрю,</l>
+              <l part="N">В несносном пламени Семирой я горю:</l>
+              <l part="N">Мой полон ею ум, живу на свете ею,</l>
+              <l part="N">Гнушаюсь без нея и жизнию своею.</l>
+              <l part="N">Ея и в славе я невольник красоты.</l>
+              <l part="N">Терзаючи ее, меня терзаешь ты.</l>
+              <l part="N">Она угрозы все внимает без боязни.</l>
+              <l part="N">Готовя казни ей, ты мне готовишь казни.</l>
+              <l part="N">Не можешь, государь, свирепства ей явить,</l>
+              <l part="N">Которым бы не мог ты сына уразить<note resp="editor" place="unspecified" anchored="true">поразить, нанести удар</note>.</l>
+              <l part="N">Быть счастливы хотя надежды мы лишенны,</l>
+              <l part="N">Но наши с ней сердца навек соединенны.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Я всё прощаю ей и ярость укрочу,</l>
+              <l part="N">Когда то сведаю, что ведать я хочу.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Не льстися тем, а я прощенья не желаю.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery"> (Семире)</stage>
+              <p/>
+              <l part="N">Под стражу!..</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Я сыскать злодея обещаю,</l>
+              <l part="N">Лишь только укроти намеренье свое!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Опомнись, Ростислав!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Прощение твое,</l>
+              <l part="N">Хотя Семирино лице ему любезно,</l>
+              <l part="N">Во обстоятельствах опасных бесполезно.</l>
+              <l part="N">На что, любезный сын, мы тщимся побеждать,</l>
+              <l part="N">Когда предателям мы станем угождать.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Кого ты ищешь, сей предатель пред тобою. <stage type="delivery"> (Становяся на колени.)</stage></l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">О гневные судьбы!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Что сделал ты с собою!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Чего достоин ты?</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">С мученьем умереть.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Восстани! То, что рек, ты должен претерпеть.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Он - твой любезный сын, не будь свиреп ты сыну,</l>
+              <l part="N">Всему причина я, меня казни едину!</l>
+              <l part="N">Казни меня! Когда творити то возмнишь,</l>
+              <l part="N">Лютейшую ему ты муку учинишь.</l>
+              <l part="N">Он надобен тебе, он надобен народу.</l>
+              <l part="N">Мою возьми ты жизнь, коль отнял ты свободу!</l>
+              <l part="N">Будь милостив и мне, и сыну, и себе!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <stage type="delivery"> (Семире)</stage>
+              <p/>
+              <l part="N">Коль честию своей я жертвовал тебе,</l>
+              <l part="N">Охотно за тебя я жизнь мою теряю:</l>
+              <l part="N">Одним несчастием другое умеряю.</l>
+              <l part="N">Смотри, в какие ты меня беды ввела!</l>
+              <l part="N">Затьмила все мои похвальные дела! <stage type="delivery"> (Олегу)</stage></l>
+              <l part="N">Карай меня, карай, карай меня скоряе!</l>
+              <l part="N">На свете пребывать мне всех мучений зляе.</l>
+              <l part="N">Грызенье совести, раскаяние, стыд,</l>
+              <l part="N">Любовь к отечеству, твой гнев и грозный вид</l>
+              <l part="N">По всей моей крови яд смертный простирают,</l>
+              <l part="N">Колеблют весь мой ум и сердце раздирают. <stage type="delivery"> (Семире)</stage></l>
+              <l part="N">Почто твоею стал красою я прельщен?!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Почто и мой дух стал тобою возмущен?!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Единым, боги, мя вы сыном утешали,</l>
+              <l part="N">Различными его дарами украшали,</l>
+              <l part="N">Во младости своей он тьмой великих дел</l>
+              <l part="N">Желание мое далеко превзошел,</l>
+              <l part="N">Он взнесся, сколько мог герой когда взнестися,</l>
+              <l part="N">От имени его весь <name type="place">Север</name> стал трястися,</l>
+              <l part="N">Но, - о плачевный день! - то всё перемени,</l>
+              <l part="N">Героя, сына, всё ты отнял у меня!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Без обличения я стражду нестерпимо,</l>
+              <l part="N">И имя днесь твое уже во мне не зримо.</l>
+              <l part="N">С горячностью твое почтенье погубя,</l>
+              <l part="N">Уже стыжусь теперь и зрети на тебя.</l>
+              <l part="N">Не сына шлешь на смерть - преступника, злодея!</l>
+              <l part="N">Суди и осуждай, щедроты не имея!</l>
+              <l part="N">Я - прежний Ростислав, низвергшийся в беду,</l>
+              <l part="N">Лишь тем, что к смерти я без робости иду.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Отдай свой меч. Поди отсель во мглу темницы!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <stage type="delivery"> (отдавая меч Олегу, который меч его отдает потом воинам)</stage>
+              <p/>
+              <l part="N">Се меч, расширивший отечества границы,</l>
+              <l part="N">Поящий кровию стран <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Киевых</tei:orig><tei:reg>Кий</tei:reg></tei:choice></tei:name> пески.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Сей лютой и тогда не знала я тоски!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Поди! Сейчас тебе последний час на свете,</l>
+              <l part="N">И смелость при конце яви еще ты в цвете!</l>
+              <l part="N">Коль правосудие тебя винит теперь,</l>
+              <l part="N">Неукротима смерть, отверста гроба дверь.</l>
+              <l part="N">Умри и заплати преступок тяжкий кровью!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Увы!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Но сниду ль в гроб с родительской любовью?</l>
+              <l part="N">Не вображаючи моих жестоких вин,</l>
+              <l part="N">Скажи, родитель мой, что я еще твой сын!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Как сердце днесь мое тобой ни раздраженно,</l>
+              <l part="N">То к вечной горести не будет мной забвенно,</l>
+              <l part="N">Ты - сын, но уж не тот, который прежде был,</l>
+              <l part="N">Хотя тебя люблю, как прежде я любил.</l>
+              <l part="N">Поди!.. Впоследние теперь тебя объемлю.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Сокрой с родительской любовью прах мой в землю! <stage type="delivery"> (Семире )</stage></l>
+              <l part="N">А ты, мучительный, печальный вид очам,</l>
+              <l part="N">Не сетуй, что злой рок сопротивлялся нам,</l>
+              <l part="N">И, помня то, что я любил тебя не ложно,</l>
+              <l part="N">Не плачь о том, чего переменить не можно!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление шестое</head>
+            <stage type="setting">Олег, Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <stage type="delivery"> (в самое то время, в которое Ростислав отходит, пред Олегом становяся на колени)</stage>
+              <p/>
+              <l part="N">Зри гордости теперь Семириной конец!</l>
+              <l part="N">Любовник мой - герой, Олег - ему отец,</l>
+              <l part="N">Им град сей дан тебе, им я живу в неволе,</l>
+              <l part="N">Им <name type="person">Игорь</name> царствует на пышном здесь престоле.</l>
+              <l part="N">Умерь, умерь свой гнев, свирепства не кажи</l>
+              <l part="N">И правосудие на милость преложи!</l>
+              <l part="N">Когда б нас боги так наказывать стали,</l>
+              <l part="N">В коликие вины пред ними мы впадали,</l>
+              <l part="N">Куда бы убежал от грома смертных род?</l>
+              <l part="N">В лесах ли б скрылся он, в горах иль в бездне вод?</l>
+              <l part="N">Последуй им и будь толь щедр, коль правосуден!</l>
+              <l part="N">Отцу ли к милости для сына зришь путь труден?</l>
+              <l part="N">Будь правый судия, но будь и человек!</l>
+              <l part="N">Представь себе, ты чей отъемлешь ныне век!</l>
+              <l part="N">Кого даешь на смерть?! Сей смерти я достойна,</l>
+              <l part="N">И мною толь твоя днесь участь беспокойна.</l>
+              <l part="N">Когда бы Ростислав очей моих не знал,</l>
+              <l part="N">По сей бы день еще невинен пребывал.</l>
+              <l part="N">От них отъемли свет! Прости любезна сына!</l>
+              <l part="N">Прости, о государь! Вины сей я причина.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery"> (ее подымая)</stage>
+              <p/>
+              <l part="N">Мое несчастие причиною тому.</l>
+              <l part="N">Невинна в этом ты, что ты мила ему</l>
+              <l part="N">И брата своего от смерти избавляла,</l>
+              <l part="N">Ты должности своей уставы тем являла.</l>
+              <l part="N">Коль мужественна ты, сноси и ты, как я.</l>
+              <l part="N">Я жалость чувствую не меньше твоея.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Коль сердце на суде от жалости не тает,</l>
+              <l part="N">Так суетно она и в сердце обитает.</l>
+              <l part="N">Без заблуждения никто нe проживет.</l>
+              <l part="N">Мы - смертны. Совершенств ни в ком из смертных нет.</l>
+              <l part="N">В суде, против бездельств имея сердце твердо,</l>
+              <l part="N">Взирай на слабости людские милосердо!</l>
+              <l part="N">Подвигнися хотя потоком слез моих,</l>
+              <l part="N">Тоской, стенанием и тьмой мучений сих,</l>
+              <l part="N">Которых груда мной, несчастной, обладает.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Зрит небо, что Олег равно тебе страдает;</l>
+              <l part="N">Но если не хочу пристрастия носить,</l>
+              <l part="N">Могу ль простить его?.. Престань о нем просить!</l>
+              <l part="N">Нам всем троим сей день стенания причина. <stage type="delivery"> (Хочет идти.)</stage></l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Смягчися, государь!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Пришла его кончина.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление седьмое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">О преужасный день! Ко смерти ль прибегу?!</l>
+              <l part="N">Отрады в животе сыскати не могу!</l>
+              <l part="N">Кого, Семира, ты, кого ты днесь теряешь?!</l>
+              <l part="N">Мой князь, ты мной, ты мной<note resp="editor" place="unspecified" anchored="true">ты умираешь из-за меня</note>, несчастный, умираешь;</l>
+              <l part="N">Свое геройское ты имя превознес,</l>
+              <l part="N">И слава дел твоих гремела до небес,</l>
+              <l part="N">Но взор очей моих всего тебя лишает</l>
+              <l part="N">И славные дела с бесславными мешает!</l>
+              <l part="N">О бедственны часы! О гневны небеса!</l>
+              <l part="N">Дни младости моей! Зловредная краса!</l>
+              <l part="N">Кого я, бедная, свирепствуя, терзаю!</l>
+              <l part="N">Кому?.. Любовнику дверь гроба отверзаю!</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Нет помощи ему, хоть страждешь ты, любя.</l>
+              <l part="N">Не вображай себе, как он любил тебя.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты мнишь, что может быть, чтоб я когда забыла,</l>
+              <l part="N">Как он меня любил, как я его любила,</l>
+              <l part="N">Иль долго б без него могла я жить стеня!</l>
+              <l part="N">Нельзя не вображать!.. Не унимай меня!</l>
+              <l part="N">Страдай, моя душа, коль так определенно!</l>
+              <l part="N">На то ль, о сердце, ты любовью воспаленно?!</l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>Действие пятое</head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление первое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Олеговы полки пошли из градских врат,</l>
+              <l part="N">И браг твой из лесов идет под самый град.</l>
+              <l part="N">Глас громких труб, шумя, повсюду раздается:</l>
+              <l part="N">В сей час меж войсками сражение начнется.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Еще ли князь мой жив? Увижу ль я его?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">О Ростиславе я не знаю ничего.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Стесненная душа, покинь ты томно тело!</l>
+              <l part="N">Последнее мое днесь счастье улетело,</l>
+              <l part="N">И жизни моея одна осталась тень.</l>
+              <l part="N">Немилосердый рок! Презлополучный день!</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Твой князь к тебе идет.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление второе</head>
+            <stage type="setting">Семира, Ростислав и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты жив! Тебя ль я вижу?!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Но, ах, уже минут оставших ненавижу</l>
+              <l part="N">И только для того могу на свет глядеть,</l>
+              <l part="N">Что, видя свет, могу тебя на свете зреть.</l>
+              <l part="N">Коль брань сию Олег несчастно окончает</l>
+              <l part="N">И брат твой славою свободу увенчает,</l>
+              <l part="N">Я буду бедности людей своих виной.</l>
+              <l part="N">О небо! Я один виновен пред тобой,</l>
+              <l part="N">Прославь Олегову еще победой старость,</l>
+              <l part="N">На мне сверши ты казнь и праведную ярость!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты смерть поносную предпочитаешь мне?</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <l part="N">В жестокой не хочу остаться я вине.</l>
+              <l part="N">Тот, в ком нет совести, в злодействии спокоен,</l>
+              <l part="N">А я на смерть готов, коль жизни недостоин.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Дух братним мужеством я льщуся утешать,</l>
+              <l part="N">А ты стараешься надежду разрушать,</l>
+              <l part="N">И, мною толь любим, грозишь меня оставить.</l>
+              <l part="N">Когда Оскольда ты от смерти мог избавить,</l>
+              <l part="N">Избави и меня! Не отврати сих дней,</l>
+              <l part="N">В которы быть хочу супругою твоей!</l>
+              <l part="N">И если славою Оскольд войну скончает,</l>
+              <l part="N">Пускай и наше он веселье увенчает.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Прошли драгие дни веселья моего,</l>
+              <l part="N">Я радостей лишен до гроба своего.</l>
+              <l part="N">Не принуждай меня на свете ты остаться</l>
+              <l part="N">И, срамно живучи, бесчестием терзаться.</l>
+              <l part="N">Хоть принуждением меня ты днесь тягчишь,</l>
+              <l part="N">Но малодушие уж мне не приключишь,</l>
+              <l part="N">А если в вечный мрак последуешь за мною,</l>
+              <l part="N">Сразишь мя жалостно вторичною виною,</l>
+              <l part="N">И будет тень моя, из темной глубины</l>
+              <l part="N">На небо вопия, твои гласить вины:</l>
+              <l part="N">Что ты бесчестию мя страстью покорила,</l>
+              <l part="N">Что славу ты мою в бесславье претворила</l>
+              <l part="N">И, честь мою совсем в бесчестье пременя,</l>
+              <l part="N">Взяла свирепо жизнь два раза у меня.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">На что мне в свете жить, коль в нем тебя не будет?</l>
+              <l part="N">Иль мыслишь ты, тебя Семира позабудет?</l>
+              <l part="N">Коль намеряешься ты сам себя убить,</l>
+              <l part="N">Жестокий, для чего ты стал меня любить?</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Чтоб раздражить отца и преступить уставы,</l>
+              <l part="N">Предать отечество, лишиться вечной славы</l>
+              <l part="N">И, оставляючи себе в потомство срам,</l>
+              <l part="N">В презрении умреть к твоим одним слезам.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Любовь ко мне тебя преступком отягчила.</l>
+              <l part="N">Не спорю, я тебе все бедства приключила.</l>
+              <l part="N">Когда ж ты для меня в толики впал беды,</l>
+              <l part="N">Сними с напастей сих желанные плоды!</l>
+              <l part="N">Ты славу возвратишь, ты только расцветаешь.</l>
+              <l part="N">Воспомни, Ростислав, что ты Семирой таешь!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Кто добродетелен и стал преступник прав<note resp="editor" place="unspecified" anchored="true">и стал преступником законов</note>,</l>
+              <l part="N">Во беззаконьи тот не чувствует забав,</l>
+              <l part="N">Не услаждается ничем на свете боле.</l>
+              <l part="N">Последовав твоей несправедливой воле,</l>
+              <l part="N">Я честен, но в делах злодейских утоплен,</l>
+              <l part="N">Злодей, хоть к честному поступку я рожден,</l>
+              <l part="N">Любим к несчастию, гоним отцом достойно</l>
+              <l part="N">И не могу еще и умереть спокойно!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление третье</head>
+            <stage type="setting">Те же и воин с Ростиславовым мечом.</stage>
+            <sp who="voin">
+              <speaker>Воин</speaker>
+              <p/>
+              <l part="N">Народ, о государь, твой меч тебе дает,</l>
+              <l part="N">И войско к своему тебя спасенью ждет.</l>
+              <l part="N">Не медли и ступай, Оскольд уже во граде,</l>
+              <l part="N">Мы гибнем все теперь, родитель твой в осаде.</l>
+              <l part="N">Спаси его и нас!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <stage type="delivery"> (отходя)</stage>
+              <p/>
+              <l part="N">Или погибну сам.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда придет конец толь горестным часам?!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление четвертое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Пойдем, пойдем отсель мы в вышние чертоги</l>
+              <l part="N">И будем зрети то, чем мя накажут боги...</l>
+              <l part="N">Поди одна! Моих к тому не станет сил.</l>
+              <l part="N">Час брани мысль мою престранно разделил.</l>
+              <l part="N">Поди и принеси отравы в смертну рану.</l>
+              <l part="N">Кого, увы, из них оплакивать я стану?!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление пятое</head>
+            <stage type="setting">Семира <stage type="delivery"> (одна)</stage></stage>
+            <p/>
+            <l part="N">Нежалостливый рок с обеих стран шумит,</l>
+            <l part="N">С обеих стран на мя ужасный гром гремит.</l>
+            <l part="N">Где скроюсь, бедная?! Несчастливой Семире</l>
+            <l part="N">Убежища не знать во всем пространном мире.</l>
+            <l part="N">Кому теперь желать успеха я должна?!</l>
+            <l part="N">С одним я жаркою любовью спряжена,</l>
+            <l part="N">С другим произвела мя в свет одна утроба:</l>
+            <l part="N">Обоим я мила, они мне милы оба.</l>
+            <l part="N">В сей грозный час им век с победою сплетен<note resp="editor" place="unspecified" anchored="true">их жизнь связана с победой, зависит от победы</note>,</l>
+            <l part="N">И тот из них умрет, кто будет побежден.</l>
+            <l part="N">Так можно ли на чем желание уставить,</l>
+            <l part="N">Иль праведной тоски хоть малу часть убавить?</l>
+            <l part="N">Что стражду я теперь в мученьях таковых,</l>
+            <l part="N">Вы винны в том, ах, вы, заразы глаз моих.</l>
+            <l part="N">К погибели моей природой вы мне данны,</l>
+            <l part="N">Герою в младости на бедства несказанны,</l>
+            <l part="N">А брат мой днесь от уз хоть вами и спасен,</l>
+            <l part="N">Но страшный облак сей еще не пренесен,</l>
+            <l part="N">Который крыл его: он душу угнетает</l>
+            <l part="N">И над главой еще Оскольдовой летает.</l>
+            <l part="N">Подайте, небеса, с победою ему</l>
+            <l part="N">Покой его сестре и городу сему!</l>
+            <l part="N">Пошлите к нам опять драгие дни свободы</l>
+            <l part="N">И, миром согласив противные народы,</l>
+            <l part="N">Позвольте царствовать Оскольду в сей стране</l>
+            <l part="N">И Ростиславовой супругой быти мне!</l>
+            <l part="N">О суетная мысль! На что меня прельщаешь?</l>
+            <l part="N">Ты, томно сердце, мне иное предвещаешь,</l>
+            <l part="N">И знаков нет тому, чего желаю я.</l>
+            <l part="N">Прямого счастия лишенна часть моя.</l>
+            <l part="N">Терпеть различные напасти я рожденна</l>
+            <l part="N">И, чтоб умножить их, любити осужденна.</l>
+            <l part="N">Но се во граде я смешенный слышу глас</l>
+            <l part="N">И слышу звук мечей. Пришел мой лютый час.</l>
+            <l part="N">Стон ближится, и шум победа умножает.</l>
+            <l part="N">Кого остр меч из вас, о князи, поражает!</l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление шестое</head>
+            <stage type="setting">Семира и Избрана.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Скажи, что сделалось?! Еще ли брат мой здрав,</l>
+              <l part="N">Восходит ли на трон? И жив ли Ростислав?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">О жизни их сказать нимало я не знаю,</l>
+              <l part="N">Вторичный только плен войск наших вспоминаю.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Когда не вижу я конца народных бед.</l>
+              <l part="N">Так брата моего, конечно, больше нет?</l>
+            </sp>
+            <sp who="izbrana">
+              <speaker>Избрана</speaker>
+              <p/>
+              <l part="N">Во многолюдстве я его не узнавала</l>
+              <l part="N">И только видела, что наша сила пала.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление седьмое</head>
+            <stage type="setting">Семира, Избрана и Витозар.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Оскольд опять пленен? Но, ах, уж нет его!</l>
+              <l part="N">Не буду больше зреть я брата своего!</l>
+            </sp>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <p/>
+              <l part="N">Он жив еще...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Он жив? И хочет жить в неволе?</l>
+            </sp>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <p/>
+              <l part="N">Недолго будет он то чувствовати боле,</l>
+              <l part="N">Уже мечом пронзен...</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Жестокий Ростислав,</l>
+              <l part="N">Возможешь ли ты быть передо мною прав?!</l>
+            </sp>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <p/>
+              <l part="N">Не обвиняй его, не мни о нем ты злобно</l>
+              <l part="N">И выслушай, княжна, печальну весть подробно.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">О пагубная весть! О мой смущенный дух!</l>
+              <l part="N">Иль мыслишь ты, тебя Семира позабудет?</l>
+              <l part="N">Иль мыслишь ты, тебя Семира позабудет? <stage type="delivery"> (Витозару)</stage></l>
+              <l part="N">Пронзай сей вестию, пронзай Семирин слух!</l>
+            </sp>
+            <sp who="vitozar">
+              <speaker>Витозар</speaker>
+              <p/>
+              <l part="N">Твой князь сии слова в мои уста влагает,</l>
+              <l part="N">Он сам тебе открыть сие изнемогает.</l>
+              <l part="N">Разбив своих врагов и простирая гнев,</l>
+              <l part="N">Оскольд вломился в град, как раздраженный лев.</l>
+              <l part="N">Уж наше воинство почти плененно зрилось,</l>
+              <l part="N">Но Ростислав пришел, и счастье претворилось.</l>
+              <l part="N">Мы взяли верх, Оскольд стал скоро покорен</l>
+              <l part="N">И, сверженный с коня, был паче разъярен,</l>
+              <l part="N">Метался и рубил, но, близко плен свой видя,</l>
+              <l part="N">Свой меч вонзил в себя, живот возненавидя.</l>
+              <l part="N">Умрет, но столько он еще имеет сил,</l>
+              <l part="N">Что мог прийти к тебе.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Рок тако брань свершил!</l>
+              <l part="N">Се час желанного веселья и покою?!</l>
+              <l part="N">Навеки расстаюсь, Оскольд, уже с тобою!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление восьмое</head>
+            <stage type="setting">Те ж и Ростислав.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Ты славен стал опять, прошла твоя напасть.</l>
+              <l part="N">Не пременяется моя едина часть.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Когда страдаешь ты, и я тогда страдаю</l>
+              <l part="N">И скорбию своей тогда не обладаю.</l>
+              <l part="N">Люблю тебя сто раз я больше живота.</l>
+              <l part="N">Твоя, княжна, меня пленивша красота</l>
+              <l part="N">Твоими горестьми мя равно огорчает.</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Какие мне беды судьбина приключает!</l>
+              <l part="N">Мой князь, дражайший князь, престань о мне жалеть!</l>
+              <l part="N">Дай праху моему без слез твоих истлеть!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Какие то слова?! Что слышу я, драгая?!</l>
+              <l part="N">Ты грудь мою теснишь, весь ум рассеевая.</l>
+              <l part="N">Преодолей себя, сноси тоску, сноси,</l>
+              <l part="N">Сноси, дражайшая, и жизнь мою спаси!</l>
+              <l part="N">Умерь излишество мучения сердечна!</l>
+              <l part="N">Ты гонишь в гроб меня, не будь бесчеловечна!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>Явление последнее</head>
+            <stage type="setting">Олег, Ростислав, Семира, Оскольд, которого ведут два из его воинов, Витозар, Избрана и Олеговы воины.</stage>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Прежалостнейший вид! Смертельный сердцу яд!</l>
+              <l part="N">Несчастная сестра! Возлюбленный мой брат! <stage type="delivery"> (Бросается к Оскольду.)</stage></l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Не возвратишь меня ни плачем, ни тоскою.</l>
+              <l part="N">Спокойся ты, а мне отверста дверь к покою.</l>
+              <l part="N">Не плачь и ободрись!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Могу ль не плакать я?!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <stage type="delivery"> (Олегу)</stage>
+              <p/>
+              <l part="N">Тебе дала, Олег, победу часть твоя,</l>
+              <l part="N">А мне моя судьба отверзла двери гроба,</l>
+              <l part="N">Должна прекращена теперь быть наша злоба.</l>
+              <l part="N">Будь к пленным милостив, отдай свободу им</l>
+              <l part="N">И храбрый сей народ соедини с своим!</l>
+              <l part="N">Ручаюся за них! Верь мне и будь в надежде,</l>
+              <l part="N">Что будут так служить, как мне служили прежде.</l>
+              <l part="N">Щедрота к пленникам есть выше всех побед,</l>
+              <l part="N">И милосердия ничто не превзойдет.</l>
+              <l part="N">Пленяет и тиран, когда судьбе угодно,</l>
+              <l part="N">А милостивым быть герою только сродно.</l>
+              <l part="N">Хотя сей горький час, что зрюся я в плену,</l>
+              <l part="N">И что зрю свет еще, стоная, и кляну,</l>
+              <l part="N">Но если мне не быть, прося, отриновенным<note resp="editor" place="unspecified" anchored="true">если я, прося, не получу отказа</note>,</l>
+              <l part="N">Я сей поставлю час часом благословенным.</l>
+              <l part="N">Исполни, победив, прошение мое!</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <p/>
+              <l part="N">Исполнится, Оскольд, желание твое.</l>
+              <l part="N">Когда б и в животе твоем Олег был волен,</l>
+              <l part="N">Хотя б, не царствуя, ты не был им доволен,</l>
+              <l part="N">Я все бы способы к тому употребил.</l>
+              <l part="N">Как много гнал тебя, так много я любил.</l>
+              <l part="N">Достоин в гордости ты был жестокой казни,</l>
+              <l part="N">А днесь достоин ты всея моей приязни.</l>
+              <l part="N">Но поздно в жалости гоненья преложить.</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Я больше не могу и не желаю жить,</l>
+              <l part="N">Доволен, что народ не в узах оставляю,</l>
+              <l part="N">Что честь мою и их от ига избавляю. <stage type="delivery"> (Ростиславу, указывая на Семиру)</stage></l>
+              <l part="N">Ее вручаю я, любезный друг, тебе.</l>
+              <l part="N">Ты ей желаешь благ, колико сам себе.</l>
+              <l part="N">Венчайте жар сердец, живите неразлучно</l>
+              <l part="N">В согласии, в любви и ввек благополучно.</l>
+              <l part="N">Забудьте горести, которые прошли,</l>
+              <l part="N">И веселитеся! Вы счастие нашли.</l>
+              <l part="N">Стенаньем радости своей не разрушайте</l>
+              <l part="N">И только иногда меня воспоминайте.</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Когда ты смертию отъемлешься у нас,</l>
+              <l part="N">Я радости своей не чувствую в сей час.</l>
+              <l part="N">Коликим горестям подвластны человеки?!</l>
+              <l part="N">Прости, любезный друг, прости, мой друг, навеки!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <stage type="delivery"> (Семире)</stage>
+              <p/>
+              <l part="N">А ты, сестра моя, не плачь, не плачь о мне,</l>
+              <l part="N">Но защищай людей в родительской стране,</l>
+              <l part="N">Которы с таковой нам верностью служили</l>
+              <l part="N">И кровь свою за нас со всей охотой лили!</l>
+              <l part="N">Предстательствуй за них!.. Мой дух отходит прочь,</l>
+              <l part="N">И тьмит в очах моих луч солнца вечна ночь.</l>
+              <l part="N">Прости!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">О боги!</l>
+            </sp>
+            <sp who="oskolyd">
+              <speaker>Оскольд</speaker>
+              <p/>
+              <l part="N">Ах!.. не рвись!.. <stage type="delivery">Оскольд умирает и сносится.</stage></l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Увы, лишилась,</l>
+              <l part="N">Лишилась брата я, и часть его свершилась!</l>
+              <l part="N">О мой любезный брат, оставил ты меня,</l>
+              <l part="N">И тщетно вопию, терзаясь и стеня,</l>
+              <l part="N">Стенанья моего ты более не внемлешь,</l>
+              <l part="N">В тоске моей уже участья не приемлешь!</l>
+              <l part="N">Рок, чью ты ныне жизнь свирепо пересек?!</l>
+              <l part="N">Прерви, плачевный день, и мой несчастный век! <stage type="delivery"> (Падает в руки к Избране.)</stage></l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Дражайшая княжна!</l>
+            </sp>
+            <sp who="semira">
+              <speaker>Семира</speaker>
+              <p/>
+              <l part="N">Вся кровь во мне хладеет.</l>
+            </sp>
+            <sp who="oleg">
+              <speaker>Олег</speaker>
+              <stage type="delivery"> (Семире)</stage>
+              <p/>
+              <l part="N">Великодушие тобой да овладеет!</l>
+            </sp>
+            <sp who="rostislav">
+              <speaker>Ростислав</speaker>
+              <p/>
+              <l part="N">Сим жалким зрелищем смущен смертельно я:</l>
+              <l part="N">О небо, утоли тоску и скорбь ея,</l>
+              <l part="N">Скончай печальны дни, в которы мы терпели,</l>
+              <l part="N">И сделай, чтоб сердца в любви без слез кипели!</l>
+            </sp>
+          </div>
+        </div>
+        <trailer> Конец трагедии</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

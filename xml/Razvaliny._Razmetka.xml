@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Развалины </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Развалины  </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. Ч. 3. СПб. </publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1797</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">рай</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">запустение</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="26AbAb + CdCdEdE + ffGGhh." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вот здесь, на острове, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Киприды</tei:orig><tei:reg>Киприда</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Великолепный храм стоял:       </l>
+          <l part="N">Столпы, подзоры, пирамиды       </l>
+          <l part="N">И купол золотом сиял.       </l>
+          <l part="N">Вот здесь, дубами осененна,       </l>
+          <l part="N">Резная дверь в него была,       </l>
+          <l part="N">Зеленым свесом покровенна,       </l>
+          <l part="N">Вовнутрь святилища вела.       </l>
+          <l part="N">Вот здесь хранилися кумиры,       </l>
+          <l part="N">Дымились жертвой алтари,       </l>
+          <l part="N">Сбирались на молитву миры       </l>
+          <l part="N">И били ей челом цари.       </l>
+          <l part="N">Вот тут была уединенной       </l>
+          <l part="N">Поутру каждый день с зарей,       </l>
+          <l part="N">Писала, как владеть вселенной       </l>
+          <l part="N">И как сердца пленить людей.       </l>
+          <l part="N">Тут поставлялася трапеза,       </l>
+          <l part="N">Круг юных дев и сонм жрецов;</l>
+          <l part="N">Богатство разливалось <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Креза</tei:orig><tei:reg>Крез</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N">Сребро и злато средь столов.       </l>
+          <l part="N">Тут арфы звучные гремели       </l>
+          <l part="N">И повторял их хор певцов;</l>
+          <l part="N">Особо тут <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>сирены</tei:orig><tei:reg>сирены</tei:reg></tei:choice></tei:name> пели       </l>
+          <l part="N">И гласов сладостью, стихов       </l>
+          <l part="N">Сердца и ум обворожали.       </l>
+          <l part="N">Тут нектар из сосудов бил,       </l>
+          <l part="N">Курильницы благоухали,</l>
+          <l part="N">Зной летний провевал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>зефир</tei:orig><tei:reg>Зефир</tei:reg></tei:choice></tei:name>;       </l>
+          <l part="N">А тут крылатые служили       </l>
+          <l part="N">Полки прекрасных метких слуг       </l>
+          <l part="N">И от богининой носили</l>
+          <l part="N">Руки<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>амброзию</tei:orig><tei:reg>амброзия</tei:reg></tei:choice></tei:name> вокруг.       </l>
+          <l part="N">Она, тут сидя, обращалась       </l>
+          <l part="N">И всех к себе влекла сердца;       </l>
+          <l part="N">Восставши, тихо поклонялась,       </l>
+          <l part="N">Блистая щедростью лица.       </l>
+          <l part="N">Здесь в полдень уходила в гроты,       </l>
+          <l part="N">Покоилась прохлад в тени;</l>
+          <l part="N">А тут <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>амуры</tei:orig><tei:reg>Амур</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>эроты</tei:orig><tei:reg>Эрот</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Уединялись с ней одни;       </l>
+          <l part="N">Тут был <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Эдем</tei:orig><tei:reg>Эдем</tei:reg></tei:choice></tei:name> ее прелестный       </l>
+          <l part="N">Наполнен меж купин цветов,       </l>
+          <l part="N">Здесь тек под синий свод небесный       </l>
+          <l part="N">В купальню скрытый шум ручьев;       </l>
+          <l part="N">Здесь был театр, а тут качели,       </l>
+          <l part="N">Тут азиатских домик нег;</l>
+          <l part="N">Тут на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнасе</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>музы</tei:orig><tei:reg>музы</tei:reg></tei:choice></tei:name>пели,       </l>
+          <l part="N">Тут звери жили для утех.       </l>
+          <l part="N">Здесь в разны игры забавлялась,</l>
+          <l part="N">А тут прекрасных <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>нимф</tei:orig><tei:reg>нимфы</tei:reg></tei:choice></tei:name> с полком       </l>
+          <l part="N">Под вечер красный собиралась       </l>
+          <l part="N">В прогулку с легким посошком;       </l>
+          <l part="N">Ходила по лугам, долинам,       </l>
+          <l part="N">По мягкой мураве близ вод,       </l>
+          <l part="N">По желтым среди роз тропинам;       </l>
+          <l part="N">А тут, затея хоровод,</l>
+          <l part="N">Велела <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>нимфам</tei:orig><tei:reg>нимфы</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>купидонам</tei:orig><tei:reg>Купидон</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Играть, плясать между собой       </l>
+          <l part="N">По слышимым приятным тонам       </l>
+          <l part="N">Вдали музыки роговой.       </l>
+          <l part="N">Они, кружась, резвясь, летали,       </l>
+          <l part="N">Шумели, говорили вздор;       </l>
+          <l part="N">В зерцале вод себя казали,       </l>
+          <l part="N">Всем тешили богинин взор.       </l>
+          <l part="N">А тут, оставя хороводы,       </l>
+          <l part="N">Верхом скакали на коньках;       </l>
+          <l part="N">Иль в лодках, рассекая воды,       </l>
+          <l part="N">В жемчужных плавали струях.       </l>
+          <l part="N"><name type=" mythologic ">Киприда</name> тут средь мирт сидела,       </l>
+          <l part="N">Смеялась, глядя на детей,       </l>
+          <l part="N">На восклицающих смотрела       </l>
+          <l part="N">Поднявших крылья лебедей;       </l>
+          <l part="N">Иль на станицу сребробоких       </l>
+          <l part="N">Ей милых сизых голубков;       </l>
+          <l part="N">Или на пестрых, краснооких       </l>
+          <l part="N">Ходящих рыб среди прудов;       </l>
+          <l part="N">Иль на собачек, ей любимых,       </l>
+          <l part="N">Хвосты несущих вверх кольцом,       </l>
+          <l part="N">Друг другом с лаяньем гонимых,       </l>
+          <l part="N">Мелькающих между леском.       </l>
+          <l part="N">А здесь, исполнясь важна вида,       </l>
+          <l part="N">На памятник своих побед</l>
+          <l part="N">Она смотрела: на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Алкида</tei:orig><tei:reg>Алкид</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>гидру</tei:orig><tei:reg>гидра</tei:reg></tei:choice></tei:name> палицей он бьет;       </l>
+          <l part="N">Как прочие ее герои,       </l>
+          <l part="N">По манию ее очес,       </l>
+          <l part="N">В ужасные вступали бои       </l>
+          <l part="N">И тьмы поделали чудес:       </l>
+          <l part="N">Приступом грады тверды брали,       </l>
+          <l part="N">Сжигали флоты средь морей,       </l>
+          <l part="N">Престолы, царствы покоряли       </l>
+          <l part="N">И в плен водили к ней царей.       </l>
+          <l part="N">Здесь в внутренни она чертоги       </l>
+          <l part="N">По лестнице отлогой шла,       </l>
+          <l part="N">Куда гостить ходили боги       </l>
+          <l part="N">И где она всегда стрегла       </l>
+          <l part="N">Тот пояс, в небе ей истканный,</l>
+          <l part="N">На коем меж <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>харит</tei:orig><tei:reg>хариты</tei:reg></tei:choice></tei:name> с ней жил       </l>
+          <l part="N">Тот хитрый гений, изваянный,       </l>
+          <l part="N">Который счастье ей дарил,       </l>
+          <l part="N">Во всех ее делах успехи,       </l>
+          <l part="N">Трофеи мира и войны,       </l>
+          <l part="N">Здоровье, радости и смехи       </l>
+          <l part="N">И легкие приятны сны.</l>
+          <l part="N">В сем тереме, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Олимпу</tei:orig><tei:reg>Олимп</tei:reg></tei:choice></tei:name> равном,       </l>
+          <l part="N">Из яшм прозрачных, перлов гнезд,       </l>
+          <l part="N">Художеством различным славном,       </l>
+          <l part="N">Горели ночью тучи звезд,       </l>
+          <l part="N">Красу богини умножали;       </l>
+          <l part="N">И так средь сих блаженных мест       </l>
+          <l part="N">Ее как солнце представляли.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но здесь ее уж ныне нет,       </l>
+          <l part="N">Померк красот волшебных свет,       </l>
+          <l part="N">Все тьмой покрылось, запустело;       </l>
+          <l part="N">Все в прах упало, помертвело;       </l>
+          <l part="N">От ужаса вся стынет кровь,-       </l>
+          <l part="N">Лишь плачет сирая любовь.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

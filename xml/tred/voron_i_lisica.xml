@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ворон и лисица</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ворона и Лисица</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">лесть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость</tei:span>
+    <body xml:id="whole">
+      <div met="Х7" rhyme="Астрофич. п.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Негде Ворону унесть сыра часть случилось;</l>
+          <l part="N">На дерево с тем взлетел, кое полюбилось.</l>
+          <l part="N">Оного Лисице захотелось вот поесть;</l>
+          <l part="N">Для того, домочься б, вздумала такую лесть:</l>
+          <l part="N">Воронову красоту, перья цвет почтивши,</l>
+          <l part="N">И его вещбу еще также похваливши,</l>
+          <l part="N"><q>Прямо,</q> - говорила, - <q>птицею почту тебя <l part="N">Зевсовою впредки<note resp="editor" place="unspecified" anchored="true"><quote>Птицею почту тебя Зевсовою</quote> Птицею Зевса считался орел.</note>, буде глас твой для себя</l><l part="N">И услышу песнь, доброт всех твоих достойну</l></q>.</l>
+          <l part="N">Ворон похвалой надмен, мня себе пристойну<note resp="editor" place="unspecified" anchored="true"><quote>Мня себе пристойну</quote> - т. е. считая, что похвала ему пристойна.</note>,</l>
+          <l part="N">Начал, сколько можно громче, кракать и кричать,</l>
+          <l part="N">Чтоб похвал последню получить себе печать;</l>
+          <l part="N">Но тем самым из его носа растворенна</l>
+          <l part="N">Выпал на землю тот сыр. Лиска, ободренна</l>
+          <l part="N">Оною корыстью, говорит тому на смех:</l>
+          <l part="N"><q>Всем ты добр, мой Ворон; только ты без сердца мех</q>.<note resp="editor" place="unspecified" anchored="true"><quote>Без сердца мех</quote> - чучело.</note></l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

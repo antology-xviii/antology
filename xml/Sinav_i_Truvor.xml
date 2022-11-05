@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title type="main"> Синав и Трувор </title> <title type="subordinate">Представлена в первый раз в начале 1750 года на императорском театре в Петергофе</title></title>
+        <author>          <persName>            <forename full="yes">Александр </forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков </surname>           </persName>         </author>
+        <principal>Мария Буланская </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p/>
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Русская литература. Век XVIII. Трагедия. </title>
+            <editor role="editor"> А.В. Западов, Н.Д. Кочеткова, Д.С. Лихачев, А.М. Панченко, В.П. Степанов, Ю.В. Стенник </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Художественная литература</publisher>
+            <pubPlace>Москва </pubPlace>
+            <date>1991</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 2 </ref>
+            </note>
+          </notesStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Синав и Трувор. Трагедия Александра Сумарокова.</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> СПб., Печ. при Имп. Акад. наук. </publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1750 </date>       </creation>
+      <textClass default="false">
+        <catRef target="#drama" scheme="kind"/>
+        <catRef target="#tragedy" scheme="genre"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">самоубийство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">брак</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">неразделённая любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">долг</tei:span>
+    <front>
+      <performance>
+        <p>
+          <date>1750 </date>
+        </p>
+      </performance>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem type="role"><role xml:id="sinav">Синав </role>, <roleDesc>князь Российский    </roleDesc>.     </castItem>
+        <castItem type="role"><role xml:id="truvor">Трувор </role>, <roleDesc>брат его    </roleDesc>.     </castItem>
+        <castItem type="role"><role xml:id="gostomysl">Гостомысл </role>, <roleDesc> знатнейший    боярин Новогородский </roleDesc>.     </castItem>
+        <castItem type="role"><role xml:id="ilmena">Ильмена </role>, <roleDesc>дочь    его</roleDesc>.     </castItem>
+        <castItem type="role"><role xml:id="vestnik">Вестник </role>.    </castItem>
+        <castItem type="role"><role xml:id="pazh"> Паж </role>.       </castItem>
+        <castItem type="role"><role xml:id="voiny">Воины </role>.    </castItem>
+      </castList>
+      <set>
+        <p>Действие есть в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Новегороде </tei:orig><tei:reg>Великий    Новгород</tei:reg></tei:choice></tei:name>, в княжеском доме </p>
+      </set>
+    </front>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>ДЕЙСТВИЕ I </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 1 </head>
+            <stage type="setting">Гостомысл и Ильмена </stage>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Пришло желанное, Ильмена, мною время,    </l>
+              <l part="N">Соединить тобой моё с цесарским племя.<note resp="editor" place="unspecified" anchored="true"> Согласно    <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Синопсису </tei:orig><tei:reg>Киевский синопсис</tei:reg></tei:choice></title>    <author><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig> Иннокентия (Гизеля)    </tei:orig><tei:reg>архим. Иннокентий Гизель</tei:reg></tei:choice></author> </bibl> приглашенные в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" place"><tei:choice><tei:orig> Новгород </tei:orig><tei:reg>Великий    Новгород</tei:reg></tei:choice></tei:name> варяжские князья пришли <quote> от    немец</quote> , что дает основание сумароковскому Гостомыслу говорить о    породнении с <quote> цесарским племенем</quote>.</note>    </l>
+              <l part="N">Весь град сего часа нетерпеливо ждет,    </l>
+              <l part="N">В который кровь моя в порфире процветет.    </l>
+              <l part="N">Уж к браку олтари цветами украшенны,    </l>
+              <l part="N">И брачныя свещи в светильники вонзены.    </l>
+              <l part="N">Готовься, дщерь моя, готовься внити в храм.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Еще довольно дней осталося судьбам,    </l>
+              <l part="N">Которы погубить хотят меня несчастну    </l>
+              <l part="N">И бедную ввести в супружество бесстрастну.    </l>
+              <l part="N">Смотри ты, отче мой, на мой печальный зрак,    </l>
+              <l part="N">И если я мила, отсрочь, отсрочь сей брак.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Ты счастья своего поднесь не презирала    </l>
+              <l part="N">И князю никогда суровства не являла...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Но было из всего удобно рассудить,    </l>
+              <l part="N">Хочу ль с Синавом я в супружество вступить;    </l>
+              <l part="N">Желаю ль я сего,- хотя уста молчали,    </l>
+              <l part="N">Глаза мои тебе довольно отвечали.    </l>
+              <l part="N">Почто ты мною, князь, толь тщетно страстен стал!    </l>
+              <l part="N">А ты почто рвать дух толь твердо предприял?    </l>
+              <l part="N">Я лестного являть приветства не умею,    </l>
+              <l part="N">А истинной к нему любови не имею.    </l>
+              <l part="N">И ежели уже сему союзу быть,    </l>
+              <l part="N">Так, отче мой, хоть срок потщися отложить:    </l>
+              <l part="N">Прибави времени еще на размышленье,    </l>
+              <l part="N">Чтоб я им как-нибудь умерила мученье    </l>
+              <l part="N">И чтоб могла я слез потоки удержать,    </l>
+              <l part="N">Когда ко браку мне пред олтари предстать.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Несклонностию быть не можешь оправданна,    </l>
+              <l part="N">Синаву ты женой во мзду обетованна.    </l>
+              <l part="N">Во воздаянье он подъятых им трудов    </l>
+              <l part="N">И скипетр и тебя имеет от богов,    </l>
+              <l part="N">Которы, утишив мятеж его рукою,    </l>
+              <l part="N">Нам подали опять дни сладкого покою.    </l>
+              <l part="N">Не будь несмысленна, упрямство истреби    </l>
+              <l part="N">И, сердце обуздав, принудься и люби.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Когда бы сердцем льзя повелевати было,    </l>
+              <l part="N">По воле бы твоей оно его любило;    </l>
+              <l part="N">Но слаб рассудок мой природу одолеть,    </l>
+              <l part="N">И не могу себе толь много повелеть.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Представь его труды любви своей в посредство,    </l>
+              <l part="N">И мужеством его скончавшееся бедство.    </l>
+              <l part="N">Вообрази себе те страшны времена,<note resp="editor" place="unspecified" anchored="true">В    <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig> Синопсисе    </tei:orig><tei:reg>Киевский синопсис</tei:reg></tei:choice></title></bibl> (с. 22) говорится о <quote>великом междоусобии и    многом нестроении Российстии народи... </quote>. </note>    </l>
+              <l part="N">Когда мутился град и вся сия страна,    </l>
+              <l part="N">Отечество твое, отечество геройско,    </l>
+              <l part="N">И воружалося бунтуюшеся войско:    </l>
+              <l part="N">Прибыток всех вельмож во граде разделил,    </l>
+              <l part="N">Граждан и воинство на злобу устремил.    </l>
+              <l part="N">Уставы древние в презрение ниспали,    </l>
+              <l part="N">Правленье и суды всю область потеряли.    </l>
+              <l part="N">Един остался я при истине святой    </l>
+              <l part="N">И часть отечества вернейших чад со мной.    </l>
+              <l part="N">Коликое число смерть россов пожирала!    </l>
+              <l part="N">Их злоба на самих себя воспламеняла.    </l>
+              <l part="N">Друзья против друзей, родня против родни    </l>
+              <l part="N">Восстали разрушать благополучны дни.    </l>
+              <l part="N">Все домы были жен слезами окропленны,    </l>
+              <l part="N">И все поля мужей их кровью обагренны.    </l>
+              <l part="N">Алкал из сильных всяк правительство принять,    </l>
+              <l part="N">И не хотел никто законы защищать.    </l>
+              <l part="N">Воспомни, как твой брат оплакан был друзьями,    </l>
+              <l part="N">Мой сын, любезный сын, под градскими стенами.    </l>
+              <l part="N">Я сам изранен был и чаял умереть,    </l>
+              <l part="N">Сию ли бы по мне ты стала часть иметь.    </l>
+              <l part="N">К нам щедры небеса к скончанию печали    </l>
+              <l part="N">С полками трех князей для помощи послали!    </l>
+              <l part="N">Не для владения пришли они сюды:    </l>
+              <l part="N">Но только отвратить несчастливых беды.    </l>
+              <l part="N">Великодушием геройским восхищенны,    </l>
+              <l part="N">И славою одной к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Ильменю </tei:orig><tei:reg>Ильмень</tei:reg></tei:choice></tei:name>    провожденны.    </l>
+              <l part="N">Синав и братьями и мной повелевал    </l>
+              <l part="N">И воинство свое с моим соединял.    </l>
+              <l part="N">Тотчас погнался меч его в полках противных,    </l>
+              <l part="N">Предвозвещая мир со тьмой побед предивных.    </l>
+              <l part="N">Казалося, тряслась тогда над нами твердь.    </l>
+              <l part="N">Непобедимое оружие и смерть    </l>
+              <l part="N">Упрямство прежнее в покорство пременили    </l>
+              <l part="N">И, злобу утолив, сердца соединили.    </l>
+              <l part="N">Настала тишина, и в воздаянье сил,    </l>
+              <l part="N">Которыми сей князь напасти прекратил,    </l>
+              <l part="N">Единогласно все на трон его желали    </l>
+              <l part="N">И, умолив его, венцем его венчали.    </l>
+              <l part="N">Но духа скипетром Синав не веселил,    </l>
+              <l part="N">Синав, во торжестве вздыхая, говорил:    </l>
+              <l part="N">На что мне то, что я владети удостоен?    </l>
+              <l part="N">Ваш князь, о Гостомысл, не может быть спокоен,    </l>
+              <l part="N">Доколе от тебя того не получит,    </l>
+              <l part="N">Что ныне все его веселие мрачит.    </l>
+              <l part="N">Я мысль его познал, любовь явна мне стала,    </l>
+              <l part="N">Котора на его оковы налагала;    </l>
+              <l part="N">В победах, под венцем, во славе, в торжестве,    </l>
+              <l part="N">Спастися от любви нет силы в существе.    </l>
+              <l part="N">Что было мне сказать? Безумно прекословить,    </l>
+              <l part="N">Когда стремится нам рок счастие готовить.    </l>
+              <l part="N">И если б я ему в сем даре отказал,    </l>
+              <l part="N">Народ бы, мя презрев, ему Ильмену дал.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Какие правы то и сей устав отколе?    </l>
+              <l part="N">Народ бы дал меня! Иль я живу в неволе?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Не только для него корону восприять,    </l>
+              <l part="N">Для общества живот нам должно потерять.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Супружество сие народу бесполезно,    </l>
+              <l part="N">А мне, ах! бедственно, увы! и смертно слезно.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Полезно в крайности защитника ласкать    </l>
+              <l part="N">И хвально милости заслугой воздавать:    </l>
+              <l part="N">Кто страждет, от того почтение не дико,    </l>
+              <l part="N">Когда беды прейдут, тогда оно велико.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Но не довольно ли защитник наш почтен?    </l>
+              <l part="N">Он нами царствовать над нами возведен.    </l>
+              <l part="N">Послушна я тебе и сей достойной власти    </l>
+              <l part="N">И быть хочу рабой, не ощущая страсти!    </l>
+              <l part="N">Похвальней мне ему рабою верной быть,    </l>
+              <l part="N">Как, став супругою, супруга не любить.    </l>
+              <l part="N">Он млад, красен, герой-глаза мои то видят,-    </l>
+              <l part="N">Но в нем любовника противна ненавидят.    </l>
+              <l part="N">Вини безумие, что хочешь ты вини,    </l>
+              <l part="N">Но лишь намеренье, коль можешь, отмени.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Я слово дал.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N"><space dim="horizontal" extent="12 letters"/>Меня не вопросив, ах!    прежде.    </l>
+              <l part="N">Почто ты в таковой был суетной надежде,    </l>
+              <l part="N">Что будет с князем сим приятен мне союз?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Отврата от таких тебе преславных уз    </l>
+              <l part="N">Ни мало во уме моем не представлялось,    </l>
+              <l part="N">Желание его мне счастием являлось.    </l>
+              <l part="N">Когда ж нечаянно я в том обманут стал,    </l>
+              <l part="N">Не обвиняй меня, что я то слово дал,    </l>
+              <l part="N">Не мучь вздыханием своим меня напрасно.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Супружество сие мне так, как смерть, ужасно.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Когда тебя любовь со князем сим делит,    </l>
+              <l part="N">Привычка с ним тебя, Ильмена, съединит.    </l>
+              <l part="N">Последуй моему родительску совету    </l>
+              <l part="N">И не бесчесть меня пременою обету.    </l>
+              <l part="N">Привычка естества сильняе иногда.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Я буду воздыхать и сетовать всегда.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Что ж князю я скажу, не пременяя слова?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                  </p>
+              <l part="N">Я для тебя уже прияти смерть готова.    </l>
+              <l part="N">Но предприяв, никак того не пременить,    </l>
+              <l part="N">Хоть три дни дай еще мне, отче мой, прожить.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Не представляй в уме такой суровой страсти,    </l>
+              <l part="N">Не вображай себе без бедствия напасти;    </l>
+              <l part="N">Но в трех желанных днях ты горесть утиши    </l>
+              <l part="N">И бедственный сей боль скорбящия души.         </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Ильмена (одна) </stage>
+            <l part="N">Исполнится сие мне злое приключенье,    </l>
+            <l part="N">И окончается по трех днях все мученье,    </l>
+            <l part="N">Которым ты меня, мой отче, погубил.    </l>
+            <l part="N">А ты, который мя несклонну полюбил,    </l>
+            <l part="N">Увидишь не в одре меня по песнях брачных:    </l>
+            <l part="N">Не в одр пойду-во гроб, и там в пещерах мрачных    </l>
+            <l part="N">Я сердце, коль его принудить не могу,    </l>
+            <l part="N">Любезну Трувору невинно сберегу!    </l>
+            <l part="N">Но я, несчастная, не ведая, вещаю,    </l>
+            <l part="N">Любовнику ль уже я сердце посвящаю!    </l>
+            <l part="N">Не суетою ли я льщу, себе маня,    </l>
+            <l part="N">Не облыгают ли глаза мои меня    </l>
+            <l part="N">И представляют мне на скорби и мученье    </l>
+            <l part="N">Признаками любви единое почтенье!    </l>
+            <l part="N">Ах! нет: его мне взор вседневно говорит,    </l>
+            <l part="N">Что сердце и его любовию горит.    </l>
+            <l part="N">Когда ты, о любовь, с судьбой не согласилась,    </l>
+            <l part="N">Несчастная любовь, почто ты в нас вселилась?    </l>
+            <l part="N">Пылай во мне любовь! Не долго мне гореть.    </l>
+            <l part="N">О солнце! скоро я тебя престану зреть!         </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3 </head>
+            <stage type="setting">Синав, Трувор и Ильмена </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                  </p>
+              <l part="N">Ко угождению тебе наш брак отсрочен,    </l>
+              <l part="N">Перед тобой и в том я буду беспорочен.    </l>
+              <l part="N">Но отчего в тебе смятение сие,    </l>
+              <l part="N">Которо мне теперь явит лице твое?    </l>
+              <l part="N">Стенящу зрю тебя, смущенну, торопливу,    </l>
+              <l part="N">Или, в плененье взяв ты душу горделиву,    </l>
+              <l part="N">Намерена во мзду любви меня томить    </l>
+              <l part="N">И бодрствующий дух в унылый пременить?    </l>
+              <l part="N">Какою пред тобой виновен я прослугой:    </l>
+              <l part="N">Или что делаю тебя своей супругой    </l>
+              <l part="N">И возвожу на трон с собою обладать,    </l>
+              <l part="N">Из уст твоих хочу уставы я подать?    </l>
+              <l part="N">Что ты, дражайшая, час брака удалила,    </l>
+              <l part="N">Ты сим меня одним довольно огорчила.    </l>
+              <l part="N">Почто супружество нам дале отлагать,    </l>
+              <l part="N">И нежную мне страсть еще превозмогать?    </l>
+              <l part="N">Свидетельствуюсь им <stage type="delivery"> (указывая на Трувора)</stage>,                                               размучен мысльми злыми,    </l>
+              <l part="N">Как жестоко пронзен я взорами твоими!    </l>
+              <l part="N">Он точно ведает, как я тебя люблю,    </l>
+              <l part="N">И знает только ночь, спокойно ли я сплю.    </l>
+              <l part="N">Что ты несклонна мне, я видел то и прежде,    </l>
+              <l part="N">Но, зря почтение, был в страхе и надежде.    </l>
+              <l part="N">И ежели была несклонность от стыда,    </l>
+              <l part="N">Так не был я тобой несчастлив никогда.    </l>
+              <l part="N">А ежели не стыд я вижу пред собою,    </l>
+              <l part="N">О коль несчастлив я, дражайшая, тобою!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Не спрашивай теперь смятения вины:    </l>
+              <l part="N">Из уст уведаешъ ты то своей жены!    </l>
+              <l part="N">Что мне велел отец, то мною утвержденно,    </l>
+              <l part="N">И вниду в храм с тобой, хотя бы принужденно.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                  </p>
+              <l part="N">Я все твои слова приемлю за устав    </l>
+              <l part="N">И быть хочу во всем перед тобою прав;    </l>
+              <l part="N">В тебе любовницу я чту и дщерь геройску.    </l>
+              <l part="N">Скажи ты, Трувор, то жрецам, вельможам, войску,    </l>
+              <l part="N">Что радости свои уже отсрочил я,    </l>
+              <l part="N">И повтори сие родителю ея,    </l>
+              <l part="N">Что я исполнил то.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4 </head>
+            <stage type="setting">Ильмена и Трувор </stage>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                  </p>
+              <l part="N"><space dim="horizontal" extent="16 letters"/>Так ты уж предприяла    </l>
+              <l part="N">Его супругой быть.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Хотя и не желала.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">О коль несчастный брат ты ныне счастлив стал!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Ты счастием его напасть мою назвал:    </l>
+              <l part="N">По повелению ему супругой буду,    </l>
+              <l part="N">Но в одр... чего хочу?., пойдем скоряй отсюду.    </l>
+              <l part="N">Исполнь его приказ.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                  </p>
+              <l part="N"><space dim="horizontal" extent="19 letters"/>Почто ему я брат!    </l>
+              <l part="N">Увы! почто, когда пленил его твой взгляд!    </l>
+              <l part="N">О дружба! О родство! Вы мне противны стали!    </l>
+              <l part="N">Вы мне источники смертельныя печали!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Молчи, о князь, молчи! не изъясняй себя.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Возможно ли молчать, лишаяся тебя!    </l>
+              <l part="N">И ах! на что ты мне молчать напоминаешь?    </l>
+              <l part="N">Что я тебя люблю, уже давно ты знаешь.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Какой еще удар мне сердце уразил,    </l>
+              <l part="N">Почто дражайший взор ты грудь мою пронзил!    </l>
+              <l part="N">О солнце! Небеса! О праведные боги!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">О время! О судьбы! за что вы нам толь строги!    </l>
+              <l part="N">Удобно ли мне скорбь такую претерпеть,    </l>
+              <l part="N">Что буду я тебя чужой супругой зреть,    </l>
+              <l part="N">Красу твою чужим желаниям вручен    </l>
+              <l part="N">И сердца моего утеху похищенну?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Я с именем умру любовницы твоей    </l>
+              <l part="N">И девой сниду в гроб; не чувствуй муки сей.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Ты брату моему хотела быть женою.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Не обвиняй меня невольною виною    </l>
+              <l part="N">И дай исполнити родительский приказ.    </l>
+              <l part="N">Ах! есть ли в свете кто несчастливее нас!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Твой дух, не так как мой, сим браком будет мучен,    </l>
+              <l part="N">А я пребуду в век на свете злополучен;    </l>
+              <l part="N">Хотя мой век напасть и скоро весь промчит,    </l>
+              <l part="N">Когда она меня с тобою разлучит.    </l>
+              <l part="N">И как меня, увы! пожрет земли утроба,    </l>
+              <l part="N">Приди когда-нибудь ко мне на место гроба;    </l>
+              <l part="N">И если буду жить я в памяти твоей,    </l>
+              <l part="N">Хоть малу жертву дай во тьме душе моей,    </l>
+              <l part="N">И, тень вообразя мою перед глазами,    </l>
+              <l part="N">Оплачь мою злу часть, омой мой гроб слезами.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Владычествуй собой и менее страдай,    </l>
+              <l part="N">А жертвы от меня иныя ожидай.    </l>
+              <l part="N">Не слезы буду лить я, жертвуя любови-    </l>
+              <l part="N">Когда тебя лишусь, польются токи крови.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Поняти не могу я сих твоих речей.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Поймешь, когда моих померкнет свет очей.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Мне мысль твоя темна, как я ни рассуждаю.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Скончаем разговор, я паче им страдаю.    </l>
+              <l part="N">О Трувор! ты мне мил, но мне твоей не быть;    </l>
+              <l part="N">Ничто не может нас с тобой совокупить.    </l>
+              <l part="N">Умерь свою тоску, лишаяся Ильмены,    </l>
+              <l part="N">Уже не получишь страданием премены.    </l>
+              <l part="N">Сноси сию болезнь, надежду погубя,    </l>
+              <l part="N">Для горьких слез моих, пролитых для тебя.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Какою мучуся я лютою судьбою!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Скрывай любовь! Отец Ильмены пред тобою.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5 </head>
+            <stage type="setting">Трувор, Ильмена и Гостомысл </stage>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                 </p>
+              <l part="N">Мой брат с Ильменою о браке говорил    </l>
+              <l part="N">И сделал, как о том его ты сам просил,    </l>
+              <l part="N">Покорствуя во всем твоей прекрасной дщери.    </l>
+              <l part="N">Уже затворены отверсты в храме двери.    </l>
+              <l part="N">А мне он дал приказ, чтоб я тебе сказал,    </l>
+              <l part="N">Что он исполнил то, на что он слово дал.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">К нему на всякий день растет мое почтенье.    </l>
+              <l part="N">Скажи Синаву ты мое благодаренье...    </l>
+              <l part="N">Но что ты, князь... и ты, мятешься, вся стеня!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Мятусь, остави ты в смятении меня.    </l>
+              <l part="N">Я горести своей даюся безрассудно,    </l>
+              <l part="N">Как должность ни храню, принудить сердце трудно.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Не познаваю ль я желанья твоего?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Мое желанье-смерть. Нет больше ничего,    </l>
+              <l part="N">Что в скорби мне б моей целенье обещало    </l>
+              <l part="N">И утешение малейше предвещало.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Написано уже на ваших мне очах:    </l>
+              <l part="N">Сокрыто таинство во обоих сердцах.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Коль ты его познал из обстоятельств вредных,    </l>
+              <l part="N">Почувствуй нашу скорбь и сожалей о бедных.     </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                 </p>
+              <l part="N">Отколе ты взялся, собор толиких мук!    </l>
+              <l part="N">Кто хочет из моих любезную взять рук!    </l>
+              <l part="N">Мой брат. И кто ее из рук моих вручает?    </l>
+              <l part="N">Отец ея. Увы! мой дух изнемогает.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Колико ты, судьба, несчастных собрала    </l>
+              <l part="N">В сии в сем граде дни!..      </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">   (Гостомыслу) </stage>
+              <p>             </p>
+              <l part="N"><space dim="horizontal" extent="24 letters"/>Коль я тебе мила...    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <stage type="delivery">   (Трувору) </stage>
+              <p>                  </p>
+              <l part="N">Преодолей себя и вознесися паче,    </l>
+              <l part="N">Не оставляй свою возлюбленную в плаче.    </l>
+              <l part="N">Она последует примеру твоему.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                   </p>
+              <l part="N">Иного нет конца днесь бедствию сему...    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                  </p>
+              <l part="N">Не множьте моего вы больше огорченья,    </l>
+              <l part="N">Поди, поди и ты, не множь ея мученья.     </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <stage type="delivery">   (отходя) </stage>
+              <p>                                          </p>
+              <l part="N">Не буду сопряжен во веки я с тобой!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">   (отходя) </stage>
+              <p>                  </p>
+              <l part="N">Бори свою любовь и овладей собой!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 6 </head>
+            <stage type="setting">Гостомысл (один) </stage>
+            <l part="N">По окончании народныя печали    </l>
+            <l part="N">Такой ли радости вы, мысли, ожидали?    </l>
+            <l part="N">Синав! О храбрый князь! Я к току горьких слез    </l>
+            <l part="N">Любезной дочери тебя на трон вознес.    </l>
+            <l part="N">О злополучие! Или ты мне природно?    </l>
+            <l part="N">Я зрю, что все мое старание бесплодно:    </l>
+            <l part="N">Беды родят беды, не вижу им конца,    </l>
+            <l part="N">И сделали меня тираном из отца.  </l>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>ДЕЙСТВИЕ II </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 1 </head>
+            <stage type="setting">Синав и Трувор </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Я стражду в муке злой невестою своею.    </l>
+              <l part="N">Скажи мне, Трувор, ты остался тамо с нею,    </l>
+              <l part="N">Не внял ли ты из слов ея любви какой,    </l>
+              <l part="N">Которая б ея разрушила покой.    </l>
+              <l part="N">Конечно, душу то Ильмены возмущает    </l>
+              <l part="N">И от супружества толь знатна отвращает.    </l>
+              <l part="N">Во граде, при дворе или в чертогах сих,    </l>
+              <l part="N">Конечно, некто ей причиной мук таких,    </l>
+              <l part="N">Конечно, кто при мне, в полках или гражданстве,    </l>
+              <l part="N">Из подданных моих, имея ту в подданстве,    </l>
+              <l part="N">Котора возмогла их князем овладеть,    </l>
+              <l part="N">Отъемлет сердце... ах! возможно ль то стерпеть!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">А ежели то так, и если то познаешь,    </l>
+              <l part="N">Что в сей горячности ты суетно стонаешь?    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Кто тщится все мои утехи погубить,    </l>
+              <l part="N">Тот дерзостью мой гнев стремится возбудить.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Так к казни общество себе тебя венчало?    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Тиранство от любви не раз уже бывало.    </l>
+              <l part="N">О небо! в сердце мне щедроту вкореня,    </l>
+              <l part="N">Не сделай на конец мучителем меня!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Кто хочет помнить долг, не может быти злобен:    </l>
+              <l part="N">Не забывай его и будь себе подобен.    </l>
+              <l part="N">Коль будем таковы, что скажет град о нас?    </l>
+              <l part="N">Какой по северу отсель раздастся глас?    </l>
+              <l part="N">Что будут мыслити державы сей соседы?    </l>
+              <l part="N">Умолкнет славы рог, померкнут все победы,    </l>
+              <l part="N">Которыми мы толь высоко вознеслись;    </l>
+              <l part="N">И для того ль, когда граждане здесь спаслись,    </l>
+              <l part="N">Мы бремя их от них толь славно отвратили,    </l>
+              <l part="N">Чтоб бременем своим мы их отяготили.    </l>
+              <l part="N">Наш младший брат отсель отсутствен,<note resp="editor" place="unspecified" anchored="true">Имеется в виду,    вероятно, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Рурик</tei:orig><tei:reg>Рюрик</tei:reg></tei:choice></tei:name>, хотя, согласно    <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>   Синопису...</tei:orig><tei:reg>Киевский синопсис</tei:reg></tei:choice></title></bibl>, он был старшим из трех братьев.    </note>     смею я    </l>
+              <l part="N">Один тебе сказать, что страждет честь твоя.    </l>
+              <l part="N">Раби твои, о князь! твои любезны дети,    </l>
+              <l part="N">Не зачинай иным ты образом владети!    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                     </p>
+              <l part="N">Когда бы ты кого толико сам любил,    </l>
+              <l part="N">Так ты сию бы речь конечно позабыл.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Нет, истина бы мне была во основанье:    </l>
+              <l part="N">Я б начал умерять неправое желанье    </l>
+              <l part="N">И, воспротивясь бы природе сколько мог,    </l>
+              <l part="N">Сей пламень бы смягчил, который бы мя жог.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Я чувствую в себе болезнь неутолиму.    </l>
+              <l part="N">Что зляй есть, как любить и, ах! не быть любиму!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Еще стократно зляй: в любви взаимной тлеть    </l>
+              <l part="N">И в сладостях ея надежды не иметь.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Я б горесть такову вкушал, алкая, в сладость,    </l>
+              <l part="N">Печали бы мои в себе имели радость.    </l>
+              <l part="N">Хотя бы я в любви утехи не имел,    </l>
+              <l part="N">Я б тем доволен был, что сердцем я владел,    </l>
+              <l part="N">Которое бы мне вздыхание давало,    </l>
+              <l part="N">Вздыхание б мое подобно воспримало;    </l>
+              <l part="N">Я всю б мою напасть с любезной разделял    </l>
+              <l part="N">И сим страданием себя увеселял.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Ильмена ли одна красу очам являет?    </l>
+              <l part="N">Красавицами все жилище здесь сияет.    </l>
+              <l part="N">Природа лучших дев в сей град произвела,    </l>
+              <l part="N">Любовь сии брега столицей избрала    </l>
+              <l part="N">И, землю осудив сию на жертву хладу,    </l>
+              <l part="N">Рождает красоту на место винограду.    </l>
+              <l part="N">Всмотрись когда-нибудь в собраньи, в торжестве:    </l>
+              <l part="N">Что краше наших дев ты сыщешь в естестве!    </l>
+              <l part="N">Всмотрись и, отвратив ты взор от сей суровой,    </l>
+              <l part="N">Другую избери и тай в любови новой,    </l>
+              <l part="N">Которая б тебе в утеху принесла.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Уже сия любовь высоко возросла    </l>
+              <l part="N">И твердо корень свой по сердцу пространила,    </l>
+              <l part="N">Ильменина краса навек меня пленила!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Те же и Гостомысл </stage>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                                         </p>
+              <l part="N">Благодаренье, князь, мое донесено...     </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                                             </p>
+              <l part="N">Но сердце, ах! мое смертельно стеснено.    </l>
+              <l part="N">Я дочерью твоей смущен неизреченно,    </l>
+              <l part="N">Весь ум, все чувствие Ильменой огорченно,    </l>
+              <l part="N">Мне жизнь без сих очей и счастье суета,    </l>
+              <l part="N">Отвергла мысли все сей девы красота,    </l>
+              <l part="N">Успехи славных дел моих остановила    </l>
+              <l part="N">И к малодушию мой гордый дух склонила.    </l>
+              <l part="N">На что над россами тобой приял я власть,    </l>
+              <l part="N">Коль мещет мя, как вал малейше судно, страсть?    </l>
+              <l part="N">На что я в сей стране народами владею,    </l>
+              <l part="N">Коль больше над собой я власти не имею!    </l>
+              <l part="N">Я вижу то, что я красавице не мил.    </l>
+              <l part="N">К чему меня, к чему мой рок определил!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                                         </p>
+              <l part="N">Когда она твоей супругой назовется,    </l>
+              <l part="N">Тогда и грусть твоя и мука разорвется.    </l>
+              <l part="N">Ильмену знаю я: мне нрав ея знаком,    </l>
+              <l part="N">Хоть подлинно она вздыхает днесь о ком,    </l>
+              <l part="N">Супругой став твоей, она его забудет    </l>
+              <l part="N">И верность наблюдать к тебе по гроб свой будет.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Но, может быть, как яд, в уме ея Синав!    </l>
+              <l part="N">Хоть добродетелен сея девицы нрав,    </l>
+              <l part="N">Хоть толь душа ея чиста, коль тело красно,    </l>
+              <l part="N">Но если сердце в ней ко мне, увы! бесстрастно,    </l>
+              <l part="N">К какой утехе мне Ильменою владеть,    </l>
+              <l part="N">Коль буду завсегда ее печальну зреть:    </l>
+              <l part="N">Приветство должностью одной имети стану    </l>
+              <l part="N">И буду зреть ее подвластною тирану?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                                         </p>
+              <l part="N">Коль склонности не зришь ты, дочь мою любя!    </l>
+              <l part="N">Ты беден, а она еще бедняй тебя.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Что ты ни говоришь, мне все предвозвещает,    </l>
+              <l part="N">Что мне надежда все напрасно обещает.    </l>
+              <l part="N">В какую, небеса, низвержен я напасть!    </l>
+              <l part="N">О вредный жар крови! О бесполезна страсть!    </l>
+              <l part="N">Скажи, о Гостомысл! мое несносно бедство,    </l>
+              <l part="N">И если льзя сыскать к тому какое средство,    </l>
+              <l part="N">Употребляй его, употребляй, мой друг;    </l>
+              <l part="N">Мне радость та мала, что буду ей супруг    </l>
+              <l part="N">И буду зреть ее с собою на престоле,    </l>
+              <l part="N">На одр и на престол возшедшу поневоле!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                                         </p>
+              <l part="N">К склонению любви нет больше ничего    </l>
+              <l part="N">Для исполнения желанья твоего;    </l>
+              <l part="N">Что мог, я сделал все, чтоб дать тебе утеху,    </l>
+              <l part="N">Но кроме должности не вижу я успеху.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">О, должность малое веселие в любви,    </l>
+              <l part="N">Прохлада слабая горящия крови!    </l>
+              <l part="N">Куда прибегну я и что начну к отраде!    </l>
+              <l part="N">Я вижу смерть мою в прельщающем мя взгляде.    </l>
+              <l part="N">Живуща в разуме Синавовом краса    </l>
+              <l part="N">От пагубного дня и лютого часа,    </l>
+              <l part="N">Как сердца моего свобода отлучалась,    </l>
+              <l part="N">И мысль моя среди надежды огорчалась,    </l>
+              <l part="N">Терзаючи меня, колеблет весь мой ум,    </l>
+              <l part="N">И нет пристанища моих блудящих дум.    </l>
+              <l part="N">Что сделалось, Синав, что сделалось с тобою!    </l>
+              <l part="N">Сия ль прилична жизнь владыке и герою?    </l>
+              <l part="N">Как войско, чтит тебя народ и Гостомысл!    </l>
+              <l part="N">Где делось мужество! Где делся ты, мой смысл!    </l>
+              <l part="N">Когда меня глаза Ильменины прельстили,    </l>
+              <l part="N">Все мужество мое вы, боги, отвратили!    </l>
+              <l part="N">Повсюду я хожу, вздыхая и стеня:    </l>
+              <l part="N">Ах! есть ли в свете кто несчастнее меня?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>                                         </p>
+              <l part="N">Не ты, о государь! несчастней всех во граде,    </l>
+              <l part="N">Не ты один живешь в любовной здесь досаде,    </l>
+              <l part="N">Рассудок, здравие и мужество губя.    </l>
+              <l part="N">Есть люди, кои в том несчастнее тебя.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3 </head>
+            <stage type="setting">Синав и Трувор </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Сим он смятения и грусти мне прибавил    </l>
+              <l part="N">И в безызвестии лютейшем мя оставил.    </l>
+              <l part="N">Сумнение мое совсем разрешено,    </l>
+              <l part="N">Но кто меня губит, того не внушено.    </l>
+              <l part="N">Любезный Трувор! зри, как брат твой днесь страдает,    </l>
+              <l part="N">Вся злаго счастия им ярость обладает.    </l>
+              <l part="N">Скажи, не знаешь ли, возлюбленный мой брат,    </l>
+              <l part="N">Кого полезно толь склонил Ильменин взгляд?    </l>
+              <l part="N">Ах! нет, когда б ты, князь, о сем уведал деле,    </l>
+              <l part="N">Ты б, видя, как мой дух страдает в томном теле,    </l>
+              <l part="N">Давно мне знати дал, чью кровь мне должно лить,    </l>
+              <l part="N">И грудь, в котору мне сей острый меч вонзить.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Лишенный вольности, надежды и покою,    </l>
+              <l part="N">Пролей, о государь, своей ту кровь рукою!    </l>
+              <l part="N">Свирепствуй, варварствуй и устремляйся в месть,    </l>
+              <l part="N">Коль можешь острый меч на друга ты вознесть!    </l>
+              <l part="N">Вонзай оружие, сражай его, бессловна,    </l>
+              <l part="N">Вот грудь, которая перед тобой виновна!    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Мечту я зрю!.. Ах! ты отъемлешь жизнь мою!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>                                                        </p>
+              <l part="N">Я тайны своея уж больше не таю.    </l>
+              <l part="N">Отмщай сие ты мне, что ею ты крушился!    </l>
+              <l part="N">Рази, доколе я Ильмены не лишился!    </l>
+              <l part="N">Когда отнимешь ты любезну у меня,    </l>
+              <l part="N">Не жалобой одной воздам тебе стеня.    </l>
+              <l part="N">Рази теперь! Тогда карать меня уж поздно.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Бывало ль, время, ты, кому толико грозно!    </l>
+              <l part="N">Забуди дружество или-сей девы взгляд,    </l>
+              <l part="N">Не будь любовником или не буди брат!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <stage type="delivery">(отходя) </stage>
+              <p>                                          </p>
+              <l part="N">Драгая имена, сии священны оба.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Ужасная любовь! ты мне страшняе гроба!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4 </head>
+            <stage type="setting">Синав (один) </stage>
+            <l part="N">Се злое таинство открылося уж мне.    </l>
+            <l part="N">Иль то, что слышал я, услышал я во сне!    </l>
+            <l part="N">Вздымаются власы, и сердце, ах! томится,    </l>
+            <l part="N">Трясется подо мной земля, и небо тмится!    </l>
+            <l part="N">Ильмена!.. Трувор!.. Ах!.. В которую страну    </l>
+            <l part="N">Я с большей жалостью, несчастливый, взгляну!    </l>
+            <l part="N">Мой брат! Любезный брат! Я друг тебе неложно...    </l>
+            <l part="N">Ильмена! мне тебя покинуть невозможно!    </l>
+            <l part="N">Лишь только мой язык то имя наречет,    </l>
+            <l part="N">Великодушие в минуту утечет.    </l>
+            <l part="N">Собрание приятств, приятнейшее тело!    </l>
+            <l part="N">Все счастие мое отселе отлетело.    </l>
+            <l part="N">Подвластну ныне став прелестной красоте,    </l>
+            <l part="N">Прилично ли прервать, природа, узы те,    </l>
+            <l part="N">Которыми меня преславна кровь сковала,    </l>
+            <l part="N">Где дружба многих лет приятно пребывала?    </l>
+            <l part="N">О дружба! О родство! О хвальные дела!    </l>
+            <l part="N">Судьба, котора нас ко граду привела,    </l>
+            <l part="N">Для сих ли следствий вы пути сюда открыли,    </l>
+            <l part="N">Чтоб мы друг другу рвы к падению изрыли?    </l>
+            <l part="N">И чтобы в брате зрел я лютого врага!    </l>
+            <l part="N">О бедоносный град! Противные брега!    </l>
+            <l part="N">Как мы пришед сюда, осталися со славой,    </l>
+            <l part="N">Кто чаял то, что вы наполнены отравой!    </l>
+            <l part="N">Не знаю, Трувор, я, губимый страстью сей,    </l>
+            <l part="N">Еще ли ты мне брат иль лютый мне злодей!    </l>
+            <l part="N">Злодей!.. О небеса! Какую мысль имею!    </l>
+            <l part="N">Но братом я тебя назвати не умею:    </l>
+            <l part="N">Отъемлешь у меня, что мне миляй всего.    </l>
+            <l part="N">Отъемлешь... отнял уж!.. что зляе мне сего!    </l>
+            <l part="N">О, если дружбу он мою еще вспомянет    </l>
+            <l part="N">И мне прелестную любити перестанет,    </l>
+            <l part="N">Великодушие такое чем воздам!    </l>
+            <l part="N">Но привлеченного к Ильмениным очам    </l>
+            <l part="N">Ничто не возвратит уж более к свободе,    </l>
+            <l part="N">Нет краше ничего ея во всей природе.    </l>
+            <l part="N">О боги! О судьба! скончайте тяжкий стон    </l>
+            <l part="N">И превратите мне в мечту сей день и сон,    </l>
+            <l part="N">И приведения такие к сердцу люты!    </l>
+            <l part="N">А я зрю в яве вас, о злобнейши минуты!  </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5 </head>
+            <stage type="setting">Синав и Ильмена</stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>         </p>
+              <l part="N">Позналася уже твоя ко мне любовь.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Что Трувор объявил, я то вещаю вновь.    </l>
+              <l part="N">Зловредная к нему горячность мя склонила,    </l>
+              <l part="N">И с ним меня любовь навек соединила...    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Навек?.. Но помнишь ли, что будешь мне жена    </l>
+              <l part="N">И что Синаву ты в супружество дана?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Когда, о государь, твоей супругой буду,    </l>
+              <l part="N">По должности тогда я Трувора забуду.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Сама сказала ты, что ты навек его.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Не долго стану ждать кончанья своего:    </l>
+              <l part="N">И может быть, как жизнь моя с твоей спряжется,    </l>
+              <l part="N">Что в самый тот злой час и дух мой прочь возьмется.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Какой за жар любви готовишь ты удар!    </l>
+              <l part="N">К тому ли во крови моей родился жар!    </l>
+              <l part="N">Час брака нашего ты лютым называешь,    </l>
+              <l part="N">И, пораженная, грустишь и унываешь    </l>
+              <l part="N">И вместо всей мне мзды мой тщишься дух мутить!    </l>
+              <l part="N">Изрядно мне любовь стараешься платить.    </l>
+              <l part="N">Иль страсть моя к тебе еще мала быть мнится?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Вспаленный мной, твой дух неволею томится!    </l>
+              <l part="N">Ты, сердце суетной надеждой возманя,    </l>
+              <l part="N">Против желания, ах! любишь, князь, меня,    </l>
+              <l part="N">Влюбясь, не предузнав хотенью следства злого,-    </l>
+              <l part="N">Против желания и я люблю другого.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Какие с страсти сей сбираю я плоды!    </l>
+              <l part="N">Безмерная любовь сея ль достойна мзды!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Его к Ильмене страсть твоей сильняе страсти,    </l>
+              <l part="N">И больше много раз напасть твоей напасти.    </l>
+              <l part="N">Тебя ко мне любовь в злу горесть привела,    </l>
+              <l part="N">Что ты упорну зришь ту, кто тебе мила:    </l>
+              <l part="N">А Трувор уж ничем тоски не умеряет,    </l>
+              <l part="N">Он верную свою любовницу теряет.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Прилично ль так тебе себя именовать,    </l>
+              <l part="N">Коль брак велит тебе с ним узы разорвать?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Колико житие не стало мне превратно,    </l>
+              <l part="N">Любовницы его, ах! имя мне приятно.    </l>
+              <l part="N">Еще тебе, еще Ильмена не жена,    </l>
+              <l part="N">Доколь не буду я с тобой сопряжена,    </l>
+              <l part="N">Позволь сим именем Ильмене нарицаться!    </l>
+              <l part="N">Кого ты бедной мне, судьба, велишь лишаться?    </l>
+              <l part="N">Я слабости моей не крою пред тобой:    </l>
+              <l part="N">Смотри на скорбь мою и сжалься надо мной,    </l>
+              <l part="N">Дай сердцу моему иметь, чего желает,    </l>
+              <l part="N">И чем оно, и грудь, и кровь моя пылает,    </l>
+              <l part="N">Колико не храню родительский приказ,    </l>
+              <l part="N">Приятность можешь ли от сих имети глаз,    </l>
+              <l part="N">Которые тобой на слезы осужденны?    </l>
+              <l part="N">Иль чувствия твои все злобой побежденны,    </l>
+              <l part="N">И сердце варварско в себе имеешь ты?    </l>
+              <l part="N">Какие в том лице ты ищешь красоты,    </l>
+              <l part="N">Которо от тебя вседневно увядает?    </l>
+              <l part="N">И здравие, и жизнь Ильмену покидает.    </l>
+              <l part="N">Не буди, государь! причиной смерти мне!    </l>
+              <l part="N">Ты начал царствовать с щедротой в сей стране:    </l>
+              <l part="N">Благополучием явил себя народа,    </l>
+              <l part="N">И что произвела на то тебя природа,    </l>
+              <l part="N">Чтоб ты ко истине свой разум простирал    </l>
+              <l part="N">И плачущих рабов ты слезы отирал.    </l>
+              <l part="N">С престола бедных вопль и стон смиренно внемлешь,    </l>
+              <l part="N">Мою ли только жизнь безвинно ты отъемлешь?    </l>
+              <l part="N">И правосудья где искати больше нам,    </l>
+              <l part="N">Когда разрушити его стремишься сам.    </l>
+              <l part="N">Оставь меня! Ты тем геройство усугубишь,    </l>
+              <l part="N">И граду покажи, что как меня ни любишь,    </l>
+              <l part="N">Что к увенчанию своих прехвальных дел    </l>
+              <l part="N">Любови пламенной ты славу предпочел,    </l>
+              <l part="N">И как от страсти грудь Синавова дрожала,    </l>
+              <l part="N">Душа над страстью сей победу одержала.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Какой, жестокая, совет ты мне даешь!    </l>
+              <l part="N">Всей силою меня к бесславию влечешь    </l>
+              <l part="N">И, кроя от меня дражайшия забавы,    </l>
+              <l part="N">В несносной мне тоске велишь искати славы!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">   (отходя) </stage>
+              <p>                                         </p>
+              <l part="N">Коль ты не жалостлив, отъемли мой живот!    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Что скажешь ты о мне, страны сея народ,    </l>
+              <l part="N">Когда ты слабости души моей познаешь?    </l>
+              <l part="N">Ах! то ли царский долг, что рвешься и стенаешь!  </l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>ДЕЙСТВИЕ III </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 1 </head>
+            <stage type="setting">Гостомысл и Ильмена </stage>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Я вижу скорбь твою, и слышу тяжкий стон,    </l>
+              <l part="N">И знаю сам, каков велик тебе урон:    </l>
+              <l part="N">Терять любовника, жар сильный побеждати,    </l>
+              <l part="N">И, в женской слабости, страсть нежну принуждати;    </l>
+              <l part="N">Но ты мне дочь: бори желание любви    </l>
+              <l part="N">И покажи, от чьей родилась ты крови!    </l>
+              <l part="N">Яви, что дух в тебе родительский хранится    </l>
+              <l part="N">И род его тобой преславно обновится!    </l>
+              <l part="N">Великодушием наполнив краткий век,    </l>
+              <l part="N">Уподобляется бессмертным человек:    </l>
+              <l part="N">Прекрасна, и млада, и в самом лучшем цвете,    </l>
+              <l part="N">Любима тем, кто мил тебе всех паче в свете,    </l>
+              <l part="N">Когда возможешь ты себя преодолеть,    </l>
+              <l part="N">Я буду образ свой в любезной дщери зреть!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Я граду покажу, что я тебя достойна,    </l>
+              <l part="N">Но льзя ли, чтоб душа моя была спокойна,    </l>
+              <l part="N">Когда того, увы! навеки я гублю,    </l>
+              <l part="N">Кого я, отче мой, равно с тобой люблю?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Где должность говорит или любовь к народу,    </l>
+              <l part="N">Там нет любовника, там нет отца, ни роду:    </l>
+              <l part="N">Синаву общества нарек тебя я мздой,    </l>
+              <l part="N">Ни мне уж, ни тебе нет власти над тобой.    </l>
+              <l part="N">Кто должности своей хранение являет,    </l>
+              <l part="N">Храня ее в бедах, свой дух успокояет:    </l>
+              <l part="N">Страдая за нее, когда он помнит то,    </l>
+              <l part="N">За что он мучится, вся мука та ничто.    </l>
+              <l part="N">Коль чистая душа не хочет быть превратна,    </l>
+              <l part="N">За добродетели и мука ей приятна.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Чтоб я не тронута была моей судьбой,    </l>
+              <l part="N">Когда поражена, родитель, я тобой,    </l>
+              <l part="N">Я тем уже не льщусь: какое сердце твердо    </l>
+              <l part="N">Возможет обвинить меня немилосердо?    </l>
+              <l part="N">Довольно мужества я, отче мой, явлю,    </l>
+              <l part="N">Что преслушанием тебя не прогневлю.    </l>
+              <l part="N">Довольно должности я жертвую тоскою:    </l>
+              <l part="N">В цветущей младости иду на смерть...    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>      </p>
+              <l part="N"><space dim="horizontal" extent="36 letters"/>К покою.    </l>
+              <l part="N">Ты тем скончаешь скорбь и горесть пресечешь;    </l>
+              <l part="N">Но к каковой меня ты скорби привлечешь?    </l>
+              <l part="N">Мне жизнь твоя тяжка, конец тяжчае будет.    </l>
+              <l part="N">Иль мнишь ты, Гостомысл любезну дочь забудет,    </l>
+              <l part="N">В котору всю свою надежду положил    </l>
+              <l part="N">И для которыя на свете он и жил,    </l>
+              <l part="N">То мня, что род его прославится в ней паче?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Но во стенании и в непрестанном плаче    </l>
+              <l part="N">Способна ль буду я веселье приключать,    </l>
+              <l part="N">Которо от меня ты чаял получать?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">А как закроешь ты глаза свои сном вечным,    </l>
+              <l part="N">Могу ли быть тогда я толь бесчеловечным,    </l>
+              <l part="N">Чтоб не встревожил рок сей крепости моей <note resp="editor" place="unspecified" anchored="true">   решимости.</note>    </l>
+              <l part="N">И в слабость бы не ввел того в кончине дней,    </l>
+              <l part="N">Кто милости сея поныне жил не чая    </l>
+              <l part="N">И сына погребал очей не омочая?    </l>
+              <l part="N">Когда из глаз моих ток слезный потечет,    </l>
+              <l part="N">Какую похвалу народ о мне речет?    </l>
+              <l part="N">А слуху моему сей голос будет злобен:    </l>
+              <l part="N">Нам твердый Гостомысл во слабостях подобен!    </l>
+              <l part="N">Хотя ж я слабости на сердце не пущу,    </l>
+              <l part="N">Но дух, тебя лишась, колико возмущу?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Виню ли я тебя, что жизнь тобою трачу?    </l>
+              <l part="N">Не обвиняй меня и ты, что горько плачу:    </l>
+              <l part="N">Вступлю с Синавом в брак, я помню долг и честь,    </l>
+              <l part="N">Но ах! возможно ли такое бремя снесть?    </l>
+              <l part="N">Вы прямо видите тоску мою, о боги!    </l>
+              <l part="N">Почто твои в сей град вступили, Трувор! ноги!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Коль лютую напасть случаи навели,    </l>
+              <l part="N">Крепись и Трувора от мысли удали.    </l>
+              <l part="N">Когда ты с жалостью о нем лице являешь,    </l>
+              <l part="N">Ты множишь пламень свой и горесть обновляешь.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Желание свое несчастного любить,    </l>
+              <l part="N">Колико я могу, стараюся избыть.    </l>
+              <l part="N">Стремительно от сей я мысли убегаю,    </l>
+              <l part="N">Но, убегающа, совсем изнемогаю.    </l>
+              <l part="N">Повсюду страсть моя гоняется за мной,    </l>
+              <l part="N">Повсюду множит жар и рушит мой покой.    </l>
+              <l part="N">Дражайшу зрака тень повсюду обретаю    </l>
+              <l part="N">И, истребляя страсть, я страсть мою питаю.    </l>
+              <l part="N">Рассеян весь мой ум, немилосердный рок    </l>
+              <l part="N">Мятет лиющийся во мне кровавый ток.    </l>
+              <l part="N">Сама с собою брань имею непрестанно,    </l>
+              <l part="N">Разима, рвусь, стеню и стражду несказанно.    </l>
+              <l part="N">Не тако в варварских терзается степях    </l>
+              <l part="N">Невольник, мучимый в темнице и цепях,    </l>
+              <l part="N">Как я, живущая в стране своей природной,    </l>
+              <l part="N">В дни счастья твоего, в дни тихости народной.    </l>
+              <l part="N">Прошла та жизнь, была которая вредна,    </l>
+              <l part="N">И только мучуся я с Трувором одна.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Которы паче всех о граде сем трудились,    </l>
+              <l part="N">Во счастии своем подобно повредились.    </l>
+              <l part="N">Подобно огорчен и я, и князь Синав;    </l>
+              <l part="N">Он, в брате зря своих препятствие забав,    </l>
+              <l part="N">Ту мзду, которой ждал, бедою получает;    </l>
+              <l part="N">А Гостомыслу дочь боль вящу приключает.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Конечно, всех грустняй Ильмене в сей стране.    </l>
+              <l part="N">Не тако горестно и Трувору, как мне:    </l>
+              <l part="N">Когда престанет быть любовник мой в надежде,    </l>
+              <l part="N">Жить будет без жены противной, как и прежде;    </l>
+              <l part="N">А я, лишась его, тому отдамся в власть,    </l>
+              <l part="N">Кем вся моя, увы! произошла напасть.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Умолкни! Трувор здесь, сокройся ты отселе!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Сдержись, прискорбный дух, в томящемся, ах! теле.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Те ж и Трувор </stage>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">На что, дражайшая, ты прочь отсель бежишь?    </l>
+              <l part="N">Иль больше уж во мне ты Трувора не зришь?..    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Должна повинну быть родительской я власти.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Для утоления мучительныя страсти.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Дай зренью моему насытиться теперь!    </l>
+              <l part="N">В сей день пойдет во храм твоя прекрасна дщерь    </l>
+              <l part="N">И тамо присягнет навек меня оставить...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">В сей день!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <stage type="delivery">(Ильмене) </stage>
+              <p>                               </p>
+              <l part="N"><space dim="horizontal" extent="11 letters"/>Ничто тебя не может уж    избавить    </l>
+              <l part="N">От крайности, куда тя должность привела.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">На что, судьбина, ты Ильмене жизнь дала!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">В безмерной ярости Синав меня злословит,    </l>
+              <l part="N">Мне ссылку, а себе в сей день он брак готовит:    </l>
+              <l part="N">Уже во граде всем известен сей приказ,    </l>
+              <l part="N">А я уж навсегда твоих лишаюсь глаз!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Не огорчай еще его ты части лютой!    </l>
+              <l part="N">Довольствуйся без слез последнею минутой!    </l>
+              <l part="N">Ты женской крепостью пример ему подав,    </l>
+              <l part="N">Как долгу следовать, подашь ему устав.    <stage type="delivery">(Трувору)</stage>.    </l>
+              <l part="N">Коль дева несколько себя преодолеет,    </l>
+              <l part="N">Так мужу более еще того довлеет.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3 </head>
+            <stage type="setting">Трувор и Ильмена</stage>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Сие ли нашея горячности плоды!    </l>
+              <l part="N">Потщимся отвратить толь лютыя беды,    </l>
+              <l part="N">Доколе время всей надежды не скончало,    </l>
+              <l part="N">Которо наше все веселие умчало.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">В сей крайности, мой князь, толь пламенно любя,    </l>
+              <l part="N">Чего б не сделала Ильмена для тебя!    </l>
+              <l part="N">Но я спасения ни в чем себе не вижу    </l>
+              <l part="N">И все в отчаяньи на свете ненавижу.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Ты слышала, в сей день назначен мой отъезд:    </l>
+              <l part="N">Лишаюся навек я сих приятных мест.    </l>
+              <l part="N">Глаза покажут мне стези моей дороги,    </l>
+              <l part="N">И буду жить я там, где мне прикажут боги.    </l>
+              <l part="N">Коль не гнушаешься быть странника женой,    </l>
+              <l part="N">Коль любишь ты меня, расстанься с сей страной,    </l>
+              <l part="N">И из величества, куда восходишь ныне,    </l>
+              <l part="N">Отважься ты со мной жить в бедности, в пустыне,    </l>
+              <l part="N">С презренным, с выгнанным, с отставленным от всех!    </l>
+              <l part="N">Покинь с желанием надежду всех утех,    </l>
+              <l part="N">Которы пышностью князей увеселяют    </l>
+              <l part="N">И честолюбия ни в чем не утоляют:    </l>
+              <l part="N">Довольствуйся одним пустынным житием,    </l>
+              <l part="N">Будь мне участница в несчастии моем,    </l>
+              <l part="N">Которо, коль ты мне вручишь красу и младость,    </l>
+              <l part="N">Во несказанную преобратится радость.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Мое прибежище стенания одни,    </l>
+              <l part="N">О мой несносный рок! О горестные дни!    </l>
+              <l part="N">Неогорчаема любовною судьбою,    </l>
+              <l part="N">В уединении, в убожестве с тобою    </l>
+              <l part="N">Со всей охотою покойно б я жила    </l>
+              <l part="N">И младость бы свою в весельи провела.    </l>
+              <l part="N">Но пред родителем как буду я преслушна?    </l>
+              <l part="N">Каков родитель мой, так я великодушна.    </l>
+              <l part="N">Я знаю, что мне брак противный приключит,    </l>
+              <l part="N">Но с должностью ничто меня не разлучит.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Когда бы ты меня не так любила мало,    </l>
+              <l part="N">Так сердце б не такой совет тебе давало.    </l>
+              <l part="N">Когда рассудок наш бесстрастно говорит,    </l>
+              <l part="N">Там кровь, хотя жарка, однако не горит.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Колико тщится днесь Ильмена лицемерить!    </l>
+              <l part="N">Хотя бы я клялась, никто не будет верить.    </l>
+              <l part="N">Как я тебя люблю, не можно вобразить,    </l>
+              <l part="N">Нельзя никак любви сильняе заразить,    </l>
+              <l part="N">Что скоро действие, мой князь, тебе покажет,    </l>
+              <l part="N">И кто-нибудь когда о том тебе расскажет.    </l>
+              <l part="N">Правители небес, которых так мы чтим,    </l>
+              <l part="N">Хотят того, чтоб мы уподоблялись им.    </l>
+              <l part="N">Явлюся дочерью геройскою в народе    </l>
+              <l part="N">И, победив себя, дам действовать природе.    </l>
+              <l part="N">Хоть мя в порочну жизнь она не вовлечет,    </l>
+              <l part="N">Но злополучие конечно пресечет.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Ты хочешь умереть: тебе ль умреть прилично    </l>
+              <l part="N">Во младости своей, прекрасной необычно?    </l>
+              <l part="N">Живи и слабости любовной не вини,    </l>
+              <l part="N">Живи, и трубу мысль, драгая, отмени!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Ничто от мысли сей меня не отвращает.    </l>
+              <l part="N">Живи, где рок тебе жилище обещает;    </l>
+              <l part="N">Я знаю, что тебе меня лишиться жаль,    </l>
+              <l part="N">Но мне моя еще несноснее печаль.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Ты верностью меня, драгая, уверяешь    </l>
+              <l part="N">И, ах! без жалости навек меня теряешь.    </l>
+              <l part="N">Мучитель не губит того, к кому он щедр,    </l>
+              <l part="N">Ни льстец, изверженный во свет из адских недр.    </l>
+              <l part="N">В мучительстве, во льсти, в лютейших сих двух ядах    </l>
+              <l part="N">Нет казни таковой, в твоих какая взглядах.    </l>
+              <l part="N">Глаза твои ко мне в крови являют жар,    </l>
+              <l part="N">А ты готовиши смертельный мне удар!    </l>
+              <l part="N">Рази! и отделяй печальный дух от тела,    </l>
+              <l part="N">И после говори, что жалость ты имела.    </l>
+              <l part="N">Я зрю, что ты одно суровство только чтишь    </l>
+              <l part="N">И долгом то зовешь, что ты меня губишь.    </l>
+              <l part="N">То ложно, что себя ты оным обесславишь,    </l>
+              <l part="N">Когда любовника мучения избавишь:    </l>
+              <l part="N">Сию имея мысль, родитель твой свиреп.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Кто любит, тот всегда в своем рассудке слеп.    </l>
+              <l part="N">А мне с младенчества отцем моим вперенно,    </l>
+              <l part="N">Чтоб сердце было ввек рассудку покорение.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Оставшие часы не медля пролетят:    </l>
+              <l part="N">С какою жалостью покину я сей град,    </l>
+              <l part="N">Тот град, где вся моя утеха остается!..    </l>
+              <l part="N">Увы! из глаз твоих источник слез лиется!..    </l>
+              <l part="N">Ты плачешь обо мне!., жалей меня, жалей!    </l>
+              <l part="N">Скажи, Ильмена, мне, скажи в тоске моей,    </l>
+              <l part="N">Могу ли я еще надеяться, пылая,    </l>
+              <l part="N">Что ты со мной отсель...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N"><space dim="horizontal" extent="24 letters"/>О часть моя презлая!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Моя сплетенна часть с твоею навсегда:    </l>
+              <l part="N">Не буду без тебя спокоен никогда.    <stage type="delivery">(Становится на колени)</stage>.    </l>
+              <l part="N">Смягчись, дражайшая! отвергни права люты!    </l>
+              <l part="N">И помни, что сии последние минуты    </l>
+              <l part="N">Ко отвращенью бед нам дороги теперь...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Я помню только то, что я герою дщерь.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <stage type="delivery">(Стоя на коленях)</stage>
+              <p>     </p>
+              <l part="N">А то забыла ты, колико ты страдаешь,    </l>
+              <l part="N">Что ты меня в сей день навеки покидаешь?    </l>
+              <l part="N">Возможно ли сие любовнику снести?    </l>
+              <l part="N">Спасай меня! еще ты можешь мя спасти.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4 </head>
+            <stage type="setting">Трувор, Ильмена и Синав </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                                            </p>
+              <l part="N">Преступна нет нигде подобна сей измене!    </l>
+              <l part="N">Меня нарек отец супругом быть Ильмене.    </l>
+              <l part="N">Ты знаешь то? Твое веселье претекло.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Но сердце ей меня супругом нарекло.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>                                    </p>
+              <l part="N">Преступник истины! Рушитель дружбы, братства!    </l>
+              <l part="N">И кровь не делает неправедным препятства.    </l>
+              <l part="N">Враг честности!..    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>Постой! хоть власть тебе    дана,    </l>
+              <l part="N">Но Трувору ль терпеть такие имена?    </l>
+              <l part="N">Хотя и должен я тебе повиноваться,    </l>
+              <l part="N">Но я не так рожден, чтоб мне тебя бояться.    </l>
+              <l part="N">Скрепивься, ярости толикой уступлю,    </l>
+              <l part="N">А слов ни от кого поносных не стерплю.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Иль душу вы мою еще тесните мало?    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <stage type="delivery">(Трувору) </stage>
+              <p>        </p>
+              <l part="N">Названия сии тебе бездельство дало.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Бездельство дало мне?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(Трувору) </stage>
+              <p>      </p>
+              <l part="N"><space dim="horizontal" extent="21 letters"/>Престани говорить.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <stage type="delivery">(Трувору) </stage>
+              <p>     </p>
+              <l part="N">Противу ты меня что можеши творить?    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <stage type="delivery">(вынимает против него меч свой и бросается на него)    </stage>
+              <p>     </p>
+              <l part="N">Я буду делать то, что честь теперь вещает.    <stage type="delivery">Как только Трувор за меч свой ухватился, в то    самое время и Синав то ж делает </stage>.               </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(бросаясь между их) </stage>
+              <p>     </p>
+              <l part="N">Кто более из вас свирепства ощущает?    </l>
+              <l part="N">Коль в злобу вас могла любовью я привлечь,    </l>
+              <l part="N">Вонзай мне в грудь <stage type="delivery">(Синаву) </stage>, хоть ты <stage type="delivery"> (Трувору) </stage> хоть ты, свой острый меч!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Любовь, гнев, жалость рвут меня его виною:    </l>
+              <l part="N">Играйте, страсти все, играйте, страсти, мною!                    <stage type="delivery">(Кладет меч свой в ножны.) </stage>    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <stage type="delivery">(кладет    меч свой в ножны и говорит Ильмене) </stage>
+              <p>     </p>
+              <l part="N">Я ради лишь тебя не мщу сего ему,    </l>
+              <l part="N">Но дерзостного ты привесть должна к тому,    </l>
+              <l part="N">Чтоб прежней не затмил он всей моей приязни,    </l>
+              <l part="N">Когда не хочет пасть на месте лютой казни.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Ты казнью мне грозишь?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(Трувору) </stage>
+              <p>     </p>
+              <l part="N"><space dim="horizontal" extent="22 letters"/>Дни жизни мне храня,    </l>
+              <l part="N">Поди отселе, князь, коль ты любил меня!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Где я ни буду жить, доколе не увяну,    </l>
+              <l part="N">Тебя, дражайшая, любити не престану.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5 </head>
+            <stage type="setting">Синав и Ильмена </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Ты Трувора к своим пускаешь пасть ногам    </l>
+              <l part="N">В тот день, в который ты со мной идешь во храм?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Прибавьте, небеса, к терпению мне мочи!    </l>
+              <l part="N">Сдержитеся от слез, мои печальны очи!    </l>
+              <l part="N">Не вспоминай его ты больше предо мной!    </l>
+              <l part="N">Я буду без того Синавовой женой.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Коль горестно тебе сие воспоминанье,    </l>
+              <l part="N">Так, знать, не кончилось еще твое желанье    </l>
+              <l part="N">О получении отъемлемых утех:    </l>
+              <l part="N">Оно погибель мне, тебе и стыд и грех.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Прискорбная душа не о забавах мыслит    </l>
+              <l part="N">И только лишь одни свои напасти числит.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Благополучен быть в сей день тобой хощу,    </l>
+              <l part="N">Жду радостей своих, в надежде сей грущу.    </l>
+              <l part="N">Тьмы будущих приятств в уме изображаю    </l>
+              <l part="N">И, представляя то, болезни умножаю.    </l>
+              <l part="N">Синавова любовь зовет тебя на трон...    </l>
+              <l part="N">Скончай, дражайшая, скончай тоску и стон!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Не возмущай еще души моей ты снова!    </l>
+              <l part="N">А я с тобой во храм ийти уже готова.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Я тамо на тебя корону возложу    </l>
+              <l part="N">И на престол тебя с собою посажу.    </l>
+              <l part="N">Правь город сей со мной, владей страною сею,    </l>
+              <l part="N">Подобно как душой и жизнию моею!  </l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>ДЕЙСТВИЕ IV </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 1 </head>
+            <stage type="setting">Ильмена (одна) </stage>
+            <l part="N">В какую ты напасть мя, должность, привела!    </l>
+            <l part="N">Вот ради я чего на свете сем жила!    </l>
+            <l part="N">Я знаю, смерть мои напасти окончает,    </l>
+            <l part="N">Но смерть еще меня довольно огорчает.    </l>
+            <l part="N">Необходимо все то должно претерпеть:    </l>
+            <l part="N">Равно бы было то, когда ни умереть,    </l>
+            <l part="N">Но, будучи млада и тем прекрасна зрима,    </l>
+            <l part="N">Кем распаленна я и кем сама любима,    </l>
+            <l part="N">Могу ли без тоски я очи затворить    </l>
+            <l part="N">И страх отважности геройской покорить!    </l>
+            <l part="N">Но жизнь уже к чему? Напрасно устрашаюсь!    </l>
+            <l part="N">Что мне прелестно в ней, того всего лишаюсь.    </l>
+            <l part="N">На что мне более желати живота?    </l>
+            <l part="N">Пусть гибнет молодость и мнима красота!    </l>
+            <l part="N">Не для того ль хочу на свете я остаться,    </l>
+            <l part="N">Дабы на всякой час слезами обливаться,    </l>
+            <l part="N">Всегдашней жалобой свой рок изобличать    </l>
+            <l part="N">И смертным и богам стенанием скучать?    </l>
+            <l part="N">Потребна бедным смерть: дражайший час покою,    </l>
+            <l part="N">Приди и разлучи дух с телом и с тоскою!    </l>
+            <l part="N">Светило дневное, с небесной высоты    </l>
+            <l part="N">Взирающе на все земные красоты,    </l>
+            <l part="N">Представь пред Трувора девицу саму красну    </l>
+            <l part="N">И дай ему забыть любовницу несчастну!    </l>
+            <l part="N">А ты, сей горький плач на радость пременя,    </l>
+            <l part="N">Хоть сыщешь и стократ прекраснее меня,    </l>
+            <l part="N">Но в пламени к тебе любовном дорогая    </l>
+            <l part="N">Не сыщешь никогда подобной мне другия.   </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Гостомысл и Ильмена </stage>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Старайся ты себя преодолеть теперь:    </l>
+              <l part="N">Минуты те пришли уже, любезна дщерь,    </l>
+              <l part="N">В которые тебе крепиться лишь полезно    </l>
+              <l part="N">И гнать из памяти, что толь тебе любезно.    </l>
+              <l part="N">Лишайся Трувора и вместо ты того,    </l>
+              <l part="N">Возшед на трон, будь мать народа своего.    </l>
+              <l part="N">Когда ты отстаешь любовныя забавы,    </l>
+              <l part="N">Ищи утех среди величества и славы.    </l>
+              <l part="N">Не гордости тебе отец искать велит,    </l>
+              <l part="N">Престол не тем людей великих веселит,    </l>
+              <l part="N">Но чтоб ты сеяла повсюду добродетель:    </l>
+              <l part="N">На то имеет власть над обществом владетель.    </l>
+              <l part="N">Он все с высокого седалища страны,    </l>
+              <l part="N">Которы от богов ему поручены,    </l>
+              <l part="N">Объемля взорами, брежет и учреждает,    </l>
+              <l part="N">Искореняет ложь и правду утверждает.    </l>
+              <l part="N">В супружество вступив, участницею став    </l>
+              <l part="N">И сердца княжеска, и сил его, и прав,    </l>
+              <l part="N">В сей пышности себя между богов не числи    </l>
+              <l part="N">И, смертна будучи, как смертная и мысли.    </l>
+              <l part="N">От скверных льстивых уст ты уши отвращай    </l>
+              <l part="N">И в утеснении невинных защищай.</l>
+              <l part="N">Храни незлобие, людей чти в чести твердых, <note resp="editor" place="unspecified" anchored="true"> Этот монолог Гостомысла является типичным образцом политического дидактизма <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сумарокова</tei:orig><tei:reg>Сумароков А.П.</tei:reg></tei:choice></tei:name>, использовавшего любую возможность для напоминания царствующим монархам об их общественном долге.</note>    </l>
+              <l part="N">От трона удаляй людей немилосердых    </l>
+              <l part="N">И огради его людьми таких сердец,    </l>
+              <l part="N">Какое показал, имея, твой отец.    </l>
+              <l part="N">Превозноси людей ко правде прилепленных,    </l>
+              <l part="N">Разумных и честных, искусством укрепленных,    </l>
+              <l part="N">Премудрости во всех последуй ты делах    </l>
+              <l part="N">И спутницей имей ее во всех путях.    </l>
+              <l part="N">Покровом будь сирот, прибежищем вдовицы,    </l>
+              <l part="N">Яви ты истину под именем царицы    </l>
+              <l part="N">И добродетель здесь, гнушаяся тщеты,    </l>
+              <l part="N">Яви во образе девичьей красоты.    </l>
+              <l part="N">Надеждой веселись, что ты себя прославишь    </l>
+              <l part="N">И подданным своим златые дни восставишь.    </l>
+              <l part="N">Рождай властителей народу своему,    </l>
+              <l part="N">Подай бессмертие ты корню моему;    </l>
+              <l part="N">Не сетуй о своем без пользы ты уроне    </l>
+              <l part="N">И к пользе всей страны ликуй на пышном троне.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Коль мысль рассеяна, и разум огорчен,    </l>
+              <l part="N">Коль вечно человек печалью омрачен,    </l>
+              <l part="N">Удобно ли ему быть обществу полезным?    </l>
+              <l part="N">Лишась приятных дум, расставшися с любезным,    </l>
+              <l part="N">Низвергшись в глубину неизреченных бед,    </l>
+              <l part="N">Когда от глаз моих скрывает небо свет,    </l>
+              <l part="N">Когда несчастие мне сердце разрывает    </l>
+              <l part="N">И рок свирепости реками проливает,    </l>
+              <l part="N">К чему потребна я? Кто сетует всегда,    </l>
+              <l part="N">Тот действовать умом не может никогда.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Ты в случае таком прославишься и паче:    </l>
+              <l part="N">Во дни стенания, в тоске и горьком плаче,    </l>
+              <l part="N">Расставшись с тем навек, кто толь был сердцу мил,    </l>
+              <l part="N">Преодолеть себя есть выше женских сил.    </l>
+              <l part="N">Я знаю то, но сколь сильняй супротивленье,    </l>
+              <l part="N">Толико хвальнея над ним преодоленье.    </l>
+              <l part="N">Превозмогай себя, чтоб город сей сказал:    </l>
+              <l part="N"><q>Кто девы сей отец, рок ясно показал;    <l part="N">С каким к ней бременем зла часть ни приступала,    </l><l part="N">Ильменина душа под бременем не пала</l></q>.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Все то, что льстило мне на свете, погубя,    </l>
+              <l part="N">Еще ли мало я превозмогла себя?    </l>
+              <l part="N">Противилася ли родительской я воле?    </l>
+              <l part="N">Не требуй от меня ты крепости днесь боле.    </l>
+              <l part="N">Великодушия того ищи в богах,    </l>
+              <l part="N">Какого ищешь ты в девических сердцах.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Наш век есть некий путь, к покою нас ведущий,    </l>
+              <l part="N">И зло и благо нам местами подающий:    </l>
+              <l part="N">Хотя, что худо в нем, все должны мы сносить,    </l>
+              <l part="N">И сладкие плоды, и горькие вкусить.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Влекущий днесь меня к великолепну сану,    </l>
+              <l part="N">Мой случай бурному подобен океану:    </l>
+              <l part="N">Свергаюсь в ярости воюющих валов    </l>
+              <l part="N">В пучину страшную с высоких берегов.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Я жалость, как другой, Ильмена, ощущаю,    </l>
+              <l part="N">Но помощи тебе уже не предвещаю,    </l>
+              <l part="N">Коль сердцем тот совет не может обладать,    </l>
+              <l part="N">Который я тебе стараюся подать.    </l>
+              <l part="N">Ищи, любезна дочь, в терпении успеха,    </l>
+              <l part="N">Ищи,-ты вся моя при старости утеха.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Я думала сама, дражайший отче мой,    </l>
+              <l part="N">Что будет завсегда тебе веселье мной,    </l>
+              <l part="N">И было так, но, ах! то все переменилось,    </l>
+              <l part="N">Веселье то тебе в болезни превратилось.    </l>
+              <l part="N">О лютый день! О брак! Несносный брак! О храм!..    </l>
+              <l part="N">Ах! Трувор шествует к Ильмениным очам!    </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3 </head>
+            <stage type="setting">Те ж и Трувор </stage>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Жестоки времена! Несносная премена!    </l>
+              <l part="N">Я зреть тебя пришел впоследния, Ильмена!    </l>
+              <l part="N">И ах! в последний раз прости тебе сказать.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                        </p>
+              <l part="N">Увы!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <stage type="delivery">(Ильмене) </stage>
+              <p>     </p>
+              <l part="N"><space dim="horizontal" extent="4 letters"/>Престань себя надеждою    терзать,    </l>
+              <l part="N">Не можешь отвратить суровство лютой части.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(Гостомыслу) </stage>
+              <p>     </p>
+              <l part="N">Когда ты мне велел, иду во все напасти.      </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <stage type="delivery">(Ильмене) </stage>
+              <p>     </p>
+              <l part="N">Уже готово все к отъезду моему:    </l>
+              <l part="N">Кони запряжены...    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>О небо! дай ему    </l>
+              <l part="N">За беспорочну жизнь мою во награжденье    </l>
+              <l part="N">Терпение и сил душевных утвержденье!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">В унынии моем уже спокойных дней    </l>
+              <l part="N">Не будет для меня, когда расстанусь с ней...    </l>
+              <l part="N">Но час уже пришел теряти все, в чем таю,    </l>
+              <l part="N">И все то, что ни есть, что в жизни почитаю!    </l>
+              <l part="N">Вот строгость мя твоя во что теперь ввела!      <stage type="delivery">(Указывая на плачущую Ильмену.) </stage>    </l>
+              <l part="N">И вот какую скорбь Ильмене подала!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(плача) </stage>
+              <p>     </p>
+              <l part="N">Терзай, судьба, терзай! Умножься, рока злоба!    </l>
+              <l part="N">Гони из тела дух! Отверзи двери гроба!    </l>
+              <l part="N">Я, долгу следуя, мой отче, в храм иду,    </l>
+              <l part="N">Но ах! под бременем страстей своих паду.    </l>
+              <l part="N">Могуща побеждать крови моей волненье,    </l>
+              <l part="N">Как мне ни тягостно такое исполненье,    </l>
+              <l part="N">Страдание души стерплю иль не стерплю,    </l>
+              <l part="N">Без рассуждения ко браку приступлю.    </l>
+              <l part="N">Без прекословия вдаюсь уже на жертву.    </l>
+              <l part="N">Но если от того меня увидишь мертву,    </l>
+              <l part="N">Воспомни ты тогда, что ты меня сразил.    </l>
+              <l part="N">А ты, любезный князь, мне стал толико мил!    </l>
+              <l part="N">Коль склонность наша нам была, увы! бесплодна,    </l>
+              <l part="N">И стала я тебе к смятению угодна,    </l>
+              <l part="N">Услышав о своей драгой противну весть,    </l>
+              <l part="N">Невозмогущей сей разлуки злыя снесть,    </l>
+              <l part="N">Что уж увянула она, как роза в лете,    </l>
+              <l part="N">И что уж горести не терпит больше в свете,    </l>
+              <l part="N">Вздохни! но после ты порадуйся тому.    </l>
+              <l part="N">Едина смерть-конец несчастью моему!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Словами сими ты болезнь мою сугубишь:    </l>
+              <l part="N">Живи, прекрасная, когда меня ты любишь!    </l>
+              <l part="N">О том тебя прошу, а больше ни о чем.    <stage type="delivery">(Гостомыслу.) </stage>      </l>
+              <l part="N">По разлучении с Ильменою моем    </l>
+              <l part="N">Надежды, Гостомысл, в тебе едином чаю:    </l>
+              <l part="N">Тебе несчастную любовницу вручаю.    </l>
+              <l part="N">Ты ей отец: храни ты дочь, в ней кровь твоя.    </l>
+              <l part="N">Ты друг мне: в ней душа останется моя.    </l>
+              <l part="N">Увещевай ее, напоминай всечасно,    </l>
+              <l part="N">Чтоб младости своей не тратила напрасно.    <stage type="delivery">( Ильмене.) </stage>                 </l>
+              <l part="N">Ну! время уж пришло Ильмену покидать...     </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(в    слезах) </stage>
+              <p>     </p>
+              <l part="N">Кого мне более вовеки не видать!     </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <stage type="delivery">(взяв Трувора за руку) </stage>
+              <p>     </p>
+              <l part="N">Не злобствуй на меня, ты мучиться судьбою!    </l>
+              <l part="N">И расстаюся днесь я в дружестве с тобою.     </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4 </head>
+            <stage type="setting">Трувор и Ильмена</stage>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                             </p>
+              <l part="N">Помедли здесь... чего я ныне дожила!    </l>
+              <l part="N">Ах! лучше б никогда я в свете не была!    </l>
+              <l part="N">Тебя ль лишаются твоей любезной взоры!    </l>
+              <l part="N">Дремучие леса и превысоки горы,    </l>
+              <l part="N">Широки озера и пустота степей    </l>
+              <l part="N">Закрыта от моих хотят тебя очей.    </l>
+              <l part="N">Закроют, ежели закрыть они успеют,    </l>
+              <l part="N">Доколе члены, ах! мои не охладеют.    </l>
+              <l part="N">А в сердце ты моем по лютый будешь час,    </l>
+              <l part="N">Которого себе желала я сто раз,    </l>
+              <l part="N">Который нас отсель на те места преводит.    </l>
+              <l part="N">Отколе к нам никто обратно не приходит.    </l>
+              <l part="N">Но столько мне тоски тот час не приключит,    </l>
+              <l part="N">Как сей, который нас с тобою разлучит.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">О небо! укрепи ея ослабшу силу    </l>
+              <l part="N">И ободри ея ум томный, мысль унылу!    </l>
+              <l part="N">Дай многи лета жить ей, здравие храня,    </l>
+              <l part="N">И проливай свой гнев на одного меня!    </l>
+              <l part="N">Последующему зловреднейшей судьбине,    </l>
+              <l part="N">Подай утеху мне, живущему в пустыне    </l>
+              <l part="N">Той славой, как она слух свету разнесет,    </l>
+              <l part="N">Что красота твоя не вянет, но цветет,    </l>
+              <l part="N">И что Ильмена там, где царством обладает,    </l>
+              <l part="N">Из памяти меня еще не выкидает.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                             </p>
+              <l part="N">Ах, князь! какую ты услышать хочешь весть!    </l>
+              <l part="N">Возмог ли б ты сей слух без озлобленья снесть,    </l>
+              <l part="N">Что я, лишась тебя, еще себе подобна?    </l>
+              <l part="N">К неверности такой Ильмена неспособна.    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Когда отчаянно тобою мне пылать,    </l>
+              <l part="N">Того единого осталося желать,    </l>
+              <l part="N">Чтоб ты свою печаль помалу умеряла    </l>
+              <l part="N">И не рвалась о том, что вечно потеряла.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                             </p>
+              <l part="N">Противно будет все любовнице твоей,    </l>
+              <l part="N">Противен без тебя и град мне будет сей,    </l>
+              <l part="N">И вся сия страна, и дом, где я рожденна,    </l>
+              <l part="N">И воздух, коим я дышати принужденна!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Воззрите, жители небесны, к сей стране!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                             </p>
+              <l part="N">Пошлите, небеса, скоряе смерть ко мне!      </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5 </head>
+            <stage type="setting">Трувор, Ильмена и паж</stage>
+            <sp who="pazh">
+              <speaker>Паж </speaker>
+              <p>   </p>
+              <l part="N">Ийти ко олтарю...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>О злейшие минуты!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">О нестерпимый час!      </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(пажу) </stage>
+              <p>     </p>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Иду в напасти люты.    <stage type="exit"><move who="pazh" type="exit"/>(Паж    отходит.)</stage>               <stage type="delivery">(Трувору.)</stage>    </l>
+              <l part="N">Прости... и памятуй, как ты Ильмене мил!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N">Воспоминай и ты, как я тебя любил!..    </l>
+              <l part="N">Бывало ли кому такое огорченье!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Неизреченное, всех выше сил мученье!..    </l>
+              <l part="N">Прости!.. сдержись мой дух!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>         </p>
+              <l part="N"><space dim="horizontal" extent="27 letters"/>Побудь еще ты здесь!      </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <stage type="delivery">(отходя) </stage>
+              <p>     </p>
+              <l part="N">О мой дражайший князь!    </l>
+            </sp>
+            <sp who="truvor">
+              <speaker>Трувор </speaker>
+              <p>        </p>
+              <l part="N"><space dim="horizontal" extent="22 letters"/>О, как я беден днесь!       </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 6 </head>
+            <stage type="setting">Трувор (один) </stage>
+            <l part="N">В глазах моих, увы! свет солнечный темнеет,    </l>
+            <l part="N">Хладеет кровь моя, и сердце каменеет,    </l>
+            <l part="N">Трепещет дух во мне, вздымаются власы.    </l>
+            <l part="N">О рок! о грозный рок! о бедственны часы!    </l>
+            <l part="N">На что природа ты меня производила!    </l>
+            <l part="N">К чему ты грудь сию, Ильмена, победила!    </l>
+            <l part="N">Уже не буду я тебя, драгая, зреть...    </l>
+            <l part="N">О время! О судьба! Возможно ль то стерпеть!    </l>
+            <l part="N">Не царствуешь, Синав, ты варварство здесь вводишь,    </l>
+            <l part="N">Прежесточайших ты тиранов превосходишь!    </l>
+            <l part="N">Войдем еще, войдем во храмину ея...    </l>
+            <l part="N">К чему отчаянна стремится мысль твоя?    </l>
+            <l part="N">Еще ль любезную ты хочешь востревожить,    </l>
+            <l part="N">Или свою тоску стараешься умножить?    </l>
+            <l part="N">К Синаву ты поди и, что он брат, забудь,    </l>
+            <l part="N">Поди и меч вонзи в мучителеву грудь...    </l>
+            <l part="N">Что ж будут говорить страны сея народы!..    </l>
+            <l part="N">Пренебрегай молву... Но слышу глас природы:    </l>
+            <l part="N">Постой! куда тебя отмщение влечет!    </l>
+            <l part="N">Не варварска в тебе, геройска кровь течет.    </l>
+            <l part="N">Руки моей к тому не допустите, боги!    </l>
+            <l part="N">О Трувор! покидай несчастные чертоги    </l>
+            <l part="N">И, к усмирению бунтующей души,    </l>
+            <l part="N">Спеши из града вон, спеши, скоряй спеши,    </l>
+            <l part="N">Когда толикая разит твой дух премена!    </l>
+            <l part="N">А ты прости навек, дражайшая Ильмена!   </l>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head>ДЕЙСТВИЕ V </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 1 </head>
+            <stage type="setting">Гостомысл (один) </stage>
+            <l part="N">Наполнен наш живот премножеством сует.    </l>
+            <l part="N">Но что я в свете сем? одушевленный цвет:    </l>
+            <l part="N">Не долго время я в сей жизни пребываю,    </l>
+            <l part="N">Едва рождаюся, уже и истлеваю.    </l>
+            <l part="N">Пред всею вечностью лет осмьдесят иль сто-    </l>
+            <l part="N">Одна минута, миг, или совсем ничто.    </l>
+            <l part="N">Доколе существо в нас живность ощущает,    </l>
+            <l part="N">К познанию себя прийти не допущает.    </l>
+            <l part="N">В невежестве своем иметь премудрость мним    </l>
+            <l part="N">И в самолюбии безумство ею чтим.    </l>
+            <l part="N">Не долог смертных век, печалей в нем премного:    </l>
+            <l part="N">Благополучие-мечта, несчастье строго,    </l>
+            <l part="N">Прошедше время ввек не возвратится к нам,    </l>
+            <l part="N">Которо есть, то лишь единый миг очам;    </l>
+            <l part="N">Которого мы ждем, тем мы не обладаем    </l>
+            <l part="N">И, может быть, его напрасно ожидаем.    </l>
+            <l part="N">Нет счастья на земли: на небесах оно    </l>
+            <l part="N">Оставлено богам и смертным не дано.    </l>
+            <l part="N">Дано, но мы его страстями разрушаем,    </l>
+            <l part="N">Друг друга общего спокойствия лишаем.    </l>
+            <l part="N">Где только человек печется о себе,    </l>
+            <l part="N">Жилища тамо нет, о истина! тебе.        </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Гостомысл и Ильмена </stage>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Сраженная твоим родительским уставом,    </l>
+              <l part="N">В супружество уже вступила я с Синавом.    </l>
+              <l part="N">Исполнила ли я, чем дочь отцу должна?    </l>
+              <l part="N">Расставься с Трувором, Синаву я жена.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2 </head>
+            <stage type="setting">Теж и вестник </stage>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Иль Трувора еще печальный град вмещает?..    </l>
+              <l part="N">Но что смущенный твой нам образ возвещает?     </l>
+            </sp>
+            <sp who="vestnik">
+              <speaker>Вестник </speaker>
+              <stage type="delivery">(Ильмене) </stage>
+              <p>     </p>
+              <l part="N">Услышать весть тебе потребно много сил.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Вещай. О бедная!..    </l>
+            </sp>
+            <sp who="vestnik">
+              <speaker>Вестник </speaker>
+              <p>     </p>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Кто толь тебе был мил...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Увы!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N"><space dim="horizontal" extent="4 letters"/>Что сталось с ним?    </l>
+            </sp>
+            <sp who="vestnik">
+              <speaker>Вестник </speaker>
+              <p>     </p>
+              <l part="N"><space dim="horizontal" extent="22 letters"/>С мучением сердечным    </l>
+              <l part="N">Князь Трувор затворил глаза свои сном вечным.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Судьба! взошла тобой на самый верх я бед:    </l>
+              <l part="N">Свершилась часть моя, и Трувора уж нет!    </l>
+              <l part="N">Жар нежныя любви злой смертью увенчался!    <stage type="delivery">(Вестнику.) </stage>                     </l>
+              <l part="N">Каким ударом мой любезный князь скончался?    </l>
+              <l part="N">Скажи.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>    </p>
+              <l part="N"><space dim="horizontal" extent="6 letters"/>К чему о том ты хочешь    вопрошать?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Хочу мучением я душу утешать.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Для имени богов...    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Противна им измена.    </l>
+              <l part="N">Страдай, плати любовь, о верная Ильмена!    <stage type="delivery">(Гостомыслу.) </stage>                     </l>
+              <l part="N">Довольно принуждал ты сердце, ах! мое,    </l>
+              <l part="N">Дай волю мне.    <stage type="delivery">(Вестнику.) </stage>                     </l>
+              <l part="N"><space dim="horizontal" extent="13 letters"/>Вещай плачевно бытие.    </l>
+            </sp>
+            <sp who="vestnik">
+              <speaker>Вестник </speaker>
+              <p>     </p>
+              <l part="N">С плачевной мыслию он город сей оставил    </l>
+              <l part="N">И в путь по Волховским брегам стопы направил.    </l>
+              <l part="N">В молчании его один был слышен стон,    </l>
+              <l part="N">Который испускал бесперестанно он.    </l>
+              <l part="N">Как слезы он держать в очах ни порывался,    </l>
+              <l part="N">Но из очей его ток слезный проливался.    </l>
+              <l part="N">Не сей имел он зрак, который прежде цвел;    </l>
+              <l part="N">Переменялся вид, и зрак его бледнел.    </l>
+              <l part="N">Тяжелые в груди дыхания спирались,    </l>
+              <l part="N">Вздымалась грудь его, и губы запекались.    </l>
+              <l part="N">Как с версту мы пути отъехали за град,    </l>
+              <l part="N">Со колесницы сшед, он очи взвел назад    </l>
+              <l part="N">И, жалостно взглянув на отдаленно зданье,    </l>
+              <l part="N">Где суетно питал он страстно ожиданье:    </l>
+              <l part="N"> <q>Уже по самый гроб расстался я с тобой,    <l part="N">О град!-он рек.- О град! где дух остался мой,    </l><l part="N">Жилище, где моя любезная стонает    </l><l part="N">И о любовнике без пользы вспоминает.    </l><l part="N">В тебе я мужеству хотел сыскать успех,    </l><l part="N">Сыскал, но что потом? Лишился всех утех,    </l><l part="N">Которые моей ты младости представил.    </l><l part="N">Ах! что в тебе я, что, любезный град, оставил!    </l><l part="N">А ты, где озеро ни будешь глашено,    </l><l part="N">Которо именем драгим украшено,    </l><l part="N">Повсюду возвещай мою несносну муку    </l><l part="N">И именем своим тверди мою разлуку;    </l><l part="N">Тверди и то, что я для той, кого любил,    </l><l part="N">Близ устья Волхова в себя сей меч вонзил...</l></q>    </l>
+              <l part="N">Едва сии слова лишь только излетели,    </l>
+              <l part="N">Меч был в груди его, мы ток кровавый зрели.    </l>
+              <l part="N">Он пал к нам в руки, мы железо извлекли.    </l>
+              <l part="N">Багряные струи стремительно текли.    </l>
+              <l part="N">Я рану захватил платком своей рукою.    </l>
+              <l part="N">Князь страже говорил: <q>Теперь иду к покою.    <l part="N">Коль то, что зрите вы, мне ставите в напасть,    </l><l part="N">Синавова ее соделала мне страсть.    </l><l part="N">А ты,- сказал он мне, меня зря в части слезной,-    </l><l part="N">По возвращении скажи моей любезной,    </l><l part="N">Чтоб плакала о том умеренно она,    </l><l part="N">Что скрылась от меня последняя луна;    </l><l part="N">Что день, день Труворов тьмой вечной поразился,    </l><l part="N">И солнца для меня луч вечно погрузился.    </l><l part="N">Прости, Ильмена,-рек,-по смерть я верен был    </l><l part="N">И, испуская дух, тебя не позабыл.    </l><l part="N">Прости...</l></q> При слове сем не стало больше мочи,    </l>
+              <l part="N">Оставил тело дух и затворились очи.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Он чаял при конце, что я на трон всхожу,    </l>
+              <l part="N">А я, кончаяся, на смерть его гляжу!..    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>     </p>
+              <l part="N">Кончаяся?.. На что ты смерть воображаешь?    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Ты сам меня, ты сам сей смертью поражаешь.</l>
+              <l part="N">Не льстися больше тем, чтоб долго я жила: <note resp="editor" place="unspecified" anchored="true">Французский критик из парижской газеты <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig> Journal etranger </tei:orig><tei:reg>Journal etranger</tei:reg></tei:choice></title></bibl> (1755, avril) усмотрел в этом монологе Ильмены черты монолога <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Гамлета</tei:orig><tei:reg>Гамлет</tei:reg></tei:choice></tei:name> <quote>Быть или не быть... </quote>. </note>    </l>
+              <l part="N">Преходит время то, в которо я была.    </l>
+              <l part="N">Отверста вечность мне, иду... куда?.. не знаю...    </l>
+              <l part="N">Страшусь... дрожу... на что дорогу препинаю!    </l>
+              <l part="N">Пускай разрушится и жизнь, и существо-    </l>
+              <l part="N">Мя в нову изведет природу божество,    </l>
+              <l part="N">И преселюсь из мест, которых ненавижу,    </l>
+              <l part="N">Туда, где либо я и Трувора увижу.    </l>
+              <l part="N">Мне боги подадут иное бытие    </l>
+              <l part="N">И человечество возобновят мое.    </l>
+              <l part="N">Они всесильны, им в природе все возможно,    </l>
+              <l part="N">И упование Ильменино не ложно.    </l>
+              <l part="N">Но чем уверюсь я, что буду зреть того,    </l>
+              <l part="N">Кто здесь с родителем милее мне всего?    </l>
+              <l part="N">Иль в смерти смертные друг друга не забудут,    </l>
+              <l part="N">И страсти волновать, как здесь, и тамо будут?    </l>
+              <l part="N">Того не может быть, как тот настанет век,    </l>
+              <l part="N">Чтоб был с собой во всем так сходен человек.    </l>
+              <l part="N">Там воля разуму престанет быть преслушна,    </l>
+              <l part="N">Сердца там твердые и мысль великодушна.    </l>
+              <l part="N">А если более не будет там страстей,    </l>
+              <l part="N">Так я не буду, князь, любовницей твоей.    </l>
+              <l part="N">О тайна! от ума ты скрыта нам богами:    </l>
+              <l part="N">И в непостижности оставлена судьбами.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">К чему ты, дщерь моя, приводишь то на ум?    </l>
+              <l part="N">Освободи себя от тяжких оных дум;    </l>
+              <l part="N">Ты ими мучишься и растравляешь рану.    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Я скоро, отче мой, от них свободна стану.    </l>
+              <l part="N">Уже приближилась ко гробу я стеня,    </l>
+              <l part="N">Когда скончаюся, воспоминай меня:    </l>
+              <l part="N">Не знаешь, близко ль час с тобой моей разлуки    </l>
+              <l part="N">И не в последния ль твои целую руки.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <stage type="delivery">(обняв Ильмену) </stage>
+              <p>   </p>
+              <l part="N">О дщерь моя! престань смущати дух отцов!    </l>
+            </sp>
+            <sp who="ilmena">
+              <speaker>Ильмена </speaker>
+              <p>                                                                  </p>
+              <l part="N">Смущение легко бываемо от слов.    </l>
+              <l part="N">Увидя действие, смятется дух твой боле:    </l>
+              <l part="N">Не будешь дочери ты зрети на престоле.    </l>
+              <l part="N">Возлюбленна душа драгого моего,    </l>
+              <l part="N">Коль свет присутствия лишился твоего,    </l>
+              <l part="N">В очах моих он пуст и взору неприятен!    </l>
+              <l part="N">О Трувор! если глас живущих мертвым внятен,    </l>
+              <l part="N">И может грусть моя проникнути твой сон,    </l>
+              <l part="N">Внемли, хотя в мечте, сей жалобный мой стон    </l>
+              <l part="N">И, утесняемой немилосердым роком,    </l>
+              <l part="N">Оставь мою вину, что в случае жестоком    </l>
+              <l part="N">Была принуждена Ильмена изменить!..    </l>
+              <l part="N">Льзя ль, боги, должностью свирепство извинить!    </l>
+              <l part="N">Прежалостная тень! О тень окровавленна!    </l>
+              <l part="N">Познай, как грудь моя тобою уязвленна!    </l>
+              <l part="N">Познай, мой князь, тоску, в которой стражду я,    </l>
+              <l part="N">И жертву, кою даст тебе любовь моя!    </l>
+              <l part="N">Кого отъемлешь ты, о строга добродетель!    </l>
+              <l part="N">А ты, который был конца его свидетель,    </l>
+              <l part="N">И как был верен он возлюбленной своей,    </l>
+              <l part="N">Свидетелем теперь будь смерти и моей!    <stage type="delivery">(Закололась.) </stage>                     </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Я больше смертного себя превозмогаю, <note resp="editor" place="unspecified" anchored="true"> прилагаю    силы, превосходящие человеческие возможности. </note>    </l>
+              <l part="N">К великодушию лишь только прибегаю!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ </head>
+            <stage type="setting">Гостомысл, Синав и воины </stage>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Мой друг! известен ли о брате ты моем?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Известен, государь! Известен я о всем.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Я страсть любовную, но вредну мне и люту,    </l>
+              <l part="N">Конечно получил в несчастнейшу минуту.    </l>
+              <l part="N">Я тщился Трувора на время удалить,    </l>
+              <l part="N">Чтоб только их любовь кипящу утолить,    </l>
+              <l part="N">Но вымысел судьба любови претворила,    </l>
+              <l part="N">Которая меня безумству покорила;    </l>
+              <l part="N">А то безумство мне приятно и теперь:    </l>
+              <l part="N">Люблю, как душу, я твою прекрасну дщерь,    </l>
+              <l part="N">И в сей тоске она в уме моем летает,    </l>
+              <l part="N">Наполнен ею ум, и сердце ею тает,    </l>
+              <l part="N">Прелестнее всего она на свете мне.    </l>
+              <l part="N">Но как перед нея предстану в сей вине?    </l>
+              <l part="N">О коль несчастлив я!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N"><space dim="horizontal" extent="20 letters"/>Хоть горько ты стонаешь,    </l>
+              <l part="N">Но всех еще своих несчастий ты не знаешь.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Скажи, какой еще Синав разим судьбой?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Ильмена навсегда рассталася с тобой.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Рассталась навсегда?    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N"><space dim="horizontal" extent="20 letters"/>Взгляни на ток сей    кровный    </l>
+              <l part="N">И сотвори конец ты мысли днесь любовной!    </l>
+              <l part="N">Се кровь Ильменина.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>       </p>
+              <l part="N"><space dim="horizontal" extent="19 letters"/>Скончалась дочь твоя!    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Тут вышел предо мной из тела дух ея:    </l>
+              <l part="N">Кинжалом жизни здесь она себя лишила.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Уже ты все теперь судьбина совершила,    </l>
+              <l part="N">Ты все свирепости явил, о рок! на мне,    </l>
+              <l part="N">Представил ты меня тираном сей стране    </l>
+              <l part="N">И злейшей фурией, изверженной из ада:    </l>
+              <l part="N">Я брату недруг стал, изгнал его из града,    </l>
+              <l part="N">Смутил его весь ум, низверг его во гроб    </l>
+              <l part="N">И, к умножению творимых мною злоб,    </l>
+              <l part="N">Каких и дикие в лесах не знают звери,    </l>
+              <l part="N">Лишил при старости отца любезной дщери,    </l>
+              <l part="N">Героя, коим град сей бедства окончал    </l>
+              <l part="N">И кто Синава здесь короною венчал;    </l>
+              <l part="N">Без пользы мучил дух красавицы дражайшей,    </l>
+              <l part="N">Горчайшу сделал жизнь из жизни ей сладчайшей,    </l>
+              <l part="N">И от приятнейших Ильмениных очей    </l>
+              <l part="N">Навеки отлучил свет солнечных лучей...    </l>
+              <l part="N">Покоясь, учинив конец своей судьбине,    </l>
+              <l part="N">О, коль пресчастливы любовники вы ныне!    </l>
+              <l part="N">Вас весь жалеет град, оплакивая вас,    </l>
+              <l part="N">А я стал мерзостью народною в сей час.    </l>
+              <l part="N">Злодейски жалобы с раскаяньем бесплодным    </l>
+              <l part="N">Без жалости уже текут к сердцам народным.    </l>
+              <l part="N">О жесточайша часть! О солнце! Небеса!    </l>
+              <l part="N">Какого дождался, о боги! я часа.    </l>
+            </sp>
+            <sp who="gostomysl">
+              <speaker>Гостомысл </speaker>
+              <p>   </p>
+              <l part="N">Тираном, государь, назвать тебя не можно,    </l>
+              <l part="N">А что несчастлив ты, несчастлив ты не ложно.    </l>
+              <l part="N">Но уж не пользует стенание тебе:    </l>
+              <l part="N">Ищи ты крепости и мужества в себе.    </l>
+            </sp>
+            <sp who="sinav">
+              <speaker>Синав </speaker>
+              <p>      </p>
+              <l part="N">Не ты кинжалом грудь прекрасную пронзила,    </l>
+              <l part="N">Моя рука тебя, моя рука сразила!    </l>
+              <l part="N">Ильмена! отпусти ты мне мою вину.    </l>
+              <l part="N">Кляну злодействие, но поздно уж кляну!    </l>
+              <l part="N">О сердце варварско! ты паче меры злобно!    </l>
+              <l part="N">Коль страсти истребить мне было неудобно.    </l>
+              <l part="N">Не мог ли своего я кончить живота?    </l>
+              <l part="N">Увяла молодость, увяла красота,    </l>
+              <l part="N">Закрылись очи те, которы кровь палили,    </l>
+              <l part="N">Которы мучили меня и веселили.    </l>
+              <l part="N">Чего ж я жду! Пойдем в тьму вечную за ней.    <stage type="delivery">(Вынимает шпагу, но Гостомысл с воинами вырывает    шпагу из рук его.) </stage>              </l>
+              <l part="N">О продолжители злой горести моей!    </l>
+              <l part="N">Вы отняли мой меч: в нем вся моя отрада.    </l>
+              <l part="N">Жить больше не хочу, отстав любезна взгляда.     <stage type="delivery">(Падает в креслы.) </stage>             </l>
+              <l part="N">Туман от глаз моих скрывает солнца свет...    </l>
+              <l part="N">Уж нет ни Трувора! ни, ах! Ильмены нет...    </l>
+              <l part="N">Моя кипяща кровь на сердце замерзает...    </l>
+              <l part="N">Или в сей страшный день вселенна исчезает!..    </l>
+              <l part="N">Проникли темноту лучи, сокрыта мгла,    </l>
+              <l part="N">Природа небесам цвет прежний отдала...    </l>
+              <l part="N">Но что вы, воины, вокруг меня дрожите?    </l>
+              <l part="N">Куда отселе все, куда вы прочь бежите?    </l>
+              <l part="N">Печальный <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Новград </tei:orig><tei:reg>Великий Новгород</tei:reg></tei:choice></tei:name>,    ты рассеян ныне весь.    </l>
+              <l part="N">О чем, любезная Ильмена, плачешь днесь...    </l>
+              <l part="N">Но кто поверженный там очи к небу мещет!    </l>
+              <l part="N">Какой несчастливый в крови своей трепещет!..    </l>
+              <l part="N">Едва, едва дыша, томится человек...    </l>
+              <l part="N">То Трувор, брат мой то, ах! он кончает век!    </l>
+              <l part="N">Прости любезный брат!.. Сие все мной творимо.     <stage type="delivery">(Востает.) </stage>             </l>
+              <l part="N">О солнце! для чего еще ты мною зримо!    </l>
+              <l part="N">Разлей свои валы, о Волхов! на брега,    </l>
+              <l part="N">Где Трувор поражен от брата и врага,    </l>
+              <l part="N">И шумным стоном вод вещай вину Синава,    </l>
+              <l part="N">Которой навсегда его затмилась слава!    </l>
+              <l part="N">Чертоги! где лила свою Ильмена кровь,    </l>
+              <l part="N">Падите на меня, отмстите злу любовь!    </l>
+              <l part="N">Карай мя, небо, я погибель в дар приемлю,    </l>
+              <l part="N">Рази, губи, греми, бросай огонь на землю!..    </l>
+            </sp>
+            <trailer> Конец трагедии </trailer>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

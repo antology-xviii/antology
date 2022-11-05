@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Дворная собака </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor"> Л. Е. Боброва, В. Э. Вацуро </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Дворовая собака</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N                   СПб.</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> неизвестно</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">лживость обещаний</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">доверчивость и глупость</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жила у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>барина</tei:orig><tei:reg>барин</tei:reg></tei:choice></tei:name> <name type="character">собака</name> на дворе</l>
+          <l part="N"> <space dim="horizontal" extent="7 letters"/>В таком довольстве и добре,</l>
+          <l part="N">В каком, бывало, жил чернец в монастыре;</l>
+          <l part="N"> <space dim="horizontal" extent="15 letters"/>Всего же боле,</l>
+          <l part="N"> <space dim="horizontal" extent="11 letters"/>Что жить могла на воле. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="character">Сосед</name>, который в дом к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>боярину</tei:orig><tei:reg>боярин</tei:reg></tei:choice></tei:name> ходил,</l>
+          <l part="N"> <space dim="horizontal" extent="7 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Собаку</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> эту полюбил,  </l>
+          <l part="N"> <space dim="horizontal" extent="7 letters"/>Да как достать ее, не знает:</l>
+          <l part="N">Просить <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>боярина</tei:orig><tei:reg>боярин</tei:reg></tei:choice></tei:name> об ней ой не хотел,  </l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Украсть ее - бездельством счел.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Нет, надобно, - он рассуждает, - <l part="N"> <space dim="horizontal" extent="12 letters"/>Скромнее поступить</l><l part="N">И тонким образом <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> собаку</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> ту сманить</l></q>.</l>
+          <l part="N">Бездельство тонкое бездельством не считает.</l>
+          <l part="N">И всякий раз, когда, бывало, ни придет,  </l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Речь о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>собаке</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> заведет,</l>
+          <l part="N">При ней самой ее как можно выхваляет,  </l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>барину</tei:orig><tei:reg>барин</tei:reg></tei:choice></tei:name> пенять начнет,</l>
+          <l part="N">Что содержание ей у него худое:</l>
+          <l part="N"><q>Нет, у меня житье ей было б не такое; <l part="N">Иного я куска и сам бы есть не стал,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Да этой бы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> собаке</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> дал,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Всегда бы спать с собою клал.</l><l part="N">А у тебя она лишь кости подбирает  </l><l part="N"> <space dim="horizontal" extent="12 letters"/>И как случится спит</l></q>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Всё, что <name type="character">сосед</name> ни говорит,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><name type="character">Собака</name> правдою считает</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>И думает: <q>Что? может быть, и впрям <l part="N"> <space dim="horizontal" extent="8 letters"/>Еще мне лучше будет там,</l><l part="N">Хоть хорошо и здесь... отведать бы пуститься;</l><l part="N">А худо - и назад ведь можно воротиться</l></q>.</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>Подумала, да и с двора долой,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>К <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>соседу</tei:orig><tei:reg>сосед</tei:reg></tei:choice></tei:name> прямо прибежала.</l>
+          <l part="N">Живет дней несколько, и месяц, и другой;</l>
+          <l part="N">Не только что куска того не получала,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Которого, <name type="character"> сосед</name> сказал,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Не съел бы сам, а ей бы дал,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И костью с ну́ждою случится</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Собаке</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> в праздник поживиться.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Спать - хуже прежнего спала;</l>
+          <l part="N">А сверх того еще привязана была.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И поделом: зачем сбежала?</l>
+          <l part="N">Вперед, <name type="character"> собака</name>, знай, когда еще не знала,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>Что многие умеют мягко стлать,</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>Да жестко спать.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Собаки</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name> добрые с двора на двор не рыщут  </l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И от добра добра не ищут.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

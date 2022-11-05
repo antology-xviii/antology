@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="subordinate">ПРИТЧА</title>
+        <title type="main">МОДНЫЙ ДОКТОР</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor">Н. Д. Кочеткова, Г. П. Макогоненко, И. З. Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> <title type="subordinate">Притча</title> (этого подзаголовка при тексте в журнале не было)   <title type="main">Модный доктор</title>  </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение. N 6</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">тщеславие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">болезнь</tei:span>
+    <body>
+      <div xml:id="whole" met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Что худо жить по моде,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>А лучше по природе,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Хотя и прежде я слыхал,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>А нонча сам узнал.</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Вдруг новый доктор появился,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Всем доктор полюбился.</l>
+        <l part="N"><space dim="horizontal" extent="29 letters"/>Горазд лечить,</l>
+        <l part="N"><space dim="horizontal" extent="29 letters"/>Всяк хочет жить;</l>
+        <l part="N"><space dim="horizontal" extent="6 letters"/>Хоть болен кто, хоть нет, но всяк лечился;</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>А доктор богатился.</l>
+        <l part="N">Пословица лежит: куда де конь с ногой,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Туда и жаба со клешней.</l>
+        <l part="N">Посадский не́какий с боярами равнялся,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Затем что откупов держался.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Умел он торговать,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Умел он деньги собирать.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Нередко то бывает,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Когда кто деньги собирает,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>Того и всякий почитает.</l>
+        <l part="N">Одна дочь у него любимая была;</l>
+        <l part="N"><space dim="horizontal" extent="6 letters"/>А девушка чахоткой немогла.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Отец ее крушится,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>И смерти дочерней боится.</l>
+        <l part="N">Тотчас по нового он доктора послал</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>И дочь лечить его призвал.</l>
+        <l part="N">Дочь вылечить отцу сей доктор обещает,</l>
+        <l part="N"><space dim="horizontal" extent="6 letters"/>А доктора отец обогащает.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Мой доктор не ленив,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Весьма трудолюбив:</l>
+        <l part="N">Всечасно девушку больную посещает,</l>
+        <l part="N">Не стал и денег брать, - он славы лишь желает.</l>
+        <l part="N"><space dim="horizontal" extent="6 letters"/>Чрез по́лгода больную излечил,</l>
+        <l part="N">Однако же болезнь другую приключил:</l>
+        <l part="N">Неизлечимый ей припадок приключился,</l>
+        <l part="N">Такой, от коего никто не излечился.</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Не можно и лечить,</l>
+        <l part="N">Натура лишь сама ей может пособить. </l>
+        <l part="N">Что ж сделалось потом, уж я того не знаю,</l>
+        <l part="N"><space dim="horizontal" extent="11 letters"/>А басню тем мою кончаю,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>Что худо жить по моде,</l>
+        <l part="N"><space dim="horizontal" extent="20 letters"/>А лучше по природе.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

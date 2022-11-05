@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Два льва соседи</title>
+        <author>          <persName>            <forename full="yes">Иван</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Хемницер</surname>           </persName>         </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor role="editor">Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Два льва соседи</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и письма Хемницера по подлинным его рукописям, с биографической статьею и примечаниями Я. Грота</publisher>
+                <date>1873</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">война</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="5 letters"/>Два <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льва</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>, соседи меж собой,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Пошли друг на́ друга войной,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>За что, про что - никто не знает;</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Так им хотелось, говорят.</l>
+        <l part="N">А сверх того, когда лишь только захотят,-</l>
+        <l part="N">Как у людских царей, случается, бывает, -</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Найдут причину не одну,</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Чтоб завести войну.</l>
+        <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Львы</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>эти только в том от них отменны были,</l>
+        <l part="N">Когда войну они друг другу объявили,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Что мира вечного трактат,</l>
+        <l part="N">Который иногда не служит ни недели,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Нарушить нужды не имели,-</l>
+        <l part="N">Как у людских царей бывает, говорят,-</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Затем что не в обыкновеньи</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>У<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львов</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>такие сочиненьи.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Итак, один из этих <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львов</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name></l>
+        <l part="N">Другого полонил и область и скотов.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Привычка и предубежденье</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Свое имеют рассужденье:</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Хотя, как слышал я о том,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Житье зверям за этим<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львом</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name></l>
+        <l part="N">Противу прежнего ничем не хуже стало</l>
+        <l part="N">(Не знаю, каково прошедшее бывало),</l>
+        <l part="N">Однако каждый зверь всё тайным был врагом,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>И только на уме держали,</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Как это им начать,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Чтоб им опять за старым, быть.</l>
+        <l part="N">Как в свете всё идет своею чередою, -</l>
+        <l part="N">Оправясь, старый<name type="character">лев</name>о том стал помышлять</l>
+        <l part="N">Войною возвратить, что потерял войною.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Лишь только случай изменить</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Льву</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>звери новому сыскали,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Другого случая не ждали:</l>
+        <l part="N">Ягнята, так сказать, волками даже стали.</l>
+        <l part="N">Какую ж пользу<name type="character">лев</name>тот прежний получил,</l>
+        <l part="N">Что на другого<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льва</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>войною он ходил?</l>
+        <l part="N">Родных своих зверей, воюя, потерял,</l>
+        <l part="N">А этих для себя не впрок завоевал.</l>
+        <l part="N">Вот какова война: родное потеряй,</l>
+        <l part="N">А что завоевал, своим не называй.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

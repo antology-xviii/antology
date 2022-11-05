@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ПЛАЧ И УТЕШЕНИЕ РОССИИ К ЕГО ИМПЕРАТОРСКОМУ ВЕЛИЧЕСТВУ ПАВЛУ ПЕРВОМУ, САМОДЕРЖЦУ ВСЕРОССИЙСКОМУ</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Петров</surname>             </persName>                     </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 2.</title>
+            <editor role="compiler">Г. П. Макогоненко, И. З. Серман</editor>
+            <editor role="commentator">Н. Д. Кочеткова</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> ПЛАЧ И УТЕШЕНИЕ РОССИИ К ЕГО ИМПЕРАТОРСКОМУ ВЕЛИЧЕСТВУ ПАВЛУ ПЕРВОМУ, САМОДЕРЖЦУ ВСЕРОССИЙСКОМУ</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Отд. Изд.                   М.</publisher>
+                <date>1796</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>Ноябрь - декабрь 1796</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" org="uniform" sample="complete" part="N">
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/><name type="place">Россия</name>, матери лишенна,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Внезапной смертию ея,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Как страшным громом оглушенна,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Не помня своего во свете бытия,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Стоит оцепенев; пресветлы меркнут очи,</l>
+          <l part="N">Восходит на чело печальной сумрак ночи;</l>
+          <l part="N">Остановляется всех жил биенье вдруг,</l>
+          <l part="N">И запирается во персях томный дух;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Бесчувственна, полмертва,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Несносной скорби жертва,</l>
+          <l part="N"><space dim="horizontal" extent="20 letters"/>Падет.</l>
+          <l part="N">Опомнясь, - зрелище плачевно, - восстает:</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>С увядшими красами,</l>
+          <l part="N">С растрепанными вдоль широких плеч власами,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Со перстью на главе, бледна,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Прежалостна, бедна:</l>
+          <l part="N">Как бури силою от листвий обнаженный,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И молниями обожженный,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Великолепный прежде кедр,</l>
+          <l part="N">Днесь корнем внутрь земных едва держайся недр.</l>
+          <l part="N">Со чувствованием в душе тоски и муки,</l>
+          <l part="N">Колени преклоня, простря вверх обе руки</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И омраченных взор очей,</l>
+          <l part="N">В которых заперся болезнью слез ручей,</l>
+          <l part="N"> <q>О боже!</q> - вопиет, - <q>мой боже милосердый! <l part="N">Поднесь спасение, надежда, щит мой твердый!</l><l part="N"><space dim="horizontal" extent="20 letters"/>Внуши</l><l part="N">Вопль страшным бедствием объятыя души;</l><l part="N">Се черна надо мной развесясь туча смерти</l><l part="N">Грозит на мя упасть! К кому мне ток простерта,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Как, творче, не к тебе?</l><l part="N">По неиспытанной кой правишь всё судьбе;</l><l part="N"><space dim="horizontal" extent="12 letters"/>Кой, всё храня, не дремлешь;</l><l part="N">Сквозь бури глас к тебе из бездн зовущий внемлешь.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Из бездны я к тебе зову,</l><l part="N">Болезненну едва подъемлюща главу;</l><l part="N">Едва, едва моя стенанье грудь изводит,</l><l part="N">Из сердца теплота естественна уходит,</l><l part="N">Катится из очей с слезами вместе свет.</l><l part="N">Увы! (то мысль моя воображать отмещет,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Язык мой вымолвить трепещет)</l><l part="N"><space dim="horizontal" extent="8 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерины</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name> больше нет?</l><l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерины</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name>  нет! о горе, о беда!</l><l part="N"><space dim="horizontal" extent="12 letters"/>Привыкшей славы к блескам,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Ко торжествам и плескам,</l><l part="N">Сраженной тако ль быть вдруг вышла мне чреда!</l><l part="N">Так нет тебя, о благ сокровище бесценных.</l><l part="N">Царица бодрых душ, живых и просвещенных;</l><l part="N">Тебя, которой жертв курились алтари</l><l part="N">И поклонялися с почтением цари!</l><l part="N">Закрылись очеса, что радость проливали;</l><l part="N">Умолкли ввек уста, что разум возвещали;</l><l part="N">Окрепли персты рук, писавы мне закон</l><l part="N">И счастье тысячам: о, беспробудный сон!</l><l part="N">Лежит недвижима, кем двигана вселенна,</l><l part="N">От мощи всей ее лишь плоть осталась тленна.</l><l part="N">На сей великий труп, на мертво божество,</l><l part="N">Слез миро льет со мной днесь тварей естество,</l><l part="N">Мне горы, мне леса, мне морь состонут волны,</l><l part="N">Во бреги бьют, ревя, слезами реки полны.</l><l part="N">Ах! дола красоту насильный рок увлек,</l><l part="N">Достойна вечно жить толь рано кончит век.</l><l part="N">Ах! бездыханна та, я коею дыхала,</l><l part="N">И коей нежима, как крин, благоухала;</l><l part="N">Во гроб нисходит, дней не выполня числа,</l><l part="N">Котора царств меня всех выше вознесла,</l><l part="N">Расширила мои, не лья кровей, пределы,</l><l part="N">И миллионы чад приобрела мне целы;</l><l part="N">Искала мне влиять свет высших мыслей в грудь,</l><l part="N">Свой тихий, нежный нрав, свой истый дух вдохнуть;</l><l part="N">Небесные в душе достоинства вмещая</l><l part="N">И беззавистно их мне с трона сообщая,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Как солнце миру луч,</l><l part="N"><space dim="horizontal" extent="12 letters"/>С высот превыше туч,</l><l part="N">По мере, сколько я в вид лучший прерождалась,</l><l part="N">Добро́тами во мне своими услаждалась;</l><l part="N"><space dim="horizontal" extent="12 letters"/>Считала мой успех</l><l part="N"><space dim="horizontal" extent="12 letters"/>За верх своих утех,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Мое в талантах совершенство</l><l part="N"><space dim="horizontal" extent="8 letters"/>За собственное благоденство-</l><l part="N"><space dim="horizontal" extent="12 letters"/>Мать истинна моя</l><l part="N">И нет ее, увы! осиротела я!</l><l part="N">Ты, боже, мне ее печать щедрот пославый</l><l part="N"><space dim="horizontal" extent="8 letters"/>И дух ее к себе днесь взявый,</l><l part="N"><space dim="horizontal" extent="17 letters"/>Оставя плоть,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Царей и подданных господь!</l><l part="N"><space dim="horizontal" extent="12 letters"/>Ты мне помощник буди,</l><l part="N">И сей болезненной пошли отраду груди</l></q>.</l>
+          <l part="N">Рекла, и к вышнему достигли словеса;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Разверзлись небеса,</l>
+          <l part="N">Открылся бог, сидящ во славе на престоле,</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>И луч оттоле,</l>
+          <l part="N">Краснейший солнечна, на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>град Петров</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name> прострясь,</l>
+          <l part="N">Сошел молниебыстр и, в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павлов</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name> лик упрясь,</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>Остановился;</l>
+          <l part="N">В небесном блеске он величествен явился.</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>И в той же час</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Услышен свыше глас:</l>
+          <l part="N"> <q>О <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павел</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name>! облекись во праотцев порфиру <l part="N">И, не косня, покрой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>  оной сиру;</l><l part="N">Покрой, и покажи, что в сыне мать жива.</l><l part="N">Ты счастья к ней залог, ты телу днесь глава.</l><l part="N">Чтоб свет узрел, кто ты, во грудь твою едину</l><l part="N">С великим я <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петром</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> вмещу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерину</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name>;</l><l part="N"><space dim="horizontal" extent="17 letters"/>Иль паче сам</l><l part="N"><space dim="horizontal" extent="12 letters"/>Мою святую волю</l><l part="N"><space dim="horizontal" extent="8 letters"/>Тобой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> возглаголю,</l><l part="N">Тобой исполню, что угодно небесам.</l><l part="N"><space dim="horizontal" extent="12 letters"/>Упадшее восставлю,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Недоконча́нное исправлю,</l><l part="N">Где вне́дрился порок иль злоба, - изгоню,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Добро́ты вкореню.</l><l part="N">Твой разум был судеб покорен произволу,</l><l part="N">Твой дух днесь лучшее святилище мне долу.</l><l part="N">Начни, и новою трон славой уясни;</l><l part="N">Начни, и милостью во все концы блесни;</l><l part="N">Уверь вселенную, что я тебе сопутствен,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Что я в тебе присутствен.</l><l part="N"><space dim="horizontal" extent="17 letters"/>Бог есть любовь;</l><l part="N">О сем познают все, что ты мой образ истый,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Что ты мой сын, небесна кровь,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Щедрот источник чистый,</l><l part="N"><space dim="horizontal" extent="17 letters"/>Поящий всех;</l><l part="N"><space dim="horizontal" extent="17 letters"/>Творец утех;</l><l part="N"><space dim="horizontal" extent="17 letters"/>Отец народа;</l><l part="N">В дарах неистощим, как общая природа,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Перворожденна дщерь моя;</l><l part="N">Как ангел, кроток, тих и милосерд, как я</l></q>.</l>
+          <l part="N">Бог рек, и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павел</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name>, вмиг надев, распростирает</l>
+          <l part="N">Порфиры широту, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> кроет той;</l>
+          <l part="N">Ее ко груди жмет, ей слезы отирает,</l>
+          <l part="N">Как сердобольный друг и как отец прямой.</l>
+          <l part="N"> <q>Не плачь, - вещает ей, - вкуси меня и види: <l part="N"><space dim="horizontal" extent="12 letters"/>Я радостей залог.</l><l part="N"><space dim="horizontal" extent="8 letters"/>За мной во храм блаженства вниди,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Я вождь тебе, мне - бог.</l><l part="N">Мои способности, мои желанья, мысли,</l><l part="N"><space dim="horizontal" extent="12 letters"/>К тебе обращены,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Тебе посвящены:</l><l part="N">В подсолнечной меня ты лучшим другом числи.</l><l part="N"><space dim="horizontal" extent="12 letters"/>Я раннюю зарю</l><l part="N">Для пользы твоея восстаньем предварю,</l><l part="N">Я в полдень для тебя на подвиг обрекуся,</l><l part="N">Я в вечер о тебе, болея, попекуся.</l><l part="N"><space dim="horizontal" extent="12 letters"/>При солнце, при свеще</l><l part="N">Тобой займусь, и труд мой будет не вотще.</l><l part="N"><space dim="horizontal" extent="8 letters"/>И даже как на одр возлягу,</l><l part="N">Потщуся твоему споспешен быти благу.</l><l part="N"><space dim="horizontal" extent="17 letters"/>Не вдруг очам</l><l part="N"><space dim="horizontal" extent="17 letters"/>Дреманье дам;</l><l part="N">И дремля о тебе мечтати живо стану,</l><l part="N"><space dim="horizontal" extent="8 letters"/>С тобой засну, с тобой восстану.</l><l part="N">Покой тебе моим бессоньем устелю</l><l part="N">И чувства все мои с тобою разделю.</l><l part="N">Не буду следовать мечтам героев диким,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Искать в победах высоты:</l><l part="N"><space dim="horizontal" extent="12 letters"/>Сочту себя великим,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Когда счастлива ты</l></q>.</l>
+          <l part="N">То рекши, тщится он воздвигнута <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">И преклоняет к ней главу свою и выю,</l>
+          <l part="N">Под плечи сильну ей десницу подложа</l>
+          <l part="N">И твердо ног стопу уперту в дол держа,</l>
+          <l part="N">В подпору крепко ей подставливает рамо,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Она на то опряся, прямо</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>На быстры ноги восстает -</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Встает величественна паки:</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Ей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павел</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name> бытие дает,</l>
+          <l part="N">И возвращаются к ней прежней жизни знаки.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Лице цветет румянцем вновь,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Сверкают бодры очи,</l>
+          <l part="N">Свидетели внутри и здравия и мочи;</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>По жилам быстро льется кровь.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>В ней орля обновилась младость,</l>
+          <l part="N">От нового ее подъявшего орла,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И распростерлась радость</l>
+          <l part="N">Из сердца теплого на белизну чела.</l>
+          <l part="N">Коль быстро к вод струям текут во зной елени,</l>
+          <l part="N">Стремится тако днесь душа ее к нему,</l>
+          <l part="N">Ко воскресителю и богу своему.</l>
+          <l part="N">Во ревности, в жару, преклонь пред ним колени,</l>
+          <l part="N"> <q>Клянуся господем, кой зрит на нас с небес, <l part="N">Клянусь, - речет, - тобой, днесь светом сих очес,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Клянуся совестью моею,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Моих всех мыслей судиею,</l><l part="N">Что, как служила я <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Великому Петру</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name>,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Премудрой как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерине</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name>,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Служить так <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павлу</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name> буду ныне,</l><l part="N"><space dim="horizontal" extent="8 letters"/>И силы крайние простру</l><l part="N"><space dim="horizontal" extent="8 letters"/>Ходити, как ему угодно,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Творить и мыслить благородно,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Его достойно и меня,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Честь, веру и закон храня.</l><l part="N">Куда ни повелишь стопы мои мне двигнуть,</l><l part="N"><space dim="horizontal" extent="12 letters"/>На огнь, на меч, на смерть, -</l><l part="N"><space dim="horizontal" extent="8 letters"/>Готова всюду их простерть,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Тобой желанного достигнуть.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Велишь, и грозной бурей гряну,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Сверкая и гремя!</l><l part="N"><space dim="horizontal" extent="8 letters"/>Велишь, и тихим морем стану</l><l part="N"><space dim="horizontal" extent="12 letters"/>Не тронясь, не шумя.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Земные все концы уверю,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Что я тебя люблю,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Что пред тобой не лицемерю,</l><l part="N">Я жертвой всю себя тебе употреблю.</l><l part="N"><space dim="horizontal" extent="8 letters"/>На мышцы силою упруги,</l><l part="N"><space dim="horizontal" extent="8 letters"/>На сии перси ты взгляни:</l><l part="N"><space dim="horizontal" extent="8 letters"/>Для должныя царю услуги</l><l part="N"><space dim="horizontal" extent="8 letters"/>Чего не сделают они?</l><l part="N">Тебе под грудью сей велико сердце бьется,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Тебе в сих жилах кровь лиется,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Тебе пылает дух мой, рвясь.</l><l part="N">Меж нами помню я, священну помню связь:</l><l part="N">Я тело, ты душа: мы оба неразлучны,</l><l part="N">Иль вместе счастливы, иль вместе злополучны.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Дыша тобой, должна я стать</l><l part="N"><space dim="horizontal" extent="8 letters"/>Тебе во мыслях сообразна,</l><l part="N"><space dim="horizontal" extent="8 letters"/>И совершенства почерпать</l><l part="N"><space dim="horizontal" extent="8 letters"/>В твоем примере без соблазна.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Зерцало действий ты моих,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Ты будешь созерцаем в них.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Объимешь тело всё <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Простря повсюду равну власть,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Как бог, кой все хранит стихии,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Ни коей не дан упасть.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Исправишь части искаженны,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Чтоб в вящей мне красе цвести;</l><l part="N"><space dim="horizontal" extent="8 letters"/>Отторгнешь члены зараженны,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Чтоб целость прочих соблюсти.</l><l part="N">Взираючи во мне на благородну лепость,</l><l part="N"><space dim="horizontal" extent="12 letters"/>На здравие и крепость,</l><l part="N">В восторге красотой красуясь сам моей,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Взыграешь ты душей.</l><l part="N">Взирая на тебя, виновника мне счастья,</l><l part="N"><space dim="horizontal" extent="12 letters"/>Полна в тебе участья,</l><l part="N">Благодарение я буду изъявлять</l><l part="N">И громкими тебя устами прославлять,</l><l part="N">Не хитрым голос мой струнам соразмеряя,</l><l part="N">Но сердца в простоте, вдруг с жаром повторяя:</l><l part="N">Мой царь мне мил, моя надежда, радость, свет!</l><l part="N">Он царствует, моей любовью безопасен,</l><l part="N">Он ходит иль сидит, - величествен, прекрасен,</l><l part="N">Меж дщерей, меж сынов, как солнце меж планет.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Дражайшая его супруга,</l><l part="N">Любя и чтя душей монарха в нем и друга,</l><l part="N">Сияет круг него, как ясная луна,</l><l part="N">Всегда щедротами и милостьми полна</l></q>.</l>
+          <l part="N">- <q>Я верю</q>, - <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павел</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name> рек, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> вновь объемля, -</l>
+          <l part="N"><q>Я верю, искрения любовь ко мне твоя: <l part="N">Но верь, любви твоей ответствует моя</l></q>.</l>
+          <l part="N">Всевышний, с высоты их жарки речи внемля</l>
+          <l part="N">И по вселенной всей безмолвье распростря,</l>
+          <l part="N">На пренье их любви любуется смотря.</l>
+          <l part="N">По сем божественный зрак вмале преклоняет,</l>
+          <l part="N">Благословящими их дланьми осеняет:</l>
+          <l part="N"> <q>Примером, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павел</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name>, ты царям земным свети, <l part="N">В объятиях <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павловых</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>, ты цвети</l></q>.</l>
+          <l part="N">То рек, и эмпирей опять сомкнул, составил,</l>
+          <l part="N">Но, благодати знак, при <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Павле</tei:orig><tei:reg>Павел I</tei:reg></tei:choice></tei:name> луч оставил,</l>
+          <l part="N">Небесный луч, всех почестей венец,</l>
+          <l part="N">Россиян честь и утешенье их сердец.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

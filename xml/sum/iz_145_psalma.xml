@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 145 псалма</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Из 145 псалма</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>А. Сумароков. Некоторые духовные сочинения</publisher>
+                <date>1774</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1773</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">ложные ценности</tei:span>
+    <body xml:id="whole">
+      <div met=" ЯРз 446 (ст. 6 - отступление)" rhyme="aaBccB" org="uniform" sample="complete" part="N">
+        <epigraph>
+          <cit>
+            <quote>Хвали душе моя Господа</quote>
+          </cit>
+        </epigraph>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не уповайте на Князей,</l>
+          <l part="N">Они рожденны от людей,</l>
+          <l part="N">И всяк по естеству на свете честью равен,</l>
+          <l part="N">Земля родит, земля пожрет:</l>
+          <l part="N">Рожденный всяк, рожден умрет,</l>
+          <l part="N">Богат и нищ презрен и славен. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тогда исчезнут лести те,</l>
+          <l part="N">Которы данны суете,</l>
+          <l part="N">И чем гордилися, бесстыдно, человеки:</l>
+          <l part="N">Скончаются их кратки дни,</l>
+          <l part="N">И вечно протекут они,</l>
+          <l part="N">Как гордые, шумя, текущи быстро реки. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда из них изыдет дух,</l>
+          <l part="N">О них пребудет только слух,</l>
+          <l part="N">Лежащих у земли бесчувственно в утробе:</l>
+          <l part="N">Лишатся гордостей своих,</l>
+          <l part="N">Погибнут помышленья их,</l>
+          <l part="N">И пышны титла все сокроются во гробе.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

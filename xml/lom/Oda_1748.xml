@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода на день восшествия на престол  ее величества государыни императрицы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елисаветы Петровны </tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> <date>1748 </date>года </title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> М. В.  Ломоносов. Полное собрание сочинений</title>
+            <editor role="editor">С.И. Вавилов, Т.П. Кравец</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Изд-во АН СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  				  электронная библиотека "Русская литература и  				  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace> М.; Л.</pubPlace>
+            <date>1950-1983</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ода на день восшествия на престол  ее величества государыни императрицы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисаветы Петровны </tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> <date>1748 </date> года </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>М. В. Ломоносов. Ода на день восшествия на престол  ее величества государыни императрицы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елисаветы Петровны </tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> <date>1748 </date> года.  СПб.</publisher>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1748</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетели Елизаветы Петровны</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">могущество России</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <note resp="editor" place="end" anchored="true">Печатается по последнему прижизненному изданию (Соч. <date>1757 </date>, стр. 83-92) с указанием в сносках вариантов по Отд. изд. <date>1748</date>, Рит. рук., Рит. корр., Рит. <date>1748 </date>, Рук. <date>1751</date>, Соч. <date>1751</date>, Соч. <date>1759</date>.  Местонахождение рукописи <date>1748</date> г. неизвестно.  Впервые напечатано в <date>1748 </date>г. отдельным изданием.  Датируется предположительно промежутком времени с 28 октября <date>1748</date> г. (день опубликования в СПб. Вед., <date>1748 </date>г., N 87, стр. 694 известия о заключении Ахенского мира) по 22 ноября того же года, когда Академическая канцелярия определила напечатать оду (ААН, ф. 3, оп. 1, N 517, л. 610 об.).  На протяжении <date>1748 </date>г. в творческой жизни Ломоносова и в жизни Академии наук произошел ряд важных событий. Только что полученный хвалебный отзыв <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Л. Эйлера </tei:orig><tei:reg>Эйлер Л.</tei:reg></tei:choice></tei:name>  о трудах <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносова </tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  ободрил их автора, поднял и утвердил его научный авторитет и дал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  повод вступить в ученую переписку с первой знаменитостью его времени. В этом же году вышла в свет "Риторика" <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, и начала действовать построенная им Химическая лаборатория. Появились реальные надежды на оживление деятельности Академического университета: из семинарий набрали, как предлагал Ломоносов, новых студентов, и при его участии обсуждался проект университетского регламента. Относительное благополучие водворилось на время и в окружавшем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> литературном мирке: отношения с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> В. К. Тредиаковским </tei:orig><tei:reg>Тредиаковский В. К.</tei:reg></tei:choice></tei:name>, , обострившиеся было два года назад (т. VII наст. изд., стр. 81-87, 801-805), стали ровнее, а с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> А. П. Сумароковым </tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, завязалась на некоторый срок даже и дружба: вышедшая в свет почти одновременно с публикуемой одой "эпистола" <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Сумарокова </tei:orig><tei:reg>Сумароков А. П.</tei:reg></tei:choice></tei:name>, величала <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Пиндаром </tei:orig><tei:reg>Пиндар</tei:reg></tei:choice></tei:name>, и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Малербом </tei:orig><tei:reg>Малерб</tei:reg></tei:choice></tei:name>, (т. IX наст. изд., примечания к документу 372). Значительные события произошли и за стенами Академии: заграничный поход русских войск, внушавший <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, такие серьезные опасения (см. примечания к стихотворению 141), обошелся без кровопролития: одно их движение к берегам <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Рейна</tei:orig><tei:reg>Рейн</tei:reg></tei:choice></tei:name> заставило воюющих поторопиться с заключением мира и положило конец династической войне, уже пять лет терзавшей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Западную Европу</tei:orig><tei:reg>Западная Европа</tei:reg></tei:choice></tei:name> (Соловьев, кн. V, стлб. 520):   И мечь Твой, лаврами обвитый,   Не обнажен, войну пресек.    Эта по-ломоносовски лаконичная формула была по-ломоносовски же точна.    Перечисленные события сказались на всем тоне публикуемой оды: он спокоен, бодр и оптимистичен. Но в оде нашли отзвук и тогдашние дипломатические осложнения, и тревога за Академию, где враги русского просвещения хоть временно и притихли, но не собирались сдавать свои позиции. Соответствующие намеки, мелькающие кое-где в тексте оды, не помешали ее официальному успеху. Он был исключителен: в "Санктпетербургских ведомостях", в отчете о состоявшихся 25 ноября <date>1748 </date> г. придворных торжествах было напечатано, что императрица, когда <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>К. Г. Разумовский</tei:orig><tei:reg>Разумовский К. Г.</tei:reg></tei:choice></tei:name> поднес ей оду <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, распорядилась дать ее автору "две тысячи рублев в награждение" (СПб. Вед., 1748, N 96, стр. 768-769). Такой суммой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> никогда еще не располагал: она почти в два с половиной раза превышала его тогдашний годовой оклад и вывела его из тех финансовых затруднений, из которых он не выходил с момента возвращения из- за границы (см. т. X. наст. изд., примечания к документу 490). Есть основание думать, что такое щедрое "награждение" было исходатайствовано <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> М. И. Воронцовым </tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>: новой одой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>  Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  он был весьма удовлетворен. Об этом можно судить по тому, что тотчас же по выходе оды в свет он отправил ее экземпляр в <name type="place">Стокгольм</name> русскому посланнику в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Швеции</tei:orig><tei:reg>Швеция</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Н. И. Панину</tei:orig><tei:reg>Панин Н. И.</tei:reg></tei:choice></tei:name>, который, получив оду, отозвался с далеко не свойственной ему торопливостью. "Ваше сиятельство, - писал он 19 декабря <date>1748</date> г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Воронцову</tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>, - сообщением оды сочинения г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>меня чувствительно одолжить изволили. Есть чем, милостивый государь, в нынешнее время наше отечество поздравить; знатный того опыт оная ода в себе содержит. По моему слабому мнению, сочинителевы мысли с стихотворением равными ступенями в ней идут, и едва ли одно перед другим предпочесть возможно" (Архив кн. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Воронцова</tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>, кн. VII, М., <date>1885</date>, стр. 460-461). Из этого отзыва, по-видимому вполне искреннего, можно заключить, что содержавшиеся в оде политические высказывания <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, в особенности же те, которые касались весьма напряженных в то время русско- шведских отношений, пришлись по душе обоим дипломатам - и вице-канцлеру, и посланнику в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Стокгольме</tei:orig><tei:reg>Стокгольм</tei:reg></tei:choice></tei:name>, которых никак нельзя было назвать единомышленниками. Их переписка о публикуемой оде свидетельствует о том, какое серьезное политическое значение придавалось уже в то время поэтическим произведениям <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> (см. ниже, примечания 5, 6, 14 и 15 к публикуемой оде).</note>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Заря багряною рукою</l>
+          <l part="N">От утренних спокойных вод</l>
+          <l part="N">Выводит с солнцем за собою</l>
+          <l part="N">Твоей державы новый год.</l>
+          <l part="N">Благословенное начало</l>
+          <l part="N">Тебе, Богиня, воссияло.</l>
+          <l part="N">И наших искренность сердец</l>
+          <l part="N">Пред троном Вышняго пылает,</l>
+          <l part="N">Да щастием Твоим венчает </l>
+          <l part="N">Его средину и конец.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Да движутся светила стройно</l>
+          <l part="N">В предписанных себе кругах,</l>
+          <l part="N">И реки да текут спокойно</l>
+          <l part="N">В Тебе послушных берегах;</l>
+          <l part="N">Вражда и злость да истребится,</l>
+          <l part="N">И огнь и меч да удалится</l>
+          <l part="N">От стран Твоих и всякий вред;</l>
+          <l part="N">Весна да рассмеется нежно,</l>
+          <l part="N">И земледелец безмятежно </l>
+          <l part="N">Сторичный плод да соберет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">С способными ветрами споря,</l>
+          <l part="N">Терзать да не дерзнет <name type="mythologic">борей</name> </l>
+          <l part="N">Покрывшего судами моря,</l>
+          <l part="N">Пловущими к земли Твоей.</l>
+          <l part="N">Да всех глубокий мир питает;</l>
+          <l part="N">Железо браней да не знает,</l>
+          <l part="N">Служа в труде безмолвных сел.</l>
+          <l part="N">Да злобна зависть постыдится,</l>
+          <l part="N">И славе свет да удивится</l>
+          <l part="N">Твоих великодушных дел.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Священны да хранят уставы</l>
+          <l part="N">И правду на суде судьи;</l>
+          <l part="N">И время Твоея державы</l>
+          <l part="N">Да ублажат раби Твои.</l>
+          <l part="N">Соседы да блюдут союзы;</l>
+          <l part="N">И вам, возлюбленные <name type="mythologic">Музы</name>,</l>
+          <l part="N">За горьки слезы и за страх,</l>
+          <l part="N">За грозно время и плачевно<note resp="editor" place="unspecified" anchored="true"> Под <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>музами</tei:orig><tei:reg>музы</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> здесь, как и в других случаях, разумеет науку и напоминает о периоде единовластия <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person "><tei:choice><tei:orig>Шумахера</tei:orig><tei:reg>Шумахер И. Д.</tei:reg></tei:choice></tei:name>.</note>  </l>
+          <l part="N">Да будет радость повседневно,</l>
+          <l part="N">При Невских обновясь струях.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Годину ту воспоминая,</l>
+          <l part="N">Среди утех мятется ум!</l>
+          <l part="N">Еще крутится мгла густая,</l>
+          <l part="N">Еще наносит страшный шум!</l>
+          <l part="N">Там буря и́скры завивает,</l>
+          <l part="N">И алчный пламень пожирает</l>
+          <l part="N">Минервин с громким треском храм! <note resp="editor" place="unspecified" anchored="true">Напоминание о пожаре, который в ночь на 5 декабря <date>1747 </date> г. произошел в здании Библиотеки и Кунсткамеры и истребил множество научных сокровищ. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> намекал впоследствии, что ходили слухи о преднамеренном поджоге: "говорено и о Герострате" (т. X наст. изд., документ 470, ╖ 23).</note> </l>
+          <l part="N">Как медь в горниле, небо рдится!</l>
+          <l part="N">Богатство разума стремится</l>
+          <l part="N">На низ к трепещущим ногам! <note resp="editor" place="unspecified" anchored="true">Характерная для <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> реалистическая деталь: во время пожара 5 декабря <date>1747 </date> г. отпечатанные, но еще не сброшюрованные академические издания, сложенные "в верхнем академическом магазейне, у башни", были скинуты на землю из окошек и с кровли, причем "многие листы разлетелись, иные замараны, затоптаны и подраны". Такая участь постигла и "Риторику" Ломоносова (Материалы, т. VIII, стр. 626). </note> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Дражайши <name type="mythologic">Музы</name>, отложите</l>
+          <l part="N">Взводить на мысль печали тень;</l>
+          <l part="N">Веселым гласом возгремите</l>
+          <l part="N">И пойте сей великий день,</l>
+          <l part="N">Когда в Отеческой короне</l>
+          <l part="N">Блеснула на Российском троне</l>
+          <l part="N">Яснее дня <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавет</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>;</l>
+          <l part="N">Как ночь на полдень пременилась,</l>
+          <l part="N">Как осень нам с весной сравнилась,</l>
+          <l part="N">И тьма произвела нам свет. <note resp="editor" place="unspecified" anchored="true">Дворцовый переворот, в результате которого <name type="person">Елизавета Петровна</name> вступила на престол, произошел глубокой осенью и ночью. </note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В луга, усыпанны цветами,</l>
+          <l part="N"> Царица трудолюбных пчел,</l>
+          <l part="N"> Блестящими шумя крылами,</l>
+          <l part="N"> Летит между прохладных сел;</l>
+          <l part="N"> Стекается, оставив розы</l>
+          <l part="N"> И сотом напоенны ло́зы,</l>
+          <l part="N"> Со тщанием отвсюду рой,</l>
+          <l part="N"> Свою Царицу окружает</l>
+          <l part="N"> И тесно вслед ее летает</l>
+          <l part="N"> Усердием вперенный строй.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Подобным жаром воспаленный</l>
+          <l part="N"> Стекался здесь Российский род,</l>
+          <l part="N"> И, радостию восхищенный,</l>
+          <l part="N"> Теснясь, взирал на Твой приход.</l>
+          <l part="N"> Младенцы купно с сединою</l>
+          <l part="N"> Спешили следом за Тобою.</l>
+          <l part="N"> Тогда великий <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>град Петров</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name></l>
+          <l part="N"> В едину стогну уместился,</l>
+          <l part="N"> Тогда и ветр остановился,</l>
+          <l part="N"> Чтоб плеск всходил до облаков.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тогда во все пределы Света</l>
+          <l part="N">Как молния достигнул слух,</l>
+          <l part="N"> Что царствует <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавета</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> Петров в себе имея дух.</l>
+          <l part="N"> Тогда нестройные соседы</l>
+          <l part="N"> Отчаялись своей победы</l>
+          <l part="N"> И в мысли отступали вспять. <note resp="editor" place="unspecified" anchored="true">Напоминание о последней русско-шведской войне. Говоря о "нестройных соседях", <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> намекает на партийные разногласия в тогдашних правящих кругах <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Швеции</tei:orig><tei:reg>Швеция</tei:reg></tei:choice></tei:name>. Подобные же разногласия наблюдались в шведских военных кругах и во время войны.</note></l>
+          <l part="N"> Монархиня, кто Россов знает</l>
+          <l part="N"> И ревность их к Тебе внимает,</l>
+          <l part="N"> Помыслит ли противу стать?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Что <name type="mythologic">Марс</name> кровавый не дерзает</l>
+          <l part="N">Руки своей простерти к нам,</l>
+          <l part="N">Твои он силы почитает</l>
+          <l part="N">И власть, подобну небесам.</l>
+          <l part="N">Лев ныне токмо зрит ограду,</l>
+          <l part="N">Чем путь ему пресечен к стаду. <note resp="editor" place="unspecified" anchored="true">Намек на мирный договор <date>1743 </date> г., который отодвинул русско-шведскую границу далеко на запад.</note></l>
+          <l part="N">Но море нашей тишины</l>
+          <l part="N">Уже пределы превосходит,</l>
+          <l part="N">Своим избытком мир наводит,</l>
+          <l part="N">Разлившись в западны страны.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="place">Европа</name>, утомленна в брани,</l>
+          <l part="N"> Из пламени подняв главу,</l>
+          <l part="N"> К Тебе свои простерла длани</l>
+          <l part="N"> Сквозь дым, курение и мглу.</l>
+          <l part="N"> Твоя кротчайшая природа,</l>
+          <l part="N"> Чем для блаженства смертных рода</l>
+          <l part="N"> Всевышний наш украсил век,</l>
+          <l part="N"> Склонилась для ее защиты,</l>
+          <l part="N"> И меч Твой, лаврами обвитый, </l>
+          <l part="N"> Не обнажен, войну пресек. <note resp="editor" place="unspecified" anchored="true"> См. вводную часть примечаний к публикуемой оде.</note>  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="place">Европа</name> и весь мир свидетель,</l>
+          <l part="N"> Народов разных миллион,</l>
+          <l part="N"> Колика ныне добродетель</l>
+          <l part="N"> Российский украшает трон.</l>
+          <l part="N"> О как сие нас услаждает,</l>
+          <l part="N"> Что вся вселенна возвышает,</l>
+          <l part="N"> Монархиня, твои дела́!</l>
+          <l part="N"> Народов Твоея державы</l>
+          <l part="N"> Различна речь, одежда, нравы,</l>
+          <l part="N"> Но всех согласна похвала.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Единым гласом все взываем,</l>
+          <l part="N"> Что Ты - Защитница и Мать,</l>
+          <l part="N"> Твои доброты исчисляем,</l>
+          <l part="N"> Но всех не можем описать.</l>
+          <l part="N"> Когда воспеть щедроты тщимся,</l>
+          <l part="N"> Безгласны красоте чудимся.</l>
+          <l part="N"> Победыль славить мысль течет,</l>
+          <l part="N"> Как пали Готы пред Тобою?</l>
+          <l part="N"> Но больше мирною рукою</l>
+          <l part="N"> Ты целой удивила свет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Весьма необычайно дело,</l>
+          <l part="N">Чтоб всеми кто дарами цвел:</l>
+          <l part="N">Тот крепкое имеет тело,</l>
+          <l part="N">Но слаб в нем дух и ум не зрел;</l>
+          <l part="N">В другом блистает ум небесный,</l>
+          <l part="N">Но дом себе имеет тесный,</l>
+          <l part="N">И духу сил недостает.</l>
+          <l part="N">Иной прославился войною,</l>
+          <l part="N">Но жизнью мир порочит злою</l>
+          <l part="N">И сам с собой войну ведет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тебя, богиня, возвышают</l>
+          <l part="N">Души и тела красоты,</l>
+          <l part="N">Что в многих разделясь блистают,</l>
+          <l part="N">Едина все имеешь Ты.</l>
+          <l part="N">Мы видим, что в тебе единой</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Великий Петр</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатериной</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name></l>
+          <l part="N">К блаженству нашему живет.</l>
+          <l part="N">Похвал пучина отворилась!</l>
+          <l part="N">Смущенна мысль остановилась,</l>
+          <l part="N">Что слов к тому недостает!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Однако дух еще стремится,</l>
+          <l part="N"> Еще кипит сердечный жар,</l>
+          <l part="N"> И ревность умолчать стыдится:</l>
+          <l part="N"> О <name type="mythologic">Муза</name>, усугубь твой дар,</l>
+          <l part="N"> Гласи со мной в концы земныя,</l>
+          <l part="N"> Коль ныне радостна <name type="place">Россия</name>!</l>
+          <l part="N"> Она, коснувшись облаков,</l>
+          <l part="N"> Конца не зрит своей державы;</l>
+          <l part="N"> Гремящей насыще́нна славы,</l>
+          <l part="N"> Покоится среди лугов. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В полях, исполненных плодами,</l>
+          <l part="N"> Где <name type="place">Волга</name>, <name type="place">Днепр</name>, <name type="place"> Нева</name> и <name type="place">Дон</name>,</l>
+          <l part="N"> Своими чистыми струями</l>
+          <l part="N"> Шумя, стадам наводят сон,</l>
+          <l part="N"> Седит и ноги простирает</l>
+          <l part="N"> На степь, где <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Хину</tei:orig><tei:reg>Китай</tei:reg></tei:choice></tei:name> отделяет</l>
+          <l part="N"> Пространная стена от нас; <note resp="editor" place="unspecified" anchored="true"> См. т. VII наст. изд., стр. 374-375. Если первые семь стихов строфы 17 вошли в "Риторику", которая начала печататься, по-видимому, еще в июне <date>1747 </date> г. (ААН, ф. 3, оп. 2, N 183, л. 68), а к первым числам декабря <date>1747 </date> г. была уже целиком отпечатана (т. VII наст. изд., стр. 806) то это означает, что эти стихи были написаны не одновременно с остальным текстом публикуемой оды, а по крайней мере целым годом ранее, не позднее ноября <date>1747</date> г. (ср. примечание 2 к стихотворению 43 и вводную часть примечаний к стихотворениям 32-41). <name type="place">Хина</name> - <name type="place"> Китай </name>.</note></l>
+          <l part="N"> Веселый взор свой обращает</l>
+          <l part="N"> И вкруг довольства исчисляет, </l>
+          <l part="N"> Возлегши лактем на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Кавкас</tei:orig><tei:reg>Кавказ</tei:reg></tei:choice></tei:name>.   <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N"> Се нашею, - рекла, - рукою</l><l part="N"> Лежит поверженный <name type="place">Азов</name>;</l><l part="N"> Рушитель нашего покою</l><l part="N"> Огнем казнен среди валов.</l><l part="N"> Се знойные <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каспийски бреги</tei:orig><tei:reg>Каспийское море</tei:reg></tei:choice></tei:name>,</l><l part="N"> Где, ва́рварски презрев набеги,</l><l part="N"> Сквозь степь и блата <name type="person">Петр</name>прошел,</l><l part="N"> В средину <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Азии</tei:orig><tei:reg>Азия</tei:reg></tei:choice></tei:name> достигнул,</l><l part="N"> Свои́ знамена там воздвигнул,</l><l part="N"> Где день скрывали тучи стрел. <note resp="editor" place="unspecified" anchored="true"> Строфа 18 содержит очень тонкий и едкий политический намек: Азовская крепость, взятая <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петром I</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> в <date>1696 </date> г., возвращенная <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турции</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name> по Прутскому миру <date>1711 </date> г. и вторично взятая русскими войсками в <date>1736</date> г., была срыта по требованию <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турции</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name> в <date>1741</date> г., когда руководителем внешней политики <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> России </tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> был <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Остерман</tei:orig><tei:reg>Остерман Г.</tei:reg></tei:choice></tei:name>. Таким образом, слова <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>"нашею... рукою... поверженный <name type="place">Азов </name>&gt; могут быть истолкованы двояко: и как похвала тем, кто его брал, и как горький упрек тем, кто его своими же руками разрушил. Так же двусмысленны и слова о "<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каспийских брегах</tei:orig><tei:reg>Каспийское море</tei:reg></tei:choice></tei:name>": прославляя Персидский поход <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Петра I </tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name>(<date>1722</date> г.), <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> с такой же горечью, как и об <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Азове</tei:orig><tei:reg>Азов</tei:reg></tei:choice></tei:name>, напоминает о том, что все завоеванное русскими войсками западное побережье <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каспийского моря</tei:orig><tei:reg>Каспийское море</tei:reg></tei:choice></tei:name>, которым <name type="person">Петр I</name> чрезвычайно дорожил, было без всяких к тому оснований отдано <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Персии </tei:orig><tei:reg>Персия</tei:reg></tei:choice></tei:name> в годы бироновщины.</note></l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">В моей послушности крутятся</l><l part="N">Там <name type="place">Лена</name>, <name type="place">Обь</name> и <name type="place">Енисей </name>,</l><l part="N">Где многие народы тщатся</l><l part="N">Драгих мне в дар ловить зверей;</l><l part="N">Едва покров себе имея,</l><l part="N">Смеются лютости <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>борея</tei:orig><tei:reg>Борей</tei:reg></tei:choice></tei:name>;</l><l part="N">Чудовищам дерзают вслед,</l><l part="N">Где верьх до облак простирает,</l><l part="N">Угрюмы тучи раздирает,</l><l part="N">Поднявшись с дна морского, лед. </l><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N"> Здесь <name type="place">Днепр</name> хранит мои границы,</l><l part="N"> Где Гот гордящийся упал</l><l part="N"> С торжественныя колесницы,</l><l part="N"> При коей в узах он держал</l><l part="N"> Сарматов и Саксонов пленных,</l><l part="N"> Вселенну в мыслях вознесенных</l><l part="N"> Единой обращал рукой. <note resp="editor" place="unspecified" anchored="true">Имеется в виду Полтавское поражение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Карла XII </tei:orig><tei:reg>Карл XII</tei:reg></tei:choice></tei:name>, вынужденными союзниками которого были тогда <name type="place">Польша</name> ("сарматы") и <name type="place">Саксония</name>.</note> </l><l part="N"> Но пал, и звук его достигнул</l><l part="N"> Во все страны, и страхом двигнул</l><l part="N"> С Дунайской <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Вислу </tei:orig><tei:reg>Висла</tei:reg></tei:choice></tei:name> быстриной. <note resp="editor" place="unspecified" anchored="true">Т. е. течение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Вислы</tei:orig><tei:reg>Висла</tei:reg></tei:choice></tei:name> стало таким же быстрым, как течение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Дуная</tei:orig><tei:reg>Дунай</tei:reg></tei:choice></tei:name>: намек на устрашающее впечатление, произведенное Полтавской битвой на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Турцию</tei:orig><tei:reg>Турция</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Польшу</tei:orig><tei:reg>Польша</tei:reg></tei:choice></tei:name>.</note>  </l><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N"> В стенах Петровых протекает</l><l part="N"> Полна веселья там <name type="place">Нева</name>,</l><l part="N"> Венцем, порфирою блистает,</l><l part="N"> Покрыта лаврами глава.</l><l part="N"> Там равной ревностью пылают</l><l part="N"> Сердца, как стогны все сияют</l><l part="N"> В исполненной утех ночи́.</l><l part="N"> О сладкий век! О жизнь драгая!</l><l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрополь</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name>, небу подражая,</l><l part="N"> Подобны испустил лучи</l></lg></lg></lg></q>. <note resp="editor" place="unspecified" anchored="true">Имеется в виду иллюминация в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петербурге</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name> по случаю седьмой годовщины вступления <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елизаветы Петровны</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> на престол. </note>  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Сие <name type="place">Россия</name> восхищенна</l>
+          <l part="N"> В веселии своем гласит;</l>
+          <l part="N"> <name type="place"> Москва </name> едина, на колена</l>
+          <l part="N"> Упав, перед Тобой стоит,</l>
+          <l part="N"> Власы седые простирает,</l>
+          <l part="N"> Тебя, Богиня, ожидает,</l>
+          <l part="N"> К тебе единой вопия:</l>
+          <l part="N"> <q>Воззри на храмы опаленны, <l part="N"> Воззри на стены разрушенны;</l><l part="N"> Я жду щедроты Твоея</l></q>. <note resp="editor" place="unspecified" anchored="true">В мае <date>1748 г.</date> в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> произошло шесть пожаров, опустошивших несколько районов и сопровождавшихся человеческими жертвами. Сгорело по одним данным 1227, по другим 1883 жилых дома (История Москвы, т. II, М., <date>1953</date>, стр. 457; ср. также Архив кн. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Воронцова</tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>, кн. 4, М., <date>1872</date>, стр. 9-10).</note>  </l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N"> Гряди, Краснейшая денницы,</l>
+            <l part="N"> Гряди, и светлостью лица</l>
+            <l part="N"> И блеском чистой багряницы</l>
+            <l part="N"> Утешь печальные сердца,</l>
+            <l part="N"> И время возврати златое.</l>
+            <l part="N"> Мы здесь в возлюбленном покое</l>
+            <l part="N"> К полезным припадем трудам.</l>
+            <l part="N"> Отсутствуя, Ты будеш с нами:</l>
+            <l part="N"> Покрытым орлими крилами</l>
+            <l part="N"> Кто смеет прикоснуться нам? <note resp="editor" place="unspecified" anchored="true">Строфа 22 и первые пять стихов строфы 23, убеждающие императрицу отправиться в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москву</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, были введены <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, очевидно, в угоду желаниям покровительствовавшего ему вице-канцлера <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>М. И. Воронцова</tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>, а может быть, и по прямому предложению последнего (ср. Соловьев, кн. V, стлб. 558). <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елизавете Петровне</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> хотелось поехать в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москву</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, но так как, по существовавшему тогда обычаю, с ней должны были двинуться туда и весь двор, и все высшие государственные учреждения, то вокруг этой поездки разгорелась в правящих сферах ожесточенная борьба. Канцлер <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>А. П. Бестужев-Рюмин </tei:orig><tei:reg>Бестужев-Рюмин А. П.</tei:reg></tei:choice></tei:name>, ссылаясь на сложность дипломатической обстановки (см. ниже, примечание 15), отговаривал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елизавету Петровну</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> от поездки в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москву</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, враждебная же <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Бестужеву</tei:orig><tei:reg>Бестужев-Рюмин А. П.</tei:reg></tei:choice></tei:name> партия, возглавляемая <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Воронцовым</tei:orig><tei:reg>Воронцов М. И.</tei:reg></tei:choice></tei:name>, убеждала императрицу не поддаваться уговорам канцлера (Соловьев, кн. V, стлб. 521-522).</note>  </l>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+              <l part="N"> Но естьли гордость ослепленна</l>
+              <l part="N"> Дерзнет на нас воздвигнуть рог,</l>
+              <l part="N"> Тебе, в женах благословенна,</l>
+              <l part="N"> Против ее помощник <name type="biblical">Бог</name>.</l>
+              <l part="N"> Он верьх небес к Тебе преклонит</l>
+              <l part="N"> И тучи страшные нагонит</l>
+              <l part="N"> Во сретенье врагам Твоим.</l>
+              <l part="N"> Лиш только ополчишься к бою,</l>
+              <l part="N"> Предъидет ужас пред Тобою,</l>
+              <l part="N"> И следом воскурится дым. <note resp="editor" place="unspecified" anchored="true"> <name type="place">Швеция</name>, подстрекаемая <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Францией</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Пруссией</tei:orig><tei:reg>Пруссия</tei:reg></tei:choice></tei:name>, заняла в это время настолько враждебную позицию, что русское правительство сочло нужным приступить к военным приготовлениям в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Финляндии</tei:orig><tei:reg>Финляндия</tei:reg></tei:choice></tei:name>, о чем проскальзывали кое-какие косвенные известия даже в официальные "Санктпетербургские ведомости" (см., например, СПб. Вед., <date>1748</date>, N 103, стр. 825); отношения же с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Францией</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name> обострились настолько, что 9 декабря <date>1748 </date> г. был отозван из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Парижа</tei:orig><tei:reg>Париж</tei:reg></tei:choice></tei:name> русский резидент (Соловьев, кн. V; стлб. 516-520; <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>П. В. Безобразов </tei:orig><tei:reg>Безобразов П. В.</tei:reg></tei:choice></tei:name>. О сношениях <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> России </tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Францией</tei:orig><tei:reg>Франция</tei:reg></tei:choice></tei:name>. М., <date>1892</date>, стр. 190-203). В печатном сообщении об отбытии императрицы в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москву</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> говорилось, что перед отъездом она распорядилась мобилизовать "из находящихся около <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Новгорода </tei:orig><tei:reg>Новгород</tei:reg></tei:choice></tei:name> и других окольничьих мест войск" тридцатитысячный корпус, который держать "во всякой к походу готовности", чтобы он мог "по первому указу в назначенное место маршировать" (СПб. Вед., <date>1748</date>, N 101, стр. 808-809). Эта дипломатическая демонстрация перекликалась с заключительной строфой публикуемой оды.</note>   </l>
+            </lg>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

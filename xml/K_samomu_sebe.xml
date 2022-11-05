@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> К самому себе </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal> Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> К самому себе </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Анакреонтические песни Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1798</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">корыстолюбие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">государственная служба</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">правдолюбие</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb... " org="uniform" sample="complete" part="N">
+        <l part="N">Что мне, что мне суетиться,</l>
+        <l part="N">Вьючить бремя должностей,</l>
+        <l part="N">Если мир за то бранится,</l>
+        <l part="N">Что иду прямой стезей?</l>
+        <l part="N">Пусть другие работают,</l>
+        <l part="N">Много мудрых есть господ:</l>
+        <l part="N">И себя не забывают,</l>
+        <l part="N">И царям сулят доход.</l>
+        <l part="N">Но я тем коль бесполезен,</l>
+        <l part="N">Что горяч и в правде чёрт,-</l>
+        <l part="N">Музам, женщинам любезен</l>
+        <l part="N">Может пылкий быть <name type="mythologic">Эрот</name>.</l>
+        <l part="N">Стану ныне с ним водиться,</l>
+        <l part="N">Сладко есть, и пить, и спать;</l>
+        <l part="N">Лучше, лучше мне лениться,</l>
+        <l part="N">Чем злодеев наживать.</l>
+        <l part="N">Полно быть в делах горячим,</l>
+        <l part="N">Буду лишь у правды гость;</l>
+        <l part="N">Тонким сделаюсь подьячим,</l>
+        <l part="N">Растворю пошире горсть.</l>
+        <l part="N">Утром раза три в неделю</l>
+        <l part="N">С милой музой порезвлюсь;</l>
+        <l part="N">Там опять пойду в постелю</l>
+        <l part="N">И с женою обоймусь.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

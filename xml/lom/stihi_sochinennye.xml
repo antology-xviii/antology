@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Стихи, сочиненныя на дороге в <name type="place">Петергоф</name>, когда я в <date>1761</date> году ехал просить о подписании привиллегии для Академии, быв много раз прежде за тем же/TITLE&gt;         </title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Стихи, сочиненныя на дороге в Петергоф, когда я в 1761 году ехал просить о подписании привиллегии для Академии, быв много раз прежде за тем же </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собеседник любителей российского слова, содержащий разные сочинения в стихах и прозе некоторых российских писателей. Ч. XI</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1784</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">беззаботность</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">долг</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">хлопоты</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кузнечик дорогой, коль много ты блажен,</l>
+          <l part="N">Коль больше пред людьми ты щастьем одарен!</l>
+          <l part="N">Препровождаешь жизнь меж мягкою травою</l>
+          <l part="N">И наслаждаешься медвяною росою.</l>
+          <l part="N">Хотя у многих ты в глазах презренна тварь,</l>
+          <l part="N">Но в самой истинне ты перед нами царь:</l>
+          <l part="N">Ты Ангел во плоти, иль, лучше, ты безплотен!</l>
+          <l part="N">Ты скачешь и поешь, свободен, беззаботен;</l>
+          <l part="N">Что видишь, все твое; везде в своем дому;</l>
+          <l part="N">Не просишь ни о чем, не должен ни кому.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

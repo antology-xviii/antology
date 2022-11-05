@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Похвала сельской жизни </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Похвала сельской жизни </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. СПб. Ч. 1-4.</publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1798</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">сельская жизнь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aBaBx" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Блажен! кто, удалясь от дел,</l>
+          <l part="N">Подобно смертным первородным,</l>
+          <l part="N">Орет отеческий удел</l>
+          <l part="N">Не откупным трудом, свободным,</l>
+          <l part="N">На собственных своих волах. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кого ужасный глас, от сна</l>
+          <l part="N">На брань, трубы не возбуждает,</l>
+          <l part="N">Морская не страшит волна,</l>
+          <l part="N">В суд ябеда не призывает;</l>
+          <l part="N">И господам не бьет челом, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но садит он в саду своем</l>
+          <l part="N">Кусты и овощи цветущи;</l>
+          <l part="N">Иль диких древ, кривым ножом</l>
+          <l part="N">Обрезав пни, и плод дающи</l>
+          <l part="N">Черенья прививает к ним. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль зрит вдали ходящий скот,</l>
+          <l part="N">Рычащий в вьющихся долинах;</l>
+          <l part="N">Иль перечищенную льет</l>
+          <l part="N">И прячет патоку в кувшинах,</l>
+          <l part="N">Или стрижет своих овец. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но осень как главу в полях,</l>
+          <l part="N">Гордясь, с плодами возвышает,-</l>
+          <l part="N">Как рад, что рвет их на ветвях,</l>
+          <l part="N">Привитых им,- и посвящает</l>
+          <l part="N">Дар богу, пурпура красней. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На бреге ли в траве густой,</l>
+          <l part="N">Под дуб ли древний он ложится,-</l>
+          <l part="N">В лесу гам птиц, с скалы крутой,</l>
+          <l part="N">Журча, к нему ручей стремится,</l>
+          <l part="N">И всё наводит сладкий сон. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда ж гремящий в тучах бог</l>
+          <l part="N">Покроет землю всю снегами,</l>
+          <l part="N">Зверей он ищет след и лот;</l>
+          <l part="N">Там зайца гонит, травит псами,</l>
+          <l part="N">Здесь ловит волка в тенета. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль тонкие в гумнах силки</l>
+          <l part="N">На куропаток расставляет,</l>
+          <l part="N">На рябчиков в кустах пружки,-</l>
+          <l part="N">О, коль приятну получает</l>
+          <l part="N">Награду за свои труды! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но будет ли любовь при том</l>
+          <l part="N">Со прелестьми ее забыта,</l>
+          <l part="N">Когда прекрасная лицом</l>
+          <l part="N">Хозяйка мила, домовита,</l>
+          <l part="N">Печется о его детях? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как ею, русских честных жен</l>
+          <l part="N">По древнему обыкновенью,</l>
+          <l part="N">Весь быт хозяйский снаряжен:</l>
+          <l part="N">Дом тепл, чист, светл, и к возвращенью</l>
+          <l part="N">С охоты мужа стол накрыт. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Бутылка доброго вина,</l>
+          <l part="N">Впрок пива русского варена,</l>
+          <l part="N">С гренками коновка полна,</l>
+          <l part="N">Из коей клубом лезет пена,</l>
+          <l part="N">Сыр, хлеб и соль - обед готов. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Горшок горячих, добрых щей,</l>
+          <l part="N">Копченый окорок под дымом;</l>
+          <l part="N">Обсаженный семьей моей,</l>
+          <l part="N">Средь коей сам я господином,</l>
+          <l part="N">И тут-то вкусен мне обед! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А как жаркой еще баран</l>
+          <l part="N">Младой, к Петрову дню блюденный,</l>
+          <l part="N">Капусты сочныя кочан,</l>
+          <l part="N">Пирог, груздями начиненный,</l>
+          <l part="N">И несколько молочных блюд,- </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тогда-то устрицы го-гу,</l>
+          <l part="N">Всех мушелей заморских грузы,</l>
+          <l part="N">Лягушки, фрикасе, рагу,</l>
+          <l part="N">Чем окормляют нас французы,</l>
+          <l part="N">И уж ничто не вкусно мне. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Меж тем приятно из окна</l>
+          <l part="N">Зреть карду с тучными волами:</l>
+          <l part="N">Кобыл, коров, овец полна;</l>
+          <l part="N">Двор резвыми кишит рабами -</l>
+          <l part="N">Как весел таковый обед! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так откупщик вчерась судил,</l>
+          <l part="N">Сбираясь быть поселянином,-</l>
+          <l part="N">По правежом долги лишь сбрил,</l>
+          <l part="N">Остался паки мещанином,</l>
+          <l part="N">А ныне деньги отдал в рост.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

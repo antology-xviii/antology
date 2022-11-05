@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 126. Псалма. Строитель не взведет строения прекрасна</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из того же Псалма (из 143). Благословен Творец вселенны</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 20.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date/>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">победа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">процветание</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCC" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Благословен Творец вселенны,</l>
+          <l part="N">Кем я к победе ополчен:</l>
+          <l part="N">Се руки ныне вознесенны,</l>
+          <l part="N">И дух ко брани устремлен!</l>
+          <l part="N">К тебе всю мысль надежда правит,</l>
+          <l part="N">Твоя рука меня прославит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Защитник слабыя сей груди</l>
+          <l part="N">Невидимой своей рукой!</l>
+          <l part="N">Тобой почтут мя люди,</l>
+          <l part="N">Подвержены под скипетр мой.</l>
+          <l part="N">Источник бесконечна века,</l>
+          <l part="N">Кого ты помнишь? человека. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Его весь век как тень проходит;</l>
+          <l part="N">Его все лета - суета.</l>
+          <l part="N">Как ветер пыль в ничто преводит,</l>
+          <l part="N">Так гибнет наша красота.</l>
+          <l part="N">Кого ты, творче, воспоминаешь!</l>
+          <l part="N">Кого толико прославляешь! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О Боже! рцы местам небесным,</l>
+          <l part="N">Где твой божественный престол,</l>
+          <l part="N">Превышше звезд верьхам безвестным:</l>
+          <l part="N">Да преклонятся в низкий дол.</l>
+          <l part="N">Спустись: да долы осветятся!</l>
+          <l part="N">Коснись горам - и воздымятся! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Да снидет огнь и гром да грянет,</l>
+          <l part="N">Да взыдет вихрь из земных недр;</l>
+          <l part="N">Рази врага, и не восстанет;</l>
+          <l part="N">Пронзи огнем ревущий ветр,</l>
+          <l part="N">Смяти врага, пуская стрелы;</l>
+          <l part="N">И дай покой в мои пределы! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Простри с небес свою зеницу,</l>
+          <l part="N">Избавь меня от враг моих;</l>
+          <l part="N">Подай мне крепкую десницу,</l>
+          <l part="N">Изми мя от сынов чужих,</l>
+          <l part="N">Смири грозящие мне воды,</l>
+          <l part="N">Разрушь бунтующи народы. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не преклони к их уха слову;</l>
+          <l part="N">Дела их гнусны пред тобой.</l>
+          <l part="N">Я воспою тебе песнь нову,</l>
+          <l part="N">Взнесу до облак голос мой,</l>
+          <l part="N">И восхвалю тя песнью в мире,</l>
+          <l part="N">Во многострунной я псалтире. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Дающий области, державу</l>
+          <l part="N">И Царский на главу венец,</l>
+          <l part="N">Царям спасение и славу,</l>
+          <l part="N">Премудрый всех судеб Творец!</l>
+          <l part="N">Ты грозного меча спасаешь,</l>
+          <l part="N">Даешь победы, низлагаешь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как грозды тучно напоенны,</l>
+          <l part="N">Сыны их в юности своей</l>
+          <l part="N">И дщери их преукрашенны</l>
+          <l part="N">Подобьем красоты церквей,</l>
+          <l part="N">Богаты, славны, благородны;</l>
+          <l part="N">Стада их, овчи, многоплодны. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Волы в лугах благоуханных,</l>
+          <l part="N">Во множестве сладчайших трав,</l>
+          <l part="N">На паству и на пищу данных,</l>
+          <l part="N">И весь их скот пасомый здрав:</l>
+          <l part="N">Нет вопля, слез и нет печали,</l>
+          <l part="N">Которы б их не миновали. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Благополучны вы, народы,</l>
+          <l part="N">Имущи таковую часть;</l>
+          <l part="N">Послушны вам земля и воды,</l>
+          <l part="N">Над всем, что зрите, ваша власть;</l>
+          <l part="N">Но кто живет по Творчей воле,</l>
+          <l part="N">Еще стократно счастлив боле.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

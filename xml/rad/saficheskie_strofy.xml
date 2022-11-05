@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>���������� ������</title>
+        <author>          <persName>            <forename full="yes">���������</forename>             <forename type="patronym" full="yes">����������</forename>             <surname full="yes">�������</surname>           </persName>         </author>
+        <principal>����� ��������</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>���, ������� "������� XVIII ���"</publisher>
+        <availability status="free">
+          <p>© 2012 ���</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>����������� ��������� "������� ���������� XVIII ����"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>������� �. �. ������ �������� ���������. �. 1.</title>
+            <editor role="editor">������ �. �., ��������� �. �., ��������� �. �.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>������������ �������� ���� ����</publisher>
+            <pubPlace>�.-�.</pubPlace>
+            <date>1938</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>���������� ������</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>��������</publisher>
+                <date>1801</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1801</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">������</tei:span>
+    <body xml:id="whole">
+      <div met="���" rhyme="��������. �. �." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">���� ���� ����������, ������ � ����</l>
+          <l part="N">������ ������, ���� �������� ������,</l>
+          <l part="N">����� ����� ����, ����� �������</l>
+          <l part="N"><space dim="horizontal" extent="11 letters"/>������ ����. </l>
+        </lg>
+        <lg n="***" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">�� ������� ������ ���� �� ����</l>
+          <l part="N">��� ������ ���� ���� �������;</l>
+          <l part="N">����� ������� ����� ���� ��� ������, -</l>
+          <l part="N"><space dim="horizontal" extent="11 letters"/>������ �������. </l>
+        </lg>
+        <lg n="***" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">��! ����� ���� ����������������!.. �����</l>
+          <l part="N">���� ������ �������, �� ����� �����</l>
+          <l part="N">������. ��, ���� ���� �������� ��������,</l>
+          <l part="N"><space dim="horizontal" extent="11 letters"/>������� � ��������. </l>
+        </lg>
+        <lg n="***" type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">����� ������, � ���! ��� �������, �����,</l>
+          <l part="N">��� ������ �� ������ ���� � ������ ������.</l>
+          <l part="N">���� ��������, ���� �� ������ ������</l>
+          <l part="N"><space dim="horizontal" extent="11 letters"/>���� ��� ������.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

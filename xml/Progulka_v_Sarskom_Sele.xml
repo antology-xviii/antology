@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Прогулка в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Сарском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name></title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Прогулка в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Сарском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name></title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Московский журнал. N 8.</publisher>
+                <date>1791</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1791</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">весна</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">красота</tei:span>
+    <body xml:id="whole">
+      <div met="Я3" rhyme="вольн.рифм." org="uniform" sample="complete" part="N">
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">В прекрасный майский день,</l>
+          <l part="N">В час ясныя погоды,</l>
+          <l part="N">Как всюду длинна тень,</l>
+          <l part="N">Ложась в стеклянны воды,</l>
+          <l part="N">В их зеркале брегов</l>
+          <l part="N">Изображала виды,</l>
+          <l part="N">И как между столпов</l>
+          <l part="N">И зданиев <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Фемиды </tei:orig><tei:reg>Фемида</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Сооруженных ей</l>
+          <l part="N">Героев росских в славу,</l>
+          <l part="N">При гласе лебедей,</l>
+          <l part="N">В прохладу и забаву,</l>
+          <l part="N">Вечернею порой</l>
+          <l part="N">От всех уединяясь,</l>
+          <l part="N">С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Пленирою </tei:orig><tei:reg>Пленира</tei:reg></tei:choice></tei:name> младой</l>
+          <l part="N">Мы, в лодочке катаясь,</l>
+          <l part="N">Гуляли в озерке;</l>
+          <l part="N">Она в корме сидела,</l>
+          <l part="N">А посредине я.</l>
+          <l part="N">За нами вслед летела</l>
+          <l part="N">Жемчужная струя,</l>
+          <l part="N">Кристалл шумел от весел;</l>
+          <l part="N">О, сколько с нею я</l>
+          <l part="N">В прогулке сей был весел!</l>
+          <l part="N">Любезная моя! -</l>
+          <l part="N">Я тут сказал, - <name type="character"> Пленира </name>!</l>
+          <l part="N">Тобой пленен мой дух,</l>
+          <l part="N">Ты дар всего мне мира.</l>
+          <l part="N">Взгляни, взгляни вокруг</l>
+          <l part="N">И виждь, красы природы</l>
+          <l part="N">Как бы стеклись к нам вдруг:</l>
+          <l part="N">Сребром сверкают воды,</l>
+          <l part="N">Рубином облака,</l>
+          <l part="N">Багряным златом кровы;</l>
+          <l part="N">Как огненна река,</l>
+          <l part="N">Свет ясный, пурпуровый</l>
+          <l part="N">Объял все воды вкруг;</l>
+          <l part="N">Смотри в них рыб плесканье,</l>
+          <l part="N">Плывущих птиц на луг</l>
+          <l part="N">И крыл их трепетанье. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Весна во всех местах</l>
+          <l part="N">Нам взор свой осклабляет,</l>
+          <l part="N">В зеленых муравах</l>
+          <l part="N">Ковры нам подстилает;</l>
+          <l part="N">Послушай рога рев,</l>
+          <l part="N">Там эха хохотанье,</l>
+          <l part="N">Тут шепоты ручьев,</l>
+          <l part="N">Здесь розы воздыхание!</l>
+          <l part="N">Се ветер помавал</l>
+          <l part="N">Крылами тихо слуху. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Какая пища духу! -</l>
+          <l part="N">В восторге я сказал,-</l>
+          <l part="N">Коль красен взор природы</l>
+          <l part="N">И памятников вид,</l>
+          <l part="N">Они где зрятся в воды</l>
+          <l part="N">И соловей сидит</l>
+          <l part="N">Где близ и воспевает,</l>
+          <l part="N">Зря розу иль зарю!</l>
+          <l part="N">Он будто изъявляет</l>
+          <l part="N">И богу и царю</l>
+          <l part="N">Свое благодаренье:</l>
+          <l part="N">Царю - за память слуг;</l>
+          <l part="N">Творцу - что влил стремленье</l>
+          <l part="N">К любви всем тварям в дух.</l>
+          <l part="N">И ты, сидя при розе,</l>
+          <l part="N">Так, дней весенних сын,</l>
+          <l part="N">Пой, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Карамзин</tei:orig><tei:reg>Карамзин Н. М.</tei:reg></tei:choice></tei:name>! - И в прозе</l>
+          <l part="N">Глас слышен соловьин.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

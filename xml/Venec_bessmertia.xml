@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Венец бессмертия </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Полное собрание стихотворений </title>
+            <editor role="editor"> В. А. Западов </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Библиотека поэта; Большая серия</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Венец бессмертия </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Анакреонтические песни Державина. СПб.</publisher>
+                <date>1804</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1793</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поэзия</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Беседовал с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анакреоном</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name></l>
+          <l part="N">В приятном я недавно сне,</l>
+          <l part="N">Под жарким, светлым небосклоном,</l>
+          <l part="N">В тени он пальм явился мне, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Хариты</tei:orig><tei:reg>хариты</tei:reg></tei:choice></tei:name> вкруг его, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>эроты</tei:orig><tei:reg>Эрот</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">С братиною златою <name type="mythologic">Вакх</name>,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Вафиль</tei:orig><tei:reg>Вафилл</tei:reg></tei:choice></tei:name> прекрасный - в рощи, гроты</l>
+          <l part="N">Ходили в розовых венках. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он дев плясаньем забавлялся,</l>
+          <l part="N">Тряхнув подчас сам сединой,</l>
+          <l part="N">На белы груди любовался,</l>
+          <l part="N">На взор метал их пламень свой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или, возлегши раменами</l>
+          <l part="N">На мягки розы, отдыхал;</l>
+          <l part="N">Огнистыми склонясь устами,</l>
+          <l part="N">Из кубка мед златый вкушал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль, сидя с юным другом, нежным,</l>
+          <l part="N">Потрепывал его рукой,</l>
+          <l part="N">А взором вкруг себя прилежным</l>
+          <l part="N">Искал красавицы какой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Цари к себе его просили</l>
+          <l part="N">Поесть, попить и погостить,</l>
+          <l part="N">Таланты злата подносили,</l>
+          <l part="N">Хотели с ним друзьями быть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но он покой, любовь, свободу</l>
+          <l part="N">Чинам, богатству предпочел;</l>
+          <l part="N">Средь игр, веселий, короводу</l>
+          <l part="N">С красавицами век провел. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Беседовал, резвился с ними,</l>
+          <l part="N">Шутил, пел песни и вздыхал,</l>
+          <l part="N">И шутками себе такими</l>
+          <l part="N">Венец бессмертия снискал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Посмейтесь, красоты российски,</l>
+          <l part="N">Что я в мороз, у камелька,</l>
+          <l part="N">Так вами, как <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>певец Тииский</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Дерзнул себе искать венка.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

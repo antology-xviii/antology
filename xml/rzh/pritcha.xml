@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ПРИТЧА 1. МУЖ И ЖЕНА         </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor"> Г. П. Макогоненко, Н. Д. Кочеткова, И. З. Серман </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Притча 1. Муж и жена </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Полезное увеселение, № 4</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">семейные отношения</tei:span>
+    <body>
+      <div xml:id="whole" met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Муж некогда жену за то свою бранил,</l>
+          <l part="N">Что дома не сидит и всякий день гуляет.</l>
+          <l part="N">Поступок женин был весьма ему не мил,</l>
+          <l part="N">И для того вот так жену свою шуняет:            <space dim="horizontal" extent="20 letters"/></l>
+          <l part="N"> <q>Нет,           <space dim="horizontal" extent="18 letters"/><l part="N">Мой свет,            <space dim="horizontal" extent="18 letters"/></l><l part="N">Неложно        <space dim="horizontal" extent="15 letters"/></l><l part="N">То, что с тобой        <space dim="horizontal" extent="13 letters"/></l><l part="N">И жить не можно,      <space dim="horizontal" extent="12 letters"/></l><l part="N">Как с доброю женой.    <space dim="horizontal" extent="9 letters"/></l><l part="N">С двора всегда ты ходишь;  <space dim="horizontal" extent="7 letters"/></l><l part="N">Тебя   по   вся   дни   дома                                      нет.    <space dim="horizontal" extent="6 letters"/></l><l part="N">Не знаю, с кем приязнь ты                                    водишь;   <space dim="horizontal" extent="5 letters"/></l><l part="N">Нельзя ужиться нам с тобой,                                   мой свет.  <space dim="horizontal" extent="3 letters"/></l><l part="N">Гуляй, да только меру знать в                                  том должно;    <space dim="horizontal" extent="3 letters"/></l><l part="N">Похвально ль приходить на                                утренней заре?   <space dim="horizontal" extent="3 letters"/></l><l part="N">По всякий день гулять тебе                                жена, не можно,  <space dim="horizontal" extent="5 letters"/></l><l part="N"> Лишь то льзя похвалять, что                              есть в своей поре.     <space dim="horizontal" extent="4 letters"/></l><l part="N">Ты    худо    делаешь,                               жена,    неложно,   <space dim="horizontal" extent="6 letters"/></l><l part="N">А ходишь только, чтоб тебе                                    гулять,   <space dim="horizontal" extent="8 letters"/></l><l part="N">И дом пустой ты оставляешь.       <space dim="horizontal" extent="9 letters"/></l><l part="N">Хожу   и   я,   да                                  торговать;    <space dim="horizontal" extent="10 letters"/></l><l part="N">А ты всегда лытаешь</l></q>.   <space dim="horizontal" extent="10 letters"/></l>
+          <l part="N"> <q>Как мне бы не ходить,      <space dim="horizontal" extent="11 letters"/><l part="N">Где ж хлеб достати?       <space dim="horizontal" extent="13 letters"/></l><l part="N">Тебе   так   жить           <space dim="horizontal" extent="16 letters"/></l><l part="N">Некстати:            <space dim="horizontal" extent="17 letters"/></l><l part="N">Не всяк              <space dim="horizontal" extent="19 letters"/></l><l part="N">Так                     <space dim="horizontal" extent="23 letters"/></l><l part="N">живет, как мы с тобою;</l><l part="N">Иной не ссорится по смерть с своей женою</l></q>.</l>
+          <l part="N">Сем мужу своему, жена мнит, угожу;</l>
+          <l part="N">Что слушаюсь его, ему то докажу,</l>
+          <l part="N">И буду поступать всегда по мужней воле,</l>
+          <l part="N">С двора уж никуда ходить не стану боле.</l>
+          <l part="N">На завтрея домой как с торгу муж пришел,</l>
+          <l part="N">И дома он свою хозяюшку нашел.</l>
+          <l part="N">Жена, увидевши вдали его, встречает;</l>
+          <l part="N">Муж очень рад: жена приказы наблюдает.</l>
+          <l part="N">Пришед, ей говорит: <q>Хозяюшка, мой свет, <l part="N">Пора обедать нам</l></q>.- <q>У нас обеда нет, - <l part="N">Жена ответствует, - я есть ведь не  варила</l></q>.</l>
+          <l part="N"> - <q>Да для чего?</q> - спросил. <q>С двора <space dim="horizontal" extent="36 letters"/><l part="N">я не ходила</l></q>.</l>
+          <l part="N"> - <q>Да для чего? </q> - <q>Ты сам мне не велел ходить; <l part="N">Сидела дома я, кому же есть купить? </l></q></l>
+          <l part="N">Нельзя, чтоб тот когда наукой пременился,            <space dim="horizontal" extent="11 letters"/></l>
+          <l part="N">Несмыслен кто            родился.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Кошка</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ольга Овчарская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Кошка</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 1.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Новиков Н.И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>1787</creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Привычку одолеть гораздо трудно,</l>
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Природу одолеть гораздо чудно.</l>
+          <l part="N">Я нечто вам теперь об этом предложу,</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>И басенку скажу.</l>
+          <l part="N">Я кошек не люблю и кошечья языка,</l>
+          <l part="N">А больше мне всего противна их музыка;</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Но был какой то господин;</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Хозяйки не имел, и жил один,</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>И кошку, не в издевку,</l>
+          <l part="N"><space dim="horizontal" extent="21 letters"/>Любил как девку.</l>
+          <l part="N">Да кошка по его не знает говорить.</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Просил богов, чтоб кошку претворить,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Чтоб кошка человеком стала,</l>
+          <l part="N">И под алмазами как барыня блистала.</l>
+          <l part="N">Исполнили они желание его:</l>
+          <l part="N">У кошки кошечья нет больше ничего.</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>На кошке фишбейная юбка</l>
+          <l part="N"><space dim="horizontal" extent="15 letters"/>Из китовых усов,</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Алмазы светятся из волосов,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>И ходит кошка будто шлюпка,</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Да только по сухом пути</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Водой пешком нельзя идти;</l>
+          <l part="N">у кошки не один костей на юбке ярус,</l>
+          <l part="N">А юбка дуется в погоду будто парус.</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Настал его желаниям конец:</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Женился наш на кошке молодец,</l>
+          <l part="N">И до приятнейша дошел часа и места;</l>
+          <l part="N"><space dim="horizontal" extent="17 letters"/>Он лег, легла невеста.</l>
+          <l part="N">Вдруг выбежала мышь. О, рок! о, случай злой!</l>
+          <l part="N">Вскочила барыня за ней с одра долой,</l>
+          <l part="N">Пресеклась барину потешиться дорожка,</l>
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Вскочила барыня - и стала кошка.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="person">Болеслав</name>, король польский</title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Никитич</forename>              <surname full="yes">Муравьев</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title><name type="person">Болеслав</name>, король польский. Баллада</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Вестник Европы</publisher>
+                <date>1810, N 9</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1790-е годы</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">зависть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">верность</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">искупление</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Замолчала многих слава</l>
+          <l part="N"> И героев и царей;</l>
+          <l part="N"> Ты содержишь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Болеслава</tei:orig><tei:reg>Болеслав</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <name type="place">Польша</name>, в памяти своей.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Посреди верховной власти,</l>
+          <l part="N"> Верен дружбе и любви,</l>
+          <l part="N"> Сохранял он сильны страсти</l>
+          <l part="N"> В воскипающей крови.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Счастлив, ежели бы брата</l>
+          <l part="N"> Не имел <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Збигнея</tei:orig><tei:reg>Збигней</tei:reg></tei:choice></tei:name> он,</l>
+          <l part="N"> Что глазами сопостата</l>
+          <l part="N">  Болеславов видел трон. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не давал он мщенью места,</l>
+          <l part="N"> И виновного любя;</l>
+          <l part="N"> Ах! Збигнеева невеста!</l>
+          <l part="N"> Для чего он зрел тебя? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Как лелеет в осененье</l>
+          <l part="N"> Розу нежная весна,</l>
+          <l part="N"> Так цвела в уединенье</l>
+          <l part="N"> Ты, воллинская княжна! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Зреть, любить тебя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Збигнею</tei:orig><tei:reg>Збигней</tei:reg></tei:choice></tei:name> -</l>
+          <l part="N"> То мгновение одно.</l>
+          <l part="N"> Приступить ко <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Именею</tei:orig><tei:reg>Именей</tei:reg></tei:choice></tei:name> </l>
+          <l part="N"> Было слово уж дано. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Раздались внезапу бубны,</l>
+          <l part="N"> В поле прах столпом стоит,</l>
+          <l part="N"> К бою звали гласы трубны, -</l>
+          <l part="N"> Побежден, <name type="person">Збигней</name> бежит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Так, как ангел-покровитель,</l>
+          <l part="N"> Входит в город <name type="person">Болеслав</name>,</l>
+          <l part="N"> Зрит княжну - и победитель</l>
+          <l part="N"> Просит уз, пред ней упав. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Со <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Збигнеем</tei:orig><tei:reg>Збигней</tei:reg></tei:choice></tei:name> обрученна,</l>
+          <l part="N"> Во слезах гласит княжна:</l>
+          <l part="N"> <q>Хоть навеки разлученна, <l part="N"> Буду ввек ему верна!</l></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Две луны прошло теченья;</l>
+          <l part="N"> Полн любовныя тоски,</l>
+          <l part="N"> Царь забыл свои раченья,</l>
+          <l part="N"> Позабыл свои полки. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Между тем не без успехов</l>
+          <l part="N"> Злобный дух Збигнеев был,</l>
+          <l part="N"> И с огромной силой чехов</l>
+          <l part="N"> Под <name type="place">Воллин </name> он подступил. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Тщетно всё: от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Болеслава</tei:orig><tei:reg>Болеслав</tei:reg></tei:choice></tei:name></l>
+          <l part="N"> Побежала чехов тьма,</l>
+          <l part="N"> Взят и вождь свирепа нрава;</l>
+          <l part="N"> Не снимает он шлема́. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Пленна витязя сретает</l>
+          <l part="N"> Царь у ног княжны своей;</l>
+          <l part="N"> Меч во грудь его вонзает,</l>
+          <l part="N"> Шлем валится - то <name type="person">Збигней</name>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Где возьму я выраженья,</l>
+          <l part="N"> Чтобы горесть описать,</l>
+          <l part="N"> Коею лишась движенья,</l>
+          <l part="N"> Царь не знает, что начать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Обратил, жестокосердный,</l>
+          <l part="N">Меч он к сердцу своему:</l>
+          <l part="N">Приближенных сонм усердный</l>
+          <l part="N">Воспротивился тому. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Свой оставив трон высокой</l>
+          <l part="N">И во рубищах простых,</l>
+          <l part="N">Ходит в горести глубокой</l>
+          <l part="N">По обителям святых. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Предо всеми, кто б случились,</l>
+          <l part="N">Исповедует свой грех,</l>
+          <l part="N">Просит он, чтоб помолились</l>
+          <l part="N">За него владыке всех. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Должно думать, что спокойство</l>
+          <l part="N">Наконец сошло с небес.</l>
+          <l part="N">Ах! ни чести, ни геройство</l>
+          <l part="N">Не спасают нас от слез.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

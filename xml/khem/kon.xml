@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Конь верховый</title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Конь верховый</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно </date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">тунеядство и хвастовство богатых</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">трудолюбие и смирение бедных</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg org="uniform" sample="complete" part="N">
+          <l part="N"> Верховый гордый <name type="character"> конь </name>, увидя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> клячу</tei:orig><tei:reg>кляча</tei:reg></tei:choice></tei:name> в поле</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>В работе под сохой</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>И в неге не такой,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И не в уборе, и не в холе,</l>
+          <l part="N"> Какую гордый <name type="character">конь</name> у барина имел,</l>
+          <l part="N"> С пренебрежением на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> клячу</tei:orig><tei:reg>кляча</tei:reg></tei:choice></tei:name> посмотрел,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>Пред <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> клячею</tei:orig><tei:reg>кляча</tei:reg></tei:choice></tei:name> крестьянскою бодрился</l>
+          <l part="N"> И хвастал, чванился, и тем и сем хвалился.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><q>Что? - говорит он <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> кляче</tei:orig><tei:reg>кляча</tei:reg></tei:choice></tei:name>той. -</q> <q><l part="N"> Бывал ли на тебе убор когда такой,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Каков убор ты видишь мой?</l><l part="N"> И знаешь ли, меня как всякий почитает?</l><l part="N"> Всяк, кто мне встретится, дорогу уступает,</l><l part="N"> Всяк обо мне твердит и всякий похваляет.</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Тебя же кто на свете знает?</l></q></l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Несносна <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> кляче</tei:orig><tei:reg>кляча</tei:reg></tei:choice></tei:name> спесь<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> коня</tei:orig><tei:reg>конь</tei:reg></tei:choice></tei:name>. <q><l part="N"> Пошел, хвастун! - ему на это отвечает. -</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Оставь с покоем ты меня.</l><l part="N"> <space dim="horizontal" extent="12 letters"/>Тебе ль со мной считаться</l><l part="N"> <space dim="horizontal" extent="12 letters"/>И мною насмехаться?</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Не так бы хвастать ты умел,</l><l part="N"> Когда бы ты овса моих трудов не ел</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

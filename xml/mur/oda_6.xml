@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода шестая</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Никитич</forename>             <surname full="yes">Муравьев</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода шестая</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Оды лейб-гвардии Измайловского полку сержанта Михайла Муравьева. </publisher>
+                <date>1775</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1775</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">скоротечность жизни</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие человека</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme=" AAbCCb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как яры волны в море плещут,</l>
+          <l part="N">Когда громовы стрелы блещут</l>
+          <l part="N">И рассекают горизонт,</l>
+          <l part="N">Корабль трещит и рвутся снасти, -</l>
+          <l part="N">Средь неминуемой напасти</l>
+          <l part="N">Пожрать пловца зияет понт. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сей понт есть нашей жизни время,</l>
+          <l part="N">И наша жизнь есть наше бремя,</l>
+          <l part="N">Ревут, на нас несясь, валы;</l>
+          <l part="N">Нас грозны громы поражают,</l>
+          <l part="N">И вкруг беды нас окружают,</l>
+          <l part="N">Как туча непрозрачной мглы. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Едва родимся мы, уж стонем</l>
+          <l part="N">И прежде в бедствиях потонем,</l>
+          <l part="N">Чем будем помнить мы себя;</l>
+          <l part="N">А время, невозвратно время,</l>
+          <l part="N">Бежит и косит смертно племя,</l>
+          <l part="N">Их тлен и память потребя. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Напрасно смертный возгордился.</l>
+          <l part="N">Он рек: <q>Затем я в свет родился, <l part="N">Чтобы повелевати им </l></q>, -</l>
+          <l part="N">Но чуть лишь рок его погонит,</l>
+          <l part="N">Чело он гордое уклонит</l>
+          <l part="N">И слезы даст бедам своим. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уничижи свою кичливость,</l>
+          <l part="N">Прерви ленивую сонливость</l>
+          <l part="N">И внидь в себя, о человек!</l>
+          <l part="N">Какое мудрое строенье!</l>
+          <l part="N">В тебе я зрю изображенье</l>
+          <l part="N">Того, кто царствует вовек. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты мудр, ты можешь быть спокоен.</l>
+          <l part="N">Затем в тебе твой ум устроен,</l>
+          <l part="N">Чтобы повелевать собой;</l>
+          <l part="N">Ты слаб, ты страстью колебаем,</l>
+          <l part="N">Самим собой обуреваем,</l>
+          <l part="N">Ты век караешься судьбой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О смертный! смесь уничиженья,</l>
+          <l part="N">Превыше ты воображенья,</l>
+          <l part="N">И мал бываешь и велик;</l>
+          <l part="N">Со кедром можешь ты сравниться -</l>
+          <l part="N">Ты можешь так, как трость, клониться,</l>
+          <l part="N">Хоть украшал геройский лик.  </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

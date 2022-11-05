@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Час смерти</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Час смерти </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Трудолюбивая пчела</publisher>
+                <date>1759</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1759</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N">О мысли люты!</l>
+        <l part="N">Кончается мое</l>
+        <l part="N">На свете бытие,</l>
+        <l part="N">Преходит житие,</l>
+        <l part="N">Пришли последние минуты,</l>
+        <l part="N">Пришел ко мне тот час,</l>
+        <l part="N">Который преселяет нас</l>
+        <l part="N">Во мрачну бесконечность.</l>
+        <l part="N">Отверста моему смятенну духу вечность:</l>
+        <l part="N">Погаснут данные мне искры божества,</l>
+        <l part="N">Потухнут мысли все и чувство вещества,</l>
+        <l part="N">В ничто преобращусь навек из существа;</l>
+        <l part="N">Престрашною судьбою</l>
+        <l part="N">Расстанусь навсегда</l>
+        <l part="N">Со светом и с собою,</l>
+        <l part="N">Засну, и не проснуся никогда.</l>
+        <l part="N">На то ль я, боже мой, произведен тобою,</l>
+        <l part="N">Чтоб сей вкусил я страх</l>
+        <l part="N">И претворился в прах?</l>
+        <l part="N">Щедролюбивая и всемогуща сила</l>
+        <l part="N">Нельзя, чтоб действие лютейшее сносила -</l>
+        <l part="N">Восстану я опять.</l>
+        <l part="N">Но, ах, возможно ли исчезнуть и восстать?</l>
+        <l part="N">Когда есть бог, возможно,</l>
+        <l part="N">А бог, конечно, есть, мы знаем то неложно.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

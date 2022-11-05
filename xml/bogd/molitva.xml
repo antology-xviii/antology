@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Молитва вечерняя</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Молитва вечерняя</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">молитва</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">грех</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aaBBaaDDaaDDffDDggBBhhFF." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сокрылись солнечны лучи</l>
+          <l part="N">От мрачной темноты в ночи.</l>
+          <l part="N">Я, день прошедший вспоминая,</l>
+          <l part="N">Что, в беззаконьи утопая,</l>
+          <l part="N">Тебя, о боже мой, гневил,</l>
+          <l part="N">Когда на всякий час грешил.</l>
+          <l part="N">Хотя числа нет согрешенью,</l>
+          <l part="N">К тебе, души ко облегченью,</l>
+          <l part="N">Дерзаю мысль мою взнести,</l>
+          <l part="N">Тебе моленье принести.</l>
+          <l part="N">Воззри на сердце сокрушенно,</l>
+          <l part="N">К тебе любовью утвержденно,</l>
+          <l part="N">И грешнику твой суд отсрочь:</l>
+          <l part="N">Не умертви в сию мя ночь,</l>
+          <l part="N">И дай твоим мне подкрепленьем</l>
+          <l part="N">Тебя не гневать согрешеньем.</l>
+          <l part="N">Храни в бесстрастии меня,</l>
+          <l part="N">Да, утренний узрев свет дня,</l>
+          <l part="N">С покойной мыслью одр оставлю</l>
+          <l part="N">И милости твои прославлю, -</l>
+          <l part="N">Что чистым, боже ты сердцам</l>
+          <l part="N">Всегда готов покров быть сам;</l>
+          <l part="N">Хранить желанья непорочны</l>
+          <l part="N">Всегда, и в сне, в часы полночны.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

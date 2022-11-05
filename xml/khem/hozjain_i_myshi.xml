@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Хозяин и мыши </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Хозяин и мыши</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно </date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть случая</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">роптанье на судьбу</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Две <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> мыши </tei:orig><tei:reg>мышь</tei:reg></tei:choice></tei:name> на один какой-то двор попались,</l>
+          <l part="N"> И вместе на одном дворе они живут;</l>
+          <l part="N"> Но каждой жительства различные достались,</l>
+          <l part="N"> А потому они и разну жизнь ведут:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Одна <name type="character">мышь</name> в житницу попала,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Другая <name type="character"> мышь </name>в анбар пустой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Одна в довольстве обитала,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Не видя ну́жды никакой;</l>
+          <l part="N"> Другая ж в бедности живет и всё горюет</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И на судьбину негодует,</l>
+          <l part="N"> С богатой видится и с нею говорит,</l>
+          <l part="N"> Но в житницу ее попасть никак не может,</l>
+          <l part="N"> И только тем одним сыта, что рухлядь гложет.</l>
+          <l part="N"> Клянет свою судьбу, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>хозяина</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name> бранит,</l>
+          <l part="N"> И наконец к нему <name type="character">мышь</name> бедна приступила,</l>
+          <l part="N"> Сравнять ее с своей подругою просила. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><name type="character">Хозяин</name> дело так решил,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> мыши</tei:orig><tei:reg>мышь</tei:reg></tei:choice></tei:name> говорил,</l>
+          <l part="N"> Котора с жалобой своею приходила:</l>
+          <l part="N"> <q>Вы обе случаем сюда на двор зашли <l part="N"> И тем же случаем и разну жизнь нашли.</l><l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Хозяину</tei:orig><tei:reg>хозяин</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> мышам</tei:orig><tei:reg>мышь</tei:reg></tei:choice></tei:name> не сделать уравненье;</l><l part="N"> <space dim="horizontal" extent="12 letters"/>И я скажу тебе:</l><l part="N"> Анбар и житницу построил я себе</l><l part="N"> <space dim="horizontal" extent="8 letters"/>На разное употребленье;</l><l part="N"> <space dim="horizontal" extent="8 letters"/>А до <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> мышей</tei:orig><tei:reg>мышь</tei:reg></tei:choice></tei:name> мне ну́жды нет,</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Котора где и как живет</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

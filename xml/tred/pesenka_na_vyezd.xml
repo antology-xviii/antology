@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Песенка, которую я сочинил, еще будучи в московских школах, на мой выезд в чужие краи</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>?</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>?</publisher>
+                <date>?</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1726</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">морское путешествие</tei:span>
+    <body xml:id="whole">
+      <div met="Силлабич. 448448-сл. " rhyme="AAABBB" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Весна катит,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Зиму валит,</l>
+          <l part="N">И уж листик с древом шумит.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Поют птички</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Со синички,</l>
+          <l part="N">Хвостом машут и лисички.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Взрыты брозды,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Цветут грозды,</l>
+          <l part="N">Кличет щеглик, свищут дрозды,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Льются воды,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И погоды;</l>
+          <l part="N">Да ведь знатны нам походы.<note resp="editor" place="unspecified" anchored="true"><quote>Знатны нам походы</quote> - знакомы нам (морские) походы.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Канат рвется,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Якорь бьется,</l>
+          <l part="N">Знать, кораблик понесется.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Ну ж плынь спешно,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Не помешно,</l>
+          <l part="N">Плыви смело, то успешно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Ах! широки</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И глубоки</l>
+          <l part="N">Воды морски, разбьют боки.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Вось заставят,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Не оставят</l>
+          <l part="N">Добры ветры и приставят.<note resp="editor" place="unspecified" anchored="true"><quote>Приставят</quote> -  здесь: приведут к пристани.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Плюнь на суку</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Морску скуку<note resp="editor" place="unspecified" anchored="true"><quote>Морску скуку</quote> - морскую болезнь.</note>,</l>
+          <l part="N">Держись черней<note resp="editor" place="unspecified" anchored="true"><quote>Держись черней</quote> - держись берега.</note>, а знай штуку<note resp="editor" place="unspecified" anchored="true"><quote>Знай штуку</quote> - знай (лоцманское) искусство (польск. sztuka - искусство).</note>:</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Стать отишно</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И не пышно<note resp="editor" place="unspecified" anchored="true"><quote>Стать не слышно и не пышно</quote> - стать в затишье, со свернутыми парусами.</note>;</l>
+          <l part="N">Так не будет волн и слышно.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

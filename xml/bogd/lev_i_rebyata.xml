@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Лев и ребята</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Лев и ребята</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Собеседник любителей российского слова</publisher>
+                <date>1783</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз" rhyme="AAbbAaAaaAA." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ребята на лугу играли,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Шары себе катали.  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Пришел к игрушкам Лев,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Пришел, и тут же сев,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Здорово им, как братам,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Он, лапу приподняв,  </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Вещает так ребятам:</l>
+          <l part="N"><quote>Давать катать шары; кто выйграет, тот прав</quote>.</l>
+          <l part="N">Ребята Льву в ответ: <quote>Мы свой храним устав. <l part="N">Мы лапу львиную высоко почитаем,</l><l part="N">Но родом, из веков, со Львами не играем</l></quote>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

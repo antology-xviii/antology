@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Воля и неволя</title>
+        <author>          <persName>            <forename full="yes">Иван</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Хемницер</surname>           </persName>         </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor role="editor">Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Воля и неволя</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки [И. И. Хемницера]. Ч. 2</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">неволя</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">свобода</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><name type="character">Волк</name>, долго не имев поживы никакой,</l>
+        <l part="N"><space dim="horizontal" extent="15 letters"/>Был тощ, худой</l>
+        <l part="N"><space dim="horizontal" extent="17 letters"/>Такой,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Что кости лишь одни да кожа.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>И<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>волку</tei:orig><tei:reg>волк</tei:reg></tei:choice></tei:name>этому случись</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>собакою</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name>сойтись,</l>
+        <l part="N">Которая была собой росла, пригожа,</l>
+        <l part="N"><space dim="horizontal" extent="17 letters"/>Жирна,</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Дородна и сильна.</l>
+        <l part="N"><name type="character">Волк</name>рад бы всей душой с<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>собакою</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name>схватиться</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>И ею поживиться,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Да полно, для того не смел,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Что не по нем была<name type="character">собака</name></l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>И не по нем была бы драка.</l>
+        <l part="N">И так со стороны учтивой подошел,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Лисой к ней начал подбиваться,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Ее дородству удивляться</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>И всячески ее хвалить.</l>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">
+            <q>Не стоит ничего тебе таким же быть, - <l part="N"><name type="character">собака</name>говорит, - как скоро согласишься</l><l part="N"><space dim="horizontal" extent="8 letters"/>Идти со мною в город жить.</l><l part="N">Ты будешь весь иной и так переродишься,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Что сам себе не надивишься.</l><l part="N">Что ваша жизнь и впрям? Скитайся всё, рыщи</l><l part="N">И с горем пополам поесть чего ищи;</l><l part="N">А даром и куском не думай поживиться:</l><l part="N"><space dim="horizontal" extent="10 letters"/>Всё с бою должно взять;</l><l part="N"><space dim="horizontal" extent="8 letters"/>А это на какую стать!</l><l part="N"><space dim="horizontal" extent="8 letters"/>Куды такая жизнь годится?</l><l part="N">Ведь посмотреть, так в чем душа-та, право, в вас?</l><l part="N">Не евши целы дни, вы все как испитые,</l><l part="N"><space dim="horizontal" extent="10 letters"/>Поджарые, худые.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Нет, то-то жизнь-та как у нас!</l><l part="N">Ешь не хочу всего, чего душа желает:</l><l part="N"><space dim="horizontal" extent="13 letters"/>После гостей</l><l part="N"><space dim="horizontal" extent="13 letters"/>Костей, костей,</l><l part="N">Остатков от стола, так столько их бывает,</l><l part="N"><space dim="horizontal" extent="10 letters"/>Что некуды девать!</l><l part="N">А ласки от господ - уж подлинно сказать!</l></q>
+          </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="5 letters"/>Растаял<name type="character">волк</name>, услыша весть такую,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И даже слезы на глазах</l>
+          <l part="N">От размышления о будущих пирах.</l>
+          <l part="N"><q>А должность отправлять за это мне какую?</q> -</l>
+          <l part="N">Спросил<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>собаку</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name><name type="character">волк</name>. - <q>Что? должность? ничего! - <l part="N"><space dim="horizontal" extent="10 letters"/>Вот только лишь всего,</l><l part="N">Чтоб не пускать на двор чужого никого,</l><l part="N"><space dim="horizontal" extent="10 letters"/>К хозяину ласкаться</l><l part="N">И около людей домашних увиваться</l></q>.</l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><name type="character">Волк</name>, слыша это всё, не шел бы, а летел;</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И лес ему так омерзел,</l>
+          <l part="N">Что про него уж он и думать не хотел,</l>
+          <l part="N">И всех<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>волков</tei:orig><tei:reg>волк</tei:reg></tei:choice></tei:name>себя счастливее считает.</l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Вдруг на<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>собаке</tei:orig><tei:reg>собака</tei:reg></tei:choice></tei:name>он дорогой примечает,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Что с шеи шерсть у ней сошла.</l>
+          <l part="N">
+            <space dim="horizontal" extent="10 letters"/>
+            <q>А это что такое, <l part="N"><space dim="horizontal" extent="8 letters"/>Что шея у тебя гола?</l></q>
+          </l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>- <q>Так, это ничего, пустое</q>.</l>
+          <l part="N">- <q>Однако нет, скажи</q>. - <q>Так, право ничего. <l part="N"><space dim="horizontal" extent="17 letters"/>Я чаю,</l><l part="N"><space dim="horizontal" extent="15 letters"/>Это оттого,</l><l part="N">Когда я иногда на привязи бываю</l></q>.</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>- <q>На привязи? - тут<name type="character">волк</name>вскричал. - <l part="N"><space dim="horizontal" extent="8 letters"/>Так ты не всё живешь на воле?</l></q></l>
+          <l part="N">- <q>Не всё; да полно, что в том ну́жды?</q> - <name type="character">пес</name>сказал.</l>
+          <l part="N">- <q>А ну́жды столько в том, что не хочу я боле <l part="N"><space dim="horizontal" extent="8 letters"/>Ни за́ что всех пиров твоих;</l><l part="N"><space dim="horizontal" extent="8 letters"/>Нет, воля мне дороже их,</l><l part="N">А к ней на привязи, я знаю, нет дороги!</l></q> -</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Сказал, и к лесу дай бог ноги.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода, выбранная из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Иова</tei:orig><tei:reg>Иов</tei:reg></tei:choice></tei:name>, глава 38, 39, 40 и 41</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода, выбранная из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Иова</tei:orig><tei:reg>Иов</tei:reg></tei:choice></tei:name>, глава 38, 39, 40 и 41</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Собрание разных сочинений в стихах и прозе. СПб.</publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1749-1951</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О ты, что в горести напрасно</l>
+          <l part="N">На <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Бога</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> ропщешь, человек,</l>
+          <l part="N">Внимай, коль в ревности ужасно,</l>
+          <l part="N">Он к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Иову</tei:orig><tei:reg>Иов</tei:reg></tei:choice></tei:name> из тучи рек!</l>
+          <l part="N">Сквозь дождь, сквозь вихрь, сквозь град блистая</l>
+          <l part="N">И гласом громы прерывая,</l>
+          <l part="N">Словами небо колебал</l>
+          <l part="N">И так его на распрю звал:  <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Збери свои все силы ныне,</l><l part="N">Мужайся, стой и дай ответ.</l><l part="N">Где был ты, как я в стройном чине</l><l part="N">Прекрасный сей устроил свет,</l><l part="N">Когда я твердь земли поставил</l><l part="N">И сонм небесных сил прославил,</l><l part="N">Величество и власть мою?</l><l part="N">Яви премудрость ты свою!</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Где был ты, как передо мною</l><l part="N">Безчисленны тмы новых звезд,</l><l part="N">Моей возжженных вдруг рукою,</l><l part="N">В обширности безмерных мест</l><l part="N">Мое Величество вещали,</l><l part="N">Когда от солнца возсияли</l><l part="N">Повсюду новые лучи,</l><l part="N">Когда взошла луна в ночи?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Кто море удержал брегами</l><l part="N">И бездне положил предел,</l><l part="N">И ей свирепыми волнами</l><l part="N">Стремиться дале не велел?</l><l part="N">Покрытую пучину мглою</l><l part="N">Не я ли сильною рукою</l><l part="N">Открыл и разогнал туман</l><l part="N">И с суши здвигнул Океан?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Возмог ли ты хотя однажды</l><l part="N">Велеть ранее утру быть</l><l part="N">И нивы в день томящей жажды</l><l part="N">Дождем прохладным напоить,</l><l part="N">Пловцу способный ветр направить,</l><l part="N">Чтоб в пристани его поставить,</l><l part="N">И тяготу земли тряхнуть,</l><l part="N">Дабы безбожных с ней сопхнуть?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Стремнинами путей ты разных</l><l part="N">Прошол ли моря глубину?</l><l part="N">И счел ли чуд многообразных</l><l part="N">Стада, ходящия по дну?</l><l part="N">Отверзлись ли перед тобою</l><l part="N">Всегдашнею покрыты мглою</l><l part="N">Со страхом смертные врата?</l><l part="N">Ты спер ли адовы уста?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Стесняя вихрем облак мрачный,</l><l part="N">Ты солнце можешь ли закрыть,</l><l part="N">И воздух огустить прозрачный,</l><l part="N">И молнию в дожде родить,</l><l part="N">И вдруг быстротекущим блеском</l><l part="N">И гор сердца трясущим треском</l><l part="N">Концы вселенной колебать,</l><l part="N">И смертным гнев свой возвещать?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Твоей ли хитростью взлетает</l><l part="N">Орел, на высоту паря,</l><l part="N">По ветру крила простирает</l><l part="N">И смотрит в реки и моря?</l><l part="N">От облак видит он высоких</l><l part="N">В водах и в пропастях глубоких</l><l part="N">Что в пищу я ему послал.</l><l part="N">Толь быстро око ты ли дал?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Воззри в леса на <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Бегемота</tei:orig><tei:reg>Бегемот</tei:reg></tei:choice></tei:name>,</l><l part="N">Что мною сотворен с тобой;</l><l part="N">Колючей терн его охота</l><l part="N">Безвредно попирать ногой.</l><l part="N">Как верьви, сплетены в нем жилы.</l><l part="N">Отведай ты своей с ним силы!</l><l part="N">В нем ребра как литая медь;</l><l part="N">Кто может рог его сотреть?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Ты можешь ли <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Левиафана</tei:orig><tei:reg>Левиафан</tei:reg></tei:choice></tei:name></l><l part="N">На уде вытянуть на брег?</l><l part="N">В самой средине Океана</l><l part="N">Он быстрой простирает бег;</l><l part="N">Светящимися чешуями</l><l part="N">Покрыт, как медными щитами,</l><l part="N">Копье, и мечь, и молот твой</l><l part="N">Считает за тростник гнилой.</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Как жернов, сердце он имеет,</l><l part="N">И зубы - страшный ряд серпов:</l><l part="N">Кто руку в них вложить посмеет?</l><l part="N">Всегда к сраженью он готов;</l><l part="N">На острых камнях возлегает</l><l part="N">И твердость оных презирает:</l><l part="N">Для крепости великих сил</l><l part="N">Считает их за мягкой ил.</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Когда ко брани устремится,</l><l part="N">То море, как котел, кипит;</l><l part="N">Как печь, гортань его дымится,</l><l part="N">В пучине след его горит;</l><l part="N">Сверкают очи раздраженны,</l><l part="N">Как угль, в горниле раскаленный,</l><l part="N">Всех сильных он страшит, гоня.</l><l part="N">Кто может стать против меня?</l></lg>  <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Обширного громаду света</l><l part="N">Когда устроить я хотел,</l><l part="N">Просил ли твоего совета</l><l part="N">Для множества толиких дел?</l><l part="N">Как персть я взял в начале века,</l><l part="N">Дабы создати человека,</l><l part="N">Зачем тогда ты не сказал,</l><l part="N">Чтоб вид иной тебе я дал?</l></lg></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сие, о смертный, рассуждая,</l>
+          <l part="N">Представь Зиждителеву власть,</l>
+          <l part="N">Святую волю почитая,</l>
+          <l part="N">Имей свою в терпеньи часть.</l>
+          <l part="N">Он все на пользу нашу строит,</l>
+          <l part="N">Казнит кого или покоит.</l>
+          <l part="N">В надежде тяготу сноси</l>
+          <l part="N">И без роптания проси.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>СТАНС</title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="editor">Н. Д. Кочеткова, Г. П. Макогоненко, И. З. Серман</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Станс</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Свободные часы. N 1</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">быстротечность времени</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">человек</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Всё на свете сем минется:</l>
+          <l part="N">Всё на свете суета,</l>
+          <l part="N">Всё, чем дух наш ни мятется,</l>
+          <l part="N">Всё то тленность, всё мечта. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гордый, пышен ты напрасно:</l>
+          <l part="N">Ты такой же человек,</l>
+          <l part="N">Жди ты, жди премен всечасно:</l>
+          <l part="N">Счастлив будешь ты не век. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты ж, несчастный, не терзайся:</l>
+          <l part="N">Время горести промчит,</l>
+          <l part="N">И надеждою питайся,</l>
+          <l part="N">Дух отраду получи́т. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сей желании оставит;</l>
+          <l part="N">Оный скучит, веселясь:</l>
+          <l part="N">Сей от бед себя избавит,</l>
+          <l part="N">Оный будет жить крушась. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Рок здесь всё преобращает,</l>
+          <l part="N">Всё пременно в свете сем:</l>
+          <l part="N">И желаньи пременяет</l>
+          <l part="N">В сердце человек своем. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но о том ли сокрушаться</l>
+          <l part="N">Долженствует человек?</l>
+          <l part="N">Тем он счастливым назваться</l>
+          <l part="N">Должен в сей короткий век. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">То на свете всех равняет,</l>
+          <l part="N">Что премены всякий ждет,</l>
+          <l part="N">То несчастных утешает</l>
+          <l part="N">И надежду подает. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Если б были не пременны</l>
+          <l part="N">Мы в желаниях своих,</l>
+          <l part="N">Были б мы определенны</l>
+          <l part="N">Жить в несчастиях презлых. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Человек всего желает;</l>
+          <l part="N">Ах, но льзя ль всё получить!</l>
+          <l part="N">Но чего не получает,</l>
+          <l part="N">Может то он отложить. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но когда б он устремился</l>
+          <l part="N">Невозможного искать,</l>
+          <l part="N">Он вовеки бы крушился</l>
+          <l part="N">Если б мысль не пременять. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не гордясь неосторожно</l>
+          <l part="N">Крепостью души своей,</l>
+          <l part="N">Нам в желаниях не можно</l>
+          <l part="N">Положити рубежей. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Больше все мы здесь желаем,</l>
+          <l part="N">Нежель можем получать;</l>
+          <l part="N">Если страсти ощущаем,</l>
+          <l part="N">Льзя ль умеренно желать? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пусть кто много получает,</l>
+          <l part="N">Но желанья не прервет:</l>
+          <l part="N">Коль едино совершает,</l>
+          <l part="N">То другое настает. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И дотоль оно стремится,</l>
+          <l part="N">Что не можно получить:</l>
+          <l part="N">Так бы век пришло крушиться,</l>
+          <l part="N">Коль его не пременить. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кто б как много ни гордился</l>
+          <l part="N">Во тщеславии своем,</l>
+          <l part="N">Одинако всяк родился,</l>
+          <l part="N">Схожи, схожи мы во всем. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Лишь в привычках бесконечным</l>
+          <l part="N">Видом мы различены,</l>
+          <l part="N">А движением сердечным</l>
+          <l part="N">Все подобны рождены. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ненасытны всех желаньи,</l>
+          <l part="N">Слаб и дерзок человек,</l>
+          <l part="N">Тщетны лестны упованьи,</l>
+          <l part="N">Жизнь бедна и краток век. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И когда б не пременяли</l>
+          <l part="N">Мы желанья своего,</l>
+          <l part="N">Так вовек бы мы страдали</l>
+          <l part="N">Неутешно от него. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Только тем мы здесь счастливы,</l>
+          <l part="N">Страстные имев умы,</l>
+          <l part="N">Что хотя и прихотливы,</l>
+          <l part="N">Но во всем пременны мы. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не неверность причитаю</l>
+          <l part="N">Сродной нашим я сердцам,</l>
+          <l part="N">В том премену похваляю,</l>
+          <l part="N">Чем нельзя владети нам.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

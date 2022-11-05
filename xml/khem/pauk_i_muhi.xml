@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Паук и мухи</title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Паук и мухи</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно </date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">социальная несправедливость</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть сильных</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">угнетение слабых </tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="12 letters"/><q>Постой, - <name type="character">паук</name> сказал, - <l part="N"> <space dim="horizontal" extent="8 letters"/> Я чаю, я нашел причину,</l><l part="N">Зачем еще большой я <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> мухи</tei:orig><tei:reg>муха</tei:reg></tei:choice></tei:name> не поймал,</l><l part="N">А попадается всё мелочь; дай раскину</l><l part="N"> <space dim="horizontal" extent="12 letters"/> Пошире паутину,</l><l part="N">Авось-либо тогда поймаю и больших</l></q>.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/> Раскинув, нажидает их;</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/> Всё мелочь попадает:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/> Большая <name type="character"> муха</name> налетит -</l>
+          <l part="N">Прорвется и сама, и паутину мчит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/> А это и с людьми бывает,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/> Что маленьким, куда</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/> Ни обернись, беда.</l>
+          <l part="N">Вор, например, большой, хоть в краже попадется</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Выходит прав из-под суда,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/> А маленький наказан остается.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

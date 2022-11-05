@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> <name type="character"> Фелица </name> </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Марина Пономарева</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ода к премудрой киргиз-кайсацкой царевне Фелице, писаная татарским мурзою, издавна поселившимся в Москве, а живущим по делам своим в Санктпетербурге. Переведена с арабского языка 1782</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Собеседник любителей российского слова</publisher>
+                <date>1783</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1782</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетель</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пороки</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">идеальный монарх</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">придворные</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Екатерина II</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme=" AbAbCCdЕЕd " org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Богоподобная царевна       </l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Киргиз-Кайсацкия орды</tei:orig><tei:reg>Казахстан</tei:reg></tei:choice></tei:name>!       </l>
+          <l part="N">Которой мудрость несравненна       </l>
+          <l part="N">Открыла верные следы       </l>
+          <l part="N">Царевичу младому <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Хлору</tei:orig><tei:reg>Хлор</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Взойти на ту высоку гору,       </l>
+          <l part="N">Где роза без шипов растет,       </l>
+          <l part="N">Где добродетель обитает:       </l>
+          <l part="N">Она мой дух и ум пленяет,       </l>
+          <l part="N">Подай, найти ее совет.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Подай, <name type="character"> Фелица</name>! наставленье:       </l>
+          <l part="N">Как пышно и правдиво жить,       </l>
+          <l part="N">Как укрощать страстей волненье       </l>
+          <l part="N">И счастливым на свете быть?       </l>
+          <l part="N">Меня твой голос возбуждает,       </l>
+          <l part="N">Меня твой сын препровождает;       </l>
+          <l part="N">Но им последовать я слаб.       </l>
+          <l part="N">Мятясь житейской суетою,       </l>
+          <l part="N">Сегодня властвую собою,       </l>
+          <l part="N">А завтра прихотям я раб.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мурзам твоим не подражая,       </l>
+          <l part="N">Почасту ходишь ты пешком,       </l>
+          <l part="N">И пища самая простая       </l>
+          <l part="N">Бывает за твоим столом;       </l>
+          <l part="N">Не дорожа твоим покоем,       </l>
+          <l part="N">Читаешь, пишешь пред налоем       </l>
+          <l part="N">И всем из твоего пера       </l>
+          <l part="N">Блаженство смертным проливаешь:       </l>
+          <l part="N">Подобно в карты не играешь,       </l>
+          <l part="N">Как я, от утра до утра.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не слишком любишь маскарады,       </l>
+          <l part="N">А в клуб не ступишь и ногой;       </l>
+          <l part="N">Храня обычаи, обряды,       </l>
+          <l part="N">Не донкишотствуешь собой;       </l>
+          <l part="N">Коня парнасска не седлаешь,       </l>
+          <l part="N">К духам в собранье не въезжаешь       </l>
+          <l part="N">Не ходишь с трона на Восток,-       </l>
+          <l part="N">Но кротости ходя стезею,       </l>
+          <l part="N">Благотворящею душою       </l>
+          <l part="N">Полезных дней проводишь ток.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А я, проспавши до полудни,       </l>
+          <l part="N">Курю табак и кофе пью;       </l>
+          <l part="N">Преобращая в праздник будни,       </l>
+          <l part="N">Кружу в химерах мысль мою:       </l>
+          <l part="N">То плен от персов похищаю,       </l>
+          <l part="N">То стрелы к туркам обращаю;       </l>
+          <l part="N">То, возмечтав, что я султан,       </l>
+          <l part="N">Вселенну устрашаю взглядом;       </l>
+          <l part="N">То вдруг, прельщаяся нарядом,       </l>
+          <l part="N">Скачу к портному по кафтан.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или в пиру я пребогатом,       </l>
+          <l part="N">Где праздник для меня дают,       </l>
+          <l part="N">Где блещет стол сребром и златом,       </l>
+          <l part="N">Где тысячи различных блюд:       </l>
+          <l part="N">Там славный окорок вестфальской,       </l>
+          <l part="N">Там звенья рыбы астраханской,       </l>
+          <l part="N">Там плов и пироги стоят,-       </l>
+          <l part="N">Шампанским вафли запиваю       </l>
+          <l part="N">И всё на свете забываю       </l>
+          <l part="N">Средь вин, сластей и аромат.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или средь рощицы прекрасной       </l>
+          <l part="N">В беседке, где фонтан шумит,       </l>
+          <l part="N">При звоне арфы сладкогласной,       </l>
+          <l part="N">Где ветерок едва дышит,       </l>
+          <l part="N">Где всё мне роскошь представляет,       </l>
+          <l part="N">К утехам мысли уловляет,       </l>
+          <l part="N">Томит и оживляет кровь,       </l>
+          <l part="N">На бархатном диване лежа,       </l>
+          <l part="N">Младой девицы чувства нежа,       </l>
+          <l part="N">Вливаю в сердце ей любовь.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или великолепным цугом       </l>
+          <l part="N">В карете английской, златой,       </l>
+          <l part="N">С собакой, шутом, пли другом,       </l>
+          <l part="N">Или с красавицей какой       </l>
+          <l part="N">Я под качелями гуляю;       </l>
+          <l part="N">В шинки пить меду заезжаю;       </l>
+          <l part="N">Или, как то наскучит мне,       </l>
+          <l part="N">По склонности моей к премене,       </l>
+          <l part="N">Имея шапку набекрене,       </l>
+          <l part="N">Лечу на резвом бегуне.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Или музыкой и певцами,       </l>
+          <l part="N">Органом и волынкой вдруг,       </l>
+          <l part="N">Или кулачными бойцами       </l>
+          <l part="N">И пляской веселю мой дух;       </l>
+          <l part="N">Или, о всех делах заботу       </l>
+          <l part="N">Оставя, езжу на охоту       </l>
+          <l part="N">И забавляюсь лаем псов;       </l>
+          <l part="N">Или над <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Невскими брегами</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N">Я тешусь по ночам рогами       </l>
+          <l part="N">И греблей удалых гребцов.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иль, сидя дома, я прокажу,       </l>
+          <l part="N">Играя в дураки с женой,       </l>
+          <l part="N">То с ней на голубятню лажу,       </l>
+          <l part="N">То в жмурки резвимся порой;       </l>
+          <l part="N">То в свайку с нею веселюся,       </l>
+          <l part="N">То ею в голове ищуся;       </l>
+          <l part="N">То в книгах рыться я люблю,       </l>
+          <l part="N">Мой ум и сердце просвещаю,       </l>
+          <l part="N">Полкана и Бову читаю;       </l>
+          <l part="N">За библией, зевая, сплю.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Таков, <name type="character"> Фелица</name>, я развратен!       </l>
+          <l part="N">Но на меня весь свет похож.       </l>
+          <l part="N">Кто сколько мудростью ни знатен,       </l>
+          <l part="N">Но всякий человек есть ложь.       </l>
+          <l part="N">Не ходим света мы путями,       </l>
+          <l part="N">Бежим разврата за мечтами.       </l>
+          <l part="N">Между лентяем и брюзгой,       </l>
+          <l part="N">Между тщеславья и пороком       </l>
+          <l part="N">Нашел кто разве ненароком       </l>
+          <l part="N">Путь добродетели прямой.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Нашел,- но льзя ль не заблуждаться       </l>
+          <l part="N">Нам, слабым смертным, в сем пути,       </l>
+          <l part="N">Где сам рассудок спотыкаться       </l>
+          <l part="N">И должен вслед страстям идти;       </l>
+          <l part="N">Где нам ученые невежды,       </l>
+          <l part="N">Как мгла у путников, тмят вежды?       </l>
+          <l part="N">Везде соблазн и лесть живет;       </l>
+          <l part="N">Пашей всех роскошь угнетает.       </l>
+          <l part="N">Где ж добродетель обитает?       </l>
+          <l part="N">Где роза без шипов растет?         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тебе единой лишь пристойно,       </l>
+          <l part="N">Царевна! свет из тьмы творить;       </l>
+          <l part="N">Деля Хаос на сферы стройно,       </l>
+          <l part="N">Союзом целость их крепить:       </l>
+          <l part="N">Из разногласия - согласье       </l>
+          <l part="N">И из страстей свирепых счастье       </l>
+          <l part="N">Ты можешь только созидать.       </l>
+          <l part="N">Так кормщик, через понт плывущий,       </l>
+          <l part="N">Ловя под парус ветр ревущий,       </l>
+          <l part="N">Умеет судном управлять.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Едина ты лишь не обидишь,       </l>
+          <l part="N">Не оскорбляешь никого,       </l>
+          <l part="N">Дурачествы сквозь пальцы видишь,       </l>
+          <l part="N">Лишь зла не терпишь одного;       </l>
+          <l part="N">Проступки снисхожденьем правишь,       </l>
+          <l part="N">Как волк овец, людей не давишь,       </l>
+          <l part="N">Ты знаешь прямо цену их.       </l>
+          <l part="N">Царей они подвластны воле,-       </l>
+          <l part="N">Но богу правосудну боле,       </l>
+          <l part="N">Живущему в законах их.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты здраво о заслугах мыслишь,       </l>
+          <l part="N">И воздаешь достойным честь;       </l>
+          <l part="N">Пророком ты того не числишь,       </l>
+          <l part="N">Кто только рифмы может плесть,       </l>
+          <l part="N">А что сия ума забава -       </l>
+          <l part="N">Калифов добрых честь и слава.       </l>
+          <l part="N">Снисходишь ты на лирный лад:       </l>
+          <l part="N">Поэзия тебе любезна,       </l>
+          <l part="N">Приятна, сладостна, полезна,       </l>
+          <l part="N">Как летом вкусный лимонад.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Слух идет о твоих поступках,       </l>
+          <l part="N">Что ты нимало не горда;       </l>
+          <l part="N">Любезна и в делах, и в шутках,       </l>
+          <l part="N">Приятна в дружбе и тверда;       </l>
+          <l part="N">Что ты в напастях равнодушна,       </l>
+          <l part="N">А в славе так великодушна,       </l>
+          <l part="N">Что отреклась и мудрой слыть.       </l>
+          <l part="N">Еще же говорят неложно,       </l>
+          <l part="N">Что будто завсегда возможно       </l>
+          <l part="N">Тебе и правду говорить.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Неслыханное также дело,       </l>
+          <l part="N">Достойное тебя одной,       </l>
+          <l part="N">Что будто ты народу смело       </l>
+          <l part="N">О всем, и въявь и под рукой,       </l>
+          <l part="N">И знать и мыслить позволяешь,       </l>
+          <l part="N">И о себе не запрещаешь       </l>
+          <l part="N">И быль и небыль говорить;       </l>
+          <l part="N">Что будто самым крокодилам,       </l>
+          <l part="N">Твоих всех милостей зоилам,       </l>
+          <l part="N">Всегда склоняешься простить.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Стремятся слез приятных реки       </l>
+          <l part="N">Из глубины души моей.       </l>
+          <l part="N">О! коль счастливы человеки       </l>
+          <l part="N">Там должны быть судьбой своей,       </l>
+          <l part="N">Где ангел кроткий, ангел мирной,       </l>
+          <l part="N">Сокрытый в светлости порфирной,       </l>
+          <l part="N">С небес ниспослан скиптр носить!       </l>
+          <l part="N">Там можно пошептать в беседах       </l>
+          <l part="N">И, казни не боясь, в обедах       </l>
+          <l part="N">За здравие царей не пить.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Там с именем <name type="character"> Фелицы</name> можно       </l>
+          <l part="N">В строке описку поскоблить       </l>
+          <l part="N">Или портрет неосторожно       </l>
+          <l part="N">Ее на землю уронить.       </l>
+          <l part="N">Там свадеб шутовских не парят,       </l>
+          <l part="N">В ледовых банях их не жарят,       </l>
+          <l part="N">Не щелкают в усы вельмож;       </l>
+          <l part="N">Князья наседками не клохчут,       </l>
+          <l part="N">Любимцы въявь им не хохочут       </l>
+          <l part="N">И сажей не марают рож.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты ведаешь, <name type="character"> Фелица</name>! правы       </l>
+          <l part="N">И человеков, и царей;       </l>
+          <l part="N">Когда ты просвещаешь нравы,       </l>
+          <l part="N">Ты не дурачишь так людей;       </l>
+          <l part="N">В твои от дел отдохновеньи       </l>
+          <l part="N">Ты пишешь в сказках поученьи       </l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> Хлору </tei:orig><tei:reg>Хлор</tei:reg></tei:choice></tei:name> в азбуке твердишь:       <q>Не делай ничего худого,       <l part="N">И самого сатира злого       </l><l part="N">Лжецом презренным сотворишь</l></q>.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Стыдишься слыть ты тем великой,       </l>
+          <l part="N">Чтоб страшной, нелюбимой быть;       </l>
+          <l part="N">Медведице прилично дикой       </l>
+          <l part="N">Животных рвать и кровь их пить.       </l>
+          <l part="N">Без крайнего в горячке бедства       </l>
+          <l part="N">Тому ланцетов нужны ль средства,       </l>
+          <l part="N">Без них кто обойтися мог?       </l>
+          <l part="N">И славно ль быть тому тираном,       </l>
+          <l part="N">Великим в зверстве <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Тамерланом</tei:orig><tei:reg>Тимур</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N">Кто благостью велик, как бог?         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Фелицы </tei:orig><tei:reg>Фелица</tei:reg></tei:choice></tei:name> слава - слава бога,       </l>
+          <l part="N">Который брани усмирил;       </l>
+          <l part="N">Который сира и убога       </l>
+          <l part="N">Покрыл, одел и накормил;       </l>
+          <l part="N">Который оком лучезарным       </l>
+          <l part="N">Шутам, трусам, неблагодарным       </l>
+          <l part="N">И праведным свой свет дарит;       </l>
+          <l part="N">Равно всех смертных просвещает,       </l>
+          <l part="N">Больных покоит, исцеляет,       </l>
+          <l part="N">Добро лишь для добра творит.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Который даровал свободу       </l>
+          <l part="N">В чужие области скакать,       </l>
+          <l part="N">Позволил своему народу       </l>
+          <l part="N">Сребра и золота искать;       </l>
+          <l part="N">Который воду разрешает       </l>
+          <l part="N">И лес рубить не запрещает;       </l>
+          <l part="N">Велит и ткать, и прясть, и шить;       </l>
+          <l part="N">Развязывая ум и руки,       </l>
+          <l part="N">Велит любить торги, науки       </l>
+          <l part="N">И счастье дома находить.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Которого закон, десница       </l>
+          <l part="N">Дают и милости и суд.-       </l>
+          <l part="N">Вещай, премудрая <name type="person"> Фелица</name>!       </l>
+          <l part="N">Где отличён от честных плут?       </l>
+          <l part="N">Где старость по миру не бродит?       </l>
+          <l part="N">Заслуга хлеб себе находит?       </l>
+          <l part="N">Где месть не гонит никого?       </l>
+          <l part="N">Где совесть с правдой обитают?       </l>
+          <l part="N">Где добродетели сияют?-       </l>
+          <l part="N">У трона разве твоего!         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но где твой трон сияет в мире?       </l>
+          <l part="N">Где, ветвь небесная, цветешь?       </l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Багдаде</tei:orig><tei:reg>Багдад</tei:reg></tei:choice></tei:name>? <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Смирне</tei:orig><tei:reg>Смирна</tei:reg></tei:choice></tei:name>?  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Кашемире</tei:orig><tei:reg>Кашмир</tei:reg></tei:choice></tei:name>?-       </l>
+          <l part="N">Послушай, где ты ни живешь:       </l>
+          <l part="N">Хвалы мои тебе приметя,       </l>
+          <l part="N">Не мни, чтоб шапки иль бешметя       </l>
+          <l part="N">За них я от тебя желал.       </l>
+          <l part="N">Почувствовать добра приятство       </l>
+          <l part="N">Такое есть души богатство,       </l>
+          <l part="N">Какого <name type="person">Крез</name> не собирал.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Прошу великого пророка,       </l>
+          <l part="N">Да праха ног твоих коснусь,       </l>
+          <l part="N">Да слов твоих сладчайша тока       </l>
+          <l part="N">И лицезренья наслаждусь!       </l>
+          <l part="N">Небесные прошу я силы,       </l>
+          <l part="N">Да их простря сафирны крылы,       </l>
+          <l part="N">Невидимо тебя хранят       </l>
+          <l part="N">От всех болезней, зол и скуки;       </l>
+          <l part="N">Да дел твоих в потомстве звуки,       </l>
+          <l part="N">Как в небе звезды, возблестят.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 13 Псалма</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из 13 Псалма. Рече безумен в сердце своем</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.</title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 2.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.</tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1787</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера и неверие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в.р." org="uniform" sample="complete" part="N">
+        <epigraph>
+          <cit>
+            <quote>Рече безумен в сердце своем.</quote>
+          </cit>
+        </epigraph>
+        <l part="N"><space dim="horizontal" extent="3 letters"/>Безумный говорит: творца вселенной нет;</l>
+        <l part="N">И что состроился собой пространный свет.</l>
+        <l part="N">Такое здание устроится ль собою?</l>
+        <l part="N">Безумный, зри! везде создатель пред тобою.</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Воззри на небеса,</l>
+        <l part="N">На солнце, на луну, на звезды ко эфиру,</l>
+        <l part="N">И к обитаему нам созданному миру,</l>
+        <l part="N">На горы, на луга, на воды, на леса,</l>
+        <l part="N">Воззри и на свое ты собственное тело;</l>
+        <l part="N">Незапности ль одной сие премудро дело?</l>
+        <l part="N">Узрев себя и всю громаду ты сию,</l>
+        <l part="N">Чти щедрого отца и страшна Судию</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>В создателе вселенной,</l>
+        <l part="N">И узы разорви безумства мысли пленной.</l>
+        <l part="N">Что нет создателя, ты в сердце говоришь,</l>
+        <l part="N">И беззаконие без трепета творишь.</l>
+        <l part="N">Всевышний с небеси на круг земный взирает,</l>
+        <l part="N">И очи божества повсюду простирает.</l>
+        <l part="N"><space dim="horizontal" extent="14 letters"/>Злодей!</l>
+        <l part="N">Бог эрит сие, что все на свете стали злобны,</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Стремяся к пагубе своей,</l>
+        <l part="N">И многия тебе в безумии подобны.</l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Где страха нет, им тамо страх,</l>
+        <l part="N">Забывшим Господа, пред коим мир весь прах.</l>
+        <l part="N">Во студ на свете сем злодею пребыванье;</l>
+        <l part="N">А праведнику Бог и щит и упованье.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

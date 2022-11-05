@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Слепцы </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Слепцы </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1782</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> неизвестно</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">слепота и упрямство людей</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">жажда власти</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Шло несколько <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слепцов</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name>, как все слепые ходят,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Когда их зрячие не водят:</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Почти что шаг пройдут -</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Споткнутся или упадут. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="character">Прохожий</name>, чтоб <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слепцам</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name> не столько спотыкаться,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Дает им палку опираться.</l>
+          <l part="N"> Взяв палку, передом один <name type="character"> слепец</name> пошел,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>А за собой других повел.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Пошли, друг за́ друга держались,</l>
+          <l part="N"> И меньше прежнего при палке спотыкались. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Вдруг спор между <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слепцов</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name> зашел:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Вожатым каждый быть хотел;</l>
+          <l part="N"> И спор еще другой о палке затевают:</l>
+          <l part="N"> Какого дерева почесть ее - не знают.</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>Кто говорит,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Что палка та кленова;</l>
+          <l part="N"> <space dim="horizontal" extent="16 letters"/>Другой твердит:</l>
+          <l part="N"> <space dim="horizontal" extent="20 letters"/>Дубова.</l>
+          <l part="N"> И ощупью <name type="character"> слепцы</name> хотят о том судить,</l>
+          <l part="N"> Что́ должно зрячему глазами различить.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><name type="character">Слепцы</name> не могут согласиться,</l>
+          <l part="N"> И всё сильняе спор о палке становится.</l>
+          <l part="N"> Из спора в спор <name type="character"> слепцы</name>, потом до бранных слов</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Уже доходит меж <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слепцов</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>А там и в драку меж собою,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И палкою друг друга тою,</l>
+          <l part="N"> Котора им дана была, чтоб их водить,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Немилосердо бить.</l>
+          <l part="N"> Но всё не думают друг другу уступить,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Хоть умереть, готовы драться,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>А в споре не поддаться.</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>И до того не унялись,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Пока насмерть передрались. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Вот так <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слепцам</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name> во вред служило,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Что в пользу их дано им было.</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>А этаких <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слепцов</tei:orig><tei:reg>слепцы</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>От ересей и спорных слов,</l>
+          <l part="N"> Которые они рассеяли в законы<note resp="editor" place="unspecified" anchored="true">здесь: религия</note>,</l>
+          <l part="N"> На свете не одни погибли миллионы.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

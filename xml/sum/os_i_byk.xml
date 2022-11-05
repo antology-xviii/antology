@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="character">Ось</name> и <name type="character">Бык</name></title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ось и бык</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Всякая всячина.                   СПб.</publisher>
+                <date>1769</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1769</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мотовство дворян</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">трудолюбие крестьян</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>В лесу воспитанная с негой, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Под тяжкой трется <name type="character"> Ось </name> телегой </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>И, неподмазанна, кричит. </l>
+        <l part="N"> А <name type="character"> Бык </name>, который то везет, везя молчит, </l>
+        <l part="N"> Изображает <name type="character"> Ось </name> господчика мне нежна, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Который держит худо счет, </l>
+        <l part="N"> <space dim="horizontal" extent="13 letters"/>По-русски - мот, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>А <name type="character">Бык </name>  - крестьянина прилежна. </l>
+        <l part="N"> Страдает от долгов обремененный мот, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>А этого не воспомянет, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Что пахарь, изливая пот, </l>
+        <l part="N"> Трудится и тягло ему на карты тянет. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

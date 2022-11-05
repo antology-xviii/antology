@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Послушайте, прошу, что старому случилось...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и  фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Послушайте, прошу, что старому случилось...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Риторика.</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date cert="medium">1747</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">людские речи</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пересуды</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Послушайте, прошу, что старому случилось,</l>
+          <l part="N">Когда ему гулять заблаго рассудилось.</l>
+          <l part="N">Он ехал на осле, а следом парень шол;</l>
+          <l part="N">И только лишь с горы они спустились в дол,</l>
+          <l part="N">Прохожей осудил тотчас его на встрече:</l>
+          <l part="N">
+            <q>Ах, как ты малому даешь бресть толь далече?</q>
+          </l>
+          <l part="N">Старик сошол с осла и сына посадил,</l>
+          <l part="N">И только лишь за ним десяток раз ступил,  </l>
+          <l part="N">То люди начали указывать перстами:</l>
+          <l part="N">
+            <q>Такими, вот, весь свет наполнен дураками: <l part="N">Не можноль на осле им ехать обоим?</l></q>
+          </l>
+          <l part="N">Старик к ребенку сел и едет вместе с ним.</l>
+          <l part="N">Однако, чуть минул местечка половину,</l>
+          <l part="N">Весь рынок закричал: <q>Что мучишь так скотину?</q></l>
+          <l part="N">Тогда старик осла домой поворотил</l>
+          <l part="N">И, скуки не стерпя, себе проговорил:</l>
+          <l part="N"><q>Как стану я смотреть на все людския речи, <l part="N">То будет и осла взвалить к себе на плечи</l></q>.<note resp="editor" place="unspecified" anchored="true"> Т. VII наст. изд., стр. 365-366, ╖ 308. Вольный перевод отрывка из басни <bibl default="false"><author><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Лафонтена</tei:orig><tei:reg>Лафонтен Ж. де</tei:reg></tei:choice></author><title>Мельник, его сын и осел</title></bibl>, кн. III, №1.</note></l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

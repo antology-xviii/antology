@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Разговор с Анакреонтом.</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://lib.ru">Lib.ru Классика</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Разговор с Анакреонтом.</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Российский Парнасс. Ч. I. СПб.</publisher>
+                <date>1771</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1758-1761</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div org="uniform" sample="complete" part="N">
+        <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+          <head type="main">Анакреонт</head>
+          <head type="subordinate">Ода I<note resp="editor" place="unspecified" anchored="true">В греческом подлиннике эта ода озаглавлена <bibl default="false"><title>К лире</title></bibl>. Под таким заглавием перевел ее еще в студенческие годы и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> (стихотворение 3). Здесь он дает новый, рифмованный ее перевод.</note></head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N">Мне петь было о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Трое</tei:orig><tei:reg>Троя</tei:reg></tei:choice></tei:name>,</l>
+            <l part="N">О <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Кадме</tei:orig><tei:reg>Кадм</tei:reg></tei:choice></tei:name> мне бы петь,</l>
+            <l part="N">Да гусли мне в покое</l>
+            <l part="N">Любовь велят звенеть.</l>
+            <l part="N">Я гусли со струнами</l>
+            <l part="N">Вчера переменил</l>
+            <l part="N">И славными делами</l>
+            <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Алкида</tei:orig><tei:reg>Геркулес</tei:reg></tei:choice></tei:name> возносил;</l>
+            <l part="N">Да гусли поневоле</l>
+            <l part="N">Любовь мне петь велят,</l>
+            <l part="N">О Вас, герои, боле,</l>
+            <l part="N">Прощайте, не хотят.</l>
+          </lg>
+        </div>
+        <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+          <head type="main">Ломоносова ответ</head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N">Мне петь было о нежной,</l>
+            <l part="N"><name type="person">Анакреонт</name>, любви;</l>
+            <l part="N">Я чувствовал жар прежней</l>
+            <l part="N">В согревшейся крови.</l>
+            <l part="N">Я бегать стал перстами</l>
+            <l part="N">По тоненьким струнам</l>
+            <l part="N">И сладкими словами</l>
+            <l part="N">Последовать стопам.</l>
+            <l part="N">Мне струны по неволе</l>
+            <l part="N">Звучат геройский шум.</l>
+            <l part="N">Не возмущайте боле,</l>
+            <l part="N">Любовны мысли, ум.</l>
+            <l part="N">Хоть нежности сердечной</l>
+            <l part="N">В любви я не лишен,</l>
+            <l part="N">Героев славой вечной</l>
+            <l part="N">Я больше восхищен.<note resp="editor" place="unspecified" anchored="true">Заключительные два стиха являются прямым отзвуком тех мыслей о значении героической поэзии, какие высказывает <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Предисловии о пользе книг церковных</tei:orig><tei:reg>Предисловие о пользе книг церковных в российском языке</tei:reg></tei:choice></title></bibl> (<date>1758</date> г.), где говорит о &lt;громком голосе писателей, проповедующих дела своих героев&gt; (т. VII наст. изд., стр. 591-592). Эта близость двух текстов является одним из косвенных доводов в пользу правильности предложенной выше датировки <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Разговора</tei:orig><tei:reg>Разговор с Анакреонтом</tei:reg></tei:choice></title></bibl> (см. вводную часть настоящих примечаний).</note></l>
+          </lg>
+        </div>
+        <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+          <head type="main">Анакреонт</head>
+          <head type="subordinate">Ода XXII<note resp="editor" place="unspecified" anchored="true">В греческом подлиннике эта ода озаглавлена <bibl default="false"><title>К сребролюбцу</title></bibl>.</note></head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N">Когда бы нам возможно</l>
+            <l part="N">Жизнь было продолжить,</l>
+            <l part="N">То стал бы я не ложно</l>
+            <l part="N">Сокровища копить,</l>
+            <l part="N">Чтоб смерть в мою годину,</l>
+            <l part="N">Взяв деньги, отошла</l>
+            <l part="N">И, за откуп кончину</l>
+            <l part="N">Отсрочив, жить дала.</l>
+            <l part="N">Когда же я то знаю,</l>
+            <l part="N">Что жить положен срок,</l>
+            <l part="N">На что крушусь, вздыхаю,</l>
+            <l part="N">Что мзды скопить не мог!</l>
+            <l part="N">Не лучшель без терзанья</l>
+            <l part="N">С приятельми гулять</l>
+            <l part="N">И нежны воздыханья</l>
+            <l part="N">К любезной посылать?</l>
+          </lg>
+        </div>
+        <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+          <head type="main">Ломоносова ответ</head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N"><name type="person">Анакреонт</name>, ты верно</l>
+            <l part="N">Великой Философ:</l>
+            <l part="N">Ты делом равномерно</l>
+            <l part="N">Своих держался слов;</l>
+            <l part="N">Ты жил по тем законам,</l>
+            <l part="N">Которые писал,</l>
+            <l part="N">Смеялся забабонам,<note resp="editor" place="unspecified" anchored="true">Забобоны - бредни, сказки, основанные на суеверии.</note></l>
+            <l part="N">Ты петь любил, плясал.</l>
+            <l part="N">Хоть в вечность ты глубоку</l>
+            <l part="N">Не чаял больше быть,</l>
+            <l part="N">Но славой после року</l>
+            <l part="N">Ты мог до нас дожить.</l>
+            <l part="N">Возьмите прочь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сенеку</tei:orig><tei:reg>Сенека</tei:reg></tei:choice></tei:name>:</l>
+            <l part="N">Он правила сложил</l>
+            <l part="N">Не в силу человеку,</l>
+            <l part="N">И кто по оным жил?<note resp="editor" place="unspecified" anchored="true"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> имеет в виду римского философа <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сенеку Младшего</tei:orig><tei:reg>Сенека</tei:reg></tei:choice></tei:name>, одного из виднейших представителей позднего стоицизма, который проповедовал покорность судьбе, апатию и отказ от радостей жизни. Образ жизни <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Сенеки</tei:orig><tei:reg>основная форма имени</tei:reg></tei:choice></tei:name> не соответствовал его аскетическому учению.</note></l>
+          </lg>
+        </div>
+        <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+          <head type="main">Анакреонт</head>
+          <head type="subordinate">Ода XI<note resp="editor" place="unspecified" anchored="true">В греческом подлиннике эта ода озаглавлена <bibl default="false"><title>К самому себе</title></bibl>.</note></head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N">Мне девушки сказали:</l>
+            <l part="N"><q>Ты дожил старых лет</q>,</l>
+            <l part="N">И зеркало мне дали:</l>
+            <l part="N"><q>Смотри, ты лыс и сед</q>.</l>
+            <l part="N">Я не тужу нимало,</l>
+            <l part="N">Ещель мой волос цел,</l>
+            <l part="N">Иль темя гладко стало,</l>
+            <l part="N">И весь я побелел.</l>
+            <l part="N">Лишь в том могу божиться,</l>
+            <l part="N">Что должен старичок</l>
+            <l part="N">Тем больше веселиться,</l>
+            <l part="N">Чем ближе видит рок.</l>
+          </lg>
+        </div>
+        <div met="Я6" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+          <head type="main">Ломоносова ответ</head>
+          <lg org="uniform" sample="complete" part="N">
+            <l part="N">От зеркала сюда взгляни, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анакреон</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name>,</l>
+            <l part="N">И слушай, что ворчит нахмурившись <name type="person">Катон</name>:<note resp="editor" place="unspecified" anchored="true">Традиционному образу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анакреонта</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> противопоставляет суровый образ жизни государственного деятеля <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Катона Младшего</tei:orig><tei:reg>Катон</tei:reg></tei:choice></tei:name>, непреклонного сторонника аристократической республики, боровшегося с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Юлием Цезарем</tei:orig><tei:reg>Цезарь</tei:reg></tei:choice></tei:name>. После победы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Цезаря</tei:orig><tei:reg>Цезарь</tei:reg></tei:choice></tei:name>, определившей крушений республиканского режима, <name type="person">Катон</name> покончил с собой ударом кинжала.</note></l>
+            <l part="N"><q>Какую вижу я седую обезьяну? <l part="N">Не злость ли адская, такой оставя шум,</l><l part="N">От ревности на смех склонить мой хочет ум?</l><l part="N">Однако я за <name type="place">Рим</name>, за вольность твердо стану,</l><l part="N">Мечтаниями я такими не смущусь</l><l part="N">И сим от Кесаря<note resp="editor" place="unspecified" anchored="true">Т. е. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Юлия Цезаря</tei:orig><tei:reg>Цезарь</tei:reg></tei:choice></tei:name>.</note> кинжалом свобожусь</l></q>.</l>
+            <l part="N"><name type="person">Анакреонт</name>, ты был роскошен, весел, сладок,</l>
+            <l part="N"><name type="person">Катон</name> старался ввесть в республику порядок;</l>
+            <l part="N">Ты век в забавах жил и взял свое с собой,</l>
+            <l part="N">Его угрюмством в <name type="place">Рим</name> не возвращен покой;</l>
+            <l part="N">Ты жизнь употреблял как временну утеху,</l>
+            <l part="N">Он жизнь пренебрегал к республики успеху;</l>
+            <l part="N">Зерном твой отнял дух приятной виноград,<note resp="editor" place="unspecified" anchored="true">По преданию, <name type="person">Анакреонт</name> умер, подавившись сухой виноградиной.</note></l>
+            <l part="N">Ножем он сам себе был смертный супостат;</l>
+            <l part="N">Беззлобна роскошь в том была тебе причина,</l>
+            <l part="N">Упрямка славная<note resp="editor" place="unspecified" anchored="true">То же, чрезвычайно характерное для <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> и не имевшее в то время широкого распространения слово &lt;упрямка&gt; (т. е. упорство, энергия) встречаем в одном из писем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, написанном в начале <date>1761</date> г.: <quote>Я бы охотно молчал и жил в покое, да боюсь наказания от правосудия и всемогущего промысла, который не лишил меня дарования и прилежания в учении и ныне дозволил случай, дал терпение и благородную упрямку и смелость к преодолению всех препятствий к распространению наук в отечестве, что мне всего в жизни моей дороже</quote> (т. X наст. изд., письмо 72). Этот отрывок из письма, где находят себе отражение те же ощущения и мысли, что и в комментируемом поэтическом тексте, свидетельствует лишний раз о правильности предложенной выше датировки <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Разговора</tei:orig><tei:reg>Разговор с Анакреонтом</tei:reg></tei:choice></title></bibl> (см. вводную часть настоящих примечаний).</note> была ему судьбина.</l>
+            <l part="N">Несходства чудны вдруг и сходства понял я.<note resp="editor" place="unspecified" anchored="true"><quote>Несходства</quote> очевидны, <quote>сходства</quote> же <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> видел в том, что и <name type="person">Анакреонт</name> и <name type="person">Катон</name> были в одинаковой мере последовательны: линия поведения обоих определялась их моральным воззрениями.</note></l>
+            <l part="N">Умнее кто из вас, другой будь в том судья.<note resp="editor" place="unspecified" anchored="true">Ноты той же горечи и нравственной усталости (см. выше, вводную часть к настоящим примечаниям) слышатся и в стихотворении <bibl default="false"><title>Кузнечик дорогой</title></bibl> (стихотворение 258), где поставлен, в сущности, тот же, что и здесь, вопрос. <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Кузнечик</tei:orig><tei:reg>Кузнечик дорогой</tei:reg></tei:choice></title></bibl> датируется летом <date>1761</date> г., является переводом греческого стихотворения, которое, как и данные четыре оды, приписывалось <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Анакреонту</tei:orig><tei:reg>Анакреонт</tei:reg></tei:choice></tei:name>, и написан тем же размером, что и комментируемый &lt;ответ&gt;. В этом нельзя не видеть еще одного довода в пользу нашей датировки <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Разговора</tei:orig><tei:reg>Разговор с Анакреонтом</tei:reg></tei:choice></title></bibl> (см. вводную часть настоящих примечаний).</note></l>
+          </lg>
+        </div>
+        <div met="X4" rhyme="AbAbCCdd" org="uniform" sample="complete" part="N">
+          <head type="main">Анакреонт</head>
+          <head type="subordinate">Ода XXVIII<note resp="editor" place="unspecified" anchored="true">В греческом подлиннике эта ода озаглавлена <bibl default="false"><title>К девушке</title></bibl>.</note></head>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Мастер в живопистве первой,</l>
+            <l part="N">Первой в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Родской стороне</tei:orig><tei:reg>Родос</tei:reg></tei:choice></tei:name>,<note resp="editor" place="unspecified" anchored="true">Имеется в виду, вероятно, знаменитый древнегреческий живописец <name type="person">Апеллес</name>, уроженец <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>острова Коса</tei:orig><tei:reg>Кос</tei:reg></tei:choice></tei:name>, расположенного недалеко от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Родоса</tei:orig><tei:reg>Родос</tei:reg></tei:choice></tei:name>.</note></l>
+            <l part="N">Мастер, научен <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Минервой</tei:orig><tei:reg>Минерва</tei:reg></tei:choice></tei:name>,</l>
+            <l part="N">Напиши любезну мне.</l>
+            <l part="N">Напиши ей кудри чорны,</l>
+            <l part="N">Без искусных рук уборны,</l>
+            <l part="N">С благовонием духов,</l>
+            <l part="N">Буде способ есть таков. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Дай из роз в лице ей крови</l>
+            <l part="N">И, как снег, представь белу,</l>
+            <l part="N">Проведи дугами брови</l>
+            <l part="N">По высокому челу;</l>
+            <l part="N">Не сведи одну с другою,</l>
+            <l part="N">Не расставь их меж собою,</l>
+            <l part="N">Сделай хитростью своей,</l>
+            <l part="N">Как у девушки моей. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Цвет в очах ея небесной,</l>
+            <l part="N">Как Минервин, покажи</l>
+            <l part="N">И Венерин взор прелестной</l>
+            <l part="N">С тихим пламенем вложи;</l>
+            <l part="N">Чтоб уста без слов вещали</l>
+            <l part="N">И приятством привлекали,</l>
+            <l part="N">И чтоб их безгласна речь</l>
+            <l part="N">Показалась медом течь. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Всех приятностей затеи</l>
+            <l part="N">В подбородок умести</l>
+            <l part="N">И кругом прекрасной шеи</l>
+            <l part="N">Дай лилеям разцвести,</l>
+            <l part="N">В коих нежности дыхают,</l>
+            <l part="N">В коих прелести играют</l>
+            <l part="N">И по множеству отрад</l>
+            <l part="N">Водят усумненной взгляд. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Надевай же платье ало</l>
+            <l part="N">И нетщись всю грудь закрыть,</l>
+            <l part="N">Чтоб, ея увидев мало,</l>
+            <l part="N">И о прочем разсудить.</l>
+            <l part="N">Коль изображенье мочно,</l>
+            <l part="N">Вижу здесь тебя заочно,</l>
+            <l part="N">Вижу здесь тебя, мой свет:</l>
+            <l part="N">Молвиж, дорогой портрет. </l>
+          </lg>
+        </div>
+        <div met="Я4" rhyme="AbAbCCdd" org="uniform" sample="complete" part="N">
+          <head type="main">Ломоносова ответ</head>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Ты счастлив сею красотою</l>
+            <l part="N">И мастерством, Анакреон,</l>
+            <l part="N">Но счастливее ты собою</l>
+            <l part="N">Через приятной лиры звон.</l>
+            <l part="N">Тебе я ныне подражаю</l>
+            <l part="N">И живописца избираю,</l>
+            <l part="N">Дабы потщился написать</l>
+            <l part="N">Мою возлюбленную мать. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">О мастер в живопистве перьвой,</l>
+            <l part="N">Ты перьвой в нашей стороне</l>
+            <l part="N">Достоин быть рожден <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Минервой</tei:orig><tei:reg>Минерва</tei:reg></tei:choice></tei:name>,<note resp="editor" place="unspecified" anchored="true"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> имел в виду, очевидно, кого-нибудь из русских живописцев его времени, может быть, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ф. С. Рокотова</tei:orig><tei:reg>Рокотов Ф. С.</tei:reg></tei:choice></tei:name> (ср. т. X наст. изд., письмо 54 и примечания к нему).</note></l>
+            <l part="N">Изобрази <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> мне.</l>
+            <l part="N">Изобрази ей возраст зрелой</l>
+            <l part="N">И вид в довольствии веселой,</l>
+            <l part="N">Отрады ясность по челу</l>
+            <l part="N">И вознесенную главу. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Потщись представить члены здравы,</l>
+            <l part="N">Как должны у Богини быть;</l>
+            <l part="N">По плечам волосы кудрявы</l>
+            <l part="N">Признаком бодрости завить;</l>
+            <l part="N">Огонь вложи в небесны очи</l>
+            <l part="N">Горящих звезд в средине ночи</l>
+            <l part="N">И брови выведи дугой,</l>
+            <l part="N">Что кажет после туч покой.<note resp="editor" place="unspecified" anchored="true">Т. е. наподобие радуги.</note> </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Возвысь сосцы, млеком обильны,</l>
+            <l part="N">И чтоб созревша красота</l>
+            <l part="N">Являла мышцы, руки сильны,</l>
+            <l part="N">И полны живости уста</l>
+            <l part="N">В беседе важность обещали</l>
+            <l part="N">И так бы слух наш ободряли,</l>
+            <l part="N">Как чистой голос лебедей,</l>
+            <l part="N">Коль можно хитростью твоей. </l>
+          </lg>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Одень, одень Ее в порфиру,</l>
+            <l part="N">Дай скипетр, возложи венец,</l>
+            <l part="N">Как должно ей законы миру</l>
+            <l part="N">И распрям предписать конец.</l>
+            <l part="N">О коль изображенье сходно,</l>
+            <l part="N">Красно, любезно, благородно!</l>
+            <l part="N">Великая промолви Мать,</l>
+            <l part="N">И повели войнам престать.     </l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

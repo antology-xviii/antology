@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Димитрий Самозванец</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Карманова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p> © 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">Русская литература. Век XVIII. Трагедия</title>
+            <editor role="editor"> Западов В.А., Кочеткова Н.Д., Лихачёв Д.С., Панченко А.М., Степанов В.П., Стенник Ю.М.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Художественная литература</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1991</date>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1769-1770</date>       </creation>
+      <textClass default="false">
+        <catRef target="#drama" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">царская власть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">самозванец</tei:span>
+    <front>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem type="role">
+          <role xml:id="dimitrij"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Лжедмитрий I</tei:orig><tei:reg>основная форма имени</tei:reg></tei:choice></tei:name></role>
+        </castItem>
+        <castItem type="role">
+          <role xml:id="shujskij"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шуйский </tei:orig><tei:reg>Шуйский Василий</tei:reg></tei:choice></tei:name></role>
+        </castItem>
+        <castItem type="role"><role xml:id="georgij">Георгий</role>,<roleDesc>князь Галицкий</roleDesc>.</castItem>
+        <castItem type="role"><role xml:id="ksenija">Ксения</role>,<roleDesc>дочь Шуйского</roleDesc>.</castItem>
+        <castItem type="role"><role xml:id="parmen"> Пармен </role>, <roleDesc>наперсник Шуйского</roleDesc>.</castItem>
+        <castItem type="role">
+          <role xml:id="nacalnik">Начальник стражи</role>
+        </castItem>
+        <castItem type="role"><role xml:id="prochije">Бояре и прочие</role>        </castItem>
+      </castList>
+      <set>
+        <p>Действие в Кремле, в царском доме</p>
+      </set>
+    </front>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head> ДЕЙСТВИЕ I </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 1</head>
+            <stage type="setting">Димитрий и Пармен</stage>
+            <sp who="parmen">
+              <speaker>Пармен</speaker>
+              <l part="N">Разрушь монархова наперсника незнанье!</l>
+              <l part="N">Дней тридцать лишь твое внимаю я стенанье</l>
+              <l part="N">И зрю, что мучиться на троне завсегда.</l>
+              <l part="N">Какая предстоит Димитрию беда?</l>
+              <l part="N">Блаженству твоему какая грусть мешает?</l>
+              <l part="N">Или уже тебя престол не утешает?</l>
+              <l part="N">Хоть был несчастлив ты, но век твой ныне нов.</l>
+              <l part="N">То небо отдало, что отнял <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Годунов </tei:orig><tei:reg>Годунов Борис</tei:reg></tei:choice></tei:name>. <note resp="editor" place="unspecified" anchored="true"> Сумароков полностью разделяет версию, принятую тогдашней исторической наукой о преднамеренном убийстве царевича Дмитрия Ивановича в мае 1591 г. по приказу Бориса Годунова.</note> </l>
+              <l part="N">Не мог тебе злодей во гроб дверей отперти,</l>
+              <l part="N">Судьбиною ты взят из челюстей злой смерти,</l>
+              <l part="N">А истина на трон отцов тебя взвела.</l>
+              <l part="N">Какие ж горести судьба тебе дала?                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Зла фурия во мне смятенно сердце гложет,</l>
+              <l part="N"> Злодейская душа спокойна быть не может.                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Ты много варварства и зверства сотворил,</l>
+              <l part="N"> Ты мучишь подданных, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Россию </tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> разорил,</l>
+              <l part="N"> Тирански плаваешь во действиях бесчинных,</l>
+              <l part="N"> Ссылаешь и казнишь людей ни в чем не винных.</l>
+              <l part="N"> Против отечества неутолим твой жар,</l>
+              <l part="N"> Прекрасный стал сей град темницею бояр.</l>
+              <l part="N"> Отечества сыны все счастьем одинаки,</l>
+              <l part="N"> И здравие твое брегут одни поляки.</l>
+              <l part="N"> Восточной церкви здесь закон совсем падет,</l>
+              <l part="N"> Под иго папское царь русский нас ведет <note resp="editor" place="unspecified" anchored="true"> Принявший в Польше католичество, Лжедимитрий одной из задач своей политики считал распространение в России католицизма.</note> ,</l>
+              <l part="N"> И, ежели ко злу влечет тебя природа,</l>
+              <l part="N"> Преодолей ее и будь отец народа!                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">В законе Климент мя присягой обязал <note resp="editor" place="unspecified" anchored="true"> Имеется в виду папа римский Климент X (1600-1612), верность которому подтверждает новое вероисповедание Отрепьева.</note>,</l>
+              <l part="N">А польский мне народ услуги показал.</l>
+              <l part="N">Так милости моей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> не причастна,</l>
+              <l part="N">Коль папской святости не хочет быть подвластна. </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Мне мнится, человек--себе подобным брат,</l>
+              <l part="N">И лжеучители рассеяли разврат,</l>
+              <l part="N">Дабы лжесвятости их черни возвещались,</l>
+              <l part="N">И ко прибытку им их басни освещались.</l>
+              <l part="N">Нам наши пастыри того не говорят</l>
+              <l part="N">И, с ними развратясь, судьбу благодарят.</l>
+              <l part="N">Сложила <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Англия</tei:orig><tei:reg>Англия</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Голландия</tei:orig><tei:reg>Голландия</tei:reg></tei:choice></tei:name> то бремя <note resp="editor" place="unspecified" anchored="true">Речь идет о распространении в перечисленных странах в XVI-XVII вв. протестантизма, благодаря чему они вышли из-под влияния папы как главы католической церкви.</note> ,</l>
+              <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>пол-Германии</tei:orig><tei:reg>Германия</tei:reg></tei:choice></tei:name>. Наступит скоро время,</l>
+              <l part="N">Что и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Европа</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name> вся откинет прежний страх</l>
+              <l part="N">И с трона свержется прегордый сей монах,</l>
+              <l part="N">Который толь себя от смертных отличает</l>
+              <l part="N">И чернь которого, как Бога, величает.                                                     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Толь дерзостно, Пармен, о нем не говори.</l>
+              <l part="N"> Сие светило чтут и князи, и цари!                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Не все к нему, не все усердным сердцем тают,</l>
+              <l part="N"> Но многие его притворно почитают,</l>
+              <l part="N"> И виден только в нем вселенский патриярх,</l>
+              <l part="N"> Не мира судия, не Бог и не монарх.</l>
+              <l part="N"> А папа вить не всех людей скотами числит,</l>
+              <l part="N"> Разумный человек о Боге здраво мыслит.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Во умствовании не трать напрасно слов.</l>
+              <l part="N"> Коль в небе хочешь быть, не буди философ!</l>
+              <l part="N"> Премудрость пагубна, хотя она и льстивна.                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Премудрость Вышнему быть может ли противна?</l>
+              <l part="N"> Исполнен ею, он вселенну созидал</l>
+              <l part="N"> И мертву веществу живот и разум дал.</l>
+              <l part="N"> На что ни взглянем мы, его премудрость видим.</l>
+              <l part="N"> Или, что в Боге чтим, в себе возненавидим?                                                     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Премудрость Божия непостижима нам.                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Так Климент оныя не постигает сам,</l>
+              <l part="N"> К понятию ея ума пределы тесны,</l>
+              <l part="N"> Но действа Божества в творении известны.</l>
+              <l part="N"> И если изострим нам данные умы,</l>
+              <l part="N"> Что папа ведает, узнаем то и мы.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> За дерзость будешь там ты мучиться вовеки,</l>
+              <l part="N"> Где жажда, глад, тоска и огненные реки,</l>
+              <l part="N"> Где скорбь душевная и неисцельных ран.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Димитрий будет там, когда он стал тиран.                                                     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Я ведаю, что я нежалостный зла зритель</l>
+              <l part="N"> И всех на свете сем бесстудных дел творитель.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Так должно от таких дел страшных убегать.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Нет сил и не могу себя превозмогать.</l>
+              <l part="N"> Затмится росска честь и действия геройски,</l>
+              <l part="N"> Почтут отцем отцев мои все папу войски,</l>
+              <l part="N"> Оружием ему я церковь покорю.</l>
+              <l part="N"> Коль хочет царь того, удобно то царю.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Во треволненное вдаешься, царь, ты море,</l>
+              <l part="N"> А, тщася учредить <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> и россам горе,</l>
+              <l part="N"> Готовишь ты себе несчастливый конец;</l>
+              <l part="N"> Колеблется твой трон, с главы падет венец.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Российский я народ с престола презираю</l>
+              <l part="N"> И власть тиранскую неволей простираю.</l>
+              <l part="N"> Возможно ли отцем мне быти в той стране,</l>
+              <l part="N"> Котора, мя гоня, всего противней мне?</l>
+              <l part="N"> Здесь царствуя, я тем себя увеселяю,</l>
+              <l part="N"> Что россам ссылку, казнь и смерть определяю.</l>
+              <l part="N"> Сыны отечества-поляки будут здесь;</l>
+              <l part="N"> Отдам под иго им народ российский весь.</l>
+              <l part="N"> Тогда почувствую, последуя успеху,</l>
+              <l part="N"> Я сан величества и царскую утеху,</l>
+              <l part="N"> Когда притом и то я в добычь получу,</l>
+              <l part="N"> Что я давно уже иметь себе хочу.</l>
+              <l part="N"> А ежели сие, мой друг, не совершится,</l>
+              <l part="N"> Димитрий множества спокойствия лишится.</l>
+              <l part="N"> Грызеньем совести я много мук терплю,</l>
+              <l part="N"> Но мука мне и то, что Ксению люблю.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> У Ксении жених, а у тебя супруга...                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Я чту тебя, Пармен, как верного мне друга.</l>
+              <l part="N"> Так я не кроюся. Могу прервати брак,</l>
+              <l part="N"> И тайный яд мою жену пошлет во мрак.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Объемлет трепет...                                                     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>Ты пугаешься напрасно.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> О действии таком помыслити ужасно.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Я к ужасу привык, злодейством разъярен,</l>
+              <l part="N"> Наполнен варварством и кровью обагрен.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> Супруга пред тобой нимало не виновна.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Перед царем должна быть истина бессловна;</l>
+              <l part="N"> Не истина-царь,- я; закон-монарша власть,</l>
+              <l part="N"> А предписание закона-царска страсть.</l>
+              <l part="N"> Невольник тот монарх, кто презрит те забавы,</l>
+              <l part="N"> В которых вольности препятствуют уставы,</l>
+              <l part="N"> И если б был таков порфироносца век,</l>
+              <l part="N"> Так был тогда б и царь подвластный человек,</l>
+              <l part="N"> И суетно бы он для подданных трудился,</l>
+              <l part="N"> Когда б, как подданный, он истиной судился.                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <stage type="delivery">(особливо).</stage>
+              <l part="N">Потщусь от варварства супругу обретать.                        <stage type="delivery"> (Димитрию.).</stage>   </l>
+              <l part="N">В геенну ты себя стараешься ввергать.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">О Климент! Если я в небесном буду граде,</l>
+              <l part="N">Кому ж мучение готовится во аде?</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2</head>
+            <stage type="setting"> Димитрий, Пармен и страженачалъник</stage>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <l part="N">Великий государь, смущается народ,</l>
+              <l part="N">И все волнуются, как бурей токи вод.</l>
+              <l part="N">Иной отважился и ясно то вещает,</l>
+              <l part="N">Что он против царя и скиптра ощущает.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Какой на площади плетется ими вред?</l>
+              <l part="N">Я скоро прекращу сей мерзкой черни бред.</l>
+            </sp>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <l part="N">Не смею, государь, то точно повторяти.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Вещай! А россов я умею усмиряти.</l>
+            </sp>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <l part="N">Что ты не царский сын, которым ты явлен,</l>
+              <l part="N">Что он во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Угличе</tei:orig><tei:reg>Углич</tei:reg></tei:choice></tei:name> неложно умерщвлен.</l>
+              <l part="N">Отрепьевым тебя в народе именуют,</l>
+              <l part="N">Твою историю вот тако знаменуют:</l>
+              <l part="N">Что ты из общества монашеска ушел</l>
+              <l part="N">И в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Польше</tei:orig><tei:reg>Польша</tei:reg></tei:choice></tei:name> ты себе убежище нашел</l>
+              <l part="N">И тамо обманул и тестя и невесту,</l>
+              <l part="N">Дошел обманами к престола царска месту;</l>
+              <l part="N">Что днесь колеблется поляками сей трон</l>
+              <l part="N">И церкви западной ты вводиши закон;</l>
+              <l part="N">Что ты безбожия и наглостей рачитель,</l>
+              <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвы</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> враг и подданных мучитель.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Надеждну стражу мне поляками умножь</l>
+              <l part="N">И духа яростью еще не востревожь!</l>
+              <l part="N">Внимать извергов сих не станет больше мочи.</l>
+              <l part="N">Представь мне Шуйского и с дочерью пред очи!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3</head>
+            <stage type="setting"> Димитрий и Пармен </stage>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Когда тебя судьба на трон такой взвела,</l>
+              <l part="N">Не род, но царские потребны нам дела.</l>
+              <l part="N">Когда б не царствовал в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> ты злонравно,</l>
+              <l part="N">Димитрий ты иль нет, сие народу равно.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Мятеж от Шуйского. В лице его то зрю.</l>
+              <l part="N">Когда во друга я врага не претворю,</l>
+              <l part="N">В сей день пожрет его, пожрет земли утроба,</l>
+              <l part="N">Отверзу и ему и Ксении дверь гроба.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Остановляется моя сей речью кровь.</l>
+              <l part="N">Неслыханную к ней имеешь ты любовь.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Любовь геройская во мщение преходит,</l>
+              <l part="N">Когда взаимственной утехи не находит,</l>
+              <l part="N">И ежели княжна пренебрежет сей страх,</l>
+              <l part="N">Цветущу розу я преобращу во прах.</l>
+              <l part="N">Когда противится монаршей нежной страсти,</l>
+              <l part="N">Противится она законной царской власти.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4</head>
+            <stage type="setting">Димитрий, Пармен, Шуйский и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Мне дерзкой площади известен наглый шум</l>
+              <l part="N"> И основание ея коварных дум.</l>
+              <l part="N"> Сие московские вельможи утверждают</l>
+              <l part="N"> И благоденствие престола повреждают.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Неважен черни шум, то только звук пустой;</l>
+              <l part="N">Их лай разносит ветр, исчезнет он...                                                     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="35 letters"/>Постой!</l>
+              <l part="N">Мне тайны твоея нельзя проникнуть бСле.</l>
+              <l part="N">Всё ясно: на моем быть хочешь ты престоле.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Не всходят и на ум такие мысли мне.</l>
+              <l part="N">Чтоб я монархом был преславной сей стране,</l>
+              <l part="N">Ты-наш монарх и сын монарха Иоанна,</l>
+              <l part="N"> соборной церкви нам глава твоя венчанна.</l>
+              <l part="N">Тираном был у нас злонравный <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Годунов Борис</tei:orig><tei:reg>основная форма имени</tei:reg></tei:choice></tei:name>Годунов,</l>
+              <l part="N">Ты грозен, праведен, отец твой был таков.</l>
+              <l part="N">Роптанье на тебя злочестные сугубят:</l>
+              <l part="N">Тати, пияницы, а прочие все любят.</l>
+              <l part="N">По нужде днесь ты лют, но будешь милосерд.</l>
+              <l part="N">Великий государь, в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> престол твой тверд.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">   Безумцем ты меня, лаская мне, не числи:</l>
+              <l part="N">Со взором, с речью сей твои не сходны мысли.</l>
+              <l part="N">Будь истинный мне друг, то дружество храня.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Я-твой послушный раб.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="21 letters"/>Пармен, оставь меня!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5</head>
+            <stage type="setting">Димитрий, Шуйский и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Что ты передо мной в речах не лицемерен,</l>
+              <l part="N"> В том быти я хочу действительно уверен.</l>
+              <l part="N"> Мой рок любовию всю кровь мою зажег,</l>
+              <l part="N"> Так дай ты Ксению мне дружества в залог.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Меня?                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="5 letters"/>Супругу ты имеешь.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="23 letters"/>Законом та римлянка <note resp="editor" place="unspecified" anchored="true"> То есть принадлежит к католическому вероисповеданию.</note>;</l>
+              <l part="N"> Благочестивая потребна россиянка.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Я сердцем со другим давно сопряжена.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Так ты не хочешь быть монархова жена?</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Не отвратит меня сияние короны,</l>
+              <l part="N"> Ниже всея земли и скипетры и троны</l>
+              <l part="N"> От нынешней моей к любовнику любви</l>
+              <l part="N"> И не погаснет жар, горящий во крови,</l>
+              <l part="N"> Которым полон ум, которым чувство тает,</l>
+              <l part="N"> И вечно в сердце сем Георгий обитает.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Но смерть тебя и с ним удобна нискосить</l>
+              <l part="N"> И жар с обеих стран любовный погасить.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Тогда навеки мы друг друга позабудем,</l>
+              <l part="N"> А прежде никогда неверны мы не будем.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Никак забыла ты, кому даешь ответ?</l>
+              <l part="N"> Страшишься ль смерти ты, мучений, казней?</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="42 letters"/>Нет!                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Так ты готовься к ним в отважности без страха,</l>
+              <l part="N"> Не будет твоего на свете сем и праха.</l>
+              <l part="N"> О небо! Истиной ко мщению бегу,</l>
+              <l part="N"> Тужа, что, жизнь отняв, терзати не могу.</l>
+              <l part="N"> Подвигнул бы теперь ад, море я и сушу</l>
+              <l part="N"> И вечно бы терзал я Ксениину душу.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Не буди, государь, так ею прогневлен,</l>
+              <l part="N"> Такой ея упор от младости явлен.</l>
+              <l part="N"> Коль толь очам твоим ея прекрасно тело,</l>
+              <l part="N"> Вручи родителю ея сие ты дело.</l>
+              <l part="N"> мысли дочери, конечно, пременю.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Я честность верности до гроба сохраню.</l>
+              <l part="N"> Или ты должности родительской не внемлешь,</l>
+              <l part="N"> Что мя соделати неверной предприемлешь?</l>
+              <l part="N"> Все тщетно, как бы ты меня ни увещал.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Исполню то, что я исполнить обещал,</l>
+              <l part="N"> И образумится несмысленная дева.</l>
+              <l part="N"> Пожди и умеряй жар праведного гнева.                           </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Увещевай ее, колико льзя тебе.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Не вображай меня супругою себе.</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 6</head>
+            <stage type="setting"> Шуйский и Ксения </stage>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Возникни, истина, к народной обороне!</l>
+              <l part="N"> Недолго, враг <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвы</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, пребудеши в короне.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Но ты ему теперь иное говорил.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Не мни, чтоб истину злодею я открыл:</l>
+              <l part="N"> Твоя несмысленность и неискусна младость</l>
+              <l part="N"> Посеяли в тебе одну любови сладость.</l>
+              <l part="N"> Стремишься к роскоши прямым путем идти;</l>
+              <l part="N"> Притворностью к ней путь стремися ты найти!</l>
+              <l part="N"> Когда имеем мы с тираном сильным дело,</l>
+              <l part="N"> Противоречити ему не можем смело.</l>
+              <l part="N"> Обман усилился на трон его венчать;</l>
+              <l part="N"> Так истина должна до времени молчать,</l>
+              <l part="N"> Доколь низвержется сие с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> бремя.</l>
+              <l part="N"> О Боже! Дай <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> и нам покойно время!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Тиран отъемлет жизнь мою, меня разя.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Обманывай его, притворствуй сколько льзя,</l>
+              <l part="N"> Надежду подавай, в нем сердце распаляя</l>
+              <l part="N"> И варварство его любовью утоляя,</l>
+              <l part="N"> Во воздыхание преобращая гнев.</l>
+              <l part="N"> Любви покорствует змея, и тигр, и лев,</l>
+              <l part="N"> И звери дикие свирепство оставляют,</l>
+              <l part="N"> Как нежной роскоши приветствия являют.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Сей варвар аспида и василиска зляй <note resp="editor" place="unspecified" anchored="true"> Аспид (греч.)- ядовитая змея; василиск (греч. миф.)-дракон, змей, поражающий своим дыхание все живое.</note> .                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"> Отчаянную мысль, как можешь, удаляй,</l>
+              <l part="N"> Которою свой дух толико ужасаешь,</l>
+              <l part="N"> И помни, что отца, любовника спасаешь,</l>
+              <l part="N"> А к ним приобщено отечество твое:</l>
+              <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>  вся...</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="20 letters"/>Мне вестно всё сие;</l>
+              <l part="N"> Но исполнение сего весьма мне трудно.</l>
+              <l part="N"> Избавь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россию</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> мной, о небо правосудно!</l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head> ДЕЙСТВИЕ II </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 1</head>
+            <stage type="setting">Георгий и Ксения</stage>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"> Язык мой должен я притворству покорить,</l>
+              <l part="N"> Иное чувствовать, иное говорить</l>
+              <l part="N"> И быти мерзостным лукавцам я подобен.</l>
+              <l part="N"> Вот поступь, если царь неправеден и злобен.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Блажен на свете тот порфироносный муж,</l>
+              <l part="N"> Который не теснит свободы наших душ,</l>
+              <l part="N"> Кто пользой общества себя превозвышает</l>
+              <l part="N"> И снисхождением сан царский украшает,</l>
+              <l part="N"> Даруя подданным благополучны дни,</l>
+              <l part="N"> Страшатся коего злодеи лишь одни.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"> О ты, печальный Кремль! стал ныне ты свидетель,</l>
+              <l part="N"> Что днесь низверженна с престола добродетель. Томящаясь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> в унынии дрожит,</l>
+              <l part="N"> Блаженство в горести из стен ея бежит.</l>
+              <l part="N"> Дни светлы кажутся густой темняе нощи,</l>
+              <l part="N"> Прекрасны вкруг <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвы</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> покрыты мраком рощи.</l>
+              <l part="N"> Когда торжественный шумит во граде звон,</l>
+              <l part="N"> Нам мнится, что твердит он града общий стон</l>
+              <l part="N"> И церкви нашея паденье возвещает,</l>
+              <l part="N"> Которое она от папы ощущает.</l>
+              <l part="N"> О Боже! Ужас сей от россов отведи!</l>
+              <l part="N"> Уже разносится молва на площади,</l>
+              <l part="N"> Что Климент обещал на небеси награду</l>
+              <l part="N"> Мятежникам, врагам отеческому граду,</l>
+              <l part="N"> И что им все грехи прощает наперед.</l>
+              <l part="N"> Постраждет так <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, как страждет Новый свет<note resp="editor" place="unspecified" anchored="true"> Имеются в виду невероятные жестокости, которыми сопровождалось завоевание в XVI в. испанцами государств Центральной Америки. Сумароков особо подчеркивает при этом католическое вероисповедание испанцев </note>.</l>
+              <l part="N"> Там кровью землю всю паписты обагрили,</l>
+              <l part="N"> Побили жителей, оставших разорили,</l>
+              <l part="N"> Средь их отечества стремясь невинных жечь,</l>
+              <l part="N"> В руке имея крест, в другой кровавый меч.</l>
+              <l part="N"> Что с ними делалось в незапной их судьбине,</l>
+              <l part="N"> От папы будет то тебе, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>, ныне.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Все силы пагубны-Димитрий, Климент, ад-</l>
+              <l part="N"> Из сердца моего тебя не истребят.</l>
+              <l part="N"> О небо, удали свирепство папской власти,</l>
+              <l part="N"> А с ним и Ксении несносные напасти,</l>
+              <l part="N"> Дабы свою главу <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>  подняла,</l>
+              <l part="N"> А я б супругою любовнику была!</l>
+              <l part="N"> Дай нам увидети монарха на престоле,</l>
+              <l part="N"> Подвластна истине, не беззаконной воле!</l>
+              <l part="N"> Увяла правда вся, тирану весь закон-</l>
+              <l part="N"> Едино только то, чего желает он,</l>
+              <l part="N"> А праведных царей для их бессмертной славы</l>
+              <l part="N"> На счастье подданных основаны уставы.</l>
+              <l part="N"> Наместник Божества быть должен государь.</l>
+              <l part="N"> Рази, губи меня, немилосердый царь!</l>
+              <l part="N"> Из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Тартара</tei:orig><tei:reg>Тартар</tei:reg></tei:choice></tei:name>Тартара тебя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Мегера</tei:orig><tei:reg>Мегера</tei:reg></tei:choice></tei:name> возметала,</l>
+              <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Кавказ</tei:orig><tei:reg>Кавказ</tei:reg></tei:choice></tei:name> тебя родил, Иркания питала. <note resp="editor" place="unspecified" anchored="true"> Тартар - в древнегреческой мифологии - подземное царство. Мегера - одна из богинь-мстительниц - олицетворение гнева и ненависти. Историография XVII-XVIII вв. разделяла представления ряда античных историков о Кавказе и Гиркании (Иркании - области, расположенной юго-восточнее Каспийского моря), как местах, заселенных в древности дикими и жестокими народами.</note></l>
+              <l part="N"> Извержет еретик толпой своих рабов</l>
+              <l part="N"> Тела святых мужей, ругаясь, из гробов.</l>
+              <l part="N"> В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>  имена их вечно сокрушатся,</l>
+              <l part="N"> И домы Божии в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> опустошатся.</l>
+              <l part="N"> Народ, сорви венец с главы творца злых мук!</l>
+              <l part="N"> Спеши, исторгни скиптр из варваровых рук,</l>
+              <l part="N"> Избавь от ярости себя непобедимой</l>
+              <l part="N"> И мужа украси достойна диадимой!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2</head>
+            <stage type="setting"> Димитрий, Георгий и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Внемли и ты, и ты, Георгий, то внемли!</l>
+              <l part="N"> Вы-ползающа тварь и черви на земли.</l>
+              <l part="N"> Внимайте рабственно монарше повеленье</l>
+              <l part="N"> Иль, паче, святости небес благоволенье:</l>
+              <l part="N"> Не для тебя сия девица рождена.</l>
+              <l part="N"> Она моею быть супругой суждена,</l>
+              <l part="N"> И если в бедствие не хочешь ты впускаться,</l>
+              <l part="N"> Престань прекрасною княжною сей ласкаться.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"> Не спорю, государь, безмолвствую.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> <space dim="horizontal" extent="33 letters"/> И я.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> И взавтре будеши навеки ты моя.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Из мысли то гоня, что было толь утешно,</l>
+              <l part="N"> Нельзя готовиться ко браку толь поспешно.</l>
+              <l part="N"> Я знаю, государь, сильна монарша власть,</l>
+              <l part="N"> Но не бессильнее ея любовна страсть.</l>
+              <l part="N"> Не можно вдруг себя от страсти сей избавить,</l>
+              <l part="N"> Ниже любовника без горести оставить.</l>
+              <l part="N"> Дай несколько ты дней сей страсти волновать</l>
+              <l part="N"> И мне Георгия привыкнуть забывать!</l>
+              <l part="N"> Дай прежню исцелить глубоку в сердце рану.</l>
+              <l part="N"> Что в том, когда на брак отчаянна предстану?</l>
+              <l part="N"> Лишь только к олтарю я очи возведу,</l>
+              <l part="N"> Лишуся живота и мертвая паду.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Отвергни наглое во страсти волнованье,</l>
+              <l part="N"> Иль кончится его на свете пребыванье!</l>
+              <l part="N"> Исчезни, мелкая царю на жертву тварь!</l>
+              <l part="N"> Он-прах земной, а я-венчанный россов царь.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"> Довольно я терпел...</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="18 letters"/> Молчи!</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="26 letters"/>Сие презренье</l>
+              <l part="N"> Несносно мне...</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="13 letters"/>Мой князь!</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="21 letters"/>Монархово смиренье</l>
+              <l part="N"> Преобращается во справедливый гнев.</l>
+              <l part="N"> Разверзся на тебя голодной смерти зев.</l>
+              <l part="N"> Вступите, стражи!                      <stage type="delivery"> Стражи вступают.</stage></l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>Я готов на разны муки,</l>
+              <l part="N"> Коль отдан я судьбой во варварские руки.</l>
+              <l part="N"> Насыться, тать венца, убийца и тиран,</l>
+              <l part="N"> Моею кровию и кровию граждан,</l>
+              <l part="N"> Восшед на высоту из преисподня дола,</l>
+              <l part="N"> Доколь не будеши низвержен со престола.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> В темницу!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3</head>
+            <stage type="setting"> Димитрий и Ксения</stage>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="10 letters"/> Варварствуй, терзай меня, терзай,</l>
+              <l part="N">На все злочестия, свирепствуя, дерзай!</l>
+              <l part="N">Ты благо каждого, мучитель, ненавидишь!</l>
+              <l part="N">О Боже! Ты его дела ужасны видишь,</l>
+              <l part="N">Тебе известно то, каков народу он,</l>
+              <l part="N">Всечасно от него ты слышишь бедных стон,</l>
+              <l part="N">Проникни, каковы сии мне злы минуты,</l>
+              <l part="N">Взгляни со небеси на горести толь люты,</l>
+              <l part="N">Взгляни на трепет мой, взгляни на токи глаз,</l>
+              <l part="N">Услышь моление, услышь мой томный глас,</l>
+              <l part="N">Пошли мучителю достойную награду</l>
+              <l part="N">И дай несчастнейшей хоть малую отраду!  </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Я скоро в горести тебе отраду дам.</l>
+              <l part="N">Узнаете меня, явлю то ясно вам:</l>
+              <l part="N">Георгий будет весь растерзан пред тобою,</l>
+              <l part="N">А ты жди жалости подобной над собою.  </l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Почтенней на торгу с Георгием умреть,</l>
+              <l part="N">Как со Димитрием себя на троне зреть.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Исполнится в сей день сие твое желанье,</l>
+              <l part="N">И скончается к Георгию пыланье</l>
+              <l part="N">В отмщенье скипетра, державы и венца.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Со нетерпением я жду себе конца.</l>
+              <l part="N">Ты пола не щадишь, ни рода здесь, ни чина,</l>
+              <l part="N">Однако знай и ты: близка твоя кончина,</l>
+              <l part="N">Здесь долго царствовать тебе надежды нет,</l>
+              <l part="N">Тобой пролита кровь на небо вопиет,</l>
+              <l part="N">Ты не был жалостью ни на минуту тронут,</l>
+              <l part="N">Бояря, весь народ и стены града стонут.</l>
+              <l part="N">Не страшны казни мне, угрозы все вотще.</l>
+              <l part="N">Сражай меня, тиран! Чего ты ждешь еще?! <stage type="enter"><move who="shujskij" type="enter"/> Шуйский пред последним стихом приходит.</stage>.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4</head>
+            <stage type="setting">    Димитрий, Ксения и Шуйский</stage>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">За дерзости свои достойны вы сраженья.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Превсходят дерзости все силы вображенья.</l>
+              <l part="N">Во удивление придет, то внемля, свет.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Мой так отеческий приемлешь ты совет?!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">В отчаянии мне...                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="16 letters"/> В толико наглом деле</l>
+              <l part="N">Беги от глаз моих, исчезни ты отселе!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5</head>
+            <stage type="setting">             Димитрий и Шуйский</stage>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Доколе не взойдет на горизонт луна.</l>
+              <l part="N">Тебе престанет быть преслушницей она.</l>
+              <l part="N">Смягчися, извини девическую младость!    </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Смягчает мя любви желаемая сладость.</l>
+              <l part="N">Как я ее люблю, хоть я о ней стонал,</l>
+              <l part="N">Я то до сих минут еще не прямо знал.</l>
+              <l part="N">Любовью чувствие мое не утешалось,</l>
+              <l part="N">И сердце славою единой украшалось.</l>
+              <l part="N">Подвластен нежности простонародный дух,</l>
+              <l part="N">И сей увеселял меня единый слух,</l>
+              <l part="N">Что мой божественный венец ко страху блещет,</l>
+              <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> во ужасе, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> вся трепещет,</l>
+              <l part="N">Дворяня знатные у ног моих лежат,</l>
+              <l part="N">Должна ли нежности порфира быть причастна!</l>
+              <l part="N">О гордая душа! И ты любви подвластна.</l>
+              <l part="N">Скажи ты дочери, чтоб пала предо мной</l>
+              <l part="N">И, мне желая быть покорною женой,</l>
+              <l part="N">Взяла бы перстень сей в залог моей приязни,</l>
+              <l part="N">Или б готовилась на место лютой казни.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Преслушная тебе-преслушна небесам.</l>
+              <l part="N">И утверждаю я твое решенье сам.</l>
+              <l part="N">Мы должны покорять желания и страсти</l>
+              <l part="N">Закону Божию и государской власти.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 6</head>
+            <stage type="setting"> Димитрий, Шуйский и Пармен</stage>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Сугубится так шум, как буря восстает,</l>
+              <l part="N">Когда от северной страны борей ревет.</l>
+              <l part="N">Прервется тишины народныя граница.</l>
+              <l part="N">Георгиева смерть, оковы и темница</l>
+              <l part="N">И что жестокости всегда на троне те ж,</l>
+              <l part="N">Приводят город весь во ярость и мятеж.</l>
+              <l part="N">Каков твой сан, тебе опасности толики,</l>
+              <l part="N">И бедства предстоят Димитрию велики.</l>
+              <l part="N">Не восхотел ты здесь покойно обладать</l>
+              <l part="N">И ярости своей не тщился обуздать.</l>
+              <l part="N">Коль был бы подданным ты счастьем и отрадой,</l>
+              <l part="N">Народ бы твоего престола был оградой.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Подпора трона-я и площадь умягчу</l>
+              <l part="N">И верность подданных монарху возврачу.</l>
+              <l part="N">Надейся, государь, на Шуйского ты твердо.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Еще ли сердце днесь во мне немилосердо,</l>
+              <l part="N">Что я Георгию и площади терплю</l>
+              <l part="N">И новой кровию я града не кроплю!</l>
+              <l part="N">Зияет тигр, а я зияющего глажу.</l>
+              <l part="N">Пойди, уйми народ, а ты умножи стражу!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 7</head>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <stage type="setting">(один)</stage>
+              <l part="N">Нетвердо на главе моей лежит венец,</l>
+              <l part="N">И близок моего величия конец.</l>
+              <l part="N">Повсеминутно жду незапныя премены.</l>
+              <l part="N">О устрашающи меня Кремлевы стены!</l>
+              <l part="N">Мне мнится, что всяк час вещаете вы мне:</l>
+              <l part="N"> &lt;Злодей, ты-враг, ты-враг и нам, и всей стране!&gt;</l>
+              <l part="N">Гласят гражданя: &lt;Мы тобою разоренны!&gt;</l>
+              <l part="N">А храмы вопиют: &lt;Мы кровью обагренны!&gt;</l>
+              <l part="N">Уныли вкруг Москвы прекрасные места,</l>
+              <l part="N">И ад из пропастей разверз на мя уста.</l>
+              <l part="N">Во преисподнюю зрю мрачные степени</l>
+              <l part="N">И вижу в тартаре мучительские тени.</l>
+              <l part="N">Уже в геенне я и в пламени горю.</l>
+              <l part="N">Воззрю на небеса: селенье райско зрю,</l>
+              <l part="N">Там добрые цари природы всей красою,</l>
+              <l part="N">И ангели кропят их райскою росою.</l>
+              <l part="N">А мне, отчаянну, на что надежда днесь!</l>
+              <l part="N">Ввек буду мучиться, как мучуся я здесь.</l>
+              <l part="N">Не венценосец я в великолепном граде<note resp="editor" place="unspecified" anchored="true"> С этих слов монолог Димитрия имеет некоторое сходство с монологом Ричарда из 3-й сцены V действия хроники Шекспира &lt;Ричард III&gt;</note>,</l>
+              <l part="N">Но беззаконник злой, терзаемый во аде.</l>
+              <l part="N">Я гибну, множество народа погубя.</l>
+              <l part="N">Беги, тиран, беги!.. Кого бежать?.. Себя?</l>
+              <l part="N">Не вижу никого другого пред собою.</l>
+              <l part="N">Беги!.. Куда бежать?.. Твой ад везде с тобою.</l>
+              <l part="N">Убийца здесь; беги!.. Но я убийца сей.</l>
+              <l part="N">Страшуся сам себя и тени я моей.</l>
+              <l part="N">Отмщу!.. Кому?.. Себе?.. Себя ль возненавижу?</l>
+              <l part="N">Люблю себя... Люблю... За что?.. Того не вижу.</l>
+              <l part="N">Всё вопит на меня: грабеж, неправый суд,</l>
+              <l part="N">Все страшные дела, все купно вопиют,</l>
+              <l part="N">Живу к несчастию, умру ко счастью ближних.</l>
+              <l part="N">Завидна участь мне людей и самых нижних.</l>
+              <l part="N">И нищий в бедности спокоен иногда,</l>
+              <l part="N">А я здесь царствую и мучуся всегда.</l>
+              <l part="N">Терпи и погибай, восшед на трон обманом,</l>
+              <l part="N">Гони и будь гоним, живи, умри тираном!  </l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head> ДЕЙСТВИЕ III </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 1</head>
+            <stage type="setting">Шуйский и Пармен</stage>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Я мысли мрачные злодею просветил</l>
+              <l part="N">И новы ярости сколь можно укротил.</l>
+              <l part="N">Георгия от уз тиран освобождает,</l>
+              <l part="N">Довод мой гнев его по нужде побеждает.</l>
+              <l part="N">Наперсником его я был бы верен ввек,</l>
+              <l part="N">Коль добродетельный он был бы человек,</l>
+              <l part="N">Но сын отечества, член росского народа...                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Димитрия на трон взвела его порода.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Когда владети нет достоинства его,</l>
+              <l part="N">Во случае таком порода ничего.</l>
+              <l part="N">Пускай Отрепьев он, но и среди обмана,</l>
+              <l part="N">Коль он достойный царь, достоин царска сана.</l>
+              <l part="N">Но пользует ли нам высокий сан един?</l>
+              <l part="N">Пускай Димитрий сей монарха росска сын,</l>
+              <l part="N">Да если качества в нем оного не видим,</l>
+              <l part="N">Так мы монаршу кровь достойно ненавидим,</l>
+              <l part="N">Не находя в себе к отцу любови чад.</l>
+              <l part="N">Коль нет от скипетра во обществе отрад,</l>
+              <l part="N">Когда невинные в отчаянии стонут,</l>
+              <l part="N">Вдовы и сироты во горьком плаче тонут;</l>
+              <l part="N">Коль вместо истины вокруг престола лесть,</l>
+              <l part="N">Когда в опасности именье, жизнь и честь,</l>
+              <l part="N">Коль истину сребром и златом покупают,</l>
+              <l part="N">Не с просьбой ко суду-с дарами приступают,</l>
+              <l part="N">Коль добродетели отличной чести нет,</l>
+              <l part="N">Грабитель и злодей без трепета живет</l>
+              <l part="N">И человечество во всех делах теснится,-</l>
+              <l part="N">Монарху слава вся мечтается и снится.</l>
+              <l part="N">Пустая похвала возникнет и падет,-</l>
+              <l part="N">Без пользы общества на троне славы нет.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Царю и обществу я всяких благ желаю.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">А я на небеса молитвы воссылаю.</l>
+              <l part="N">Спасай отечество, Георгия, себя</l>
+              <l part="N">И деву страждущу, рожденну от тебя!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 2</head>
+            <stage type="setting"> Шуйский (один)</stage>
+            <l part="N">Лукавствуй ты иль нет, Димитрий мной увянет,</l>
+            <l part="N">Низвержется, падет, падет и не восстанет.</l>
+            <l part="N">Когда умрети рок велит, умреть хощу,</l>
+            <l part="N">Но на Димитрия весь город возмущу.</l>
+            <l part="N">Спасу престольный град, отечество избавлю,</l>
+            <l part="N">Умру, но имени бессмертие оставлю.</l>
+            <l part="N">Почтен герой, врага который победит,</l>
+            <l part="N">Но кто отечество от ига свободит,</l>
+            <l part="N">И победителя почтенней многократно.</l>
+            <l part="N">За общество умреть и хвально и приятно. <note resp="editor" place="unspecified" anchored="true"> Как отмечал П. Н. Берков, это вольный перевод стиха римского поэта Горация (2 ода 3-й книги од): "Dulce et decorum est pro patria morit" (Сладостно и похвально умереть за отечество) (Сумароков А. П. Избр. произв., с. 573).</note>  </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 3</head>
+            <stage type="setting">Шуйский, Георгий и Ксения</stage>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Враг общества еще вам хочет говорить,</l>
+              <l part="N">С собой желая вас тирански примирить.</l>
+              <l part="N">Но предложение его хотя и гнусно,</l>
+              <l part="N">Старайтесь поступать вы скромно и искусно.</l>
+              <l part="N">Такой же вам совет и прежде я давал,</l>
+              <l part="N">Но вы испортили, что я ни основал.</l>
+              <l part="N">Кто силе уступать при нужде не умеет,</l>
+              <l part="N">В развратном мире жить понятья не имеет.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Оставь содеянну мне, князь, вину сию!</l>
+              <l part="N">Презрительны слова трону?ли честь мою,</l>
+              <l part="N">Они смятенный весь мой дух восколебали,</l>
+              <l part="N">Предосторожности все разом погибали.</l>
+              <l part="N">Я ввек не ожидал с рожденья моего</l>
+              <l part="N">Услышати таких речей ни от кого,</l>
+              <l part="N">Неожидаемо нахальство ум расшибло,</l>
+              <l part="N">Вся память отошла, терпение погибло,</l>
+              <l part="N">И если б брак его с ней меньше мне грозил,</l>
+              <l part="N">Я б меч тогда во грудь тиранову вонзил.</l>
+              <l part="N">А днесь колико он бессовестен, безбожен,</l>
+              <l part="N">Толь буду терпелив пред ним и осторожен.</l>
+              <l part="N">Для ней одной, для ней ругательство стерплю;</l>
+              <l part="N">Довольно ли тебя я, Ксения, люблю?!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">А я, Георгия зря к смерти осужденна,</l>
+              <l part="N">Могла ль терпением быть хитро побежденна?!</l>
+              <l part="N">На что мне жизнь и свет в такой уже судьбе?</l>
+              <l part="N">О мой любезный князь! Душа моя в тебе,</l>
+              <l part="N">Тобой живу, дышу, тобою украшаюсь,</l>
+              <l part="N">Тобой блаженствую, тобою утешаюсь.</l>
+              <l part="N">Не стану при тебе и в бедности тужить:</l>
+              <l part="N">В убогой хижине с тобой готова жить.</l>
+              <l part="N">Ни казнью мне тиран и никакой судьбою</l>
+              <l part="N">Не разлучит меня, возлюбленный, с тобою.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Но скройте во сердцах взаимный свой сей жар.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Ах, если поразит такой меня удар,</l>
+              <l part="N">Что он насилие употребит ко браку!</l>
+              <l part="N">Такое торжество Георгиеву зраку</l>
+              <l part="N">Свирепяй муки той, какая в аде есть.</l>
+              <l part="N">И сердце каменно того не может снесть!</l>
+              <l part="N">Трепещет грудь моя, душа моя разится,</l>
+              <l part="N">Когда мне только то в уме вообразится.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Откинь сей страх, того не будет никогда,</l>
+              <l part="N">Сей брак не торжества, но смерти мне чреда.</l>
+              <l part="N">И если я с тобой не буду сопряженна,</l>
+              <l part="N">С тобою буду я во гробе положенна.</l>
+              <l part="N">Пускай истлеет наги в пещере купно прах,</l>
+              <l part="N">Не брак, но смерть моя-тебе единый страх!                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Дай мне, любезная, единому умрети,</l>
+              <l part="N">И смерти твоея не возмогу я зрети.</l>
+              <l part="N">Живи и в черную одежду облекись,</l>
+              <l part="N">Живи и ангелом прекрасным нарекись!</l>
+              <l part="N">Еще духовные духовну власть имеют,</l>
+              <l part="N">Еще Игнатию <note resp="editor" place="unspecified" anchored="true"> (ум. 1640) - рязанский архиепископ, первый из русских священнослужителей признавший Лжедимитрия царем, за что был произведен в патриархи. Венчал самозванца на царство и совершил обряд бракосочетания его с Мариной Мнишек.</note> противостати смеют</l>
+              <l part="N">И бодрствуют еще противу ересей,</l>
+              <l part="N">Которы, панствуя, нам сеет пастырь сей.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">В печали, в горести надейтеся на Бога;</l>
+              <l part="N">Всесилен он, премудр, его щедрота многа,</l>
+              <l part="N">И следуйте во всем совету моему.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Во всем последуем приказу твоему.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 4</head>
+            <stage type="setting">                   Георгий и Ксения</stage>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Пройдите вы скоряй, пройдите, дни плачевны!                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Пройдите, времена, которы столько гневны!</l>
+              <l part="N">Скрывайся в сердце ты, горячая любовь,</l>
+              <l part="N">Престань воспламенять мою кипящу кровь</l>
+              <l part="N">И нежным перестань ея прельщаться взглядом,</l>
+              <l part="N">Дабы не стал тебе взгляд сей смертельным ядом!</l>
+              <l part="N">Умолкни, страсть моя, и нужде покорись,</l>
+              <l part="N">Жар, пламень мой, во хлад и в стужу претворись!</l>
+              <l part="N">Скрывайтесь, нежности, колико станет мочи!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Взирайте на него без нежности вы, очи,-</l>
+              <l part="N">Не прежние текут минуты сладких дней,-</l>
+              <l part="N">И соглашайтеся с притворностью моей!</l>
+              <l part="N">Не вображайтеся, те радостны минуты,</l>
+              <l part="N">Которы милы толь, колико ныне люты,</l>
+              <l part="N">Как будто не было приятства мне сего!</l>
+              <l part="N">Не трогайте теперь вы сердца моего</l>
+              <l part="N">И верностью к нему не востревожьте мысли!                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">О небо, ты мое вздыхание исчисли!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">И капли изочти моих горчайших слез!                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Смягчи мою судьбу, царь солнца и небес,</l>
+              <l part="N">И обнови мое сладчайше упованье</l>
+              <l part="N">Или пересеки на свете пребыванье!</l>
+              <l part="N">Не истребительна ничем любовь сия.</l>
+              <l part="N">Княжна! Я-вечно твой, и вечно ты-моя,</l>
+              <l part="N">Как мы ни мучимся несчастною судьбою.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Готова Ксения на смерть ийти с тобою</l>
+              <l part="N">И, больше жизни всей любезного любя,</l>
+              <l part="N">На все мучения готова для тебя.</l>
+              <l part="N">Сей град, колике он стал ныне ни развратен,</l>
+              <l part="N">Тобой еще мне мил и так, как рай, приятен.</l>
+              <l part="N">Мне мнится, все тобой наполнены места;</l>
+              <l part="N">Коль нет тебя, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>мне кажется пуста.</l>
+              <l part="N">Те милы улицы и те во град дороги,</l>
+              <l part="N">Твои касалися которым чаще ноги,</l>
+              <l part="N">Те села близкие, где я с тобой жила,</l>
+              <l part="N">И рощи, где с тобой хотя я раз была,</l>
+              <l part="N">Те чистые луга, по коим мы гуляли</l>
+              <l part="N">И вод журчанием свой слух увеселяли.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Мне стены градские и башни, город весь</l>
+              <l part="N">И протекающи меж гор потоки здесь,</l>
+              <l part="N">Когда в приятную они погоду плещут,</l>
+              <l part="N">И солнечны лучи, когда в день красный блещут,</l>
+              <l part="N">И нощи темнота во самом крепком сне</l>
+              <l part="N">Любезну Ксению изображают мне.</l>
+              <l part="N">Не вижу при тебе душе малейшей смуты,</l>
+              <l part="N">И полны нежностью все тропки, все минуты.</l>
+              <l part="N">До издыхания я в области твоей.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Подобно так и ты, любезный, мной владей.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 5</head>
+            <stage type="setting">      Димитрий, Георгий и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Покорствуете ли предписанной судьбине?                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Все ясно рассмотрев, покорны оба ныне.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Во мзду сей жертвы мне, я всё прощаю вам,</l>
+              <l part="N">Но впредь не то явлю толь наглым я рабам.</l>
+              <l part="N">О правосудия плоды<note resp="editor" place="unspecified" anchored="true"> Этот и следующие стихи вызвали сомнение у академического цензора С. Я. Румовского (Семенников В. П. Материалы для истории русской литературы и словаря писателей эпохи Екатерины II. СПб., 1914, с. 101-102). П. Н. Берков связывал это с возможностью истолкования стихов как содержавших намек на &lt;слабости&gt; Екатерины II (Сумароков А. П. Указ. изд., с. 572).</note>, вы мщенью вкусны,</l>
+              <l part="N">Как женской слабости вы кажетеся гнусны!</l>
+              <l part="N">Быть пользою чему подлейша может тварь,</l>
+              <l part="N">А мучить весь народ единый может царь,</l>
+              <l part="N">Благополучия се в мире совершенство!                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Но всенародное устроим блаженство</l>
+              <l part="N">Удобно в свете сем ему же одному.</l>
+              <l part="N">Ласкательно и то величью твоему.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Блаженство завсегда весьма народу вредно:</l>
+              <l part="N">Богат быть должен царь, а государство бедно.</l>
+              <l part="N">Ликуй, монарх, и все под ним подданство, стонь!</l>
+              <l part="N">Всегда способнее к труду нежирный конь,</l>
+              <l part="N">Смиряемый бичем и частою ездою</l>
+              <l part="N">И управляемый крепчайшею уздою.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Способствует трудам усердье и закон.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Самодержавию к чему потребен он?</l>
+              <l part="N">Узаконения монарши-царска воля.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Самодержавие - России лучша доля <note resp="editor" place="unspecified" anchored="true"> Сумароков вкладывает в уста Георгию собственные мысли о преимуществе монархического правления в условиях России и благотворности его для государственного могущества страны.</note>.</l>
+              <l part="N">Мне думается, где самодержавства нет,</l>
+              <l part="N">Что любочестие, теснимо, там падет;</l>
+              <l part="N">Вельможи гордостью на подчиненных дуют,</l>
+              <l part="N">А подчиненные на гордых негодуют.</l>
+              <l part="N">Не сын отечества-отечества злодей,</l>
+              <l part="N">На троне ищущий из подданных судей.</l>
+              <l part="N">Правленья таковы совсем <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> новы,</l>
+              <l part="N">Коль нет монарха в ней, власть-тяжкие оковы.</l>
+              <l part="N">Несчастна та страна, где множество вельмож:</l>
+              <l part="N">Молчит там истина, владычествует ложь.</l>
+              <l part="N">Благополучна нам монаршеска держава,</l>
+              <l part="N">Когда не бременна народу царска слава.</l>
+              <l part="N">И если властвовать ты будешь так <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвой</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>,</l>
+              <l part="N">Благословен твой трон и век <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> твой.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Я слышу таковы нередко женски басни.</l>
+              <l part="N">Сияй <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> или хотя навек угасни,</l>
+              <l part="N">Пускай живут мои народы в ней стеня,</l>
+              <l part="N">Не для народов-я, народы-для меня,</l>
+              <l part="N">А ты мя к милости на то увещеваешь,</l>
+              <l part="N">Что Ксению еще имети уповаешь.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Но досаждаю ли предлогом сим царю,</l>
+              <l part="N">Когда я истину и в страсти говорю?</l>
+              <l part="N">Я знаю то, что я во всем царю подвластен,</l>
+              <l part="N">Но жар моей любви короне непричастен.</l>
+              <l part="N">Мое ль то, что закон естественный дает?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">У вас имения и собственности нет.</l>
+              <l part="N">Ты-князь, князь Галицкий и отрасль Константина <note resp="editor" place="unspecified" anchored="true">потомок византийских императоров.</note>,</l>
+              <l part="N">Однако предо мной ты тень и паутина:</l>
+              <l part="N">Всё Божье и мое.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="16 letters"/> Себе я свой ли сам?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">И ты принадлежишь царю и небесам!</l>
+              <l part="N">А будучи моим, своим себя не числи.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Моя ль во мне душа, кровь, сердце, ум и мысли?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">То всё не для тебя в тебе сотворено,</l>
+              <l part="N">Но Богу то и мне совсем покорено.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Но Бог свободу дал своей последней твари,</l>
+              <l part="N">Так могут ли то взять законно государи?</l>
+              <l part="N">Властительны они законы пременить,</l>
+              <l part="N">Но может ли их власть неправду извинить?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Не приключайте вы душе моей тревоги.</l>
+              <l part="N">Пойди под стражу ты в назначенны чертоги,</l>
+              <l part="N">Моя любезная, прекрасная княжна,</l>
+              <l part="N">А взавтре будеши Димитрию жена.</l>
+              <l part="N">Ты плачешь?</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"><space dim="horizontal" extent="10 letters"/>Я тебе стараюсь быть подвластна,</l>
+              <l part="N">Колико я, увы, Георгием ни страстна. <stage type="delivery">(Георгию.).</stage></l>
+              <l part="N">Неожидаемой покорствуя судьбе,</l>
+              <l part="N">Преодолей себя, колико льзя тебе!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 6</head>
+            <stage type="setting"> Димитрий и Георгий</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Ты худо следуешь, Георгий, повеленью.</l>
+              <l part="N">Смущаешься?                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="11 letters"/>Стремлюсь любви ко одоленью.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Бледнеешь?                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="11 letters"/>Нет!.. Креплюсь... Колико станет сил...</l>
+              <l part="N">Ты знаешь, государь, что Ксении я мил,</l>
+              <l part="N">И без смятения нельзя ее оставить.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Но сердце наглое старайся ты исправить,</l>
+              <l part="N">А беспрепятственно волнуй лишь тамо страсть,</l>
+              <l part="N">Где выше смертных сан и полномочна власть.                          </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Цари и цесари колико ни преславны,</l>
+              <l part="N">Но в нежности любви и раб и цесарь равны.</l>
+              <l part="N">Людей боготворит едина только лесть;</l>
+              <l part="N">Несходны должности-и различная честь,</l>
+              <l part="N">Определенная достоинству награда.</l>
+              <l part="N">Царь-подданных отец, а подданные-чада.</l>
+              <l part="N">Мы все рождаемся и краткий век живем:</l>
+              <l part="N">Вельможа, царь и раб, и все потом умрем.</l>
+              <l part="N">Пещера малая, скрывающая сира,</l>
+              <l part="N">И победителя равно сокроет мира.</l>
+              <l part="N">Оставим хижину, отшед из света вон,</l>
+              <l part="N">Оставит и монарх великолепный трон.</l>
+              <l part="N">Во всех нас действует равенственно природа:</l>
+              <l part="N">И в обладателе подвластного народа,</l>
+              <l part="N">Как и в родившемся незапностью рабе,</l>
+              <l part="N">И все подвержены естественной борьбе.</l>
+              <l part="N">Премены чувствуешь ты в царском сердце гневном,</l>
+              <l part="N">Их чувствую и я во сердце, днесь плачевном.</l>
+              <l part="N">Услыши, Боже мой, молитву ты мою,</l>
+              <l part="N">Зри слезы, кои днесь перед тобою лью,</l>
+              <l part="N">Простри от горних стран божественную руку</l>
+              <l part="N">И злую отврати со Ксенией разлуку!</l>
+              <l part="N">В тебе спасение, в тебе я льщусь найти,</l>
+              <l part="N">Не дай несчастному в отчаянье прийти!</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">По увещании родительском и многом,</l>
+              <l part="N">Терзайся, рвись, рыдай и сетуй перед Богом,</l>
+              <l part="N">А мне приятно то, когда страдаешь ты,</l>
+              <l part="N">Зря в области моей любезны красоты.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head>ЯВЛЕНИЕ 7</head>
+            <stage type="setting">Георгий (один)</stage>
+            <l part="N">Не чтя бессмертного и смертных ненавидя,</l>
+            <l part="N">Довольствуйся, тиран, мое мученье видя.</l>
+            <l part="N">Тревожа весь мой ум и грудь мою разя,</l>
+            <l part="N">Гордися и губи людей, доколе льзя!</l>
+            <l part="N">Ах, если я лишусь красот, которы милы!</l>
+            <l part="N">И вображение того отъемлет силы,</l>
+            <l part="N">Мертвеют чувства все, темнеет солнца луч,</l>
+            <l part="N">И небо кажется покрыто мраком туч,</l>
+            <l part="N">А воздух над <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвой</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> наполнен мутным адом.</l>
+            <l part="N">Увижу ль, солнце, я тебя над здешным градом</l>
+            <l part="N">Народу счастливу светяще в высоте,</l>
+            <l part="N">Лучи пускающе во прежней красоте?</l>
+            <l part="N">Восплещут ли опять, играя, здешны воды?</l>
+            <l part="N">Ко обитателям придут ли дни свободы</l>
+            <l part="N">И возвратятся ли те радостны часы,</l>
+            <l part="N">В которы зрел без слез я Ксении красы?</l>
+            <l part="N">Избавится ль сей град бесстудия и срамов</l>
+            <l part="N">И возблистают ли верхи златые храмов?</l>
+            <l part="N">Затворит ли, увы, свой алчный злоба рот?</l>
+            <l part="N">Возвеселятся ли дворяня и народ,</l>
+            <l part="N">Возрадуются ли московские девицы,</l>
+            <l part="N">И воссияют ли прекрасные их лицы?</l>
+            <l part="N">Престанет ли багрить дворец и храмы кровь?</l>
+            <l part="N">Возникни здесь покой, возликовствуй любовь</l>
+            <l part="N">И буди счастливых сердец увеселеньем!</l>
+            <l part="N">А ты, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москва</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>, а ты будь райским нам селеньем!  </l>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head> ДЕЙСТВИЕ IV </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 1</head>
+            <stage type="setting">Димитрий и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Когда готовятся утехи нежны нам,</l>
+              <l part="N">Одолевай себя, любезный вид очам,</l>
+              <l part="N">И сердце умягчи, ярящеся вседневно,</l>
+              <l part="N">Произведенное на троне быти гневно.</l>
+              <l part="N">Когда ты будеши супругою моей,</l>
+              <l part="N">Прибегнут подданны ко милости твоей.</l>
+              <l part="N">Мной должно множество народа помирати,</l>
+              <l part="N">Тщись миловать сирот, вдов слезы отирати</l>
+              <l part="N">И строгости мои умеривай, как друг.</l>
+              <l part="N">Будь жалостна жена, когда жесток супруг.</l>
+              <l part="N">А если строгостей моих и не умеришь,</l>
+              <l part="N">Но милостью своей ты подданных уверишь,</l>
+              <l part="N">Что есть еще к кому в страданьи прибегать,</l>
+              <l part="N">Хотя ты страждущим не в силах помогать.</l>
+              <l part="N">Пусть мучится народ, как мучился он прежде,</l>
+              <l part="N">Но каждый, живучи в обманчивой надежде,</l>
+              <l part="N">Рожденный иго несть, как подлый человек,</l>
+              <l part="N">В надежде будет жить и мучиться вовек,</l>
+              <l part="N">Прямыя помощи не видя ниоткуду</l>
+              <l part="N">И тако говоря: &lt;Я взавтре счастлив буду!&gt;,  /прямая речь?/</l>
+              <l part="N">Довольствуется тем, но взавтре то придет,</l>
+              <l part="N">И новые ему напасти приведет.</l>
+              <l part="N">Но пусть подвластный мне всегда народ болеет,</l>
+              <l part="N">Димитрий ни о ком из них не сожалеет.</l>
+              <l part="N">Для собственности всяк живет на свете сем,</l>
+              <l part="N">Всё в мире пагубно и развращенно в нем.</l>
+              <l part="N">Хочу тираном быть. Все хвалят добродетель,</l>
+              <l part="N">На свете коей нет, чему весь мир свидетель.</l>
+              <l part="N">Не устрашает ад, колико ни грозит.</l>
+              <l part="N">Так праведно людей Димитрий здесь разит.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Достойно, государь, злодеев истребляти,</l>
+              <l part="N">Однако должно ли невинных погубляти?</l>
+              <l part="N">Не беззаконию ль определенна месть?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Достойны мщенья все, колико смертных есть.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Когда такими всех Димитрий примечает,</l>
+              <l part="N">Себя ль единого он только исключает?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Когда бы менее самолюбив я был,</l>
+              <l part="N">Давно б Димитрия Димитрий погубил,</l>
+              <l part="N">И если б было льзя с собою разделиться,</l>
+              <l part="N">Я стал бы мукою своею веселиться,</l>
+              <l part="N">Готовый сам себе в мученьи сострадать</l>
+              <l part="N">И на отчаянье отчаян соглядать.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Изрядный брак теперь супруге обещаешь</l>
+              <l part="N">И преизрядное спокойство предвещаешь!</l>
+              <l part="N">Супружницу ль такой супружник пощадит,</l>
+              <l part="N">Который и себя по нужде не вредит?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Когда боишься ты жестокости и казни,</l>
+              <l part="N">Вседушно ты ищи супруговой приязни,</l>
+              <l part="N">Ставь мужа своего превыше естества,</l>
+              <l part="N">Покорствуй, почитай в нем образ Божества!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Великолепен царь, почтен монарх и славен,</l>
+              <l part="N">Но быть любовнице любовник должен равен.</l>
+              <l part="N">Хотя и узница с царем сопряжена,</l>
+              <l part="N">Она рабыня ли иль царская жена?</l>
+              <l part="N">Ищи в супружество девицы равночестной.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Ищу в супружество девицы я прелестной,</l>
+              <l part="N">Порода красоты лицу не придает:</l>
+              <l part="N">В селе и в городе цветок равно цветет.</l>
+              <l part="N">А став супругой мне, судьбой определенной,</l>
+              <l part="N">Послушна буди, дщерь монарха всей вселенной, <note resp="editor" place="unspecified" anchored="true"> Здесь: &lt;дщерь&gt; в значении &lt;подданная&gt;.</note></l>
+              <l part="N">И, мне покорствуя, любви моей ищи...</l>
+              <l part="N">А ежели не так, страшись и трепещи!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Георгий о женах не тако рассуждает.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Георгий рабствует, Димитрий обладает.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 2</head>
+            <stage type="setting">  Димитрий, Ксения и Начальник стражи</stage>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <l part="N">Во граде радостной нет вести никакой:</l>
+              <l part="N">Как сядет солнце, с ним исчезнет твой покой.</l>
+              <l part="N">Ужасен вечер сей, жди с трепетом ты ночи,</l>
+              <l part="N">Не будут солнца зреть твои с престола очи.</l>
+              <l part="N">Игнатий-патриарх во ересях дрожал,</l>
+              <l part="N">И се лукавый муж из града убежал.</l>
+              <l part="N">Бояря вечер сей к измене простирают,</l>
+              <l part="N">Духовные отцем другого избирают,</l>
+              <l part="N">Ожесточается дворянство и народ.</l>
+              <l part="N">Брегися, государь, жестоких ты погод!</l>
+              <l part="N">В тебе твоя одном осталась оборона:</l>
+              <l part="N">Валится со главы уже твоей корона.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">И всех бояр она с собою повалит.</l>
+            </sp>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <l part="N">Ждет стража, что творить Димитрий повелит.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Представь Пармена мне и храбро стражей прави,</l>
+              <l part="N">А в страшной сей ночи свой сон совсем остави!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 3</head>
+            <stage type="setting"> Димитрий и Ксения</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Вот верности, княжна, князей твоих плоды!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">О небо, отврати от сих князей беды!</l>
+              <l part="N">Когда, о царь, народ перед тобой злочинен,</l>
+              <l part="N">Родитель ли мой в том и князь Георгий винен?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Я знаю их давно...                   <stage type="enter"><move who="parmen" type="enter"/>(Пармен приходит.)</stage>.                                   </l>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>А ты отсель пойди!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 4</head>
+            <stage type="setting"> Димитрий и Пармен</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Какой приказ я дам, ты то распоряди!</l>
+              <l part="N"> Сия мне страшна ночь добра не предвещает,</l>
+              <l part="N"> И страхи все моя грудь ныне ощущает.</l>
+              <l part="N"> Дрожу... престол падет, преходит жизнь моя...</l>
+              <l part="N"> Куда, отчаянный, к кому прибегну я.</l>
+              <l part="N"> Встают против меня и Бог и человеки,</l>
+              <l part="N"> Разверсты пропасти, пылают адски реки.</l>
+              <l part="N"> Уж я во узника почти преображен:</l>
+              <l part="N"> И небо, и земля, и ад вооружен.</l>
+              <l part="N"> Дух смутный демоны терзают неотступно,</l>
+              <l part="N"> Мой подданный народ гнушается мной купно,</l>
+              <l part="N"> Весь град колеблется, от варварства стеня,</l>
+              <l part="N"> И отвращается Всевышний от меня.</l>
+              <l part="N"> Я-враг природы всей, отечества предатель,</l>
+              <l part="N">И сам Создатель мой-мой ныне неприятель.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">В жестокосердии не буди тако тверд:</l>
+              <l part="N">Колико грешен ты, Бог столько милосерд.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Во милосердии Бог столько изобилен,</l>
+              <l part="N">Колико я хранить устав его бессилен,</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Во добродетели одной его устав.  </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Но добродетели противится мой нрав,</l>
+              <l part="N">И сердцу моему к ней вижу путь я трудный.</l>
+              <l part="N">Где скроюсь от тебя, о Боже правосудный,</l>
+              <l part="N">Убежища мне нет во горести моей.</l>
+              <l part="N">Ад, небо и земля-всё в области твоей,</l>
+              <l part="N">И ждет меня мое мученье бесконечно.</l>
+              <l part="N">Преобрати живот в небытие мне вечно,</l>
+              <l part="N">Бери и огнь и гром, кинь молнию, губи</l>
+              <l part="N">И дух из существа навеки истреби!</l>
+              <l part="N">Едино днесь меня, едино услаждает.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Конечно, истина твой разум побеждает?</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <stage type="delivery">(вручая ему хартию).</stage>
+              <l part="N"> Что тут написано, исполни всё сие!                           </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <stage type="delivery">(прочет надпись).</stage>
+              <l part="N">Ко нову варварству стремление твое!</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Бояря, пастыри, все б были умерщвленны!</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Коль должно быть сему, труды мои явленны.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Представь Георгия и Ксению с отцем</l>
+              <l part="N">Под стражей пред моим монаршеским лицем!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 5</head>
+            <stage type="setting"> Димитрий (один)</stage>
+            <l part="N">Блаженная душа идет в объятье Бога,</l>
+            <l part="N">А мне показана с престола в ад дорога.</l>
+            <l part="N">Сия последня ночь-ночь вечна будет мне;</l>
+            <l part="N">Увижу наяву, что страшно и во сне.</l>
+            <l part="N">Скончает неба мрак народные напасти,</l>
+            <l part="N">Отнимет у меня и жизнь и силу власти.</l>
+            <l part="N">Багряная заря спешит на небеса,</l>
+            <l part="N">И солнце утомясь, нисходит за леса,</l>
+            <l part="N">Дабы свежай себя природе возвратило...</l>
+            <l part="N">Помедли в небеси, горящее светило!</l>
+            <l part="N">Во учрежденный час ты спустишься всегда,</l>
+            <l part="N">А мне уже тебя не зрети никогда.  </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 6</head>
+            <stage type="setting"> Димитрий, Шуйский, Георгий и стражи</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Я ведаю то всё, кем бунты учрежденны,</l>
+              <l part="N"> А вы пред окнами умрети осужденны.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Великий государь!..</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Не трати больше слов!</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Лишенный Ксении, умрети я готов,</l>
+              <l part="N">Уж больше мне нельзя ничем на свете льститься.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Дай с дочерию мне впоследние проститься.</l>
+              <l part="N">Для ней единыя мне смертный час-боязнь.</l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Я сам того хочу-умножить вашу казнь.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 7</head>
+            <stage type="setting">Шуйский, Георгий и стражи</stage>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Умрем без робости, себя преодолеем,</l>
+              <l part="N">Покажем городу, что мужество имеем!</l>
+              <l part="N">Умрем!</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="6 letters"/>Умрем, когда определенный рок</l>
+              <l part="N">По власти Вышнего толико нам жесток!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 8</head>
+            <stage type="setting">  Шуйский, Георгий, Ксения и стражи</stage>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Пришли уже часы неизреченной муки.</l>
+              <l part="N">Се с вами день моей, день вечныя разлуки!</l>
+              <l part="N">Превыше сил моих минуты мне сии.</l>
+              <l part="N">О небо, укрепи ты немощи мои!</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Сим образом монарх на трон тебя венчает.                        </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <stage type="delivery"> (Ксении).</stage>
+              <l part="N">Сим образом мою к тебе любовь кончает.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Страдай ты, Ксения, страдай, страдай теперь!</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Любезная княжна!</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="18 letters"/>Возлюбленная дщерь!</l>
+              <l part="N">Лишаюся тебя.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="13 letters"/>Навек тебя я трачу.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Стеню без помощи и без надежды плачу.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">С младенческих ты лет утехой мне была,</l>
+              <l part="N">Во добродетели и в красоте цвела,</l>
+              <l part="N">Своею красотой беседы украшала,</l>
+              <l part="N">А добродетелью пол женский возвышала,</l>
+              <l part="N">К веселью моему и радостям росла,</l>
+              <l part="N">Ему сладчайшую надежду принесла.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Которая в сей день навеки исчезает.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Томится грудь моя, теснится, замерзает...</l>
+              <l part="N">Над страшной пропастью я, бедная, стою.</l>
+              <l part="N">Возьми, о небо, жизнь, возьми ты жизнь мою!</l>
+              <l part="N">Чем прежде я себе, живуща, ни ласкала,</l>
+              <l part="N">Чего на свете сем я прежде ни искала,</l>
+              <l part="N">Всего лишаюся, лишаюся того,</l>
+              <l part="N">Что мне и живота миляе моего.</l>
+              <l part="N">Родитель мой! Мой князь!.. Тобою я рожденна,</l>
+              <l part="N">Твоей, несчастная, любовью побежденна.</l>
+              <l part="N">Дав дочери ты жизнь, вонзи ей меч во грудь</l>
+              <l part="N">И окончателем горчайшей жизни будь!</l>
+              <l part="N">Иль ты вонзи мне меч, любви моей содетель,</l>
+              <l part="N">И буди верности к себе моей свидетель!</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Крепися, сколько льзя, любезная княжна!</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Нужна моя мне смерть. </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="20 letters"/>И мне она нужна.   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 9</head>
+            <stage type="setting"> Шуйский, Георгий, Ксения со стражами, Пармен и стражи</stage>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">В темницу весть велел в сию вас царь минуту.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">Иду в темницу я.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N"><space dim="horizontal" extent="19 letters"/>Иду на смерть я люту.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Пармен!</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="7 letters"/>Идем, когда уже предел такой!</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Когда разрушили вы общества покой,</l>
+              <l part="N">Примите мзду.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="13 letters"/>Сей муж достойный градожитель.</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Казни и не суди нас, варварства служитель.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Ты жалостный свой нрав на зверство пременил,</l>
+              <l part="N">Которо много раз ты прежде сам винил.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N">Ведите их.</l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="10 letters"/>Умерь тоску, княжна несчастна!</l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <l part="N">Останься, Ксения, ты мною меньше страстна!   </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 10</head>
+            <stage type="setting"> Ксения со стражами и Пармен</stage>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Нетронут жалостным позорищем таким,</l>
+              <l part="N"> Когда ты наглые чтишь варварски уставы,</l>
+              <l part="N"> Рази, влеки мой дух, терзай мои составы,</l>
+              <l part="N"> Невинну кровь мою подобно ты пролей</l>
+              <l part="N"> И, руки обагрив без сожаленья в ней,</l>
+              <l part="N"> Взведи на небеса окровавленны руки,</l>
+              <l part="N"> Чтоб ты избавлен был в том мире вечной муки!</l>
+              <l part="N"> Бог-правый судия, колико он ни щедр,</l>
+              <l part="N"> Не внемлет он молитв из тартаровых недр,</l>
+              <l part="N"> Отмстите, небеса, душе его зловредной!</l>
+              <l part="N"> Отмстите!.. Ах, но мне в том кая польза, бедной?!</l>
+              <l part="N"> Хоть адских не прервут мучители оков,</l>
+              <l part="N"> Отец, любовник мой не встанут из гробов,</l>
+              <l part="N"> Я им мила, а мне они всего дороже...</l>
+              <l part="N"> Порабощенну мысль тебе вручаю, Боже.</l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <l part="N"> В неутолимых сих пребуди ты слезах</l>
+              <l part="N"> И будь отчаянна в тирановых глазах.</l>
+              <l part="N"> Я больше ничего тебе не отвечаю.</l>
+              <l part="N"> Исполни, Боже, то, чего хочу к чаю!</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Чай, мерзостный тиран<note resp="editor" place="unspecified" anchored="true"> Здесь: &lt;чай&gt; в значении &lt;готовься&gt;.</note>, и жди достойной мзды!</l>
+              <l part="N"> В геенне соберешь насеянны плоды.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 11</head>
+            <stage type="setting">Ксения и стражи</stage>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N"> Исполнилося всё, и честь моя свершенна;</l>
+              <l part="N"> Томись, моя душа, толико сокрушенна.</l>
+              <l part="N"> Умрут и принесут во гроб ко мне любовь...</l>
+              <l part="N"> Остановляется дыхание и кровь...</l>
+              <l part="N"> Ах, руки в казнь уже убийцы простирают,</l>
+              <l part="N"> Вкушают князи казнь, падут и умирают</l>
+              <l part="N"> И, проселяяся, покорствуя судьбе,</l>
+              <l part="N"> Зовут и Ксению страдающу к себе,</l>
+              <l part="N"> Оставленную здесь, отчаянну и сиру...</l>
+              <l part="N"> Иду за вами я к безвестну нами миру...</l>
+              <l part="N"> Преобратился сей, цветущий прежде, град</l>
+              <l part="N"> Во мрачный, в у?жасный, в неисходимый ад...</l>
+              <l part="N"> Отверзи челюсти, пылающа геенна,</l>
+              <l part="N"> И выпусти меня! За что тобой я пленна?!</l>
+              <l part="N"> Не в аде я! Но где ж?.. Жива ли я?.. Иль нет?..</l>
+              <l part="N"> Не рушится ль земля?.. Не небо ли падет?..</l>
+              <l part="N"> Ах! Небо и земля безвредны пребывают,</l>
+              <l part="N"> Но князи навсегда меня позабывают...</l>
+              <l part="N"> Куда, стрегущие, велите мне идти?</l>
+              <l part="N"> Везде равно; нигде отрады не найти.                <stage type="delivery"> Занавес опускается..</stage>  </l>
+            </sp>
+          </div>
+        </div>
+        <div type="act" org="uniform" sample="complete" part="N">
+          <head> ДЕЙСТВИЕ V </head>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 1</head>
+            <stage type="setting"> Занавес подымается: Димитрий спящий сидит на креслах, возле него стол, на котором царские утвари, и, проснувся, говорит:</stage>
+            <l part="N">Довольно я терплю душевных огорчений,</l>
+            <l part="N">Не умножайте вы, мечты, моих мучений!</l>
+            <l part="N">Мне всё приснилося, чем страшен мне сей град,</l>
+            <l part="N">И весь перед меня предстал ужасный ад.             <stage type="setting"> Слышен колокол.</stage>    </l>
+            <l part="N">В набат биют! Сему биенью что причина?!        <stage type="setting"> (Востает.)</stage>               </l>
+            <l part="N">В сей час, в сей страшный час пришла моя кончина.</l>
+            <l part="N">О ночь! О грозна ночь! О ты, противный звон!</l>
+            <l part="N">Вещай мою беду, смятение и стон!</l>
+            <l part="N">Трепещет дух во мне... Сего не знал я прежде...</l>
+            <l part="N">Объят отчаяньем, и нет путей к надежде.</l>
+            <l part="N">Дом царский зыблется, колеблется чертог...</l>
+            <l part="N">О Боже!.. Но меня оставил вечно Бог,</l>
+            <l part="N">А люди моего гнушаются и виду...</l>
+            <l part="N">Смотрю прибежища... Не зрю... В геенну сниду.</l>
+            <l part="N">Во преисподнюю ступай, душа моя!</l>
+            <l part="N">Правитель естества! И там рука твоя!</l>
+            <l part="N">Исторгнешь мя на суд из адския утробы.</l>
+            <l part="N">Суди и осуждай за все творимы злобы!</l>
+            <l part="N">И человечества я враг, и Божества;</l>
+            <l part="N">Против я шел Тебя, против и естества...</l>
+            <l part="N">Весь воздух восшумел, враги вооруженны,</l>
+            <l part="N">У стен моих палат ярятся приближенны,</l>
+            <l part="N">А я бессильствую, их наглости внемля...</l>
+            <l part="N">Всё, всё против меня: и небо и земля...</l>
+            <l part="N">О град, которым я уж больше не владею,</l>
+            <l part="N">Достанься ты по мне такому же злодею!  </l>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 2</head>
+            <stage type="setting">  Димитрий, стражи и страженачальник</stage>
+            <sp who="nacalnik">
+              <speaker>Начальник</speaker>
+              <p/>
+              <l part="N">Весь Кремль народом полн, дом царский окружен,</l>
+              <l part="N">И гнев во всех сердцах против тебя зажжен.</l>
+              <l part="N">Вся стража сорвана, остались мы едины.     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Не может быть ничто жесточе сей судьбины!</l>
+              <l part="N">Пойдем!.. Повержем!.. Стой!.. Ступай!.. Будь здесь!.. Беги</l>
+              <l part="N">И мужеством число врагов превозмоги!</l>
+              <l part="N">Бегите, тщитеся Димитрия избавить!..</l>
+              <l part="N">Куда бежите вы?.. Хотите мя оставить?</l>
+              <l part="N">Не отступайте прочь и защищайте дверь!..</l>
+              <l part="N">Убегнем... Тщетно всё, и поздно всё теперь.</l>
+              <l part="N">Введите Ксению!</l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 3</head>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <stage type="setting">(один) </stage>
+              <l part="N"><space dim="horizontal" extent="16 letters"/> Не трона отлученье-</l>
+              <l part="N">Важнейшее мое, тягчайшее мученье,</l>
+              <l part="N">Но то, что в ярости лютейшей я горю</l>
+              <l part="N">И услаждения в отмщении не зрю,</l>
+              <l part="N">В крови изменничьей, в крови рабов виновных,</l>
+              <l part="N">В крови бы плавал я и светских и духовных,</l>
+              <l part="N">Явил бы, каковы разгневанны цари,</l>
+              <l part="N">И кровью б обагрил и трон и олтари,</l>
+              <l part="N">Наполнил бы я всю подсолнечную страхом,</l>
+              <l part="N">Преобратил бы сей престольный град я прахом,</l>
+              <l part="N">Зажег бы град я весь, и град бы воспылал,</l>
+              <l part="N">И огнь во пламени до облак воссылал.</l>
+              <l part="N">Ах! суетно сии мя мысли утешают,</l>
+              <l part="N">Когда меня судьбы отмщения лишают.  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ 4</head>
+            <stage type="setting"> Димитрий, Ксения и стражи</stage>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N"> Внимая бунта шум, ты в радости не мни,</l>
+              <l part="N"> Что нежности твоей не кончилися дни.</l>
+              <l part="N"> Как скоро ты меня узришь не на престоле,</l>
+              <l part="N"> Не будешь ты часа на свете этом боле;</l>
+              <l part="N"> Удар, который мя изменою разит,</l>
+              <l part="N"> Моею и в тебя рукой кинжал вонзит,</l>
+              <l part="N"> Ты узницей умрешь-не царскою супругой.</l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Достойна смерти сей какою я прослугой?                        </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Любовница и дочь предателей моих!</l>
+              <l part="N">Когда они спаслись, так ты умри за них!</l>
+              <l part="N">И сим уж ты винна, что тех народов дева,</l>
+              <l part="N">Которы моего достойны царска гнева.     </l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Не страшен более несчастный мне конец,</l>
+              <l part="N">Когда спасенны мой любовник и отец.</l>
+              <l part="N">Единыя такой боялась я разлуки.</l>
+              <l part="N">Омой невинною моею кровью руки,</l>
+              <l part="N">Когда ни милости, ни сожаленья нет;</l>
+              <l part="N">Кончай плачевну жизнь во дни цветущих лет!</l>
+              <l part="N">Не удивится ли <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> и вселенна,</l>
+              <l part="N">Услыша, что тобой девица умерщвленна,</l>
+              <l part="N">Толико близко быв у сердца твоего,</l>
+              <l part="N">Ко раздражению не сделав ничего?</l>
+              <l part="N">Не ждет родитель мой моей невинной казни,</l>
+              <l part="N">Ни город наш ко мне такой твоей приязни.</l>
+              <l part="N">Не думает никто, что я их долг плачу</l>
+              <l part="N">И пол чертогов сих я кровью омочу.        </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Прельстившемуся мне, прекрасная, тобою</l>
+              <l part="N">Одни уж мысли-зреть тя мертву пред собою.</l>
+              <l part="N">Зрю сам, колике ты в сии часы бедна,</l>
+              <l part="N">Но ты к отмщенью мне осталася одна.</l>
+              <l part="N">Винна ли ты иль нет, будь винна града жертва. <note resp="editor" place="unspecified" anchored="true"> То есть, независимо от личной виновности, будешь принесена в жертву за вину города.</note></l>
+              <l part="N">Доколь не свергнуся с престола, буди мертва!..</l>
+              <l part="N">В преддверии моем я слышу стук и треск,</l>
+              <l part="N">Пришли минуты злы, короны тьмится блеск.</l>
+              <l part="N">Готовься ощущать караемую злобу! <stage type="delivery">(Хватает ее за руку, вынимает кинжал и подымает на нее.).</stage> </l>
+              <l part="N">Жди смерти и умри, предшествуй мне ко гробу!  </l>
+            </sp>
+          </div>
+          <div type="scene" org="uniform" sample="complete" part="N">
+            <head> ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
+            <stage type="setting"> Димитрий, Kceния, Шуйский, Георгий и воины</stage>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <p/>
+              <l part="N">Какое зрелище!                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="14 letters"/>Свирепая душа!        </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Лишайтеся ее, престола мя лиша!         </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <p>       <stage type="delivery"> (несколько приближаяся к нему).</stage></p>
+              <l part="N">Когда ты чьей-нибудь погибели желаешь,</l>
+              <l part="N">Смягчи суровство мной, в котором ты пылаешь!</l>
+              <l part="N">Георгий-твой злодей.                           </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N"><space dim="horizontal" extent="20 letters"/>Не он, не дочь моя</l>
+              <l part="N">Виновны пред тобой. Начальник бунтов-я.     </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Когда содеяти хотите ей пощаду,</l>
+              <l part="N">Ступайте вон отсель и объявите граду,</l>
+              <l part="N">Что я им дарствую и милость и приязнь,</l>
+              <l part="N">Или над сей княжной свершится града казнь.        </l>
+            </sp>
+            <sp who="shujskij">
+              <speaker>Шуйский</speaker>
+              <l part="N">За град отеческий вкушай, княжна, смерть люту!       </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <p/>
+              <l part="N">Стремится на меня зло всё в сию минуту!..</l>
+              <l part="N">Судьбина, ждал ли я толь страшного часа?!</l>
+              <l part="N">Вельможи и народ!.. Димитрий!.. Небеса!..</l>
+              <l part="N">Оставь невинную, моей лей токи крови</l>
+              <l part="N">И сотвори конец несчастнейшей любови!        </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Мне жертва та мала к отмщенью моему.        </l>
+            </sp>
+            <sp who="georgij">
+              <speaker>Георгий</speaker>
+              <p>  <stage type="delivery">  (отступив и обратясь к народу).</stage>   </p>
+              <l part="N"> Спасения лишен, на смерть лечу к нему.                      <stage type="delivery">(Бросаяся на него.).</stage> </l>
+              <l part="N">Прости, любезная!        </l>
+            </sp>
+            <sp who="ksenija">
+              <speaker>Ксения</speaker>
+              <l part="N">Прости!                  </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <stage type="delivery"> (устремився Ксению заколоть).</stage>
+              <l part="N"><space dim="horizontal" extent="17 letters"/>Увяньте, розы!          </l>
+            </sp>
+            <sp who="parmen">
+              <speaker> Пармен</speaker>
+              <stage type="delivery">(с обнаженным мечем, вырывая Ксению из рук его).</stage>
+              <l part="N">Прошли уже твои жестокости и грозы!</l>
+              <l part="N">Избавлен наш народ смертей, гонений, ран,</l>
+              <l part="N">Не страшен никому в бессилии тиран.    </l>
+            </sp>
+            <sp who="dimitrij">
+              <speaker>Димитрий</speaker>
+              <l part="N">Ступай, душа, во ад и буди вечно пленна!   <stage type="delivery">(Ударяет себя во грудь кинжалом и, издыхая, падущий в руки стражей.).</stage></l>
+              <l part="N">Ах, если бы со мной погибла вся вселенна!                          Конец трагедии</l>
+            </sp>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ночь</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Никитич</forename>             <surname full="yes">Муравьев</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ночь</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полное собрание сочинений Михаила Никитича Муравьева. Ч. 1. </publisher>
+                <date>1819</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1776, 1785 - переработка</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">тишина</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">К приятной тишине склонилась мысль моя,</l>
+          <l part="N">Медлительней текут мгновенья бытия.</l>
+          <l part="N">Умолкли голоса, и свет, покрытый тьмою,</l>
+          <l part="N">Зовет живущих всех ко сладкому покою.</l>
+          <l part="N">Прохлада, что из недр пространныя земли</l>
+          <l part="N">Восходит вверх, стелясь, и видима в дали</l>
+          <l part="N">Туманов у ручьев и близ кудрявой рощи</l>
+          <l part="N">Виется в воздухе за колесницей нощи,</l>
+          <l part="N">Касается до жил и освежает кровь!</l>
+          <l part="N">Уединение, молчанье и любовь</l>
+          <l part="N">Владычеством своим объемлют тихи сени,</l>
+          <l part="N">И помавают им согласны с ними тени.</l>
+          <l part="N">Воображение, полет свой отложив,</l>
+          <l part="N">Мечтает тихость сцен, со зноем опочив.</l>
+          <l part="N">Так солнце, утомясь, пред западом блистает,</l>
+          <l part="N">Пускает кроткий луч и блеск свой отметает.</l>
+          <l part="N">Ах! чтоб вечерних зреть пришествие теней,</l>
+          <l part="N">Что может лучше быть обширности полей?</l>
+          <l part="N">Приятно мне уйти из кровов позлащенных</l>
+          <l part="N">В пространство тихое лесов невозмущенных,</l>
+          <l part="N">Оставив пышный град, где честолюбье бдит,</l>
+          <l part="N">Где скользкий счастья путь, где ров цветами скрыт.</l>
+          <l part="N">Здесь буду странствовать в кустарниках цветущих</l>
+          <l part="N">И слушать соловьев, в полночный час поющих;</l>
+          <l part="N">Или облокочусь на мшистый камень сей,</l>
+          <l part="N">Что частью в землю врос и частию над ней.</l>
+          <l part="N">Мне сей цветущий дерн свое представит ложе.</l>
+          <l part="N">Журчанье ручейка, бесперестанно то же,</l>
+          <l part="N">Однообразием своим приманит сон.</l>
+          <l part="N">Стопами тихими ко мне приидет он</l>
+          <l part="N">И распрострет свои над утомленным крилы,</l>
+          <l part="N">Живитель естества, лиющий в чувства силы.</l>
+          <l part="N">Не сходят ли уже с сих тонких облаков</l>
+          <l part="N">Обманчивы мечты и между резвых снов</l>
+          <l part="N">Надежды и любви, невинности подруги? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уже смыкаются зениц усталых круги.</l>
+          <l part="N">Носися с плавностью, стыдливая луна:</l>
+          <l part="N">Я преселяюся во темну область сна.</l>
+          <l part="N">Уже язык тяжел и косен становится.</l>
+          <l part="N">Еще кидаю взор - и всё бежит и тьмится.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

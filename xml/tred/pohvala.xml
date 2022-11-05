@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Похвала Ижерской земле  и царствующьму граду Санктпетербургу</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Похвала Ижерской земле  и царствующьму граду Санктпетербургу</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Петр I</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Санкт-Петербург</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">военная слава России</tei:span>
+    <body xml:id="whole">
+      <div met="Я5" rhyme="aBaB" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Приятный брег! Любезная страна!</l>
+          <l part="N">Где свой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Нева</tei:orig><tei:reg>Нева, р.</tei:reg></tei:choice></tei:name> поток стремит к пучине.</l>
+          <l part="N">О! прежде дебрь, се коль населена!</l>
+          <l part="N">Мы град в тебе престольный видим ныне.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Немало зрю в округе я доброт:</l>
+          <l part="N">Реки твоей струи легки и чисты;</l>
+          <l part="N">Студен воздух, но здрав его есть род:</l>
+          <l part="N">Осушены почти уж блата мшисты.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Где место ты низвергнуть подала</l>
+          <l part="N">Врагов своих блаженну <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Александру</tei:orig><tei:reg>Александр Невский, кн.</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>Александр</quote> - Александр Ярославович, за победу над шведами на Неве (1240 г.) прозванный Невским.</note>,</l>
+          <l part="N">В трофей и лавр там лавра<note resp="editor" place="unspecified" anchored="true"><quote>Лавра</quote> - укрепленный монастырь; в 1710 г. Петром I в память побед над шведами был заложен Александро-Невский монастырь, впоследствии официально названный лаврой.</note> процвела;</l>
+          <l part="N">Там почернил багряну ток <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Скамандру</tei:orig><tei:reg>Скамандр, р.</tei:reg></tei:choice></tei:name>.<note resp="editor" place="unspecified" anchored="true"><quote>Там почернил багряну ток Скамандру</quote> - там поток (Невы) посрамил багряную Скамандру. Река Скамандр во время Троянской войны стала, как говорится в ?Илиаде?, багряной от крови.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Отверзла путь, торжественны врата</l>
+          <l part="N">К полтавским тем полям<note resp="editor" place="unspecified" anchored="true"><quote>К полтавским? полям</quote> - к победе Петра I под Полтавой (1709 г.)</note> сия победа;</l>
+          <l part="N">Великий сам, о! слава, красота,</l>
+          <l part="N">Сразил на них <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петр</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> равного ж соседа. <note resp="editor" place="unspecified" anchored="true"><quote>Равного ж соседа</quote> - т. е. шведов.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Преславный град, что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петр</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> наш основал</l>
+          <l part="N">И на красе построил толь полезно,</l>
+          <l part="N">Уж древним всем он ныне равен стал,</l>
+          <l part="N">И обитать в нём всякому любезно.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не больше лет, как токмо с пятьдесят,</l>
+          <l part="N">Отнеле ж все хвалу от удивленной</l>
+          <l part="N">Ему души со славою гласят,</l>
+          <l part="N">И честь притом достойну во вселенной.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что ж бы тогда, как пройдет уж сто лет?</l>
+          <l part="N">О! вы, по нас идущие потомки,</l>
+          <l part="N">Вам слышать то, сему коль граду свет<note resp="editor" place="unspecified" anchored="true"><quote>Сему коль граду свет</quote> - сколь громкие хвалы этому городу будет петь пришедший в восторг мир.</note>,</l>
+          <l part="N">В восторг пришед, хвалы петь будет громки.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Авзонских стран <name type="place">Венеция</name>, и <name type="place">Рим</name>,</l>
+          <l part="N">И <name type="place">Амстердам</name> батавский, и столица</l>
+          <l part="N">Британских мест, тот долгий <name type="place">Лондон</name><note resp="editor" place="unspecified" anchored="true"><quote>Долгий Лондон</quote> - После пожара в XVII в. Лондон, расположенный вдоль р. Темзы, быстро застраивался на запад от Сити.</note> к сим,</l>
+          <l part="N">Париж градам как верьх, или царица, -</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Все сии цель есть шествий наших в них,</l>
+          <l part="N">Желаний вещь<note resp="editor" place="unspecified" anchored="true"><quote>Все сии цель есть шествий наших в них, Желаний вещь</quote> - все эти города цель наших путешествий, предмет желаний.</note>, честное наше странство, </l>
+          <l part="N">Разлука нам от кровнейших своих;</l>
+          <l part="N">Влечет туда нас слава и убранство.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сей люб тому, иному - тот из нас:</l>
+          <l part="N">Как веселил того, другой другого,</l>
+          <l part="N">Так мы об них беседуем мног час<note resp="editor" place="unspecified" anchored="true"><quote>Мног час</quote> - многие часы.</note>,</l>
+          <l part="N">И помним, что случилось там драгого.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но вам узреть, потомки, в граде сем,</l>
+          <l part="N">Из всех тех стран<note resp="editor" place="unspecified" anchored="true"><quote>Из всех тех стран</quote> - т. е. из Италии, Голландии, Англии, Франции.</note> слетающихся густо,</l>
+          <l part="N">Смотрящих всё, дивящихся о всем,</l>
+          <l part="N">Гласящих: <q>Се рай стал, где было пусто!</q></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Явится им здесь мудрость по всему,<note resp="editor" place="unspecified" anchored="true"><quote>Явится им здесь мудрость по всему</quote> - Здесь мудрость явится во всех делах им (иноземцам) не отраженно.</note></l>
+          <l part="N">И из всего <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петрова</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> не в зерцале:</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Санктпетербург</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name> не образ есть чему? <note resp="editor" place="unspecified" anchored="true"><quote>Санктпетербург не образ есть чему?</quote> - Чему образцом не может быть сам Петербург?</note></l>
+          <l part="N">Восстенут: <q>Жаль! Зиждитель сам жил вмале</q>.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О! боже, твой предел да сотворит,</l>
+          <l part="N">Да о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петре</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"><quote>О Петре</quote> - ради Петра.</note> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name> всей в отраду,</l>
+          <l part="N">Светило дня впредь равного не зрит,</l>
+          <l part="N">Из всех градов, везде <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрову граду</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

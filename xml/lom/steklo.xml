@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Письмо о пользе Стекла К Высокопревосходительному господину Генералу Порутчику, действительному Ея Императорского Величества Каммергеру, Московскаго Университета Куратору и орденов Белаго Орла, святаго Александра и святыя Анны Кавалеру <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ивану Ивановичу Шувалову</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>, писанное <date>1752</date> году</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Ульяна Палилова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8.</title>
+            <editor role="editor">В. В. Виноградов, А. И. Андреев, Г. П. Блок</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.; Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Письмо о пользе стекла к действительному Ея императорскаго Величества Каммергеру и орденов белаго орла, святаго Александра и святыя Анны Кавалеру, Его Превосходительству  Ивану Ивановичу Шувалову от коллежскаго советника и профессора Михайла Ломоносова</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Отдельное издание</publisher>
+                <pubPlace>СПб.</pubPlace>
+                <date>1753</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">стекло</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">наука</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">научные достижения</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п. р." org="uniform" sample="complete" part="N">
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Неправо о вещах те думают, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шувалов</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Которые Стекло чтут нии́же Минералов,</l>
+          <l part="N">Приманчивым лучем блистающих в глаза:</l>
+          <l part="N">Не меньше польза в нем, не меньше в нем краса.</l>
+          <l part="N">Не редко я для той с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнасских гор</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> спускаюсь.</l>
+          <l part="N">И ныне от нее на верьх их возвращаюсь,</l>
+          <l part="N">Пою перед Тобой в восторге похвалу</l>
+          <l part="N">Не камням дорогим, ни злату, но Стеклу.</l>
+          <l part="N">И как я оное хваля воспоминаю,</l>
+          <l part="N">Не ломкость лживого я щастья представляю.</l>
+          <l part="N">Не должно тленности примером тое<note resp="editor" place="unspecified" anchored="true"> Тое - то.</note> быть,</l>
+          <l part="N">Чего и сильный огнь не может разрушить,</l>
+          <l part="N">Других вещей земных конечный разделитель:</l>
+          <l part="N">Стекло им рождено; огонь его родитель. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>С натурой некогда он произвесть хотя</l>
+          <l part="N">Достойное себя и оныя дитя</l>
+          <l part="N">Во мрачной глубине, под тягостью земною,</l>
+          <l part="N">Где вечно он живет и борется с водою,</l>
+          <l part="N">Все силы собрал вдруг и хляби затворил,</l>
+          <l part="N">В которы Океан на брань к нему входил;</l>
+          <l part="N">Напрягся мышцами, и рамена подвинул,</l>
+          <l part="N">И тяготу земли превыше облак вскинул.</l>
+          <l part="N">Внезапно черный дым навел густую тень,</l>
+          <l part="N">И в ночь ужасную переменился день.  </l>
+          <l part="N">Не баснотворнаго здесь ради <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Геркулеса</tei:orig><tei:reg>Геркулес</tei:reg></tei:choice></tei:name></l>
+          <l part="N">Две ночи сложены в едину от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зевеса</tei:orig><tei:reg>Зевс</tei:reg></tei:choice></tei:name>,<note resp="editor" place="unspecified" anchored="true"> Намек на древнегреческий миф, согласно которому <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зевес</tei:orig><tei:reg>Зевс</tei:reg></tei:choice></tei:name>, желая продлить свое любовное свидание с матерью <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Геркулеса</tei:orig><tei:reg>Геркулес</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Алкменой</tei:orig><tei:reg>Алкмена</tei:reg></tei:choice></tei:name>, слил две ночи в одну.</note> </l>
+          <l part="N">Но <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Етна</tei:orig><tei:reg>Этна</tei:reg></tei:choice></tei:name> правде сей свидетель вечный нам,</l>
+          <l part="N">Которая дала путь чудным сим родам:</l>
+          <l part="N">Из ней разжженная река текла в пучину,</l>
+          <l part="N">И свет отчаясь мнил, что зрит свою судьбину!</l>
+          <l part="N">Но ужасу тому последовал конец:</l>
+          <l part="N">Довольна чадом мать, доволен им отец. <note resp="editor" place="unspecified" anchored="true">Под <q>матерью</q> разумеется <q>натура</q>, т. е. природа, а под <q>отцом</q> - огонь. Извержениям вулканов и землетрясениям <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> уделял, как известно, большое внимание (ср. т. V наст. изд., стр. 295-347, 568-589, 673-685, 707- 710).</note></l>
+          <l part="N">Прогнали долгу ночь и жар свой погасили</l>
+          <l part="N">И солнцу ясному рождение открыли.</l>
+          <l part="N">Но чтож, от недр земных родясь, произошло?</l>
+          <l part="N">Любезное дитя, прекрасное Стекло.</l>
+          <l part="N">Увидев смертные о как ему дивились!</l>
+          <l part="N">Подобное тому сыскать искусством тщились,</l>
+          <l part="N">И было в деле сем удачно мастерство:</l>
+          <l part="N">Превысило своим раченьем естество.</l>
+          <l part="N">Тем стало житие на свете нам щастливо:</l>
+          <l part="N">Из чистаго Стекла мы пьем вино и пиво</l>
+          <l part="N">И видим в нем пример бесхитростных сердец:</l>
+          <l part="N">Кого льзя видеть сквозь, тот подлинно не льстец.</l>
+          <l part="N">Стекло в напитках нам не может скрыть примесу.</l>
+          <l part="N">И чиста совесть рвет притворств гнилу завесу.</l>
+          <l part="N">Но столько ли уже, Стекло, твоих похвал,</l>
+          <l part="N">Что нам в тебе вино и мед сам слаще стал?</l>
+          <l part="N">Никак! Сие твоих достоинств лишь начало,</l>
+          <l part="N">Которы мастерство тебе с природой дало. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Исполнен слабостьми наш краткий в мире век:</l>
+          <l part="N">Нередко впадает в болезни человек!</l>
+          <l part="N">Он ищет помощи, хотя спастись от муки</l>
+          <l part="N">И жизнь свою продлить, врачам дается в руки.</l>
+          <l part="N">Нередко нам они отраду могут дать,</l>
+          <l part="N">Умев приличные лекарства предписать,</l>
+          <l part="N">Лекарства, что в Стекле хранят и составляют:</l>
+          <l part="N">В Стекле одном оне безвредны пребывают.</l>
+          <l part="N">Мы должны здравия и жизни часть Стеклу.</l>
+          <l part="N">Какую надлежит ему принесть хвалу!</l>
+          <l part="N">Хоть вместо онаго замысловаты Хины<note resp="editor" place="unspecified" anchored="true">Хины - китайцы.</note></l>
+          <l part="N">Сосуды составлять нашли из чистой глины:</l>
+          <l part="N">Огромность тяжкую плода лишенных гор</l>
+          <l part="N">Художеством своим преобратив в Фарфор,</l>
+          <l part="N">Красой его к себе народы привлекают,</l>
+          <l part="N">Что, плавая, морей свирепость презирают, -</l>
+          <l part="N">Однако был бы он почти простой горшок,</l>
+          <l part="N">Когда бы блеск Стекла дать помощи не мог. <note resp="editor" place="unspecified" anchored="true">Речь идет о глазировании фарфора стекловидным составом.</note> </l>
+          <l part="N">Оно вход жидких тел от скважин отвращает,</l>
+          <l part="N">Вещей прекрасных вид на нем изображает.</l>
+          <l part="N">Имеет от Стекла часть крепости Фарфор;</l>
+          <l part="N">Но тое, что на нем увеселяет взор,</l>
+          <l part="N">Сады, гульбы, пиры и все, что есть прекрасно,</l>
+          <l part="N">Стекло являет нам приятно, чисто, ясно. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Искусство, коим был прославлен <name type="person">Апеллес</name></l>
+          <l part="N">И коим ныне <name type="place">Рим</name> главу свою вознес,</l>
+          <l part="N">Коль пользы от Стекла приобрело велики,</l>
+          <l part="N">Доказывают то Финифти, Мозаики,</l>
+          <l part="N">Которы ввек хранят Геройских бодрость лиц,</l>
+          <l part="N">Приятность нежную и красоту девиц,</l>
+          <l part="N">Чрез множество веков себе подобны зрятся</l>
+          <l part="N">И ветхой древности грызенья не боятся. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Когда неистовой свирепствуя <name type="mythologic">Борей</name></l>
+          <l part="N">Стисняет мразом нас в упругости своей,</l>
+          <l part="N">Великой не терпя и строгой перемены,</l>
+          <l part="N">Скрывает человек себя в толсты́я стены.</l>
+          <l part="N">Он был бы принужден без свету в них сидеть</l>
+          <l part="N">Или с дрожанием несносной хлад терпеть,</l>
+          <l part="N">Но солнечны лучи он сквозь Стекло впускает</l>
+          <l part="N">И лютость холода чрез то же отвращает.</l>
+          <l part="N">Отворенному вдруг и запертому быть -</l>
+          <l part="N">Не то ли мы зовем, что чудеса творить?</l>
+          <l part="N">Потом как человек зимой стал безопасен</l>
+          <l part="N">Еще притом желал, чтоб цвел всегда прекрасен</l>
+          <l part="N">И в северных странах в снегу зеленой сад,</l>
+          <l part="N"><name type="place">Цейлон</name> бы посрамил, пренебрегая хлад.</l>
+          <l part="N">И удовольствовал он мысли прихотливы:</l>
+          <l part="N">Зимою за Стеклом цветы хранятся живы, <note resp="editor" place="unspecified" anchored="true"> К тому дому, где жил <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  в период сочинения <q>Письма</q>, примыкал Ботанический сад Академии наук с большими оранжереями.</note></l>
+          <l part="N">Дают приятной дух, увеселяют взор</l>
+          <l part="N">И вам, Красавицы, хранят себя в убор.</l>
+          <l part="N">Позволь, Любитель Муз, я речь свою склоняю</l>
+          <l part="N">И к нежным сим сердцам на время обращаю.</l>
+          <l part="N">И Музы с оными единого сродства:</l>
+          <l part="N">Подобна в них краса и нежныя слова.</l>
+          <l part="N">Щастливой младостью Твои цветущи годы</l>
+          <l part="N">И склонной похвала и ласковой природы</l>
+          <l part="N">Мой стих от оных к сим пренесть не возбранят.</l>
+          <l part="N">Прекрасной пол, о коль любезен вам наряд!</l>
+          <l part="N">Дабы прельстить лицом любовных суеверов,</l>
+          <l part="N">Какое множество вы знаете манеров</l>
+          <l part="N">И коль искусны вы убор переменять,</l>
+          <l part="N">Чтоб в каждой день себе приятность нову дать.</l>
+          <l part="N">Но былоб ваше все старанье без успеху,</l>
+          <l part="N">Наряды ваши бы достойны были смеху,</l>
+          <l part="N">Когдаб вы в зеркале не видели себя:</l>
+          <l part="N">Вы вдвое пригожи, Стекло употребя.</l>
+          <l part="N">Когда блестят на вас горящие алмазы,</l>
+          <l part="N">Двойной кипит в нас жар сугубыя заразы!</l>
+          <l part="N">Но больше красоты и больше в них цены,</l>
+          <l part="N">Когда круг них Стеклом цветки наведены:</l>
+          <l part="N">Вы кажетесь нам в них приятною весною,</l>
+          <l part="N">В цветах наряженной, усыпанных росою. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Во светлых зданиях убранства таковы.</l>
+          <l part="N">Но в чем красуетесь, о сельски Нимфы, вы?</l>
+          <l part="N">Природа в вас любовь подобную вложила,</l>
+          <l part="N">Желанья нежны в вас подобна движет сила:</l>
+          <l part="N">Вы также украшать желаете себя. <note resp="editor" place="unspecified" anchored="true">В устах выходца из крестьянской среды это совершенно необычное для тогдашней литературы обращение к крестьянкам приобретает особенную значительность.</note></l>
+          <l part="N">За тем, прохладные поля свои любя,</l>
+          <l part="N">Вы рвете розы в них, вы рвете в них лилеи,</l>
+          <l part="N">Кладете их на грудь и вяжете круг шеи.</l>
+          <l part="N">Таков убор дает вам нежная весна!</l>
+          <l part="N">Но чем вы краситесь в другие времена,</l>
+          <l part="N">Когда, лишась цветов, поля у вас бледнеют</l>
+          <l part="N">Или снегами вкруг глубокими белеют?</l>
+          <l part="N">Без оных что бы вам в нарядах помогло,</l>
+          <l part="N">Когда бы бисеру вам не дало Стекло?</l>
+          <l part="N">Любовников он к вам не меньше привлекает,</l>
+          <l part="N">Как блещущий алмаз богатых уязвляет.</l>
+          <l part="N">Или еще на вас в нем больше красота,</l>
+          <l part="N">Когда любезная в вас светит простота!  </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Так в бисере Стекло подобяся жемчугу,</l>
+          <l part="N">Любимо по всему земному ходит кругу.</l>
+          <l part="N">Им красится народ в полунощных степях,</l>
+          <l part="N">Им красится Арап на южных берегах.</l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Америке</tei:orig><tei:reg>Америка</tei:reg></tei:choice></tei:name> живут, мы чаем, простаки,</l>
+          <l part="N">Что там драгой металл из сребреной реки</l>
+          <l part="N">Дают Европскому купечеству охотно</l>
+          <l part="N">И бисеру берут количество несчетно,</l>
+          <l part="N">Но тем, я думаю, они разумне нас,</l>
+          <l part="N">Что гонят от своих бедам причину глаз.</l>
+          <l part="N">Им оны времена не будут ввек забвенны,</l>
+          <l part="N">Как пали их отцы для злата побиенны. </l>
+          <l part="N">О коль ужасно зло! На то ли человек</l>
+          <l part="N">В незнаемых морях имел опасный бег,</l>
+          <l part="N">На то ли, разрушив естественны пределы,</l>
+          <l part="N">На утлом дереве обшол кругом свет целый,</l>
+          <l part="N">За тем ли он сошел на красны берега,</l>
+          <l part="N">Чтоб там себя явить свирепого врага?</l>
+          <l part="N">По тягостном труде, снесенном на пучине,</l>
+          <l part="N">Где предал он себя на произвол судьбине,</l>
+          <l part="N">Едва на твердый путь от бурь избыть успел,</l>
+          <l part="N">Военной бурей он внезапно зашумел.</l>
+          <l part="N">Уже горят Царей там древния жилища,</l>
+          <l part="N">Венцы врагам корысть и плоть их вранам пища!</l>
+          <l part="N">И кости предков их из золотых гробов</l>
+          <l part="N">Чрез стены падают к смердящим трупам в ров!</l>
+          <l part="N">С перстнями руки прочь и головы с убранством</l>
+          <l part="N">Секут несытые и златом, и тиранством.</l>
+          <l part="N">Иных, свирепствуя, в средину гонят гор</l>
+          <l part="N">Драгой металл изрыть из преглубоких нор.</l>
+          <l part="N">Смятение и страх, оковы, глад и раны,</l>
+          <l part="N">Что наложили им в работе их тиранны,</l>
+          <l part="N">Препятствовали им подземну хлябь крепить,</l>
+          <l part="N">Чтоб тягота над ней могла недвижна быть.</l>
+          <l part="N">Обрушилась гора: лежат в ней погребенны</l>
+          <l part="N">Бесчастные или по истинне блаженны,</l>
+          <l part="N">Что вдруг избегли все бесчеловечных рук,</l>
+          <l part="N">Работы тяжкия, ругательства и мук! <note resp="editor" place="unspecified" anchored="true">Обличение западноевропейских завоевателей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Америки</tei:orig><tei:reg>Америка</tei:reg></tei:choice></tei:name>, проявлявших бесчеловечное отношение к коренному населению этого материка и варварски истреблявших памятники его древней культуры (стихи 145-178), является экскурсом, не имеющим отношения к теме <q>Письма</q>. Нет сомнения, что он был внесен в поэму под впечатлением каких-то фактов тогдашней действительности. Ср. сходное с ломоносовским выступление против колониальных бесчинств у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>А. Н. Радищева</tei:orig><tei:reg>Радищев А. Н.</tei:reg></tei:choice></tei:name> (Радищев, Полное собрание сочинений, т. I, М. - Л., 1938, стр. 313-317).</note> </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Оставив Кастиллан невинность так попранну</l>
+          <l part="N">С богатством в отчество спешит по Океану,</l>
+          <l part="N">Надеясь оным всю <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Европу</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name> вдруг купить.</l>
+          <l part="N">Но златом волн морских не можно утолить.</l>
+          <l part="N">Подобный их сердцам <name type="mythologic">Борей</name>, подняв пучину,</l>
+          <l part="N">Навел их животу и варварству кончину:</l>
+          <l part="N">Погрязли в глубине, с сокровищем своим,</l>
+          <l part="N">На пищу преданы чудовищам морским.</l>
+          <l part="N">То бури, то враги толь часто их терзали,</l>
+          <l part="N">Что редко до брегов желанных достигали.</l>
+          <l part="N">О коль великой вред! От зла рождалось зло!</l>
+          <l part="N">Виной толиких бед бывало ли Стекло?</l>
+          <l part="N">Никак! Оно везде наш дух увеселяет:</l>
+          <l part="N">Полезно молодым и старым помогает.  </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>По долговременном теченьи наших дней</l>
+          <l part="N">Тупеет зрение ослабленных очей. </l>
+          <l part="N">Померкшее того не представляет чувство,</l>
+          <l part="N">Что кажет в тонкостях натура и искусство.</l>
+          <l part="N">Велика сердцу скорбь лишиться чтенья книг,</l>
+          <l part="N">Скучнее вечной тьмы, тяжелее вериг!</l>
+          <l part="N">Тогда противен день, веселие - досада!</l>
+          <l part="N">Одно лишь нам Стекло в сей бедности отрада.</l>
+          <l part="N">Оно способствием искусныя руки</l>
+          <l part="N">Подать нам зрение умеет чрез очки!</l>
+          <l part="N">Не дар ли мы в Стекле божественный имеем?</l>
+          <l part="N">Что честь достойную воздать ему коснеем? </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Взирая в древности народы изумленны,</l>
+          <l part="N">Что греет, топит, льет и светит огнь возжженный,</l>
+          <l part="N">Иные Божеску ему давали честь,</l>
+          <l part="N">Иные, знать хотя, кто с неба мог принесть,</l>
+          <l part="N">Представили в своем мечтанье <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Прометея</tei:orig><tei:reg>Прометей</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Что, многи на земли художества умея,</l>
+          <l part="N">Различныя казал искусством чудеса;</l>
+          <l part="N">За то <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Минервою</tei:orig><tei:reg>Минерва</tei:reg></tei:choice></tei:name> был взят на небеса,</l>
+          <l part="N">Похитил с солнца огнь и смертным отдал в руки.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зевес</tei:orig><tei:reg>Зевс</tei:reg></tei:choice></tei:name> воздвиг свой гнев, воздвиг ужасны звуки,</l>
+          <l part="N">Продерскаго к горе великой приковал</l>
+          <l part="N">И сильному орлу на растерзанье дал:</l>
+          <l part="N">Он сердце завсегда коварное терзает,</l>
+          <l part="N">На коем снова плоть на муку вырастает.</l>
+          <l part="N">Там слышен страшный стон, там тяжка цепь звучит,</l>
+          <l part="N">И кровь, чрез камни вниз текущая, шумит.</l>
+          <l part="N">О коль несносна жизнь! Позорище ужасно!</l>
+          <l part="N">Но в просвещенны дни сей вымысл видим ясно.</l>
+          <l part="N">Пииты, украшать хотя свои стихи,</l>
+          <l part="N">Описывали казнь за мнимые грехи.</l>
+          <l part="N">Мы пламень солнечный Стеклом здесь получаем</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Прометея</tei:orig><tei:reg>Прометей</tei:reg></tei:choice></tei:name> тем безбедно подражаем. <note resp="editor" place="unspecified" anchored="true"> Еще в <date>1741</date> г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> строил <quote>катоптрико-диоптрический зажигательный инструмент</quote> (т. I наст. изд., стр. 85-101, 546-549); к проблеме использования солнечной энергии он возвращался не раз и впоследствии (см., например, т. IV наст. изд., стр. 445, 455 и 457).</note></l>
+          <l part="N">Ругаясь подлости нескладных оных врак,</l>
+          <l part="N">Небесным без греха огнем курим табак;</l>
+          <l part="N">И только лишь о том мы думаем, жалея,</l>
+          <l part="N">Не сверглаль в пагубу наука <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Прометея</tei:orig><tei:reg>Прометей</tei:reg></tei:choice></tei:name>?</l>
+          <l part="N">Не злясь ли на него, невежд свирепых полк</l>
+          <l part="N">На знатны вымыслы сложил неправой толк?</l>
+          <l part="N">Не наблюдал ли звезд тогда сквозь Телескопы,</l>
+          <l part="N">Что ныне воскресил труд щастливой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Европы</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name>?</l>
+          <l part="N">Не огнь ли он Стеклом умел сводить с небес</l>
+          <l part="N">И пагубу себе от Варваров нанес,</l>
+          <l part="N">Что предали на казнь, обнесши чародеем? <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> полагал, что миф о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Прометее</tei:orig><tei:reg>Прометей</tei:reg></tei:choice></tei:name> <quote>мог отразить какие-то реальные трагические события в истории древнегреческой культуры, - может быть, гибель какого-то ученого, осужденного жрецами</quote> (Г. И. Бомштейн. Роль  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в истории русской этнографии и фольклористики. Очерки историй русской этнографии, фольклористики и антропологии, вып. I, М., 1956, стр. 91). - Последующий отрывок, посвященный вопросу о борьбе представителей церкви с наукой, не имеет прямой связи с темой <q>Письма</q> и вызван участившимися с <date>конца 40-х годов XVIII в.</date> выпадами церковной цензуры против науки (подробнее см. в примечаниях к стихотворению 227).</note></l>
+          <l part="N">Коль много таковых примеров мы имеем,</l>
+          <l part="N">Что зависть, скрыв себя под святости покров,</l>
+          <l part="N">И груба ревность с ней, на правду строя ков,</l>
+          <l part="N">От самой древности воюют многократно,</l>
+          <l part="N">Чем много знания погибло невозвратно!</l>
+          <l part="N">Коль точно знали б мы небесныя страны,</l>
+          <l part="N">Движение планет, течение луны,</l>
+          <l part="N">Когда бы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Аристарх</tei:orig><tei:reg>Аристарх Самосский</tei:reg></tei:choice></tei:name> завистливым <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Клеантом</tei:orig><tei:reg>Клеант</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true">О греческом астрономе III в. до н. э. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Аристархе Самосском</tei:orig><tei:reg>Аристарх Самосский</tei:reg></tei:choice></tei:name>, считавшем, что солнце является центром вселенной и что земля вращается как вокруг собственной оси, так и вокруг солнца, и об его антагонисте <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Клеанте</tei:orig><tei:reg>Клеант</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> говорит подробнее в своей работе <q>Явление Венеры на Солнце</q> (т. IV наст. изд., стр. 371).</note></l>
+          <l part="N">Не назван был в суде неистовым Гигантом,</l>
+          <l part="N">Дерзнувшим землю всю от тверди потрясти,</l>
+          <l part="N">Круг центра своего, круг солнца обнести,</l>
+          <l part="N">Дерзнувшим научать, что все домашни Боги</l>
+          <l part="N">Терпят великой труд всегдашния дороги:</l>
+          <l part="N">Вертится в круг <name type="mythologic">Нептун</name>, <name type="mythologic">Диана</name> и <name type="mythologic">Плутон</name></l>
+          <l part="N">И страждут ту же казнь, как дерсской <name type="mythologic">Иксион</name>,</l>
+          <l part="N">И неподвижная земли Богиня <name type="mythologic">Веста</name></l>
+          <l part="N">К упокоению сыскать не может места!</l>
+          <l part="N">Под видом ложным сих почтения Богов</l>
+          <l part="N">Закрыт был звездный мир чрез множество веков.</l>
+          <l part="N">Боясь падения неправой оной веры,</l>
+          <l part="N">Вели всегдашню брань с наукой лицемеры,</l>
+          <l part="N">Дабы она, открыв величество небес</l>
+          <l part="N">И разность дивную неведомых чудес,</l>
+          <l part="N">Не показала всем, что непостижна сила</l>
+          <l part="N">Единаго <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Творца</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> весь мир сей сотворила,</l>
+          <l part="N">Что <name type="mythologic">Марс</name>, <name type="mythologic">Нептун</name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Зевес</tei:orig><tei:reg>Зевс</tei:reg></tei:choice></tei:name>, все сонмище Богов</l>
+          <l part="N">Не стоят тучных жертв, ниже́ под жертву дров,</l>
+          <l part="N">Что агньцов и волов жрецы едят напрасно:</l>
+          <l part="N">Сие одно, сие казалось быть опасно!</l>
+          <l part="N">Оттоле землю все считали посреде.</l>
+          <l part="N">Астроном весь свой век в бесплодном был труде</l>
+          <l part="N">Запутан циклами, пока восстал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Коперник</tei:orig><tei:reg>Коперник Н.</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Презритель зависти и варварству соперник;</l>
+          <l part="N">В средине всех Планет он солнце положил,</l>
+          <l part="N">Сугубое земли движение открыл:</l>
+          <l part="N">Однем круг центра путь вседневный совершает,</l>
+          <l part="N">Другим круг солнца год теченьем составляет.</l>
+          <l part="N">Он циклы истинной Системой растерзал</l>
+          <l part="N">И правду точностью явлений доказал.</l>
+          <l part="N">Потом <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Гугении</tei:orig><tei:reg>Гюйгенс Х.</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Кеплеры</tei:orig><tei:reg>Кеплер И.</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Невтоны</tei:orig><tei:reg>Ньютон И.</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Преломленных лучей в Стекле познав законы,</l>
+          <l part="N">Разумной подлинно уверили весь свет,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Коперник</tei:orig><tei:reg>Коперник Н.</tei:reg></tei:choice></tei:name> что учил, сомнения в том нет.</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Клеантов</tei:orig><tei:reg>Клеант</tei:reg></tei:choice></tei:name> не боясь, мы пишем все согласно,</l>
+          <l part="N">Что истинне они противятся напрасно;</l>
+          <l part="N">В безмерном углубя пространстве разум свой,</l>
+          <l part="N">Из мысли ходим в мысль, из света в свет иной;</l>
+          <l part="N">Везде Божественну премудрость почитаем,</l>
+          <l part="N">В благоговении весь дух свой погружаем,</l>
+          <l part="N">Чудимся быстрине, чудимся тишине,</l>
+          <l part="N">Что <name type="biblical">Бог</name> устроил нам в безмерной глубине.</l>
+          <l part="N">В ужасной скорости и купно быть в покое -</l>
+          <l part="N">Кто чудо сотворит, кроме Его, такое?</l>
+          <l part="N">Нас больше таковы идеи веселят,</l>
+          <l part="N">Как, <note resp="editor" place="unspecified" anchored="true"> Здесь, как и во многих других случаях, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> заменяет союзом <q>как</q> союз <q>чем</q>. </note> Божий некогда описывая град,</l>
+          <l part="N">Вечерний <name type="person">Августин</name><note resp="editor" place="unspecified" anchored="true">О граде божии, кн. 16, гл. 9/note&gt; душею веселился. <l part="N">О коль великим он восторгом бы пленился,</l><l part="N">Когдаб разумну тварь толь тесно не включал,</l><l part="N">Под намиб жителей, как здесь, не отрицал, <note resp="editor" place="unspecified" anchored="true"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Блаженный Августин</tei:orig><tei:reg>Августин</tei:reg></tei:choice></tei:name> признавался основоположником западноевропейской католической догматики, отчего <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> и называет его <q>Вечерним</q>, т. е. западным. В своем сочинении <q>De civiate Dei</q> (<q>О граде божием</q>) <name type="person">Августин</name> отрицал возможность существования антиподов (кн. XVI, гл. IX). </note></l><l part="N">Без Математики вселенной бы не мерил!</l><l part="N">Что есть <name type="place">Америка</name>, напрасно он не верил:</l><l part="N">Доказывает то подземной Католик,</l><l part="N">Кадя златой его в костелах новых лик. <note resp="editor" place="unspecified" anchored="true"> Имеется в виду духовенство, перенесшее католический культ в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Америку</tei:orig><tei:reg>Америка</tei:reg></tei:choice></tei:name>. </note></l><l part="N">Уже <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Колумбу</tei:orig><tei:reg>Колумб Х.</tei:reg></tei:choice></tei:name> в след, уже за <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Магелланом</tei:orig><tei:reg>Магеллан Ф.</tei:reg></tei:choice></tei:name></l><l part="N">Круг света ходим мы великим Океаном</l><l part="N">И видим множество Божественных там дел,</l><l part="N">Земель и островов, людей, градов и сел,</l><l part="N">Незнаемых пред тем и странных нам животных,</l><l part="N">Зверей и птиц, и рыб, плодов и трав несчотных.</l><l part="N">Возьмите сей пример, &gt;<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Клеанты</tei:orig><tei:reg>Клеант</tei:reg></tei:choice></tei:name>, ясно вняв,</l><l part="N">Коль много <name type="person">Августин</name> в сем мнении неправ:</l><l part="N">Он слово Божие употреблял <note resp="editor" place="unspecified" anchored="true">Там же.</note>напрасно.</l><l part="N">В Системе света вы то ж делаете власно.<note resp="editor" place="unspecified" anchored="true"><q>Власно</q> - точь-в-точь, точно так же.</note></l><l part="N">Во зрительных трубах Стекло являет нам,</l><l part="N">Колико дал <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Творец</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> пространство небесам.</l><l part="N">Толь много солнцев в них пылающих сияет,</l><l part="N">Недвижных сколько звезд нам ясна ночь являет.</l><l part="N">Круг солнца нашего, среди других планет</l><l part="N">Земля с ходящею круг ней луной течет,</l><l part="N">Которую, хотя весьма пространну знаем,</l><l part="N">Но к свету применив, как точку представляем.</l><l part="N">Коль созданных вещей пространно естество!</l><l part="N">О коль велико их создавше <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Божество</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>!</l><l part="N">О коль велика к нам щедрот его пучина,</l><l part="N">Что на землю послал возлюбленного <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Сына</tei:orig><tei:reg>Иисус Христос</tei:reg></tei:choice></tei:name>!</l><l part="N">Не погнушался Он на малой шар сотти,</l><l part="N">Что бы погибшаго страданием спасти.</l><l part="N">Чем меньше мы Его щедрот достойны зримся,</l><l part="N">Тем больше благости и милости чудимся?</l><l part="N">Стекло приводит нас чрез Оптику к сему,</l><l part="N">Прогнав глубокую неведения тьму!</l><l part="N">Преломленных лучей пределы в нем неложны,</l><l part="N">Поставлены <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Творцем</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>: другие невозможны.</l><l part="N">В благословенной наш и просвещенной век</l><l part="N">Чего не мог дотти по оным человек? </l></note></l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Хоть острым взором нас природа одарила,</l>
+          <l part="N">Но близок оного конец имеет сила:</l>
+          <l part="N">Кроме, что в далеке не кажет нам вещей</l>
+          <l part="N">И собранных трубой он требует лучей,</l>
+          <l part="N">Коль многих тварей он еще не досягает,</l>
+          <l part="N">Которых малой рост пред нами сокрывает!</l>
+          <l part="N">Но в нынешних веках нам Микроскоп открыл,</l>
+          <l part="N">Что <name type="biblical">Бог</name> в невидимых животных сотворил!</l>
+          <l part="N">Коль тонки члены их, составы, сердце, жилы</l>
+          <l part="N">И нервы, что хранят в себе животны силы!</l>
+          <l part="N">Не меньше, нежели в пучине тяжкий Кит,</l>
+          <l part="N">Нас малый червь частей сложением дивит.</l>
+          <l part="N">Велик <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Создатель</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> наш в огромности небесной!</l>
+          <l part="N">Велик в строении червей, скудели тесной!</l>
+          <l part="N">Стеклом познали мы толики чудеса,</l>
+          <l part="N">Чем Он наполнил Понт, <note resp="editor" place="unspecified" anchored="true">Понт - море.</note> и воздух, и леса.</l>
+          <l part="N">Прибавив рост вещей, оно, коль нам потребно,</l>
+          <l part="N">Являет трав разбор и знание врачебно.</l>
+          <l part="N">Коль много Микроскоп нам тайностей открыл</l>
+          <l part="N">Невидимых частиц и тонких в теле жил!  </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Но что еще? Уже в Стекле нам Барометры</l>
+          <l part="N">Хотят предвозвещать, коль скоро будут ветры,</l>
+          <l part="N">Коль скоро дождь густой на нивах зашумит,</l>
+          <l part="N">Иль, облаки прогнав, их солнце осушит.</l>
+          <l part="N">Надежда наша в том обманами не льстится:</l>
+          <l part="N">Стекло поможет нам, и дело совершится.</l>
+          <l part="N">Открылись точно им движения светил;</l>
+          <l part="N">Чрез тож откроется в погодах разность сил.</l>
+          <l part="N">Коль могут щастливы селяне быть оттоле,</l>
+          <l part="N">Когда не будет зной, ни дождь опасен в поле! </l>
+          <l part="N">Какой способности ждать должно кораблям,</l>
+          <l part="N">Узнав, когда шуметь или молчать волнам</l>
+          <l part="N">И плавать по морю безбедно и спокойно!</l>
+          <l part="N">Велико дело в сем и гор златых достойно! </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Далече до конца Стеклу достойных хвал,</l>
+          <l part="N">На кои целой год едва бы мне достал.</l>
+          <l part="N">Затем уже слова похвальны оставляю</l>
+          <l part="N">И что об нем писал, то делом начинаю.</l>
+          <l part="N">Однако при конце не можно преминуть,</l>
+          <l part="N">Чтоб новых мне его чудес не помянуть.  </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Что может смертным быть ужаснее удара,</l>
+          <l part="N">С которым молния из облак блещет яра?</l>
+          <l part="N">Услышав в темноте внезапной треск и шум</l>
+          <l part="N">И видя быстрый блеск, мятется слабый ум,</l>
+          <l part="N">От гневнаго часа желает гдеб укрыться,</l>
+          <l part="N">Причины онаго исследовать страшится,</l>
+          <l part="N">Дабы истолковать что́ молния и гром,</l>
+          <l part="N">Такие мысли все считает он грехом.</l>
+          <l part="N"><q>На бичь, - он говорит, - я посмотреть не смею, <l part="N">Когда грозит Отец нам яростью своею</l></q>.</l>
+          <l part="N">Но как Он нас казнит, подняв в пучине вал,</l>
+          <l part="N">То грех ли то сказать, что ветром Он нагнал?</l>
+          <l part="N">Когда в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Египте</tei:orig><tei:reg>Египет</tei:reg></tei:choice></tei:name> хлеб довольный не родился,</l>
+          <l part="N">То грех ли то сказать, что <name type="place">Нил</name> там не розлился?</l>
+          <l part="N">Подобно надлежит о громе разсуждать.</l>
+          <l part="N">Но блеск и звук его, не дав главы поднять,</l>
+          <l part="N">Держал ученых смысл в смущении толиком,</l>
+          <l part="N">Что в заблуждении теряли путь великом</l>
+          <l part="N">И истинных причин достигнуть не могли,</l>
+          <l part="N">Поколе действ в Стекле подобных не нашли.</l>
+          <l part="N">Вертясь, Стеклянный шар дает удары с блеском,</l>
+          <l part="N">С громовым сходственны сверьканием и треском. <note resp="editor" place="unspecified" anchored="true"> Речь идет о снабженной стеклянным шаром электростатической машине, вызываемые которой электростатические разряды подобны таким же разрядам естественного электричества, происходящим между облаком и землей, либо между двумя разноименно заряженными грозовыми облаками. </note></l>
+          <l part="N">Дивился сходству ум; но, видя малость сил,</l>
+          <l part="N">До лета прошлаго сомнителен в том был; <note resp="editor" place="unspecified" anchored="true"> Под <q>летом прошлым</q> разумеется, может быть, <date>1751 </date> год, когда в Лондоне были опубликованы <q>Опыты и наблюдения над электричеством</q> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Франклина</tei:orig><tei:reg>Франклин Б.</tei:reg></tei:choice></tei:name>, где впервые была высказана мысль о тождестве атмосферного электричества, возбуждаемого искусственным путем. Вернее, однако, что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> говорит в данном случае об опытах, произведенных летом <date>1752</date> г. им и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Г.- В. Рихманом</tei:orig><tei:reg>Рихман Г.-В.</tei:reg></tei:choice></tei:name> (ср. т. III наст. изд., стр. 103).</note></l>
+          <l part="N">Довольствуя одне чрез любопытство очи,</l>
+          <l part="N">Искал в том перемен приятных дни и ночи</l>
+          <l part="N">И больше в том одном рачения имел,</l>
+          <l part="N">Чтоб силою Стекла болезни одолел,</l>
+          <l part="N">И видел часто в том успехи вожделенны.</l>
+          <l part="N">О коль со древними дни наши несравненны!</l>
+          <l part="N">Внезапно чудный слух по всем странам течет,</l>
+          <l part="N">Что от громовых стрел опасности уж нет!</l>
+          <l part="N">Что та же сила тучь гремящих мрак наводит,</l>
+          <l part="N">Котора от Стекла движением исходит,</l>
+          <l part="N">Что, зная правила, изъисканны Стеклом,</l>
+          <l part="N">Мы можем отвратить от храмин наших гром. <note resp="editor" place="unspecified" anchored="true">Речь идет о громоотводах.</note></l>
+          <l part="N">Единство оных сил доказано стократно.</l>
+          <l part="N">Мы лета ныне ждем приятного обратно:</l>
+          <l part="N">Тогда о истине Стекло уверит нас,</l>
+          <l part="N">Ужасный будет ли безбеден грома глас? <note resp="editor" place="unspecified" anchored="true"> В <date>1753</date> г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Рихман</tei:orig><tei:reg>Рихман Г.-В.</tei:reg></tei:choice></tei:name> уделяли, как известно, особенно много внимания экспериментальной работе в области изучения атмосферного электричества (т. III наст. изд., стр. 514).</note></l>
+          <l part="N"><name type="place">Европа</name> ныне в то всю мысль свою вперила</l>
+          <l part="N">И махины уже пристойны учредила.</l>
+          <l part="N">Я, следуя за ней, с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнасских гор</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> схожу,</l>
+          <l part="N">На время ко Стеклу весь труд свой приложу. </l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="4 letters"/>Ходя за тайнами в искусстве и природе,</l>
+          <l part="N">Я слышу восхищен веселый глас в народе.</l>
+          <l part="N">Елисаветина повсюду похвала</l>
+          <l part="N">Гласит премудрости и щедрости дела.</l>
+          <l part="N">Златыя времена! О кроткие законы!</l>
+          <l part="N">Народу Своему прощает миллионы<note resp="editor" place="unspecified" anchored="true">15 декабря <date>1752</date>  г. был издан манифест о сложении недоимок подушного сбора, накопившихся за время с <date>1724</date> по <date>1747</date> г. (ПСЗ, 10061).</note></l>
+          <l part="N">И пользу общую Отечества прозря,</l>
+          <l part="N">Учению велит расшириться в моря,</l>
+          <l part="N">Умножив бодрость в нем щедротою Своею! <note resp="editor" place="unspecified" anchored="true">Имеется в виду, вероятно, увеличение денежных ассигнований на Академию наук, последовавшее в <date>1747</date> г. при издании ее нового Регламента.</note></l>
+          <l part="N">А ты, о <name type="character">Меценат</name>,<note resp="editor" place="unspecified" anchored="true">Обращение к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шувалову</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>.</note> предстательством пред Нею</l>
+          <l part="N">Какой наукам путь стараешься открыть,</l>
+          <l part="N">Пред светом в том могу свидетель верной быть.</l>
+          <l part="N">Тебе похвальны все приятны и любезны,</l>
+          <l part="N">Что тщатся постигать учения полезны.</l>
+          <l part="N">Мои посильные и малые труды</l>
+          <l part="N">Коль часто перед Ней воспоминаешь ты!</l>
+          <l part="N">Услышанному быть Ея кротчайшим слухом</l>
+          <l part="N">Есть новым в бытии животвориться духом!</l>
+          <l part="N">Кто кажет старых смысл во днях еще младых,</l>
+          <l part="N">Тот будет всем пример, дожив власов седых.</l>
+          <l part="N">Кто склонность в счастии и доброту являет,</l>
+          <l part="N">Тот щастие себе недвижно утверждает.</l>
+          <l part="N">Всяк чувствует в Тебе и хвалит обое,</l>
+          <l part="N">И небо чаемых покажет збытие.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

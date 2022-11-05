@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> На смерть графини <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Румянцовой </tei:orig><tei:reg>Румянцова М. А.</tei:reg></tei:choice></tei:name> </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal> Наталья Перкова </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода на смерть графини <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Румянцовой</tei:orig><tei:reg>Румянцова М. А.</tei:reg></tei:choice></tei:name> к Н***</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Московский журнал. N 3.</publisher>
+                <date>1791</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1788</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">терпение</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">творчество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Дашкова Е. Р.</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCdCd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не беспрестанно дождь стремится</l>
+          <l part="N">На класы с черных облаков,</l>
+          <l part="N">И море не всегда струится</l>
+          <l part="N">От пременяемых ветров;</l>
+          <l part="N">Не круглый год во льду спят воды,</l>
+          <l part="N">Не всякий день бурь слышен свист,</l>
+          <l part="N">И с скучной не всегда природы</l>
+          <l part="N">Падет на землю желтый лист. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Подобно и тебе крушиться</l>
+          <l part="N">Не должно, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Дашкова</tei:orig><tei:reg>Дашкова Е. Р.</tei:reg></tei:choice></tei:name>, всегда,</l>
+          <l part="N">Готово ль солнце в бездну скрыться</l>
+          <l part="N">Иль паки утру быть чреда;</l>
+          <l part="N">Ты жизнь свою в тоске проводишь,</l>
+          <l part="N">По английским твоим коврам,</l>
+          <l part="N">Уединясь, в смущеньи ходишь</l>
+          <l part="N">И волю течь даешь слезам. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Престань! и равнодушным оком</l>
+          <l part="N">Воззри на оный кипарис,</l>
+          <l part="N">Который на брегу высоком</l>
+          <l part="N">На Невские струи навис</l>
+          <l part="N">И мрачной тени под покровом,</l>
+          <l part="N">Во дремлющих своих ветвях,</l>
+          <l part="N">Сокрыл недавно в гробе новом</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Румянцовой</tei:orig><tei:reg>Румянцова М. А.</tei:reg></tei:choice></tei:name> почтенный прах. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Румянцовой</tei:orig><tei:reg>Румянцова М. А.</tei:reg></tei:choice></tei:name>! - Она блистала</l>
+          <l part="N">Умом, породой, красотой</l>
+          <l part="N">И в старости любовь снискала</l>
+          <l part="N">У всех любезною душой;</l>
+          <l part="N">Она со твердостью смежила</l>
+          <l part="N">Супружний взор, друзей, детей;</l>
+          <l part="N">Монархам осьмерым служила,</l>
+          <l part="N">Носила знаки их честен. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И зрела в торжестве и славе</l>
+          <l part="N">И в лаврах сына своего;</l>
+          <l part="N">Не изменялась в сердце, нраве</l>
+          <l part="N">Ни для кого, ни для чего;</l>
+          <l part="N">А доброе и злое купно</l>
+          <l part="N">Собою испытала всё.</l>
+          <l part="N">И как вертится всеминутно</l>
+          <l part="N">Людской фортуны колесо. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Воззри на памятник сей вечный</l>
+          <l part="N">Ты современницы твоей,</l>
+          <l part="N">В отраду горести сердечной,</l>
+          <l part="N">К спокойствию души своей,</l>
+          <l part="N">Прочти: <q>Сия гробница скрыла <l part="N">Затмившего мать лунный свет;</l><l part="N">Смерть добродетели щадила,</l><l part="N">Она жила почти сто лет</l></q>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как солнце тускло ниспущает</l>
+          <l part="N">Последние свои лучи,</l>
+          <l part="N">По небу, по водам блистает</l>
+          <l part="N">Румяною зарей в ночи,-</l>
+          <l part="N">Так с тихим вздохом, взором ясным</l>
+          <l part="N">Она оставила сей свет;</l>
+          <l part="N">Но именем своим прекрасным</l>
+          <l part="N">Еще, еще она живет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И ты, коль победила страсти,</l>
+          <l part="N">Которы трудно победить;</l>
+          <l part="N">Когда не ищешь вышней власти</l>
+          <l part="N">И первою в вельможах быть;</l>
+          <l part="N">Когда не мстишь, и совесть права,</l>
+          <l part="N">Не алчешь злата и сребра,</l>
+          <l part="N">Какого же, коль телом здрава,</l>
+          <l part="N">Еще желаешь ты добра? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Одно лишь в нас добро прямое,</l>
+          <l part="N">А прочее всё в свете тлен;</l>
+          <l part="N">Почиет чья душа в покое,</l>
+          <l part="N">Поистине тот есть блажен.</l>
+          <l part="N">Престань же ты умом крылатым</l>
+          <l part="N">По треволнению летать;</l>
+          <l part="N">С убогим грузом иль богатым</l>
+          <l part="N">Всяк должен к вечности пристать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пожди - и сын твой с страшна бою</l>
+          <l part="N">Иль на щите, иль со щитом,</l>
+          <l part="N">С победой, с славою, с женою,</l>
+          <l part="N">С трофеями приедет в дом;</l>
+          <l part="N">И если знатности и злата</l>
+          <l part="N">Невестка в дар не принесет,-</l>
+          <l part="N">Благими нравами богата,</l>
+          <l part="N">Прекрасных внучат приведет, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Утешься - и в объятьи нежном</l>
+          <l part="N">Облобызай своих ты чад;</l>
+          <l part="N">В семействе мирном, безмятежном,</l>
+          <l part="N">Фессальский насаждая сад,</l>
+          <l part="N">Живи и распложай науки;</l>
+          <l part="N">Живи и обессмерть себя,</l>
+          <l part="N">Да громогласной лиры звуки</l>
+          <l part="N">И музы воспоют тебя. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Седый собор Ареопага,</l>
+          <l part="N">На истину смотря в очки,</l>
+          <l part="N">На счет общественного блага</l>
+          <l part="N">Нередко ей давал щелчки;</l>
+          <l part="N">Но в век тот <name type="mythologic"> Аристиды </name> жили,</l>
+          <l part="N">Сносили ссылки, казни, смерть;</l>
+          <l part="N">Когда судьбы благоволили,</l>
+          <l part="N">Не должно ли и нам терпеть? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Терпи! - <name type="biblical"> Самсон </name> сотрет льву зубы,</l>
+          <l part="N">А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig> Навин</tei:orig><tei:reg>Иисус Навин</tei:reg></tei:choice></tei:name> потемнит луну;</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>  Румянцев</tei:orig><tei:reg>Румянцев П. А.</tei:reg></tei:choice></tei:name>  молньи дхнет сугубы,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Екатерина </tei:orig><tei:reg>Екатерина I</tei:reg></tei:choice></tei:name>- тишину;</l>
+          <l part="N">Меня ж ничто вредить не может,</l>
+          <l part="N">Я злобу твердостью сотру;</l>
+          <l part="N">Врагов моих червь кости сгложет,</l>
+          <l part="N">А я Пиит - и не умру.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Старуха, болящая глазами</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Старуха болящая глазами</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">обман</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. п.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Глазами как была Старушечка больна,</l>
+          <l part="N">То Лекаря к себе в дом призвала она.</l>
+          <l part="N">Чтоб вылечиться ей, и не смотря на трату,</l>
+          <l part="N">Довольную ему та обещала плату.<note resp="editor" place="unspecified" anchored="true"><quote>Довольную плату</quote> - достаточную плату. У Эзопа указано условие: если лекарь вылечит, то заплатить ему договорную плату, а в противном случае ничего не платить.</note></l>
+          <l part="N">Стал пользовать ее тот Лекарь нанятой;</l>
+          <l part="N">И мастью он глаза по всяк день мазал той.</l>
+          <l part="N">А как вот оставлял ничком ту на постеле,</l>
+          <l part="N">И в темноте всегда, по всем своем том деле,</l>
+          <l part="N">То что-нибудь с собой у ней втай уносил</l>
+          <l part="N">Из платья, иль что тут из серебра схватил.</l>
+          <l part="N">Грабление сие та чувствует больная.</l>
+          <l part="N">Когда ж не стала быть уж больше невишная,</l>
+          <l part="N">Увидела, что дом ее оставлен пуст,</l>
+          <l part="N">Сколь ни был преж того обильностию густ.</l>
+          <l part="N">Вот Лекарь к ней пришел: сам просит за работу</l>
+          <l part="N">И говорит, что та всю получила льготу;</l>
+          <l part="N">А шлется он на всех сторонних в том людей,</l>
+          <l part="N">Что вылечены уж совсем глаза у ней.</l>
+          <l part="N"><q>Неправда, друг, твоя,</q> - ему та говорила,-</l>
+          <l part="N"><q>Я без твоей цельбы глазами лучше зрила: <l part="N">Я видела вещей довольно у себя.</l><l part="N">А как взяла к себе я Лекарем тебя,</l><l part="N">То ничего отнюдь, сим словом не обижу,</l><l part="N">В дому, по-твоему столь зрячая, не вижу</l></q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Смерть моего сына марта 1795 года</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Петров</surname>             </persName>           </author>
+        <principal>Татьяна Тачкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2010 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века. Т. 1.</title>
+            <editor role="compiler">Г. П. Макогоненко, И. З. Серман</editor>
+            <editor role="commentator">Н. Д. Кочеткова</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Смерть моего сына марта 1795 года</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> В. Петров Сочинения. Ч.3.                   СПб.</publisher>
+                <date>1811</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1795</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так нет тебя, дитя любезно!</l>
+          <l part="N">Сомкнул ты очи навсегда</l>
+          <l part="N">И лег, всем зрелище преслезно,</l>
+          <l part="N">О, скорбь! о, лютая беда! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Страдалец, мук не заслуживший,</l>
+          <l part="N">За что ты горьку чашу пил?</l>
+          <l part="N">Меж человеков ангел живший,</l>
+          <l part="N">Чем тако небо оскорбил? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не ты, не ты, отец твой грешен,</l>
+          <l part="N">Отец несносен твой судьбе.</l>
+          <l part="N">Затем он был тобой потешен,</l>
+          <l part="N">Чтоб после плакал о тебе. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Я плачу, глаз не осушая,</l>
+          <l part="N">И стоном надрываю грудь.</l>
+          <l part="N">И льзя ль, себя не сокрушая,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Николеньку</tei:orig><tei:reg>Николай, сын В. П. Петрова</tei:reg></tei:choice></tei:name> воспомянуть? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Душа велика в теле малом,</l>
+          <l part="N">О, как он люту скорбь сносил,</l>
+          <l part="N">И коим огражден забралом,</l>
+          <l part="N">Явил в борьбе с ней столько сил? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не вышла вздоха ни едина,</l>
+          <l part="N">Боль тщился в сердце запереть.</l>
+          <l part="N">Седый отец! учись у сына,</l>
+          <l part="N">Как должно мужу умереть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Расстанься мудрых ты с собором;</l>
+          <l part="N">Оставь все книги наконец.</l>
+          <l part="N">В дому твоем, твоим под взором,</l>
+          <l part="N">Взрастал безграмотный мудрец. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Читай его, и помни вечно,</l>
+          <l part="N">Как умер он, и как он жил:</l>
+          <l part="N">Он жизнию своей, конечно,</l>
+          <l part="N">Тебя и смертью одолжил. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Учися быть ему подобен:</l>
+          <l part="N">Печаль внутрь сердца ты запри;</l>
+          <l part="N">Живи, как он, правдив, незлобен;</l>
+          <l part="N">Как он, нетрепетно умри. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О ангел, существо бесплотно,</l>
+          <l part="N">Предтеча мой во оный свет!</l>
+          <l part="N">Иду туда, иду охотно,</l>
+          <l part="N">Куда меня твой взгляд зовет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ах!.. ты еще ко мне взираешь,</l>
+          <l part="N">В мой одр твой тихий ход клоня!</l>
+          <l part="N">Ко мне ты руки простираешь,</l>
+          <l part="N">Объяти силишься меня! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иду, от смертных устранюся;</l>
+          <l part="N">Теку с поспешностью в твой след:</l>
+          <l part="N">Да там с тобой соединюся,</l>
+          <l part="N">Где нет печалей, страхов, бед. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мы станем тамо наеди́не</l>
+          <l part="N">Беседовать, в садах гулять;</l>
+          <l part="N">Я буду там тебя, мой сыне!</l>
+          <l part="N">А ты меня увеселять. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">За радостию по́йдет радость,</l>
+          <l part="N">За лирным шумом - новый шум;</l>
+          <l part="N">Со сладостью сплетется сладость:</l>
+          <l part="N">Плененья чувств, восторги дум! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но как?.. я грешен, ты невинен;</l>
+          <l part="N">Я вихрь, ты сладка тишина;</l>
+          <l part="N">Я буй, ты ангел благочинен -</l>
+          <l part="N">Часть наша будет ли равна? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хотя всем милы круги звездны,</l>
+          <l part="N">И я достигнуть в оны льщусь,</l>
+          <l part="N">Но, меж тобой и мною бездны</l>
+          <l part="N">Чтобы не пролегли, страшусь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты будешь в цвето&lt;но&gt;сном поле,</l>
+          <l part="N">Во недрах самого творца;</l>
+          <l part="N">Взгляни, дитя, ко мне оттоле,</l>
+          <l part="N">Утешь улыбкою отца. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Утешь его улыбкой тою,</l>
+          <l part="N">Какой ты тешил здесь его;</l>
+          <l part="N">Зарею облачен златою</l>
+          <l part="N">Кинь нань луч блеска твоего. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты рад меня одеть всем светом;</l>
+          <l part="N">Ты рад, моя о иста кровь!</l>
+          <l part="N">Так в сердце, от родства согретом,</l>
+          <l part="N">Найду и тамо я любовь! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда все ставят твердь защиты</l>
+          <l part="N">В героях из своей семьи,</l>
+          <l part="N">И мне врата в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblicalPlace"><tei:choice><tei:orig>Эдем</tei:orig><tei:reg>Эдем</tei:reg></tei:choice></tei:name> открыты:</l>
+          <l part="N">Там блещут сынове мои. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но я доколе пресмыкаюсь,</l>
+          <l part="N">Болезнен, в бренном телеси,</l>
+          <l part="N">Покровом я твоим ласкаюсь:</l>
+          <l part="N">Сияй мне, сыне, с небеси. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты благ, ты ангелом быть стоишь,</l>
+          <l part="N">Будь страж, хранитель буди мой.</l>
+          <l part="N">Ты всё во благо мне устроишь,</l>
+          <l part="N">Души и сердца вождь прямой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты знаешь, в чем моя потреба,</l>
+          <l part="N">Куда желанье я простер:</l>
+          <l part="N">Тебе блюсти дано от неба</l>
+          <l part="N">Меня, мать, братьев и сестер.  </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

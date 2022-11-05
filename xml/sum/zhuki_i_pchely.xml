@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="character">Жуки</name> и <name type="character">Пчелы</name> </title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Жуки и пчелы</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Притчи. Книга 1.                   СПб.</publisher>
+                <date>1762</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752(?)</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">труд</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">невежество </tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Прибаску </l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Сложу </l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>И сказку </l>
+        <l part="N"><space dim="horizontal" extent="16 letters"/>Скажу. </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>Невежи <name type="character">Жу́ ки</name> </l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Вползли в науки </l>
+        <l part="N">И стали патоку <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Пчел</tei:orig><tei:reg>Пчелы</tei:reg></tei:choice></tei:name> делать обучать. </l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Пчелам</tei:orig><tei:reg>Пчелы</tei:reg></tei:choice></tei:name>не век молчать,   </l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Что их дурачат;   </l>
+        <l part="N"><space dim="horizontal" extent="7 letters"/>Великий шум во улье начат. </l>
+        <l part="N">Спустился      к      ним      с       <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Парнаса</tei:orig><tei:reg>Парнас</tei:reg></tei:choice></tei:name> <name type="mythologic">Аполлон</name></l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Жуков </tei:orig><tei:reg>Жуки</tei:reg></tei:choice></tei:name> он   </l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Всех выгнал вон, </l>
+        <l part="N">Сказал: <q>Друзья мои, в навоз отсель подите;  <l part="N">Они работают, а вы их труд ядите, </l><l part="N">Да вы же скаредством и патоку вредите!</l></q> </l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Осень </title>
+        <author>           <persName>             <forename full="yes">Гавриил</forename>              <forename type="patronym" full="yes">Романович</forename>              <surname full="yes">Державин</surname>            </persName>          </author>
+        <principal>Мария Карманова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Осень </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Вестник Европы, No33 </publisher>
+                <date>1805</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>1797</date>        </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">осень</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Бог</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смирение</tei:span>
+    <body xml:id="whole">
+      <div met="ДкРз44442" rhyme="AAbbc//DDeec + FFbbg//HHiig + jjkkl // mmnnl + ooppq//rrssq." org="uniform" sample="complete" part="N">
+        <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">А.Н. Ярцову</tei:span>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На скирдах молодых сидючи, <name type="character"> Осень </name>, </l>
+          <l part="N">И в полях зря вокруг год плодоносен, </l>
+          <l part="N">С улыбкой свои всем дары дает, </l>
+          <l part="N">Пестротой по лесам живо цветет, </l>
+          <l part="N">Взор мой дивит! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Разных птиц голоса, вьющихся тучи, </l>
+          <l part="N">Шум снопов, бег телег, оси скрипучи, </l>
+          <l part="N">Стук цепов по токам, в рощах лай псов, </l>
+          <l part="N">Жниц с знамем идущих гул голосов </l>
+          <l part="N">Слух мой пленит. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Как мил сей природы радостный образ! </l>
+          <l part="N">Как тварей довольных сладостен возглас, </l>
+          <l part="N">Где <name type="character"> Осень </name> обилье рукою ведет, </l>
+          <l part="N">Царям и червям всем пищу дает </l>
+          <l part="N">Общий Отец! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но что же вдруг, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ярцов</tei:orig><tei:reg>Ярцов А. Н.</tei:reg></tei:choice></tei:name>! черные бури, </l>
+          <l part="N">Грохоча так, кроют неба лазури? </l>
+          <l part="N">Здесь тихий ток с ревом роет волна, </l>
+          <l part="N">Там в бледных туманах ржет нам война: </l>
+          <l part="N">Благ ли Творец? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ах! благ всех зиждитель, я слышу, ты рек: </l>
+          <l part="N">Невежда предерзкий лишь ты, человек, </l>
+          <l part="N">Не видишь, не знаешь пользы своей; </l>
+          <l part="N">Сам часто своих ты ищешь сетей: </l>
+          <l part="N">Хранит только Бог. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О! правда то, правда! Смирим же пред ним </l>
+          <l part="N">Наш глупый мы ропот и волю дадим </l>
+          <l part="N">Всемощной деснице солнце водить; </l>
+          <l part="N">Бег мира превратна станем сносить, </l>
+          <l part="N">Чтящи свой рок. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так если с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Урала</tei:orig><tei:reg>Урал, горы</tei:reg></tei:choice></tei:name> златые ключи </l>
+          <l part="N">В царский лил кладезь, их сам не пьючи,  - </l>
+          <l part="N">Я дни мнил <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Астреи </tei:orig><tei:reg>Астрея</tei:reg></tei:choice></tei:name>, мир и покой </l>
+          <l part="N">Ввесть распрей в вертеп, -  и с чистой душой </l>
+          <l part="N">Благ всем желал; </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но то коль не надо,  -  оставим судьбам </l>
+          <l part="N">Премудрым дать лучший здесь жребий людям; </l>
+          <l part="N">Сев, сами прикажем в нашем гнезде </l>
+          <l part="N">Осени доброй нам дать по труде </l>
+          <l part="N">Счастья покал. </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

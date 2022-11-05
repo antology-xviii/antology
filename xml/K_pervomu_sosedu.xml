@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> К первому соседу </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ода к соседу моему господину N </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Санкт-Петербургский вестник N8</publisher>
+                <date>1780</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1780</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Голиков М. С.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пир</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> мимолетность жизни </tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Кого роскошными пирами       </l>
+          <l part="N"> На  влажных  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig><tei:name type="place"><tei:choice><tei:orig>Невских островах</tei:orig><tei:reg>острова</tei:reg></tei:choice></tei:name></tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> Между тенистыми древами,       </l>
+          <l part="N"> На мураве и на цветах,       </l>
+          <l part="N"> В шатрах персидских, златошвенных,       </l>
+          <l part="N"> Из глин китайских драгоценных,       </l>
+          <l part="N"> Из венских чистых хрусталей,       </l>
+          <l part="N"> Кого толь славно угощаешь       </l>
+          <l part="N"> И для кого ты расточаешь       </l>
+          <l part="N"> Сокровищи казны твоей?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Гремит музыка, слышны хоры       </l>
+          <l part="N"> Вкруг лакомых твоих столов;       </l>
+          <l part="N"> Сластей и ананасов горы,       </l>
+          <l part="N"> И множество других плодов       </l>
+          <l part="N"> Прельщают чувствы и питают;       </l>
+          <l part="N"> Младые девы угощают,       </l>
+          <l part="N"> Подносят вина чередой,       </l>
+          <l part="N"> И алиатико с шампанским,       </l>
+          <l part="N"> И пиво русское с британским,       </l>
+          <l part="N"> И мозель с зельцерской водой.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В вертепе мраморном, прохладном,       </l>
+          <l part="N"> В котором льется водоскат,       </l>
+          <l part="N"> На ложе роз благоуханном,       </l>
+          <l part="N"> Средь лени, неги и отрад,       </l>
+          <l part="N"> Любовью распаленный страстной,       </l>
+          <l part="N"> С младой, веселою, прекрасной</l>
+          <l part="N"> И нежной <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> нимфой</tei:orig><tei:reg>нимфы</tei:reg></tei:choice></tei:name> ты сидишь;       </l>
+          <l part="N"> Она поет, ты страстью таешь,       </l>
+          <l part="N"> То с ней в весельи утопаешь,       </l>
+          <l part="N"> То, утомлен весельем, спишь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Ты спишь - и сон тебе мечтает,       </l>
+          <l part="N"> Что ввек благополучен ты,       </l>
+          <l part="N"> Что само небо рассыпает       </l>
+          <l part="N"> Блаженства вкруг тебя цветы,       </l>
+          <l part="N"> Что парка дней твоих не косит,       </l>
+          <l part="N"> Что откуп вновь тебе приносит       </l>
+          <l part="N"> <name type="place">Сибирски горы</name> серебра       </l>
+          <l part="N"> И дождь златый к тебе лиется.       </l>
+          <l part="N"> Блажен, кто поутру проснется       </l>
+          <l part="N"> Так счастливым, как был вчера!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Блажен, кто может веселиться       </l>
+          <l part="N"> Бесперерывно в жизни сей!       </l>
+          <l part="N"> Но редкому пловцу случится       </l>
+          <l part="N"> Безбедно плавать средь морей:       </l>
+          <l part="N"> Там бурны дышут непогоды,       </l>
+          <l part="N"> Горам подобны гонят воды       </l>
+          <l part="N"> И с пеною песок мутят.</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петрополь</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name> сосны осеняли, -       </l>
+          <l part="N"> Но вихрем пораженны пали,       </l>
+          <l part="N"> Теперь корнями вверх лежат.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Непостоянство - доля смертных,       </l>
+          <l part="N"> В пременах вкуса счастье их;       </l>
+          <l part="N"> Среди утех своих несметных       </l>
+          <l part="N"> Желаем мы утех иных.       </l>
+          <l part="N"> Придут, придут часы те скучны,       </l>
+          <l part="N"> Когда твои ланиты тучны       </l>
+          <l part="N"> Престанут грации трепать;       </l>
+          <l part="N"> И, может быть, с тобой в разлуке</l>
+          <l part="N"> Твоя уж <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Пенелопа</tei:orig><tei:reg>Пенелопа</tei:reg></tei:choice></tei:name> в скуке       </l>
+          <l part="N"> Ковер не будет распускать.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не будет, может быть, лелеять       </l>
+          <l part="N"> Судьба уж более тебя       </l>
+          <l part="N"> И ветр благоприятный веять       </l>
+          <l part="N"> В твой парус: береги себя!       </l>
+          <l part="N"> Доколь текут часы златые       </l>
+          <l part="N"> И не приспели скорби злые,       </l>
+          <l part="N"> Пей, ешь и веселись, сосед!       </l>
+          <l part="N"> На свете жить нам время срочно;       </l>
+          <l part="N"> Веселье то лишь непорочно,       </l>
+          <l part="N"> Раскаянья за коим нет.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

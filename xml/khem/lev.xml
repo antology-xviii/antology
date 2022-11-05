@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Лев, учредивший совет </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Лев, учредивший совет </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> неизвестно</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть глупости</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">бюрократизм</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <name type="character"> Лев</name> учредил совет какой-то, неизвестно,</l>
+          <l part="N"> И, посадя в совет сочленами <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слонов</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> <space dim="horizontal" extent="4 letters"/>Большую часть прибавил к ним <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>ослов</tei:orig><tei:reg>ослы</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N"> Хотя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слонам</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name> сидеть с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> ослами</tei:orig><tei:reg>ослы</tei:reg></tei:choice></tei:name> и невместно,</l>
+          <l part="N"> Но <name type="character"> лев</name> не мог того числа <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слонов</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name> набрать,</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Какому прямо надлежало</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>В совете этом заседать.</l>
+          <l part="N"> Ну, что ж? пускай числа всего бы недостало,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Ведь это б не мешало</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Дела производить.</l>
+          <l part="N"> Нет, как же? а устав ужли переступить?</l>
+          <l part="N"> Хоть будь глупцы судьи, лишь счетом бы их стало.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> А сверх того, как <name type="character"> лев </name> совет сей учреждал,</l>
+          <l part="N"> <space dim="horizontal" extent="12 letters"/>Он вот как полагал</l>
+          <l part="N"> <space dim="horizontal" extent="20 letters"/>И льстился:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Ужли и впрям, что ум <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> слонов</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name></l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>На ум не наведет <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>ослов</tei:orig><tei:reg>ослы</tei:reg></tei:choice></tei:name>?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <space dim="horizontal" extent="8 letters"/>Однако, как совет открылся,</l>
+          <l part="N"> Дела совсем другим порядком потекли:</l>
+          <l part="N"> <space dim="horizontal" extent="8 letters"/><name type="character">Ослы</name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>слонов</tei:orig><tei:reg>слоны</tei:reg></tei:choice></tei:name> с ума свели.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

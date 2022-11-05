@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>На войну с турками </title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Петров </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2010 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> Поэты XVIII века. Т.1</title>
+            <editor role="COMPILER">Г.П. Макогоненко, И.З. Серман</editor>
+            <editor role="COMMENTATOR">Н.Д. Кочеткова</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>На войну с турками</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения В.Петрова.                   СПб.</publisher>
+                <date>1782 </date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1768 или 1769</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">война</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">патриотизм </tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbCCdEEd " org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Султан ярится! ада дщери,              </l>
+          <l part="N">В нем <name type="mythologic"> фурии </name> раздули гнев.              </l>
+          <l part="N">Дубравные завыли звери,              </l>
+          <l part="N">И волк и пес разинул зев;              </l>
+          <l part="N">И криками нощные враны             </l>
+          <l part="N">Предвозвещая кровь и раны,             </l>
+          <l part="N">Все полнят ужасом места;             </l>
+          <l part="N">И над сералию комета            </l>
+          <l part="N">Беды на часть полночну света            </l>
+          <l part="N">Трясет со пламенна хвоста! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Война, война висит ужасна,            </l>
+          <l part="N"> <name type="place">Россия</name>, над твоей главой,            </l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Секване</tei:orig><tei:reg>Сена</tei:reg></tei:choice></tei:name> мочь твоя опасна:            </l>
+          <l part="N">Она рог стерти хочет твой.           </l>
+          <l part="N">Ты в том винна пред ней едином,           </l>
+          <l part="N">Что ты ей зришься исполином;           </l>
+          <l part="N">Ты кедр, а прочи царства - трость.          </l>
+          <l part="N">Так ты должна болеть, сражаться,          </l>
+          <l part="N">И в силах ты должна теряться,          </l>
+          <l part="N">Чтоб ей твоею тратой рость.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так часто гады ядовиты,            </l>
+          <l part="N">Залегши в лесе под кустом,            </l>
+          <l part="N">Кудрявой зеленью закрыты            </l>
+          <l part="N">И палым со древес листом,            </l>
+          <l part="N">Когда кто мимо понесется,            </l>
+          <l part="N">И куст, им тронут, затрясется,            </l>
+          <l part="N">Грозя полудню их открыть,            </l>
+          <l part="N">Да мнимую напасть умалят,            </l>
+          <l part="N">Прохожего от страху жалят,            </l>
+          <l part="N">Чтоб им раздавленным не быть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Чудовища всеродны ада,            </l>
+          <l part="N">Всё злое, кроме лишь себя,            </l>
+          <l part="N">Она бы выставите рада,            </l>
+          <l part="N">Россия, супротив тебя.            </l>
+          <l part="N">Но турк пошлет свои знамена,            </l>
+          <l part="N">А аду казнь ее замена -            </l>
+          <l part="N">То жаляща меж трав змея.            </l>
+          <l part="N">Да скроет зависть от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Европы</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name>,            </l>
+          <l part="N">Она лишь будет весть подкопы:            </l>
+          <l part="N">Мощь турков - умыслы ея. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так тать, да путника ограбит,            </l>
+          <l part="N">Воссед на резвого коня,            </l>
+          <l part="N">Бодет его, и повод слабит,            </l>
+          <l part="N">Ко бегу силой всей гоня.            </l>
+          <l part="N">И буйный скот, не зная кова,            </l>
+          <l part="N">Орудие греха чужого,            </l>
+          <l part="N">Привыкший по полям ристать,            </l>
+          <l part="N">Узде послушен властелина,            </l>
+          <l part="N">Не зря, что холм или долина,            </l>
+          <l part="N">Течет невинного стоптать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">От юга, запада, востока,             </l>
+          <l part="N">Из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Мекки</tei:orig><tei:reg>Мекка</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каира</tei:orig><tei:reg>Каир</tei:reg></tei:choice></tei:name> врат,              </l>
+          <l part="N">Где хвально имя <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>лжепророка </tei:orig><tei:reg>Магомет</tei:reg></tei:choice></tei:name>,            </l>
+          <l part="N">Где <name type="place">Нил</name>шумит, где <name type="place">Тигр</name>, <name type="place">Евфрат</name>,            </l>
+          <l part="N">Уже противники <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>            </l>
+          <l part="N">Стекаются ко <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Византии</tei:orig><tei:reg>Византия</tei:reg></tei:choice></tei:name>,            </l>
+          <l part="N">Как кровь из всех ко сердцу жил.            </l>
+          <l part="N">Во бешенстве, в трясеньи яром            </l>
+          <l part="N">Войну решить одним ударом            </l>
+          <l part="N">Султан на сердце положил. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уже послушны грозной воле,            </l>
+          <l part="N">Серальный кою рек герой,            </l>
+          <l part="N"> На <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Марсово со шумом поле </tei:orig><tei:reg>Марсово поле</tei:reg></tei:choice></tei:name>            </l>
+          <l part="N">Износятся, за роем рой;            </l>
+          <l part="N">Чрез <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Гем</tei:orig><tei:reg>Балканские горы</tei:reg></tei:choice></tei:name>, через верхи <name type="place">Родопы</name>            </l>
+          <l part="N">Несут стремительные стопы,            </l>
+          <l part="N">Несчетны, горды не вотще.            </l>
+          <l part="N">Теснятся предним над <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Дунаем</tei:orig><tei:reg>Дунай</tei:reg></tei:choice></tei:name>,            </l>
+          <l part="N">Но задним воинства их краем            </l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Стамбуле </tei:orig><tei:reg>Стамбул</tei:reg></tei:choice></tei:name> движутся еще. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Коликие толпы! Народы!            </l>
+          <l part="N">Протяглася предлинна цепь!            </l>
+          <l part="N">Как насыпь разорвавши воды,            </l>
+          <l part="N">Шумят и стелются на степь.            </l>
+          <l part="N">Свирепы, как кони? взоржавши,            </l>
+          <l part="N">Ярма и у?дил не познавши,            </l>
+          <l part="N">Ступают борзо по земле.            </l>
+          <l part="N">Уж в мысли всё стоптали, сперли,            </l>
+          <l part="N">Свой ход внутр <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Севера </tei:orig><tei:reg>Север</tei:reg></tei:choice></tei:name> простерли;            </l>
+          <l part="N">Нога их стала во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Кремле</tei:orig><tei:reg>Кремль</tei:reg></tei:choice></tei:name>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Их мчат кони?, превозят челны,            </l>
+          <l part="N">Путем господствуют сухим;            </l>
+          <l part="N">Покрыты их судами волны,            </l>
+          <l part="N">Текущими в союзный <name type="place">Крым </name>.            </l>
+          <l part="N">Чтоб их была верняй победа,            </l>
+          <l part="N">Оттоль поклонник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Магомеда</tei:orig><tei:reg>Магомет</tei:reg></tei:choice></tei:name>            </l>
+          <l part="N">Шлет нову в <name type="place">Север </name> саранчу.            </l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Секвана </tei:orig><tei:reg>Сена</tei:reg></tei:choice></tei:name> ту исчесть бессильна.            </l>
+          <l part="N">Колико жатва тут обильна,            </l>
+          <l part="N">О россы! вашему мечу! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Лишь в поле выступите ратно,            </l>
+          <l part="N">Трофей вам будет каждый шаг;            </l>
+          <l part="N">Сразитеся коликократно,            </l>
+          <l part="N">Толь крат падет под вами враг.            </l>
+          <l part="N">Как грозны молнии летучи            </l>
+          <l part="N">Густые рассекают тучи,            </l>
+          <l part="N">Сверкая по простертой мгле,            </l>
+          <l part="N">Вы тако, тако потеките,            </l>
+          <l part="N">И тако турков рассеките;            </l>
+          <l part="N">Ваш жар вам молнийны крыле. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Да снидет на главы их кара            </l>
+          <l part="N">Во громе, в пламени, в дыму;            </l>
+          <l part="N">Да треск им данного удара            </l>
+          <l part="N">В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Стамбуле </tei:orig><tei:reg>Стамбул</tei:reg></tei:choice></tei:name> слышен и в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Крыму </tei:orig><tei:reg>Крым</tei:reg></tei:choice></tei:name>,            </l>
+          <l part="N">Во целом свете слышен будет;            </l>
+          <l part="N">Да гордый, зря их казнь, забудет            </l>
+          <l part="N">Смущати ближнего покой;            </l>
+          <l part="N">Да кто законов не боится,            </l>
+          <l part="N">Законы нарушать страшится,            </l>
+          <l part="N">Удержан вашею рукой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Поправши тако мощь зверину            </l>
+          <l part="N">И миром увенчавши брань,            </l>
+          <l part="N">Венчайте вы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Екатерину</tei:orig><tei:reg>Екатерина</tei:reg></tei:choice></tei:name>:            </l>
+          <l part="N">Сия ей почесть должна дань.            </l>
+          <l part="N">Да, зря мать вашу лавроносну,            </l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Секвана </tei:orig><tei:reg>Сена</tei:reg></tei:choice></tei:name>в грудь ударит злостну;            </l>
+          <l part="N">Во нестерпиму над тоску,            </l>
+          <l part="N">О тщетной хитрости воздо?хнет,            </l>
+          <l part="N">От зависти в струях усохнет            </l>
+          <l part="N">И чуть влачится по песку.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

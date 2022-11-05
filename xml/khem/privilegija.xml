@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Привилегия</title>
+        <author>          <persName>            <forename full="yes">Иван</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Хемницер</surname>           </persName>         </author>
+        <principal>Елена Исаченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Хемницер И. И. Полное собрание стихотворений</title>
+            <editor role="editor">Боброва Л. Е., Вацуро В. Э.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Привилегия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки И. И. Хемницера, в трех частях. Ч. 3.</publisher>
+                <date>1799</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>неизвестно</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">злоупотребление верховной властью</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">взяточничество</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N">Какой-то вздумал<name type="character">лев</name>указ публиковать,</l>
+        <l part="N">Что звери могут все вперед, без опасенья,</l>
+        <l part="N">Кто только смог с кого, душить и обдирать.</l>
+        <l part="N">Что лучше быть могло такого позволенья</l>
+        <l part="N">Для тех, которые дерут и без того?</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Об этом чтоб указе знали,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Его два раза не читали.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Уж то-то было пиршество!</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>И кожу, кто лишь мог с кого,</l>
+        <l part="N">Похваливают знай указ да обдирают.</l>
+        <l part="N"><space dim="horizontal" extent="10 letters"/>Душ, душ погибло тут,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Что их считают, не сочтут!</l>
+        <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Лисице</tei:orig><tei:reg>лисица</tei:reg></tei:choice></tei:name>мудрено, однако, показалось,</l>
+        <l part="N">Что позволение такое состоялось:</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Зверям указом волю дать</l>
+        <l part="N">Повольно меж собой друг с друга кожи драть!</l>
+        <l part="N">Весьма сомнительным<name type="character">лисица</name>находила</l>
+        <l part="N">И в рассуждении самой, и всех скотов.</l>
+        <l part="N"><q>Повыведать бы<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льва</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>!</q> - <name type="character">лисица</name>говорила</l>
+        <l part="N">И львиное его величество спросила,</l>
+        <l part="N">Не так чтоб прямо, нет, - как спрашивают<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львов</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>,</l>
+        <l part="N">По-лисьи, на весы кладя значенье слов,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Все хитростью, обиняками,</l>
+        <l part="N"><space dim="horizontal" extent="5 letters"/>Все гладкими придворными словами:</l>
+        <l part="N">
+          <q>Не будет ли его величеству во вред, <l part="N"><space dim="horizontal" extent="5 letters"/>Что звери власть такую получили?</l></q>
+        </l>
+        <l part="N">Но сколько хитрости ее ни тонки были,</l>
+        <l part="N"><name type="character">Лев</name>ей, однако же, на то ни да, ни нет.</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Когда ж, по львову расчисленью,</l>
+        <l part="N">Указ уж действие свое довольно взял,</l>
+        <l part="N">По высочайшему тогда соизволенью</l>
+        <l part="N"><name type="character">Лев</name>всем зверям к себе явиться указал.</l>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N">Тут те, которые жирняе всех казались,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Назад уже не возвращались.</l>
+          <l part="N"><q>Вот я чего хотел, -<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>лисице</tei:orig><tei:reg>лисица</tei:reg></tei:choice></tei:name><name type="character">лев</name>сказал,- <l part="N">Когда о вольности указ такой я дал.</l><l part="N">Чем жир мне по клочкам сбирать с зверей трудиться,</l><l part="N"><space dim="horizontal" extent="8 letters"/>Я лучше дам ему скопиться.</l><l part="N"><space dim="horizontal" extent="8 letters"/>Султан ведь также позволяет</l><l part="N"><space dim="horizontal" extent="8 letters"/>Пашам с народа частно драть,</l><l part="N">А сам уж кучами потом с пашей сдирает;</l><l part="N">Так я и рассудил пример с султана взять</l></q> .</l>
+          <l part="N">Хотела было тут <name type="character">лисица</name>в возраженье</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>Сказать свое об этом мненье</l>
+          <l part="N">И изъясниться<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>льву</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>о следствии худом,</l>
+          <l part="N">Да вобразила то, что говорит со<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львом</tei:orig><tei:reg>лев</tei:reg></tei:choice></tei:name>...</l>
+        </lg>
+        <lg type="group" org="uniform" sample="complete" part="N">
+          <l part="N"><space dim="horizontal" extent="8 letters"/>А мне хотелось бы, признаться,</l>
+          <l part="N">Здесь об откупщиках словцо одно сказать,</l>
+          <l part="N">Что также и они в число пашей годятся;</l>
+          <l part="N">Да также думаю по-лисьи промолчать.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

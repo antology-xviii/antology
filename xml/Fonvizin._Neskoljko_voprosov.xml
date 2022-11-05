@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Несколько вопросов, могущих возбудить в умных и честных людях особливое внимание <note resp="editor" place="unspecified" anchored="true">Написав ответы на вопросы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Фонвизина</tei:orig><tei:reg>Фонвизин Д. И.</tei:reg></tei:choice></tei:name> <name type="person">Екатерина II </name>- автор "Былей и небылиц" - предпослала сочинению сатирика следующее предисловие: <quote>Издатели "Собеседника" разделили труд рассматривать присылаемые к ним сочинения между собою понедельно, равно как и ответствовать на оные, ежели того нужда потребует. Сочинитель "Былей и небылиц", рассмотрев присланные вопросы от неизвестного, на оные сочинил ответы, кои совокупно здесь прилагаются</quote>.</note> </title>
+        <author>          <persName>            <forename full="yes">Денис</forename>             <forename type="patronym" full="yes">Иванович</forename>             <surname full="yes">Фонвизин</surname>           </persName>         </author>
+        <principal>Марина Пономарева </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title xml:id="title1">Д. И. Фонвизин. Собрание сочинений в двух томах</title>
+            <editor role="editor"> Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Государственное издательство художественной литературы</publisher>
+            <pubPlace>Москва-Ленинград</pubPlace>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                  библиотека</tei:ref>
+            </distributor>
+            <date>1959</date>
+          </publicationStmt>
+          <notesStmt>
+            <note place="unspecified" anchored="true">
+              <ref>т. 2</ref>
+            </note>
+          </notesStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> без заглавия</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> &lt;Собеседник любителей российского слова&gt;</publisher>
+                <date>1783</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1783</date>       </creation>
+      <textClass default="false">
+        <catRef target="#publicisticwriting" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">общество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">дворянство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">государственное устройство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">просвещение</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">национальный характер</tei:span>
+    <body xml:id="whole">
+      <p>"Собеседник любителей российского слова", под надзиранием почтенный наук покровительницы, есть и должен быть хранилищем тех произведений разума, кои приносить могут столько увеселения, сколько и действительной пользы. Издатели оного не боятся отверзать двери истине; почему и беру вольность представить им для напечатания "Несколько вопросов, могущих возбудить в умных и честных людях особливое внимание". Буде оные напечатаются, то продолжение последует впредь и немедленно. Публика заключит тогда по справедливости, что если можно вопрошать прямодушно, то можно и отвечать чистосердечно. Ответы и решения наполнять будут "Собеседникa" и составлять неиссыхаемый источник размышлений, извлекающих со дна истину, толь возлюбленную монархине нашей.  <list xml:id="answers" type="simple"><head xml:id="ah">Вопросы:</head><item xml:id="a1">1. Отчего у нас спорят сильно в таких истинах, кои нигде уже не встречают ни малейшего сумнения?</item><item xml:id="a2">2. Отчего многих добрых людей видим в отставке?</item><item xml:id="a3">3. Отчего все в долгах?</item><item xml:id="a4">4. Если дворянством награждаются заслуги, а к заслугам отверсто поле для всякого гражданина, отчего же никогда не достигают дворянства купцы, а всегда или заводчики, или откупщики?</item><item xml:id="a5">5. Отчего у нас тяжущиеся не печатают тяжеб своих и решений правительства?</item><item xml:id="a6">6. Отчего не только в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петербурге</tei:orig><tei:reg>Санкт-Петербург</tei:reg></tei:choice></tei:name>, но и в самой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> перевелися общества между благородными?</item><item xml:id="a7">7. Отчего главное старание большой части дворян состоит не в том, чтоб поскорей сделать детей своих людьми, а в том, чтоб поскорее сделать их не служа гвардии унтер-офицерами?</item><item xml:id="a8">8. Отчего в наших беседах слушать нечего?  </item><item xml:id="a9">9. Отчего известные и явные бездельники принимаются везде равно с честными людьми?</item><item xml:id="a10">10. Отчего в век законодательный никто в сей части не помышляет отличиться?</item><item xml:id="a11">  11. Отчего знаки почестей, долженствующие свидетельствовать истинные отечеству заслуги, не производят по большой части к носящим их ни малейшего душевного почтения?</item><item xml:id="a12">12. Отчего у нас не стыдно не делать ничего?</item><item xml:id="a13">13. Чем можно возвысить упадшие души дворянства? Каким образом выгнать из сердец  нечувственность к достоинству благородного звания? Как сделать, чтоб почтенное титло дворянина было несумненным доказательством душевного благородств?</item><item xml:id="a14">14. Имея монархиню честного человека, что бы мешало взять всеобщим правилом: удостоиваться ее милостей одними честными делами, а не отваживаться проискивать их обманом и коварством?</item><item xml:id="a15">14. Отчего в прежние времена шуты, шпыни и балагуры чинов не имели, а ныне имеют, и весьма большие?</item><item xml:id="a16">15. Отчего многие приезжие из чужих краев, почитавшиеся тамо умными людьми, у нас почитаются дураками; и наоборот: отчего здешние умницы в чужих краях часто дураки?</item><item xml:id="a17">16. Гордость большой части бояр где обитает: в душе или в голове?</item><item xml:id="a18">17. Отчего в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Европе</tei:orig><tei:reg>Европа</tei:reg></tei:choice></tei:name> весьма ограниченный человек в состоянии написать письмо вразумительное и отчего у нас часто преострые люди пишут так бестолково?</item><item xml:id="a19">18. Отчего у нас начинаются дела с великим жаром и пылкостию, потом же оставляются, а нередко и совсем забываются?</item><item xml:id="a20">19. Как истребить два сопротивные и оба вреднейшие предрассудки: первый, будто у нас все дурно, а в чужих краях все хорошо; вторый, будто в чужих краях все дурно, а у нас все хорошо?</item><item xml:id="a21">20. В чем состоит наш национальный характер?</item></list> <list corresp="answers" type="simple"><head corresp="ah">Ответы:</head><item corresp="a1">На 1. У нас, как и везде, всякий спорит о том, что ему не нравится или непонятно.</item><item corresp="a2">На 2. Многие добрые люди вышли из службы, вероятно, для того, что нашли выгоду быть в отставке.  </item><item corresp="a3">  На 3. Оттого в долгах, что проживают более, нежели дохода имеют.</item><item corresp="a4">На 4. Одни, быв богатее других, имеют случай оказать какую ни на есть такую заслугу, по которой получают отличие.</item><item corresp="a5">На 5. Для того, что вольных типографий до 1782 года не было.  </item><item corresp="a6">На 6. От размножившихся клобов.  </item><item corresp="a7">На 7. Одно легче другого.  </item><item corresp="a8">На 8. Оттого, что говорят небылицу.  </item><item corresp="a9">На 9. Оттого, что на суде не изобличены.  </item><item corresp="a10">На 10. Оттого, что сие не есть дело всякого.  </item><item corresp="a11">На 11. Оттого, что всякий любит и почитает лишь себе подобного, а не общественные и особенные добродетели.</item><item corresp="a12">На 12. Сие неясно: стыдно делать дурно, а в обществе жить не есть не делать ничего.  </item><item corresp="a13">На 13. Сравнение прежних времен с нынешними покажет несумненно, колико души ободрены либо упали; самая наружность, походка и проч. то уже оказывает.</item><item corresp="a14">   На 14. Для того, что везде, по всякой земле и во всякое время род человеческий совершенным не родится.</item><item corresp="a15">На 14. Предки наши не все грамоте умели. NB. Сей вопрос родился от <emph>свободоязычия</emph>, которого предки наши не имели; буде же бы имели, то начли бы на нынешнего одного десять прежде бывших.  </item><item corresp="a16">На 15. Оттого, что вкусы разные и что всякий народ имеет свой смысл.  </item><item corresp="a17">На 16. Тамо же, где нерешимость.  </item><item corresp="a18">На 17. Оттого, что тамо, учась слогу, одинако пишут; у нас же всяк мысли свои не учась на бумагу кладет.</item><item corresp="a19">На 18. По той же причине, по которой человек стареется.  </item><item corresp="a20">На 19. Временем и знанием.  </item><item corresp="a21"> На 20. В остром и скором понятии всего, в образцовом послушании и в корени  всех добродетелей, от творца человеку данных.</item></list></p>
+    </body>
+  </text>
+</TEI>

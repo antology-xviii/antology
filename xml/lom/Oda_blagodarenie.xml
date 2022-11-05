@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода, в которой Ея Величеству благодарение от сочинителя приносится за оказанную ему высочайшую милость <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> в Сарском селе </tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true"> Сарское Село (ныне г. Пушкин) получило это название от финской мызы Саари-моис, что означает по-русски Верхняя мыза.</note> августа 27 дня <date>1750</date>года</title>
+        <author>           <persName>             <forename full="yes">Михаил</forename>              <forename type="patronym" full="yes">Васильевич</forename>              <surname full="yes">Ломоносов</surname>              </persName>            </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII            века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> М. В.  Ломоносов. Полное собрание сочинений</title>
+            <editor role="editor">С.И. Вавилов, Т.П. Кравец</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Изд-во АН СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">Фундаментальная  электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace> М.; Л.</pubPlace>
+            <date>1950-1983</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Ода, в которой Ея Величеству благодарение от сочинителя приносится за оказанную ему высочайшую милость  в Сарском селе августа 27 дня <date>1750 </date>года</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>М. В. Ломоносов. Ода, в которой Ея Величеству благодарение от сочинителя приносится за оказанную ему высочайшую милость в Сарском селе августа 27 дня <date>1750</date> года  СПб.</publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>         <date>вторая половина 1750 или начало 1751</date>          </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">похвала Елизавете Петровне</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">покровительство наукам</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">похвала Царскому Селу</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme=" AbAbCCdEEd" org="uniform" sample="complete" part="N">
+        <note resp="editor" place="end" anchored="true">Печатается по последнему прижизненному изданию (Соч. <date>1757 </date>, стр. 93-102) с указанием в сносках вариантов по Отд. изд. <date>1751</date> г. и Соч. <date>1751</date>.  Местонахождение рукописи <date>1750-1751</date>гг. неизвестно.  Впервые напечатано отдельным изданием в <date>1751</date> г.  Датируется предположительно промежутком временя с 27 августа<date>1750</date> г. (по сообщению <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, день оказания ему "монаршеской милости") по 24 мая <date>1751</date> г., когда Типография сообщила Академической канцелярии, что ода напечатана (ААН, ф. 3, оп. 1, N 153, лл. 377-379).  Отдельное издание оды, вышедшее в свет в мае <date>1751</date> г., было отпечатано в количестве 200 экз., из которых 50 экз. были выданы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Ломоносову</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> "за его труд по сочинению оды" (там же, N 1088, лл. 250-251). Расходы по печатанию оды в сумме 11 руб. 241/2 коп. оплатил он (там же, N 520, лл. 235-236 и N 153, л. 380).  Из текста оды и из сопоставления его с текстом близкого ей по содержанию и по времени стихотворного послания к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> И. И. Шувалову </tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> (стихотворение 191) явствует, что 27 августа <date>1750</date> г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>был принят императрицей в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>, куда новый фаворит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елизаветы Петровны</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Шувалов </tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>, как сам он впоследствии вспоминал, "взял его [Ломоносова] с собою" ("Русский архив", 1874, тетр. 6, стлб. 1454). Дата поездки не вызывает сомнений: из "Камер-фурьерского церемониального и походного журнала <date>1750</date> г.&gt; (стр. 90) видно, что с 18 по 28 августа этого года императрица находилась действительно в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>. Предметом ее внимания и темой беседы с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> стало на сей раз не поэтическое его искусство, а его научное творчество (см. строфу 3). Исходя из содержания оды, можно полагать, что разговор шел о тесной связи научной теории с практической деятельностью, о значении науки для изучения естественных богатств нашей страны и для развития отечественной промышленности, т. е. о том, чему посвящено было в значительной своей части "Слово о пользе химии". Над этим "Словом" <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> начал работать примерно через полгода (см. т. II наст. изд., стр. 345-369, 678- 680), продолжая развивать в нем идеи, высказанные на словах в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name> и нашедшие отзвук в публикуемой оде. В беседе с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елизаветой Петровной</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Шуваловым</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> иллюстрировал, должно быть, свои мысли примерами из собственной лабораторной практики, рассказывая об опытах по изготовлению красящих веществ, фарфора и цветного стекла (см. строфу 20, а также т. IX наст. изд., документы 23-25 и 44).  Что же касается "монаршеской милости", то <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> не объясняет, в чем она заключалась. Не было ли обещано ему в этот день то чрезвычайно важное для него тогда награждение чином коллежского советника, которое было официально объявлено только 4 марта <date>1751 </date> г. (см. т. X наст. изд., примечания к документу 470, ╖ 33)? В пользу такого предположения говорит целый ряд обстоятельств: и мотивировка этого награждения ("за его отличное в науках искусство"), и то, что, написав оду, по-видимому, под свежим впечатлением поездки в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царское Село</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> напечатал ее только через девять месяцев, т. е. уже после реализации полученного тогда обещания, и то, наконец, что, не считая удобным подчеркивать хронологический разрыв между тем и другим, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в первом издании оды умолчал не только о сути, но и о времени оказанной ему "милости".  Особенностью публикуемой оды является отсутствие в ней обычных для <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> внешнеполитических намеков. Царскосельские впечатления, которым уделено много места, являются лишь внешними прикрасами, основная же тема оды - практическая польза науки.</note>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Какую радость ощущаю?</l>
+          <l part="N">Куда я ныне восхищен?</l>
+          <l part="N">Небесну пищу я вкушаю,</l>
+          <l part="N"> На верьх <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig>Олимпа</tei:orig><tei:reg>Олимп</tei:reg></tei:choice></tei:name> вознесен!</l>
+          <l part="N"> Божественно лице сияет</l>
+          <l part="N"> Ко мне и сердце озаряет</l>
+          <l part="N"> Блистающим лучем щедрот!</l>
+          <l part="N"> Коль нежно <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Флоры</tei:orig><tei:reg>Флора</tei:reg></tei:choice></tei:name>здесь богатство!</l>
+          <l part="N"> Коль сродно воздуха приятство </l>
+          <l part="N"> Богине красных сих высот! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Что ж се? <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Диане</tei:orig><tei:reg>Диана</tei:reg></tei:choice></tei:name>   я прекрасной</l>
+          <l part="N"> Уже последую в лесах,</l>
+          <l part="N"> От коей хитростью напрасной</l>
+          <l part="N"> Укрыться хочет зверь в кустах!</l>
+          <l part="N"> Уже и купно со <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Денницей</tei:orig><tei:reg>Денница</tei:reg></tei:choice></tei:name> </l>
+          <l part="N"> Великолепной колесницей</l>
+          <l part="N"> В безоблачных странах несусь! <note resp="editor" place="unspecified" anchored="true">Зная обыкновение <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  опираться в своих одах на реальные факты, можно полагать, что в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name> он присутствовал при одной из охот императрицы, которыми <name type="person">Елизавета Петровна</name>увлекалась смолоду, а под "великолепной колесницей" следует понимать какой-нибудь придворный экипаж, которые в те времена отличались изысканной роскошью отделки.</note>  </l>
+          <l part="N"> Блаженство мыслям непонятно!</l>
+          <l part="N"> Благополучен многократно,</l>
+          <l part="N"> Когда нетщетным сном я льщусь! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Престань сомненьем колебаться,</l>
+          <l part="N"> Смятенный дух мой, и поверь:</l>
+          <l part="N"> Не ложны то мечтанья зрятся,</l>
+          <l part="N"> Но истинно Петрова Дщерь</l>
+          <l part="N"> К наукам матерски<note resp="editor" place="unspecified" anchored="true"> См. выше, вводную часть примечаний к публикуемой оде. Матерски - по-матерински.</note>  снисходит, <note resp="editor" place="unspecified" anchored="true">Из текста оды и из сопоставления его с текстом близкого ей по содержанию и по времени стихотворного послания к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>И. И. Шувалову</tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name> (стихотворение 191) явствует, что 27 августа <date>1750 </date>г. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> был принят императрицей в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>, куда новый фаворит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елизаветы Петровны</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Шувалов </tei:orig><tei:reg>Шувалов И. И.</tei:reg></tei:choice></tei:name>, как сам он впоследствии вспоминал, "взял его [Ломоносова] с собою" ("Русский архив", 1874, тетр. 6, стлб. 1454). Дата поездки не вызывает сомнений: из "Камер-фурьерского церемониального и походного журнала <date>1750</date> г.&gt; (стр. 90) видно, что с 18 по 28 августа этого года императрица находилась действительно в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>. Предметом ее внимания и темой беседы с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> стало на сей раз не поэтическое его искусство, а его научное творчество.</note></l>
+          <l part="N"> Щедротою в восторг приводит.</l>
+          <l part="N"> Ты, <name type="mythologic">Муза</name>, лиру приими,</l>
+          <l part="N"> И, чтоб услышала вселенна,</l>
+          <l part="N"> Коль жизнь наукам здесь блаженна, </l>
+          <l part="N"> Возникни, вознесись, греми.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Где древним именем<tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Славена</tei:orig><tei:reg>Славянка</tei:reg></tei:choice></tei:name>  </l>
+          <l part="N"> Гордяся пролились струи, <note resp="editor" place="unspecified" anchored="true">Имеется в виду речка <name type="place">Славянка</name>, орошающая нынешний Павловский парк.</note> </l>
+          <l part="N"> Там видя <name type="mythologic">Нимфа</name>изумленна</l>
+          <l part="N"> Украшенны луга свои,</l>
+          <l part="N"> Златые кровы оком мерит</l>
+          <l part="N"> И в ужасе себе не верит. <note resp="editor" place="unspecified" anchored="true">В 1749 г. окончились работы по позолоте куполов дворцовой церкви в Царском Селе </note> </l>
+          <l part="N"> Но, кажду обозревши часть,</l>
+          <l part="N"> С веселием сие вещает:</l>
+          <l part="N"> <q>То само небо созидает <l part="N"> Или Петровой Дщери власть</l></q>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Рекла, и влагу рассекая,</l>
+          <l part="N"> Пустилась тщательно к <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Неве</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name>;</l>
+          <l part="N"> Волна, во бреги ударяя,</l>
+          <l part="N"> Клубится пеною в траве.</l>
+          <l part="N"> Во храм, сияющий металлом,</l>
+          <l part="N"> Пред трон, украшенный кристаллом, <note resp="editor" place="unspecified" anchored="true">О существовании "трона, украшенного кристаллом", т. е. драгоценными камнями, никаких сведений нет, но <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> упомянул о нем, очевидно, не без основания. Сохранилось известие, что <name type="person">Елизавета Петровна</name>в <date>1753</date> г. мечтала украсить драгоценными камнями один из покоев Царскосельского дворца А. Бенуа. Царское Село в царствование императрицы Елизаветы Петровны. СПб., 1910, стр. 116). Не заводила ли она об этом речь с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>?</note> </l>
+          <l part="N"> Поспешно простирает ход;</l>
+          <l part="N"> Венцем зеленым увязенной</l>
+          <l part="N"> И в висс, <note resp="editor" place="unspecified" anchored="true">Висс - виссон, тонкая дорогая ткань, большей частью белая, иногда пурпурная, которая шла в древности на царские и жреческие одежды. </note>вещает, облеченной</l>
+          <l part="N"> Владычице Российских вод. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Река, которой проливают</l>
+          <l part="N">Великие озера дань</l>
+          <l part="N">И кою громко прославляют</l>
+          <l part="N">Во всей вселенной мир и брань!</l>
+          <l part="N">Ты щастлива трудом Петровым;</l>
+          <l part="N">Тебя и ныне красит новым</l>
+          <l part="N">Рачением <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елисавет </tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>. </l>
+          <l part="N">Но малые мои потоки</l>
+          <l part="N">Прими в себя, <note resp="editor" place="unspecified" anchored="true">Императрица <name type="person">Елизавета Петровна </name> поручила строителю Царскосельского дворца, знаменитому архитектору <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> В. В. Растрелли </tei:orig><tei:reg>Расстрели В. В.</tei:reg></tei:choice></tei:name>, выяснить, каким образом можно было бы "ездить из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Петербурга</tei:orig><tei:reg>Петербург</tei:reg></tei:choice></tei:name> в <name type="place">Царское Село</name> водою". Речь шла о канале, который соединил бы <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Славянку</tei:orig><tei:reg>Славянка</tei:reg></tei:choice></tei:name> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Невой </tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name> (И. Яковкин. История села Царского. СПб., 1829, стр. 15, 136-137). </note> как <name type="place"> Нил</name> широкий,</l>
+          <l part="N">Который из рая течет. <note resp="editor" place="unspecified" anchored="true"> <name type="mythologic">Нимфа</name>, от лица которой идет речь, вспоминает миф о земном рае, где брали будто бы начало четыре великих реки. Одной из этих рек, по утверждению некоторых толкователей мифа, был <name type="place">Нил</name> .</note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Мои источники венчает</l>
+          <l part="N"> Едемской равна красота,</l>
+          <l part="N"> Где сад Богиня насаждает,</l>
+          <l part="N"> Прохладны возлюбив места,</l>
+          <l part="N"> Поля где небу подражают,</l>
+          <l part="N"> Себя цветами испещряют.</l>
+          <l part="N"> Не токмо нежная весна,</l>
+          <l part="N"> Но осень тамо - юность года;</l>
+          <l part="N"> Всегда роскошствует природа, </l>
+          <l part="N"> Искусством рук побуждена. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Когда заря багряным оком</l>
+          <l part="N"> Румянец умножает роз,</l>
+          <l part="N"> Тогда на ветвии высоком</l>
+          <l part="N"> И посреде зеленых лоз</l>
+          <l part="N"> Со свистом птицы воспевают,</l>
+          <l part="N"> От сна к веселью возбуждают,</l>
+          <l part="N"> Что царствует в моих лугах.</l>
+          <l part="N"> И солнце восходя дивится,</l>
+          <l part="N"> Цветы, меж коих <name type="place">Инд </name> крутится, </l>
+          <l part="N"> Увидев при моих ключах. <note resp="editor" place="unspecified" anchored="true">Имеется в виду, вероятно, так называемая "оранжерейная зала" Царскосельского дворца, где, судя по описи <date>1748</date> г., насчитывалось до 380 ящиков, кадок и горшков с разнообразнейшими экзотическими растениями (А. Бенуа. Царское Село в царствование императрицы Елизаветы Петровны. СПб., 1910, стр. 161).</note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> В средине жаждущего лета,</l>
+          <l part="N"> Когда томит протяжный день,</l>
+          <l part="N"> От знойной теплоты и света</l>
+          <l part="N"> Прохладна покрывает тень,</l>
+          <l part="N"> Где ветьви преклонясь зелены,</l>
+          <l part="N"> В союз взаимной сопряженны,</l>
+          <l part="N"> Отводят жаркие лучи.</l>
+          <l part="N"> Но коль великая отрада</l>
+          <l part="N"> И томным чувствам тут прохлада</l>
+          <l part="N"> Как росу пьют цветы в ночи! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Елисаветиным добротам</l>
+          <l part="N"> Везде подобна красота;</l>
+          <l part="N"> Примера многим лишь щедротам</l>
+          <l part="N"> Не смеет скудна дать вода</l>
+          <l part="N"> И орошать скаканьем по́ля;</l>
+          <l part="N"> Однако ежель Оной воля</l>
+          <l part="N"> Охоту ободрит мою,</l>
+          <l part="N"> Великой в похвалу Богине</l>
+          <l part="N"> Я воды обращу к вершине;</l>
+          <l part="N"> Речет - и к небу устремлю. <note resp="editor" place="unspecified" anchored="true">  См. примечание 2 к стихотворению 164. Императрица <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елизавета</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>настойчиво требовала, чтобы в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царском Селе</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>были устроены фонтаны, чему препятствовал высокий уровень дворцовой территории. После трехлетних изысканий (<date>1743-1745</date>) решено было воспользоваться для этой цели ключами при деревне <name type="place">Виттелево</name>, расположенной в шести верстах от <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Царского Села</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>. 15 ноября <date>1749 </date>г. виттелевская вода была "пущена" в верхний большой царскосельский пруд "открытым каналом и закрытым под дорогою", причем водохранилище было каким-то образом "возвышено" (И. Яковкин. История села Царского, т. II. СПб., стр. 11-12, 17, 28; А. Н. Бенуа. Царское Село в царствование императрицы Елизаветы Петровны. СПб., 1910, стр. 223-226). Сведений о том, когда начали бить царскосельские фонтаны, не отыскано. Указанное <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Будиловичем </tei:orig><tei:reg>Будилович А. С.</tei:reg></tei:choice></tei:name> мнимое противоречие оды <date>1750</date> г. публикуемому посланию будет устранено, если примем во внимание, что последнее написано <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносовым</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> до поездки в <name type="place">Царское Село</name>, когда о тамошних гидротехнических сооружениях он знал только понаслышке. Если ему сказали, что виттелевская вода проведена в пруд, то это давало ему основание предполагать, что она уже "принуждает в верьх скакать высоко воду", т. е. что фонтаны уже бьют и притом исправно. Проехав же на место и увидав все собственными глазами, он убедился, что эта вода, как сказано в оде (строфа 10), еще "скудна" и "не смеет... орошать скаканьем по?ля". Вполне естественно поэтому, что, проверив результаты гидротехнических работ и признав их неудовлетворительными, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> предложил свои услуги и пообещал воды обратить "к вершине", т. е. изобрести какое-то новое водоподъемное сооружение (над чем он, как известно, действительно работал), а если потребуют, то устремить воды и "к небу", т. е. усовершенствовать и фонтаны.</note>    </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Коль часто долы оживляет</l>
+          <l part="N"> Ловящих шум меж наших гор,</l>
+          <l part="N"> Когда Богиня понуждает</l>
+          <l part="N"> Зверей чрез трубный глас из нор!</l>
+          <l part="N"> Ей ветры вслед не успевают,</l>
+          <l part="N"> Коню бежать не воспящают</l>
+          <l part="N"> Ни рвы, ни частых ветьвей связь:</l>
+          <l part="N"> Крутит главой, звучит браздами</l>
+          <l part="N"> И топчет бурными ногами,</l>
+          <l part="N"> Прекрасной Всадницей гордясь! <note resp="editor" place="unspecified" anchored="true">Ср. у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Пушкина</tei:orig><tei:reg>Пушкин А. С.</tei:reg></tei:choice></tei:name>в "Полтаве":   Дрожит. Глазами косо водит  И мчится в прахе боевом,  Гордясь могучим седоком. </note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Как естьли зданием прекрасным</l>
+          <l part="N"> Умножить должно звезд число,</l>
+          <l part="N"> Созвездием являться ясным</l>
+          <l part="N"> Достойно <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Сарское село</tei:orig><tei:reg>Царское Село</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N"> Чудовища, что легковерным</l>
+          <l part="N"> Раченьем древность и безмерным</l>
+          <l part="N"> Подняв на твердь, вместила там, <note resp="editor" place="unspecified" anchored="true">Под "чудовищами" следует понимать исполинские сооружения древности: крепостные стены, воздвигнутые легендарной ассирийской царицей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Семирамидой</tei:orig><tei:reg>Семирамида</tei:reg></tei:choice></tei:name>, египетские пирамиды и, может быть, упоминаемую в Библии вавилонскую башню. </note> </l>
+          <l part="N"> Укройтесь за пределы света:</l>
+          <l part="N"> Се зиждет здесь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавета </tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> </l>
+          <l part="N"> Красу приличну небесам. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Великия <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Семирамиды</tei:orig><tei:reg>Семирамида</tei:reg></tei:choice></tei:name> </l>
+          <l part="N"> Рассыпанна окружность стен,</l>
+          <l part="N"> И вы, о горды пирамиды,</l>
+          <l part="N"> Чем Нильский брег отягощен,</l>
+          <l part="N"> Хотя бы чувства вы имели</l>
+          <l part="N"> И чудный труд лет малых зрели, <note resp="editor" place="unspecified" anchored="true">Под "чудным трудом малых лет" <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>разумеет начатую в <date>1744 </date>г. перестройку Царскосельского дворца, которая производилась под наблюдением архитекторов <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> А. В. Квасова</tei:orig><tei:reg>Квасов А. В.</tei:reg></tei:choice></tei:name>  и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> С. И. Чевакинского</tei:orig><tei:reg>Чевакинский С. И.</tei:reg></tei:choice></tei:name>, и в <date>1748 </date>г. законченную. <name type="person">Елизавета Петровна</name>не удовлетворилась этим, и в <date>1749-1756</date> гг. дворец был перестроен заново по проекту <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> В. В. Растрелли</tei:orig><tei:reg>Растрелли В. В.</tei:reg></tei:choice></tei:name>(А. Бенуа. Царское Село в царствование императрицы Елизаветы Петровны. СПб., 1910, стр. 32-44, 71-78). </note> </l>
+          <l part="N"> Вам не былобы тяжко то,</l>
+          <l part="N"> Что строены вы целы веки:</l>
+          <l part="N"> Вас созидали человеки, -</l>
+          <l part="N"> Здесь созидает божество. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Великолепными верьхами</l>
+          <l part="N"> Восходят храмы к небесам;</l>
+          <l part="N"> Из них пресветлыми очами</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавет</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>  сияет к нам;</l>
+          <l part="N"> Из них во все страны взирает</l>
+          <l part="N"> И наедине представляет</l>
+          <l part="N"> Врученный свет под скипетр свой,</l>
+          <l part="N"> Подобно как орел парящий</l>
+          <l part="N"> От самых облак зрит лежащи</l>
+          <l part="N"> Поля и грады под собой. <note resp="editor" place="unspecified" anchored="true">С "верхов" царскосельской дворцовой церкви открывался широкий вид на север с панорамой <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig> Петербурга </tei:orig><tei:reg>Петербург</tei:reg></tei:choice></tei:name> на горизонте.</note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> О коль правдиво возвышает,</l>
+          <l part="N"> Монархиня, сей <name type="mythologic"> Нимфа </name>  глас!</l>
+          <l part="N"> Коль взор Твой далеко блистает,</l>
+          <l part="N"> То ныне чувствовал <name type="place"> Парнасс </name>,</l>
+          <l part="N"> Как Ты от мест преиспещренных</l>
+          <l part="N"> И летней неге посвященных</l>
+          <l part="N"> Воззрела матерски к нему,</l>
+          <l part="N"> Являя такову щедроту,</l>
+          <l part="N"> Колику к знаниям охоту </l>
+          <l part="N"> Даешь народу Твоему. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что дым и пепел отрыгая,</l>
+          <l part="N"> Мрачил вселенну, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Енцелад</tei:orig><tei:reg>Энкелад</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"> Ревет, под  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologicPlace"><tei:choice><tei:orig> Етною</tei:orig><tei:reg>Этна</tei:reg></tei:choice></tei:name> рыдая,</l>
+          <l part="N"> И телом наполняет ад;</l>
+          <l part="N"> Зевесовым пронзен ударом,</l>
+          <l part="N"> В отчаяньи трясется яром,</l>
+          <l part="N"> Не может тяготу поднять,</l>
+          <l part="N"> Великою покрыт горою,</l>
+          <l part="N"> Без пользы движется под тою</l>
+          <l part="N"> И тщетно силится восстать, -  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Так варварство Твоим Перуном</l>
+          <l part="N"> Уже повержено лежит,</l>
+          <l part="N"> Когда при шуме сладкострунном</l>
+          <l part="N"> Поющих <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Муз</tei:orig><tei:reg>музы</tei:reg></tei:choice></tei:name> Твой слух звучит,</l>
+          <l part="N"> Восток и запад наполняет</l>
+          <l part="N"> Хвалой Твоей и возвышает</l>
+          <l part="N"> Твои щедроты выше звезд.</l>
+          <l part="N"> О вы, щастливыя науки!</l>
+          <l part="N"> Прилежны простирайте руки</l>
+          <l part="N"> И взор до самых дальних мест.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пройдите землю, и пучину,</l>
+          <l part="N">И степи, и глубокий лес,</l>
+          <l part="N">И <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>нутр Рифейский</tei:orig><tei:reg>Урал, горы</tei:reg></tei:choice></tei:name>, и вершину,</l>
+          <l part="N">И саму высоту небес.</l>
+          <l part="N">Везде исследуйте всечасно,</l>
+          <l part="N">Что есть велико и прекрасно,</l>
+          <l part="N">Чего еще не видел свет;</l>
+          <l part="N">Трудами веки удивите,</l>
+          <l part="N">И сколько может, покажите</l>
+          <l part="N">Щедротою <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Елисавет</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name>. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Из гор иссеченны колоссы,</l>
+          <l part="N">Механика, ты в честь возвысь</l>
+          <l part="N">Монархам, от которых Россы</l>
+          <l part="N">Под солнцем славой вознеслись, <note resp="editor" place="unspecified" anchored="true">См. примечания к стихотворению 162. </note> </l>
+          <l part="N">Наполни воды кораблями,</l>
+          <l part="N">Моря соедини реками</l>
+          <l part="N">И рвами блата иссуши,</l>
+          <l part="N">Военны облегчи громады, <note resp="editor" place="unspecified" anchored="true"> Русское военное ведомство с начала 50-х годов XVIII в. занималось вопросом об усовершенствовании орудий полевой артиллерии, стремясь достигнуть большей их "удобоподвижности" путем уменьшения их веса ("военны облегчи громады"). Итогом этих изысканий явились знаменитые шуваловские гаубицы, сыгравшие, как известно, решающую роль в ходе Семилетней войны (Курс артиллерии, кн. I. Под редакцией А. Д. Блинова, М., 1948, стр. 72). Таким образом, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> недаром ввел данную проблему в перечень наиболее актуальных практических задач механики. О существовании этой проблемы и о работах над ее разрешением его осведомлял, вероятно, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>А. К. Нартов</tei:orig><tei:reg>Нартов А. К.</tei:reg></tei:choice></tei:name>, с которым <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>  сохранял связь и в 50-х годах (т. X наст. изд., письмо 39). <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Нартов</tei:orig><tei:reg>Нартов А. К.</tei:reg></tei:choice></tei:name> принимал ближайшее участие в разработке новых, облегченных образцов орудий: как установлено недавно, по его "инвенции" были отлиты первые "единороги" (А. С. Бриткин и С. С. Видонов. Выдающийся машиностроитель XVIII века А. К. Нартов. М., 1950, стр. 161-162). Ср. стихотворение 244 и примечания к нему.</note>  </l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Петром</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name> основанные грады</l>
+          <l part="N">Под скиптром Дщери соверши.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В земное недро ты, Химия,</l>
+          <l part="N">Проникни взора остротой,</l>
+          <l part="N">И что содержит в нем <name type="place">Россия</name>,</l>
+          <l part="N">Драги сокровища открой;</l>
+          <l part="N">Отечества умножить славу</l>
+          <l part="N">И вящше укрепить державу</l>
+          <l part="N">Спеши за хитрым естеством,</l>
+          <l part="N">Подобным облекаясь цветом;</l>
+          <l part="N">И что прекрасно токмо летом,</l>
+          <l part="N">Ты сделай вечно мастерством. <note resp="editor" place="unspecified" anchored="true">См. вводную часть примечаний к публикуемой оде. </note>   </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В небесны, <name type="mythologic">Урания</name>, круги</l>
+          <l part="N">Возвыси посреде лучей</l>
+          <l part="N">Елисаветины заслуги,</l>
+          <l part="N">Чтоб тамо в вечну славу Ей</l>
+          <l part="N">Сияла новая планета.</l>
+          <l part="N">Российскаго пространство света</l>
+          <l part="N">Собрав на малы чертежи,</l>
+          <l part="N">И грады, Оною спасенны,</l>
+          <l part="N">И села, Ею же блаженны,</l>
+          <l part="N">География, покажи.  </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Наука легких метеоров, <note resp="editor" place="unspecified" anchored="true">Т. е. метеорология. </note></l>
+          <l part="N">Премены неба предвещай</l>
+          <l part="N">И бурный шум воздушных споров</l>
+          <l part="N">Чрез верны знаки предъявляй,</l>
+          <l part="N">Чтоб земледелец выбрал время,</l>
+          <l part="N">Когда земли поверить семя</l>
+          <l part="N">И дать когда покой браздам,</l>
+          <l part="N">И чтобы, не боясь погоды,</l>
+          <l part="N">С богатством дальны шли народы </l>
+          <l part="N">К Елисаветиным брегам. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А ты, возлюбленная Лира,</l>
+          <l part="N">Правдивым счастьем веселись,</l>
+          <l part="N">К блистающим пределам мира</l>
+          <l part="N">Шумящим звоном вознесись</l>
+          <l part="N">И возгласи, что нет на свете,</l>
+          <l part="N">Ктоб равен был <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Елисавете</tei:orig><tei:reg>Елизавета Петровна</tei:reg></tei:choice></tei:name> </l>
+          <l part="N">Таким блистанием хвалы.</l>
+          <l part="N">Но что за громы ударяют?</l>
+          <l part="N">Се глас мой звучно повторяют</l>
+          <l part="N">Земля, и ветры, и валы!  </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

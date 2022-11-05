@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода на победы в <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig><tei:name type="place"><tei:choice><tei:orig>Морее</tei:orig><tei:reg>Морея</tei:reg></tei:choice></tei:name></tei:orig><tei:reg>Пелопоннес</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true">Морея - старинное славянское название полуострова Пелопоннес в Греции.</note></title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Петров</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2010 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Русская литература XVIII века, 1770-1775. Хрестоматия.</title>
+            <editor role="editor">Западов В. А. </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Просвещение</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://lib.ru">Lib.ru Классика</tei:ref>
+            </distributor>
+            <pubPlace>М.</pubPlace>
+            <date>1979</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода на победы российскаго флота в Морее 1770 года.</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Отдельное издание. СПб.                  </publisher>
+                <date>1770</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1770</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">русско-турецкая война</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">военные победы</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">война</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз (Я666633)" rhyme="AAbCCb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Возникла вновь краса всещедрыя природы,</l>
+          <l part="N">Одушевлен весной эфир, земля и воды,</l>
+          <l part="N">Летит из недр ее в моря, в луга зефир, -</l>
+          <l part="N">Но варвар в бешенстве еще своем крепится,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Свирепствует и злится,</l>
+            <l part="N">Еще смущает мир.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ярясь бурливого жесточе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Аквилона</tei:orig><tei:reg>Аквилон</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Не слышит под собой трясущегося трона,</l>
+          <l part="N">Не зрит воздвигнутых в свою погибель волн;</l>
+          <l part="N"><name type="place">Евфрат</name>, и <name type="place">Нил</name>, и <name type="place">Тигр</name> на помощь призывает</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">И брани умышляет,</l>
+            <l part="N">Студа и срама полн!</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><q>Пускай</q>, - вещает, - <q>мы на суше пострадали, <l part="N">Пусть <name type="place">Днестр</name> окровавлен и силы наши пали<note resp="editor" place="unspecified" anchored="true">Имеются в виду успешные действия русских войск под командованием А.М. Голицына, а затем П.А Румянцева и П.И. Панина против турок в 1769 - начале 1770 г.</note>, -</l><l part="N">Другой против врагов поставлю я оплот:</l><l part="N">Пловущим с робостью на море незнакомом,</l><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Вооруженный громом,</l><l part="N">Пущу навстречу флот.</l></lg></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пустил, - не действуют дыхания воздушны;</l>
+          <l part="N">Он ну́дит в море флот, - но ветры непослушны:</l>
+          <l part="N">Не хочет быть ему споспешницей весна,</l>
+          <l part="N">С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Екатериной </tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name> все животворить согласна,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Лишь варварам опасна,</l>
+            <l part="N">Лишь им одним грозна.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И се с брегов <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Невы</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name>, из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Севера</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true">Север - здесь: Россия.</note> средины</l>
+          <l part="N">Летят крылатые по бездне исполины,</l>
+          <l part="N">Спешащи досягнуть полуденных концов!</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Средьземный понт</tei:orig><tei:reg>Средиземное море</tei:reg></tei:choice></tei:name>, стеня, под ними устрашился:</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">В нем вдруг изобразился</l>
+            <l part="N">Российских лик пловцов<note resp="editor" place="unspecified" anchored="true">Речь идет об Архипелажской экспедиции русского флота. В 1769 г. из Балтийского моря в Греческий архипелаг вышла первая эскадра адмирала Спиридова, затем вторая - Эльфинстона (всего - пять). Целью экспедиций была поддержка греков и славянских народов в борьбе против турок, блокада Дарданелл и т. д.</note>!</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Младый герой едва на брег ступил <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig><tei:name type="place"><tei:choice><tei:orig>Мореи</tei:orig><tei:reg>Морея</tei:reg></tei:choice></tei:name></tei:orig><tei:reg>Пелопоннес</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Уж в сердце той воздвиг российские трофеи!</l>
+          <l part="N">Питомец муз и друг в плен варваров влечет<note resp="editor" place="unspecified" anchored="true">В начале 1770 г. русские десантные отряды под общим командованием Ф.Г. Орлова (1741- 1796) при поддержке восставших греков овладели в Морее городами Модон, Мистра (Мизитра, в древности Спарта), Аркадия и т. д.</note>!</l>
+          <l part="N">Другой свой нудит флот меж волн, шумящих грозно<note resp="editor" place="unspecified" anchored="true">Имеется в виду А. Г. Орлов (1737-1808), главнокомандующий Архипелажской экспедицией</note>,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">И сетует, что поздно</l>
+            <l part="N">За братом вслед течет.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><q>Уж взят</q>, - он мнит, - <q><name type="place">Модон</name>, <name type="place">Коринф</name> предастся вскоре,</q></l>
+          <l part="N"><q><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Аркадию</tei:orig><tei:reg>Аркадия</tei:reg></tei:choice></tei:name> пленят, а я еще на море</q>.</l>
+          <l part="N">Герой! не негодуй: твой жребий не приспел;</l>
+          <l part="N">Тебе осталися <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Фессальские долины</tei:orig><tei:reg>Фессалия</tei:reg></tei:choice></tei:name><note resp="author" place="unspecified" anchored="true">Греция, за Исфмом лежащая (прим. Петрова), т. е. северная часть Греции, находящаяся за Коринфским перешейком (Истмом)</note>,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Вход черныя пучины</l>
+            <l part="N">И ужас <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Дарданелл</tei:orig><tei:reg>Дарданеллы</tei:reg></tei:choice></tei:name>.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но ты, свершив сию, ты вновь начни осаду,</l>
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig> Орлов</tei:orig><tei:reg>Орлов Ф. Г.</tei:reg></tei:choice></tei:name>! от одного лети к другому граду;</l>
+          <l part="N">Скрывай несчастливых простертых крил в тени,</l>
+          <l part="N">Спасай и побеждай: с тобою щит <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Минервы</tei:orig><tei:reg>Минерва</tei:reg></tei:choice></tei:name><note resp="editor" place="unspecified" anchored="true">Минерва - здесь: Екатерина II.</note>;</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">На брег ступил ты первый,</l>
+            <l part="N">Ты остров весь плени.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О, коль нечаянна, коль дивна там премена!</l>
+          <l part="N">Спартане, распустив российские знамена,</l>
+          <l part="N">Разносят по всему <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Пелопонису</tei:orig><tei:reg>Пелопоннес</tei:reg></tei:choice></tei:name> страх!</l>
+          <l part="N">В участие войны окрестных созывают</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">И слезы проливают</l>
+            <l part="N">С оружием в руках.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><q>Колико</q>, - вопиют, - <q>о небо, мы счастливы! <l part="N">Герои наши днесь в прибывших россах живы!</l><l part="N">Коль кроток оных нам, коль грозен туркам вид!</l><l part="N">Аргольцы, навпляне, к сражению устройтесь,</l><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">Коринфяне, не бойтесь:</l><l part="N">Во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Спарте</tei:orig><tei:reg>Спарта</tei:reg></tei:choice></tei:name> <name type="person">Леонид</name>!</l></lg></q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Все стали в строй, текут, предводит их победа:</l>
+          <l part="N">Бежит из града в град поклонник <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Магомеда</tei:orig><tei:reg>Мухаммед</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N">Уж стонет в их руках окованный ага, -</l>
+          <l part="N">Вскипели вдруг сердца, от давних лет унылы,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Сугубит ярость силы:</l>
+            <l part="N">На части рвут врага<note resp="editor" place="unspecified" anchored="true">После взятия Мистры сдавшиеся турки были перебиты греческими повстанцами-майнотами (они считали себя потомками спартанцев).</note>.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жестокосердым быть претит нам долг природы,</l>
+          <l part="N">Но вам простительно, несчастные народы,</l>
+          <l part="N">Стенавши всякий час под игом лютых бед.</l>
+          <l part="N">И может быть, вас та ж природа воружает,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Что кротость в нас вдыхает, -</l>
+            <l part="N">Таков издавна свет.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но, о отцы наук, порабощенны греки!</l>
+          <l part="N">Утешьтесь, паки вам златы начнутся веки.</l>
+          <l part="N">Достигла и до вас счастливая чреда.</l>
+          <l part="N">Алфейски<note resp="author" place="unspecified" anchored="true">Алфей - река, на берегу которой находилась Олимпия, где проходили Олимпийские игры.</note> зрелища, умолкнувши поныне,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Вы в честь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Екатерине</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name></l>
+            <l part="N">Восставьте навсегда.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">По ним свои лета<note resp="author" place="unspecified" anchored="true">Греки счисляли лета свои по Олимпиадам </note> опять считать начните</l>
+          <l part="N">И имени ее начало посвятите, -</l>
+          <l part="N">Она за подвиги вам будет мзду дарить.</l>
+          <l part="N">Во храме вольности, покоя и отрады</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Вы образ сей <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Паллады</tei:orig><tei:reg>Паллада</tei:reg></tei:choice></tei:name></l>
+            <l part="N">Век до́лжны жертвой чтить.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А ты, смиряюща неистовство тирана,</l>
+          <l part="N">Законодавица, победами венчанна,</l>
+          <l part="N">Прими скрижаль и суд полудню возвести:</l>
+          <l part="N">Во область, где цвели <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ликурги</tei:orig><tei:reg>Ликург</tei:reg></tei:choice></tei:name> и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Солоны</tei:orig><tei:reg>Солон</tei:reg></tei:choice></tei:name>,</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Пошли свои законы, -</l>
+            <l part="N">Их будут век чести<note resp="editor" place="unspecified" anchored="true">Почитать.</note>.</l>
+          </lg>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Красуйся, славою <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Россия</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name> вознесенна!</l>
+          <l part="N">Изумеваясь, зрит на мощь твою вселенна.</l>
+          <l part="N">Не <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бельт</tei:orig><tei:reg>Балтийское море</tei:reg></tei:choice></tei:name> един тебе и <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Каспий</tei:orig><tei:reg>Каспийское море</tei:reg></tei:choice></tei:name> платит дань, -</l>
+          <l part="N">Тебе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Средьземный понт</tei:orig><tei:reg>Средиземное море</tei:reg></tei:choice></tei:name> колена преклоняет;</l>
+          <lg type="stanza" org="uniform" sample="complete" part="N">
+            <l part="N">Тя ра́вно возвышает</l>
+            <l part="N">Под солнцем мир и брань.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <name type="character">Болван</name>
+        </title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Болван</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Праздное время, в пользу употребленное. СПб.</publisher>
+                <date>1760</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1760</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">раболепие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> <space dim="horizontal" extent="6 letters"/> Был выбран некто в боги: </l>
+        <l part="N"> Имел он голову, имел он руки, ноги  <space dim="horizontal" extent="13 letters"/> И стан; </l>
+        <l part="N"> Лишь не было ума на полполушку, </l>
+        <l part="N"> И деревянную имел он душку. </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Был - идол, попросту: <name type="character"> Болван </name>. </l>
+        <l part="N">И зачали <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Болвану</tei:orig><tei:reg>Болван</tei:reg></tei:choice></tei:name> все молиться, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Слезами пред <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Болваном</tei:orig><tei:reg>Болван</tei:reg></tei:choice></tei:name> литься </l>
+        <l part="N"> <space dim="horizontal" extent="9 letters"/>И в перси бить. </l>
+        <l part="N"> Кричат: <q>Потщися нам, потщися пособить!</q> </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Всяк помощи великой чает. </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> <name type="character">Болван </name>того </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> Не примечает </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> И ничего </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> Не отвечает: </l>
+        <l part="N">Не слушает <name type="character"> Болван </name> речей ни от кого, </l>
+        <l part="N">Не смотрит, как жрецы мошны искусно слабят </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Перед его пришедших олтари </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> И деньги грабят </l>
+        <l part="N"><space dim="horizontal" extent="3 letters"/> Таким подобием, каким секретари </l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/> В приказе </l>
+        <l part="N">Под несмотрением несмысленных судей </l>
+        <l part="N">Сбирают подати в карман себе с людей, </l>
+        <l part="N">Не помня, что о том написано в указе. </l>
+        <l part="N">Потратя множество и злата и сребра </l>
+        <l part="N">И не видав себе молебщики добра, </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>Престали кланяться уроду </l>
+        <l part="N"> <space dim="horizontal" extent="6 letters"/>И бросили <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Болвана</tei:orig><tei:reg>Болван</tei:reg></tei:choice></tei:name> в воду, </l>
+        <l part="N"> Сказав: <q>Не отвращал от нас ты зла:  <l part="N"> Не мог ко счастию ты нам пути отверзти! </l><l part="N"> Не будет от тебя, как будто от козла, </l><l part="N"> <space dim="horizontal" extent="6 letters"/>Ни молока, ни шерсти</l></q>. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

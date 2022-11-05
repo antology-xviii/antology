@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Песня (&lt;&lt;Пятнадцать мне минуло лет...&gt;&gt;)</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Песня (&lt;&lt;Пятнадцать мне минуло лет...&gt;&gt;)</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Лира, или Собрание разных в стихах сочинений и переводов некоторого муз любителя</publisher>
+                <date>1773</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">взросление</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">любовь</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aaBBa(2) bbCCb(2) bbDDb(2) ddEEd(2) ddEEd(2) aaEEa(2) eeEEe(2) ddEEd(2) aaEEa(2) eeEEe(2)." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пятнадцать мне минуло лет,</l>
+          <l part="N">Пора теперь мне видеть свет:</l>
+          <l part="N">В деревне все мои подружки</l>
+          <l part="N">Разумны стали друг от дружки;</l>
+          <l part="N">Пора теперь мне видеть свет. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пригожей все меня зовут:</l>
+          <l part="N">Мне надобно подумать тут,</l>
+          <l part="N">Как должно в поле обходиться,</l>
+          <l part="N">Когда пастух придёт любиться;</l>
+          <l part="N">Мне надобно подумать тут. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он скажет: я тебя люблю,</l>
+          <l part="N">Любовь и я ему явлю,</l>
+          <l part="N">И те ж ему скажу три слова,</l>
+          <l part="N">В том нет урона никакова;</l>
+          <l part="N">Любовь и я ему явлю. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мне случай этот вовсе нов,</l>
+          <l part="N">Не знаю я любовных слов;</l>
+          <l part="N">Попросит он любви задаток, -</l>
+          <l part="N">Что дать? не знаю я ухваток;</l>
+          <l part="N">Не знаю я любовных слов. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Дала б ему я посох свой, -</l>
+          <l part="N">Мне посох надобен самой;</l>
+          <l part="N">И, чтоб зверей остерегаться,</l>
+          <l part="N">С собачкой мне нельзя расстаться;</l>
+          <l part="N">Мне посох надобен самой. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В пустой и скучной стороне</l>
+          <l part="N">Свирелки также нужны мне;</l>
+          <l part="N">Овечку дать ему я рада,</l>
+          <l part="N">Когда бы не считали стада;</l>
+          <l part="N">Свирелки также нужны мне. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Я помню, как была мала,</l>
+          <l part="N">Пастушка поцелуй дала;</l>
+          <l part="N">Неужли пастуху в награду,</l>
+          <l part="N">За прежнюю ему досаду,</l>
+          <l part="N">Пастушка поцелуй дала? 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Какая прибыль от того,</l>
+          <l part="N">Я в том не вижу ничего:</l>
+          <l part="N">Не станет верить он обману,</l>
+          <l part="N">Когда любить его не стану;</l>
+          <l part="N">Я в том не вижу ничего. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Любовь, владычица сердец,</l>
+          <l part="N">Как быть, научит наконец:</l>
+          <l part="N">Любовь своей наградой платит</l>
+          <l part="N">И даром стрел своих не тратит;</l>
+          <l part="N">Как быть, научит наконец. 2</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пастушка говорит тогда:</l>
+          <l part="N">Пускай пастух придет сюда;</l>
+          <l part="N">Чтоб не было убытка стаду,</l>
+          <l part="N">Я сердце дам ему в награду;</l>
+          <l part="N">Пускай пастух придет сюда. 2</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

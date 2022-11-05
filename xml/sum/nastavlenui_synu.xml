@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Наставление сыну</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>           </persName>         </author>
+        <principal>Мария Буланская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П. Н. Берковский</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Наставление сыну</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>А. Сумароков. Сатиры. СПб.</publisher>
+                <date>1774</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>Между 1771-1774</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">пороки</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">душа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">лесть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">корысть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">чинопоклонство</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">эгоизм</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <l part="N"> Вещал так некто, зря свою кончину слезну,</l>
+        <l part="N"> К единородному наследнику любезну:</l>
+        <l part="N"> <q>Мой сын, любезный сын! Уже я ныне стар; <l part="N"> Тупеет разум мой, и исчезает жар.</l><l part="N"> Готовлюся к суду, отыду скоро в вечность</l><l part="N"> И во предписанну нам, смертным, бесконечность,</l><l part="N"> Так я тебе теперь, как жить тебе, скажу,</l><l part="N"> Блаженства твоего дорогу покажу.</l><l part="N">  <space dim="horizontal" extent="10 letters"/> Конец мой близок,</l><l part="N"> А ты пойдешь путем, который очень склизок.</l><l part="N"> <space dim="horizontal" extent="5 letters"/> Хотя и всё на свете суета,</l><l part="N"> Но льзя ли презирать блаженство живота?</l><l part="N"> Так должны мы о нем всей мыслью простираться</l><l part="N"> И, что потребно нам, о том всегда стараться.</l><l part="N"> Забудь химеру ту<note resp="editor" place="unspecified" anchored="true">Химера - в греческой мифологии безобразное чудовище. Здесь: выдумка, нелепая мысль.</note>, слывет котора честь;</l><l part="N"> На что она, когда мне нечего поесть?</l><l part="N"> Нельзя в купечестве пробыли без продажи,</l><l part="N"> Подобно в бедности без плутни и без кражи.</l><l part="N"> Довольно я тебе именья наплутал,</l><l part="N"> И если б без меня ты это промотал,</l><l part="N"> На что ж бы для тебя свою губил я душу?</l><l part="N"> Когда представлю то, я всё спокойство рушу.</l><l part="N"> Доходы умножай, гони от сердца лень</l><l part="N"> И белу денежку бреги на черный день.</l><l part="N"> Коль можно что украсть, - украдь, да только скрытно,</l><l part="N"> <space dim="horizontal" extent="10 letters"/>И умножай доход</l><l part="N"> Ты всеми обрзы<note resp="editor" place="unspecified" anchored="true">Умножай доход Ты всеми образы - всякими способами, всяческим образом.</note> себе на всякий год!</l><l part="N"> Вить око зрением вовеки ненасытно.</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Коль можешь обмануть,</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Обманывай искусно;</l><l part="N"> <space dim="horizontal" extent="5 letters"/>Изобличенным быти гнусно,</l><l part="N"> И часто наш обман - на виселицу путь.</l><l part="N"> Не знайся ты ни с кем беспрочно <note resp="editor" place="unspecified" anchored="true">Беспрочно - без прока, не имея в виду личную выгоду.</note>, по-пустому,</l><l part="N"> И с ложкой к киселю мечися ты густому.</l><l part="N"> Богатых почитай, чтоб с них имети дань,</l><l part="N"> Случайных похвалять, их выся, не устань,</l><l part="N"> Великим господам ты, ползая, покорствуй!</l><l part="N"> Со всеми ты людьми будь скромен и притворствуй!</l><l part="N"> Коль сильный господин бранит кого,</l><l part="N"> И ты с боярином брани его!</l><l part="N"> Хвали ты тех, кого бояре похваляют,</l><l part="N"> И умаляй, они которых умаляют!</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Глаза свои протри</l><l part="N"> <space dim="horizontal" extent="11 letters"/>И поясняй смотри,</l><l part="N"> Большие на кого бояре негодуют!</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Прямым путем идти -</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Так счастья не найти.</l><l part="N"> Плыви, куда тебе способны ветры дуют!</l><l part="N"><space dim="horizontal" extent="11 letters"/> Против таких господ,</l><l part="N"><space dim="horizontal" extent="11 letters"/> Которых чтит народ,</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Не говори ни слова,</l><l part="N"> И чтоб душа твоя была всегда готова,</l><l part="N"> Не получив от них добра, благодарить!</l><l part="N"> Стремися, как они, подобно говорить!</l><l part="N"> Вельможа что сказал, - знай, слово это свято,</l><l part="N"> <space dim="horizontal" extent="11 letters"/>И что он рек,</l><l part="N"> Против того не спорь: ты малый человек!</l><l part="N"> О черном он сказал - красно; боярин рек, -</l><l part="N"> Скажи и ты, что то гораздо красновато!</l><l part="N"> Пред низкими людьми свирепствуй ты, как черт,</l><l part="N"> А без того они, кто ты таков, забудут</l><l part="N"> <space dim="horizontal" extent="5 letters"/>И почитать тебя не будут;</l><l part="N"> Простой народ того и чтит, который горд.</l><l part="N"> А пред высокими ты прыгай, как лягушка,</l><l part="N"> И помни, что мала перед рублем полушка!</l><l part="N"> Душища в них, а в нас, любезный сын мой, душка.</l><l part="N"> Благодари, когда надеешься еще</l><l part="N"> От благодетеля себе имети милость!</l><l part="N"> А ежели не так, признание - унылость,</l><l part="N"> И благодарный дух имеешь ты вотще.</l><l part="N"> <space dim="horizontal" extent="5 letters"/>Не делай сам себе обиды!</l><l part="N"> Ты честный человек пребуди для себя,</l><l part="N"> Себя единого ты искренно любя!</l><l part="N"> Не делай ты себе единому обиды;</l><l part="N"> А для других имей едины только виды,</l><l part="N"> <space dim="horizontal" extent="11 letters"/>И помни, свет каков:</l><l part="N"> В нем мало мудрости и много дураков.</l><l part="N"> Довольствуй их всегда пустыми ты мечтами<note resp="editor" place="unspecified" anchored="true">Пустыми ты мечтами. - В оригинале опечатка: местами.</note>:</l><l part="N"> Чти сердцем ты себя, других ты чти устами!</l><l part="N"> Вить пошлины не дашь, лаская им, за то.</l><l part="N"> Показывай, что ты других гораздо ниже</l><l part="N"> И будто ты себя не ставишь ни за что;</l><l part="N"> Но помни, епанчи <note resp="editor" place="unspecified" anchored="true">Епанча - верхняя одежда, плащ.</note>: рубашка к телу ближе!</l><l part="N"> Позволю я тебе и в карты поиграть,</l><l part="N"> Когда ты в те игры умеешь подбирать:</l><l part="N"> И видь игру свою без хитрости ты мертву,</l><l part="N"> Не принеси другим себя, играя, в жертву!</l><l part="N"> <space dim="horizontal" extent="5 letters"/>А этого, мой сын, не позабудь:</l><l part="N"> Играя, честен ты в игре вовек не будь!</l><l part="N"> Пренебрегай крестьян, их видя под ногами,</l><l part="N"> Устами чти господ великих ты богами</l><l part="N"> <space dim="horizontal" extent="11 letters"/>И им не согруби;</l><l part="N"> Однако никого из них и не люби,</l><l part="N"> <space dim="horizontal" extent="5 letters"/>Хотя б они достоинство имели,</l><l part="N"> Хотя бы их дела в подсолнечной гремели!</l><l part="N"> Давай и взятки сам и сам опять бери!</l><l part="N"> Коль нет свидетелей, - воруй, плутуй, сколь можно,</l><l part="N"> А при свидетелях бездельствуй осторожно!</l><l part="N"> Добро других людей во худо претвори</l><l part="N"> И ни о ком добра другом не говори:</l><l part="N"> Какой хвалою им тебе иметь нажиток?</l><l part="N"> Явл<emph>е</emph>нное добро <note resp="editor" place="unspecified" anchored="true">Явленное добро - неожиданно доставшееся добро.</note> другим - тебе убыток.</l><l part="N"> Не тщися никому беспрочно ты служить;</l><l part="N"> Чужой мошной себе находки не нажить!</l><l part="N"> Ученых ненавидь и презирай невежу,</l><l part="N"> Имея мысль одну себе на пользу свежу!</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Лишь тем не повредись:</l><l part="N"> В сатиру дерзостным писцам не попадись!</l><l part="N"> Смучай<note resp="editor" place="unspecified" anchored="true">Смучай - интригуй.</note> и рви родства ты узы, дружбы, браков:</l><l part="N"> Во мутной вить воде ловить удобней раков.</l><l part="N"> Любви, родства, свойства и дружбы ты не знай</l><l part="N"> И только о себе едином вспоминай!</l><l part="N"> Для пользы своея тяни друзей в обманы,</l><l part="N"> Пускай почувствуют тобой и скорбь и раны!</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Везде сбирай плоды.</l><l part="N"> Для пользы своея вводи друзей в беды!</l><l part="N"> Бесчестно, бредят, то, а этого не видно,</l><l part="N"> Себя мне только долг велит любить.</l><l part="N"> <space dim="horizontal" extent="11 letters"/>Мне это не обидно,</l><l part="N"> Коль нужда мне велит другого погубить;</l><l part="N"> Противно естеству себя не возлюбить.</l><l part="N"> Пускай в отечество мое беда вселится,</l><l part="N"> Пускай оно хотя сквозь землю провалится,</l><l part="N"> Чужое гибни всё, лишь был бы мне покой.</l><l part="N"> <space dim="horizontal" extent="5 letters"/>Не забывай моих ты правил!</l><l part="N"> Имение тебе и разум я оставил.</l><l part="N"> Живи, мой сын, живи, как жил родитель твой!</l></q></l>
+        <l part="N"> Как это он изрек, ударен он был громом</l>
+        <l part="N"> И разлучился он с дитятею и с домом,</l>
+        <l part="N"> И сеявша душа толико долго яд</l>
+        <l part="N"> Из тела вышла вон и сверглася во ад.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

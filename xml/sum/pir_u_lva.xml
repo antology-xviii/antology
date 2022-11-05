@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Пир у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Льва</tei:orig><tei:reg>Лев</tei:reg></tei:choice></tei:name></title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>А. П. Сумароков. Избранные произведения</title>
+            <editor role="editor">П.Н. Берков</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л. </pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Пир у льва</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> А. П. Сумароков. Притчи. Книга 1.                   СПб.</publisher>
+                <date>1762</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1762</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">истина</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">власть правителя</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поведение подданных</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в.р." org="uniform" sample="complete" part="N">
+        <l part="N"><space dim="horizontal" extent="4 letters"/> Коль истиной не можно отвечать,   </l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/> Всего полезнее молчать. </l>
+        <l part="N"> С боярами как жить, потребно это ведать. </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/> У <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Льва</tei:orig><tei:reg>Лев</tei:reg></tei:choice></tei:name> был пир, </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/> Пришел весь мир   </l>
+        <l part="N"><space dim="horizontal" extent="17 letters"/> Обедать. </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>  В покоях вонь у <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Льва</tei:orig><tei:reg>Лев</tei:reg></tei:choice></tei:name>: </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/> Квартера такова. </l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/> А <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>львы</tei:orig><tei:reg>Лев</tei:reg></tei:choice></tei:name>живут нескудно, </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/> Так это чудно. </l>
+        <l part="N"> Подобны в чистоте жилищ они чухнам </l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/> Или посадским мужикам, </l>
+        <l part="N"> Которые в торги умеренно вступили </l>
+        <l part="N"> И откупами нас еще не облупили </l>
+        <l part="N"> И вместо портупей имеют кушаки, </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> А кратче так: торговы мужики. </l>
+        <l part="N"><space dim="horizontal" extent="9 letters"/> Пришла вонь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Волку</tei:orig><tei:reg>Волк</tei:reg></tei:choice></tei:name> к носу; </l>
+        <l part="N"> <name type="character">Волк</name> это объявил в беседе без допросу, </l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/> Что запах худ. </l>
+        <l part="N">Услышав, <name type="character">Лев</name> кричит: <q>Бездельник ты и плут,  <l part="N">Худого запаха и не бывало тут. </l><l part="N"><space dim="horizontal" extent="4 letters"/> И смеют ли в такие толки </l><l part="N"><space dim="horizontal" extent="4 letters"/> Входить о львовом доме <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>волки</tei:orig><tei:reg>Волк</tei:reg></tei:choice></tei:name>?</l></q> </l>
+        <l part="N">А чтобы бредить <name type="character">Волк</name>Волк напредки не дерзал, </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> Немножечко он <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Волка</tei:orig><tei:reg>Волк</tei:reg></tei:choice></tei:name>потазал </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> И для поправки наказал, </l>
+        <l part="N">А именно - на части растерзал. </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> <name type="character">Мартышка</name>, видя страшны грозы, </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> Сказала: <q>Здесь нарциссы, розы  <l part="N"><space dim="horizontal" extent="17 letters"/> Цветут</l></q>. </l>
+        <l part="N"><name type="character">Лев</name> ей ответствовал: <q>И ты такой же плут:  <l part="N">Нарциссов, роз и не бывало тут. </l><l part="N"><space dim="horizontal" extent="4 letters"/> Напредки не сплетай ты лести, </l><l part="N"><space dim="horizontal" extent="9 letters"/> А за такие вести </l><l part="N"><space dim="horizontal" extent="9 letters"/> И за приязнь </l><l part="N">Прими и ты достойну казнь</l></q>. </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> Преставился <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Волчишка</tei:orig><tei:reg>Волк</tei:reg></tei:choice></tei:name>, </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> Преставилась <name type="character">Мартышка</name>. </l>
+        <l part="N"> <q>Скажи, <name type="character">Лисица</name>, ты, - хозяин вопрошал, -  <l part="N"><space dim="horizontal" extent="4 letters"/> Какой бы запах нам дышал? </l><l part="N">Я знаю, что твое гораздо чувство нежно; </l><l part="N"><space dim="horizontal" extent="4 letters"/> Понюхай ты прилежно</l></q>. </l>
+        <l part="N"><space dim="horizontal" extent="4 letters"/> <name type="character">Лисица</name> на этот вопрос </l>
+        <l part="N">Сказала: <q>У меня залег сегодни нос</q>. </l>
+      </div>
+    </body>
+  </text>
+</TEI>

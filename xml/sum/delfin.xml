@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Дельфин и невежа хвастун</title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ольга Овчарская</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Дельфин и невежа хвастун</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч.7. Притчи. Кн. 2.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Новиков Н.И.</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>			<date>1787</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда б невежи то побольше разбирали,</l>
+          <l part="N">Как должно говорить, они бы меньше врали.</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>Какой то человек</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>В каком то море тонет,</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>Окончевает век.</l>
+          <l part="N"><space dim="horizontal" extent="20 letters"/>Кричит и стонет.</l>
+          <l part="N"><space dim="horizontal" extent="16 letters"/>Сплетен такой рассказ,</l>
+          <l part="N">Что будто жестоко Дельфины любят нас.</l>
+          <l part="N">Немножко должно мне теперь полицемерить</l>
+          <l part="N">Рассказу этому и я хочу поверить</l>
+          <l part="N"><space dim="horizontal" extent="29 letters"/>Хочу</l>
+          <l part="N">Я пошлины за то в казну не заплачу.</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>Дельфин стенящего спасает</l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/>И на спину к себе бросает:</l>
+          <l part="N">Мой всадник по морю гуляет на коне.</l>
+          <l part="N">
+            <space dim="horizontal" extent="21 letters"/>
+            <q>Скажи ты мне,</q>
+          </l>
+          <l part="N"><space dim="horizontal" extent="10 letters"/><q>В какой  родился  ты  стране?</q> -</l>
+          <l part="N">Дельфин его спросил. Мой всадник отвечает:</l>
+          <l part="N"><q>Родился тамо я, а там и там бывал</q>.</l>
+          <l part="N">Что ведомо ему, того не забывал,</l>
+          <l part="N">И Географии Дельфина научает.</l>
+          <l part="N">Дельфин его спросил: <q>В <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> бывал ли ты,</q></l>
+          <l part="N">
+            <q>Во обиталище девичьей красоты? </q>
+          </l>
+          <l part="N">В рассказы всадник мой гораздо углубился</l>
+          <l part="N"><space dim="horizontal" extent="22    letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвы</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> не знал,</l>
+          <l part="N">Однако  о   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москве</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name>,   вздыхая, вспоминал,</l>
+          <l part="N">И говорит: он там со многими любился.</l>
+          <l part="N">Дельфин его спросил: <q>Известна ли тебе</q></l>
+          <l part="N"><q>В      <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>      <name type="place">Волга</name>? </q> - <q>Да, я счастья там и боле <l part="N"><space dim="horizontal" extent="17 letters"/>В любви имел себе,</l><l part="N"><space dim="horizontal" extent="16 letters"/>Цветов колико в поле,</l><l part="N"><space dim="horizontal" extent="23 letters"/>Толико там <space dim="horizontal" extent="23 letters"/>Прекрасных дам.</l><l part="N"><space dim="horizontal" extent="10    letters"/><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Москвы</tei:orig><tei:reg>Москва</tei:reg></tei:choice></tei:name> сей город больше вдвое,</l><l part="N"><space dim="horizontal" extent="10 letters"/>А может быть, и втрое</l></q>.</l>
+          <l part="N"><space dim="horizontal" extent="20 letters"/>На те слова</l>
+          <l part="N">Дельфин ответствует проворному детине: <q><l part="N">А этот город, ты со мной в котором ныне,</l><l part="N">В котором путает безмозгла голова,</l><l part="N"><space dim="horizontal" extent="17   letters"/>И   <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Волги</tei:orig><tei:reg>Волга</tei:reg></tei:choice></tei:name> больше вдвое,</l><l part="N"><space dim="horizontal" extent="17 letters"/>А может быть, и втрое</l><l part="N"><space dim="horizontal" extent="17 letters"/>А во стенах сих мест</l><l part="N">Толика много дам, колико в небе звезд</l></q>.</l>
+          <l part="N">Собросил со спины Дельфин сего детину</l>
+          <l part="N"><space dim="horizontal" extent="15 letters"/>И говорил еще:</l>
+          <l part="N">
+            <space dim="horizontal" extent="15 letters"/>
+            <q>Я спас тебя вотще;</q>
+          </l>
+          <l part="N"><q>Мы возим на себе людей, а не скотину</q>.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

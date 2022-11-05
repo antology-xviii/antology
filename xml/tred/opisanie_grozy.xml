@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Описание грозы, бывшия в Гаге</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Описание грозы, бывшия в Гаге</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>?</publisher>
+                <date>?</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1726/1727</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">стихия</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">гроза </tei:span>
+    <body xml:id="whole">
+      <div met="Силлабич. 5-сл." rhyme="AABBCCDD" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">С одной страны гром,</l>
+          <l part="N">С другой страны гром,</l>
+          <l part="N">Смутно в воздухе!</l>
+          <l part="N">Ужасно в ухе!</l>
+          <l part="N">Набегли тучи</l>
+          <l part="N">Воду несучи,</l>
+          <l part="N">Небо закрыли,</l>
+          <l part="N">В страх помутили!</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Молнии сверкают,</l>
+          <l part="N">Страхом поражают,</l>
+          <l part="N">Треск в лесу с перуна,</l>
+          <l part="N">И темнеет луна,<note resp="editor" place="unspecified" anchored="true">Так как гроза происходит, как ясно из дальнейшего, днем, то речь идет не о том, что реально затмевается луна. Смысл стиха или в том, что свет молнии затмевает по блеску луну, или же, вернее, что от молнии меркнет, темнеет зарево (судя по рифме, надо читать ?луна?, а по-польски luna - зарево, z piorunu - от молнии).</note></l>
+          <l part="N">Вихри бегут с прахом,</l>
+          <l part="N">Полоса<note resp="editor" place="unspecified" anchored="true">Здесь: молния.</note> рвет махом,</l>
+          <l part="N">Страшно ревут воды</l>
+          <l part="N">От той непогоды.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ночь наступила,</l>
+          <l part="N">День изменила,<note resp="editor" place="unspecified" anchored="true">Днем стало темно, как ночью.</note></l>
+          <l part="N">Сердце упало:</l>
+          <l part="N">Всё зло настало!</l>
+          <l part="N">Пролил дождь в крышки,<note resp="editor" place="unspecified" anchored="true">В крыши.</note></l>
+          <l part="N">Трясутся вышки,</l>
+          <l part="N">Сыплются грады,</l>
+          <l part="N">Бьют вертограды.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Все животны рыщут,</l>
+          <l part="N">Покоя не сыщут,</l>
+          <l part="N">Биют себя в груди</l>
+          <l part="N">Виноваты люди,</l>
+          <l part="N">Бояся напасти</l>
+          <l part="N">И чтоб не пропасти,</l>
+          <l part="N">Руки воздевают,</l>
+          <l part="N">На небо глашают:<note resp="editor" place="unspecified" anchored="true">Вопиют к небу, обращаются с мольбой.</note> <q><lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">О солнце красно!</l><l part="N">Стань опять ясно,</l><l part="N">Разжени тучи,</l><l part="N">Слезы горючи,</l><l part="N">Столкай премену<note resp="editor" place="unspecified" anchored="true">Отгони грозу (перемену погоды).</note></l><l part="N">Отсель за <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Вену</tei:orig><tei:reg>Вена</tei:reg></tei:choice></tei:name>.</l><l part="N">Дхнуть бы зефиром</l><l part="N">С тишайшим миром!</l></lg> <lg type="stanza" org="uniform" sample="complete" part="N"><l part="N">А вы, аквилоны,</l><l part="N">Будьте как и оны<note resp="editor" place="unspecified" anchored="true">Т. е. как зефиры.</note>;</l><l part="N">Лютость отложите,</l><l part="N">Только прохладите.</l><l part="N">Побеги вся злоба</l><l part="N">До вечного гроба:</l><l part="N">Дни нам надо красны,</l><l part="N">Приятны и ясны.</l></lg></q></l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

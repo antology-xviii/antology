@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> На смерть князя Мещерского </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> На смерть князя Мещерского - Ода на смерть к К. М. к***</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Санкт-Петербургский вестник, N9</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1779</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смерть</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">быстротечность жизни</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Перфильев С. В.</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aBaBcDDc" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Глагол времен! металла звон!       </l>
+          <l part="N"> Твой страшный глас меня смущает,       </l>
+          <l part="N"> Зовет меня, зовет твой стон,       </l>
+          <l part="N"> Зовет - и к гробу приближает.       </l>
+          <l part="N"> Едва увидел я сей свет,       </l>
+          <l part="N"> Уже зубами смерть скрежещет,       </l>
+          <l part="N"> Как молнией, косою блещет       </l>
+          <l part="N"> И дни мои, как злак, сечет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Ничто от роковых когтей,       </l>
+          <l part="N"> Никая тварь не убегает:       </l>
+          <l part="N"> Монарх и узник - снедь червей,       </l>
+          <l part="N"> Гробницы злость стихий снедает;       </l>
+          <l part="N"> Зияет время славу стерть:       </l>
+          <l part="N"> Как в море льются быстры воды,       </l>
+          <l part="N"> Так в вечность льются дни и годы;       </l>
+          <l part="N"> Глотает царства алчна смерть.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Скользим мы бездны на краю,       </l>
+          <l part="N"> В которую стремглав свалимся;       </l>
+          <l part="N"> Приемлем с жизнью смерть свою,       </l>
+          <l part="N"> На то, чтоб умереть, родимся.       </l>
+          <l part="N"> Без жалости всё смерть разит:       </l>
+          <l part="N"> И звезды ею сокрушатся,       </l>
+          <l part="N"> И солнцы ею потушатся,       </l>
+          <l part="N"> И всем мирам она грозит.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Не мнит лишь смертный умирать,       </l>
+          <l part="N"> И быть себя он вечным чает;       </l>
+          <l part="N"> Приходит смерть к нему, - как тать,       </l>
+          <l part="N"> И жизнь внезапу похищает.       </l>
+          <l part="N"> Увы! где меньше страха нам,       </l>
+          <l part="N"> Там может смерть постичь скорее;       </l>
+          <l part="N"> Ее и громы не быстрее       </l>
+          <l part="N"> Слетают к гордым вышинам.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Сын роскоши, прохлад и нег,</l>
+          <l part="N"> Куда, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Мещерский</tei:orig><tei:reg>Мещерский А. И.</tei:reg></tei:choice></tei:name>! ты сокрылся?       </l>
+          <l part="N"> Оставил ты сей жизни брег,       </l>
+          <l part="N"> К брегам ты мертвых удалился;       </l>
+          <l part="N"> Здесь персть твоя, а духа нет.       </l>
+          <l part="N"> Где ж он? - Он там. - Где там? - Не знаем.       </l>
+          <l part="N"> Мы только плачем и взываем:       </l>
+          <l part="N"> <q>О, горе нам, рожденным в свет!</q></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Утехи, радость и любовь       </l>
+          <l part="N"> Где купно с здравием блистали,       </l>
+          <l part="N"> У всех там цепенеет кровь       </l>
+          <l part="N"> И дух мятется от печали.       </l>
+          <l part="N"> Где стол был яств, там гроб стоит;       </l>
+          <l part="N"> Где пиршеств раздавались лики,       </l>
+          <l part="N"> Надгробные там воют клики,       </l>
+          <l part="N"> И бледна смерть на всех глядит.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Глядит на всех - и на царей,       </l>
+          <l part="N"> Кому в державу тесны миры;       </l>
+          <l part="N"> Глядит на пышных богачей,       </l>
+          <l part="N"> Что в злате и сребре кумиры;       </l>
+          <l part="N"> Глядит на прелесть и красы,       </l>
+          <l part="N"> Глядит на разум возвышенный,       </l>
+          <l part="N"> Глядит на силы дерзновенны       </l>
+          <l part="N"> И точит лезвие косы.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Смерть, трепет естества и страх!       </l>
+          <l part="N"> Мы гордость, с бедностью совместна       </l>
+          <l part="N"> Сегодня бог, а завтра прах;       </l>
+          <l part="N"> Сегодня льстит надежда лестна,       </l>
+          <l part="N"> А завтра - где ты, человек?       </l>
+          <l part="N"> Едва часы протечь успели,       </l>
+          <l part="N"> Хаоса в бездну улетели,       </l>
+          <l part="N"> И весь, как сон, прошел твой век.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Как сон, как сладкая мечта,       </l>
+          <l part="N"> Исчезла и моя уж младость;       </l>
+          <l part="N"> Не сильно нежит красота,       </l>
+          <l part="N"> Не столько восхищает радость,       </l>
+          <l part="N"> Не столько легкомыслен ум,       </l>
+          <l part="N"> Не столько я благополучен;       </l>
+          <l part="N"> Желанием честей размучен,       </l>
+          <l part="N"> Зовет, я слышу, славы шум.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Но так и мужество пройдет       </l>
+          <l part="N"> И вместе к славе с ним стремленье:       </l>
+          <l part="N"> Богатств стяжание минет,       </l>
+          <l part="N"> И в сердце всех страстей волненье       </l>
+          <l part="N"> Прейдет, прейдет в чреду свою.       </l>
+          <l part="N"> Подите счастьи прочь возможны,       </l>
+          <l part="N"> Вы все пременны здесь и ложны:       </l>
+          <l part="N"> Я в дверях вечности стою.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> Сей день иль завтра умереть,</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Перфильев</tei:orig><tei:reg>Перфильев С. В.</tei:reg></tei:choice></tei:name>! должно нам конечно:       </l>
+          <l part="N"> Почто ж терзаться и скорбеть,       </l>
+          <l part="N"> Что смертный друг твой жил не вечно?       </l>
+          <l part="N"> Жизнь есть небес мгновенный дар;       </l>
+          <l part="N"> Устрой ее себе к покою       </l>
+          <l part="N"> И с чистою твоей душою       </l>
+          <l part="N"> Благословляй судеб удар.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

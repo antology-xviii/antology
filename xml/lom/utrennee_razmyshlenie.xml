@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Утреннее размышление о Божием Величестве</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Утреннее размышление о Божием Величестве</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Собрание разных сочинений в стихах и прозе. СПб.</publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1743</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="AbAbcc" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уже прекрасное светило</l>
+          <l part="N">Простерло блеск свой по земли</l>
+          <l part="N">И Божия дела открыло.</l>
+          <l part="N">Мой дух, с веселием внемли,</l>
+          <l part="N">Чудяся ясным толь лучам,</l>
+          <l part="N">Представь, каков <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Зиждитель</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> сам! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Когда бы смертным толь высоко</l>
+          <l part="N">Возможно было возлететь,</l>
+          <l part="N">Чтоб к солнцу бренно наше око</l>
+          <l part="N">Могло приближившись возреть,</l>
+          <l part="N">Тогдаб со всех открылся стран</l>
+          <l part="N">Горящий вечно Океан. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Там огненны валы стремятся</l>
+          <l part="N">И не находят берегов,</l>
+          <l part="N">Там вихри пламенны крутятся,</l>
+          <l part="N">Борющись множество веков;</l>
+          <l part="N">Там камни, как вода, кипят,</l>
+          <l part="N">Горящи там дожди шумят. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сия ужасная громада -</l>
+          <l part="N">Как искра пред тобой одна.</l>
+          <l part="N">О коль пресветлая лампада</l>
+          <l part="N">Тобою, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Боже</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>, возжжена</l>
+          <l part="N">Для наших повседневных дел,</l>
+          <l part="N">Что ты творить нам повелел! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">От мрачной ночи свободились</l>
+          <l part="N">Поля, бугры, моря и лес</l>
+          <l part="N">И взору нашему открылись,</l>
+          <l part="N">Исполненны твоих чудес.</l>
+          <l part="N">Там всякая взывает плоть:</l>
+          <l part="N"><q>Велик <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Зиждитель</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> наш, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Господь</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>!</q> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Светило дневное блистает</l>
+          <l part="N">Лишь только на поверхность тел,</l>
+          <l part="N">Но взор твой в бездну проницает,</l>
+          <l part="N">Не зная никаких предел.</l>
+          <l part="N">От светлости твоих очей</l>
+          <l part="N">Лиется радость твари всей. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"><tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Творец</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>! Покрытому мне тмою</l>
+          <l part="N">Простри премудрости лучи</l>
+          <l part="N">И что угодно пред Тобою</l>
+          <l part="N">Всегда творити научи</l>
+          <l part="N">И, на Твою взирая тварь,</l>
+          <l part="N">Хвалить тебя, бессмертный <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Царь</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Превращение Купидона в бабочку</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Басня Превращенный Купидон в бабочку</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Невинное упражнение</publisher>
+                <date>1763</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">непостоянство/постоянство любви</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AbAbCdCd EdEdEeEe AaAaEdEd DaDa." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Досадой некогда <name type="mythologic">Юпитер</name> раздраженный,</l>
+          <l part="N">Как дерзкий <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>бог любви</tei:orig><tei:reg>Купидон</tei:reg></tei:choice></tei:name> ему стрелой грозил,</l>
+          <l part="N">Во гневе яростном, за скиптр пренебреженный,</l>
+          <l part="N">В вид бабочкин божка сего преобразил.</l>
+          <l part="N">Вдруг крылышки из рук явились голубые,</l>
+          <l part="N">Взлетел и в бабочку преобразился бог:</l>
+          <l part="N">Он рожки получил и ножки золотые;</l>
+          <l part="N">Он плакать начинал, но плакать уж не мог.</l>
+          <l part="N">Нет лука у него, нет стрел и нет колчана, -</l>
+          <l part="N">Победы все его пресек ужасный рок.</l>
+          <l part="N">Садится он на верх иль розы, иль тюльпана,</l>
+          <l part="N">Перелетаючи с цветочка на цветок.</l>
+          <l part="N">Но жалость наконец <name type="mythologic">Юпитер</name> ощущает,</l>
+          <l part="N">Вид прежний на себя велит ему принять:</l>
+          <l part="N">Не вечно он казнит, не вовсе он прощает,</l>
+          <l part="N">Чтоб дерзкие его страшились прогневлять.</l>
+          <l part="N">Явился паки лук, приемлют силу стрелы,</l>
+          <l part="N">И в прежнем виде стал прощенный наконец,</l>
+          <l part="N">Лишь бабочкины с ним остались крылья целы,</l>
+          <l part="N">Во знак, что гневен был к нему богов отец.</l>
+          <l part="N"/>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не стало с той поры в любови постоянства,</l>
+          <l part="N">Как сделался крылат продерзкий <name type="mythologic">Купидон</name>;</l>
+          <l part="N">Ища иных побед и нового подданства,</l>
+          <l part="N">Летает с той поры из сердца в сердце он.</l>
+          <l part="N">Но вечно будешь жить, о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>бог любви</tei:orig><tei:reg>Купидон</tei:reg></tei:choice></tei:name>! со мною,</l>
+          <l part="N">И навсегда мое ты сердце взял во плен:</l>
+          <l part="N">Конечно, я тогда пронзен твоей стрелою,</l>
+          <l part="N">Как в бабочку еще ты не был превращен?</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

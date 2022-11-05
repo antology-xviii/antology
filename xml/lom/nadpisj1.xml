@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Надпись 1 к статуе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петра Великаго</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name></title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Надпись 1 к статуе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петра Великаго</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name></title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Собрание разных сочинений в стихах и прозе. СПб.</publisher>
+                <date>1751</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1750</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="Астрофич. в. р." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Се образ изваян <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>премудрого Героя</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Что, ради подданных лишив себя покоя,</l>
+          <l part="N">Последний принял чин и царствуя служил.</l>
+          <l part="N">Свои законы сам примером утвердил,</l>
+          <l part="N">Рожденны к Скипетру простер в работу руки,</l>
+          <l part="N">Монаршу власть скрывал, чтоб нам открыть науки</l>
+          <l part="N">Когда <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Он</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name> строил град, сносил труды в войнах,</l>
+          <l part="N">В землях далеких был и странствовал в морях,</l>
+          <l part="N">Художников збирал и обучал солдатов,</l>
+          <l part="N">Домашних побеждал и внешних сопостатов;</l>
+          <l part="N">И словом, се есть <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Петр</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name>, отечества Отец;</l>
+          <l part="N">Земное божество <name type="place">Россия</name> почитает,</l>
+          <l part="N">И столько олтарей пред зраком сим пылает,</l>
+          <l part="N">Коль много есть <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ему</tei:orig><tei:reg>Пётр I</tei:reg></tei:choice></tei:name> обязанных сердец.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

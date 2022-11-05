@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Снигирь </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> К снигирю. По кончине князя Суворова </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Друг просвещения </publisher>
+                <date>1805</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1800</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> смерть </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> война </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole"> мужество </tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">А. В. Суворову</tei:span>
+    <body xml:id="whole">
+      <div met="Лог" rhyme="AbAbCd // EfEfCd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что ты заводишь песню военну       </l>
+          <l part="N">Флейте подобно, милый Снигирь?       </l>
+          <l part="N">С кем мы пойдем войной на Гиену?       </l>
+          <l part="N">Кто теперь вождь наш? Кто богатырь?</l>
+          <l part="N">Сильный где, храбрый, быстрый <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Суворов</tei:orig><tei:reg> Суворов А. В.</tei:reg></tei:choice></tei:name>?       </l>
+          <l part="N">Северны громы в гробе лежат.         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кто перед ратью будет, пылая,       </l>
+          <l part="N">Ездить на кляче, есть сухари;       </l>
+          <l part="N">В стуже и в зное меч закаляя,       </l>
+          <l part="N">Спать на соломе, бдеть до зари;       </l>
+          <l part="N">Тысячи воинств, стен и затворов,       </l>
+          <l part="N">С горстью россиян всё побеждать?         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Быть везде первым в мужестве строгом;       </l>
+          <l part="N">Шутками зависть, злобу штыком,       </l>
+          <l part="N">Рок низлагать молитвой и богом;       </l>
+          <l part="N">Скиптры давая, зваться рабом;       </l>
+          <l part="N">Доблестей быв страдалец единых,       </l>
+          <l part="N">Жить для царей, себя изнурять?         </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Нет теперь мужа в свете столь славна:       </l>
+          <l part="N">Полно петь песню военну, Снигирь!       </l>
+          <l part="N">Бранна музыка днесь не забавна,       </l>
+          <l part="N">Слышен отвсюду томный вой лир;       </l>
+          <l part="N">Львиного сердца, крыльев орлиных       </l>
+          <l part="N">Нет уже с нами! - что воевать?     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

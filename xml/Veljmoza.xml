@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Вельможа </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Наталья Перкова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения </title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Вельможа </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина. М. Ч. 1.</publisher>
+                <date>1798</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1794</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Румянцов П. А.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">честь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">государственная служба</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">долг</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетель</tei:span>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="aBaBcDDc" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не украшение одежд</l>
+          <l part="N">Моя днесь муза прославляет,</l>
+          <l part="N">Которое, в очах невежд,</l>
+          <l part="N">Шутов в вельможи наряжает;</l>
+          <l part="N">Не пышности я песнь пою;</l>
+          <l part="N">Не истуканы за кристаллом,</l>
+          <l part="N">В кивотах блещущи металлом,</l>
+          <l part="N">Услышат похвалу мою. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Хочу достоинствы я чтить,</l>
+          <l part="N">Которые собою сами</l>
+          <l part="N">Умели титлы заслужить</l>
+          <l part="N">Похвальными себе делами;</l>
+          <l part="N">Кого ни знатный род, ни сан,</l>
+          <l part="N">Ни счастие не украшали;</l>
+          <l part="N">Но кои доблестью снискали</l>
+          <l part="N">Себе почтенье от граждан. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кумир, поставленный в позор,</l>
+          <l part="N">Несмысленную чернь прельщает;</l>
+          <l part="N">Но коль художников в нем взор</l>
+          <l part="N">Прямых красот не ощущает, -</l>
+          <l part="N">Се образ ложныя молвы,</l>
+          <l part="N">Се глыба грязи позлащенной!</l>
+          <l part="N">И вы, без благости душевной,</l>
+          <l part="N">Не все ль, вельможи, таковы? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не перлы перские на вас</l>
+          <l part="N">И не бразильски звезды ясны, -</l>
+          <l part="N">Для возлюбивших правду глаз</l>
+          <l part="N">Лишь добродетели прекрасны,</l>
+          <l part="N">Они суть смертных похвала.</l>
+          <l part="N"><name type="person"> Калигула </name>! твой конь в Сенате</l>
+          <l part="N">Не мог сиять, сияя в злате:</l>
+          <l part="N">Сияют добрые дела. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Осел останется ослом,</l>
+          <l part="N">Хотя осыпь его звездами;</l>
+          <l part="N">Где должно действовать умом,</l>
+          <l part="N">Он только хлопает ушами.</l>
+          <l part="N">О! тщетно счастия рука,</l>
+          <l part="N">Против естественного чина,</l>
+          <l part="N">Безумца рядит в господина</l>
+          <l part="N">Или в шумиху дурака. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Каких ни вымышляй пружин,</l>
+          <l part="N">Чтоб мужу бую умудриться,</l>
+          <l part="N">Не можно век носить личин,</l>
+          <l part="N">И истина должна открыться.</l>
+          <l part="N">Когда не сверг в боях, в судах,</l>
+          <l part="N">В советах царских супостатов, -</l>
+          <l part="N">Всяк думает, что я <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Чупятов</tei:orig><tei:reg>Чупятов В. А.</tei:reg></tei:choice></tei:name></l>
+          <l part="N">В мароккских лентах и звездах. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Оставя скипетр, трон, чертог,</l>
+          <l part="N">Быв странником, в пыли и в поте,</l>
+          <l part="N">Великий <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig> Петр</tei:orig><tei:reg>Петр I</tei:reg></tei:choice></tei:name>, как некий бог,</l>
+          <l part="N">Блистал величеством в работе:</l>
+          <l part="N">Почтен и в рубище герой!</l>
+          <l part="N"><name type="person"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type=" person"><tei:choice><tei:orig>Екатерина</tei:orig><tei:reg>Екатерина II</tei:reg></tei:choice></tei:name> </name> в низкой доле</l>
+          <l part="N">И не на царском бы престоле</l>
+          <l part="N">Была великою женой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И впрямь, коль самолюбья лесть</l>
+          <l part="N">Не обаяла б ум надменный, -</l>
+          <l part="N">Что наше благородство, честь,</l>
+          <l part="N">Как не изящности душевны?</l>
+          <l part="N">Я князь - коль мой сияет дух;</l>
+          <l part="N">Владелец - коль страстьми владею;</l>
+          <l part="N">Болярин - коль за всех болею,</l>
+          <l part="N">Царю, закону, церкви друг. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вельможу должны составлять</l>
+          <l part="N">Ум здравый, сердце просвещенно;</l>
+          <l part="N">Собой пример он должен дать,</l>
+          <l part="N">Что звание его священно,</l>
+          <l part="N">Что он орудье власти есть,</l>
+          <l part="N">Подпора царственного зданья;</l>
+          <l part="N">Вся мысль его, слова, деянья</l>
+          <l part="N">Должны быть - польза, слава, честь. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А ты, вторый <name type="person"> Сарданапал </name>!</l>
+          <l part="N">К чему стремишь всех мыслей беги?</l>
+          <l part="N">На то ль, чтоб век твой протекал</l>
+          <l part="N">Средь игр, средь праздности и неги?</l>
+          <l part="N">Чтоб пурпур, злато всюду взор</l>
+          <l part="N">В твоих чертогах восхищали,</l>
+          <l part="N">Картины в зеркалах дышали,</l>
+          <l part="N">Мусия, мрамор и фарфор? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">На то ль тебе пространный свет,</l>
+          <l part="N">Простерши раболепны длани,</l>
+          <l part="N">На прихотливый твой обед</l>
+          <l part="N">Вкуснейших яств приносят дани,</l>
+          <l part="N"><name type="place"> Токай</name>- густое льет вино,</l>
+          <l part="N"><name type="place">Левант</name> - с звездами кофе жирный,</l>
+          <l part="N">Чтоб не хотел за труд всемирный</l>
+          <l part="N">Мгновенье бросить ты одно? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Там воды в просеках текут</l>
+          <l part="N">И, с шумом вверх стремясь, сверкают;</l>
+          <l part="N">Там розы средь зимы цветут</l>
+          <l part="N">И в рощах нимфы воспевают</l>
+          <l part="N">На то ль, чтобы на всё взирал</l>
+          <l part="N">Ты оком мрачным, равнодушным,</l>
+          <l part="N">Средь радостей казался скучным</l>
+          <l part="N">И в пресыщении зевал? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Орел, по высоте паря,</l>
+          <l part="N">Уж солнце зрит в лучах полдневных, -</l>
+          <l part="N">Но твой чертог едва заря</l>
+          <l part="N">Румянит сквозь завес червленных;</l>
+          <l part="N">Едва по зыблющим грудям</l>
+          <l part="N">С тобой лежащия <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig> Цирцеи  </tei:orig><tei:reg>Цирцея</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Блистают розы и лилеи,</l>
+          <l part="N">Ты с ней покойно спишь, - а там? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А там израненный герой,</l>
+          <l part="N">Как лунь во бранях поседевший,</l>
+          <l part="N">Начальник прежде бывший твой, -</l>
+          <l part="N">В переднюю к тебе пришедший</l>
+          <l part="N">Принять по службе твой приказ, -</l>
+          <l part="N">Меж челядью твоей златою,</l>
+          <l part="N">Поникнув лавровой главою,</l>
+          <l part="N">Сидит и ждет тебя уж час! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А там - вдова стоит в сенях</l>
+          <l part="N">И горьки слезы проливает,</l>
+          <l part="N">С грудным младенцем на руках,</l>
+          <l part="N">Покрова твоего желает.</l>
+          <l part="N">За выгоды твои, за честь</l>
+          <l part="N">Она лишилася супруга;</l>
+          <l part="N">В тебе его знав прежде друга,</l>
+          <l part="N">Пришла мольбу свою принесть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А там - на лестничный восход</l>
+          <l part="N">Прибрел на костылях согбенный</l>
+          <l part="N">Бесстрашный, старый воин тот,</l>
+          <l part="N">Тремя медальми украшенный,</l>
+          <l part="N">Которого в бою рука</l>
+          <l part="N">Избавила тебя от смерти:</l>
+          <l part="N">Он хочет руку ту простерти</l>
+          <l part="N">Для хлеба от тебя куска. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А там, - где жирный пес лежит,</l>
+          <l part="N">Гордится вратник галунами, -</l>
+          <l part="N">Заимодавцев полк стоит,</l>
+          <l part="N">К тебе пришедших за долгами.</l>
+          <l part="N">Проснися, сибарит! - Ты спишь</l>
+          <l part="N">Иль только в сладкой неге дремлешь,</l>
+          <l part="N">Несчастных голосу не внемлешь</l>
+          <l part="N">И в развращенном сердце мнишь: </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N"> <q>Мне миг покоя моего <l part="N">Приятней, чем в исторьи веки;</l><l part="N">Жить для себя лишь одного,</l><l part="N">Лишь радостей уметь пить реки,</l><l part="N">Лишь ветром плыть, гнесть чернь ярмом;</l><l part="N">Стыд, совесть - слабых душ тревога!</l><l part="N">Нет добродетели! нет бога!</l></q> -</l>
+          <l part="N">Злодей, увы! - И грянул гром. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Блажен народ, который полн</l>
+          <l part="N">Благочестивой веры к богу,</l>
+          <l part="N">Хранит царев всегда закон,</l>
+          <l part="N">Чтит нравы, добродетель строгу</l>
+          <l part="N">Наследным перлом жен, детей,</l>
+          <l part="N">В единодушии - блаженство,</l>
+          <l part="N">Во правосудии - равенство,</l>
+          <l part="N">Свободу - во узде страстей! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Блажен народ! - где царь главой,</l>
+          <l part="N">Вельможи - здравы члены тела,</l>
+          <l part="N">Прилежно долг все правят свой,</l>
+          <l part="N">Чужого не касаясь дела;</l>
+          <l part="N">Глава не ждет от ног ума</l>
+          <l part="N">И сил у рук не отнимает,</l>
+          <l part="N">Ей взор и ухо предлагает, -</l>
+          <l part="N">Повелевает же сама. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сим твердым узлом естества</l>
+          <l part="N">Коль царство лишь живет счастливым, -</l>
+          <l part="N">Вельможи! - славы, торжества</l>
+          <l part="N">Иных вам нет, как быть правдивым;</l>
+          <l part="N">Как блюсть народ, царя любить,</l>
+          <l part="N">О благе общем их стараться;</l>
+          <l part="N">Змеей пред троном не сгибаться,</l>
+          <l part="N">Стоять - и правду говорить. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О росский бодрственный народ,</l>
+          <l part="N">Отечески хранящий правы!</l>
+          <l part="N">Когда расслаб весь смертных род,</l>
+          <l part="N">Какой ты не причастен славы?</l>
+          <l part="N">Каких в тебе вельможей нет?</l>
+          <l part="N">Тот храбрым был средь бранных звуков;</l>
+          <l part="N">Здесь дал бесстрашный <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Долгоруков</tei:orig><tei:reg>Долгоруков Я. Ф.</tei:reg></tei:choice></tei:name></l>
+          <l part="N">Монарху грозному ответ. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И в наши вижу времена</l>
+          <l part="N">Того я славного <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Камилла</tei:orig><tei:reg>Камилл</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Которого труды, война</l>
+          <l part="N">И старость дух не утомила.</l>
+          <l part="N">От грома звучных он побед</l>
+          <l part="N">Сошел в шалаш свой равнодушно,</l>
+          <l part="N">И от сохи опять послушно</l>
+          <l part="N">Он в поле Марсовом живет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тебе, герой! желаний муж!</l>
+          <l part="N">Не роскошью вельможа славный;</l>
+          <l part="N">Кумир сердец, пленитель душ,</l>
+          <l part="N">Вождь, лавром, маслиной венчанный!</l>
+          <l part="N">Я праведну здесь песнь воспел.</l>
+          <l part="N">Ты ею славься, утешайся,</l>
+          <l part="N">Борись вновь с бурями, мужайся,</l>
+          <l part="N">Как юный возносись орел. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пари - и с высоты твоей</l>
+          <l part="N">По мракам смутного эфира</l>
+          <l part="N">Громовой пролети струёй</l>
+          <l part="N">И, опочив на лоне мира,</l>
+          <l part="N">Возвесели еще царя. -</l>
+          <l part="N">Простри твой поздный блеск в народе,</l>
+          <l part="N">Как отдает свой долг природе</l>
+          <l part="N">Румяна вечера заря.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

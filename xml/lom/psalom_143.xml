@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Преложение псалма 143</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Преложение псалма 143</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Три оды парафрастическия псалма 143, сочиненныя чрез трех стихотворцев, из которых каждой одну сложил особливо. СПб.</publisher>
+                <date>1744</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1743</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="аВВа" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Благословен <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Господь мой Бог</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Мою десницу укрепивый</l>
+          <l part="N">И персты в брани научивый</l>
+          <l part="N">Сотреть врагов взнесенный рог.<note resp="editor" place="unspecified" anchored="true">Здесь, как и в других поэтических произведениях <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> (стихотворения 149, 174, 213, 232), слово <mentioned>рог</mentioned> употреблено в том переносном, символическом значении, какое придала ему Библия. Это значение восходит к древнейшим мифологическим представлениям евреев, относящимся к той, еще добиблейской эпохе, когда олицетворением верховного божества был у них бык. С той поры на долгие времена вплоть до первых веков христианства рог как атрибут божества стал обычным литературным символом царственного величия и грозной силы. Для поэтической стилистики <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> характерно, что, пользуясь в известных случаях библейской лексикой, он сохраняет и соответствующую фразеологию; так, слово <mentioned>рог</mentioned> встречается у него, как и в Библии, всегда в устойчивом сочетании с глаголами двух вполне определенных семантических рядов: либо вознести, воздвигнуть, возвысить, поднять, возрастить, либо сотреть, т. е. стереть, сокрушить, сломать, уничтожить.</note> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Заступник и спаситель мой,</l>
+          <l part="N">Покров, и милость, и отрада,</l>
+          <l part="N">Надежда в брани и ограда,</l>
+          <l part="N">Под власть мне дал народ святой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Боже</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>, что есть человек,</l>
+          <l part="N">Что ты ему себя являешь,</l>
+          <l part="N">И так его ты почитаешь,</l>
+          <l part="N">Котораго толь краток век. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он утро, вечер, ночь и день</l>
+          <l part="N">Во тщетных помыслах проводит;</l>
+          <l part="N">И так вся жизнь его проходит,</l>
+          <l part="N">Подобно как пустая тень. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Склони, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Зиждитель</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>, небеса,</l>
+          <l part="N">Коснись горам, и воздымятся,</l>
+          <l part="N">Да паки на земли явятся</l>
+          <l part="N">Твои ужасны чудеса. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И молнией твоей блесни,</l>
+          <l part="N">Рази от стран гремящих стрелы,</l>
+          <l part="N">Рассыпь врагов твоих пределы,</l>
+          <l part="N">Как бурей, плевы разжени. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Меня объял чужой народ,</l>
+          <l part="N">В пучине я погряз глубокой;</l>
+          <l part="N">Ты с тверди длань простри высокой,</l>
+          <l part="N">Спаси меня от многих вод. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Вещает лож язык врагов,</l>
+          <l part="N">Десница их сильна враждою,</l>
+          <l part="N">Уста обильны суетою,</l>
+          <l part="N">Скрывают в сердце злобный ков. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но я, о <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Боже</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>, возглашу</l>
+          <l part="N">Тебе песнь нову повсечасно;</l>
+          <l part="N">Я в десять струн тебе согласно</l>
+          <l part="N">Псалмы и песни приношу, </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тебе, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Спасителю Царей</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N">Что крепостью меня прославил,</l>
+          <l part="N">От лютаго меча избавил,</l>
+          <l part="N">Что враг вознес рукой своей. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Избавь меня от хищных рук</l>
+          <l part="N">И от чужих народов власти:</l>
+          <l part="N">Их речь полна тщеты, напасти;</l>
+          <l part="N">Рука их в нас наводит лук. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Подобно масличным древам</l>
+          <l part="N">Сынов их лета процветают;</l>
+          <l part="N">Одеждой дщери их блистают,</l>
+          <l part="N">Как златом испещренный храм. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Пшеницы полны гумна их,</l>
+          <l part="N">Несчетно овцы их плодятся,</l>
+          <l part="N">На тучных пажитях хранятся</l>
+          <l part="N">Стада в траве волов толстых. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Цела обширность крепких стен,</l>
+          <l part="N">Везде столпами укрепленных;</l>
+          <l part="N">Там вопля в стогнах нет стесненных,</l>
+          <l part="N">Не знают скорбных там времен. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Щастлива жизнь моих врагов!</l>
+          <l part="N">Но те светлее веселятся,</l>
+          <l part="N">Ни бурь, ни громов не боятся,</l>
+          <l part="N">Которым <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Вышний</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name> сам покров.     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Зима </title>
+        <author>          <persName>            <forename full="yes">Гавриил</forename>             <forename type="patronym" full="yes">Романович</forename>             <surname full="yes">Державин</surname>           </persName>         </author>
+        <principal>Ольга Петрова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Г. Р. Державин. Сочинения</title>
+            <editor role="editor"> В. П. Степанов, Г. П. Макогоненко</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher> Художественная литература</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1987</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Зима </title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher> Сочинения Державина, ч.2. СПб. </publisher>
+                <date>1808</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1803-1804</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Вельяминов П. Л.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мимолетность жизни</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">радость дружбы</tei:span>
+    <body xml:id="whole">
+      <div met="Х4" rhyme="AbAbCdCd" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <head> <name type="character"> Поэт </name> </head>
+          <l part="N"> Что ты, <name type="character">Муза</name>, так печальна,       </l>
+          <l part="N"> Пригорюнившись сидишь?       </l>
+          <l part="N"> Сквозь окошечка хрустальна,       </l>
+          <l part="N"> Склоча волосы, глядишь;       </l>
+          <l part="N"> Цитры, флейты и скрыпицы       </l>
+          <l part="N"> В белы руки не берешь;       </l>
+          <l part="N">  Ни  божественной  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Фелицы</tei:orig><tei:reg>Фелица</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> Ни <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Плениры</tei:orig><tei:reg>Пленира</tei:reg></tei:choice></tei:name> не поешь?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <head>   <name type="character">Муза</name></head>
+          <l part="N"> Что мне петь? - Ах! где <name type="mythologic">хариты</name>?       </l>
+          <l part="N"> И друзей моих уж нет!</l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Львов</tei:orig><tei:reg>Львов Н. А.</tei:reg></tei:choice></tei:name>, <name type="person">Хемницер И. И.</name> в гробе скрыты,</l>
+          <l part="N"> За <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Днепром</tei:orig><tei:reg>Днепр</tei:reg></tei:choice></tei:name>       <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Капнист</tei:orig><tei:reg>Капнист В. В.</tei:reg></tei:choice></tei:name> живет.       </l>
+          <l part="N"> <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вельяминов</tei:orig><tei:reg>Вельяминов П. Л.</tei:reg></tei:choice></tei:name>, муз любитель,       </l>
+          <l part="N"> Богатырь, певец в кругу,       </l>
+          <l part="N"> Беззаботный света житель,       </l>
+          <l part="N"> Согнут скорбями в дугу.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <head>   <name type="character">Поэт</name></head>
+          <l part="N"> Да! <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Фелицы</tei:orig><tei:reg>Фелица</tei:reg></tei:choice></tei:name> нет, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Плениры</tei:orig><tei:reg>Пленира</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> Нет харит, и нет друзей:       </l>
+          <l part="N"> Звук торжественныя лиры       </l>
+          <l part="N"> Посвятишь кому твоей?       </l>
+          <l part="N">   Посвятишь    ли    в    честь    ты    <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Хлору</tei:orig><tei:reg>Хлор</tei:reg></tei:choice></tei:name>       </l>
+          <l part="N"> Иль <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig>Добраде</tei:orig><tei:reg>Добрада</tei:reg></tei:choice></tei:name>  в  славе ты?       </l>
+          <l part="N"> Труб у них не слышно хору,       </l>
+          <l part="N"> Дни их тихи, как листы.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <head>  <name type="character">Муза</name></head>
+          <l part="N"> Тот сидит всегда за делом,       </l>
+          <l part="N"> Та покоит вдов, сирот, -       </l>
+          <l part="N"> В покрывале скромном, белом       </l>
+          <l part="N"> Так зима готовит плод.       </l>
+          <l part="N"> Не видать ее работы,       </l>
+          <l part="N"> Не слыхать ее машин;       </l>
+          <l part="N"> Но по скуке зрятся льготы,       </l>
+          <l part="N"> И земля цветет, как крин.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <head>  <name type="character">Поэт</name></head>
+          <l part="N"> Между тем к нам, <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Вельяминов</tei:orig><tei:reg>Вельяминов П. Л.</tei:reg></tei:choice></tei:name>,       </l>
+          <l part="N"> Ты прийди хотя согбен,       </l>
+          <l part="N"> Огнь разложим средь каминов,       </l>
+          <l part="N"> Милых сердцу соберем;       </l>
+          <l part="N"> И под арфой тихогласной,       </l>
+          <l part="N"> Наливая алый сок,       </l>
+          <l part="N"> Воспоем наш хлад прекрасный:       </l>
+          <l part="N"> Дай зиме здоровье бог!       </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

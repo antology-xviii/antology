@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Из 110 псалма. Если Божий страх в сердце обитает </title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a">Из 110 псалма. Если Божий страх в сердце обитает</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 16.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date/>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">благочестие</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">вера</tei:span>
+    <body xml:id="whole">
+      <div met="Х6" rhyme="ААbb" org="uniform" sample="complete" part="N">
+        <opener>           <emph>Исповемся тебе, Господи, всем сердцем моим.</emph>              <emph>По начальным литерам:</emph>              <emph rend="spacing">ЕКАТЕРИНА ВЕЛИКАЯ</emph>     </opener>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Если Божий страх в сердце обитает,</l>
+          <l part="N">К вышнему умом кто всегда взлетает,</l>
+          <l part="N">Адаманта сей чище много раз,</l>
+          <l part="N">Тверд как камень той в честности всяк час. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ежели не зрим Божья мы величья,</l>
+          <l part="N">Разна чудеси многого отличья</l>
+          <l part="N">И порядка в них пышна естества;</l>
+          <l part="N">Не узрим вовек мы и божества. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ах! когда б его мы не забывали,</l>
+          <l part="N">В добродетели б тверды пребывали:</l>
+          <l part="N">Ей в нас место есть, только корень слаб:</l>
+          <l part="N">Лютости страстей редкой в нас не раб. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Истина одна нас путем да водит!</l>
+          <l part="N">К трону в небеси ложь и не подходит.</l>
+          <l part="N">Ангели Царя держат тамо трон:</l>
+          <l part="N">Я погиб, когда мной погиб закон.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

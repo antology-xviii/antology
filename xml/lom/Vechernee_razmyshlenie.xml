@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Вечернее размышление о Божием Величестве по случаю великаго севернаго сияния</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т. 8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Вечернее размышление о Божием Величестве по случаю великаго севернаго сияния</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Краткое руководство к красноречию. Книга первая, в которой содержится риторика, показующая общие правила обоего красноречия, то есть оратории и поэзии. СПб.</publisher>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1743</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я4" rhyme="ababcc" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Лице свое скрывает день,</l>
+          <l part="N">Поля покрыла мрачна ночь,</l>
+          <l part="N">Взошла на горы чорна тень,</l>
+          <l part="N">Лучи от нас склонились прочь.</l>
+          <l part="N">Открылась бездна звезд полна;</l>
+          <l part="N">Звездам числа нет, бездне дна. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Песчинка как в морских волнах,</l>
+          <l part="N">Как мала искра в вечном льде,</l>
+          <l part="N">Как в сильном вихре тонкой прах,</l>
+          <l part="N">В свирепом как перо огне,</l>
+          <l part="N">Так я, в сей бездне углублен,</l>
+          <l part="N">Теряюсь, мысльми утомлен! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Уста премудрых нам гласят:</l>
+          <l part="N"><q>Там разных множество светов, <l part="N">Несчетны солнца там горят,</l><l part="N">Народы там и круг веков;</l><l part="N">Для общей славы божества</l><l part="N">Там равна сила естества</l></q>.<note resp="editor" place="unspecified" anchored="true">В этой строфе <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> полемизирует с представителями церкви, которые считали в его время, что гелиоцентрическое учение и связанное с ним представление о множественности обитаемых миров умаляют <quote>славу божества</quote>.</note> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но где ж, натура, твой закон?</l>
+          <l part="N">С полночных стран встает заря!</l>
+          <l part="N">Не солнцель ставит там свой трон?</l>
+          <l part="N">Не льдистыль мещут огнь моря?</l>
+          <l part="N">Се хладный пламень нас покрыл!</l>
+          <l part="N">Се в ночь на землю день вступил! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О вы, которых быстрый зрак</l>
+          <l part="N">Пронзает в книгу вечных прав,</l>
+          <l part="N">Которым малый вещи знак</l>
+          <l part="N">Являет естества устав,</l>
+          <l part="N">Вам путь известен всех планет;</l>
+          <l part="N">Скажите, что нас так мятет?<note resp="editor" place="unspecified" anchored="true">Обращение к ученым.</note> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что зыблет ясный ночью лучь?</l>
+          <l part="N">Что тонкий пламень в твердь разит?</l>
+          <l part="N">Как молния без грозных туч</l>
+          <l part="N">Стремится от земли в зенит?</l>
+          <l part="N">Как может быть, чтоб мерзлый пар</l>
+          <l part="N">Среди зимы рождал пожар? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Там спорит жирна мгла с водой;</l>
+          <l part="N">Иль солнечны лучи блестят,</l>
+          <l part="N">Склонясь сквозь воздух к нам густой;</l>
+          <l part="N">Иль тучных гор верьхи горят;</l>
+          <l part="N">Иль в море дуть престал зефир,</l>
+          <l part="N">И гладки волны бьют в ефир.<note resp="editor" place="unspecified" anchored="true">Эту строфу и имел в виду <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name>, когда говорил в <date>1753</date> г. о своем приоритете (см. выше).</note> </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сомнений полон ваш ответ</l>
+          <l part="N">О том, что окрест ближних мест.</l>
+          <l part="N">Скажитеж, коль пространен свет?</l>
+          <l part="N">И что малейших дале звезд?</l>
+          <l part="N">Несведом тварей вам конец?</l>
+          <l part="N">Скажитеж, коль велик <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="biblical"><tei:choice><tei:orig>Творец</tei:orig><tei:reg>Бог</tei:reg></tei:choice></tei:name>?     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

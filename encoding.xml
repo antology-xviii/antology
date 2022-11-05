@@ -1,0 +1,101 @@
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+<classDecl>
+  <taxonomy xml:id="kind">
+    <category xml:id="verse"><catDesc>лирика</catDesc></category>
+    <category xml:id="drama"><catDesc>драма</catDesc></category>
+    <category xml:id="prose"><catDesc>проза</catDesc></category>
+    <category xml:id="letters"><catDesc>письма</catDesc></category>
+    <category xml:id="memoirs"><catDesc>мемуары</catDesc></category>
+    <category xml:id="publicisticWriting"><catDesc>публицистика</catDesc></category>
+    <category xml:id="science"><catDesc>теоретические сочинения</catDesc></category>
+    <category xml:id="lecture"><catDesc>лекция</catDesc></category>
+  </taxonomy>
+  <taxonomy xml:id="genre">
+<category xml:id="anacreonticOde"><catDesc>Анакреонтическая ода</catDesc></category>
+<category xml:id="heroicOpera"><catDesc>Героическая опера</catDesc></category>
+<category xml:id="horatianOde"><catDesc>Горацианская ода</catDesc></category>
+<category xml:id="sacredOde"><catDesc>Духовная ода</catDesc></category>
+<category xml:id="conundrum"><catDesc>Загадка</catDesc></category>
+<category xml:id="idyll"><catDesc>Идиллия (эклога, пастораль)</catDesc></category>
+<category xml:id="cantata"><catDesc>Кантата</catDesc></category>
+<category xml:id="madrigal"><catDesc>Мадригал</catDesc></category>
+<category xml:id="inscription"><catDesc>Надпись</catDesc></category>
+<category xml:id="songCarol"><catDesc>Песня</catDesc></category>
+<category xml:id="rondeau"><catDesc>Рондо</catDesc></category>
+<category xml:id="satire"><catDesc>Сатира</catDesc></category>
+<category xml:id="sapphicOde"><catDesc>Сафическая ода</catDesc></category>
+<category xml:id="sonnet"><catDesc>Сонет</catDesc></category>
+<category xml:id="pindaricOde"><catDesc>Торжественная и похвальная (пиндарическая) ода</catDesc></category>
+<category xml:id="triolet"><catDesc>Триолет</catDesc></category>
+<category xml:id="elegy"><catDesc>Элегия</catDesc></category>
+<category xml:id="epigram"><catDesc>Эпиграмма</catDesc></category>
+<category xml:id="epistle"><catDesc>Эпистола (послание)</catDesc></category>
+<category xml:id="epitaph"><catDesc>Эпитафия</catDesc></category>
+<category xml:id="fable"><catDesc>Басня (притча)</catDesc></category>
+<category xml:id="burlesquePoem"><catDesc>Бурлескная поэма</catDesc></category>
+<category xml:id="ironical-comicPoem"><catDesc>Герои-комическая поэма</catDesc></category>
+<category xml:id="epic"><catDesc>Героическая поэма (эпопея)</catDesc></category>
+<category xml:id="shortStory"><catDesc>Новелла</catDesc></category>
+<category xml:id="narrative"><catDesc>Повесть</catDesc></category>
+<category xml:id="novel"><catDesc>Роман</catDesc></category>
+<category xml:id="fairyTale"><catDesc>Сказка</catDesc></category>
+<category xml:id="comedy"><catDesc>Комедия</catDesc></category>
+<category xml:id="comicOpera"><catDesc>Комическая опера</catDesc></category>
+<category xml:id="vulgarTragedy"><catDesc>Мещанская трагедия</catDesc></category>
+<category xml:id="genteelComedy"><catDesc>Слезная комедия</catDesc></category>
+<category xml:id="tragedy"><catDesc>Трагедия</catDesc></category>
+<category xml:id="treatise"><catDesc>Трактат</catDesc></category>
+<category xml:id="oration"><catDesc>Речь (слово)</catDesc></category>
+<category xml:id="article"><catDesc>Статья</catDesc></category>
+  </taxonomy>
+</classDecl>
+<metDecl type='met' pattern='((Х|Я|Д|Ам|Ан|Дк|Т|Пн(I|II|III|IV))([3-8]|Рз[3-8]*)|Рк|Гк|Эд|Пт)(ц.[ну].[12])?'>
+  <metSym value='Х'><term key="choreus">хорей</term></metSym>
+  <metSym value='Я'><term key="iamb">ямб</term></metSym>
+  <metSym value='Д'><term key="dactyl">дактиль</term></metSym>
+  <metSym value='Ам'><term key="amphibrach">амфибрахий</term></metSym>
+  <metSym value='Ан'><term key="anapaest">анапест</term></metSym>
+  <metSym value='Дк'><term key="dolnik">дольник</term></metSym>
+  <metSym value='T'><term key="tactovik">тактовик</term></metSym>
+  <metSym value='ПнI'><term key="paeon I">пеон I</term></metSym>
+  <metSym value='ПнII'><term key="paeon II">пеон II</term></metSym>
+  <metSym value='ПнIII'><term key="paeon III">пеон III</term></metSym>
+  <metSym value='ПнIV'><term key="paeon IV">пеон IV</term></metSym>
+  <metSym value='Рк'><term key="rayeshnik">раешник</term></metSym>
+  <metSym value='Гк'><term key="hexameter">гекзаметр</term></metSym>
+  <metSym value='Эд'><term key="elegiac couplet">элегический дистих</term></metSym>
+  <metSym value='Пт'><term key="pentameter">пентаметр</term></metSym>
+  <metSym value='3'><term key="three feet">трехстопный</term></metSym>
+  <metSym value='4'><term key="four feet">четырехстопный</term></metSym>
+  <metSym value='5'><term key="five feet">пятистопный</term></metSym>
+  <metSym value='6'><term key="six feet">шестистопный</term></metSym>
+  <metSym value='7'><term key="seven feet">семистопный</term></metSym>
+  <metSym value='8'><term key="eight feet">восьмистопный</term></metSym>
+  <metSym value='Рз'><term key="varying feet">разностопный</term></metSym>
+  <metSym value='ц.н.1'><term key="one syllable augment">с цезурным наращением на один слог</term></metSym>
+  <metSym value='ц.н.2'><term key="two syllable augment">с цезурным наращением на два слога</term></metSym>
+  <metSym value='ц.у.1'><term key="one syllable truncation">с цезурным усечением на один слог</term></metSym>
+  <metSym value='ц.у.2'><term key="two syllable truncation">с цезурным усечением на два слога</term></metSym>
+</metDecl>
+<metDecl type='rhyme' pattern="([abcdxABCDX]'?'?)+\.?">
+  <metSym value="a">рифмованный стих с мужским окончанием</metSym>
+  <metSym value="A">рифмованный стих с женским окончанием</metSym>
+  <metSym value="A'">рифмованный стих с дактилическим окончанием</metSym>
+  <metSym value="A''">рифмованный стих с гипердактилическим окончанием</metSym>
+  <metSym value="b">рифмованный стих с мужским окончанием</metSym>
+  <metSym value="B">рифмованный стих с женским окончанием</metSym>
+  <metSym value="b'">рифмованный стих с дактилическим окончанием</metSym>
+  <metSym value="B''">рифмованный стих с гипердактилическим окончанием</metSym>
+  <metSym value="c">рифмованный стих с мужским окончанием</metSym>
+  <metSym value="C">рифмованный стих с женским окончанием</metSym>
+  <metSym value="C'">рифмованный стих с дактилическим окончанием</metSym>
+  <metSym value="C''">рифмованный стих с гипердактилическим окончанием</metSym>
+  <metSym value="d">рифмованный стих с мужским окончанием</metSym>
+  <metSym value="D">рифмованный стих с женским окончанием</metSym>
+  <metSym value="D'">рифмованный стих с дактилическим окончанием</metSym>
+  <metSym value="D''">рифмованный стих с гипердактилическим окончанием</metSym>
+  <metSym value="x">нерифмованный стих с мужским окончанием</metSym>
+  <metSym value="X">нерифмованный стих с женским окончанием</metSym>
+  <metSym value="X'">нерифмованный стих с дактилическим окончанием</metSym>
+</metDecl>
+</encodingDesc>

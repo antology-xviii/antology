@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> РОНДО </title>
+        <author>          <persName>            <forename full="yes">Алексей</forename>             <forename type="patronym" full="yes">Андреевич</forename>             <surname full="yes">Ржевский</surname>           </persName>         </author>
+        <principal>Мария Карманова</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p/>
+          <p>© 2008 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты XVIII века</title>
+            <editor role="editor">Кочеткова Н.Д.,  Макогоненко Г.П.. Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title> Рондо</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полезное увеселение. No5</publisher>
+                <date>1761</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1761</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">порок</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AAbb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И всякий так живет, ты думаешь всечасно;</l>
+          <l part="N">Но худо извинять порок в себе пристрастно.</l>
+          <l part="N">Хотя бы утонул в пороках злых весь свет,</l>
+          <l part="N">Неправ и ты, хотя и всякий так живет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И всякий так живет, вещаешь ты напрасно;</l>
+          <l part="N">Тем извинять себя безумию причастно.</l>
+          <l part="N">Та мысль не облегчит, коль сердце совесть рвет:</l>
+          <l part="N">Один ли только я? - и всякий так живет.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И всякий так живет, о мнение ужасно!</l>
+          <l part="N">В объятия твои ввергать себя опасно.</l>
+          <l part="N">Сия жестока мысль в несчастье приведет,</l>
+          <l part="N">Как станем рассуждать: и всякий так живет.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

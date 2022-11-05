@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ода его высокопревосходительству Черноморского флота господину вице-адмиралу и орденов св. Александра Невского, св. князя Владимира первой степени и св. Анны кавалеру  <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Николаю Семеновичу Мордвинову</tei:orig><tei:reg>Мордвинов Н. С.</tei:reg></tei:choice></tei:name></title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Петрович</forename>             <surname full="yes">Петров</surname>             </persName>           </author>
+        <principal>Полина Офимкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2007 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Поэты ХVIII века. Т. 1</title>
+            <editor role="compiler">Г. П. Макогоненко, И. З. Серман</editor>
+            <editor role="editor">Н. Д. Кочеткова</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>Л.</pubPlace>
+            <date>1972</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ода его высокопревосходительству Черноморского флота господину вице-адмиралу и орденов св. Александра Невского, св. князя Владимира первой степени и св. Анны кавалеру <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Николаю Семеновичу Мордвинову</tei:orig><tei:reg>Мордвинов Н. С.</tei:reg></tei:choice></tei:name></title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Отдельное издание                   СПб.</publisher>
+                <date>1796</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1796</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="addressee" from="whole">Мордвинов Н. С.</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">добродетель</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мореплавание</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">мужество</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">общественный долг</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">подвиги военные</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">Россия</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз64643333" rhyme="AbAbCCdd" org="uniform" sample="complete" part="N">
+        <l part="N">Под небом дышим мы, чудясь его лазорю</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>И пестрости пресветлых звезд;</l>
+        <l part="N">Мы ходим по земле и плаваем по морю,</l>
+        <l part="N"><space dim="horizontal" extent="12 letters"/>Далече от природных гнезд;</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Со слабым бренным телом,</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Во духе гордо смелом</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>Пускаемся на вред</l>
+        <l part="N"><space dim="horizontal" extent="18 letters"/>И ищем оком бед. </l>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Среди огней и льдов, искатель тайн в натуре</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Многоопасный правит путь.</l>
+          <l part="N">Герой летит на брань, подобен шумной буре,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Под рок, под пушки ставит грудь;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Забыв о плоти тленной,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Противу стать вселенной,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Против тьмы тем врагов,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>За отчество готов. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">К отликам много стезь, и люди и стихии</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>На опыт ду́ши в нас зовут;</l>
+          <l part="N"><name type="place">Россия</name>, обща мать, для всех сынов <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>России</tei:orig><tei:reg>Россия</tei:reg></tei:choice></tei:name>,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Святой, величественный труд.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>То рвение любезно,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Что множеству полезно;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Такого сердца жар</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Есть смертным с неба дар. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что я вещаю, то поемлешь ты, <name type="person">Мордвинов</name>!</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>То голос мой, а мысль твоя.</l>
+          <l part="N">Дух делает, не плоть огромна, исполинов;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Дово́д ты истины сея.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Кто вступит в спор со мною,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Как солнцем, я тобою</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Снищу победы честь;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Мне стоит перст возвесть. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ты, крила распростря усердия широко,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Чтоб кинуть на множайших тень,</l>
+          <l part="N">Паришь, куда тех душ не досягает око,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Одебелила кои лень.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Твой подвиг безотдышен;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Лишь шум полета слышен,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И гений меж стремнин</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Сопутник твой един. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Любители доброт тебе под облаками</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Соплещут с дола тьмами рук;</l>
+          <l part="N">Лишь зависть, лютыми терзаема тосками,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Грызома целым адом мук,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Бросает остры стрелы</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>В подоблачны пределы</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И сыплет клевету,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Сразити налету; </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сразить тебя, и в прах твои рассыпать кости.</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Достоинств вечная судьба</l>
+          <l part="N">Противу черныя и ядовитой злости,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Противу клеветы борьба.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Но любо, как с змиею,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Обвит безвредно ею,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Летит орел когтист,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Глуша крыл шумом свист! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Гнетома пальма вниз, сквозь тяжесть крепня, спея,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Сильняе кверху восстает;</l>
+          <l part="N">И благородный конь, препоной свирепея,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Порывней по́скоки дает.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Чем ветер стиснут у́же,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Тем дует, злясь, упруже.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Биенье из кремня</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Рождает блеск огня. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так бодрственный твой дух, препятством раздражаясь,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Встает превыше сам себя;</l>
+          <l part="N">И зависти к тебе злой стре́лы приражаясь,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Родят лишь искры вкруг тебя.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Как злато по горниле</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Сияет в вящей силе -</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Твоей добро́ты цвет</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Ярчает от клевет. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Добра виновно зло! Но жало сколь ни больно,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Чем любит зависть лучших бость,</l>
+          <l part="N">Великосердия в груди твоей довольно</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Простить безропотно и злость.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Честного человека</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Свет чтит красою века;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Завидливых число -</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Необходимо зло. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не нами начат свет, не нами и свершится.</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Змий яд сосет, вран любит труп;</l>
+          <l part="N">О счастье ближнего завистливый крушится,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>К себе немилостив и груб.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>О! как он милый сохнет!</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Ах, сколько раз в день вздо́хнет!</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Полн желчи, ей не рад;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Зрак мутен, в сердце ад. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Жалея о таком друзей несовершенстве</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И заблуждении сердец,</l>
+          <l part="N">Ты смертных друг, ты рад всех видеть в благоденстве;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Чужи успехи твой венец.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Усердьем многокрылен,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Талантами обилен,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Красой и блеском их</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Любуешься в других. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И с тем тебе судьба власть многих поручила,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Чтобы пример твой им светил;</l>
+          <l part="N">Чтоб без грозы твоя их бдительность учила</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Трудиться, не жалея сил.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Чтобы на гордом флоте</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Все двигались чел в поте,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Как бдящи муравьи</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Иль шумны пчел рои. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сколь звезды неба свод, пестрея, украшают,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Столь сине море корабли:</l>
+          <l part="N">Они величие державы разглашают</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И безопасье суть земли.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Пернаты исполины</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Летают чрез пучины!</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Пустясь <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Невы</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name> с брегов,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Во <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Чесме</tei:orig><tei:reg>Чесма</tei:reg></tei:choice></tei:name> жгут врагов. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">О, грозны по валам блудящие планеты,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Где скрыт огнь злобе роковой!</l>
+          <l part="N">Из <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Буга</tei:orig><tei:reg>Буг</tei:reg></tei:choice></tei:name> вы свои днесь во́зьмете полеты;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Сравнится в славе <name type="place">Буг</name> с <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Невой</tei:orig><tei:reg>Нева</tei:reg></tei:choice></tei:name>.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Лишь змий на брань воспрянет,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>С <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Евксина</tei:orig><tei:reg>Черное море</tei:reg></tei:choice></tei:name> вдруг месть грянет;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Прольется в виде рек,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Он ляжет мертв навек. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Две сильные реки, со <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="place"><tei:choice><tei:orig>Бугом</tei:orig><tei:reg>Буг</tei:reg></tei:choice></tei:name> <name type="place">Днепр</name>, без шуму,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Струи в то ж озеро неся,</l>
+          <l part="N">И день и ночь ведут против дракона думу,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Героя в ону приглася;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И совещают трое</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Против него стать в строе:</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Герою предводить,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Рекам огнь с треском лить. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он станет рек среди, и глас его, глас грома,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Раздастся вдоль морских зыбей;</l>
+          <l part="N">Ударит та и та им в брань река ведома,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И заревет лиман огней.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>По дыме, шуме, треске,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Герой явится в блеске:</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Металл его копья</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Во челюстях змия! </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так! так! он мужествен; он выдержит надежду;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Царицы оправдает суд;</l>
+          <l part="N">И облечет друзей во радости одежду,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Себя во славу, зависть в студ.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Уж <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>музами</tei:orig><tei:reg>муза</tei:reg></tei:choice></tei:name> готовы</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Венки ему лавровы!</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Пророчит так <name type="mythologic">Парнас</name>,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И сбывчив божий глас. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но если змий, страшась готовых кар, утихнет</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И станет про себя шипеть,</l>
+          <l part="N">Герою должныя тем славы не улихнет;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И в мир под ним труд может спеть.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Как кормчий, долгу внемлющ,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Средь тишины не дремлющ,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Он будет запасать,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Чем бурь противу стать. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Во напряженьи мысль, на страже бдящи очи,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>С стрелой натянут лук в руке,</l>
+          <l part="N">Он будет назирать дракона дни и ночи,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Как <name type="mythologic">Феб</name>, стоящий вдалеке.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Сразить врага сил махом</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Или сковати страхом,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Чтоб яду не рыгал,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Есть равных дело хвал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Почтенно храбрым быть, и осторожным хвально,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И страхи отводить страша;</l>
+          <l part="N">Мысль зорка козни зрит на расстоянье дально;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Успеха в деле ум душа.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Кого сие светило</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Со неба посетило,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Всегда умреть решен;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Кто трус, не довершен. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Природный разум твой, твой нрав, твои науки,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Твоя к отечеству любовь,</l>
+          <l part="N"><name type="person">Мордвинов</name>! по тебе суть верные поруки,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Что вся твоя нам жертва кровь.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Героя дух прямаго</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Есть о́бщественно благо;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Достоинства его</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Честь племени всего. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так в добродетели души твоей прекрасной</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Есть часть, почтенный друг! и мне?</l>
+          <l part="N">И мне не заперт ты, как образ тверди ясной</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>И неги, сродныя весне.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Не обща в море служба,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Но дар небесный, дружба,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Творит, что есть твое,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Как собственно мое. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мое наследие - молва приятна о́на,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Котора о тебе, теча,</l>
+          <l part="N">Распространяется и паче лирна звона</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Пленяет сердце мне, звуча.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Мое наследье - всяки</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Твоя отлика, знаки:</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Красой твоих рамен</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Красуюсь я надмен. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Твоя, о друг! еще во цвете раннем младость,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Обильный обещая плод,</l>
+          <l part="N">Лила во мысли мне живу, предвестну радость:</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Ты будешь отчества оплот.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Свершение надежды</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Моими зря днесь вежды</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И славу сбытия,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Не возыграю ль я? </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Неси ко мне, весна, днесь розы и лилеи!</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Есть смертный, нравом схож с тобой;</l>
+          <l part="N">Невинной радости уважь, о <name type="mythologic">Феб</name>! затеи;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Приди, мой праздник скрась собой.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Приди венчать, в ком, муже,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Я вижу кротость ту же,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Что отрок он казал,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Что сердцем я лобзал. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он отрок и теперь; он искренен, невинен;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Науки любит он, как ты.</l>
+          <l part="N">Не бог, но краткий век умеет сделать длинен</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Трудом и славой правоты.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Мудр, участью доволен;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>К несчастным сердоболен,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И подавати скор</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Им помощь и призор. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Полезным быть - его желания всечасны;</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Сон малый, трезвенна глава;</l>
+          <l part="N">Чело его и взгляд с душой его согласны,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>С сердечным чувствием слова.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Во сердце одинаков,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>В лице не носит знаков,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Какие кажет ложь, -</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>То зеркало всё то ж. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Катясь беседна речь лишь важному коснется,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>В нем жарка закипит душа,</l>
+          <l part="N">И просвещенна вмиг чувствительность проснется,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Наружу изнестись спеша.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Вмиг мысли благородны</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Через уста свободны,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Сердечну жару вслед,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Польются, яко мед; </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">И слухи усладят; поставят дух в покое.</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Не ищет истина прикрас,</l>
+          <l part="N">Но слышится сильняй в устах вития вдвое,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Чей был не предустроен глас.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Он вдруг ее отрыгнул,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И слушающих двигнул</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Единой простотой</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>И сердца теплотой. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Коль истинно когда друг друга смертны любят,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Душами сладкий не́ктар пьют,</l>
+          <l part="N">И существо свое чрез дружество сугубят,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Из сердца в сердце чувства льют.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Расширь мне, <name type="mythologic">Феб</name>, дух тесный,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Прославить дар небесный;</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Направь мою гортань</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Воздати дружбе дань. </l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Так! дружба дар небес, мне тако <name type="mythologic">Феб</name> вещает,</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Та грудь с биеньем жил мертва,</l>
+          <l part="N">Которая в себе сих искр не ощущает:</l>
+          <l part="N"><space dim="horizontal" extent="12 letters"/>Жизнь смертных дружбою жива.</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Твой друг глас сердца внимет,</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>С природной лаской примет</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>Твоих сложенье строк</l>
+          <l part="N"><space dim="horizontal" extent="18 letters"/>За дружества венок.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

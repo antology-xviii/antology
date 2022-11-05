@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Из 121 псалма. Колико счастлив человек </title>
+        <author>          <persName>            <forename full="yes">Александр</forename>             <forename type="patronym" full="yes">Петрович </forename>             <surname full="yes">Сумароков</surname>             </persName>           </author>
+        <principal>Ксения Оверина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title level="a"> Из 121 псалма. Колико счастлив человек</title>
+            <title level="m" type="main">Полное собрание всех        сочинений, в стихах и прозе, покойного действительного статского        советника, Ордена св. Анны кавалера и Лейпцигского ученого собрания        члена, Александра Петровича Сумарокова.         </title>
+            <title level="m" type="subordinate"> Ч. 1. Преложения псалмов. Кн. 18.</title>
+            <respStmt>
+              <tei:resp xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">        Собраны и изданы в         удовольствие любителей российской учености         </tei:resp>
+              <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person">
+                <tei:choice>
+                  <tei:orig>Николаем Новиковым, членом         Вольного российского собрания при Императорском Московском         университете.         </tei:orig>
+                  <tei:reg>Н. Новиков</tei:reg>
+                </tei:choice>
+              </tei:name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Университетская типография</publisher>
+            <pubPlace>Москва</pubPlace>
+            <date>1787</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1787</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">величие Бога</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">свобода</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="Астрофич. б. с." org="uniform" sample="complete" part="N">
+        <opener>
+          <emph>Возвеселихся о рекших мне:</emph>
+        </opener>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Колико счастлив человек,</l>
+        <l part="N">Отечество свое из плена зря исшедше!</l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>И как тогда он весел,</l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>Когда ему рекут,</l>
+        <l part="N"><space dim="horizontal" extent="13 letters"/>Во храм мы Божий внидем,</l>
+        <l part="N">Избавлен город наш иноплеменной силы;</l>
+        <l part="N">Не их подвержены мы более суду,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Подсудны нашим мы гражданам,</l>
+        <l part="N"><space dim="horizontal" extent="5 letters"/>Свободны мы и вышли из неволи,</l>
+        <l part="N"><space dim="horizontal" extent="8 letters"/>Град паки наш устроен,</l>
+        <l part="N">И стены больше нас не в узах окружают!</l>
+        <l part="N">Благословен Господь вовеки нами буди,</l>
+        <l part="N">И будьте города благословенны люди!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

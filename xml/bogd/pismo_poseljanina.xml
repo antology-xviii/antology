@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Письмо поселянина к военачальнику</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Письмо поселянина к военачальнику</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>И.Ф. Богданович. Сочинения, чч. 1-3. М., 1809-1810</publisher>
+                <date>1789(?)</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">труд</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">(русско-турецкая) война</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">служба</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">поборы</tei:span>
+    <body xml:id="whole">
+      <div met="Я6" rhyme="AaAaAa BcBcDaDa DcDcCbCbCb CcCcBaBa AcAcDdDd BaBaCbCb CaCaBdBd DcDcAhAh CbCb." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Мой друг! не удивись, что в пахотной работе,</l>
+          <l part="N">Без светских пышностей, без славы, без чинов,</l>
+          <l part="N">Питая свой живот в смирении и в поте,</l>
+          <l part="N">И несколько минут покоясь от трудов,</l>
+          <l part="N">По неким чувствиям и некакой охоте,</l>
+          <l part="N">Отважился писать я несколько стихов.</l>
+          <l part="N">Не удивись, когда в усталости над плугом,</l>
+          <l part="N">Не зная, как тебя назвать и отличать,</l>
+          <l part="N">В мужицкой простоте зову тебя я другом,</l>
+          <l part="N">Чтоб трудным вымыслом тебя не величать.</l>
+          <l part="N">Мой друг! я ведаю, хоть носишь платье цветно,</l>
+          <l part="N">Хоть золотом обшит от головы до ног,</l>
+          <l part="N">Хоть счастие твое другим всегда приметно,</l>
+          <l part="N">Ты редко с лаврами покоиться возмог.</l>
+          <l part="N">И может быть, что я, в миру с моим соседом,</l>
+          <l part="N">Большею частию трудяся для себя,</l>
+          <l part="N">Спокоен спать ложась, доволен за обедом,</l>
+          <l part="N">Почасту нахожусь счастливее тебя;</l>
+          <l part="N">В сей участи меня никто не обижает;</l>
+          <l part="N">И зависть самая молчит, узря мой труд;</l>
+          <l part="N">Никто меня, мой друг, никто не унижает,</l>
+          <l part="N">По воле ль дань плачу или с меня берут,</l>
+          <l part="N">Всегда моя рука другого снабдевает,</l>
+          <l part="N">И люди обо мне напрасного не врут.</l>
+          <l part="N">Я дал оброк и всё, и подать государю,</l>
+          <l part="N">Я дал и рекрута и к рекруту коня;</l>
+          <l part="N">И в доме я теперь покойно репу парю,</l>
+          <l part="N">Хоть знаю, что еще попросят от меня.</l>
+          <l part="N">Ты знаешь, что мой сын в войне два года служит</l>
+          <l part="N">И ходит, говорят, с простреленной ногой;</l>
+          <l part="N">Однако с турками воюет и не тужит,</l>
+          <l part="N">Пока безногого не пошлют на покой.</l>
+          <l part="N">Солдатски хлопоты, оброк и подать вдвое</l>
+          <l part="N">Не разоряют нас при добрых головах;</l>
+          <l part="N">Кони и рекруты - то дело нажитое,</l>
+          <l part="N">Удалые у нас ребята есть в домах.</l>
+          <l part="N">Готовы мы служить за правду и за веру,</l>
+          <l part="N">И, буде нужно, то готовы умереть.</l>
+          <l part="N">Ты, друг мой, служишь сам по нашему примеру,</l>
+          <l part="N">Случается и всем грудьми рожон переть,</l>
+          <l part="N">Иным пришло в живот, иным досталось в руку,</l>
+          <l part="N">У Марки сватьина отшибли ногу прочь,</l>
+          <l part="N">Гараськиным зятьям, племяннику и внуку</l>
+          <l part="N">Стесали головы, зашедши сзади в ночь.</l>
+          <l part="N">И сам ты близко был, как шли на нас татары,</l>
+          <l part="N">И сам ты жар терпел от ядер и от пуль;</l>
+          <l part="N">И если б не имел фузей запасной пары,</l>
+          <l part="N">Подчас отведал бы и сам свинцовых дуль.</l>
+          <l part="N">Солдатам страха нет и нет о том печали,</l>
+          <l part="N">Что турков к ним идет великое число,</l>
+          <l part="N">От смерти не бежим, от драки не устали, -</l>
+          <l part="N">Такое, брат, у всех военно ремесло.</l>
+          <l part="N">Да только я скажу тебе одно по дружбе,</l>
+          <l part="N">Коли смышлять о том тебе досуга нет:</l>
+          <l part="N">Мой ум не помрачен заботами на службе;</l>
+          <l part="N">Я, сидя на печи, спокойней вижу свет,</l>
+          <l part="N">Смышляю иногда, что много ты потеешь,</l>
+          <l part="N">Но нет тебе, мой друг, покоя никогда;</l>
+          <l part="N">Ты грамоте горазд и дело разумеешь,</l>
+          <l part="N">Почто ж о мире ты не пишешь никуда?</l>
+          <l part="N">Не всё-то дракою, не всё творится боем:</l>
+          <l part="N">Имеешь разум ты, и слово, и язык;</l>
+          <l part="N">Не всё-то города берутся крепким строем,</l>
+          <l part="N">Не всё-то меж людьми по силе ты велик.</l>
+          <l part="N">Почто не пишешь ты к турецкому султану</l>
+          <l part="N">Примерно так, мой друг, как я к тебе пишу?</l>
+          <l part="N">Подмогою тебе вперед служить я стану</l>
+          <l part="N">И здравия тебе у Господа прошу.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

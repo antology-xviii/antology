@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Размышление</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Никитич</forename>             <surname full="yes">Муравьев</surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. Н. Муравьев. Стихотворения</title>
+            <editor role="editor">Л. И. Кулакова </editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная                 библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1967</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Размышление</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Полное собрание сочинений Михаила Никитича Муравьева. Ч. 1. СПб.</publisher>
+                <date>1819</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>?</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">тщеславие</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme=" Астрофич. в.р." org="uniform" sample="complete" part="N">
+        <l part="N">Сиянье внешнее отличий и честей,</l>
+        <l part="N">Души тщеславной пища,</l>
+        <l part="N">Благополучия не доставляют ей,</l>
+        <l part="N">Коль нет внутри ее спокойствию жилища.</l>
+        <l part="N">Для добрыя, незлобивой души</l>
+        <l part="N">Минуты счастия текут во всяко время;</l>
+        <l part="N">Не вне, а в нас самих и бед и счастья семя,</l>
+        <l part="N">И дни прекрасные лишь нами хороши.</l>
+        <l part="N">Сие отверстое пространство ясна неба,</l>
+        <l part="N">В котором плавают прозрачны облака,</l>
+        <l part="N">Озлащены лучом вечерня <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="mythologic"><tei:choice><tei:orig>Феба</tei:orig><tei:reg>Феб </tei:reg></tei:choice></tei:name>;</l>
+        <l part="N">Сия кристальная, покоящась река,</l>
+        <l part="N">Сии кустарники, ее что осеняют,</l>
+        <l part="N">И словом, все черты и тон картины сей</l>
+        <l part="N">Тогда лишь нас пленяют,</l>
+        <l part="N">Когда мы счастие храним в душе своей.  </l>
+      </div>
+    </body>
+  </text>
+</TEI>

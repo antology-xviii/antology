@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Умирающий отец </title>
+        <author>          <persName>            <forename full="yes">Иван </forename>             <forename type="patronym" full="yes">Иванович </forename>             <surname full="yes">Хемницер </surname>             </persName>           </author>
+        <principal>Елена Гречкина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title> И. И. Хемницер. Полное собрание стихотворений</title>
+            <editor role="editor">Л. Е. Боброва, В. Э. Вацуро</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Умирающий отец</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Басни и сказки N...N...                   СПб.</publisher>
+                <date>1779</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date> неизвестно</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">глупость и ум</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">отношения родителей и детей</tei:span>
+    <body xml:id="whole">
+      <div met="ЯВ" rhyme="астрофич. в.р." org="uniform" sample="complete" part="N">
+        <l part="N"> <space dim="horizontal" extent="16 letters"/>Был <name type="character">отец</name>,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>И были у него два <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> сына</tei:orig><tei:reg>сын</tei:reg></tei:choice></tei:name>:</l>
+        <l part="N"> Один <name type="character"> сын</name> был умен, другой <name type="character"> сын</name> был глупец.</l>
+        <l part="N"> <space dim="horizontal" extent="16 letters"/>Отцова настает кончина;</l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>И, видя свой конец,</l>
+        <l part="N"> <space dim="horizontal" extent="20 letters"/><name type="character">Отец</name></l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/>Тревожится, скучает,</l>
+        <l part="N"> Что <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> сына</tei:orig><tei:reg>сын</tei:reg></tei:choice></tei:name> умного на свете покидает,</l>
+        <l part="N"> <space dim="horizontal" extent="4 letters"/>А будущей его судьбы не знает,</l>
+        <l part="N"> И говорит ему: <q>Ах! <name type="character">сын</name> любезный мой, <l part="N"> <space dim="horizontal" extent="20 letters"/>С какой</l><l part="N"> <space dim="horizontal" extent="20 letters"/>Тоской</l><l part="N"> <space dim="horizontal" extent="12 letters"/>Я расстаюсь с тобой,</l><l part="N"> Что умным я тебя на свете покидаю!</l><l part="N"> <space dim="horizontal" extent="8 letters"/>И как ты проживешь, не знаю. </l><l part="N"> Послушай, - продолжал, - тебя я одного</l><l part="N"> Наследником всего именья оставляю,</l><l part="N"> <space dim="horizontal" extent="12 letters"/>А брата твоего</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Я от наследства отрешаю:</l><l part="N"> <space dim="horizontal" extent="8 letters"/>Оно не нужно для него</l></q>.</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/><name type="character">Сын</name> усумнился и не знает,</l>
+        <l part="N"> <space dim="horizontal" extent="8 letters"/>Как речь отцову рассудить;</l>
+        <l part="N"> Но наконец <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="character"><tei:choice><tei:orig> отцу</tei:orig><tei:reg>отец</tei:reg></tei:choice></tei:name> о брате представляет:</l>
+        <l part="N"> <space dim="horizontal" extent="12 letters"/><q>А брату чем же жить, <l part="N"> <space dim="horizontal" extent="8 letters"/>Когда мне одному в наследство,</l><l part="N"> С его обидою, именье получить?</l></q></l>
+        <l part="N"> - <q>О брате нечего, - сказал <name type="character"> отец</name>, - тужить: <l part="N"> <space dim="horizontal" extent="8 letters"/>Дурак уж верно сыщет средство <space dim="horizontal" extent="12 letters"/>Счастливым в свете быть</l></q>.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Стихи на дружбу</title>
+        <author>          <persName>            <forename full="yes">Ипполит</forename>             <forename type="patronym" full="yes">Федорович</forename>             <surname full="yes">Богданович</surname>           </persName>         </author>
+        <principal>Ольга Рощина</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Богданович И. Ф. Стихотворения и поэмы.</title>
+            <editor role="editor">Серман И.З.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>&lt;&lt;Советский писатель&gt;&gt;</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://rvb.ru">Русская виртуальная библиотека</tei:ref>
+            </distributor>
+            <pubPlace>Л.</pubPlace>
+            <date>1957</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Стихи на дружбу</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Лира, или Собрание разных в стихах сочинений и переводов некоторого муз любителя</publisher>
+                <date>1773</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">дружба</tei:span>
+    <body xml:id="whole">
+      <div met="ЯРз" rhyme="aBaBccCaaCaaCC." org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Без дружбы человек себя особо зрит,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Пустыннику подобен,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Который жизнь влачит,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>К утехам неспособен;  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Но дружбою свое  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Мы множим бытие.  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>О дружба, дар небесный!</l>
+          <l part="N">Тобою счастливы на свете мы,  </l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Тобою кроткие умы</l>
+          <l part="N">Чувствительных сердец союз узнали тесный.</l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Тишайшее пристанище души,</l>
+          <l part="N">О дружба! наконец ты стих мой доверши,</l>
+          <l part="N"><space dim="horizontal" extent="8 letters"/>И будь толико в нем любезна,</l>
+          <l part="N"><space dim="horizontal" extent="14 letters"/>Колико ты полезна.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

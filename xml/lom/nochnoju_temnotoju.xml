@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ночною темнотою...</title>
+        <author>          <persName>            <forename full="yes">Михаил</forename>             <forename type="patronym" full="yes">Васильевич</forename>             <surname full="yes">Ломоносов</surname>             </persName>           </author>
+        <principal>Елена Головченко</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2011 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII           века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>М. В. Ломоносов. Полное собрание сочинений. Т.8. Поэзия. Ораторская проза. Надписи. 1732-1764 гг.</title>
+            <editor role="editor">Виноградов В. В., Андреев А. И., Блок Г. П.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Издательство Академии наук СССР</publisher>
+            <distributor>
+              <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" target="http://feb-web.ru">ФЭБ: Фундаментальная электронная библиотека "Русская литература и фольклор"</tei:ref>
+            </distributor>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1959</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Ночною темнотою...</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Ломоносов М. Краткое руководство к красноречию. Книга первая, в которой содержится риторика, показующая общие правила обоего красноречия, то есть оратории и поэзии. СПб.</publisher>
+                <date>1748</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1747</date>         </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:id="whole">
+      <div met="Я3" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Ночною темнотою</l>
+          <l part="N">Покрылись небеса,</l>
+          <l part="N">Все люди для покою</l>
+          <l part="N">Сомкнули уж глаза.</l>
+          <l part="N">Внезапно постучался</l>
+          <l part="N">У двери <name type="mythologic">Купидон</name>,</l>
+          <l part="N">Приятной перервался</l>
+          <l part="N">В начале самом сон.</l>
+          <l part="N"><q>Кто так стучится смело?</q> -</l>
+          <l part="N">Со гневом я вскричал;</l>
+          <l part="N"><q>Согрей обмерзло тело,</q> -</l>
+          <l part="N">Сквозь дверь он отвечал, -</l>
+          <l part="N"><q>Чего ты устрашился? <l part="N">Я - мальчик, чуть дышу,</l><l part="N">Я ночью заблудился,</l><l part="N">Обмок и весь дрожу</l></q>.</l>
+          <l part="N">Тогда мне жалко стало,</l>
+          <l part="N">Я свечку засветил,</l>
+          <l part="N">Немедливши ни мало</l>
+          <l part="N">К себе его пустил.</l>
+          <l part="N">Увидел, что крилами</l>
+          <l part="N">Он машет за спиной.</l>
+          <l part="N">Колчан набит стрелами,</l>
+          <l part="N">Лук стянут тетивой.</l>
+          <l part="N">Жалея о нещастье,</l>
+          <l part="N">Огонь я разложил</l>
+          <l part="N">И при таком ненастье</l>
+          <l part="N">К камину посадил.</l>
+          <l part="N">Я теплыми руками</l>
+          <l part="N">Холодны руки мял,</l>
+          <l part="N">Я крылья и с кудрями</l>
+          <l part="N">До суха выжимал.</l>
+          <l part="N">Он чуть лиш ободрился:</l>
+          <l part="N"><q>Каков-то</q>, - молвил, - <q>лук? <l part="N">В дожже, чать, повредился</l></q>.</l>
+          <l part="N">И с словом стрелил вдруг.</l>
+          <l part="N">Тут грудь мою пронзила</l>
+          <l part="N">Преострая стрела</l>
+          <l part="N">И сильно уязвила,</l>
+          <l part="N">Как злобная пчела.</l>
+          <l part="N">Он громко засмеялся</l>
+          <l part="N">И тот час заплясал:</l>
+          <l part="N"><q>Чего ты испугался?</q> -</l>
+          <l part="N">С насмешкою сказал, -</l>
+          <l part="N"><q>Мой лук еще годится. <l part="N">И цел и с тетивой;</l><l part="N">Ты будешь век крушиться</l><l part="N">Отнынь, хозяин мой</l></q>.<note resp="editor" place="unspecified" anchored="true">Т. VII наст. изд., стр. 366- 368, № 309. Анакреонтические стихотворения, 33 (31). <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносов</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> чрезвычайно искусно воспроизвел напевный характер оригинала, создаваемый совпадением четкого ритмического членения с синтаксическим членением текста. Перевод в общем точен; в начальных строках устранено описательное обозначение поздней ночной поры (<quote>когда Медведица поворачивается к руке Боота</quote>), которое в переводе выпадало бы из простого и непринужденного стиля стихотворения. <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Н. Г. Курганов</tei:orig><tei:reg>Курганов Н. Г.</tei:reg></tei:choice></tei:name> перепечатал этот перевод <tei:name xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="person"><tei:choice><tei:orig>Ломоносова</tei:orig><tei:reg>Ломоносов М. В.</tei:reg></tei:choice></tei:name> в своем <bibl default="false"><title><tei:choice xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><tei:orig>Письмовнике</tei:orig><tei:reg>Письмовник</tei:reg></tei:choice></title></bibl> (Кург., стр. 320).</note>     </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

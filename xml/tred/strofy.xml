@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Строфы похвальные поселянскому житию</title>
+        <author>          <persName>            <forename full="yes">Василий</forename>             <forename type="patronym" full="yes">Кириллович</forename>             <surname full="yes">Тредиаковский</surname>           </persName>         </author>
+        <principal>Александр, Новиков</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>ИФИ, семинар "Русский XVIII век"</publisher>
+        <availability status="free">
+          <p>© 2012 ИФИ</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Электронная антология "Русская литература XVIII века"</title>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <biblFull default="false">
+          <titleStmt>
+            <title>Тредиаковский В. К. Избранные произведения</title>
+            <editor role="editor">Тимофеев Л. И.</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Советский писатель</publisher>
+            <pubPlace>М.-Л.</pubPlace>
+            <date>1963</date>
+          </publicationStmt>
+          <sourceDesc default="false">
+            <biblFull default="false">
+              <titleStmt>
+                <title>Строфы похвальные поселянскому житию</title>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>Сочинения и переводы как стихами так и прозою Василья Тредиаковского. СПб.</publisher>
+                <date>1752</date>
+              </publicationStmt>
+            </biblFull>
+          </sourceDesc>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="encoding.xml"/>
+    <tei:profileDesc xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <creation>        <date>1752</date>       </creation>
+      <textClass default="false">
+        <catRef target="#verse" scheme="kind"/>
+      </textClass>
+    </tei:profileDesc>
+  </teiHeader>
+  <text>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">природа</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">сельская жизнь</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">счастье</tei:span>
+    <tei:span xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" type="theme" from="whole">смысл жизни</tei:span>
+    <body xml:id="whole">
+      <div met="Х5" rhyme="AbAb" org="uniform" sample="complete" part="N">
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Счастлив! в мире без сует живущий,</l>
+          <l part="N">Как в златый век, да и без врагов;</l>
+          <l part="N">Плугом отчески поля орющий,</l>
+          <l part="N">А к тому ж без всяких и долгов.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Не торопится сей в строй по барабану;</l>
+          <l part="N">Флот и море не страшат его;</l>
+          <l part="N">Ябед он не знает, ни обману;<note resp="editor" place="unspecified" anchored="true"><quote>Ябед он не знает, ни обману</quote> - т. е. не знает сутяжничества, хождения по судам и приказам. (У Горация речь идет о форуме, площади в древнем Риме, центре политической жизни.)</note></l>
+          <l part="N">Свой палат дом лучше для него.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В нем всегда или он виноградны</l>
+          <l part="N">Вяжет лозы к тычкам и шестам;</l>
+          <l part="N">В дни гуляет, те когда изрядны,</l>
+          <l part="N">По долинам, либо по стадам.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Он в иной серпом день очищает</l>
+          <l part="N">Ветви все негодные с дерев,</l>
+          <l part="N">Добрый к оным черен прививает;</l>
+          <l part="N">Смотрит, в хлебе нет ли вредных плев.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Либо мед и сот кладет сам в кади,</l>
+          <l part="N">В ночь или бывает рыб ловец;</l>
+          <l part="N">Сам же иногда, волны в дом ради,</l>
+          <l part="N">Всех обросших он стрижет овец.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Осень как плодом обогатится,</l>
+          <l part="N">Много яблок, груш и много слив;</l>
+          <l part="N">О! как полным сердцем веселится,</l>
+          <l part="N">Их величину, их зря налив.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Что тогда из всех плодов зреляе,</l>
+          <l part="N">Отбирает разно по частям:</l>
+          <l part="N">То шлет в храм к молитве, что честняе;</l>
+          <l part="N">Приходящим часть хранит гостям.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Часть в подарок сродникам, часть брату;</l>
+          <l part="N">Благодетель ту б взял, говорит;</l>
+          <l part="N">Ту несите куму; ту часть свату;</l>
+          <l part="N">Пусть за ту мне друг благодарит.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Иногда лежит под старым дубом,</l>
+          <l part="N">Иногда на мягкой там траве,</l>
+          <l part="N">Нет в нем скверных мыслей зле о грубом:</l>
+          <l part="N">Что есть дельно, то всё в голове.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Быстрые текут между тем речки;</l>
+          <l part="N">Сладко птички по лесам поют;</l>
+          <l part="N">Трубят звонко пастухи в рожечки;</l>
+          <l part="N">С гор ключи струю гремящу льют.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Толь при разном диком сельском шуме</l>
+          <l part="N">Ненадолго спит вздремавши он;</l>
+          <l part="N">Что ни было доброго на думе,</l>
+          <l part="N">Забывает всё в глубокий сон.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Но зимою нападут как снеги</l>
+          <l part="N">И от стужи избы станут греть,</l>
+          <l part="N">Много и тогда ему там неги:</l>
+          <l part="N">Начнет род другой забав иметь.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">В поле ездит он или с собаки<note resp="editor" place="unspecified" anchored="true"><quote>С собаки</quote> - с собаками.</note>,</l>
+          <l part="N">Боязливых зайцев в сеть ловя;</l>
+          <l part="N">То с волками смотрит псовы драки,</l>
+          <l part="N">То медведя оными травя.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тешит он себя и лошадями;</l>
+          <l part="N">И кладет отраву на лисиц;</l>
+          <l part="N">Давит многих иногда силками,</l>
+          <l part="N">Иногда стреляет разных птиц.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Часто днями ходит при овине,</l>
+          <l part="N">При скирдах, то инде, то при льне;</l>
+          <l part="N">То пролазов смотрит нет ли в тыне,</l>
+          <l part="N">И что делается на гумне.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Кто ж бы толь в приятной сей забаве</l>
+          <l part="N">Всех своих печалей не забыл?</l>
+          <l part="N">Хоть в каких бы кто честях и славе,</l>
+          <l part="N">Как сея б он жизни не взлюбил?</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Буде ж правит весь толь постоянна</l>
+          <l part="N">Дом жена благословенный с ним,</l>
+          <l part="N"><name type="biblical">Сарра</name> коль была или <name type="biblical">Сусанна</name><note resp="editor" place="unspecified" anchored="true"><quote>Сарра? или Сусанна</quote> - библейские образы женщин, отличавшихся достоинством, простотою, добродетелью и примерной супружеской верностью.</note>,-</l>
+          <l part="N">То спокойства нет сравненна с сим. <note resp="editor" place="unspecified" anchored="true"><quote>Спокойства нет сравненна с ним</quote> - никакое благоденствие не может сравниться с этим.</note></l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Весь некупленный обед готовит,</l>
+          <l part="N">Смотрит, пища чтоб вкусна была,</l>
+          <l part="N">Из живых птиц на жаркое ловит,</l>
+          <l part="N">И другое строит для стола.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">А потом светлицу убирает</l>
+          <l part="N">К мужнему приходу с дел его;</l>
+          <l part="N">Накормивши деток, наряжает,</l>
+          <l part="N">Встретить с ними б мужа своего.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Тот пришед в дом кушать, и садится</l>
+          <l part="N">За накрытый, набранный свой стол:</l>
+          <l part="N">Что ж порядочно у ней все зрится,</l>
+          <l part="N">То причины нет, чтоб был он зол.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Каплуны прочь, птицы африкански,</l>
+          <l part="N">Что и изобрел роскошный смак,</l>
+          <l part="N">Прочь бургонски вина и шампански,</l>
+          <l part="N">Дале прочь и ты, густой понтак.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Сытны токмо щи, ломть мягкий хлеба,</l>
+          <l part="N">Молодой барашек иногда;</l>
+          <l part="N">Все ж в дому, в чем вся его потреба,</l>
+          <l part="N">В праздник пиво пьет, а квас всегда.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Насыщаясь кушаньем природным,</l>
+          <l part="N">Все здорово провождает дни;</l>
+          <l part="N">Дел от добрых токмо благородным,</l>
+          <l part="N">Не от платья и не от гульни.</l>
+        </lg>
+        <lg type="stanza" org="uniform" sample="complete" part="N">
+          <l part="N">Счастлив, о! весьма излишно,</l>
+          <l part="N">Жить кому так ныне удалось.</l>
+          <l part="N">Дай бог! чтоб исчезло все, что пышно,</l>
+          <l part="N">Всем бы в простоте святой жилось,</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
